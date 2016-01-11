@@ -30,6 +30,12 @@ public class Board {
     boardMatrix.get(row).set(column, move.getTile());
   }
   
+  /**
+   * Returns the Tile located at the given row and column.
+   * @param row A row number of the board.
+   * @param column A column number of the board.
+   * @return the Tile located at the given row and column.
+   */
   public Tile get(int row, int column) {
     return boardMatrix.get(row).get(column);
   }
@@ -109,7 +115,6 @@ public class Board {
       result.get(0).add(92);
       result.get(1).add(90);
       result.get(1).add(92);
-      System.out.println("DINKIE");
     }
     result.get(0).add(rowMin);
     result.get(0).add(rowMax);
@@ -144,31 +149,45 @@ public class Board {
     int rowMax = marges.get(0).get(1);
     int columnMin = marges.get(1).get(0);
     int columnMax = marges.get(1).get(1);
-    result = "XX ";
-    for (int column = columnMin; column <= columnMax; column++) {
-      if ((column - columnMin) > 9) {
-        result = result + (column - columnMin) + " ";
+    result = "XXX ";
+    // This part creates the top row of column numbers
+    for (int column = columnMin; column <= columnMax; column++) { 
+      if (column > 9) {
+        result = result + (column) + "  ";
+      } else if (column > 99) {
+        result = result + (column) + " ";
       } else {
-        result = result + (column - columnMin) + "  ";
+        result = result + (column) + "  ";
       }
     }
     result = result + "\n";
     for (int row = rowMin; row <= rowMax; row++) {
-      if ((row - rowMin) > 9) {
-        result = result + (row - rowMin) + " ";
+      if (row > 9) {
+        result = result + (row) + "  ";
+      } else if (row > 99) {
+        result = result + (row) + " ";
       } else {
-        result = result + (row - rowMin) + "  ";
+        result = result + (row) + "   ";
       }
       for (int column = columnMin; column <= columnMax; column++) {
-        result = result + boardMatrix.get(row).get(column).toString() + " ";
+        result = result + boardMatrix.get(row).get(column).toString() + "  ";
       }
       result = result + "\n";
     }
     return result;
   }
   
-  public Boolean checkMove(Move move) {
-    
+  /**
+   * Checks if the current move is a correct move according to the game rules.
+   * @param move The move that needs to be checked.
+   * @return True or false weather the move is a correct move or not.
+   */
+  public Boolean checkMove(Move move) { // WORK IN PROGRESS \\
+    Boolean gotVerticalRow;
+    Boolean gotHorizontalRow;
+    String empty = ". ";
+    gotVerticalRow = !get(move.getRow() - 1, move.getColumn()).toString().equals(empty) 
+        || !get(move.getRow() + 1, move.getColumn()).toString().equals(empty);
     return true;
   }
   
@@ -189,5 +208,4 @@ public class Board {
     board.put(move3);
     System.out.print(board.toString());
   }
-  
 }
