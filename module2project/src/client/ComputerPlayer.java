@@ -12,7 +12,7 @@ public class ComputerPlayer extends Player {
     this.strategy = strategy;
   }
 
-  public Map<int[], String> determineMove() {
-    return strategy.determineMove();
+  public Map<int[], String> determineMove(Board board) {
+    return strategy.determineMove(board);
   }
 }
