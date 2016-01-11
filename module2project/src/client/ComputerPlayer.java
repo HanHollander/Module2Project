@@ -2,6 +2,8 @@ package client;
 
 import java.util.Map;
 
+import exceptions.InvalidMoveException;
+
 public class ComputerPlayer extends Player {
   
   private Strategy strategy;
@@ -12,7 +14,12 @@ public class ComputerPlayer extends Player {
     this.strategy = strategy;
   }
 
-  public Map<int[], String> determineMove(Board board) {
+  @Override
+  public Move determineMove(Board board) throws InvalidMoveException {
     return strategy.determineMove(board);
   }
+
+  
+
+  
 }

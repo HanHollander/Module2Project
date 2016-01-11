@@ -2,6 +2,8 @@ package client;
 
 import java.util.Map;
 
+import exceptions.InvalidMoveException;
+
 /**
  * Abstract player class.
  * @author Han Hollander
@@ -30,8 +32,9 @@ public abstract class Player {
     
   /**
    * Function that determines what move is played next.
+   * @throws InvalidMoveException invalid move
    */
-  public abstract Map<int[], String> determineMove(Board board);
+  public abstract Move determineMove(Board board) throws InvalidMoveException;
     
   //Getters\\
         
