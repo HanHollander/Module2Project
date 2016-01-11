@@ -3,7 +3,7 @@ package client;
 import java.util.Map;
 
 /**
- * Abstract player class
+ * Abstract player class.
  * @author Han Hollander
  */
 
@@ -31,7 +31,7 @@ public abstract class Player {
   /**
    * Function that determines what move is played next.
    */
-  public abstract Map<int[], String> determineMove();
+  public abstract Map<int[], String> determineMove(Board board);
     
   //Getters\\
         
