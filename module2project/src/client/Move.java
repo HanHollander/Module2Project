@@ -4,8 +4,7 @@ public class Move {
   
   public enum Type {MOVE, SWAP};
   private Type type;
-  private String colour;
-  private String shape;
+  private Tile tile;
   private int row;
   private int column;
   
@@ -16,10 +15,9 @@ public class Move {
    * @param row r of t
    * @param column c of t
    */
-  public Move(String colour, String shape, int row, int column) {
+  public Move(Tile tile, int row, int column) {
     this.type = Type.MOVE;
-    this.colour = colour;
-    this.shape = shape;
+    this.tile = tile;
     this.row = row;
     this.column = column;
   }
@@ -29,20 +27,14 @@ public class Move {
    * @param colour colour of tile
    * @param shape shape of tile
    */
-  public Move(String colour, String shape) {
+  public Move(Tile tile) {
     this.type = Type.SWAP;
-    this.colour = colour;
-    this.shape = shape;
+    this.tile = tile;
   }
 
-  public String getColour() {
-    return colour;
+  public Tile getTile() {
+    return tile;
   }
-
-  public String getShape() {
-    return shape;
-  }
-
 
   public int getRow() {
     return row;

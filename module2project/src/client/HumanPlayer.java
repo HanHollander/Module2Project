@@ -74,7 +74,7 @@ public class HumanPlayer extends Player {
           }
           if (COLOURS.contains(colour) && SHAPES.contains(shape)) { //Colour and shape must exist
             validInput = true;
-            move = new Move(colour, shape, row, column);
+            move = new Move(new Tile(colour, shape), row, column);
           } else { //Throw exception if colour or shape is not valid
             throw new InvalidCommandException("Colours: " + COLOURS + ", shapes: " + SHAPES + " " + MOVEUSAGE);
           }
@@ -89,7 +89,7 @@ public class HumanPlayer extends Player {
           String shape = Character.toString(command[1].charAt(1));
           if (COLOURS.contains(colour) && SHAPES.contains(shape)) { //Colour and shape must exist
             validInput = true;
-            move = new Move(colour, shape);
+            move = new Move(new Tile(colour, shape));
           } else { //Invalid colour and shape
             throw new InvalidCommandException("Colours: " + COLOURS + ", shapes: " + SHAPES);
           }
