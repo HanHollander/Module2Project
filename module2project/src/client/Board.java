@@ -307,6 +307,10 @@ public class Board {
             result = false;
           }
         }
+        
+        if (!gotHorizontalRow && !gotVerticalRow) {
+          result = move.getRow() == 91 && move.getColumn() == 91;
+        }
       } else {
         result = false;
       }
