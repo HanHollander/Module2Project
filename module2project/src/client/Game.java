@@ -39,6 +39,7 @@ public class Game {
   }
   
   public void endTurn() {
+    System.out.println("Score :" + board.getScoreCurrentTurn());
     board.endTurn();
     String listType = player.getMoves().get(0).getType().toString();
     String command = listType + " ";
