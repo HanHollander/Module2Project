@@ -214,7 +214,7 @@ public class Board {
    * @param move The move that needs to be checked.
    * @return True or false whether the move is a correct move or not.
    */
-  public Boolean checkMove(Move move) { // WORK IN PROGRESS \\
+  public Boolean checkMove(Move move) {
     Boolean gotVerticalRow;
     Boolean gotHorizontalRow;
     String empty = ". ";
@@ -343,9 +343,6 @@ public class Board {
           highestColumn = doneMove.getColumn();
         }
       }
-//    System.out.println("HORIZONTAL LINUP " + horizontalLineUp);
-//    System.out.println("Lowest column " + lowestColumn);
-//    System.out.println("Highest column " + highestColumn);
       if (horizontalLineUp) {
         result = highestColumn - lowestColumn == currentLocalTurn.size();
       } else {
@@ -374,6 +371,82 @@ public class Board {
     return result;
   }
   
+  /**
+   * Calculates the amount of points that are earned with
+   * the current turn.
+   * @return The calculated the amount of points that are 
+   *         earned with the current turn.
+   */
+  public int getScoreCurrentTurn() {
+    String empty = ". ";
+    int verticalResult = 0;
+    int horizontalResult = 0;
+    for (Move move : currentLocalTurn) {
+      Boolean gotVerticalRow;
+      Boolean gotHorizontalRow;
+      // Check in which directions the move makes rows.
+      gotVerticalRow = !getTile(move.getRow() - 1, move.getColumn()).toString().equals(empty) 
+          || !getTile(move.getRow() + 1, move.getColumn()).toString().equals(empty);
+      gotHorizontalRow = !getTile(move.getRow(), move.getColumn() - 1).toString().equals(empty) 
+          || !getTile(move.getRow(), move.getColumn() + 1).toString().equals(empty);
+      int verticalPoints = 0;
+      int horizontalPoints = 0;
+      if (gotVerticalRow) {
+        int row = move.getRow() + 1;
+        int column = move.getColumn();
+        verticalPoints++;
+        while (!getTile(row, column).toString().equals(empty)) {
+          verticalPoints++;
+          row++;
+        }
+        verticalPoints++;
+        row = move.getRow() - 1;
+        while (!getTile(row, column).toString().equals(empty)) {
+          verticalPoints++;
+          row--;
+        }
+        if (verticalPoints == 6) {
+          verticalPoints += 6;
+        }
+      }
+      if (gotHorizontalRow) {
+        int row = move.getRow();
+        int column = move.getColumn() + 1;
+        horizontalPoints++;
+        while (!getTile(row, column).toString().equals(empty)) {
+          horizontalPoints++;
+          column++;
+        }
+        horizontalPoints++;
+        column = move.getColumn() - 1;
+        while (!getTile(row, column).toString().equals(empty)) {
+          horizontalPoints++;
+          column--;
+        }
+        if (horizontalPoints == 6) {
+          horizontalPoints += 6;
+        }
+      }
+      horizontalResult += horizontalPoints;
+      verticalResult += verticalPoints;
+    }
+    Boolean horizontalLineUp = true;
+    Move previousMove = currentLocalTurn.get(0);
+    for (Move doneMove : currentLocalTurn) {
+      horizontalLineUp = horizontalLineUp && previousMove.getRow() == doneMove.getRow();
+      previousMove = doneMove;
+    }
+    if (currentLocalTurn.size() > 1) {
+      // Get rid of double counted points.
+      if (horizontalLineUp) {
+        horizontalResult = horizontalResult / currentLocalTurn.size();
+      } else {
+        verticalResult = verticalResult / currentLocalTurn.size();
+      }
+    }
+    
+    return horizontalResult + verticalResult;
+  }
   
   /**
    * Main method. Purpose = testing.
