@@ -43,7 +43,10 @@ public class Board {
     return boardMatrix.get(row).get(column);
   }
   
-  
+  /**
+   * Ends the current turn by removing all the moves from
+   * the array of moves of the current (now previous) turn.
+   */
   public void endTurn() {
     currentLocalTurn = new ArrayList<Move>();
   }
@@ -209,31 +212,159 @@ public class Board {
   /**
    * Checks if the current move is a correct move according to the game rules.
    * @param move The move that needs to be checked.
-   * @return True or false weather the move is a correct move or not.
+   * @return True or false whether the move is a correct move or not.
    */
   public Boolean checkMove(Move move) { // WORK IN PROGRESS \\
     Boolean gotVerticalRow;
     Boolean gotHorizontalRow;
     String empty = ". ";
-    Boolean result = false;
+    Boolean result = true;
     // Check if the destination of the move is 
     if (getTile(move.getRow(), move.getColumn()).toString().equals(empty)) {
-      gotVerticalRow = !getTile(move.getRow() - 1, move.getColumn()).toString().equals(empty) 
-          || !getTile(move.getRow() + 1, move.getColumn()).toString().equals(empty);
-      gotHorizontalRow = !getTile(move.getRow(), move.getColumn() - 1).toString().equals(empty) 
-          || !getTile(move.getRow(), move.getColumn() + 1).toString().equals(empty);
-  
-      if (gotVerticalRow) {
+      if (currentMovesLineUp(move)) {
+        // Check if the current move creates a vertical and horizontal row.
+        gotVerticalRow = !getTile(move.getRow() - 1, move.getColumn()).toString().equals(empty) 
+            || !getTile(move.getRow() + 1, move.getColumn()).toString().equals(empty);
+        gotHorizontalRow = !getTile(move.getRow(), move.getColumn() - 1).toString().equals(empty) 
+            || !getTile(move.getRow(), move.getColumn() + 1).toString().equals(empty);
         
-      }
-      
-      if (gotHorizontalRow) {
+        if (gotVerticalRow) {
+          // Check if the current move fits in the horizontal row.
+          ArrayList<String> adjesentHorizontalTilesShapes = new ArrayList<String>();
+          ArrayList<String> adjesentHorizontalTilesColors = new ArrayList<String>();
+          int row = move.getRow();
+          int column = move.getColumn() + 1;
+          while (!getTile(row, column).toString().equals(empty)) {
+            adjesentHorizontalTilesShapes.add(getTile(row, column).getShape());
+            adjesentHorizontalTilesColors.add(getTile(row, column).getColor());
+            column++;
+          }
+          column = move.getColumn() - 1;
+          while (!getTile(row, column).toString().equals(empty)) {
+            adjesentHorizontalTilesShapes.add(getTile(row, column).getShape());
+            adjesentHorizontalTilesColors.add(getTile(row, column).getColor());
+            column--;
+          }
+          Boolean shapesAreTheSame = true;
+          String templateShape = adjesentHorizontalTilesShapes.get(0);
+          for (String shape : adjesentHorizontalTilesShapes) {
+            shapesAreTheSame = shapesAreTheSame && shape == templateShape;
+          }
+          shapesAreTheSame = shapesAreTheSame 
+              && !adjesentHorizontalTilesColors.contains(move.getTile().getColor());
+          
+          Boolean colorsAreTheSame = true;
+          String templateColor = adjesentHorizontalTilesColors.get(0);
+          for (String color : adjesentHorizontalTilesColors) {
+            colorsAreTheSame = colorsAreTheSame && color == templateColor;
+          }
+          colorsAreTheSame = colorsAreTheSame 
+              && !adjesentHorizontalTilesShapes.contains(move.getTile().getShape());
+          
+          if (shapesAreTheSame || colorsAreTheSame) {
+            result = true;
+          } else {
+            result = false;
+          }
+        }
         
+        if (gotHorizontalRow) {
+          // Check if the current move fits in the vertical row.
+          ArrayList<String> adjesentVerticalTilesShapes = new ArrayList<String>();
+          ArrayList<String> adjesentVerticalTilesColors = new ArrayList<String>();
+          int row = move.getRow() + 1;
+          int column = move.getColumn();
+          while (!getTile(row, column).toString().equals(empty)) {
+            adjesentVerticalTilesShapes.add(getTile(row, column).getShape());
+            adjesentVerticalTilesColors.add(getTile(row, column).getColor());
+            row++;
+          }
+          row = move.getRow() - 1;
+          while (!getTile(row, column).toString().equals(empty)) {
+            adjesentVerticalTilesShapes.add(getTile(row, column).getShape());
+            adjesentVerticalTilesColors.add(getTile(row, column).getColor());
+            row--;
+          }
+          Boolean shapesAreTheSame = true;
+          String templateShape = adjesentVerticalTilesShapes.get(0);
+          for (String shape : adjesentVerticalTilesShapes) {
+            shapesAreTheSame = shapesAreTheSame && shape == templateShape;
+          }
+          shapesAreTheSame = shapesAreTheSame 
+              && !adjesentVerticalTilesColors.contains(move.getTile().getColor());
+          
+          Boolean colorsAreTheSame = true;
+          String templateColor = adjesentVerticalTilesColors.get(0);
+          for (String color : adjesentVerticalTilesColors) {
+            colorsAreTheSame = colorsAreTheSame && color == templateColor;
+          }
+          colorsAreTheSame = colorsAreTheSame 
+              && !adjesentVerticalTilesShapes.contains(move.getTile().getShape());
+          
+          if (shapesAreTheSame || colorsAreTheSame) {
+            result = result && true;
+          } else {
+            result = false;
+          }
+        }
+      } else {
+        result = false;
       }
+    } else {
+      result = false;
     }
     return result;
   }
   
+  /**
+   * Checks if all the done moves this turn and the given
+   * move line up in the same row or column.
+   * @param move The move that is added this turn.
+   * @return True or False whether the moves line up or not.
+   */
+  public Boolean currentMovesLineUp(Move move) {
+    Boolean result = false;
+    if (!currentLocalTurn.isEmpty()) {
+      Boolean horizontalLineUp = true;
+      Move previousMove = move;
+      int lowestColumn = move.getColumn();
+      int highestColumn = move.getColumn();
+      // Check if all done moves and current move are on the same row.
+      for (Move doneMove : currentLocalTurn) {
+        horizontalLineUp = horizontalLineUp && previousMove.getRow() == doneMove.getRow();
+        previousMove = doneMove;
+        if (doneMove.getColumn() < lowestColumn) {
+          lowestColumn = doneMove.getColumn();
+        } else if (doneMove.getColumn() > highestColumn) {
+          highestColumn = doneMove.getColumn();
+        }
+      }
+      if (horizontalLineUp) {
+        result = highestColumn - lowestColumn == currentLocalTurn.size() + 1;
+      } else {
+        Boolean verticalLineUp = true;
+        previousMove = move;
+        int lowestRow = move.getRow();
+        int highestRow = move.getRow();
+        // Check if all done moves and current move are on the same column.
+        for (Move doneMove : currentLocalTurn) {
+          verticalLineUp = verticalLineUp && previousMove.getColumn() == doneMove.getColumn();
+          previousMove = doneMove;
+          if (doneMove.getRow() < lowestRow) {
+            lowestRow = doneMove.getRow();
+          } else if (doneMove.getRow() > highestRow) {
+            highestRow = doneMove.getRow();
+          }
+        }
+        if (verticalLineUp) {
+          result = highestRow - lowestRow == currentLocalTurn.size() + 1;
+        }
+      }
+    } else {
+      result = true;
+    }
+    return result;
+  }
   
   
   /**
