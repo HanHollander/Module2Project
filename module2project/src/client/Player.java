@@ -20,6 +20,7 @@ public abstract class Player {
   private String name;
   private int playerNumber;
   private List<Tile> hand;
+  private List<Move> moves;
     
   //Constructor\\
     
@@ -32,6 +33,7 @@ public abstract class Player {
     this.name = name;
     this.playerNumber = playerNumber;
     this.hand = new ArrayList<Tile>();
+    this.setMoves(new ArrayList<Move>());
   }
     
   //Functions\\
@@ -106,6 +108,14 @@ public abstract class Player {
   
   public String toString() {
     return "Player " + playerNumber + ": " + name;
+  }
+
+  public List<Move> getMoves() {
+    return moves;
+  }
+
+  public void setMoves(List<Move> moves) {
+    this.moves = moves;
   }
     
 }

@@ -3,6 +3,7 @@ package client;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
@@ -24,8 +25,6 @@ public class HumanPlayer extends Player {
   
   public static final List<String> COLOURS = Arrays.asList("R", "O", "B", "Y", "G", "P");
   public static final List<String> SHAPES = Arrays.asList("o", "d", "s", "c", "x", "*");
-  
-  private List<Tile> hand;
 
   /**
    * Constructor for a human.
@@ -36,8 +35,6 @@ public class HumanPlayer extends Player {
     super(name, playerNumber);
   }
   
-  
-  
   /**
    * determine human move.
    * @param board board where move can take place
@@ -47,21 +44,42 @@ public class HumanPlayer extends Player {
     boolean validMove = false;
     Move move = null;
     while (!validMove) {
+      Type listType;
+      System.out.println("Moves: " + getMoves().size());
+      if (getMoves().size() == 0) {
+        listType = Type.ANY;
+      } else {
+        listType = getMoves().get(0).getType();
+      }
+      System.out.println("Listtype: " + listType);
       try {
         move = getMove();
-        if (move.getType().equals(Type.MOVE)) {
+        if (move.getType().equals(Type.MOVE) 
+            && (listType.equals(Type.ANY) || listType.equals(Type.MOVE))) {
           if (board.checkMove(move)) {
             try {
-            removeFromHand(move.getTile());
+              removeFromHand(move.getTile());
             } catch (TileNotInHandException e) {
               System.out.println(e);
             }
             validMove = true;
+            getMoves().add(move);
           } else {
             throw new InvalidMoveException();
           }
-        } else {
+        } else if (move.getType().equals(Type.SWAP) 
+            && (listType.equals(Type.ANY) || listType.equals(Type.SWAP))) {
+          try {
+            removeFromHand(move.getTile());
+          } catch (TileNotInHandException e) {
+            System.out.println(e);
+          }
           validMove = true;
+          getMoves().add(move);
+        } else  if (move.getType().equals(Type.END)) {
+          validMove = true;
+        } else {
+          throw new InvalidMoveException();
         }
       } catch (InvalidCommandException e) {
         System.out.println(e);
