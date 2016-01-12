@@ -39,23 +39,29 @@ public class Game {
   }
   
   public void endTurn() {
-    String listType = player.getMoves().get(0).getType().toString();
-    String command = listType + " ";
-    if (listType == "MOVE") {
-      for (Move move : player.getMoves()) {
-        command = command + move.getTile().toString() 
-            + " " + move.getRow() + " " + move.getColumn() + " ";
+    String command;
+    if (player.getMoves().size() > 0) {
+      String listType = player.getMoves().get(0).getType().toString();
+      command = listType + " ";
+      if (listType == "MOVE") {
+        for (Move move : player.getMoves()) {
+          command = command + move.getTile().toString() 
+              + " " + move.getRow() + " " + move.getColumn() + " ";
+        }
+        System.out.println("Score :" + board.getScoreCurrentTurn());
+      } else if (listType == "SWAP") {
+        for (Move move : player.getMoves()) {
+          command = command + move.getTile().toString() + " ";
+        }
       }
-      System.out.println("Score :" + board.getScoreCurrentTurn());
-    } else if (listType == "SWAP") {
-      for (Move move : player.getMoves()) {
-        command = command + move.getTile().toString() + " ";
-      }
+      player.setMoves(new ArrayList<Move>());
+    } else {
+      command = "MOVE";
     }
     System.out.println("Command: " + command);
-    player.setMoves(new ArrayList<Move>());
+    //send command
     board.endTurn();
-    opponentTurn();//opponentTurn
+    opponentTurn();
   }
   
   public void opponentTurn() {
