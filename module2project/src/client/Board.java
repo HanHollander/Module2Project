@@ -6,6 +6,7 @@ import java.util.List;
 public class Board {
   
   private ArrayList<ArrayList<Tile>> boardMatrix;
+  private ArrayList<Move> currentLocalTurn;
   
   /**
    * Board constructor. Constructs a empty board.
@@ -18,16 +19,18 @@ public class Board {
         boardMatrix.get(row).add(new Tile());
       }
     }
+    currentLocalTurn = new ArrayList<Move>();
   }
   
   /**
    * Executes the given move on the board.
    * @param move The move you want to apply to the board.
    */
-  public void put(Move move) {
+  public void putTile(Move move) {
     int row = move.getRow();
     int column = move.getColumn();
     boardMatrix.get(row).set(column, move.getTile());
+    currentLocalTurn.add(move);
   }
   
   /**
@@ -36,8 +39,34 @@ public class Board {
    * @param column A column number of the board.
    * @return the Tile located at the given row and column.
    */
-  public Tile get(int row, int column) {
+  public Tile getTile(int row, int column) {
     return boardMatrix.get(row).get(column);
+  }
+  
+  
+  public void endTurn() {
+    currentLocalTurn = new ArrayList<Move>();
+  }
+  
+  /**
+   * Undoes the given move.
+   * @param move The move that needs to be undone.
+   */
+  public void undoMove(Move move) {
+    Move emptyMove = new Move(new Tile(), move.getRow(), move.getColumn());
+    if (!getTile(move.getRow(), move.getColumn()).toString().equals(emptyMove.toString())) {
+      putTile(emptyMove);
+    }
+  }
+  
+  /**
+   * Undoes every move of the current turn.
+   */
+  public void resetTurn() {
+    for (Move move : currentLocalTurn) {
+      undoMove(move);
+    }
+    currentLocalTurn = new ArrayList<Move>();
   }
   
   /**
@@ -186,9 +215,23 @@ public class Board {
     Boolean gotVerticalRow;
     Boolean gotHorizontalRow;
     String empty = ". ";
-    gotVerticalRow = !get(move.getRow() - 1, move.getColumn()).toString().equals(empty) 
-        || !get(move.getRow() + 1, move.getColumn()).toString().equals(empty);
-    return true;
+    Boolean result = false;
+    // Check if the destination of the move is 
+    if (getTile(move.getRow(), move.getColumn()).toString().equals(empty)) {
+      gotVerticalRow = !getTile(move.getRow() - 1, move.getColumn()).toString().equals(empty) 
+          || !getTile(move.getRow() + 1, move.getColumn()).toString().equals(empty);
+      gotHorizontalRow = !getTile(move.getRow(), move.getColumn() - 1).toString().equals(empty) 
+          || !getTile(move.getRow(), move.getColumn() + 1).toString().equals(empty);
+  
+      if (gotVerticalRow) {
+        
+      }
+      
+      if (gotHorizontalRow) {
+        
+      }
+    }
+    return result;
   }
   
   
@@ -203,9 +246,9 @@ public class Board {
     Move move = new Move(tile, 91, 91);
     Move move2 = new Move(tile, 75, 91);
     Move move3 = new Move(tile, 91, 80);
-    board.put(move);
-    board.put(move2);
-    board.put(move3);
+    board.putTile(move);
+    board.putTile(move2);
+    board.putTile(move3);
     System.out.print(board.toString());
   }
 }
