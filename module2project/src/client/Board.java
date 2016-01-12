@@ -229,6 +229,7 @@ public class Board {
             || !getTile(move.getRow(), move.getColumn() + 1).toString().equals(empty);
         
         if (gotHorizontalRow) {
+          System.out.println("CHECK 1");
           // Check if the current move fits in the horizontal row.
           ArrayList<String> adjesentHorizontalTilesShapes = new ArrayList<String>();
           ArrayList<String> adjesentHorizontalTilesColors = new ArrayList<String>();
@@ -245,21 +246,28 @@ public class Board {
             adjesentHorizontalTilesColors.add(getTile(row, column).getColor());
             column--;
           }
+          System.out.println("adjesentHorizontalTilesShapes: " + adjesentHorizontalTilesShapes);
+          System.out.println("adjesentHorizontalTilesColors: " + adjesentHorizontalTilesColors);
           Boolean shapesAreTheSame = true;
           String templateShape = adjesentHorizontalTilesShapes.get(0);
           for (String shape : adjesentHorizontalTilesShapes) {
-            shapesAreTheSame = shapesAreTheSame && shape == templateShape;
+            shapesAreTheSame = shapesAreTheSame && shape.equals(templateShape);
           }
+          System.out.println("shapesAreTheSame: " + shapesAreTheSame);
           shapesAreTheSame = shapesAreTheSame 
               && !adjesentHorizontalTilesColors.contains(move.getTile().getColor());
           
           Boolean colorsAreTheSame = true;
           String templateColor = adjesentHorizontalTilesColors.get(0);
           for (String color : adjesentHorizontalTilesColors) {
-            colorsAreTheSame = colorsAreTheSame && color == templateColor;
+            colorsAreTheSame = colorsAreTheSame && color.equals(templateColor);
           }
+          System.out.println("colorsAreTheSame: " + colorsAreTheSame);
           colorsAreTheSame = colorsAreTheSame 
               && !adjesentHorizontalTilesShapes.contains(move.getTile().getShape());
+          
+          
+          
           
           if (shapesAreTheSame || colorsAreTheSame) {
             result = true;
@@ -269,6 +277,7 @@ public class Board {
         }
         
         if (gotVerticalRow) {
+          System.out.println("CHECK 2");
           // Check if the current move fits in the vertical row.
           ArrayList<String> adjesentVerticalTilesShapes = new ArrayList<String>();
           ArrayList<String> adjesentVerticalTilesColors = new ArrayList<String>();
@@ -288,7 +297,7 @@ public class Board {
           Boolean shapesAreTheSame = true;
           String templateShape = adjesentVerticalTilesShapes.get(0);
           for (String shape : adjesentVerticalTilesShapes) {
-            shapesAreTheSame = shapesAreTheSame && shape == templateShape;
+            shapesAreTheSame = shapesAreTheSame && shape.equals(templateShape);
           }
           shapesAreTheSame = shapesAreTheSame 
               && !adjesentVerticalTilesColors.contains(move.getTile().getColor());
@@ -296,7 +305,7 @@ public class Board {
           Boolean colorsAreTheSame = true;
           String templateColor = adjesentVerticalTilesColors.get(0);
           for (String color : adjesentVerticalTilesColors) {
-            colorsAreTheSame = colorsAreTheSame && color == templateColor;
+            colorsAreTheSame = colorsAreTheSame && color.equals(templateColor);
           }
           colorsAreTheSame = colorsAreTheSame 
               && !adjesentVerticalTilesShapes.contains(move.getTile().getShape());
@@ -399,7 +408,6 @@ public class Board {
           verticalPoints++;
           row++;
         }
-        verticalPoints++;
         row = move.getRow() - 1;
         while (!getTile(row, column).toString().equals(empty)) {
           verticalPoints++;
@@ -417,7 +425,6 @@ public class Board {
           horizontalPoints++;
           column++;
         }
-        horizontalPoints++;
         column = move.getColumn() - 1;
         while (!getTile(row, column).toString().equals(empty)) {
           horizontalPoints++;
@@ -429,6 +436,9 @@ public class Board {
       }
       horizontalResult += horizontalPoints;
       verticalResult += verticalPoints;
+      if (!gotHorizontalRow && !gotVerticalRow) {
+        horizontalResult = 1;
+      }
     }
     Boolean horizontalLineUp = true;
     Move previousMove = currentLocalTurn.get(0);

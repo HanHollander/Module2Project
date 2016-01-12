@@ -21,6 +21,7 @@ public class SimpleTest {
     try {
       players.get(0).addToHand(new Tile("R", "o"));
       players.get(0).addToHand(new Tile("B", "o"));
+      players.get(0).addToHand(new Tile("Y", "o"));
     } catch (HandIsFullException e) {
       System.out.println(e);
     }
