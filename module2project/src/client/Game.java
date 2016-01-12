@@ -2,25 +2,32 @@ package client;
 
 import java.util.List;
 
+import exceptions.InvalidMoveException;
+
 public class Game {
     
   //Fields\\
   
   private Board board;
     
+  private List<Player> playerList;
+  private Player player;
+  
   //Constructor\\
   
-  public void makeMove(Board board) {
-        //player.determinemove(board)
-        //board.place or smthing or place(board) or place it
+  public Game(List<Player> playerList, Player player) {
+    this.playerList = playerList;
+    this.player = player;
   }
   
-  
-    
-  private List<Player> playerList;
-    
-  public Game(List<Player> playerList) {
-    this.playerList = playerList;
+  public void makeMove(Board board) {
+    Move move = null;
+    try {
+      move = player.determineMove(board);
+    } catch (InvalidMoveException e) {
+      System.out.println("This is NOT a valid move.");
+    }
+    board.put(move);
   }
     
     
