@@ -50,16 +50,16 @@ public class Game {
     Move move = null;
     try {
       move = player.determineMove(board);
+      if (move.getType().equals(Type.MOVE)) {
+        System.out.println("Move = " + move.toString());
+        board.putTile(move);
+      } else if (move.getType().equals(Type.SWAP)) {
+        //SEND command to server
+      } else if (move.getType().equals(Type.END)) {
+        setPlayerTurn(false);
+      }
     } catch (InvalidMoveException e) {
       System.out.println(e);
-    }
-    if (move.getType().equals(Type.MOVE)) {
-      System.out.println("Move = " + move.toString());
-      board.putTile(move);
-    } else if (move.getType().equals(Type.SWAP)) {
-      //SEND command to server
-    } else if (move.getType().equals(Type.END)) {
-      setPlayerTurn(false);
     }
   }
 
