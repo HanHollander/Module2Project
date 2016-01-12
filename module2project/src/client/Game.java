@@ -43,6 +43,7 @@ public class Game {
     } catch (HandIsFullException e) {
       System.out.println(e);
     }
+    board.endTurn();
     turn();
   }
 
