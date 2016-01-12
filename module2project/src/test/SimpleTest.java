@@ -24,7 +24,7 @@ public class SimpleTest {
     } catch (HandIsFullException e) {
       System.out.println(e);
     }
-    game.turn();
+    game.playerTurn();
   }
 
 }

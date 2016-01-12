@@ -1,5 +1,6 @@
 package client;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import client.Move.Type;
@@ -24,9 +25,10 @@ public class Game {
     this.setPlayerList(playerList);
     this.player = player;
     this.board = new Board();
+    
   }
   
-  public void turn() {
+  public void playerTurn() {
     setPlayerTurn(true);
     while (playerTurn) {
       System.out.println(player.handToString());
@@ -36,15 +38,30 @@ public class Game {
     endTurn();
   }
   
-  private void endTurn() {
-    try {
-      player.addToHand(new Tile("R", "*"));
-      player.addToHand(new Tile("R", "s"));
-    } catch (HandIsFullException e) {
-      System.out.println(e);
-    }
+  public void endTurn() {
     board.endTurn();
-    turn();
+    String listType = player.getMoves().get(0).getType().toString();
+    String command = listType + " ";
+    if (listType == "MOVE") {
+      for (Move move : player.getMoves()) {
+        command = command + move.getTile().toString() 
+            + " " + move.getRow() + " " + move.getColumn() + " ";
+      }
+    } else if (listType == "SWAP") {
+      for (Move move : player.getMoves()) {
+        command = command + move.getTile().toString() + " ";
+      }
+    }
+    System.out.println("Command: " + command);
+    player.setMoves(new ArrayList<Move>());
+    opponentTurn();//opponentTurn
+  }
+  
+  public void opponentTurn() {
+    
+    
+    
+    playerTurn();
   }
 
   public void makeMove(Board board) {
@@ -52,10 +69,9 @@ public class Game {
     try {
       move = player.determineMove(board);
       if (move.getType().equals(Type.MOVE)) {
-        System.out.println("Move = " + move.toString());
         board.putTile(move);
       } else if (move.getType().equals(Type.SWAP)) {
-        //SEND command to server
+        //Send command
       } else if (move.getType().equals(Type.END)) {
         setPlayerTurn(false);
       }

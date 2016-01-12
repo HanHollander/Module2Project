@@ -2,7 +2,7 @@ package client;
 
 public class Move {
   
-  public enum Type {MOVE, SWAP, END};
+  public enum Type {MOVE, SWAP, END, ANY};
   private Type type;
   private Tile tile;
   private int row;
