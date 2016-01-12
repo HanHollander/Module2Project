@@ -39,8 +39,6 @@ public class Game {
   }
   
   public void endTurn() {
-    System.out.println("Score :" + board.getScoreCurrentTurn());
-    board.endTurn();
     String listType = player.getMoves().get(0).getType().toString();
     String command = listType + " ";
     if (listType == "MOVE") {
@@ -48,6 +46,7 @@ public class Game {
         command = command + move.getTile().toString() 
             + " " + move.getRow() + " " + move.getColumn() + " ";
       }
+      System.out.println("Score :" + board.getScoreCurrentTurn());
     } else if (listType == "SWAP") {
       for (Move move : player.getMoves()) {
         command = command + move.getTile().toString() + " ";
@@ -55,6 +54,7 @@ public class Game {
     }
     System.out.println("Command: " + command);
     player.setMoves(new ArrayList<Move>());
+    board.endTurn();
     opponentTurn();//opponentTurn
   }
   
