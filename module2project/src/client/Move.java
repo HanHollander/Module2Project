@@ -2,7 +2,7 @@ package client;
 
 public class Move {
   
-  public enum Type {MOVE, SWAP};
+  public enum Type {MOVE, SWAP, END};
   private Type type;
   private Tile tile;
   private int row;
@@ -31,6 +31,10 @@ public class Move {
     this.type = Type.SWAP;
     this.tile = tile;
   }
+  
+  public Move(Type type) {
+    this.type = type;
+  }
 
   public Tile getTile() {
     return tile;
@@ -46,6 +50,10 @@ public class Move {
   
   public Type getType() {
     return type;
+  }
+  
+  public String toString() {
+    return "Tile: [" + getTile().toString() + "], row: " + getRow() + ", column: " + getColumn();
   }
 
 
