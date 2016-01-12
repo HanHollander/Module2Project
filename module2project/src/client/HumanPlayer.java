@@ -7,8 +7,10 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
+import exceptions.HandIsFullException;
 import exceptions.InvalidCommandException;
 import exceptions.InvalidMoveException;
+import exceptions.TileNotInHandException;
 
 /**
  * Human player class.
@@ -21,6 +23,8 @@ public class HumanPlayer extends Player {
   
   public static final List<String> COLOURS = Arrays.asList("R", "O", "B", "Y", "G", "P");
   public static final List<String> SHAPES = Arrays.asList("o", "d", "s", "c", "x", "*");
+  
+  private List<Tile> hand;
 
   /**
    * Constructor for a human.
@@ -32,19 +36,44 @@ public class HumanPlayer extends Player {
   }
   
   /**
+   * Add a tile to a hand.
+   * @param tile the tile to add
+   * @throws HandIsFullException if hand is full
+   */
+  public void addToHand(Tile tile) throws HandIsFullException {
+    if (hand.size() < 6) {
+      hand.add(tile);
+    } else {
+      throw new HandIsFullException();
+    }
+  }
+  
+  /**
+   * Remove tile from hand.
+   * @param tile tile to remove
+   * @throws TileNotInHandException tile is not in hand
+   */
+  public void removeFromHand(Tile tile) throws TileNotInHandException {
+    if (hand.contains(tile)) {
+      hand.remove(tile);
+    } else {
+      throw new TileNotInHandException(tile);
+    }
+  }
+  
+  /**
    * determine human move.
    * @param board board where move can take place
    * @return a valid move
    */
   public Move determineMove(Board board) throws InvalidMoveException {
     boolean validMove = false;
-    Move result = null;
+    Move move = null;
     while (!validMove) {
-      Move move;
       try {
         move = getMove();
       } catch (InvalidCommandException e) {
-        System.out.println("This is NOT a valid move.");
+        System.out.println("This is NOT a valid command. Also, something is wrong with getMove()...");
       }
       if (board.checkMove(move)) {
         validMove = true;
@@ -52,7 +81,7 @@ public class HumanPlayer extends Player {
         throw new InvalidMoveException();
       }
     }
-    return result;
+    return move;
   }
   
   /**
