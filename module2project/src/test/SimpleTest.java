@@ -17,6 +17,7 @@ public class SimpleTest {
     players.add(new HumanPlayer("p1", 1));
     Game game = new Game(players, players.get(0));
     Board board = new Board();
+    System.out.println(board.toString());
     try {
       players.get(0).addToHand(new Tile("R", "o"));
       players.get(0).addToHand(new Tile("B", "o"));

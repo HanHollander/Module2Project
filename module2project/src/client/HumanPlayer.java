@@ -49,22 +49,22 @@ public class HumanPlayer extends Player {
     while (!validMove) {
       try {
         move = getMove();
+        if (move.getType().equals(Type.MOVE)) {
+          if (board.checkMove(move)) {
+            try {
+            removeFromHand(move.getTile());
+            } catch (TileNotInHandException e) {
+              System.out.println(e);
+            }
+            validMove = true;
+          } else {
+            throw new InvalidMoveException();
+          }
+        } else {
+          validMove = true;
+        }
       } catch (InvalidCommandException e) {
         System.out.println(e);
-      }
-      if (move.getType().equals(Type.MOVE)) {
-        if (!board.checkMove(move)) {
-          try {
-          removeFromHand(move.getTile());
-          } catch (TileNotInHandException e) {
-            System.out.println(e);
-          }
-          validMove = true;
-        } else {
-          throw new InvalidMoveException();
-        }
-      } else {
-        validMove = true;
       }
     }
     return move;
