@@ -228,7 +228,7 @@ public class Board {
         gotHorizontalRow = !getTile(move.getRow(), move.getColumn() - 1).toString().equals(empty) 
             || !getTile(move.getRow(), move.getColumn() + 1).toString().equals(empty);
         
-        if (gotVerticalRow) {
+        if (gotHorizontalRow) {
           // Check if the current move fits in the horizontal row.
           ArrayList<String> adjesentHorizontalTilesShapes = new ArrayList<String>();
           ArrayList<String> adjesentHorizontalTilesColors = new ArrayList<String>();
@@ -268,7 +268,7 @@ public class Board {
           }
         }
         
-        if (gotHorizontalRow) {
+        if (gotVerticalRow) {
           // Check if the current move fits in the vertical row.
           ArrayList<String> adjesentVerticalTilesShapes = new ArrayList<String>();
           ArrayList<String> adjesentVerticalTilesColors = new ArrayList<String>();
@@ -343,8 +343,11 @@ public class Board {
           highestColumn = doneMove.getColumn();
         }
       }
+//    System.out.println("HORIZONTAL LINUP " + horizontalLineUp);
+//    System.out.println("Lowest column " + lowestColumn);
+//    System.out.println("Highest column " + highestColumn);
       if (horizontalLineUp) {
-        result = highestColumn - lowestColumn == currentLocalTurn.size() + 1;
+        result = highestColumn - lowestColumn == currentLocalTurn.size();
       } else {
         Boolean verticalLineUp = true;
         previousMove = move;
@@ -361,12 +364,13 @@ public class Board {
           }
         }
         if (verticalLineUp) {
-          result = highestRow - lowestRow == currentLocalTurn.size() + 1;
+          result = highestRow - lowestRow == currentLocalTurn.size();
         }
       }
     } else {
       result = true;
     }
+    System.out.println("LINUP CHECK " + result);
     return result;
   }
   
