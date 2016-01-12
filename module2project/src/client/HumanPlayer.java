@@ -7,6 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
+import client.Move.Type;
 import exceptions.HandIsFullException;
 import exceptions.InvalidCommandException;
 import exceptions.InvalidMoveException;
@@ -35,31 +36,7 @@ public class HumanPlayer extends Player {
     super(name, playerNumber);
   }
   
-  /**
-   * Add a tile to a hand.
-   * @param tile the tile to add
-   * @throws HandIsFullException if hand is full
-   */
-  public void addToHand(Tile tile) throws HandIsFullException {
-    if (hand.size() < 6) {
-      hand.add(tile);
-    } else {
-      throw new HandIsFullException();
-    }
-  }
   
-  /**
-   * Remove tile from hand.
-   * @param tile tile to remove
-   * @throws TileNotInHandException tile is not in hand
-   */
-  public void removeFromHand(Tile tile) throws TileNotInHandException {
-    if (hand.contains(tile)) {
-      hand.remove(tile);
-    } else {
-      throw new TileNotInHandException(tile);
-    }
-  }
   
   /**
    * determine human move.
@@ -73,12 +50,21 @@ public class HumanPlayer extends Player {
       try {
         move = getMove();
       } catch (InvalidCommandException e) {
-        System.out.println("This is NOT a valid command. Also, something is wrong with getMove()...");
+        System.out.println(e);
       }
-      if (board.checkMove(move)) {
-        validMove = true;
+      if (move.getType().equals(Type.MOVE)) {
+        if (!board.checkMove(move)) {
+          try {
+          removeFromHand(move.getTile());
+          } catch (TileNotInHandException e) {
+            System.out.println(e);
+          }
+          validMove = true;
+        } else {
+          throw new InvalidMoveException();
+        }
       } else {
-        throw new InvalidMoveException();
+        validMove = true;
       }
     }
     return move;
@@ -97,6 +83,7 @@ public class HumanPlayer extends Player {
     boolean validInput = false;
     while (!validInput) {
       try {
+        System.out.println("What is your action?");
         input = reader.readLine();
       } catch (IOException e) {
         System.out.println("Could not read line.");
@@ -121,7 +108,12 @@ public class HumanPlayer extends Player {
           String shape = Character.toString(command[1].charAt(1));
           move = new Move(new Tile(colour, shape));
         }
-       
+      //END command
+      } else if (input.startsWith("END")) {
+        validInput = validEndCommand(input);
+        if (validInput) {
+          move = new Move(Type.END);
+        }
       } else { //Neither move nor swap
         throw new InvalidCommandException(MOVEUSAGE + " " + SWAPUSAGE);
       }
@@ -178,6 +170,23 @@ public class HumanPlayer extends Player {
       }
     } else { //Invalid command usage
       throw new InvalidCommandException(SWAPUSAGE);
+    }
+    return validInput;
+  }
+  
+  /**
+   * Checks if valid endcommand.
+   * @param input input
+   * @return if valid
+   * @throws InvalidCommandException if not valid
+   */
+  public boolean validEndCommand(String input) throws InvalidCommandException {
+    boolean validInput = false;
+    String[] command = input.split(" "); 
+    if (command.length == 1) { //Command length must be four
+      validInput = true;
+    } else {
+      throw new InvalidCommandException("Usage: END.");
     }
     return validInput;
   }
