@@ -266,9 +266,6 @@ public class Board {
           colorsAreTheSame = colorsAreTheSame 
               && !adjesentHorizontalTilesShapes.contains(move.getTile().getShape());
           
-          
-          
-          
           if (shapesAreTheSame || colorsAreTheSame) {
             result = true;
           } else {
