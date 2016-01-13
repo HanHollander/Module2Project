@@ -18,6 +18,10 @@ public class Game {
   private Player player;
   
   private boolean playerTurn = false;
+  public static final String MOVE = "MOVE";
+  public static final String SWAP = "SWAP";
+  public static final String END = "END";
+  public static final String HELLO = "HELLO";
   
   //Constructor\\
   
@@ -43,20 +47,20 @@ public class Game {
     if (player.getMoves().size() > 0) {
       String listType = player.getMoves().get(0).getType().toString();
       command = listType + " ";
-      if (listType == "MOVE") {
+      if (listType == MOVE) {
         for (Move move : player.getMoves()) {
           command = command + move.getTile().toString() 
               + " " + move.getRow() + " " + move.getColumn() + " ";
         }
         System.out.println("Score :" + board.getScoreCurrentTurn());
-      } else if (listType == "SWAP") {
+      } else if (listType == SWAP) {
         for (Move move : player.getMoves()) {
           command = command + move.getTile().toString() + " ";
         }
       }
       player.setMoves(new ArrayList<Move>());
     } else {
-      command = "MOVE";
+      command = MOVE;
     }
     System.out.println("Command: " + command);
     //send command
