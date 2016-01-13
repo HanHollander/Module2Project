@@ -15,18 +15,32 @@ import java.util.Vector;
  * @version 2005.02.21
  */
 public class Server {
-  private static final String USAGE = "usage: " + Server.class.getName() + " <port>";
-  
-  public Boolean startCommandCalled;
+  private static final String USAGE = "usage: " + Server.class.getName() + " <port> " + "<numberOfPlayers(2,3,4)>";
   
   /** Start een Server-applicatie op. */
   public static void main(String[] args) {
-    if (args.length != 1) {
+    if (args.length != 2) {
       System.out.println(USAGE);
       System.exit(0);
     }
-
-    Server server = new Server(Integer.parseInt(args[0]));
+    
+    int portInt = 0;
+    int numberOfPlayers = 0;
+    
+    try {
+      portInt = Integer.parseInt(args[0]);
+      numberOfPlayers = Integer.parseInt(args[1]);
+    } catch (NumberFormatException e) {
+      System.out.println(USAGE);
+      System.exit(0);
+    }
+    
+    if (numberOfPlayers < 2 && numberOfPlayers > 4) {
+      System.out.println(USAGE);
+      System.exit(0);
+    }
+    
+    Server server = new Server(portInt, numberOfPlayers);
     server.run();
 
   }
@@ -35,10 +49,14 @@ public class Server {
   private int port;
   private HashMap<Integer, ClientHandler> threads;
   private ServerSocket serverSocket;
+  private int numberOfPlayers;
+  private Game game;
   /** Constructs a new Server object. */
-  public Server(int portArg) {
+  public Server(int portArg, int numberOfPlayersArg) {
     port = portArg;
+    numberOfPlayers = numberOfPlayersArg;
     threads = new HashMap<Integer, ClientHandler>();
+    game = new Game();
     try {
       serverSocket = new ServerSocket(port);
     } catch (IOException e) {
@@ -53,16 +71,15 @@ public class Server {
    * communication with the Client.
    */
   public void run() {
-    int numberOfPlayers = 1;
-    while (numberOfPlayers < 4 && !startCommandCalled) {
+    int numberOfConnectingPlayer = 1;
+    while (numberOfPlayers < numberOfPlayers) {
       try {
-        ClientHandler ch = new ClientHandler(numberOfPlayers, this, serverSocket.accept());
-        addHandler(numberOfPlayers, ch);
+        ClientHandler ch = new ClientHandler(numberOfConnectingPlayer, this, serverSocket.accept());
+        addHandler(numberOfConnectingPlayer, ch);
         ch.start();
         numberOfPlayers++;
       } catch (IOException e) {
-        // TODO Auto-generated catch block
-        e.printStackTrace();
+        System.out.println("");
       }
     }
   }
@@ -96,5 +113,9 @@ public class Server {
    */
   public void removeHandler(int playerNr) {
     threads.remove(playerNr);
+  }
+  
+  public Game getGame() {
+    return game;
   }
 }

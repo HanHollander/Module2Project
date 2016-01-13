@@ -37,12 +37,6 @@ public abstract class Player {
   }
     
   //Functions\\
-    
-  /**
-   * Function that determines what move is played next.
-   * @throws InvalidMoveException invalid move
-   */
-  public abstract Move determineMove(Board board) throws InvalidMoveException;
   
   /**
    * Add a tile to a hand.
