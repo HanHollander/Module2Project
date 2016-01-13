@@ -33,10 +33,12 @@ public class ClientHandler extends Thread {
     String text = "";
     try {
       while (text != null) {
-        
         text = in.readLine();
         if (!(text == null) && !text.equals("\n")) {
+          System.out.println("Received from client: " + text);
+          //FOR NOW!!!-------------------------------------------------------------------------------------------
           server.broadcast(clientName + ": " + text);
+          sendMessage("WELCOME Han 1");
         }
       }
     } catch (IOException e) {

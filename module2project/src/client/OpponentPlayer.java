@@ -6,7 +6,6 @@ public class OpponentPlayer extends Player {
 
   public OpponentPlayer(String name, int playerNumber) {
     super(name, playerNumber);
-    // TODO Auto-generated constructor stub
   }
 
   @Override
