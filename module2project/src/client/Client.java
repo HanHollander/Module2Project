@@ -55,14 +55,48 @@ public class Client extends Thread {
           checkWelcome(text);
           checkNames(text);
           checkNext(text);
+          checkTurn(text);
         }
       }
     } catch (IOException e) {
       System.out.println("ÏOException");
+    } catch (InvalidCommandException e) {
+      System.out.println(e);
     }
   }
   
-  public void checkNext(String text) {
+  public void checkTurn(String text) throws InvalidCommandException {
+    boolean validCommand = false;
+    String[] command = text.split(" ");
+    int playerNumber = -1;
+    List<Move> moves = new ArrayList<>();
+    if (text.startsWith(Game.TURN)) {
+      if (command.length == 3 && command[3].equals("empty")) {
+        System.out.println(getPlayerName(2) + " swapped." );
+      } else if (command.length < 20 && ((command.length - 2) % 3 == 0)) {
+        for (int i = 0; i < ((command.length - 2) / 3); i++ ) {
+          int row = 0;
+          int column = 0;
+          try {
+            row = Integer.parseInt(command[(3 * i) + 2]);
+            column = Integer.parseInt(command[(3 * i) + 3]);
+          } catch (NumberFormatException e) {
+            System.out.println("Not a number.");
+          }
+          String colour = command[(3 * i) + 2].substring(0, 0);
+          String shape = command[(3 * i) + 2].substring(1, 1);
+          moves.add(new Move(new Tile(colour, shape), row, column));
+        }
+      } else {
+        throw new InvalidCommandException("(In TURN).");
+      }
+    } else {
+      throw new InvalidCommandException("(In TURN).");
+    }
+    game.opponentTurn(moves);
+  }
+  
+  public void checkNext(String text) throws InvalidCommandException {
     boolean validCommand = false;
     String[] command = text.split(" ");
     int playerNumber = -1;
@@ -75,18 +109,25 @@ public class Client extends Thread {
       if (playerNumber == game.getPlayer().getPlayerNumber()) {
         game.playerTurn();
       } else {
-        String playerName = "";
-        for (Player player : game.getPlayerList()) {
-          if (playerNumber == player.getPlayerNumber()) {
-            playerName = player.getName();
-          }
-        }
+        String playerName = getPlayerName(playerNumber);
         System.out.println(playerName + "'s turn.");
       }
+    } else {
+      throw new InvalidCommandException("(In NEXT).");
     }
   }  
   
-  public void checkNames(String text) {
+  public String getPlayerName(int playerNumber) {
+    String playerName = "";
+    for (Player player : game.getPlayerList()) {
+      if (playerNumber == player.getPlayerNumber()) {
+        playerName = player.getName();
+      }
+    }
+    return playerName;
+  }
+  
+  public void checkNames(String text) throws InvalidCommandException {
     boolean validCommand = false;
     String[] command = text.split(" ");
     if (text.startsWith(Game.NAMES) 
@@ -97,6 +138,8 @@ public class Client extends Thread {
         String number = command[(2 * i) + 2];
         addPlayer(name, number);
       }
+    } else {
+      throw new InvalidCommandException("(In NAMES).");
     }
   }
   
@@ -111,7 +154,7 @@ public class Client extends Thread {
     game.addPlayerToList(player1);
   }
   
-  public void checkWelcome(String text) {
+  public void checkWelcome(String text) throws InvalidCommandException {
     boolean validCommand = false;
     String[] command = text.split(" ");
     int playerNumber = -1;
@@ -129,15 +172,9 @@ public class Client extends Thread {
         Player player = new ComputerPlayer(command[1], playerNumber, new NaiveStrategy());
         game.setPlayer(player);
       }
+    } else {
+      throw new InvalidCommandException("(In WELCOME).");
     }
-  }
-  
-  
-  public boolean validWelcomeCommand(String[] command) throws InvalidCommandException {
-    boolean validCommand = false;
-    
-    validCommand = true;
-    return validCommand;
   }
   
   /** send a message to a ClientHandler. */
