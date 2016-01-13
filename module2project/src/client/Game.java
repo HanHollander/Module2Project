@@ -49,14 +49,9 @@ public class Game {
     System.out.print("Starting client... ");
     client.start();
     System.out.println("Client started.");
-    start();
-  }
-  
-  
-  
-  public synchronized void start() {
     client.sendMessage(HELLO + " " + playerName);
   }
+  
   
   
   
