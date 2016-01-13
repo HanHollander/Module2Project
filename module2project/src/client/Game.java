@@ -29,6 +29,8 @@ public class Game {
   public static final String END = "END";
   public static final String HELLO = "HELLO";
   public static final String WELCOME = "WELCOME";
+  public static final String NAMES = "NAMES";
+  public static final String NEXT = "NEXT";
   private Client client;
   private String playerType;
   
@@ -49,14 +51,9 @@ public class Game {
     System.out.print("Starting client... ");
     client.start();
     System.out.println("Client started.");
-    start();
-  }
-  
-  
-  
-  public synchronized void start() {
     client.sendMessage(HELLO + " " + playerName);
   }
+  
   
   
   
@@ -70,9 +67,16 @@ public class Game {
   public void setPlayer(Player player) {
     this.player = player;
   }
+  public Player getPlayer() {
+    return player;
+  }
+  
+  
+  
   
   public void playerTurn() {
     setPlayerTurn(true);
+    System.out.println("It is your turn!");
     while (playerTurn) {
       System.out.println(player.handToString());
       makeMove(board);
