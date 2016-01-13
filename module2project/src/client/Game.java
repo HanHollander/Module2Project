@@ -31,6 +31,10 @@ public class Game {
   public static final String WELCOME = "WELCOME";
   public static final String NAMES = "NAMES";
   public static final String NEXT = "NEXT";
+  public static final String NEW = "NEW";
+  public static final String TURN = "TURN";
+  public static final String KICK = "KICK";
+  public static final String WINNER = "WINNER";
   private Client client;
   private String playerType;
   
@@ -106,16 +110,15 @@ public class Game {
       command = MOVE;
     }
     System.out.println("Command: " + command);
-    //send command
+    client.sendMessage(command);
     board.endTurn();
-    opponentTurn();
   }
   
-  public void opponentTurn() {
-    
-    
-    
-    playerTurn();
+  public void opponentTurn(List<Move> moves) {
+    for (Move move : moves) {
+      board.putTile(move);
+    }
+    board.endTurn();
   }
 
   public void makeMove(Board board) {
