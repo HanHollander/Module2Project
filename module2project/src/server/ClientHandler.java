@@ -74,7 +74,7 @@ public class ClientHandler extends Thread {
     } catch (IOException e) {
       System.out.println("Could not close socket in the shutdown procedure.");
     }
-    server.removeHandler(this);
+    server.removeHandler(playerNr);
   }
   
   private Boolean isValidStartMessage(String text) {
