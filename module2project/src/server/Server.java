@@ -4,7 +4,9 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Vector;
 
 /**
@@ -14,7 +16,9 @@ import java.util.Vector;
  */
 public class Server {
   private static final String USAGE = "usage: " + Server.class.getName() + " <port>";
-
+  
+  public Boolean startCommandCalled;
+  
   /** Start een Server-applicatie op. */
   public static void main(String[] args) {
     if (args.length != 1) {
@@ -29,12 +33,12 @@ public class Server {
 
 
   private int port;
-  private List<ClientHandler> threads;
+  private HashMap<Integer, ClientHandler> threads;
   private ServerSocket serverSocket;
   /** Constructs a new Server object. */
   public Server(int portArg) {
     port = portArg;
-    threads = new ArrayList<ClientHandler>();
+    threads = new HashMap<Integer, ClientHandler>();
     try {
       serverSocket = new ServerSocket(port);
     } catch (IOException e) {
@@ -49,11 +53,13 @@ public class Server {
    * communication with the Client.
    */
   public void run() {
-    while (true) {
+    int numberOfPlayers = 1;
+    while (numberOfPlayers < 4 && !startCommandCalled) {
       try {
-        ClientHandler ch = new ClientHandler(this, serverSocket.accept());
-        addHandler(ch);
+        ClientHandler ch = new ClientHandler(numberOfPlayers, this, serverSocket.accept());
+        addHandler(numberOfPlayers, ch);
         ch.start();
+        numberOfPlayers++;
       } catch (IOException e) {
         // TODO Auto-generated catch block
         e.printStackTrace();
@@ -71,8 +77,8 @@ public class Server {
    * @param msg message that is send
    */
   public void broadcast(String msg) {
-    for (ClientHandler ch : threads) {
-      ch.sendMessage(msg);
+    for (Map.Entry<Integer, ClientHandler> entry : threads.entrySet()) {
+      entry.getValue().sendMessage(msg);
     }
   }
 
@@ -80,15 +86,15 @@ public class Server {
    * Add a ClientHandler to the collection of ClientHandlers.
    * @param handler ClientHandler that will be added
    */
-  public void addHandler(ClientHandler handler) {
-    threads.add(handler);
+  public void addHandler(int playerNr, ClientHandler handler) {
+    threads.put(playerNr, handler);
   }
 
   /**
    * Remove a ClientHandler from the collection of ClientHanlders. 
    * @param handler ClientHandler that will be removed
    */
-  public void removeHandler(ClientHandler handler) {
-    threads.remove(handler);
+  public void removeHandler(int playerNr) {
+    threads.remove(playerNr);
   }
 }
