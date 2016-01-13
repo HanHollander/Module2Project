@@ -68,6 +68,10 @@ public class ClientHandler extends Thread {
     }
   }
   
+  public String getClientName() {
+    return clientName;
+  }
+  
   private void shutdown() {
     try {
       socket.close();

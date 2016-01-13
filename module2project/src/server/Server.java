@@ -56,7 +56,7 @@ public class Server {
     port = portArg;
     numberOfPlayers = numberOfPlayersArg;
     threads = new HashMap<Integer, ClientHandler>();
-    game = new Game();
+    game = new Game(this);
     try {
       serverSocket = new ServerSocket(port);
     } catch (IOException e) {

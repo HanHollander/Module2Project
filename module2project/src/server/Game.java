@@ -26,14 +26,16 @@ public class Game {
   private HashMap<Integer, Player> playerList;
   private int currentPlayer;
   private ArrayList<Tile> pool;
+  private Server server;
   
   //Constructor\\
   
-  public Game() {
+  public Game(Server server) {
+    this.server = server;
     board = new Board();
     playerList = new HashMap<Integer, Player>();
     currentPlayer = 0;
-    pool = new ArrayList();
+    pool = new ArrayList<Tile>();
     
     for (int i = 0; i < 3; i++) {
       for (String color : COLOURS) {
@@ -42,7 +44,61 @@ public class Game {
         }
       }
     }
+  }
+  
+  public Boolean checkTurn(List<Move> turn) {
+    Boolean result = true;
+    for (int i = 0; i < turn.size(); i++) {
+      result = result && board.checkMove(turn.get(i));
+    }
+    return result;
+  }
+  
+  public void applyTurn(Player player, List<Move> turn) {
+    for (int i = 0; i < turn.size(); i++) {
+      Move move = turn.get(i);
+      board.putTile(move);
+      try {
+        player.removeFromHand(move.getTile());
+      } catch (TileNotInHandException e) {
+        System.out.println("Tried to remove tile [" + move.getTile().toString() + "] from the hand of (" + player.toString() + ")"
+            + " but the tile was not in his/her hand.");
+      }
+    }
+    player.addToScore(board.getScoreCurrentTurn());
+    board.endTurn();
+  }
+  
+  public int getCurrentPlayer() {
+    return currentPlayer;
+  }
+  
+  public Server getServer() {
+    return server;
+  }
+  
+  public Tile swapTileWithPool(Tile tile) {
+    addTileToPool(tile);
+    return drawRandomTileFromPool();
+  }
+  
+  public void addTileToPool(Tile tile) {
+    pool.add(tile);
+  }
+  
+  /**
+   * Takes a random tile from the pool and removes it from the pool.
+   * @return A random tile from the pool.
+   */
+  public Tile drawRandomTileFromPool() {
+    int randomIndex = (int)Math.round(Math.random() * (pool.size() - 1));
+    Tile result = pool.get(randomIndex);
+    pool.remove(randomIndex);
+    return result;
+  }
+  
+  public void addPlayer(int playerNr, String name) {
     
   }
-
+  
 }

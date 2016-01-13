@@ -13,7 +13,7 @@ import exceptions.TileNotInHandException;
  * @author Han Hollander
  */
 
-public abstract class Player {
+public class Player {
     
   //Fields\\
     
@@ -21,6 +21,7 @@ public abstract class Player {
   private int playerNumber;
   private List<Tile> hand;
   private List<Move> moves;
+  private int score;
     
   //Constructor\\
     
@@ -34,6 +35,7 @@ public abstract class Player {
     this.playerNumber = playerNumber;
     this.hand = new ArrayList<Tile>();
     this.setMoves(new ArrayList<Move>());
+    score = 0;
   }
     
   //Functions\\
@@ -101,7 +103,7 @@ public abstract class Player {
   }
   
   public String toString() {
-    return "Player " + playerNumber + ": " + name;
+    return "Player-" + playerNumber + " " + name;
   }
 
   public List<Move> getMoves() {
@@ -110,6 +112,14 @@ public abstract class Player {
 
   public void setMoves(List<Move> moves) {
     this.moves = moves;
+  }
+  
+  public int getScore() {
+    return score;
+  }
+  
+  public void addToScore(int extraPoints) {
+    score += extraPoints;
   }
     
 }
