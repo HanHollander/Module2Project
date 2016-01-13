@@ -3,73 +3,40 @@ package client;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.net.InetAddress;
 import java.net.Socket;
 import java.net.UnknownHostException;
+import java.util.concurrent.locks.Condition;
+
+import exceptions.HandIsFullException;
+import exceptions.InvalidCommandException;
 
 /**
- * Client class for a simple client-server application
+ * Client class for a simple client-server application.
  * 
- * @author Theo Ruys
- * @version 2005.02.21
+ * @author Han
  */
 public class Client extends Thread {
   private static final String USAGE = "usage: java week7.cmdchat.Client <name> <address> <port>";
-
-  /** Start een Client-applicatie op. */
-  public static void main(String[] args) {
-    if (args.length != 3) {
-      System.out.println(USAGE);
-      System.exit(0);
-    }
-
-    InetAddress host = null;
-    int port = 0;
-
-    try {
-      host = InetAddress.getByName(args[1]);
-    } catch (UnknownHostException e) {
-      print("ERROR: no valid hostname!");
-      System.exit(0);
-    }
-
-    try {
-      port = Integer.parseInt(args[2]);
-    } catch (NumberFormatException e) {
-      print("ERROR: no valid portnummer!");
-      System.exit(0);
-    }
-
-    try {
-      Client client = new Client(args[0], host, port);
-      client.sendMessage(args[0]);
-      client.start();
-
-      do {
-        String input = readString("");
-        client.sendMessage(input);
-      } while (true);
-
-    } catch (IOException e) {
-      print("ERROR: couldn't construct a client object!");
-      System.exit(0);
-    }
-
-  }
 
   private String clientName;
   private Socket sock;
   private BufferedReader in;
   private BufferedWriter out;
+  private Game game;
+  
 
   /**
    * Constructs a Client-object and tries to make a socket connection
    */
-  public Client(String name, InetAddress host, int port) throws IOException {
+  public Client(String name, InetAddress host, int port, Game game) throws IOException {
     clientName = name;
     sock = new Socket(host, port);
+    this.game = game;
     in = new BufferedReader(new InputStreamReader(sock.getInputStream()));
     out = new BufferedWriter(new OutputStreamWriter(sock.getOutputStream()));
   }
@@ -77,20 +44,66 @@ public class Client extends Thread {
   /**
    * Reads the messages in the socket connection. Each message will be forwarded to the MessageUI
    */
-  public void run() {
+  public synchronized void run() {
     String text = "";
     try {
       while (text != null) {
-
         text = in.readLine();
         if (!(text == null) && !text.equals("\n")) {
-          print(text);
+          checkWelcome(text);
         }
       }
     } catch (IOException e) {
-      //
+      System.out.println("ÏOException");
     }
   }
+  
+  
+  public synchronized void checkWelcome(String text) {
+    boolean validCommand = false;
+    String[] command = text.split(" ");
+    int playerNumber = -1;
+    if (text.startsWith(Game.WELCOME) && command.length == 3) {
+      try {
+        playerNumber = Integer.parseInt(command[2]);
+      } catch (NumberFormatException e) {
+        System.out.println("Not a valid number.");
+      }
+      if (game.getPlayerType() == "h") {
+        Player player = new HumanPlayer(command[1], playerNumber);
+        game.addPlayerToList(player);
+        game.setPlayer(player);
+      }
+      if (game.getPlayerType() == "b") {
+        Player player = new ComputerPlayer(command[1], playerNumber, new NaiveStrategy());
+        game.addPlayerToList(player);
+        game.setPlayer(player);
+      }
+      System.out.println(game.getPlayerList());
+      for (Player player : game.getPlayerList()) {
+        try {
+          player.addToHand(new Tile("R", "o"));
+          player.addToHand(new Tile("B", "o"));
+          player.addToHand(new Tile("Y", "o"));
+          player.addToHand(new Tile("P", "o"));
+        } catch (HandIsFullException e) {
+          System.out.println("Hand is full.");
+        }
+      }
+      game.playerTurn();
+    }
+  }
+  
+  
+  public boolean validWelcomeCommand(String[] command) throws InvalidCommandException {
+    boolean validCommand = false;
+    
+    validCommand = true;
+    return validCommand;
+  }
+  
+  
+  
 
   /** send a message to a ClientHandler. */
   public void sendMessage(String msg) {
@@ -134,4 +147,6 @@ public class Client extends Thread {
 
     return (antw == null) ? "" : antw;
   }
+
+ 
 }

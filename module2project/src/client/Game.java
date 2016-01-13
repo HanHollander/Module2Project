@@ -1,5 +1,10 @@
 package client;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.net.InetAddress;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,20 +21,54 @@ public class Game {
     
   private List<Player> playerList;
   private Player player;
+  private String playerName;
   
   private boolean playerTurn = false;
   public static final String MOVE = "MOVE";
   public static final String SWAP = "SWAP";
   public static final String END = "END";
   public static final String HELLO = "HELLO";
+  public static final String WELCOME = "WELCOME";
+  private Client client;
+  private String playerType;
   
   //Constructor\\
   
-  public Game(List<Player> playerList, Player player) {
-    this.setPlayerList(playerList);
-    this.player = player;
+  public Game(String name, InetAddress host, int port, String playerType) {
     this.board = new Board();
-    
+    playerList = new ArrayList<>();
+    this.playerName = name;
+    this.setPlayerType(playerType);
+    try {
+      System.out.print("Creating client... ");
+      client = new Client(name, host, port, this);
+      System.out.println("Client "+ client.getClientName() + " created");
+    } catch (IOException e) {
+      System.out.println("Client could not be created.");
+    }
+    System.out.print("Starting client... ");
+    client.start();
+    System.out.println("Client started.");
+    start();
+  }
+  
+  
+  
+  public synchronized void start() {
+    client.sendMessage(HELLO + " " + playerName);
+  }
+  
+  
+  
+  
+  
+  
+  
+  public void addPlayerToList(Player player) {
+    playerList.add(player);
+  }
+  public void setPlayer(Player player) {
+    this.player = player;
   }
   
   public void playerTurn() {
@@ -110,6 +149,22 @@ public class Game {
   public void setPlayerTurn(boolean bool) {
     playerTurn = bool;
   }
+
+
+
+  public String getPlayerType() {
+    return playerType;
+  }
+
+
+
+  public void setPlayerType(String playerType) {
+    this.playerType = playerType;
+  }
+
+
+
+ 
  
     
     

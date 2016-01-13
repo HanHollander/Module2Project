@@ -8,24 +8,33 @@ import java.io.OutputStreamWriter;
 import java.net.InetAddress;
 import java.net.Socket;
 import java.net.UnknownHostException;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.ReentrantLock;
 
 
 public class Qwirkle {
   
   private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-  
-  
-  public static void main(String[] args) {
+  private static Game game;
+
+  public static synchronized void main(String[] args) {
     System.out.println("Welcome in Qwirkle");
     System.out.println("(only characters a-z A-Z and 1 to 16 characters long)");
     System.out.println("What is your name?");
-    String name = readInput();
+    //String name = readInput();
+    String name = "Han";
     System.out.println("");
     System.out.println("Server IP-adress:");
-    String addr = readInput();
+    //String addr = readInput();
+    String addr = "localhost";
     System.out.println("");
     System.out.println("Server port:");
-    String portString = readInput();
+    //String portString = readInput();
+    String portString = "7777";
+    System.out.println("");
+    System.out.println("Bot: 'b', Human: 'h'");
+    //FOR NOW
+    String playerType = "h";
     
     InetAddress host = null;
     int port = 0;
@@ -48,25 +57,7 @@ public class Qwirkle {
       System.exit(0);
     }
     
-    Socket sock;
-    BufferedReader in = null;
-    BufferedWriter out = null;
-    try {    
-      System.out.print("Creating socket... ");
-      sock = new Socket(host, port);
-      System.out.println("Socket created.");
-      System.out.print("Creating streams... ");
-      in = new BufferedReader(new InputStreamReader(sock.getInputStream()));
-      out = new BufferedWriter(new OutputStreamWriter(sock.getOutputStream()));
-      System.out.println("Streams created.");
-    } catch (IOException e) {
-      System.out.println("Could not create socket and streams.");
-      System.exit(0);
-    }
-    
-    writeSocketOutput(out, Game.HELLO + " " + name);
-    String welcomeMessage = readSocketInput(in); //////////////////WHERE WE STOPPED\\\\\\\\\\\\\\\\\\\\\\\\\\\
-    System.out.println(welcomeMessage);
+    game = new Game(name, host, port, playerType);
     
   }
   
@@ -79,31 +70,6 @@ public class Qwirkle {
         input = reader.readLine();
       } catch (IOException e) {
         System.out.println("Could not read line.");
-      }
-      validInput = true;
-    }
-    return input;
-  }
-  
-  public static void writeSocketOutput(BufferedWriter out, String msg) {
-    try {
-      out.write(msg);
-      out.newLine();
-      out.flush();
-    } catch (IOException e) {
-      System.out.println("Could not send message to Server.");
-    }
-  }
-  
-  /////////////STILL VALIDATE INPUT!!!\\\\\\\\\\\\
-  public static String readSocketInput(BufferedReader in) {
-    String input = "";
-    boolean validInput = false;
-    while (!validInput) {
-      try {
-        input = in.readLine();
-      } catch (IOException e) {
-        System.out.println("Could not read line from server.");
       }
       validInput = true;
     }
