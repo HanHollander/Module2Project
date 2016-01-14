@@ -87,7 +87,7 @@ public class Server {
         ClientHandler ch = new ClientHandler(numberOfConnectingPlayer, this, serverSocket.accept(), monitor);
         addHandler(numberOfConnectingPlayer, ch);
         ch.start();
-        numberOfPlayers++;
+        numberOfConnectingPlayer++;
       } catch (IOException e) {
         System.out.println("Could not connect to client " + numberOfConnectingPlayer);
       }
