@@ -477,23 +477,7 @@ public class Board {
     return horizontalResult + verticalResult;
   }
   
-  public void applyTurn(Player player, List<Move> turn) {
-    String msg = "TURN " + player.getPlayerNumber();
-    for (int i = 0; i < turn.size(); i++) {
-      Move move = turn.get(i);
-      msg = msg + " " + move.toString();
-      putTile(move);
-      try {
-        player.removeFromHand(move.getTile());
-      } catch (TileNotInHandException e) {
-        System.out.println("Tried to remove tile [" + move.getTile().toString() + "]"
-            + " from the hand of (" + player.toString() + ")"
-            + " but the tile was not in his/her hand.");
-      }
-    }
-    player.addToScore(getScoreCurrentTurn());
-    endTurn();
-  }
+  
   
   /**
    * Main method. Purpose = testing.

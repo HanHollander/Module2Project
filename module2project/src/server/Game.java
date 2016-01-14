@@ -65,6 +65,37 @@ public class Game {
     server.broadcast("TURN " + player.getPlayerNumber() + " empty");
   }
   
+  public void applyMoveTurn(Player player, List<Move> turn) {
+    //Put tiles on the board
+    for (int i = 0; i < turn.size(); i++) {
+      Move move = turn.get(i);
+      board.putTile(move);
+      try {
+        player.removeFromHand(move.getTile());
+      } catch (TileNotInHandException e) {
+        System.out.println("Tried to remove tile [" + move.getTile().toString() + "]"
+            + " from the hand of (" + player.toString() + ")"
+            + " but the tile was not in his/her hand.");
+      }
+    }
+    //Get tiles from the pool
+    List<Tile> tilesBack = new ArrayList<Tile>();
+    for (int i = 0; i < turn.size() && pool.size() > 0; i++) {
+      Tile tile = drawRandomTileFromPool();
+      try {
+        player.addToHand(tile);
+      } catch (HandIsFullException e) {
+        System.out.println(e);
+      }
+      tilesBack.add(tile);
+    }
+    
+    server.giveTiles(player.getPlayerNumber(), tilesBack);
+    server.sendTurn(player.getPlayerNumber(), turn);
+    player.addToScore(board.getScoreCurrentTurn());
+    board.endTurn();
+  }
+  
   public boolean checkSwapTurn(List<Tile> turn , Player player) {
     boolean result = true;
     List<Tile> hand = player.getHand();
@@ -84,15 +115,28 @@ public class Game {
   public boolean checkTurn(List<Move> turn, Player player) {
     Boolean result = true;
     Board testBoard = board.deepCopy();
+    List<Tile> hand = player.getHand();
+    
     for (int i = 0; i < turn.size(); i++) {
+      
       Move move = turn.get(i);
+      Tile tile = move.getTile();
+      for (Tile tileInHand : hand) {
+        result = result || tile.equals(tileInHand);
+      }
+      if (!result) {
+        break;
+      }
+      System.out.println("Testing move: " + move.toString());
       result = result && testBoard.checkMove(move);
+      System.out.println("Result = " + result);
       if (result) {
         testBoard.putTile(move);
       } else {
         break;
       }
-      result = result && player.getHand().contains(move.getTile());
+      
+      
     }
     return result;
   }
@@ -143,6 +187,20 @@ public class Game {
         }
       }
     }
+  }
+  
+  public int getWinningPlayerNr() {
+    Set<Integer> playerNrs = playerList.keySet();
+    int highestPointsYet = -1;
+    int playerNrWithhighestPointsYet = 0;
+    for (int playerNr : playerNrs) {
+      int score = getPlayer(playerNr).getScore();
+      if (score > highestPointsYet) {
+        highestPointsYet = score;
+        playerNrWithhighestPointsYet = playerNr;
+      }
+    }
+    return playerNrWithhighestPointsYet;
   }
 
   public int getCurrentPlayer() {

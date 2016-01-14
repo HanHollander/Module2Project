@@ -126,7 +126,7 @@ public class Server {
     System.out.println("Player-" + playerNrWithTheBestHand + " may start");
     broadcast("NEXT " + playerNrWithTheBestHand);
     
-    while (game.getPoolSize() > 0) {
+    while (game.getPoolSize() > 0 && threads.size() > 1) {
       synchronized (monitor) {
         try {
           monitor.wait();
@@ -134,10 +134,9 @@ public class Server {
           System.out.println("Interupted while waiting someone to make a move");
         }
         nextPlayerTurn();
-        broadcast("NEXT " + playerNrWithTheBestHand);
       }
     }
-    
+    broadcast("WINNER " + game.getWinningPlayerNr());
     
   }
 
@@ -209,21 +208,24 @@ public class Server {
   }
   
   public void sendTurn(int playerNr, List<Move> turn) {
-    String msg = "TURN";
-    if (turn.get(0).getType() == Type.MOVE) {
-      for (int i = 0; i < turn.size(); i++) {
-        msg = msg + " " + turn.get(i).toString();
-      }
-    } else {
-      msg = msg + " empty";
+    String msg = "TURN " + playerNr;
+    
+    for (int i = 0; i < turn.size(); i++) {
+      msg = msg + " " + turn.get(i).toString();
     }
+    
     broadcast(msg);
   }
   
   public void giveTiles(int playerNr, List<Tile> tiles) {
-    String msg = "NEW";
-    for (Tile tile : tiles) {
-      msg = msg + " " + tile.toString();
+    String msg;
+    if (tiles.size() > 0) {
+      msg = "NEW";
+      for (Tile tile : tiles) {
+        msg = msg + " " + tile.toString();
+      }
+    } else {
+      msg = "NEW empty";
     }
     threads.get(playerNr).sendMessage(msg);
   }

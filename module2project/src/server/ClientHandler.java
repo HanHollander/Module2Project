@@ -71,7 +71,7 @@ public class ClientHandler extends Thread {
         if (server.getGame().getCurrentPlayer() == playerNr) {
           if (isValidMoveTurn(text)) {
             List<Move> turn = convertStringToMoveTurn(text);
-            server.getGame().getBoard().applyTurn(server.getGame().getPlayer(playerNr), turn);
+            server.getGame().applyMoveTurn(server.getGame().getPlayer(playerNr), turn);
             synchronized (monitor) {
               monitor.notifyAll();
             }
