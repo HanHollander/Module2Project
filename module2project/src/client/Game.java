@@ -49,13 +49,16 @@ public class Game {
       System.out.print("Creating client... ");
       client = new Client(name, host, port, this);
       System.out.println("Client "+ client.getClientName() + " created");
+      System.out.print("Starting client... ");
+      client.start();
+      System.out.println("Client started.");
+      client.sendMessage(HELLO + " " + playerName);
     } catch (IOException e) {
       System.out.println("Client could not be created.");
+    } catch (NullPointerException e) {
+      System.out.println("Client could not be started.");
     }
-    System.out.print("Starting client... ");
-    client.start();
-    System.out.println("Client started.");
-    client.sendMessage(HELLO + " " + playerName);
+    
   }
   
   

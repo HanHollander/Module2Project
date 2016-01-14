@@ -45,7 +45,7 @@ public class HumanPlayer extends Player {
     Move move = null;
     while (!validMove) {
       Type listType;
-      System.out.println("Moves: " + getMoves().size());
+      System.out.println("Moves: " + getMoves() + " " + getMoves().size());
       if (getMoves().size() == 0) {
         listType = Type.ANY;
       } else {

@@ -11,6 +11,7 @@ import java.net.InetAddress;
 import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.locks.Condition;
 
@@ -173,7 +174,7 @@ public class Client extends Thread {
         game.setPlayer(player);
       }
     } else {
-      throw new InvalidCommandException("(In WELCOME).");
+      throw new InvalidCommandException("(In WELCOME: " + Arrays.toString(command) + ")");
     }
   }
   
