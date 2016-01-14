@@ -500,14 +500,18 @@ public class Board {
    * @param args Arguments
    */
   public static void main(String[] args) {
-    Board board = new Board();
-    Tile tile = new Tile("A", "B");
-    Move move = new Move(tile, 91, 91);
-    Move move2 = new Move(tile, 75, 91);
-    Move move3 = new Move(tile, 91, 80);
-    board.putTile(move);
-    board.putTile(move2);
-    board.putTile(move3);
-    System.out.print(board.toString());
+//    Board board = new Board();
+//    Tile tile = new Tile("A", "B");
+//    Move move = new Move(tile, 91, 91);
+//    Move move2 = new Move(tile, 75, 91);
+//    Move move3 = new Move(tile, 91, 80);
+//    board.putTile(move);
+//    board.putTile(move2);
+//    board.putTile(move3);
+//    System.out.print(board.toString());
+    String string = "ab";
+    System.out.println(string);
+    System.out.println(string.substring(0, 1));
+    System.out.println(string.substring(1, 2));
   }
 }

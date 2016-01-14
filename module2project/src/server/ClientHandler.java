@@ -97,7 +97,7 @@ public class ClientHandler extends Thread {
     String[] swapTextParts = text.substring(5).split(" ");
     List<Tile> turn = new ArrayList<Tile>();
     for (String tileText : swapTextParts) {
-      turn.add(new Tile(tileText.substring(0, 0), tileText.substring(1, 1)));
+      turn.add(new Tile(tileText.substring(0, 1), tileText.substring(1, 2)));
     }
     return turn;
   }
@@ -124,8 +124,8 @@ public class ClientHandler extends Thread {
       if (swapTextParts.length > 0 && swapTextParts.length < 7) {
         for (String tile : swapTextParts) {
           if (tile.length() == 2) {
-            if (COLOURS.contains(tile.substring(0,0)) 
-                && SHAPES.contains(tile.substring(1,1))) {
+            if (COLOURS.contains(tile.substring(0,1)) 
+                && SHAPES.contains(tile.substring(1,2))) {
               result = result && true;
             }
           } else {
@@ -160,8 +160,8 @@ public class ClientHandler extends Thread {
           if ((i % 3) == 0) {
             String tileText = moveTextParts[i];
             if (tileText.length() == 2) {
-              if (COLOURS.contains(tileText.substring(0,0)) 
-                  && SHAPES.contains(tileText.substring(1,1))) {
+              if (COLOURS.contains(tileText.substring(0,1)) 
+                  && SHAPES.contains(tileText.substring(1,2))) {
                 result = result && true;
               }
             } else {
@@ -238,7 +238,7 @@ public class ClientHandler extends Thread {
       String name = text.substring(6);
       result = result && name.length() < 17;
       for (int i = 0; i < name.length(); i++) {
-        result = result && allowedChars.contains(name.substring(i, i));
+        result = result && allowedChars.contains(name.substring(i, i + 1));
       }
     }
     return result;

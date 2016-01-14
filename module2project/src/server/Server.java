@@ -209,14 +209,13 @@ public class Server {
   }
   
   public void sendTurn(int playerNr, List<Move> turn) {
-    String msg = "TURN ";
+    String msg = "TURN";
     if (turn.get(0).getType() == Type.MOVE) {
       for (int i = 0; i < turn.size(); i++) {
-        msg = msg + turn.get(i).toString() + " ";
+        msg = msg + " " + turn.get(i).toString();
       }
-      msg = msg.substring(0, msg.length() - 2);
     } else {
-      msg = msg + "empty";
+      msg = msg + " empty";
     }
     broadcast(msg);
   }
