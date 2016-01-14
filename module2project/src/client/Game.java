@@ -36,7 +36,7 @@ public class Game {
   public static final String WINNER = "WINNER";
   
   private Client client;
-  private String playerType;
+  private String playerType; 
   
   private int pool = 108;
   private boolean playerTurn;

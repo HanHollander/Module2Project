@@ -188,6 +188,7 @@ public class Client extends Thread {
         String number = command[(2 * i) + 2];
         addPlayer(name, number);
       }
+      System.out.println("Players participating: " + game.getPlayerList());
     }  
   }
 
