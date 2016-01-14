@@ -67,7 +67,7 @@ public class ClientHandler extends Thread {
     while (server.getGame().getPoolSize() > 0) {
       try {
         text = in.readLine();
-        System.out.println("Received from client " + playerNr + ": " + text);
+        System.out.println("Received from player-" + playerNr + ": " + text);
         if (server.getGame().getCurrentPlayer() == playerNr) {
           if (isValidMoveTurn(text)) {
             List<Move> turn = convertStringToMoveTurn(text);
@@ -76,12 +76,12 @@ public class ClientHandler extends Thread {
             List<Tile> turn = convertStringToSwapTurn(text);
             server.getGame().applySwapTurn(turn, server.getGame().getPlayer(playerNr));
           } else {
-            System.out.println("Client " + playerNr + " made a invalid turn");
+            System.out.println("Player-" + playerNr + " made a invalid turn");
             shutdown();
           }
         } else {
           //KICK
-          System.out.println("Client " + playerNr + " spoke before his/her turn");
+          System.out.println("Player-" + playerNr + " spoke before his/her turn");
           shutdown();
         }
       } catch (IOException e) {
