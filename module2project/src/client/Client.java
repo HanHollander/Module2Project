@@ -52,6 +52,7 @@ public class Client extends Thread {
     try {
       while (text != null) {
         text = in.readLine();
+        System.out.println("Received command: " + text);
         if (!(text == null) && !text.equals("\n")) {
           checkWelcome(text);
           checkNames(text);
@@ -81,6 +82,7 @@ public class Client extends Thread {
           Tile tile = new Tile(colour, shape);
           try {
             game.getPlayer().addToHand(tile);
+            System.out.println("Added to hand: " + tile.toString());
           } catch (HandIsFullException e) {
             System.out.println(e);
           }
@@ -173,6 +175,7 @@ public class Client extends Thread {
         game.playerTurn();
       } else {
         String playerName = getPlayerName(playerNumber);
+        System.out.println("playerName: " + playerName);
         System.out.println(playerName + "'s turn.");
       }
     }  
