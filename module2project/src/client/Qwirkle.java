@@ -24,10 +24,12 @@ public class Qwirkle {
     String name = readInput();
     System.out.println("");
     System.out.println("Server IP-adress:");
-    String addr = readInput();
+    //String addr = readInput();
+    String addr = "localhost";
     System.out.println("");
     System.out.println("Server port:");
-    String portString = readInput();
+    //String portString = readInput()
+    String portString = "7777";
     System.out.println("");
     System.out.println("Bot: 'b', Human: 'h'");
     //FOR NOW

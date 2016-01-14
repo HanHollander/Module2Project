@@ -57,6 +57,7 @@ public class HumanPlayer extends Player {
         if (move.getType().equals(Type.MOVE) 
             && (listType.equals(Type.ANY) || listType.equals(Type.MOVE))) {
           if (board.checkMove(move)) {
+            System.out.println("Passed board.checkMove()");
             try {
               removeFromHand(move.getTile());
             } catch (TileNotInHandException e) {
@@ -79,6 +80,7 @@ public class HumanPlayer extends Player {
         } else  if (move.getType().equals(Type.END)) {
           validMove = true;
         } else {
+          System.out.println("Faaled board.checkMove()");
           throw new InvalidMoveException();
         }
       } catch (InvalidCommandException e) {
