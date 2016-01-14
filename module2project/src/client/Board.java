@@ -229,7 +229,7 @@ public class Board {
             || !getTile(move.getRow(), move.getColumn() + 1).toString().equals(empty);
         
         if (gotHorizontalRow) {
-          System.out.println("CHECK 1");
+          System.out.println("CHECK HORIZONTAL");
           // Check if the current move fits in the horizontal row.
           ArrayList<String> adjesentHorizontalTilesShapes = new ArrayList<String>();
           ArrayList<String> adjesentHorizontalTilesColors = new ArrayList<String>();
@@ -246,10 +246,10 @@ public class Board {
             adjesentHorizontalTilesColors.add(getTile(row, column).getColor());
             column--;
           }
-          System.out.println("adjesentHorizontalTilesShapes: " + adjesentHorizontalTilesShapes);
-          System.out.println("adjesentHorizontalTilesColors: " + adjesentHorizontalTilesColors);
+          System.out.println("adjecentHorizontalTilesShapes: " + adjesentHorizontalTilesShapes);
+          System.out.println("adjecentHorizontalTilesColors: " + adjesentHorizontalTilesColors);
           Boolean shapesAreTheSame = true;
-          String templateShape = adjesentHorizontalTilesShapes.get(0);
+          String templateShape = move.getTile().getShape();
           for (String shape : adjesentHorizontalTilesShapes) {
             shapesAreTheSame = shapesAreTheSame && shape.equals(templateShape);
           }
@@ -258,7 +258,7 @@ public class Board {
               && !adjesentHorizontalTilesColors.contains(move.getTile().getColor());
           
           Boolean colorsAreTheSame = true;
-          String templateColor = adjesentHorizontalTilesColors.get(0);
+          String templateColor = move.getTile().getColor();
           for (String color : adjesentHorizontalTilesColors) {
             colorsAreTheSame = colorsAreTheSame && color.equals(templateColor);
           }
@@ -274,7 +274,7 @@ public class Board {
         }
         
         if (gotVerticalRow) {
-          System.out.println("CHECK 2");
+          System.out.println("CHECK VERTICAL");
           // Check if the current move fits in the vertical row.
           ArrayList<String> adjesentVerticalTilesShapes = new ArrayList<String>();
           ArrayList<String> adjesentVerticalTilesColors = new ArrayList<String>();
@@ -292,7 +292,7 @@ public class Board {
             row--;
           }
           Boolean shapesAreTheSame = true;
-          String templateShape = adjesentVerticalTilesShapes.get(0);
+          String templateShape = move.getTile().getShape();
           for (String shape : adjesentVerticalTilesShapes) {
             shapesAreTheSame = shapesAreTheSame && shape.equals(templateShape);
           }
@@ -300,7 +300,7 @@ public class Board {
               && !adjesentVerticalTilesColors.contains(move.getTile().getColor());
           
           Boolean colorsAreTheSame = true;
-          String templateColor = adjesentVerticalTilesColors.get(0);
+          String templateColor = move.getTile().getColor();
           for (String color : adjesentVerticalTilesColors) {
             colorsAreTheSame = colorsAreTheSame && color.equals(templateColor);
           }
