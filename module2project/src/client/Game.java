@@ -23,7 +23,6 @@ public class Game {
   private Player player;
   private String playerName;
   
-  private boolean playerTurn = false;
   public static final String MOVE = "MOVE";
   public static final String SWAP = "SWAP";
   public static final String END = "END";
@@ -35,8 +34,12 @@ public class Game {
   public static final String TURN = "TURN";
   public static final String KICK = "KICK";
   public static final String WINNER = "WINNER";
+  
   private Client client;
   private String playerType;
+  
+  private int pool = 108;
+  private boolean playerTurn;
   
   //Constructor\\
   
@@ -52,13 +55,13 @@ public class Game {
       System.out.print("Starting client... ");
       client.start();
       System.out.println("Client started.");
+      System.out.print("Sending registration message... ");
       client.sendMessage(HELLO + " " + playerName);
-    } catch (IOException e) {
-      System.out.println("Client could not be created.");
-    } catch (NullPointerException e) {
-      System.out.println("Client could not be started.");
+      System.out.println("Registration message send.");
+      System.out.print("Waiting for welcome message... ");
+    } catch (IOException | NullPointerException e) {
+      System.out.println("Client could not be created or started.");
     }
-    
   }
   
   
@@ -86,7 +89,7 @@ public class Game {
     System.out.println("It is your turn!");
     while (playerTurn) {
       System.out.println(player.handToString());
-      makeMove(board);
+      makeMove();
       System.out.println(board.toString());
     }
     endTurn();
@@ -102,7 +105,7 @@ public class Game {
           command = command + move.getTile().toString() 
               + " " + move.getRow() + " " + move.getColumn() + " ";
         }
-        System.out.println("Score :" + board.getScoreCurrentTurn());
+        //System.out.println("Score :" + board.getScoreCurrentTurn());
       } else if (listType == SWAP) {
         for (Move move : player.getMoves()) {
           command = command + move.getTile().toString() + " ";
@@ -124,14 +127,13 @@ public class Game {
     board.endTurn();
   }
 
-  public void makeMove(Board board) {
+  public void makeMove() {
     Move move = null;
     try {
       move = player.determineMove(board);
       if (move.getType().equals(Type.MOVE)) {
         board.putTile(move);
       } else if (move.getType().equals(Type.SWAP)) {
-        //Send command
       } else if (move.getType().equals(Type.END)) {
         setPlayerTurn(false);
       }
@@ -170,6 +172,27 @@ public class Game {
 
   public void setPlayerType(String playerType) {
     this.playerType = playerType;
+  }
+
+
+
+
+
+
+
+
+  public int getPool() {
+    return pool;
+  }
+
+
+
+
+
+
+
+  public void setPool(int pool) {
+    this.pool = pool;
   }
 
 

@@ -55,8 +55,11 @@ public class Client extends Thread {
         if (!(text == null) && !text.equals("\n")) {
           checkWelcome(text);
           checkNames(text);
-          checkNext(text);
           checkTurn(text);
+          checkNext(text);
+          checkNew(text);
+          checkKick(text);
+          checkWinner(text);
         }
       }
     } catch (IOException e) {
@@ -66,15 +69,75 @@ public class Client extends Thread {
     }
   }
   
+  public void checkNew(String text) {
+    String[] command = text.split(" ");
+    if (text.startsWith(Game.NEW) && command.length <= 8) {
+      if (command.length == 2 && command[2].equals("empty")) {
+        System.out.println("There are no tiles left in the pool.");
+      } else {
+        for (int i = 0; i < command.length - 1; i++) {
+          String colour = command[i].substring(0, 0);
+          String shape = command[i].substring(1, 1);
+          Tile tile = new Tile(colour, shape);
+          try {
+            game.getPlayer().addToHand(tile);
+          } catch (HandIsFullException e) {
+            System.out.println(e);
+          }
+          game.setPool(game.getPool() - 1);
+        }
+      }
+    }
+  }
+  
+  public void checkKick(String text) {
+    String[] command = text.split(" ");
+    int tilesBackToPool = 0;
+    int playerNumber = -1;
+    int i = 0;
+    if (text.startsWith(Game.KICK)) {
+      try {
+        playerNumber = Integer.parseInt(command[1]);
+        tilesBackToPool = Integer.parseInt(command[2]);
+      } catch (NumberFormatException e) {
+        System.out.println("Not a number. KICK");
+      }
+      while (i < tilesBackToPool) {
+        game.setPool(game.getPool() + 1);
+        i++;
+      }
+      System.out.println(getPlayerName(playerNumber) +  " IS KICKED FOR THE FOLLOWING REASON:" + text.substring(7));
+    }
+  }
+  
+  public void checkWinner(String text) {
+    String[] command = text.split(" ");
+    int playerNumber = -1;
+    if (text.startsWith(Game.WINNER)) {
+      try {
+        playerNumber = Integer.parseInt(command[1]);
+      } catch (NumberFormatException e) {
+        System.out.println("Not a number. WINNER.");
+      }
+      System.out.println("The winner is... " + getPlayerName(playerNumber) + "!");
+      shutdown();
+      //CLOSE GAME!
+    }
+  }
+  
   public void checkTurn(String text) throws InvalidCommandException {
-    boolean validCommand = false;
     String[] command = text.split(" ");
     int playerNumber = -1;
     List<Move> moves = new ArrayList<>();
     if (text.startsWith(Game.TURN)) {
+      try {
+        playerNumber = Integer.parseInt(command[2]);
+      } catch (NumberFormatException e) {
+        System.out.println("Not a number. TURN1");
+      }
       if (command.length == 3 && command[3].equals("empty")) {
-        System.out.println(getPlayerName(2) + " swapped." );
-      } else if (command.length < 20 && ((command.length - 2) % 3 == 0)) {
+        System.out.println(getPlayerName(playerNumber) + " swapped." );
+      } else if (command.length <= 20 && ((command.length - 2) % 3 == 0)) {
         for (int i = 0; i < ((command.length - 2) / 3); i++ ) {
           int row = 0;
           int column = 0;
@@ -82,7 +145,7 @@ public class Client extends Thread {
             row = Integer.parseInt(command[(3 * i) + 2]);
             column = Integer.parseInt(command[(3 * i) + 3]);
           } catch (NumberFormatException e) {
-            System.out.println("Not a number.");
+            System.out.println("Not a number. TURN2");
           }
           String colour = command[(3 * i) + 2].substring(0, 0);
           String shape = command[(3 * i) + 2].substring(1, 1);
@@ -90,22 +153,21 @@ public class Client extends Thread {
         }
       } else {
         throw new InvalidCommandException("(In TURN).");
+      } 
+      if (playerNumber != game.getPlayer().getPlayerNumber()) {
+        game.opponentTurn(moves);
       }
-    } else {
-      throw new InvalidCommandException("(In TURN).");
-    }
-    game.opponentTurn(moves);
+    }  
   }
   
   public void checkNext(String text) throws InvalidCommandException {
-    boolean validCommand = false;
     String[] command = text.split(" ");
     int playerNumber = -1;
     if (text.startsWith(Game.NEXT) && command.length == 2) {
       try {
         playerNumber = Integer.parseInt(command[1]);
       } catch (NumberFormatException e) {
-        System.out.println("Not a valid number.");
+        System.out.println("Not a number. NEXT");
       }
       if (playerNumber == game.getPlayer().getPlayerNumber()) {
         game.playerTurn();
@@ -113,23 +175,10 @@ public class Client extends Thread {
         String playerName = getPlayerName(playerNumber);
         System.out.println(playerName + "'s turn.");
       }
-    } else {
-      throw new InvalidCommandException("(In NEXT).");
-    }
+    }  
   }  
   
-  public String getPlayerName(int playerNumber) {
-    String playerName = "";
-    for (Player player : game.getPlayerList()) {
-      if (playerNumber == player.getPlayerNumber()) {
-        playerName = player.getName();
-      }
-    }
-    return playerName;
-  }
-  
   public void checkNames(String text) throws InvalidCommandException {
-    boolean validCommand = false;
     String[] command = text.split(" ");
     if (text.startsWith(Game.NAMES) 
         && (command.length == 6 || command.length == 8 || command.length == 10)) {
@@ -139,9 +188,38 @@ public class Client extends Thread {
         String number = command[(2 * i) + 2];
         addPlayer(name, number);
       }
-    } else {
-      throw new InvalidCommandException("(In NAMES).");
+    }  
+  }
+
+  public void checkWelcome(String text) throws InvalidCommandException {
+    String[] command = text.split(" ");
+    int playerNumber = -1;
+    if (text.startsWith(Game.WELCOME) && command.length == 3) {
+      try {
+        playerNumber = Integer.parseInt(command[2]);
+      } catch (NumberFormatException e) {
+        System.out.println("Not a number. WELCOME");
+      }
+      if (game.getPlayerType() == "h") {
+        Player player = new HumanPlayer(command[1], playerNumber);
+        game.setPlayer(player);
+      }
+      if (game.getPlayerType() == "b") {
+        Player player = new ComputerPlayer(command[1], playerNumber, new NaiveStrategy());
+        game.setPlayer(player);
+      }
+      System.out.println("Welcome message received.");
+    }  
+  }
+
+  public String getPlayerName(int playerNumber) {
+    String playerName = "";
+    for (Player player : game.getPlayerList()) {
+      if (playerNumber == player.getPlayerNumber()) {
+        playerName = player.getName();
+      }
     }
+    return playerName;
   }
   
   public void addPlayer(String name, String number) {
@@ -155,29 +233,6 @@ public class Client extends Thread {
     game.addPlayerToList(player1);
   }
   
-  public void checkWelcome(String text) throws InvalidCommandException {
-    boolean validCommand = false;
-    String[] command = text.split(" ");
-    int playerNumber = -1;
-    if (text.startsWith(Game.WELCOME) && command.length == 3) {
-      try {
-        playerNumber = Integer.parseInt(command[2]);
-      } catch (NumberFormatException e) {
-        System.out.println("Not a valid number.");
-      }
-      if (game.getPlayerType() == "h") {
-        Player player = new HumanPlayer(command[1], playerNumber);
-        game.setPlayer(player);
-      }
-      if (game.getPlayerType() == "b") {
-        Player player = new ComputerPlayer(command[1], playerNumber, new NaiveStrategy());
-        game.setPlayer(player);
-      }
-    } else {
-      throw new InvalidCommandException("(In WELCOME: " + Arrays.toString(command) + ")");
-    }
-  }
-  
   /** send a message to a ClientHandler. */
   public void sendMessage(String msg) {
     try {
@@ -185,39 +240,23 @@ public class Client extends Thread {
       out.newLine();
       out.flush();
     } catch (IOException e) {
-      print("lostuh connectionuh");
+      System.out.println("lostuh connectionuh");
     }
 
   }
   /** close the socket connection. */
   public void shutdown() {
-    print("Closing socket connection...");
+    System.out.println("Closing socket connection...");
     try {
       sock.close();
     } catch (IOException e) {
-      print("could not close socket");
+      System.out.println("could not close socket");
     }
   }
 
   /** returns the client name */
   public String getClientName() {
     return clientName;
-  }
-
-  private static void print(String message) {
-    System.out.println(message);
-  }
-
-  public static String readString(String tekst) {
-    System.out.print(tekst);
-    String antw = null;
-    try {
-      BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-      antw = in.readLine();
-    } catch (IOException e) {
-    }
-
-    return (antw == null) ? "" : antw;
   }
 
  

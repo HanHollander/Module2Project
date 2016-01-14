@@ -88,6 +88,42 @@ public class HumanPlayer extends Player {
     return move;
   }
   
+  public Move verifyMove(String input) throws InvalidCommandException {
+    boolean validInput = false;
+    String[] command = null;
+    Move move = null;
+    //MOVE command
+    if (input.startsWith("MOVE")) {
+      validInput = validMoveCommand(input);
+      if (validInput) {
+        command = input.split(" ");
+        String colour = Character.toString(command[1].charAt(0));
+        String shape = Character.toString(command[1].charAt(1));
+        int row = Integer.parseInt(command[2]);
+        int column = Integer.parseInt(command[3]);
+        move = new Move(new Tile(colour, shape), row, column);
+      }
+    //SWAP command
+    } else if (input.startsWith("SWAP")) {
+      validInput = validSwapCommand(input);
+      if (validInput) {
+        command = input.split(" ");
+        String colour = Character.toString(command[1].charAt(0));
+        String shape = Character.toString(command[1].charAt(1));
+        move = new Move(new Tile(colour, shape));
+      }
+    //END command
+    } else if (input.startsWith("END")) {
+      validInput = validEndCommand(input);
+      if (validInput) {
+        move = new Move();
+      }
+    } else { //Neither move nor swap nor end
+      throw new InvalidCommandException(MOVEUSAGE + " " + SWAPUSAGE);
+    }
+    return move;
+  }
+  
   /**
    * Get input from console.
    * @return returns the command, only if move is valid
@@ -95,46 +131,16 @@ public class HumanPlayer extends Player {
    */
   public Move getMove() throws InvalidCommandException {
     Move move = null;
-    String[] command = null;
     String input = "";
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-    boolean validInput = false;
-    while (!validInput) {
+    while (move == null) {
       try {
         System.out.println("What is your action?");
         input = reader.readLine();
       } catch (IOException e) {
         System.out.println("Could not read line.");
       }
-      //MOVE command
-      if (input.startsWith("MOVE")) {
-        validInput = validMoveCommand(input);
-        if (validInput) {
-          command = input.split(" ");
-          String colour = Character.toString(command[1].charAt(0));
-          String shape = Character.toString(command[1].charAt(1));
-          int row = Integer.parseInt(command[2]);
-          int column = Integer.parseInt(command[3]);
-          move = new Move(new Tile(colour, shape), row, column);
-        }
-      //SWAP command
-      } else if (input.startsWith("SWAP")) {
-        validInput = validSwapCommand(input);
-        if (validInput) {
-          command = input.split(" ");
-          String colour = Character.toString(command[1].charAt(0));
-          String shape = Character.toString(command[1].charAt(1));
-          move = new Move(new Tile(colour, shape));
-        }
-      //END command
-      } else if (input.startsWith("END")) {
-        validInput = validEndCommand(input);
-        if (validInput) {
-          move = new Move(Type.END);
-        }
-      } else { //Neither move nor swap
-        throw new InvalidCommandException(MOVEUSAGE + " " + SWAPUSAGE);
-      }
+      move = verifyMove(input);
     }
     return move;
   }
@@ -200,8 +206,7 @@ public class HumanPlayer extends Player {
    */
   public boolean validEndCommand(String input) throws InvalidCommandException {
     boolean validInput = false;
-    String[] command = input.split(" "); 
-    if (command.length == 1) { //Command length must be four
+    if (input.length() == 3) { 
       validInput = true;
     } else {
       throw new InvalidCommandException("Usage: END.");
