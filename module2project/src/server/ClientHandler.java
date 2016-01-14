@@ -76,7 +76,7 @@ public class ClientHandler extends Thread {
             List<Tile> turn = convertStringToSwapTurn(text);
             server.getGame().applySwapTurn(turn, server.getGame().getPlayer(playerNr));
           } else {
-            // KICK
+            System.out.println("Client " + playerNr + " made a invalid turn");
             shutdown();
           }
         } else {
@@ -91,7 +91,6 @@ public class ClientHandler extends Thread {
         monitor.notifyAll();
       }
     }
-    
   }
   
   private List<Tile> convertStringToSwapTurn(String text) {
@@ -212,6 +211,7 @@ public class ClientHandler extends Thread {
     } catch (IOException e) {
       shutdown();
     }
+    System.out.println("Send to player-" + playerNr + ": " +  msg);
   }
   
   public String getClientName() {

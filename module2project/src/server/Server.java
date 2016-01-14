@@ -162,7 +162,7 @@ public class Server {
     for (Map.Entry<Integer, ClientHandler> entry : threads.entrySet()) {
       entry.getValue().sendMessage(msg);
     }
-    System.out.println("Broadcast: " + msg);
+    // System.out.println("Broadcast: " + msg);
   }
 
   /**
