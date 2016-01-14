@@ -57,6 +57,7 @@ public class Server {
   private int numberOfPlayers;
   private Game game;
   private Object monitor;
+  private int aiTime;
   
   /** Constructs a new Server object. */
   public Server(int portArg, int numberOfPlayersArg, int aiTime) {
@@ -65,6 +66,7 @@ public class Server {
     threads = new HashMap<Integer, ClientHandler>();
     game = new Game(this);
     monitor = new Object();
+    this.aiTime = aiTime;
     try {
       serverSocket = new ServerSocket(port);
     } catch (IOException e) {
@@ -93,7 +95,7 @@ public class Server {
       }
     }
     System.out.println("Clients connected: [" + (numberOfConnectingPlayer - 1) + " of " + numberOfPlayers + "]");
-    System.out.println("Waiting for everyone to send their name");
+    System.out.println("Waiting for everyone to send their name" + "\n");
     while (!allPlayerNamesAreKnown()) {
       synchronized (monitor) {
         try {
@@ -104,21 +106,21 @@ public class Server {
       }
     }
     Set<Integer> playerNrs = threads.keySet();
-    System.out.println("Everyone has send their name");
+    System.out.println("\n" + "Everyone has send their name");
     String namesMsg = "NAMES";
     for (int number : playerNrs) {
       namesMsg = namesMsg + " " + game.getPlayer(number).getName() + " " + number;
     }
-    broadcast(namesMsg);
-    System.out.println("Dealing tiles");
+    broadcast(namesMsg + " " + aiTime);
+    System.out.println("\n" + "Dealing tiles" + "\n");
     game.dealTiles();
     
     for (int playerNr : playerNrs) {
       threads.get(playerNr).sendMessage("NEW" + game.getPlayer(playerNr).handToString());
     }
-    System.out.println("Tiles dealt");
+    System.out.println("\n" + "Tiles dealt" + "\n");
     
-    System.out.println("Calculating who may start");
+    System.out.println("Calculating who may start" + "\n");
     int playerNrWithTheBestHand = game.getPlayerNrWithTheBestHand();
     game.setCurrentPlayer(playerNrWithTheBestHand);
     System.out.println("Player-" + playerNrWithTheBestHand + " may start");
