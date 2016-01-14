@@ -76,7 +76,7 @@ public class Client extends Thread {
       if (command.length == 2 && command[2].equals("empty")) {
         System.out.println("There are no tiles left in the pool.");
       } else {
-        for (int i = 0; i < command.length - 1; i++) {
+        for (int i = 1; i < command.length; i++) {
           String colour = command[i].substring(0, 1);
           String shape = command[i].substring(1, 2);
           Tile tile = new Tile(colour, shape);
