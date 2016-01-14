@@ -112,6 +112,17 @@ public class Server {
     System.out.println("Player-" + playerNrWithTheBestHand + " may start");
     broadcast("NEXT " + playerNrWithTheBestHand);
     
+    while (game.getPoolSize() > 0) {
+      synchronized (monitor) {
+        try {
+          monitor.wait();
+        } catch (InterruptedException e) {
+          System.out.println("Interupted while waiting for everyone to send their name");
+        }
+      }
+      nextPlayerTurn();
+      broadcast("NEXT " + playerNrWithTheBestHand);
+    }
     
     
   }
@@ -194,5 +205,13 @@ public class Server {
       msg = msg + "empty";
     }
     broadcast(msg);
+  }
+  
+  public void giveTiles(int playerNr, List<Tile> tiles) {
+    String msg = "NEW";
+    for (Tile tile : tiles) {
+      msg = msg + " " + tile.toString();
+    }
+    threads.get(playerNr).sendMessage(msg);
   }
 }

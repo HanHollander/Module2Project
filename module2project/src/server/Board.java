@@ -9,6 +9,7 @@ public class Board {
   
   private ArrayList<ArrayList<Tile>> boardMatrix;
   private ArrayList<Move> currentLocalTurn;
+  private Game game;
   
   /**
    * Board constructor. Constructs a empty board.
@@ -22,6 +23,18 @@ public class Board {
       }
     }
     currentLocalTurn = new ArrayList<Move>();
+  }
+  
+  public Board(Game game) {
+    boardMatrix = new ArrayList<ArrayList<Tile>>();
+    for (int row = 0; row < 183; row++) {
+      boardMatrix.add(new ArrayList<Tile>());
+      for (int column = 0; column < 183; column++) {
+        boardMatrix.get(row).add(new Tile());
+      }
+    }
+    currentLocalTurn = new ArrayList<Move>();
+    this.game = game;
   }
   
   /**
@@ -43,6 +56,10 @@ public class Board {
    */
   public Tile getTile(int row, int column) {
     return boardMatrix.get(row).get(column);
+  }
+  
+  public Game getGame() {
+    return game;
   }
   
   /**
@@ -169,6 +186,9 @@ public class Board {
       for (int column = 0; column < 183; column++) {
         result.boardMatrix.get(row).set(column, this.boardMatrix.get(row).get(column));
       }
+    }
+    for (int i = 0; i < currentLocalTurn.size(); i++) {
+      result.currentLocalTurn.add(currentLocalTurn.get(i));
     }
     return result;
   }
@@ -458,8 +478,10 @@ public class Board {
   }
   
   public void applyTurn(Player player, List<Move> turn) {
+    String msg = "TURN " + player.getPlayerNumber();
     for (int i = 0; i < turn.size(); i++) {
       Move move = turn.get(i);
+      msg = msg + " " + move.toString();
       putTile(move);
       try {
         player.removeFromHand(move.getTile());

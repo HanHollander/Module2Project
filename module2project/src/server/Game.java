@@ -33,7 +33,7 @@ public class Game {
   
   public Game(Server server) {
     this.server = server;
-    board = new Board();
+    board = new Board(this);
     playerList = new HashMap<Integer, Player>();
     currentPlayer = 0;
     pool = new ArrayList<Tile>();
@@ -47,26 +47,58 @@ public class Game {
     }
   }
   
-  public Boolean checkTurn(List<Move> turn, Player player) {
+  public void applySwapTurn(List<Tile> turn, Player player) {
+    List<Tile> newTiles = new ArrayList<Tile>();
+    for (Tile tile : turn) {
+      try {
+        player.removeFromHand(tile);
+      } catch (TileNotInHandException e) {
+        System.out.println(e);
+      }
+      try {
+        player.addToHand(swapTileWithPool(tile));
+      } catch (HandIsFullException e) {
+        System.out.println(e);
+      }
+    }
+    server.giveTiles(player.getPlayerNumber(), newTiles);
+    server.broadcast("TURN " + player.getPlayerNumber() + " empty");
+  }
+  
+  public boolean checkSwapTurn(List<Tile> turn , Player player) {
+    boolean result = true;
+    List<Tile> hand = player.getHand();
+    for (Tile tile : turn) {
+      boolean containsTile = false;
+      for (Tile tileInHand : hand) {
+        containsTile = tile.equals(tileInHand);
+        if (containsTile) {
+          break;
+        }
+      }
+      result = result && containsTile;
+    }
+    return result;
+  }
+  
+  public boolean checkTurn(List<Move> turn, Player player) {
     Boolean result = true;
+    Board testBoard = board.deepCopy();
     for (int i = 0; i < turn.size(); i++) {
       Move move = turn.get(i);
-      result = result && board.checkMove(move);
+      result = result && testBoard.checkMove(move);
+      if (result) {
+        testBoard.putTile(move);
+      } else {
+        break;
+      }
       result = result && player.getHand().contains(move.getTile());
     }
     return result;
   }
   
-  public int getCurrentPlayer() {
-    return currentPlayer;
-  }
-  
   public void setCurrentPlayer(int currentPlayer) {
     this.currentPlayer = currentPlayer;
-  }
-  
-  public Server getServer() {
-    return server;
   }
   
   public Tile swapTileWithPool(Tile tile) {
@@ -95,20 +127,8 @@ public class Game {
     }
   }
   
-  public Player getPlayer(int playerNr) {
-    return playerList.get(playerNr);
-  }
-  
   public void removePlayer(int playerNr) {
     playerList.remove(playerNr);
-  }
-  
-  public Board getBoard() {
-    return board;
-  }
-  
-  public Set<Integer> getPlayerNrs() {
-    return playerList.keySet();
   }
   
   public void dealTiles() {
@@ -123,6 +143,30 @@ public class Game {
         }
       }
     }
+  }
+
+  public int getCurrentPlayer() {
+    return currentPlayer;
+  }
+
+  public Player getPlayer(int playerNr) {
+    return playerList.get(playerNr);
+  }
+
+  public Server getServer() {
+    return server;
+  }
+
+  public Board getBoard() {
+    return board;
+  }
+  
+  public Set<Integer> getPlayerNrs() {
+    return playerList.keySet();
+  }
+  
+  public int getPoolSize() {
+    return pool.size();
   }
   
   public int getPlayerNrWithTheBestHand() {

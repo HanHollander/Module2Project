@@ -26,5 +26,9 @@ public class Tile {
   public String toString() {
     return color + shape;
   }
+  
+  public boolean equals(Tile tile) {
+    return (color.equals(tile.getColor()) && shape.equals(tile.getShape()));
+  }
 
 }

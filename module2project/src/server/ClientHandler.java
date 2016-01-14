@@ -6,10 +6,14 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.net.Socket;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class ClientHandler extends Thread {
+  
+  public static final List<String> COLOURS = Arrays.asList("R", "O", "B", "Y", "G", "P");
+  public static final List<String> SHAPES = Arrays.asList("o", "d", "s", "c", "x", "*");
   
   private Server server;
   private Socket socket;
@@ -60,15 +64,18 @@ public class ClientHandler extends Thread {
       shutdown();
     }
     
-    while (true) {
+    while (server.getGame().getPoolSize() > 0) {
       try {
         text = in.readLine();
         System.out.println("Received from client " + playerNr + ": " + text);
         if (server.getGame().getCurrentPlayer() == playerNr) {
           if (isValidMoveTurn(text)) {
-            //HANDLE TURN\\
-            
-          } else if (isValidSwapTurn(text)){
+            List<Move> turn = convertStringToMoveTurn(text);
+            server.getGame().getBoard().applyTurn(server.getGame().getPlayer(playerNr), turn);
+          } else if (isValidSwapTurn(text)) {
+            List<Tile> turn = convertStringToSwapTurn(text);
+            server.getGame().applySwapTurn(turn, server.getGame().getPlayer(playerNr));
+          } else {
             // KICK
             shutdown();
           }
@@ -87,6 +94,112 @@ public class ClientHandler extends Thread {
     
   }
   
+  private List<Tile> convertStringToSwapTurn(String text) {
+    String[] swapTextParts = text.substring(5).split(" ");
+    List<Tile> turn = new ArrayList<Tile>();
+    for (String tileText : swapTextParts) {
+      turn.add(new Tile(tileText.substring(0, 0), tileText.substring(1, 1)));
+    }
+    return turn;
+  }
+
+  private List<Move> convertStringToMoveTurn(String text) {
+    String[] moveTextParts = text.substring(5).split(" ");
+    List<Move> turn = new ArrayList<Move>();
+    for (int i = 0; i < moveTextParts.length; i += 3) {
+      String colour = Character.toString(moveTextParts[i].charAt(0));
+      String shape = Character.toString(moveTextParts[i].charAt(1));
+      int row = Integer.parseInt(moveTextParts[i + 1]);
+      int column = Integer.parseInt(moveTextParts[i + 2]);
+      turn.add(new Move(new Tile(colour, shape), row, column));
+    }
+    return turn;
+  }
+
+  private boolean isValidSwapTurn(String text) {
+    boolean result = true;
+    String[] swapTextParts = null;
+    if (text.startsWith("SWAP ")) {
+      String swapText = text.substring(5);
+      swapTextParts = swapText.split(" ");
+      if (swapTextParts.length > 0 && swapTextParts.length < 7) {
+        for (String tile : swapTextParts) {
+          if (tile.length() == 2) {
+            if (COLOURS.contains(tile.substring(0,0)) 
+                && SHAPES.contains(tile.substring(1,1))) {
+              result = result && true;
+            }
+          } else {
+            result = false;
+            break;
+          }
+        }
+      } else {
+        result = false;
+      }
+    } else {
+      result = false;
+    }
+    
+    //Check if tiles are in the hand of the player
+    if (result) {
+      List<Tile> turn = convertStringToSwapTurn(text);
+      result = result && server.getGame().checkSwapTurn(turn, server.getGame().getPlayer(playerNr));
+    }
+    return result;
+  }
+
+  private boolean isValidMoveTurn(String text) {
+    boolean result = true;
+    String[] moveTextParts = null;
+    if (text.startsWith("MOVE ")) {
+      String moveText = text.substring(5);
+      moveTextParts = moveText.split(" ");
+      if ((moveTextParts.length % 3) == 0) {
+        for (int i = 0; i < moveTextParts.length; i++) {
+          // Check if the tiles are valid tiles
+          if ((i % 3) == 0) {
+            String tileText = moveTextParts[i];
+            if (tileText.length() == 2) {
+              if (COLOURS.contains(tileText.substring(0,0)) 
+                  && SHAPES.contains(tileText.substring(1,1))) {
+                result = result && true;
+              }
+            } else {
+              result = false;
+              break;
+            }
+          } else {
+            int coordinate;
+            try {
+              coordinate = Integer.parseInt(moveTextParts[i]);
+            } catch (NumberFormatException e) {
+              result = false;
+              break;
+            }
+            if (coordinate >= 0 && coordinate <= 182) {
+              result = result && true;
+            } else {
+              result = false;
+              break;
+            }
+          }
+        }
+      } else {
+        result = false;
+      }
+    } else {
+      result = false;
+    }
+    
+    //Check if the move is valid in the game
+    if (result) {
+      List<Move> turn = convertStringToMoveTurn(text);
+      result = result && server.getGame().checkTurn(turn, server.getGame().getPlayer(playerNr));
+    }
+    return result;
+  }
+
   /**
    * SERVER -> client.
    * @param msg message
