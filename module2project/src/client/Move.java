@@ -32,8 +32,8 @@ public class Move {
     this.tile = tile;
   }
   
-  public Move(Type type) {
-    this.type = type;
+  public Move() {
+    this.type = Type.END;
   }
 
   public Tile getTile() {
@@ -56,5 +56,23 @@ public class Move {
     return "Tile: [" + getTile().toString() + "], row: " + getRow() + ", column: " + getColumn();
   }
 
+  public boolean equals(Move move) {
+    boolean equals = false;
+    if (type == Type.MOVE) {
+      if (type.equals(move.getType()) && tile.equals(move.getTile()) 
+          && column == move.getColumn() && row == move.getRow()) {
+        equals = true;
+      }
+    } else if (type == Type.SWAP) {
+      if (type.equals(move.getType()) && tile.equals(move.getTile())) {
+        equals = true;
+      }
+    } else if (type == Type.END) {
+      if (type.equals(move.getType())) {
+        equals = true;
+      }
+    }
+    return equals;
+  }
 
 }
