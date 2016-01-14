@@ -91,7 +91,11 @@ public class Player {
   }
   
   public String handToString() {
-    return "Hand: " + getHand();
+    String result = "";
+    for (Tile tile : hand) {
+      result = result + " " + tile.toString();
+    }
+    return result;
   }
     
   /**

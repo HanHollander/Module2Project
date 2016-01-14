@@ -81,9 +81,9 @@ public class Server {
   public void run() {
     System.out.println("Waiting for clients to connect");
     int numberOfConnectingPlayer = 1;
-    while (numberOfConnectingPlayer < numberOfPlayers) {
+    while (numberOfConnectingPlayer - 1 < numberOfPlayers) {
       try {
-        System.out.println("Clienents connected: [" + (numberOfConnectingPlayer - 1) + " of " + numberOfPlayers + "]");
+        System.out.println("Clients connected: [" + (numberOfConnectingPlayer - 1) + " of " + numberOfPlayers + "]");
         ClientHandler ch = new ClientHandler(numberOfConnectingPlayer, this, serverSocket.accept(), monitor);
         addHandler(numberOfConnectingPlayer, ch);
         ch.start();
@@ -92,7 +92,7 @@ public class Server {
         System.out.println("Could not connect to client " + numberOfConnectingPlayer);
       }
     }
-    System.out.println("Clienents connected: [" + (numberOfConnectingPlayer - 1) + " of " + numberOfPlayers + "]");
+    System.out.println("Clients connected: [" + (numberOfConnectingPlayer - 1) + " of " + numberOfPlayers + "]");
     System.out.println("Waiting for everyone to send their name");
     while (!allPlayerNamesAreKnown()) {
       synchronized (monitor) {
@@ -106,6 +106,12 @@ public class Server {
     System.out.println("Everyone has send their name");
     System.out.println("Dealing tiles");
     game.dealTiles();
+    Set<Integer> playerNrs = threads.keySet();
+    for (int playerNr : playerNrs) {
+      threads.get(playerNr).sendMessage("NEW" + game.getPlayer(playerNr).handToString());
+    }
+    System.out.println("Tiles dealt");
+    
     System.out.println("Calculating who may start");
     int playerNrWithTheBestHand = game.getPlayerNrWithTheBestHand();
     game.setCurrentPlayer(playerNrWithTheBestHand);
