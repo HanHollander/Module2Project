@@ -77,12 +77,12 @@ public class Client extends Thread {
         System.out.println("There are no tiles left in the pool.");
       } else {
         for (int i = 0; i < command.length - 1; i++) {
-          String colour = command[i].substring(0, 0);
-          String shape = command[i].substring(1, 1);
+          String colour = command[i].substring(0, 1);
+          String shape = command[i].substring(1, 2);
           Tile tile = new Tile(colour, shape);
           try {
             game.getPlayer().addToHand(tile);
-            System.out.println("Added to hand: " + tile.toString());
+            System.out.println("Added to hand: " + tile.toString() + ". Current hand: " + game.getPlayer().handToString());
           } catch (HandIsFullException e) {
             System.out.println(e);
           }
@@ -149,8 +149,8 @@ public class Client extends Thread {
           } catch (NumberFormatException e) {
             System.out.println("Not a number. TURN2");
           }
-          String colour = command[(3 * i) + 2].substring(0, 0);
-          String shape = command[(3 * i) + 2].substring(1, 1);
+          String colour = command[(3 * i) + 2].substring(0, 1);
+          String shape = command[(3 * i) + 2].substring(1, 2);
           moves.add(new Move(new Tile(colour, shape), row, column));
         }
       } else {

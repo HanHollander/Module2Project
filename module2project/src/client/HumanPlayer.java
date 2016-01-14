@@ -82,6 +82,7 @@ public class HumanPlayer extends Player {
           throw new InvalidMoveException();
         }
       } catch (InvalidCommandException e) {
+        System.out.println("ik catch iets");
         System.out.println(e);
       }
     }
