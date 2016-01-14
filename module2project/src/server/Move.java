@@ -53,7 +53,7 @@ public class Move {
   }
   
   public String toString() {
-    return "Tile: [" + getTile().toString() + "], row: " + getRow() + ", column: " + getColumn();
+    return getTile().toString() + " " + getRow() + " " + getColumn();
   }
 
 

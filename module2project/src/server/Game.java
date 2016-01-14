@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Set;
 
 import client.Move.Type;
 import exceptions.HandIsFullException;
@@ -46,31 +47,22 @@ public class Game {
     }
   }
   
-  public Boolean checkTurn(List<Move> turn) {
+  public Boolean checkTurn(List<Move> turn, Player player) {
     Boolean result = true;
     for (int i = 0; i < turn.size(); i++) {
-      result = result && board.checkMove(turn.get(i));
+      Move move = turn.get(i);
+      result = result && board.checkMove(move);
+      result = result && player.getHand().contains(move.getTile());
     }
     return result;
   }
   
-  public void applyTurn(Player player, List<Move> turn) {
-    for (int i = 0; i < turn.size(); i++) {
-      Move move = turn.get(i);
-      board.putTile(move);
-      try {
-        player.removeFromHand(move.getTile());
-      } catch (TileNotInHandException e) {
-        System.out.println("Tried to remove tile [" + move.getTile().toString() + "] from the hand of (" + player.toString() + ")"
-            + " but the tile was not in his/her hand.");
-      }
-    }
-    player.addToScore(board.getScoreCurrentTurn());
-    board.endTurn();
-  }
-  
   public int getCurrentPlayer() {
     return currentPlayer;
+  }
+  
+  public void setCurrentPlayer(int currentPlayer) {
+    this.currentPlayer = currentPlayer;
   }
   
   public Server getServer() {
@@ -97,8 +89,86 @@ public class Game {
     return result;
   }
   
-  public void addPlayer(int playerNr, String name) {
-    
+  public synchronized void addPlayer(int playerNr, String name) {
+    synchronized (playerList) {
+      playerList.put(playerNr, new Player(name, playerNr));
+    }
+  }
+  
+  public Player getPlayer(int playerNr) {
+    return playerList.get(playerNr);
+  }
+  
+  public void removePlayer(int playerNr) {
+    playerList.remove(playerNr);
+  }
+  
+  public Board getBoard() {
+    return board;
+  }
+  
+  public Set<Integer> getPlayerNrs() {
+    return playerList.keySet();
+  }
+  
+  public void dealTiles() {
+    Set<Integer> playerNrs = getPlayerNrs();
+    for (int playerNr : playerNrs) {
+      Player player = getPlayer(playerNr);
+      for (int i = 0; i < 6; i++) {
+        try {
+          player.addToHand(drawRandomTileFromPool());
+        } catch (HandIsFullException e) {
+          System.out.println("HandIsFullException occured while dealing the tiles");
+        }
+      }
+    }
+  }
+  
+  public int getPlayerNrWithTheBestHand() {
+    Set<Integer> playerNrs = getPlayerNrs();
+    int bestPossibleHandPointsYet = -1;
+    int playerNrWithBestPossibleHandPointsYet = 0;
+    int bestRowLengthYet = -1;
+    for (int playerNr : playerNrs) {
+      List<Tile> hand = getPlayer(playerNr).getHand();
+      for (Tile tile : hand) {
+        bestRowLengthYet = -1;
+        List<Tile> rowWithShapeTheSame = new ArrayList<Tile>();
+        List<String> rowWithShapeTheSameColors = new ArrayList<String>();
+        List<Tile> rowWithColorTheSame = new ArrayList<Tile>();
+        List<String> rowWithColorTheSameShapes = new ArrayList<String>();
+        rowWithShapeTheSame.add(tile);
+        rowWithShapeTheSameColors.add(tile.getColor());
+        rowWithColorTheSame.add(tile);
+        rowWithColorTheSameShapes.add(tile.getShape());
+        for (Tile tile2 : hand) {
+          if (tile.getShape().equals(tile2.getShape()) 
+              && !rowWithShapeTheSameColors.contains(tile2.getColor())) {
+            rowWithShapeTheSame.add(tile2);
+            rowWithShapeTheSameColors.add(tile2.getColor());
+          }
+          
+          if (tile.getColor().equals(tile2.getColor()) 
+              && !rowWithColorTheSameShapes.contains(tile2.getShape())) {
+            rowWithColorTheSame.add(tile2);
+            rowWithColorTheSameShapes.add(tile2.getColor());
+          }
+        }
+        if (rowWithShapeTheSame.size() > bestRowLengthYet) {
+          bestRowLengthYet = rowWithShapeTheSame.size();
+        }
+        
+        if (rowWithColorTheSame.size() > bestRowLengthYet) {
+          bestRowLengthYet = rowWithColorTheSame.size();
+        }
+      }
+      if (bestRowLengthYet > bestPossibleHandPointsYet) {
+        bestPossibleHandPointsYet = bestRowLengthYet;
+        playerNrWithBestPossibleHandPointsYet = playerNr;
+      }
+    }
+    return playerNrWithBestPossibleHandPointsYet;
   }
   
 }

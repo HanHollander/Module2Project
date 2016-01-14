@@ -17,6 +17,7 @@ public class ClientHandler extends Thread {
   private BufferedWriter out;
   private String clientName;
   private int playerNr;
+  private Object monitor;
   
   /**
    * Constructor for clienthandler.
@@ -24,12 +25,14 @@ public class ClientHandler extends Thread {
    * @param sockArg socket
    * @throws IOException if not able to create in or out
    */
-  public ClientHandler(int playerNr, Server serverArg, Socket sockArg) throws IOException {
+  public ClientHandler(int playerNr, Server serverArg, Socket sockArg, Object monitor)
+      throws IOException {
     server = serverArg;
     socket = sockArg;
     in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
     out = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
     this.playerNr = playerNr;
+    this.monitor = monitor;
   }
   
   /**
@@ -45,6 +48,10 @@ public class ClientHandler extends Thread {
         clientName = textParts[1];
         System.out.println("Received from client " + playerNr + ": " + text);
         sendMessage("WELCOME " + clientName + " " + playerNr);
+        server.getGame().addPlayer(playerNr, clientName);
+        synchronized (monitor) {
+          monitor.notifyAll();
+        }
       } else {
         // KICK
         shutdown();
@@ -52,6 +59,32 @@ public class ClientHandler extends Thread {
     } catch (IOException e) {
       shutdown();
     }
+    
+    while (true) {
+      try {
+        text = in.readLine();
+        System.out.println("Received from client " + playerNr + ": " + text);
+        if (server.getGame().getCurrentPlayer() == playerNr) {
+          if (isValidMoveTurn(text)) {
+            //HANDLE TURN\\
+            
+          } else if (isValidSwapTurn(text)){
+            // KICK
+            shutdown();
+          }
+        } else {
+          //KICK
+          System.out.println("Client " + playerNr + " spoke before his/her turn");
+          shutdown();
+        }
+      } catch (IOException e) {
+        shutdown();
+      }
+      synchronized (monitor) {
+        monitor.notifyAll();
+      }
+    }
+    
   }
   
   /**
@@ -72,7 +105,7 @@ public class ClientHandler extends Thread {
     return clientName;
   }
   
-  private void shutdown() {
+  public void shutdown() {
     try {
       socket.close();
     } catch (IOException e) {
@@ -94,6 +127,15 @@ public class ClientHandler extends Thread {
       for (int i = 0; i < name.length(); i++) {
         result = result && allowedChars.contains(name.substring(i, i));
       }
+    }
+    return result;
+  }
+  
+  private Boolean isValidMove(String text) {
+    Boolean result;
+    result = text.startsWith("MOVE ");
+    if (!result) {
+      
     }
     return result;
   }
