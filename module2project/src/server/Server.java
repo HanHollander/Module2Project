@@ -131,11 +131,11 @@ public class Server {
         try {
           monitor.wait();
         } catch (InterruptedException e) {
-          System.out.println("Interupted while waiting for everyone to send their name");
+          System.out.println("Interupted while waiting someone to make a move");
         }
+        nextPlayerTurn();
+        broadcast("NEXT " + playerNrWithTheBestHand);
       }
-      nextPlayerTurn();
-      broadcast("NEXT " + playerNrWithTheBestHand);
     }
     
     
