@@ -103,10 +103,16 @@ public class Server {
         }
       }
     }
+    Set<Integer> playerNrs = threads.keySet();
     System.out.println("Everyone has send their name");
+    String namesMsg = "NAMES";
+    for (int number : playerNrs) {
+      namesMsg = namesMsg + " " + game.getPlayer(number).getName() + " " + number;
+    }
+    broadcast(namesMsg);
     System.out.println("Dealing tiles");
     game.dealTiles();
-    Set<Integer> playerNrs = threads.keySet();
+    
     for (int playerNr : playerNrs) {
       threads.get(playerNr).sendMessage("NEW" + game.getPlayer(playerNr).handToString());
     }
