@@ -246,14 +246,5 @@ public class ClientHandler extends Thread {
     }
     return result;
   }
-  
-  private Boolean isValidMove(String text) {
-    Boolean result;
-    result = text.startsWith("MOVE ");
-    if (!result) {
-      
-    }
-    return result;
-  }
 
 }
