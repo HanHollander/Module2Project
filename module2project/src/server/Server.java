@@ -72,7 +72,7 @@ public class Server {
    */
   public void run() {
     int numberOfConnectingPlayer = 1;
-    while (numberOfPlayers < numberOfPlayers) {
+    while (numberOfConnectingPlayer < numberOfPlayers) {
       try {
         ClientHandler ch = new ClientHandler(numberOfConnectingPlayer, this, serverSocket.accept());
         addHandler(numberOfConnectingPlayer, ch);
