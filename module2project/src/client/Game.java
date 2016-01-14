@@ -124,6 +124,7 @@ public class Game {
     for (Move move : moves) {
       board.putTile(move);
     }
+    System.out.println(board.toString());
     board.endTurn();
   }
 

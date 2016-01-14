@@ -73,7 +73,7 @@ public class Client extends Thread {
   public void checkNew(String text) {
     String[] command = text.split(" ");
     if (text.startsWith(Game.NEW) && command.length <= 8) {
-      if (command.length == 2 && command[2].equals("empty")) {
+      if (command.length == 2 && command[1].equals("empty")) {
         System.out.println("There are no tiles left in the pool.");
       } else {
         for (int i = 1; i < command.length; i++) {
@@ -122,7 +122,6 @@ public class Client extends Thread {
         System.out.println("Not a number. WINNER.");
       }
       System.out.println("The winner is... " + getPlayerName(playerNumber) + "!");
-      shutdown();
       //CLOSE GAME!
     }
   }
@@ -133,7 +132,7 @@ public class Client extends Thread {
     List<Move> moves = new ArrayList<>();
     if (text.startsWith(Game.TURN)) {
       try {
-        playerNumber = Integer.parseInt(command[2]);
+        playerNumber = Integer.parseInt(command[1]);
       } catch (NumberFormatException e) {
         System.out.println("Not a number. TURN1");
       }
@@ -144,8 +143,13 @@ public class Client extends Thread {
           int row = 0;
           int column = 0;
           try {
-            row = Integer.parseInt(command[(3 * i) + 2]);
-            column = Integer.parseInt(command[(3 * i) + 3]);
+            // 0    2 3 4
+            // 1    5 6 7
+            // TURN 1   .. .. .. | .. .. .. | .. .. ..
+            // 0    1   2  3  4    5  6  7    8  9  10
+            
+            row = Integer.parseInt(command[(3 * i) + 3]);
+            column = Integer.parseInt(command[(3 * i) + 4]);
           } catch (NumberFormatException e) {
             System.out.println("Not a number. TURN2");
           }
