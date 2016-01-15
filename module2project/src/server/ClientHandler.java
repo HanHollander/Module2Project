@@ -71,13 +71,13 @@ public class ClientHandler extends Thread {
         if (server.getGame().getCurrentPlayer() == playerNr) {
           if (isValidMoveTurn(text)) {
             List<Move> turn = convertStringToMoveTurn(text);
-            server.getGame().applyMoveTurn(server.getGame().getPlayer(playerNr), turn);
+            server.getGame().applyMoveTurn(server.getGame().getPlayer(playerNr), turn, false);
             synchronized (monitor) {
               monitor.notifyAll();
             }
           } else if (isValidSwapTurn(text)) {
             List<Tile> turn = convertStringToSwapTurn(text);
-            server.getGame().applySwapTurn(turn, server.getGame().getPlayer(playerNr));
+            server.getGame().applySwapTurn(turn, server .getGame().getPlayer(playerNr));
             synchronized (monitor) {
               monitor.notifyAll();
             }

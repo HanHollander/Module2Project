@@ -112,19 +112,12 @@ public class Server {
       namesMsg = namesMsg + " " + game.getPlayer(number).getName() + " " + number;
     }
     broadcast(namesMsg + " " + aiTime);
+    
     System.out.println("\n" + "Dealing tiles" + "\n");
     game.dealTiles();
-    
-    for (int playerNr : playerNrs) {
-      threads.get(playerNr).sendMessage("NEW" + game.getPlayer(playerNr).handToString());
-    }
     System.out.println("\n" + "Tiles dealt" + "\n");
     
-    System.out.println("Calculating who may start" + "\n");
-    int playerNrWithTheBestHand = game.getPlayerNrWithTheBestHand();
-    game.setCurrentPlayer(playerNrWithTheBestHand);
-    System.out.println("Player-" + playerNrWithTheBestHand + " may start");
-    broadcast("NEXT " + playerNrWithTheBestHand);
+    nextPlayerTurn();
     
     while (game.getPoolSize() > 0 && threads.size() > 1) {
       synchronized (monitor) {
@@ -163,7 +156,6 @@ public class Server {
     for (Map.Entry<Integer, ClientHandler> entry : threads.entrySet()) {
       entry.getValue().sendMessage(msg);
     }
-    // System.out.println("Broadcast: " + msg);
   }
 
   /**
@@ -184,6 +176,10 @@ public class Server {
   
   public Game getGame() {
     return game;
+  }
+  
+  public ClientHandler getThread(int playerNr) {
+    return threads.get(playerNr);
   }
   
   public void kick(int playerNr, String reason) {

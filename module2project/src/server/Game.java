@@ -65,7 +65,7 @@ public class Game {
     server.broadcast("TURN " + player.getPlayerNumber() + " empty");
   }
   
-  public void applyMoveTurn(Player player, List<Move> turn) {
+  public void applyMoveTurn(Player player, List<Move> turn, boolean isFirstTurn) {
     //Put tiles on the board
     for (int i = 0; i < turn.size(); i++) {
       Move move = turn.get(i);
@@ -90,7 +90,9 @@ public class Game {
       tilesBack.add(tile);
     }
     
-    server.giveTiles(player.getPlayerNumber(), tilesBack);
+    if (!isFirstTurn) {
+      server.giveTiles(player.getPlayerNumber(), tilesBack);
+    }
     server.sendTurn(player.getPlayerNumber(), turn);
     player.addToScore(board.getScoreCurrentTurn());
     board.endTurn();
@@ -104,6 +106,7 @@ public class Game {
       for (Tile tileInHand : hand) {
         containsTile = tile.equals(tileInHand);
         if (containsTile) {
+          hand.remove(tileInHand);
           break;
         }
       }
@@ -122,7 +125,13 @@ public class Game {
       Move move = turn.get(i);
       Tile tile = move.getTile();
       for (Tile tileInHand : hand) {
-        result = result || tile.equals(tileInHand);
+        boolean containsTile = tile.equals(tileInHand);
+        
+        result = result || containsTile;
+        if (containsTile) {
+          hand.remove(tileInHand);
+          break;
+        }
       }
       if (!result) {
         break;
@@ -150,10 +159,6 @@ public class Game {
     return drawRandomTileFromPool();
   }
   
-  public void addTileToPool(Tile tile) {
-    pool.add(tile);
-  }
-  
   /**
    * Takes a random tile from the pool and removes it from the pool.
    * @return A random tile from the pool.
@@ -163,6 +168,10 @@ public class Game {
     Tile result = pool.get(randomIndex);
     pool.remove(randomIndex);
     return result;
+  }
+
+  public void addTileToPool(Tile tile) {
+    pool.add(tile);
   }
   
   public synchronized void addPlayer(int playerNr, String name) {
@@ -186,6 +195,10 @@ public class Game {
           System.out.println("HandIsFullException occured while dealing the tiles");
         }
       }
+    }
+    System.out.println("Player-" + getWinningPlayerNr() + " started");
+    for (int playerNr : playerNrs) {
+      server.getThread(playerNr).sendMessage("NEW" + getPlayer(playerNr).handToString());
     }
   }
   
@@ -231,11 +244,15 @@ public class Game {
     Set<Integer> playerNrs = getPlayerNrs();
     int bestPossibleHandPointsYet = -1;
     int playerNrWithBestPossibleHandPointsYet = 0;
+    List<Tile> overAllBestRow = new ArrayList<Tile>();
     int bestRowLengthYet = -1;
     for (int playerNr : playerNrs) {
       List<Tile> hand = getPlayer(playerNr).getHand();
+      bestRowLengthYet = -1;
+      List<Tile> bestRow = new ArrayList<Tile>();
+      System.out.println("Calculating best hand for player-" + playerNr);
       for (Tile tile : hand) {
-        bestRowLengthYet = -1;
+        
         List<Tile> rowWithShapeTheSame = new ArrayList<Tile>();
         List<String> rowWithShapeTheSameColors = new ArrayList<String>();
         List<Tile> rowWithColorTheSame = new ArrayList<Tile>();
@@ -257,19 +274,34 @@ public class Game {
             rowWithColorTheSameShapes.add(tile2.getColor());
           }
         }
+        System.out.println("rowWithShapeTheSame: " + rowWithShapeTheSame);
         if (rowWithShapeTheSame.size() > bestRowLengthYet) {
+          System.out.println("Bigger than previous");
           bestRowLengthYet = rowWithShapeTheSame.size();
+          bestRow.addAll(rowWithShapeTheSame);
         }
-        
+        System.out.println("rowWithColorTheSame: " + rowWithColorTheSame);
         if (rowWithColorTheSame.size() > bestRowLengthYet) {
+          System.out.println("Bigger than previous");
           bestRowLengthYet = rowWithColorTheSame.size();
+          bestRow.addAll(rowWithColorTheSame);
         }
       }
       if (bestRowLengthYet > bestPossibleHandPointsYet) {
         bestPossibleHandPointsYet = bestRowLengthYet;
         playerNrWithBestPossibleHandPointsYet = playerNr;
+        overAllBestRow.addAll(bestRow);
+        System.out.println("Player-" + playerNr + "got the best hand yet");
       }
     }
+    List<Move> turn = new ArrayList<Move>();
+    int row = 91;
+    int column = 91;
+    for (Tile tile : overAllBestRow) {
+      turn.add(new Move(tile, row, column));
+      column++;
+    }
+    applyMoveTurn(getPlayer(playerNrWithBestPossibleHandPointsYet), turn, true);
     return playerNrWithBestPossibleHandPointsYet;
   }
   
