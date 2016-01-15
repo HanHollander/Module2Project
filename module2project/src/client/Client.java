@@ -250,10 +250,10 @@ public class Client extends Thread {
         System.out.println("Not a number. (WELCOME)");
       }
       //If player type is human, create a new human player.
-      if (game.getPlayerType() == "h") {
+      if (game.getPlayerType().equals("h")) {
         Player player = new HumanPlayer(command[1], playerNumber);
         game.setPlayer(player);
-      } else if (game.getPlayerType() == "b") {
+      } else if (game.getPlayerType().equals("b")) {
         //If player type is AI, creat a new computer player.
         Player player = new ComputerPlayer(command[1], playerNumber, new NaiveStrategy());
         game.setPlayer(player);

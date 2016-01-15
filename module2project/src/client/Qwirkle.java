@@ -36,7 +36,7 @@ public class Qwirkle {
     int port = 0;
     
     //Check host.
-    System.out.print("Checking host... ");
+    System.out.println("Checking host... ");
     try {
       host = InetAddress.getByName(addr);
       System.out.println("Host accepted.");
@@ -46,7 +46,7 @@ public class Qwirkle {
     }
     
     //Check port.
-    System.out.print("Checking port... ");
+    System.out.println("Checking port... ");
     try {
       port = Integer.parseInt(portString);
       System.out.println("Port accepted.");
