@@ -250,7 +250,7 @@ public class Game {
       List<Tile> hand = getPlayer(playerNr).getHand();
       bestRowLengthYet = -1;
       List<Tile> bestRow = new ArrayList<Tile>();
-      System.out.println("Calculating best hand for player-" + playerNr);
+      //System.out.println("Calculating best hand for player-" + playerNr);
       for (Tile tile : hand) {
         
         List<Tile> rowWithShapeTheSame = new ArrayList<Tile>();
@@ -274,15 +274,15 @@ public class Game {
             rowWithColorTheSameShapes.add(tile2.getColor());
           }
         }
-        System.out.println("rowWithShapeTheSame: " + rowWithShapeTheSame);
+        //System.out.println("rowWithShapeTheSame: " + rowWithShapeTheSame);
         if (rowWithShapeTheSame.size() > bestRowLengthYet) {
-          System.out.println("Bigger than previous");
+          //System.out.println("Bigger than previous");
           bestRowLengthYet = rowWithShapeTheSame.size();
           bestRow.addAll(rowWithShapeTheSame);
         }
-        System.out.println("rowWithColorTheSame: " + rowWithColorTheSame);
+        //System.out.println("rowWithColorTheSame: " + rowWithColorTheSame);
         if (rowWithColorTheSame.size() > bestRowLengthYet) {
-          System.out.println("Bigger than previous");
+          //System.out.println("Bigger than previous");
           bestRowLengthYet = rowWithColorTheSame.size();
           bestRow.addAll(rowWithColorTheSame);
         }
@@ -291,7 +291,7 @@ public class Game {
         bestPossibleHandPointsYet = bestRowLengthYet;
         playerNrWithBestPossibleHandPointsYet = playerNr;
         overAllBestRow.addAll(bestRow);
-        System.out.println("Player-" + playerNr + "got the best hand yet");
+        //System.out.println("Player-" + playerNr + "got the best hand yet");
       }
     }
     List<Move> turn = new ArrayList<Move>();
