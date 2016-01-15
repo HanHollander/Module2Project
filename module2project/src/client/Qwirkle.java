@@ -16,6 +16,10 @@ public class Qwirkle {
   private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
   private static Game game;
 
+  /**
+   * Main method to run the game.
+   * @param args args
+   */
   public static synchronized void main(String[] args) {
     //Get the player input.
     System.out.println("Welcome in Qwirkle");
@@ -57,7 +61,6 @@ public class Qwirkle {
     
     //Start a new game.
     game = new Game(name, host, port, playerType);
-    
   }
   
   /**
