@@ -71,9 +71,15 @@ public class ClientHandler extends Thread {
           if (isValidMoveTurn(text)) {
             List<Move> turn = convertStringToMoveTurn(text);
             server.getGame().applyMoveTurn(server.getGame().getPlayer(playerNr), turn, false);
+            synchronized (monitor) {
+              monitor.notifyAll();
+            }
           } else if (isValidSwapTurn(text)) {
             List<Tile> turn = convertStringToSwapTurn(text);
             server.getGame().applySwapTurn(turn, server .getGame().getPlayer(playerNr));
+            synchronized (monitor) {
+              monitor.notifyAll();
+            }
           } else {
             server.kick(playerNr, "made a invalid turn");
           }
@@ -81,10 +87,7 @@ public class ClientHandler extends Thread {
           server.kick(playerNr, "spoke before his/her turn");
         }
       } catch (IOException e) {
-        shutdown();
-      }
-      synchronized (monitor) {
-        monitor.notifyAll();
+        server.kick(playerNr, "lost connection");
       }
     }
   }
