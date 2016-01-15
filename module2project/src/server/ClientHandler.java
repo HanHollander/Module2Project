@@ -57,8 +57,7 @@ public class ClientHandler extends Thread {
           monitor.notifyAll();
         }
       } else {
-        // KICK
-        shutdown();
+        server.kick(playerNr, "Did not recieve valid start message");
       }
     } catch (IOException e) {
       shutdown();
@@ -72,26 +71,20 @@ public class ClientHandler extends Thread {
           if (isValidMoveTurn(text)) {
             List<Move> turn = convertStringToMoveTurn(text);
             server.getGame().applyMoveTurn(server.getGame().getPlayer(playerNr), turn, false);
-            synchronized (monitor) {
-              monitor.notifyAll();
-            }
           } else if (isValidSwapTurn(text)) {
             List<Tile> turn = convertStringToSwapTurn(text);
             server.getGame().applySwapTurn(turn, server .getGame().getPlayer(playerNr));
-            synchronized (monitor) {
-              monitor.notifyAll();
-            }
           } else {
-            System.out.println("Player-" + playerNr + " made a invalid turn");
-            shutdown();
+            server.kick(playerNr, "made a invalid turn");
           }
         } else {
-          //KICK
-          System.out.println("Player-" + playerNr + " spoke before his/her turn");
-          shutdown();
+          server.kick(playerNr, "spoke before his/her turn");
         }
       } catch (IOException e) {
         shutdown();
+      }
+      synchronized (monitor) {
+        monitor.notifyAll();
       }
     }
   }
@@ -202,6 +195,23 @@ public class ClientHandler extends Thread {
     return result;
   }
 
+  private Boolean isValidStartMessage(String text) {
+    List<String> allowedChars = Arrays.asList("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", 
+        "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", 
+        "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", 
+        "S", "T", "U", "V", "W", "X", "Y", "Z");
+    Boolean result;
+    result = text.startsWith("HELLO ");
+    if (result) {
+      String name = text.substring(6);
+      result = result && name.length() < 17;
+      for (int i = 0; i < name.length(); i++) {
+        result = result && allowedChars.contains(name.substring(i, i + 1));
+      }
+    }
+    return result;
+  }
+
   /**
    * SERVER -> client.
    * @param msg message
@@ -228,23 +238,6 @@ public class ClientHandler extends Thread {
       System.out.println("Could not close socket in the shutdown procedure.");
     }
     server.removeHandler(playerNr);
-  }
-  
-  private Boolean isValidStartMessage(String text) {
-    List<String> allowedChars = Arrays.asList("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", 
-        "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", 
-        "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", 
-        "S", "T", "U", "V", "W", "X", "Y", "Z");
-    Boolean result;
-    result = text.startsWith("HELLO ");
-    if (!result) {
-      String name = text.substring(6);
-      result = result && name.length() < 17;
-      for (int i = 0; i < name.length(); i++) {
-        result = result && allowedChars.contains(name.substring(i, i + 1));
-      }
-    }
-    return result;
   }
 
 }

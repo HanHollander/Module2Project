@@ -26,7 +26,6 @@ public class Server {
       System.out.println(USAGE);
       System.exit(0);
     }
-    
     int portInt = 0;
     int numberOfPlayers = 0;
     int aiTime = 0;
@@ -58,6 +57,7 @@ public class Server {
   private Game game;
   private Object monitor;
   private int aiTime;
+  private boolean wokenByTimer;
   
   /** Constructs a new Server object. */
   public Server(int portArg, int numberOfPlayersArg, int aiTime) {
@@ -137,12 +137,22 @@ public class Server {
       
       // Wait for a clientHandler to do something (make a move or kick)
       synchronized (monitor) {
-        try { 
+        Timer timer = new Timer(aiTime, this);
+        timer.start();
+        try {
+          wokenByTimer = false;
           monitor.wait();
         } catch (InterruptedException e) {
           System.out.println("Interupted while waiting for someone to make a move");
         }
-        nextPlayerTurn();
+        if (wokenByTimer) {
+          kick(game.getCurrentPlayer(), "Did not make a move in time");
+        } else {
+          timer.stopTimer();
+        }
+        if (threads.size() > 1) {
+          nextPlayerTurn();
+        }
       }
     }
     broadcast("WINNER " + game.getWinningPlayerNr());
@@ -240,5 +250,12 @@ public class Server {
       msg = "NEW empty";
     }
     threads.get(playerNr).sendMessage(msg);
+  }
+  
+  public void timerWakesServer() {
+    synchronized (monitor) {
+      wokenByTimer = true;
+      monitor.notifyAll();
+    }
   }
 }
