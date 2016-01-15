@@ -196,7 +196,7 @@ public class Game {
         }
       }
     }
-    System.out.println("Player-" + getWinningPlayerNr() + " started");
+    System.out.println("Player-" + getPlayerNrWithTheBestHand() + " started");
     for (int playerNr : playerNrs) {
       server.getThread(playerNr).sendMessage("NEW" + getPlayer(playerNr).handToString());
     }
