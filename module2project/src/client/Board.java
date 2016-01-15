@@ -448,6 +448,10 @@ public class Board {
     return horizontalResult + verticalResult;
   }
   
+  public List<Move> getMoveList() {
+    return currentLocalTurn;
+  }
+  
   /**
    * Main method. Purpose = testing.
    * @param args Arguments

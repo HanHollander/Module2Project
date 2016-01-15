@@ -83,7 +83,10 @@ public class Game {
       makeMove();
       System.out.println("\n" + board.toString());
     }
-    int score = board.getScoreCurrentTurn();
+    int score = 0;
+    if (board.getMoveList().size() != 0) {
+      score = board.getScoreCurrentTurn();
+    } 
     getPlayerWithNumber(player.getPlayerNumber())
       .setScore(getPlayerWithNumber(player.getPlayerNumber()).getScore() + score);
     //End the turn (after the END command).
@@ -101,7 +104,10 @@ public class Game {
       setPool(getPool() - 1);
     }
     //Get score
-    int score = board.getScoreCurrentTurn();
+    int score = 0;
+    if (board.getMoveList().size() != 0) {
+      score = board.getScoreCurrentTurn();
+    } 
     player.setScore(player.getScore() + score);
     System.out.println("\n" + board.toString());
     printScores();
