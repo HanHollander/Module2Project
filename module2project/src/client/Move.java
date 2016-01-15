@@ -10,10 +10,9 @@ public class Move {
   
   /**
    * Constructor for MOVE move.
-   * @param colour c of t
-   * @param shape s of t
-   * @param row r of t
-   * @param column c of t
+   * @param tile Tile which is to be placed.
+   * @param row Row where the tile is to be placed.
+   * @param column Column where the tile is to be placed.
    */
   public Move(Tile tile, int row, int column) {
     this.type = Type.MOVE;
@@ -53,9 +52,14 @@ public class Move {
   }
   
   public String toString() {
-    return "Tile: [" + getTile().toString() + "], row: " + getRow() + ", column: " + getColumn();
+    return "[" + tile.toString() + ", " + row + ", " + column + "]";
   }
 
+  /**
+   * Custom equals function to make life easier.
+   * @param move The move to compare this to.
+   * @return If the moves are equal.s
+   */
   public boolean equals(Move move) {
     boolean equals = false;
     if (type == Type.MOVE) {

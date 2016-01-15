@@ -53,9 +53,12 @@ public class HumanPlayer extends Player {
       }
       System.out.println("Listtype: " + listType);
       try {
+        //Get the move from user input
         move = getMove();
+        //Check if move can be done with respect to earlier moves.
         if (move.getType().equals(Type.MOVE) 
             && (listType.equals(Type.ANY) || listType.equals(Type.MOVE))) {
+          //Check if the move is valid.
           if (board.checkMove(move)) {
             System.out.println("Passed board.checkMove()");
             try {
@@ -66,8 +69,9 @@ public class HumanPlayer extends Player {
             validMove = true;
             getMoves().add(move);
           } else {
-            throw new InvalidMoveException();
+            throw new InvalidMoveException("The move can not be done on the current board.");
           }
+        //Again, check if move can be done.  
         } else if (move.getType().equals(Type.SWAP) 
             && (listType.equals(Type.ANY) || listType.equals(Type.SWAP))) {
           try {
@@ -79,24 +83,30 @@ public class HumanPlayer extends Player {
           getMoves().add(move);
         } else  if (move.getType().equals(Type.END)) {
           validMove = true;
+        //If the move is not one of the above, or several kinds of moves are done in one turn.  
         } else {
-          System.out.println("Faaled board.checkMove()");
-          throw new InvalidMoveException();
+          throw new InvalidMoveException("You can only make one type of move per turn.");
         }
       } catch (InvalidCommandException e) {
-        System.out.println("ik catch iets");
         System.out.println(e);
       }
     }
     return move;
   }
   
+  /**
+   * Verifies the command and returnes a newly made move.
+   * @param input the command
+   * @return a new move
+   * @throws InvalidCommandException if the command is invalid
+   */
   public Move verifyMove(String input) throws InvalidCommandException {
     boolean validInput = false;
     String[] command = null;
     Move move = null;
     //MOVE command
     if (input.startsWith("MOVE")) {
+      //Validates the move format/command.
       validInput = validMoveCommand(input);
       if (validInput) {
         command = input.split(" ");
@@ -108,6 +118,7 @@ public class HumanPlayer extends Player {
       }
     //SWAP command
     } else if (input.startsWith("SWAP")) {
+      //Validates the move format/command.
       validInput = validSwapCommand(input);
       if (validInput) {
         command = input.split(" ");
@@ -117,11 +128,13 @@ public class HumanPlayer extends Player {
       }
     //END command
     } else if (input.startsWith("END")) {
+      //Validates the move format/command.
       validInput = validEndCommand(input);
       if (validInput) {
         move = new Move();
       }
-    } else { //Neither move nor swap nor end
+    } else { 
+      //Neither MOVE nor SWAP nor END move
       throw new InvalidCommandException(MOVEUSAGE + " " + SWAPUSAGE);
     }
     return move;
@@ -143,6 +156,7 @@ public class HumanPlayer extends Player {
       } catch (IOException e) {
         System.out.println("Could not read line.");
       }
+      //Verify the move before returning it.
       move = verifyMove(input);
     }
     return move;
@@ -157,22 +171,28 @@ public class HumanPlayer extends Player {
   public boolean validMoveCommand(String input) throws InvalidCommandException {
     boolean validInput = false;
     String[] command = input.split(" "); 
-    if (command.length == 4) { //Command length must be four
+    if (command.length == 4) { 
+      //Command length must be four
       String colour = Character.toString(command[1].charAt(0));
       String shape = Character.toString(command[1].charAt(1));
-      try { //Row and column must be integers
+      try { 
+        //Row and column must be integers
         int row = Integer.parseInt(command[2]);
         int column = Integer.parseInt(command[3]);
-      } catch (NumberFormatException e) { //Throw exception if row or column are invalid
+      } catch (NumberFormatException e) { 
+        //Throw exception if row or column are invalid
         throw new InvalidCommandException(MOVEUSAGE);
       }
-      if (COLOURS.contains(colour) && SHAPES.contains(shape)) { //Colour and shape must exist
+      if (COLOURS.contains(colour) && SHAPES.contains(shape)) { 
+        //Colour and shape must exist
         validInput = true;
-      } else { //Throw exception if colour or shape is not valid
+      } else { 
+        //Throw exception if colour or shape is not valid
         throw new InvalidCommandException("Colours: " + COLOURS + ", shapes: " 
             + SHAPES + " " + MOVEUSAGE);
       }
-    } else { //Throw exception if command lenght is not four
+    } else { 
+      //Throw exception if command lenght is not four
       throw new InvalidCommandException(MOVEUSAGE);
     }
     return validInput;
@@ -187,15 +207,19 @@ public class HumanPlayer extends Player {
   public boolean validSwapCommand(String input) throws InvalidCommandException {
     boolean validInput = false;
     String[] command = input.split(" ");
-    if (command.length == 2) { //length must be 2
+    if (command.length == 2) { 
+      //Command length must be 2.
       String colour = Character.toString(command[1].charAt(0));
       String shape = Character.toString(command[1].charAt(1));
-      if (COLOURS.contains(colour) && SHAPES.contains(shape)) { //Colour and shape must exist
+      if (COLOURS.contains(colour) && SHAPES.contains(shape)) { 
+        //Colour and shape must exist.
         validInput = true;
-      } else { //Invalid colour and shape
+      } else { 
+        //Invalid colour and shape.
         throw new InvalidCommandException("Colours: " + COLOURS + ", shapes: " + SHAPES);
       }
-    } else { //Invalid command usage
+    } else { 
+      //Invalid command usage.
       throw new InvalidCommandException(SWAPUSAGE);
     }
     return validInput;
