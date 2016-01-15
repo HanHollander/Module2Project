@@ -95,6 +95,7 @@ public class Game {
     for (Move move : moves) {
       //Place all the moves on the board.
       board.putTile(move);
+      setPool(getPool() - 1);
     }
     System.out.println(board.toString());
     //Reset board counters.
