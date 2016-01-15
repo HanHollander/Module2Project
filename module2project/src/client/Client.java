@@ -231,6 +231,9 @@ public class Client extends Thread {
         String number = command[(2 * i) + 2];
         addPlayer(name, number);
       }
+      for (int j = 0; j < numberOfPlayers  - 1; j++) {
+        game.setPool((game.getPool() - 6));
+      }
       System.out.println("Players participating: " + game.getPlayerList());
       System.out.println("AITime: " + command[command.length - 1]);
     }  
