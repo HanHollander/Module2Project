@@ -229,7 +229,6 @@ public class Board {
             || !getTile(move.getRow(), move.getColumn() + 1).toString().equals(empty);
         
         if (gotHorizontalRow) {
-          System.out.println("CHECK HORIZONTAL");
           // Check if the current move fits in the horizontal row.
           ArrayList<String> adjesentHorizontalTilesShapes = new ArrayList<String>();
           ArrayList<String> adjesentHorizontalTilesColors = new ArrayList<String>();
@@ -246,14 +245,11 @@ public class Board {
             adjesentHorizontalTilesColors.add(getTile(row, column).getColor());
             column--;
           }
-          System.out.println("adjecentHorizontalTilesShapes: " + adjesentHorizontalTilesShapes);
-          System.out.println("adjecentHorizontalTilesColors: " + adjesentHorizontalTilesColors);
           Boolean shapesAreTheSame = true;
           String templateShape = move.getTile().getShape();
           for (String shape : adjesentHorizontalTilesShapes) {
             shapesAreTheSame = shapesAreTheSame && shape.equals(templateShape);
           }
-          System.out.println("shapesAreTheSame: " + shapesAreTheSame);
           shapesAreTheSame = shapesAreTheSame 
               && !adjesentHorizontalTilesColors.contains(move.getTile().getColor());
           
@@ -262,7 +258,6 @@ public class Board {
           for (String color : adjesentHorizontalTilesColors) {
             colorsAreTheSame = colorsAreTheSame && color.equals(templateColor);
           }
-          System.out.println("colorsAreTheSame: " + colorsAreTheSame);
           colorsAreTheSame = colorsAreTheSame 
               && !adjesentHorizontalTilesShapes.contains(move.getTile().getShape());
           
@@ -274,7 +269,6 @@ public class Board {
         }
         
         if (gotVerticalRow) {
-          System.out.println("CHECK VERTICAL");
           // Check if the current move fits in the vertical row.
           ArrayList<String> adjesentVerticalTilesShapes = new ArrayList<String>();
           ArrayList<String> adjesentVerticalTilesColors = new ArrayList<String>();
@@ -373,7 +367,6 @@ public class Board {
     } else {
       result = true;
     }
-    System.out.println("LINUP CHECK " + result);
     return result;
   }
   

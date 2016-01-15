@@ -113,9 +113,9 @@ public class Server {
     }
     broadcast(namesMsg + " " + aiTime);
     
-    System.out.println("\n" + "Dealing tiles" + "\n");
+    System.out.println("\n" + "Dealing tiles and making first move" + "\n");
     game.dealTiles();
-    System.out.println("\n" + "Tiles dealt" + "\n");
+    System.out.println("\n" + "Tiles dealt and first move made" + "\n");
     
     nextPlayerTurn();
     
