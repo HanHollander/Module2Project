@@ -54,7 +54,7 @@ public class Client extends Thread {
     try {
       while (text != null) {
         text = in.readLine();
-        System.out.println("Received command: " + text);
+        //System.out.println("Received command: " + text);
         if (!(text == null) && !text.equals("\n")) {
           //Check for all the commands if the text is such a command. If so, excecute things.
           checkWelcome(text);
@@ -82,7 +82,7 @@ public class Client extends Thread {
     if (text.startsWith(Game.NEW) && command.length <= 8) {
       if (command.length == 2 && command[1].equals("empty")) {
         //[NEW empty] command is received if the pool has no tiles left.
-        System.out.println("There are no tiles left in the pool.");
+        System.out.println("There are no tiles left in the pool." + "\n");
       } else {
         //If the command is not empty, add all tiles in the command to the hand of the player.
         for (int i = 1; i < command.length; i++) {
@@ -91,14 +91,13 @@ public class Client extends Thread {
           Tile tile = new Tile(colour, shape);
           try {
             game.getPlayer().addToHand(tile);
-            System.out.println("Added to hand: " + tile.toString());
           } catch (HandIsFullException e) {
             System.out.println(e);
           }
           //Update the pool.
           game.setPool(game.getPool() - 1);
         }
-        System.out.println("Tiles in pool: " + game.getPool());
+        System.out.println("Tiles in pool: " + game.getPool() + "\n");
       }
     }
   }
@@ -121,10 +120,10 @@ public class Client extends Thread {
       //Update the pool. The tiles of the kicked player go back into the pool.
       for (int i = 0; i < tilesBackToPool; i++) {
         game.setPool(game.getPool() + 1);
-        System.out.println("Tiles in pool: " + game.getPool());
+        System.out.println("Tiles in pool: " + game.getPool() + "\n");
       }
       System.out.println(getPlayerName(playerNumber) 
-          +  " IS KICKED FOR THE FOLLOWING REASON:" + text.substring(7));
+          +  " IS KICKED FOR THE FOLLOWING REASON:" + text.substring(7) + "\n");
     }
   }
   
@@ -161,7 +160,7 @@ public class Client extends Thread {
       }
       if (command.length == 3 && command[2].equals("empty")) {
         //[TURN <pnr> empty] command is received if somebody swapped.
-        System.out.println(getPlayerName(playerNumber) + " swapped." );
+        System.out.println(getPlayerName(playerNumber) + " swapped." + "\n");
       } else if (command.length <= 20 && ((command.length - 2) % 3 == 0)) {
         //Else, make a list with every move in the command.
         for (int i = 0; i < ((command.length - 2) / 3); i++ ) {
@@ -184,7 +183,9 @@ public class Client extends Thread {
       //update the board.
       if (playerNumber != game.getPlayer().getPlayerNumber()) {
         game.opponentTurn(moves);
-        System.out.println(getPlayerName(playerNumber) + " just made the following move: " + moves);
+        if (!(command.length == 3)) {
+          System.out.println(getPlayerName(playerNumber) + " just made the following move: " + moves  + "\n");
+        }
       } else if (firstTurn) {
         game.opponentTurn(moves);
       }
@@ -211,7 +212,7 @@ public class Client extends Thread {
       } else {
         //Else, it's the opponents turn.
         String playerName = getPlayerName(playerNumber);
-        System.out.println("It is now " + playerName + "'s turn.");
+        System.out.println("It is now " + playerName + "'s turn." + "\n");
       }
     }  
   }  
@@ -234,8 +235,8 @@ public class Client extends Thread {
       for (int j = 0; j < numberOfPlayers  - 1; j++) {
         game.setPool((game.getPool() - 6));
       }
-      System.out.println("Players participating: " + game.getPlayerList());
-      System.out.println("AITime: " + command[command.length - 1]);
+      System.out.println("Players participating: " + game.getPlayerList() + "\n");
+      System.out.println("AITime: " + command[command.length - 1] + "\n");
     }  
   }
 
@@ -261,7 +262,7 @@ public class Client extends Thread {
         Player player = new ComputerPlayer(command[1], playerNumber, new NaiveStrategy());
         game.setPlayer(player);
       }
-      System.out.println("Welcome message received.");
+      System.out.println("Welcome message received." + "\n");
     }  
   }
 

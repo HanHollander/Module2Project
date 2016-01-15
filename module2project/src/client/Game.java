@@ -77,11 +77,11 @@ public class Game {
    */
   public void playerTurn() {
     setPlayerTurn(true);
-    System.out.println("It is your turn!");
+    System.out.println("It is your turn!" + "\n");
     while (playerTurn) {
-      System.out.println(player.handToString());
+      System.out.println("Hand: " + player.handToString() + "\n");
       makeMove();
-      System.out.println(board.toString());
+      System.out.println("\n" + board.toString());
     }
     //End the turn (after the END command).
     endTurn();
@@ -97,7 +97,7 @@ public class Game {
       board.putTile(move);
       setPool(getPool() - 1);
     }
-    System.out.println(board.toString());
+    System.out.println("\n" + board.toString());
     //Reset board counters.
     board.endTurn();
   }
@@ -146,7 +146,7 @@ public class Game {
       command = MOVE;
     }
     //Send the command to server.
-    System.out.println("Command sent to server: " + command);
+    //System.out.println("Command sent to server: " + command);
     client.sendMessage(command);
     //Reset the board counters.
     board.endTurn();

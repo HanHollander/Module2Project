@@ -45,13 +45,12 @@ public class HumanPlayer extends Player {
     Move move = null;
     while (!validMove) {
       Type listType;
-      System.out.println("Moves: " + getMoves() + " " + getMoves().size());
       if (getMoves().size() == 0) {
         listType = Type.ANY;
       } else {
         listType = getMoves().get(0).getType();
       }
-      System.out.println("Listtype: " + listType);
+      System.out.println("Type of turn: " + listType);
       try {
         //Get the move from user input
         move = getMove();
@@ -60,7 +59,6 @@ public class HumanPlayer extends Player {
             && (listType.equals(Type.ANY) || listType.equals(Type.MOVE))) {
           //Check if the move is valid.
           if (board.checkMove(move)) {
-            System.out.println("Passed board.checkMove()");
             try {
               removeFromHand(move.getTile());
             } catch (TileNotInHandException e) {
