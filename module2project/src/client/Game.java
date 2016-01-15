@@ -83,6 +83,7 @@ public class Game {
       makeMove();
       System.out.println("\n" + board.toString());
     }
+    printScores();
     //End the turn (after the END command).
     endTurn();
   }
@@ -91,13 +92,17 @@ public class Game {
    * Gets called when it is an opponents turn.
    * @param moves the moves the opponent did.
    */
-  public void opponentTurn(List<Move> moves) {
+  public void opponentTurn(List<Move> moves, Player player) {
     for (Move move : moves) {
       //Place all the moves on the board.
       board.putTile(move);
       setPool(getPool() - 1);
     }
     System.out.println("\n" + board.toString());
+    printScores();
+    //Get score
+    int score = board.getScoreCurrentTurn();
+    player.setScore(player.getScore() + score);
     //Reset board counters.
     board.endTurn();
   }
@@ -139,6 +144,7 @@ public class Game {
       } else if (listType == SWAP) {
         for (Move move : player.getMoves()) {
           command = command + move.getTile().toString() + " ";
+          setPool(getPool() + 1);
         }
       }
       player.setMoves(new ArrayList<Move>());
@@ -148,8 +154,17 @@ public class Game {
     //Send the command to server.
     //System.out.println("Command sent to server: " + command);
     client.sendMessage(command);
+    //Add score
+    int score = board.getScoreCurrentTurn();
+    player.setScore(player.getScore() + score);
     //Reset the board counters.
     board.endTurn();
+  }
+  
+  public void printScores() {
+    for (Player player : playerList) {
+      System.out.println(player.getName() + "'s score is: " + player.getScore());
+    }
   }
   
   public void addPlayerToList(Player player) {
@@ -158,6 +173,21 @@ public class Game {
 
   public Player getPlayer() {
     return player;
+  }
+  
+  /**
+   * Get player with nr
+   * @param nr nr
+   * @return player
+   */
+  public Player getPlayerWithNumber(int nr) {
+    Player result = null;
+    for (Player player : playerList) {
+      if (player.getPlayerNumber() == nr) {
+        result = player;
+      }
+    }
+    return result;
   }
 
   public void setPlayer(Player player) {

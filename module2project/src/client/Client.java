@@ -182,12 +182,12 @@ public class Client extends Thread {
       //If the player that executed the turn is not the player itself and it is not the first turn,
       //update the board.
       if (playerNumber != game.getPlayer().getPlayerNumber()) {
-        game.opponentTurn(moves);
+        game.opponentTurn(moves, game.getPlayerWithNumber(playerNumber));
         if (!(command.length == 3)) {
           System.out.println(getPlayerName(playerNumber) + " just made the following move: " + moves  + "\n");
         }
       } else if (firstTurn) {
-        game.opponentTurn(moves);
+        game.opponentTurn(moves, game.getPlayerWithNumber(playerNumber));
       }
       firstTurn = false;
     }  

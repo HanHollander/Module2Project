@@ -13,6 +13,7 @@ public abstract class Player {
   private int playerNumber;
   private List<Tile> hand;
   private List<Move> moves;
+  private int score;
         
   /**
    * Constructor for a Player.
@@ -92,6 +93,14 @@ public abstract class Player {
 
   public void setMoves(List<Move> moves) {
     this.moves = moves;
+  }
+
+  public int getScore() {
+    return score;
+  }
+
+  public void setScore(int score) {
+    this.score = score;
   }
     
 }
