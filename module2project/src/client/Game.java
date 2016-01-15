@@ -13,10 +13,12 @@ import exceptions.HandIsFullException;
 import exceptions.InvalidMoveException;
 import exceptions.TileNotInHandException;
 
+/**
+ * Main methods class.
+ * @author Han
+ */
 public class Game {
-    
-  //Fields\\
-  
+     
   private Board board;
     
   private List<Player> playerList;
@@ -41,49 +43,38 @@ public class Game {
   private int pool = 108;
   private boolean playerTurn;
   
-  //Constructor\\
-  
+  /**
+   * Constructs a new game and a new client.
+   * @param name name of client.
+   * @param host server.
+   * @param port port of server.
+   * @param playerType type of player.
+   */
   public Game(String name, InetAddress host, int port, String playerType) {
     this.board = new Board();
     playerList = new ArrayList<>();
     this.playerName = name;
     this.setPlayerType(playerType);
+    //Try creating a client.
     try {
-      System.out.print("Creating client... ");
+      System.out.println("Creating client... ");
       client = new Client(name, host, port, this);
-      System.out.println("Client "+ client.getClientName() + " created");
-      System.out.print("Starting client... ");
+      System.out.println("Client " + client.getClientName() + " created");
+      System.out.println("Starting client... ");
       client.start();
       System.out.println("Client started.");
-      System.out.print("Sending registration message... ");
+      System.out.println("Sending registration message... ");
       client.sendMessage(HELLO + " " + playerName);
       System.out.println("Registration message send.");
-      System.out.print("Waiting for welcome message... ");
+      System.out.println("Waiting for welcome message... ");
     } catch (IOException | NullPointerException e) {
       System.out.println("Client could not be created or started.");
     }
   }
   
-  
-  
-  
-  
-  
-  
-  
-  public void addPlayerToList(Player player) {
-    playerList.add(player);
-  }
-  public void setPlayer(Player player) {
-    this.player = player;
-  }
-  public Player getPlayer() {
-    return player;
-  }
-  
-  
-  
-  
+  /**
+   * Gets called when it is the turn of the player.
+   */
   public void playerTurn() {
     setPlayerTurn(true);
     System.out.println("It is your turn!");
@@ -92,11 +83,50 @@ public class Game {
       makeMove();
       System.out.println(board.toString());
     }
+    //End the turn (after the END command).
     endTurn();
   }
   
+  /**
+   * Gets called when it is an opponents turn.
+   * @param moves the moves the opponent did.
+   */
+  public void opponentTurn(List<Move> moves) {
+    for (Move move : moves) {
+      //Place all the moves on the board.
+      board.putTile(move);
+    }
+    System.out.println(board.toString());
+    //Reset board counters.
+    board.endTurn();
+  }
+
+  /**
+   * Gets called when it is the players turn. More than one move can be done in one turn.
+   */
+  public void makeMove() {
+    Move move = null;
+    try {
+      //Get the user-input and convert it to a move;
+      move = player.determineMove(board);
+      //If the move is of the type MOVE put the tile on the board.
+      if (move.getType().equals(Type.MOVE)) {
+        board.putTile(move);
+        //If it is of the type END, end the turn
+      } else if (move.getType().equals(Type.END)) {
+        setPlayerTurn(false);
+      }
+    } catch (InvalidMoveException e) {
+      System.out.println(e);
+    }
+  }
+
+  /**
+   * Gets called when the turn is over.
+   */
   public void endTurn() {
     String command;
+    //Compile the command.
     if (player.getMoves().size() > 0) {
       String listType = player.getMoves().get(0).getType().toString();
       command = listType + " ";
@@ -105,7 +135,6 @@ public class Game {
           command = command + move.getTile().toString() 
               + " " + move.getRow() + " " + move.getColumn() + " ";
         }
-        //System.out.println("Score :" + board.getScoreCurrentTurn());
       } else if (listType == SWAP) {
         for (Move move : player.getMoves()) {
           command = command + move.getTile().toString() + " ";
@@ -115,32 +144,23 @@ public class Game {
     } else {
       command = MOVE;
     }
-    System.out.println("Command: " + command);
+    //Send the command to server.
+    System.out.println("Command sent to server: " + command);
     client.sendMessage(command);
+    //Reset the board counters.
     board.endTurn();
   }
   
-  public void opponentTurn(List<Move> moves) {
-    for (Move move : moves) {
-      board.putTile(move);
-    }
-    System.out.println(board.toString());
-    board.endTurn();
+  public void addPlayerToList(Player player) {
+    playerList.add(player);
   }
 
-  public void makeMove() {
-    Move move = null;
-    try {
-      move = player.determineMove(board);
-      if (move.getType().equals(Type.MOVE)) {
-        board.putTile(move);
-      } else if (move.getType().equals(Type.SWAP)) {
-      } else if (move.getType().equals(Type.END)) {
-        setPlayerTurn(false);
-      }
-    } catch (InvalidMoveException e) {
-      System.out.println(e);
-    }
+  public Player getPlayer() {
+    return player;
+  }
+
+  public void setPlayer(Player player) {
+    this.player = player;
   }
 
   public Board getBoard() {
@@ -159,48 +179,24 @@ public class Game {
     this.playerList = playerList;
   }
   
-  public void setPlayerTurn(boolean bool) {
-    playerTurn = bool;
-  }
-
-
-
-  public String getPlayerType() {
-    return playerType;
-  }
-
-
-
-  public void setPlayerType(String playerType) {
-    this.playerType = playerType;
-  }
-
-
-
-
-
-
-
-
   public int getPool() {
     return pool;
   }
-
-
-
-
-
-
 
   public void setPool(int pool) {
     this.pool = pool;
   }
 
+  public String getPlayerType() {
+    return playerType;
+  }
 
+  public void setPlayerType(String playerType) {
+    this.playerType = playerType;
+  }
 
- 
- 
-    
-    
+  public void setPlayerTurn(boolean bool) {
+    playerTurn = bool;
+  }
 
 }

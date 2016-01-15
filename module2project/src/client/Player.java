@@ -2,28 +2,18 @@ package client;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 import exceptions.HandIsFullException;
 import exceptions.InvalidMoveException;
 import exceptions.TileNotInHandException;
 
-/**
- * Abstract player class.
- * @author Han Hollander
- */
-
 public abstract class Player {
-    
-  //Fields\\
     
   private String name;
   private int playerNumber;
   private List<Tile> hand;
   private List<Move> moves;
-    
-  //Constructor\\
-    
+        
   /**
    * Constructor for a Player.
    * @param name the name
@@ -35,9 +25,7 @@ public abstract class Player {
     this.hand = new ArrayList<Tile>();
     this.setMoves(new ArrayList<Move>());
   }
-    
-  //Functions\\
-    
+        
   /**
    * Function that determines what move is played next.
    * @throws InvalidMoveException invalid move
@@ -78,14 +66,6 @@ public abstract class Player {
     }
   }
   
-  
-    
-  //Getters, toString\\
-        
-  /**
-   * Get the name of the player.
-   * @return name
-   */
   public String getName() {
     return name;
   }
@@ -98,10 +78,6 @@ public abstract class Player {
     return hand.toString();
   }
     
-  /**
-   * get number of the player.
-   * @return playerNumber
-   */
   public int getPlayerNumber() {
     return playerNumber;
   }

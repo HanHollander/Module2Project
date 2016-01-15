@@ -11,13 +11,13 @@ import java.net.UnknownHostException;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
-
 public class Qwirkle {
   
   private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
   private static Game game;
 
   public static synchronized void main(String[] args) {
+    //Get the player input.
     System.out.println("Welcome in Qwirkle");
     System.out.println("(only characters a-z A-Z and 1 to 16 characters long)");
     System.out.println("What is your name?");
@@ -25,19 +25,17 @@ public class Qwirkle {
     System.out.println("");
     System.out.println("Server IP-adress:");
     String addr = readInput();
-    //String addr = "localhost";
     System.out.println("");
     System.out.println("Server port:");
     String portString = readInput();
-    //String portString = "7777";
     System.out.println("");
     System.out.println("Bot: 'b', Human: 'h'");
-    //FOR NOW
-    String playerType = "h";
+    String playerType = readInput();
     
     InetAddress host = null;
     int port = 0;
     
+    //Check host.
     System.out.print("Checking host... ");
     try {
       host = InetAddress.getByName(addr);
@@ -47,6 +45,7 @@ public class Qwirkle {
       System.exit(0);
     }
     
+    //Check port.
     System.out.print("Checking port... ");
     try {
       port = Integer.parseInt(portString);
@@ -56,11 +55,15 @@ public class Qwirkle {
       System.exit(0);
     }
     
+    //Start a new game.
     game = new Game(name, host, port, playerType);
     
   }
   
-  /////////////STILL VALIDATE INPUT!!!\\\\\\\\\\\\
+  /**
+   * Read input from System.in.
+   * @return the input.
+   */
   public static String readInput() {
     String input = "";
     boolean validInput = false;
