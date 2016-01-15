@@ -50,7 +50,7 @@ public class HumanPlayer extends Player {
       } else {
         listType = getMoves().get(0).getType();
       }
-      System.out.println("Type of turn: " + listType);
+      Printer.print("Type of turn: " + listType);
       try {
         //Get the move from user input
         move = getMove();
@@ -62,7 +62,7 @@ public class HumanPlayer extends Player {
             try {
               removeFromHand(move.getTile());
             } catch (TileNotInHandException e) {
-              System.out.println(e);
+              Printer.print(e);
             }
             validMove = true;
             getMoves().add(move);
@@ -75,7 +75,7 @@ public class HumanPlayer extends Player {
           try {
             removeFromHand(move.getTile());
           } catch (TileNotInHandException e) {
-            System.out.println(e);
+            Printer.print(e);
           }
           validMove = true;
           getMoves().add(move);
@@ -86,7 +86,7 @@ public class HumanPlayer extends Player {
           throw new InvalidMoveException("You can only make one type of move per turn.");
         }
       } catch (InvalidCommandException e) {
-        System.out.println(e);
+        Printer.print(e);
       }
     }
     return move;
@@ -149,10 +149,10 @@ public class HumanPlayer extends Player {
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     while (move == null) {
       try {
-        System.out.println("What is your action?");
+        Printer.print("What is your action?");
         input = reader.readLine();
       } catch (IOException e) {
-        System.out.println("Could not read line.");
+        Printer.print("Could not read line.");
       }
       //Verify the move before returning it.
       move = verifyMove(input);

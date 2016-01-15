@@ -57,18 +57,18 @@ public class Game {
     this.setPlayerType(playerType);
     //Try creating a client.
     try {
-      System.out.println("Creating client... ");
+      Printer.print("Creating client... ");
       client = new Client(name, host, port, this);
-      System.out.println("Client " + client.getClientName() + " created");
-      System.out.println("Starting client... ");
+      Printer.print("Client " + client.getClientName() + " created");
+      Printer.print("Starting client... ");
       client.start();
-      System.out.println("Client started.");
-      System.out.println("Sending registration message... ");
+      Printer.print("Client started.");
+      Printer.print("Sending registration message... ");
       client.sendMessage(HELLO + " " + playerName);
-      System.out.println("Registration message send.");
-      System.out.println("Waiting for welcome message... ");
+      Printer.print("Registration message send.");
+      Printer.print("Waiting for welcome message... ");
     } catch (IOException | NullPointerException e) {
-      System.out.println("Client could not be created or started.");
+      Printer.print("Client could not be created or started.");
     }
   }
   
@@ -77,11 +77,11 @@ public class Game {
    */
   public void playerTurn() {
     setPlayerTurn(true);
-    System.out.println("It is your turn!" + "\n");
+    Printer.print("It is your turn!" + "\n");
     while (playerTurn) {
-      System.out.println("Hand: " + player.handToString() + "\n");
+      Printer.print("Hand: " + player.handToString() + "\n");
       makeMove();
-      System.out.println("\n" + board.toString());
+      Printer.print("\n" + board.toString());
     }
     int score = 0;
     if (board.getMoveList().size() != 0) {
@@ -109,7 +109,7 @@ public class Game {
       score = board.getScoreCurrentTurn();
     } 
     player.setScore(player.getScore() + score);
-    System.out.println("\n" + board.toString());
+    Printer.print("\n" + board.toString());
     printScores();
     //Reset board counters.
     board.endTurn();
@@ -131,7 +131,7 @@ public class Game {
         setPlayerTurn(false);
       }
     } catch (InvalidMoveException e) {
-      System.out.println(e);
+      Printer.print(e);
     }
   }
 
@@ -160,7 +160,7 @@ public class Game {
       command = MOVE;
     }
     //Send the command to server.
-    //System.out.println("Command sent to server: " + command);
+    //Printer.print("Command sent to server: " + command);
     client.sendMessage(command);
     //Add score
     
@@ -171,7 +171,7 @@ public class Game {
   
   public void printScores() {
     for (Player player : playerList) {
-      System.out.println(player.getName() + "'s score is: " + player.getScore());
+      Printer.print(player.getName() + "'s score is: " + player.getScore());
     }
   }
   
@@ -237,5 +237,6 @@ public class Game {
   public void setPlayerTurn(boolean bool) {
     playerTurn = bool;
   }
+
 
 }
