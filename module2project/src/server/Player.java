@@ -34,7 +34,6 @@ public class Player {
     this.name = name;
     this.playerNumber = playerNumber;
     this.hand = new ArrayList<Tile>();
-    this.setMoves(new ArrayList<Move>());
     score = 0;
   }
     
@@ -87,7 +86,9 @@ public class Player {
   }
   
   public List<Tile> getHand() {
-    return hand;
+    List<Tile> result = new ArrayList<Tile>();
+    result.addAll(hand);
+    return result;
   }
   
   public String handToString() {
@@ -108,14 +109,6 @@ public class Player {
   
   public String toString() {
     return "Player-" + playerNumber + " " + name;
-  }
-
-  public List<Move> getMoves() {
-    return moves;
-  }
-
-  public void setMoves(List<Move> moves) {
-    this.moves = moves;
   }
   
   public int getScore() {
