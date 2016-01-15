@@ -56,8 +56,9 @@ public class Game {
         System.out.println(e);
       }
       try {
-        player.addToHand(swapTileWithPool(tile));
-        newTiles.add(tile);
+        Tile newTile = swapTileWithPool(tile);
+        player.addToHand(newTile);
+        newTiles.add(newTile);
       } catch (HandIsFullException e) {
         System.out.println(e);
       }
