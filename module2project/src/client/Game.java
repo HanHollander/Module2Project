@@ -83,6 +83,9 @@ public class Game {
       makeMove();
       System.out.println("\n" + board.toString());
     }
+    int score = board.getScoreCurrentTurn();
+    getPlayerWithNumber(player.getPlayerNumber())
+      .setScore(getPlayerWithNumber(player.getPlayerNumber()).getScore() + score);
     //End the turn (after the END command).
     endTurn();
   }
@@ -154,8 +157,7 @@ public class Game {
     //System.out.println("Command sent to server: " + command);
     client.sendMessage(command);
     //Add score
-    int score = board.getScoreCurrentTurn();
-    player.setScore(player.getScore() + score);
+    
     printScores();
     //Reset the board counters.
     board.endTurn();
