@@ -83,7 +83,6 @@ public class Game {
       makeMove();
       System.out.println("\n" + board.toString());
     }
-    printScores();
     //End the turn (after the END command).
     endTurn();
   }
@@ -98,11 +97,11 @@ public class Game {
       board.putTile(move);
       setPool(getPool() - 1);
     }
-    System.out.println("\n" + board.toString());
-    printScores();
     //Get score
     int score = board.getScoreCurrentTurn();
     player.setScore(player.getScore() + score);
+    System.out.println("\n" + board.toString());
+    printScores();
     //Reset board counters.
     board.endTurn();
   }
@@ -157,6 +156,7 @@ public class Game {
     //Add score
     int score = board.getScoreCurrentTurn();
     player.setScore(player.getScore() + score);
+    printScores();
     //Reset the board counters.
     board.endTurn();
   }
