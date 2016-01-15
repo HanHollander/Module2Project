@@ -119,12 +119,19 @@ public class Server {
     
     nextPlayerTurn();
     
+    
+    
     while (game.getPoolSize() > 0 && threads.size() > 1) {
+      System.out.println("\n" + game.getBoard().toString() + "\n" + "Tiles in pool: " + game.getPoolSize());
+      for (int number : playerNrs) {
+        System.out.println("Player-" + number + " hand: " + game.getPlayer(number).getHand());
+      }
+      System.out.println("");
       synchronized (monitor) {
-        try {
+        try { 
           monitor.wait();
         } catch (InterruptedException e) {
-          System.out.println("Interupted while waiting someone to make a move");
+          System.out.println("Interupted while waiting for someone to make a move");
         }
         nextPlayerTurn();
       }

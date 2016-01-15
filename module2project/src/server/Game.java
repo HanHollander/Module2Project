@@ -57,6 +57,7 @@ public class Game {
       }
       try {
         player.addToHand(swapTileWithPool(tile));
+        newTiles.add(tile);
       } catch (HandIsFullException e) {
         System.out.println(e);
       }
@@ -115,7 +116,7 @@ public class Game {
     return result;
   }
   
-  public boolean checkTurn(List<Move> turn, Player player) {
+  public boolean checkMoveTurn(List<Move> turn, Player player) {
     Boolean result = true;
     Board testBoard = board.deepCopy();
     List<Tile> hand = player.getHand();

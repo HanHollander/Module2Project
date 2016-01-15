@@ -197,7 +197,7 @@ public class ClientHandler extends Thread {
     //Check if the move is valid in the game
     if (result) {
       List<Move> turn = convertStringToMoveTurn(text);
-      result = result && server.getGame().checkTurn(turn, server.getGame().getPlayer(playerNr));
+      result = result && server.getGame().checkMoveTurn(turn, server.getGame().getPlayer(playerNr));
     }
     return result;
   }
