@@ -275,21 +275,21 @@ public class Game {
           }
         }
         //System.out.println("rowWithShapeTheSame: " + rowWithShapeTheSame);
-        if (rowWithShapeTheSame.size() > bestRowLengthYet) {
+        if (rowWithShapeTheSame.size() > bestRow.size()) {
           //System.out.println("Bigger than previous");
-          bestRowLengthYet = rowWithShapeTheSame.size();
+          bestRow = new ArrayList<Tile>();
           bestRow.addAll(rowWithShapeTheSame);
         }
         //System.out.println("rowWithColorTheSame: " + rowWithColorTheSame);
-        if (rowWithColorTheSame.size() > bestRowLengthYet) {
+        if (rowWithColorTheSame.size() > bestRow.size()) {
           //System.out.println("Bigger than previous");
-          bestRowLengthYet = rowWithColorTheSame.size();
+          bestRow = new ArrayList<Tile>();
           bestRow.addAll(rowWithColorTheSame);
         }
       }
-      if (bestRowLengthYet > bestPossibleHandPointsYet) {
-        bestPossibleHandPointsYet = bestRowLengthYet;
+      if (bestRow.size() > overAllBestRow.size()) {
         playerNrWithBestPossibleHandPointsYet = playerNr;
+        overAllBestRow = new ArrayList<Tile>();
         overAllBestRow.addAll(bestRow);
         //System.out.println("Player-" + playerNr + "got the best hand yet");
       }
@@ -302,6 +302,7 @@ public class Game {
       column++;
     }
     applyMoveTurn(getPlayer(playerNrWithBestPossibleHandPointsYet), turn, true);
+    setCurrentPlayer(playerNrWithBestPossibleHandPointsYet);
     return playerNrWithBestPossibleHandPointsYet;
   }
   
