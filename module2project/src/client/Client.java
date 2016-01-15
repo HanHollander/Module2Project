@@ -211,7 +211,7 @@ public class Client extends Thread {
       } else {
         //Else, it's the opponents turn.
         String playerName = getPlayerName(playerNumber);
-        System.out.println("It is now" + playerName + "'s turn.");
+        System.out.println("It is now " + playerName + "'s turn.");
       }
     }  
   }  
