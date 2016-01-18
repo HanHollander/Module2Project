@@ -206,20 +206,21 @@ public class Board {
     result = "XXX ";
     // This part creates the top row of column numbers
     for (int column = columnMin; column <= columnMax; column++) { 
-      if (column > 9) {
-        result = result + (column) + "  ";
-      } else if (column > 99) {
+      if (column > 99) {
         result = result + (column) + " ";
-      } else {
+      } else if (column > 9) {
         result = result + (column) + "  ";
+      } else {
+        result = result + (column) + "   ";
       }
     }
     result = result + "\n";
+    // This part creates the rest
     for (int row = rowMin; row <= rowMax; row++) {
-      if (row > 9) {
-        result = result + (row) + "  ";
-      } else if (row > 99) {
+      if (row > 99) {
         result = result + (row) + " ";
+      } else if (row > 9) {
+        result = result + (row) + "  ";
       } else {
         result = result + (row) + "   ";
       }
