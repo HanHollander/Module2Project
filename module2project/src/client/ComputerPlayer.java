@@ -34,6 +34,7 @@ public class ComputerPlayer extends Player {
     } else if (madeMove) {
       System.out.println("end mov");
       result = new Move();
+      madeMove = false;
     } 
     return result;
   }
