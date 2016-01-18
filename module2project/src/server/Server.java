@@ -51,6 +51,7 @@ public class Server {
   private ServerSocket serverSocket;
   private int numberOfPlayers;
   private Game game;
+  private Object listener;
   private Object monitor;
   private int aiTime;
   private boolean wokenByTimer;
@@ -63,6 +64,8 @@ public class Server {
     threads = new HashMap<Integer, ClientHandler>();
     game = new Game(this);
     monitor = new Object();
+    listener = new Object();
+    imReady = true;
     this.aiTime = aiTime;
     try {
       serverSocket = new ServerSocket(port);
@@ -85,7 +88,7 @@ public class Server {
         System.out.println("Clients connected: [" + (numberOfConnectingPlayer - 1) 
             + " of " + numberOfPlayers + "]");
         ClientHandler ch = new ClientHandler(numberOfConnectingPlayer, 
-            this, serverSocket.accept(), monitor);
+            this, serverSocket.accept(), listener);
         addHandler(numberOfConnectingPlayer, ch);
         ch.start();
         numberOfConnectingPlayer++;
@@ -140,10 +143,13 @@ public class Server {
         Timer timer = new Timer(aiTime, this);
         timer.start();
         try {
-          //imReady = true;
+          imReady = true;
           wokenByTimer = false;
+          synchronized (listener) {
+            listener.notifyAll();
+          }
           monitor.wait();
-          //imReady = false;
+          imReady = false;
         } catch (InterruptedException e) {
           System.out.println("Interupted while waiting for someone to make a move");
         }
@@ -208,6 +214,10 @@ public class Server {
   
   public ClientHandler getThread(int playerNr) {
     return threads.get(playerNr);
+  }
+  
+  public boolean isReady() {
+    return imReady;
   }
   
   /**
@@ -281,6 +291,12 @@ public class Server {
   public void timerWakesServer() {
     synchronized (monitor) {
       wokenByTimer = true;
+      monitor.notifyAll();
+    }
+  }
+  
+  public void handlerWakesServer() {
+    synchronized (monitor) {
       monitor.notifyAll();
     }
   }

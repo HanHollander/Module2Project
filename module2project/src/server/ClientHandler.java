@@ -21,7 +21,7 @@ public class ClientHandler extends Thread {
   private BufferedWriter out;
   private String clientName;
   private int playerNr;
-  private Object monitor;
+  private Object listener;
   
   /**
    * Constructor for clienthandler.
@@ -29,14 +29,14 @@ public class ClientHandler extends Thread {
    * @param sockArg socket
    * @throws IOException if not able to create in or out
    */
-  public ClientHandler(int playerNr, Server serverArg, Socket sockArg, Object monitor)
-      throws IOException {
+  public ClientHandler(int playerNr, Server serverArg, Socket sockArg, 
+      Object listener) throws IOException {
     server = serverArg;
     socket = sockArg;
     in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
     out = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
     this.playerNr = playerNr;
-    this.monitor = monitor;
+    this.listener = listener;
   }
   
   /**
@@ -53,9 +53,7 @@ public class ClientHandler extends Thread {
         System.out.println("Received from client " + playerNr + ": " + text);
         sendMessage("WELCOME " + clientName + " " + playerNr);
         server.getGame().addPlayer(playerNr, clientName);
-        synchronized (monitor) {
-          monitor.notifyAll();
-        }
+        server.handlerWakesServer();
       } else {
         server.kick(playerNr, "Did not recieve valid start message");
       }
@@ -64,6 +62,16 @@ public class ClientHandler extends Thread {
     }
     
     while (!server.getGame().isGameOver()) {
+      if (!server.isReady()) {
+        synchronized(listener) {
+          try {
+            listener.wait();
+          } catch (InterruptedException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+          }
+        }
+      }
       try {
         text = in.readLine();
         System.out.println("Received from player-" + playerNr + ": " + text);
@@ -71,15 +79,11 @@ public class ClientHandler extends Thread {
           if (isValidMoveTurn(text)) {
             List<Move> turn = convertStringToMoveTurn(text);
             server.getGame().applyMoveTurn(server.getGame().getPlayer(playerNr), turn, false);
-            synchronized (monitor) {
-              monitor.notifyAll();
-            }
+            server.handlerWakesServer();
           } else if (isValidSwapTurn(text)) {
             List<Tile> turn = convertStringToSwapTurn(text);
             server.getGame().applySwapTurn(turn, server .getGame().getPlayer(playerNr));
-            synchronized (monitor) {
-              monitor.notifyAll();
-            }
+            server.handlerWakesServer();
           } else {
             server.kick(playerNr, "made a invalid turn");
           }
