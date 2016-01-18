@@ -314,7 +314,7 @@ public class Game {
           if (tile.getColor().equals(tile2.getColor()) 
               && !rowWithColorTheSameShapes.contains(tile2.getShape())) {
             rowWithColorTheSame.add(tile2);
-            rowWithColorTheSameShapes.add(tile2.getColor());
+            rowWithColorTheSameShapes.add(tile2.getShape());
           }
         }
         //System.out.println("rowWithShapeTheSame: " + rowWithShapeTheSame);

@@ -19,6 +19,7 @@ public class SmartStrategy implements Strategy {
     Move theMove;
     if (thePerfectTurn.size() == 0) {
       List<List<Integer>> possiblePlaces = getPossiblePlaces(board);
+      //System.out.println("PossiblePlaces: " + possiblePlaces);
       HashMap<List<Move>, Integer> result = new HashMap<List<Move>, Integer>();
       for (List<Integer> coord : possiblePlaces) {
         for (Tile tile : hand) {
@@ -26,6 +27,7 @@ public class SmartStrategy implements Strategy {
           int col = coord.get(1);
           Move move = new Move(tile, row, col);
           if (board.checkMove(move)) {
+            //System.out.println("Dinkie");
             List<Tile> testHand = new ArrayList<>();
             List<Move> testTurn = new ArrayList<>();
             testTurn.add(move);
@@ -34,7 +36,7 @@ public class SmartStrategy implements Strategy {
             Board testBoard = board.deepCopy();
             testBoard.putTile(move);
             HashMap<List<Move>, Integer> tussenResult = new HashMap<List<Move>, Integer>();
-            tussenResult = getBestTurn(board, hand, testTurn);
+            tussenResult = getBestTurn(testBoard, hand, testTurn);
             Set<List<Move>> tussenResultKeySet = tussenResult.keySet();
             for (List<Move> tussenTurn : tussenResultKeySet) {
               result.put(tussenTurn, tussenResult.get(tussenTurn));
@@ -45,10 +47,14 @@ public class SmartStrategy implements Strategy {
       Set<List<Move>> resultKeySet = result.keySet();
       List<Move> bestTurn = new ArrayList<Move>();;
       int bestScore = -1;
+      System.out.println(result.toString());
       for (List<Move> selectedTurn : resultKeySet) {
+        //System.out.println(selectedTurn.toString());
         int turnScore = result.get(selectedTurn);
-        if ( turnScore > bestScore) {
+        //System.out.println(turnScore);
+        if (turnScore > bestScore) {
           bestTurn = new ArrayList<Move>();
+          bestTurn.addAll(selectedTurn);
           bestScore = turnScore;
         }
       }
