@@ -1,20 +1,14 @@
 package server;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.net.InetAddress;
+import exceptions.HandIsFullException;
+import exceptions.TileNotInHandException;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
 
-import client.Move.Type;
-import exceptions.HandIsFullException;
-import exceptions.InvalidMoveException;
-import exceptions.TileNotInHandException;
 
 public class Game {
     
@@ -30,7 +24,10 @@ public class Game {
   private Server server;
   
   //Constructor\\
-  
+  /**
+   * The Constructor of a game.
+   * @param server The server through which the game can communicate with the players.
+   */
   public Game(Server server) {
     this.server = server;
     board = new Board(this);
@@ -38,15 +35,20 @@ public class Game {
     currentPlayer = 0;
     pool = new ArrayList<Tile>();
     
-    //for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < 3; i++) {
       for (String color : COLOURS) {
         for (String shape : SHAPES) {
           pool.add(new Tile(color, shape));
         }
       }
-    //}
+    }
   }
   
+  /**
+   * Applies the given turn to the pool and sends it to all the players.
+   * @param player The player that made the turn.
+   * @param turn The turn that needs to be applied.
+   */
   public void applySwapTurn(List<Tile> turn, Player player) {
     List<Tile> newTiles = new ArrayList<Tile>();
     for (Tile tile : turn) {
@@ -67,6 +69,12 @@ public class Game {
     server.broadcast("TURN " + player.getPlayerNumber() + " empty");
   }
   
+  /**
+   * Applies the given turn to the board and sends it to all the players.
+   * @param player The player that made the turn.
+   * @param turn The turn that needs to be applied.
+   * @param isFirstTurn True or False whether this is the first turn of the game or not.
+   */
   public void applyMoveTurn(Player player, List<Move> turn, boolean isFirstTurn) {
     //Put tiles on the board
     for (int i = 0; i < turn.size(); i++) {
@@ -100,23 +108,40 @@ public class Game {
     board.endTurn();
   }
   
+  /**
+   * Checks if the tiles that the given player wants to swap
+   * are all in the current hand of the player.
+   * @param turn The tiles that needs to be checked.
+   * @param player The player who made/suggested the turn.
+   * @return True of False whether the turn is valid or not.
+   */
   public boolean checkSwapTurn(List<Tile> turn , Player player) {
     boolean result = true;
-    List<Tile> hand = player.getHand();
-    for (Tile tile : turn) {
-      boolean containsTile = false;
-      for (Tile tileInHand : hand) {
-        containsTile = tile.equals(tileInHand);
-        if (containsTile) {
-          hand.remove(tileInHand);
-          break;
+    if (getPoolSize() >= turn.size()) {
+      List<Tile> hand = player.getHand();
+      for (Tile tile : turn) {
+        boolean containsTile = false;
+        for (Tile tileInHand : hand) {
+          containsTile = tile.equals(tileInHand);
+          if (containsTile) {
+            hand.remove(tileInHand);
+            break;
+          }
         }
+        result = result && containsTile;
       }
-      result = result && containsTile;
+    } else {
+      result = false;
     }
     return result;
   }
   
+  /**
+   * Checks if the turn is valid according to the Qwirkle rules.
+   * @param turn The turn that needs to be checked.
+   * @param player The player who made/suggested the turn.
+   * @return True of False whether the turn is valid or not.
+   */
   public boolean checkMoveTurn(List<Move> turn, Player player) {
     Boolean result = true;
     Board testBoard = board.deepCopy();
@@ -152,10 +177,11 @@ public class Game {
     return result;
   }
   
-  public void setCurrentPlayer(int currentPlayer) {
-    this.currentPlayer = currentPlayer;
-  }
-  
+  /**
+   * Swaps a tile with a random tile from the pool.
+   * @param tile The tile that goes into the pool.
+   * @return The tile that comes out of the pool.
+   */
   public Tile swapTileWithPool(Tile tile) {
     addTileToPool(tile);
     return drawRandomTileFromPool();
@@ -176,16 +202,9 @@ public class Game {
     pool.add(tile);
   }
   
-  public synchronized void addPlayer(int playerNr, String name) {
-    synchronized (playerList) {
-      playerList.put(playerNr, new Player(name, playerNr));
-    }
-  }
-  
-  public void removePlayer(int playerNr) {
-    playerList.remove(playerNr);
-  }
-  
+  /**
+   * Gives every player 6 tiles and sends those to the players personally.
+   */
   public void dealTiles() {
     Set<Integer> playerNrs = getPlayerNrs();
     for (int playerNr : playerNrs) {
@@ -203,7 +222,27 @@ public class Game {
       server.getThread(playerNr).sendMessage("NEW" + getPlayer(playerNr).handToString());
     }
   }
+
+  public synchronized void addPlayer(int playerNr, String name) {
+    synchronized (playerList) {
+      playerList.put(playerNr, new Player(name, playerNr));
+    }
+  }
   
+  public void removePlayer(int playerNr) {
+    synchronized (playerList) {
+      playerList.remove(playerNr);
+    }
+  }
+  
+  public void setCurrentPlayer(int currentPlayer) {
+    this.currentPlayer = currentPlayer;
+  }
+  
+  /**
+   * Searches for the player with the highest score.
+   * @return The player with the highest score.
+   */
   public int getWinningPlayerNr() {
     Set<Integer> playerNrs = playerList.keySet();
     int highestPointsYet = -1;
@@ -242,15 +281,17 @@ public class Game {
     return pool.size();
   }
   
+  /**
+   * Calculates which player has the best move in their hand
+   * and applies that move to the board.
+   * @return the player who had the best move.
+   */
   public int getPlayerNrWithTheBestHand() {
     Set<Integer> playerNrs = getPlayerNrs();
-    int bestPossibleHandPointsYet = -1;
     int playerNrWithBestPossibleHandPointsYet = 0;
     List<Tile> overAllBestRow = new ArrayList<Tile>();
-    int bestRowLengthYet = -1;
     for (int playerNr : playerNrs) {
       List<Tile> hand = getPlayer(playerNr).getHand();
-      bestRowLengthYet = -1;
       List<Tile> bestRow = new ArrayList<Tile>();
       //System.out.println("Calculating best hand for player-" + playerNr);
       for (Tile tile : hand) {
@@ -306,6 +347,26 @@ public class Game {
     applyMoveTurn(getPlayer(playerNrWithBestPossibleHandPointsYet), turn, true);
     setCurrentPlayer(playerNrWithBestPossibleHandPointsYet);
     return playerNrWithBestPossibleHandPointsYet;
+  }
+  
+  /**
+   * Checks if the game is over. The game is over when the
+   * pool is empty and someone's hand is empty.
+   * @return True of False whether the game is over or not.
+   */
+  public boolean isGameOver() {
+    boolean result = getPoolSize() == 0;
+    if (result) {
+      result = false;
+      Set<Integer> playerNrs = playerList.keySet();
+      for (int playerNr : playerNrs) {
+        if (playerList.get(playerNr).getHand().size() == 0) {
+          result = true;
+          break;
+        }
+      }
+    }
+    return result;
   }
   
 }

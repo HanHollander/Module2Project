@@ -2,15 +2,10 @@ package server;
 
 import java.io.IOException;
 import java.net.ServerSocket;
-import java.net.Socket;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-import java.util.Vector;
-
-import server.Move.Type;
 
 /**
  * Server. 
@@ -18,7 +13,8 @@ import server.Move.Type;
  * @version 2005.02.21
  */
 public class Server {
-  private static final String USAGE = "usage: " + Server.class.getName() + " <port> <numberOfPlayers(2,3,4)> <AITime>";
+  private static final String USAGE = "usage: " + Server.class.getName() 
+      + " <port> <numberOfPlayers(2,3,4)> <AITime>";
   
   /** Start een Server-applicatie op. */
   public static void main(String[] args) {
@@ -70,7 +66,7 @@ public class Server {
     try {
       serverSocket = new ServerSocket(port);
     } catch (IOException e) {
-      print("Could not create server socket on port " + port);
+      System.out.println("Could not create server socket on port " + port);
     }
   }
 
@@ -85,8 +81,10 @@ public class Server {
     int numberOfConnectingPlayer = 1;
     while (numberOfConnectingPlayer - 1 < numberOfPlayers) {
       try {
-        System.out.println("Clients connected: [" + (numberOfConnectingPlayer - 1) + " of " + numberOfPlayers + "]");
-        ClientHandler ch = new ClientHandler(numberOfConnectingPlayer, this, serverSocket.accept(), monitor);
+        System.out.println("Clients connected: [" + (numberOfConnectingPlayer - 1) 
+            + " of " + numberOfPlayers + "]");
+        ClientHandler ch = new ClientHandler(numberOfConnectingPlayer, 
+            this, serverSocket.accept(), monitor);
         addHandler(numberOfConnectingPlayer, ch);
         ch.start();
         numberOfConnectingPlayer++;
@@ -94,7 +92,8 @@ public class Server {
         System.out.println("Could not connect to client " + numberOfConnectingPlayer);
       }
     }
-    System.out.println("Clients connected: [" + (numberOfConnectingPlayer - 1) + " of " + numberOfPlayers + "]");
+    System.out.println("Clients connected: [" + (numberOfConnectingPlayer - 1) 
+        + " of " + numberOfPlayers + "]");
     System.out.println("Waiting for everyone to send their name" + "\n");
     while (!allPlayerNamesAreKnown()) {
       synchronized (monitor) {
@@ -121,19 +120,19 @@ public class Server {
     
     
     
-    while (game.getPoolSize() > 0 && threads.size() > 1) {
+    while (!game.isGameOver() && threads.size() > 1) {
       // Print game situation
-      playerNrs = threads.keySet();
-      System.out.println("\n" + "\n" + "\n" + "Score board:");
-      for (int number : playerNrs) {
-        System.out.println("Player-" + number + ": " + game.getPlayer(number).getScore());
-      }
-      System.out.println("\n" + game.getBoard().toString() + "\n" + "Tiles in pool: " 
-          + game.getPoolSize());
-      for (int number : playerNrs) {
-        System.out.println("Player-" + number + " hand: " + game.getPlayer(number).getHand());
-      }
-      System.out.println("");
+//      playerNrs = threads.keySet();
+//      System.out.println("\n" + "\n" + "\n" + "Score board:");
+//      for (int number : playerNrs) {
+//        System.out.println("Player-" + number + ": " + game.getPlayer(number).getScore());
+//      }
+//      System.out.println("\n" + game.getBoard().toString() + "\n" + "Tiles in pool: " 
+//          + game.getPoolSize());
+//      for (int number : playerNrs) {
+//        System.out.println("Player-" + number + " hand: " + game.getPlayer(number).getHand());
+//      }
+//      System.out.println("");
       
       // Wait for a clientHandler to do something (make a move or kick)
       synchronized (monitor) {
@@ -150,7 +149,7 @@ public class Server {
         } else {
           timer.stopTimer();
         }
-        if (threads.size() > 1) {
+        if (!game.isGameOver() && threads.size() > 1) {
           nextPlayerTurn();
         }
       }
@@ -158,7 +157,11 @@ public class Server {
     broadcast("WINNER " + game.getWinningPlayerNr());
     
   }
-
+  
+  /**
+   * Checks if all connected players have send their name.
+   * @return True of false whether all players have send their name or not.
+   */
   private boolean allPlayerNamesAreKnown() {
     boolean result = true;
     Set<Integer> playerNrs = threads.keySet();
@@ -167,10 +170,6 @@ public class Server {
       result = result && knownPlayers.contains(playerNr);
     }
     return result;
-  }
-
-  public void print(String message) {
-    System.out.println(message);
   }
 
   /**
@@ -208,6 +207,12 @@ public class Server {
     return threads.get(playerNr);
   }
   
+  /**
+   * Kicks the given player, removes all references to that player
+   * in the game and broadcasts it to all players.
+   * @param playerNr The number of the player that is being kicked.
+   * @param reason A String with a message about the reason of the kick.
+   */
   public void kick(int playerNr, String reason) {
     List<Tile> hand = game.getPlayer(playerNr).getHand();
     broadcast("KICK " + playerNr + " " + hand.size() + " " + reason);
@@ -218,6 +223,9 @@ public class Server {
     game.removePlayer(playerNr);
   }
   
+  /**
+   * Gives the turn to the next player and broadcasts it to all players.
+   */
   public void nextPlayerTurn() {
     Set<Integer> playingPlayers = threads.keySet();
     int previousPlayer = game.getCurrentPlayer();
@@ -229,6 +237,11 @@ public class Server {
     broadcast("NEXT " + nextPlayer);
   }
   
+  /**
+   * Broadcasts the given turn and the player who made that turn.
+   * @param playerNr The player who made the turn.
+   * @param turn The turn which was made.
+   */
   public void sendTurn(int playerNr, List<Move> turn) {
     String msg = "TURN " + playerNr;
     
@@ -239,6 +252,11 @@ public class Server {
     broadcast(msg);
   }
   
+  /**
+   * Sends a player the given tiles
+   * @param playerNr The player to whom the tiles need to be send to.
+   * @param tiles The tiles that need to be send
+   */
   public void giveTiles(int playerNr, List<Tile> tiles) {
     String msg;
     if (tiles.size() > 0) {
@@ -252,6 +270,11 @@ public class Server {
     threads.get(playerNr).sendMessage(msg);
   }
   
+  /**
+   * A function that is only called by the timer. This function wakes
+   * the server and makes sure that the server can tell that it is
+   * woken by the timer.
+   */
   public void timerWakesServer() {
     synchronized (monitor) {
       wokenByTimer = true;
