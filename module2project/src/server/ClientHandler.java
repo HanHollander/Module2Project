@@ -234,6 +234,9 @@ public class ClientHandler extends Thread {
     return clientName;
   }
   
+  /**
+   * Closes the socket of this clientHandler.
+   */
   public void shutdown() {
     try {
       socket.close();
