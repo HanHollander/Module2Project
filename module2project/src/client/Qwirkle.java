@@ -47,19 +47,18 @@ public class Qwirkle {
         Printer.print("Name not valid, please try again." + "\n");
       }
     }
-    Printer.print("Server IP-adress: \n");
+    Printer.print("\nServer IP-adress: \n");
     String addr = readInput();
-    Printer.print("Server port: \n");
+    Printer.print("\nServer port: \n");
     String portString = readInput();
-    Printer.print("Bot: 'b', Human: 'h'  \n");
+    Printer.print("\nBot: 'b', Human: 'h'");
     String playerType = readInput();
-    Printer.print("\n");
     
     InetAddress host = null;
     int port = 0;
     
     //Check host.
-    Printer.print("Checking host... ");
+    Printer.print("\nChecking host... ");
     try {
       host = InetAddress.getByName(addr);
       Printer.print("Host accepted.");
