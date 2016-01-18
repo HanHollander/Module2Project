@@ -76,7 +76,12 @@ public abstract class Player {
   }
   
   public String handToString() {
-    return hand.toString();
+    String result = "[";
+    for (Tile tile : hand) {
+      result = result + tile.colourToString() + ",";
+    }
+    result = result + "]";
+    return result;
   }
     
   public int getPlayerNumber() {
