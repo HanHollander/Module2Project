@@ -168,6 +168,7 @@ public class Board {
         result.boardMatrix.get(row).set(column, this.boardMatrix.get(row).get(column));
       }
     }
+    result.currentLocalTurn.addAll(currentLocalTurn);
     return result;
   }
   
