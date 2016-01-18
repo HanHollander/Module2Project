@@ -20,7 +20,7 @@ import exceptions.TileNotInHandException;
  */
 public class HumanPlayer extends Player {
   
-  public static final String MOVEUSAGE = "Usage: [MOVE <tile> <row> <column>]";
+  public static final String MOVEUSAGE = "Usage: [MOVE <tileNr> <row> <column>]";
   public static final String SWAPUSAGE = "Usage: [SWAP <tile>]";
   
   public static final List<String> COLOURS = Arrays.asList("R", "O", "B", "Y", "G", "P");
@@ -108,11 +108,10 @@ public class HumanPlayer extends Player {
       validInput = validMoveCommand(input);
       if (validInput) {
         command = input.split(" ");
-        String colour = Character.toString(command[1].charAt(0));
-        String shape = Character.toString(command[1].charAt(1));
+        int handIndex = Integer.parseInt(command[1]);
         int row = Integer.parseInt(command[2]);
         int column = Integer.parseInt(command[3]);
-        move = new Move(new Tile(colour, shape), row, column);
+        move = new Move(getHand().get(handIndex - 1), row, column);   
       }
     //SWAP command
     } else if (input.startsWith("SWAP")) {
@@ -171,28 +170,20 @@ public class HumanPlayer extends Player {
     String[] command = input.split(" "); 
     if (command.length == 4) { 
       //Command length must be four
-      String colour = Character.toString(command[1].charAt(0));
-      String shape = Character.toString(command[1].charAt(1));
       try { 
         //Row and column must be integers
+        int handIndex = Integer.parseInt(command[1]);
         int row = Integer.parseInt(command[2]);
         int column = Integer.parseInt(command[3]);
       } catch (NumberFormatException e) { 
         //Throw exception if row or column are invalid
         throw new InvalidCommandException(MOVEUSAGE);
       }
-      if (COLOURS.contains(colour) && SHAPES.contains(shape)) { 
-        //Colour and shape must exist
-        validInput = true;
-      } else { 
-        //Throw exception if colour or shape is not valid
-        throw new InvalidCommandException("Colours: " + COLOURS + ", shapes: " 
-            + SHAPES + " " + MOVEUSAGE);
-      }
     } else { 
       //Throw exception if command lenght is not four
       throw new InvalidCommandException(MOVEUSAGE);
     }
+    validInput = true;
     return validInput;
   }
   
