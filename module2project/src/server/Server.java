@@ -54,6 +54,7 @@ public class Server {
   private Object monitor;
   private int aiTime;
   private boolean wokenByTimer;
+  private boolean imReady;
   
   /** Constructs a new Server object. */
   public Server(int portArg, int numberOfPlayersArg, int aiTime) {
@@ -139,8 +140,10 @@ public class Server {
         Timer timer = new Timer(aiTime, this);
         timer.start();
         try {
+          //imReady = true;
           wokenByTimer = false;
           monitor.wait();
+          //imReady = false;
         } catch (InterruptedException e) {
           System.out.println("Interupted while waiting for someone to make a move");
         }
@@ -153,6 +156,7 @@ public class Server {
           nextPlayerTurn();
         }
       }
+      System.out.println(game.getPoolSize());
     }
     broadcast("WINNER " + game.getWinningPlayerNr());
     
