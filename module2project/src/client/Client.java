@@ -302,6 +302,7 @@ public class Client extends Thread {
    */
   public void sendMessage(String msg) {
     try {
+      Printer.print(msg);
       out.write(msg);
       out.newLine();
       out.flush();
