@@ -33,30 +33,42 @@ public class Qwirkle {
     Date dateobj = new Date();
     fileName = df.format(dateobj);
     
-    //Get the player input.
-    Printer.print("Welcome in Qwirkle");
-    Printer.print("(only characters a-z A-Z and 1 to 16 characters long)");
-    Printer.print("What is your name? \n");
-    boolean validName = false;
     String name = "";
-    //Check for valid name
-    while (!validName) {
-      name = readInput();
-      validName = isValidName(name);
-      if (!validName) {
-        Printer.print("Name not valid, please try again." + "\n");
-      }
-    }
-    Printer.print("\nServer IP-adress: \n");
-    String addr = readInput();
-    Printer.print("\nServer port: \n");
-    String portString = readInput();
-    Printer.print("\nBot: 'b', Human: 'h'");
-    String playerType = readInput();
+    String addr = "";
+    String portString = "";
+    String playerType = "";
     
+    if (args.length == 0) {
+      //Get the player input.
+      Printer.print("Welcome in Qwirkle");
+      Printer.print("(only characters a-z A-Z and 1 to 16 characters long)");
+      Printer.print("What is your name? \n");
+      boolean validName = false;
+      name = "";
+      //Check for valid name
+      while (!validName) {
+        name = readInput();
+        validName = isValidName(name);
+        if (!validName) {
+          Printer.print("Name not valid, please try again." + "\n");
+        }
+      }
+      Printer.print("\nServer IP-adress: \n");
+      addr = readInput();
+      Printer.print("\nServer port: \n");
+      portString = readInput();
+      Printer.print("\nBot: 'b', Human: 'h'");
+      playerType = readInput();
+    } else if (args.length == 4) {
+      name = args[0];
+      addr = args[1];
+      portString = args[2];
+      playerType = args[3];
+    }
+   
     InetAddress host = null;
     int port = 0;
-    
+     
     //Check host.
     Printer.print("\nChecking host... ");
     try {
