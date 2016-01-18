@@ -118,12 +118,11 @@ public class Client extends Thread {
         Printer.print("Not a number. (KICK)");
       }
       //Update the pool. The tiles of the kicked player go back into the pool.
-      for (int i = 0; i < tilesBackToPool; i++) {
-        game.setPool(game.getPool() + 1);
-        Printer.print("Tiles in pool: " + game.getPool() + "\n");
-      }
+      game.setPool(game.getPool() + tilesBackToPool);
+      Printer.print("Tiles in pool: " + game.getPool() + "\n");
+      
       Printer.print(getPlayerName(playerNumber) 
-          +  " IS KICKED FOR THE FOLLOWING REASON:" + text.substring(7) + "\n");
+          +  " IS KICKED FOR THE FOLLOWING REASON:" + text.substring(8) + "\n");
     }
   }
   

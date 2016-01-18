@@ -221,7 +221,7 @@ public class Server {
   public void nextPlayerTurn() {
     Set<Integer> playingPlayers = threads.keySet();
     int previousPlayer = game.getCurrentPlayer();
-    int nextPlayer = (previousPlayer + 1) % 4;
+    int nextPlayer = (previousPlayer + 1) % 5;
     while (!playingPlayers.contains(nextPlayer)) {
       nextPlayer = (nextPlayer + 1) % 4;
     }
