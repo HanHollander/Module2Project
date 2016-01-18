@@ -13,7 +13,7 @@ public class NaiveStrategy implements Strategy {
    * @param board the board
    * @param hand the hand
    */
-  public Move determineMove(Board board, List<Tile> hand) {
+  public Move determineMove(Board board, List<Tile> hand, ComputerPlayer player) {
     Move result = null;
     List<List<Integer>> places = getPossiblePlaces(board);
     System.out.println(hand);
@@ -28,6 +28,7 @@ public class NaiveStrategy implements Strategy {
     if (result == null) {
       result = new Move(hand.get(1));
     }
+    player.setMadeMove(true);
     return result;
   }
   

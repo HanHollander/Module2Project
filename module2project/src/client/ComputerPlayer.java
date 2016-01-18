@@ -23,9 +23,8 @@ public class ComputerPlayer extends Player {
     Move result = null;
     System.out.println("detmov");
     if (!madeMove) {      
-      madeMove = true;
       System.out.println("mov mov");
-      result = strategy.determineMove(board, getHand());
+      result = strategy.determineMove(board, getHand(), this);
       try {
         removeFromHand(result.getTile());
       } catch (TileNotInHandException e) {
@@ -33,12 +32,16 @@ public class ComputerPlayer extends Player {
       }
       getMoves().add(result);
     } else if (madeMove) {
-      madeMove = false;
       System.out.println("end mov");
       result = new Move();
     } 
     return result;
   }
+  
+  public void setMadeMove(boolean bool) {
+    madeMove = bool;
+  }
+
 
   
 
