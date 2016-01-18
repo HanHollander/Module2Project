@@ -156,7 +156,6 @@ public class Server {
           nextPlayerTurn();
         }
       }
-      System.out.println(game.getPoolSize());
     }
     broadcast("WINNER " + game.getWinningPlayerNr());
     

@@ -63,7 +63,7 @@ public class ClientHandler extends Thread {
       shutdown();
     }
     
-    while (server.getGame().getPoolSize() > 0) {
+    while (!server.getGame().isGameOver()) {
       try {
         text = in.readLine();
         System.out.println("Received from player-" + playerNr + ": " + text);
