@@ -62,10 +62,15 @@ public class SmartStrategy implements Strategy {
       thePerfectTurn.addAll(bestTurn);
       theMove = thePerfectTurn.get(0);
       thePerfectTurn.remove(0);
+      if (thePerfectTurn.size() == 0) { 
+        player.setMadeMove(true);
+      }
     } else {
       theMove = thePerfectTurn.get(0);
       thePerfectTurn.remove(0);
-      player.setMadeMove(true);
+      if (thePerfectTurn.size() == 0) { 
+        player.setMadeMove(true);
+      }
     }
     return theMove;
   }
@@ -77,28 +82,29 @@ public class SmartStrategy implements Strategy {
    */
   public List<List<Integer>> getPossiblePlaces(Board board) {
     List<List<Integer>> result = new ArrayList<>();
+    Tile empty = new Tile(".", " ");
     for (int i = 0; i < DIM; i++) {
       for (int j = 0; j < DIM; j ++) {
-        if (!board.getTile(i, j).equals(new Tile(".", " "))) {
-          if (board.getTile(i - 1, j).equals(new Tile(".", " "))) {
+        if (!board.getTile(i, j).equals(empty)) {
+          if (board.getTile(i - 1, j).equals(empty)) {
             List<Integer> add = new ArrayList<>();
             add.add(i - 1);
             add.add(j);
             result.add(add);
           } 
-          if (board.getTile(i + 1, j).equals(new Tile(".", " "))) {
+          if (board.getTile(i + 1, j).equals(empty)) {
             List<Integer> add = new ArrayList<>();
             add.add(i + 1);
             add.add(j);
             result.add(add);
           }
-          if (board.getTile(i, j - 1).equals(new Tile(".", " "))) {
+          if (board.getTile(i, j - 1).equals(empty)) {
             List<Integer> add = new ArrayList<>();
             add.add(i);
             add.add(j - 1);
             result.add(add);
           }
-          if (board.getTile(i, j + 1).equals(new Tile(".", " "))) {
+          if (board.getTile(i, j + 1).equals(empty)) {
             List<Integer> add = new ArrayList<>();
             add.add(i);
             add.add(j + 1);
@@ -108,7 +114,6 @@ public class SmartStrategy implements Strategy {
       }
     }
     return result;
-    
   }
   
   public HashMap<List<Move>, Integer> getBestTurn(Board board, List<Tile> hand, List<Move> turn) {
@@ -130,10 +135,12 @@ public class SmartStrategy implements Strategy {
           Board testBoard = board.deepCopy();
           testBoard.putTile(testMove);
           HashMap<List<Move>, Integer> tussenResult = new HashMap<List<Move>, Integer>();
-          tussenResult = getBestTurn(board, hand, testTurn);
+          tussenResult = getBestTurn(testBoard, hand, testTurn);
           Set<List<Move>> tussenResultKeySet = tussenResult.keySet();
           for (List<Move> tussenTurn : tussenResultKeySet) {
-            result.put(tussenTurn, tussenResult.get(tussenTurn));
+            int testScoreDinkie = tussenResult.get(tussenTurn);
+            System.out.println(tussenTurn + " " + testScoreDinkie);
+            result.put(tussenTurn, testScoreDinkie);
           }
         }
       }
@@ -151,10 +158,12 @@ public class SmartStrategy implements Strategy {
           Board testBoard = board.deepCopy();
           testBoard.putTile(testMove);
           HashMap<List<Move>, Integer> tussenResult = new HashMap<List<Move>, Integer>();
-          tussenResult = getBestTurn(board, hand, testTurn);
+          tussenResult = getBestTurn(testBoard, hand, testTurn);
           Set<List<Move>> tussenResultKeySet = tussenResult.keySet();
           for (List<Move> tussenTurn : tussenResultKeySet) {
-            result.put(tussenTurn, tussenResult.get(tussenTurn));
+            int testScoreDinkie = tussenResult.get(tussenTurn);
+            System.out.println(tussenTurn + " " + testScoreDinkie);
+            result.put(tussenTurn, testScoreDinkie);
           }
         }
       }
@@ -172,10 +181,12 @@ public class SmartStrategy implements Strategy {
           Board testBoard = board.deepCopy();
           testBoard.putTile(testMove);
           HashMap<List<Move>, Integer> tussenResult = new HashMap<List<Move>, Integer>();
-          tussenResult = getBestTurn(board, hand, testTurn);
+          tussenResult = getBestTurn(testBoard, hand, testTurn);
           Set<List<Move>> tussenResultKeySet = tussenResult.keySet();
           for (List<Move> tussenTurn : tussenResultKeySet) {
-            result.put(tussenTurn, tussenResult.get(tussenTurn));
+            int testScoreDinkie = tussenResult.get(tussenTurn);
+            System.out.println(tussenTurn + " " + testScoreDinkie);
+            result.put(tussenTurn, testScoreDinkie);
           }
         }
       }
@@ -193,10 +204,12 @@ public class SmartStrategy implements Strategy {
           Board testBoard = board.deepCopy();
           testBoard.putTile(testMove);
           HashMap<List<Move>, Integer> tussenResult = new HashMap<List<Move>, Integer>();
-          tussenResult = getBestTurn(board, hand, testTurn);
+          tussenResult = getBestTurn(testBoard, hand, testTurn);
           Set<List<Move>> tussenResultKeySet = tussenResult.keySet();
           for (List<Move> tussenTurn : tussenResultKeySet) {
-            result.put(tussenTurn, tussenResult.get(tussenTurn));
+            int testScoreDinkie = tussenResult.get(tussenTurn);
+            System.out.println(tussenTurn + " " + testScoreDinkie);
+            result.put(tussenTurn, testScoreDinkie);
           }
         }
       }
@@ -211,6 +224,7 @@ public class SmartStrategy implements Strategy {
         int turnScore = result.get(selectedTurn);
         if ( turnScore > bestScore) {
           bestTurn = new ArrayList<Move>();
+          bestTurn.addAll(selectedTurn);
           bestScore = turnScore;
         }
       }

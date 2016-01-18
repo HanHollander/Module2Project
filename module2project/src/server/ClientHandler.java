@@ -62,16 +62,6 @@ public class ClientHandler extends Thread {
     }
     
     while (!server.getGame().isGameOver()) {
-      if (!server.isReady()) {
-        synchronized(listener) {
-          try {
-            listener.wait();
-          } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-          }
-        }
-      }
       try {
         text = in.readLine();
         System.out.println("Received from player-" + playerNr + ": " + text);
@@ -79,10 +69,30 @@ public class ClientHandler extends Thread {
           if (isValidMoveTurn(text)) {
             List<Move> turn = convertStringToMoveTurn(text);
             server.getGame().applyMoveTurn(server.getGame().getPlayer(playerNr), turn, false);
+            if (!server.isReady()) {
+              synchronized (listener) {
+                try {
+                  listener.wait();
+                } catch (InterruptedException e) {
+                  // TODO Auto-generated catch block
+                  e.printStackTrace();
+                }
+              }
+            }
             server.handlerWakesServer();
           } else if (isValidSwapTurn(text)) {
             List<Tile> turn = convertStringToSwapTurn(text);
             server.getGame().applySwapTurn(turn, server .getGame().getPlayer(playerNr));
+            if (!server.isReady()) {
+              synchronized (listener) {
+                try {
+                  listener.wait();
+                } catch (InterruptedException e) {
+                  // TODO Auto-generated catch block
+                  e.printStackTrace();
+                }
+              }
+            }
             server.handlerWakesServer();
           } else {
             server.kick(playerNr, "made a invalid turn");
