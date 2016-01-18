@@ -38,13 +38,13 @@ public class Game {
     currentPlayer = 0;
     pool = new ArrayList<Tile>();
     
-    for (int i = 0; i < 3; i++) {
+    //for (int i = 0; i < 3; i++) {
       for (String color : COLOURS) {
         for (String shape : SHAPES) {
           pool.add(new Tile(color, shape));
         }
       }
-    }
+    //}
   }
   
   public void applySwapTurn(List<Tile> turn, Player player) {
