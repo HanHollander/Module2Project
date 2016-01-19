@@ -44,6 +44,7 @@ public class ClientHandler extends Thread {
    */
   public void run() {
     String text = "";
+    boolean isKicked = false;
     // Starting procedure
     try {
       text = in.readLine();
@@ -56,12 +57,16 @@ public class ClientHandler extends Thread {
         server.handlerWakesServer();
       } else {
         server.kick(playerNr, "Did not recieve valid start message");
+        shutdown();
+        isKicked = true;
       }
     } catch (IOException e) {
+      server.kick(playerNr, "lost connection with player");
       shutdown();
+      isKicked = true;
     }
     
-    while (!server.getGame().isGameOver()) {
+    while (!server.getGame().isGameOver() && !isKicked) {
       try {
         text = in.readLine();
         System.out.println("Received from player-" + playerNr + ": " + text);
@@ -96,12 +101,31 @@ public class ClientHandler extends Thread {
             server.handlerWakesServer();
           } else {
             server.kick(playerNr, "made a invalid turn");
+            shutdown();
+            isKicked = true;
           }
         } else {
           server.kick(playerNr, "spoke before his/her turn");
+          shutdown();
+          isKicked = true;
         }
       } catch (IOException e) {
         server.kick(playerNr, "lost connection");
+        shutdown();
+        isKicked = true;
+      }
+    }
+    if (!server.isReady()) {
+      synchronized (listener) {
+        try {
+          listener.wait();
+        } catch (InterruptedException e) {
+          // TODO Auto-generated catch block
+          e.printStackTrace();
+        }
+      }
+      if (server.getGame().getCurrentPlayer() == playerNr) {
+        server.handlerWakesServer();
       }
     }
   }
