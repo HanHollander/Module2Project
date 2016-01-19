@@ -1,0 +1,69 @@
+18/01/16_17:26:58: 
+Checking host... 
+18/01/16_17:26:59: Host accepted.
+18/01/16_17:26:59: Checking port... 
+18/01/16_17:26:59: Port accepted.
+18/01/16_17:26:59: Creating client... 
+18/01/16_17:26:59: Client two created
+18/01/16_17:26:59: Starting client... 
+18/01/16_17:26:59: Client started.
+18/01/16_17:26:59: Sending registration message... 
+18/01/16_17:26:59: HELLO two
+18/01/16_17:26:59: Registration message send.
+18/01/16_17:26:59: Waiting for welcome message... 
+18/01/16_17:26:59: Welcome message received.
+
+18/01/16_17:26:59: Players participating: [Player 1: one, Player 2: two]
+
+18/01/16_17:26:59: AITime: 30000
+
+18/01/16_17:26:59: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   Rx  Rc  .   
+92  .   .   .   .   
+
+18/01/16_17:26:59: one's score is: 2
+18/01/16_17:26:59: two's score is: 0
+18/01/16_17:26:59: one just made the following move: [[Rx, 91, 91], [Rc, 91, 92]]
+18/01/16_17:26:59: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   Rx  Rc  .   
+92  .   Yx  .   .   
+93  .   .   .   .   
+
+18/01/16_17:26:59: one's score is: 2
+18/01/16_17:26:59: two's score is: 2
+18/01/16_17:26:59: two just made the following move: [[Yx, 92, 91]]
+
+18/01/16_17:26:59: It is your turn!
+
+18/01/16_17:26:59: Hand: [Ys, Bc, Yo, Bd, Oo, Rd]
+
+18/01/16_17:26:59: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Rx  Rc  Rd  .   
+92  .   Yx  .   .   .   
+93  .   .   .   .   .   
+
+18/01/16_17:26:59: Hand: [Ys, Bc, Yo, Bd, Oo]
+
+18/01/16_17:26:59: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Rx  Rc  Rd  .   
+92  .   Yx  .   .   .   
+93  .   .   .   .   .   
+
+18/01/16_17:26:59: MOVE Rd 91 93 
+18/01/16_17:26:59: one's score is: 5
+18/01/16_17:26:59: two's score is: 2
+18/01/16_17:26:59: Tiles in pool: 99
+
+18/01/16_17:26:59: two IS KICKED FOR THE FOLLOWING REASON: lost connection
+
+18/01/16_17:26:59: Tiles in pool: 98
+
+18/01/16_17:26:59: The winner is... one!

@@ -1,0 +1,58 @@
+18/01/16_21:11:29: 
+Checking host... 
+18/01/16_21:11:29: Host accepted.
+18/01/16_21:11:29: Checking port... 
+18/01/16_21:11:29: Port accepted.
+18/01/16_21:11:29: Creating client... 
+18/01/16_21:11:29: Client bot created
+18/01/16_21:11:29: Starting client... 
+18/01/16_21:11:29: Client started.
+18/01/16_21:11:29: Sending registration message... 
+18/01/16_21:11:29: HELLO bot
+18/01/16_21:11:29: Registration message send.
+18/01/16_21:11:29: Welcome message received.
+
+18/01/16_21:11:29: Waiting for welcome message... 
+18/01/16_21:11:29: Players participating: [Player 1: human, Player 2: bot]
+
+18/01/16_21:11:29: AITime: 99999
+
+18/01/16_21:11:30: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Bo  Go  Yo  .   
+92  .   .   .   .   .   
+
+18/01/16_21:11:30: human's score is: 3
+18/01/16_21:11:30: bot's score is: 0
+18/01/16_21:11:30: human just made the following move: [[Bo, 91, 91], [Go, 91, 92], [Yo, 91, 93]]
+
+18/01/16_21:11:30: Tiles in pool: 93
+
+18/01/16_21:11:30: It is your turn!
+
+18/01/16_21:11:30: Hand: [Gs, Os, Gx, Bx, Ys, R*]
+
+18/01/16_21:11:30: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Bo  Go  Yo  .   
+92  .   .   .   Ys  .   
+93  .   .   .   .   .   
+
+18/01/16_21:11:30: Hand: [Gs, Os, Gx, Bx, R*]
+
+18/01/16_21:11:30: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Bo  Go  Yo  .   
+92  .   .   .   Ys  .   
+93  .   .   .   .   .   
+
+18/01/16_21:11:30: MOVE Ys 92 93 
+18/01/16_21:11:30: human's score is: 3
+18/01/16_21:11:30: bot's score is: 2
+18/01/16_21:11:30: Tiles in pool: 92
+
+18/01/16_21:11:30: It is now human's turn.
+

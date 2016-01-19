@@ -1,0 +1,80 @@
+18/01/16_16:18:39: Welcome in Qwirkle
+18/01/16_16:18:39: (only characters a-z A-Z and 1 to 16 characters long)
+18/01/16_16:18:39: What is your name? 
+
+18/01/16_16:18:56: 
+Server IP-adress: 
+
+18/01/16_16:18:58: 
+Server port: 
+
+18/01/16_16:18:59: 
+Bot: 'b', Human: 'h'
+18/01/16_16:19:01: 
+Checking host... 
+18/01/16_16:19:01: Host accepted.
+18/01/16_16:19:01: Checking port... 
+18/01/16_16:19:01: Port accepted.
+18/01/16_16:19:01: Creating client... 
+18/01/16_16:19:01: Client tob created
+18/01/16_16:19:01: Starting client... 
+18/01/16_16:19:01: Client started.
+18/01/16_16:19:01: Sending registration message... 
+18/01/16_16:19:01: Registration message send.
+18/01/16_16:19:01: Waiting for welcome message... 
+18/01/16_16:19:01: Welcome message received.
+
+18/01/16_16:19:01: Players participating: [Player 1: bott, Player 2: tob]
+
+18/01/16_16:19:01: AITime: 99999
+
+18/01/16_16:19:01: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Yo  Ys  Y*  .   
+92  .   .   .   .   .   
+
+18/01/16_16:19:01: bott's score is: 0
+18/01/16_16:19:01: tob's score is: 3
+18/01/16_16:19:01: Tiles in pool: 93
+
+18/01/16_16:19:01: It is now bott's turn.
+
+18/01/16_16:19:01: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   Yo  Ys  Y*  Yd  .   
+92  .   .   .   .   .   .   
+
+18/01/16_16:19:01: bott's score is: 4
+18/01/16_16:19:01: tob's score is: 3
+18/01/16_16:19:01: bott just made the following move: [[Yd, 91, 94]]
+
+18/01/16_16:19:01: It is your turn!
+
+18/01/16_16:19:01: Hand: [P*, Os, Pc, Bs, Bd, Gc]
+
+18/01/16_16:19:01: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   Yo  Ys  Y*  Yd  .   
+92  .   .   .   .   Bd  .   
+93  .   .   .   .   .   .   
+
+18/01/16_16:19:01: Hand: [P*, Os, Pc, Bs, Gc]
+
+18/01/16_16:19:01: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   Yo  Ys  Y*  Yd  .   
+92  .   .   .   .   Bd  .   
+93  .   .   .   .   .   .   
+
+18/01/16_16:19:01: bott's score is: 4
+18/01/16_16:19:01: tob's score is: 5
+18/01/16_16:19:01: Tiles in pool: 91
+
+18/01/16_16:20:42: Tiles in pool: 97
+
+18/01/16_16:20:42: tob IS KICKED FOR THE FOLLOWING REASON: Did not make a move in time
+

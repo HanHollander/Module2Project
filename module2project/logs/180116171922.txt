@@ -1,0 +1,147 @@
+18/01/16_17:19:22: 
+Checking host... 
+18/01/16_17:19:22: Host accepted.
+18/01/16_17:19:22: Checking port... 
+18/01/16_17:19:22: Port accepted.
+18/01/16_17:19:22: Creating client... 
+18/01/16_17:19:22: Client two created
+18/01/16_17:19:22: Starting client... 
+18/01/16_17:19:22: Client started.
+18/01/16_17:19:22: Sending registration message... 
+18/01/16_17:19:22: HELLO two
+18/01/16_17:19:22: Registration message send.
+18/01/16_17:19:22: Waiting for welcome message... 
+18/01/16_17:19:22: Welcome message received.
+
+18/01/16_17:19:22: Players participating: [Player 1: one, Player 2: two]
+
+18/01/16_17:19:22: AITime: 30000
+
+18/01/16_17:19:22: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Yd  Y*  Yo  .   
+92  .   .   .   .   .   
+
+18/01/16_17:19:22: one's score is: 3
+18/01/16_17:19:22: two's score is: 0
+18/01/16_17:19:22: one just made the following move: [[Yd, 91, 91], [Y*, 91, 92], 18/01/16_17:19:23: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Yd  Y*  Yo  .   
+92  .   Gd  .   .   .   
+93  .   .   .   .   .   
+
+18/01/16_17:19:23: one's score is: 3
+18/01/16_17:19:23: two's score is: 2
+18/01/16_17:19:23: two just made the following move: [[Gd, 92, 91]]
+
+18/01/16_17:19:23: It is your turn!
+
+18/01/16_17:19:23: Hand: [Gs, Bd, Bo, Go, Bx, B*]
+
+18/01/16_17:19:23: 
+XXX 90  91  92  93  94  
+89  .   .   .   .   .   
+90  .   .   B*  .   .   
+91  .   Yd  Y*  Yo  .   
+92  .   Gd  .   .   .   
+93  .   .   .   .   .   
+
+18/01/16_17:19:23: Hand: [Gs, Bd, Bo, Go, B18/0118/01/16_17:19:23: 
+XXX 90  91  9218/01/16_17:19:23: It is now one's turn.
+
+18/01/16_17:19:23: 
+XXX 90  91  92  93  94  
+89  .   .   .   .   .   
+90  .   .   B*  .   .   
+91  .   Yd  Y*  Yo  .   
+92  .   Gd  .   .   .   
+93  .   .   .   .   .   
+
+18/01/16_17:19:23: one's score is: 5
+18/01/16_17:19:23: two's score is: 2
+18/01/16_17:19:23: one just made the fol18/01/16_17:19:23: 
+XXX 90  91  92  93  94  
+88  .   .   .   .   .   
+89  .   .   P*  .   .   
+90  .   .   B*  .   .   
+91  .   Yd  Y*  Yo  .   
+92  .   Gd  .   .   .   
+93  .   .   .   .   .   
+
+18/01/16_17:19:23: one's score is: 5
+18/01/16_17:19:23: two's score is: 5
+18/01/16_17:19:23: two just made the following move: [[P*, 89, 92]]
+
+18/01/16_17:19:23: It is your turn!
+
+18/01/16_17:19:23: Hand: [Gs, Bd, Bo, Go, Bx, Bd]
+
+18/01/16_17:19:23: 
+XXX 89  90  91  92  93  94  
+88  .   .   .   .   .   .   
+89  .   .   .   P*  .   .   
+90  .   .   .   B*  .   .   
+91  .   .   Yd  Y*  Yo  .   
+92  .   Bd  Gd  .   .   .   
+93  .   .   .   .   .   .   
+
+18/01/16_17:19:23: Hand: [Gs, Bd, Bo, Go, Bx]
+
+18/01/18/01/16_17:19:23: It is now one's turn.
+
+18/01/16_17:19:23: 
+XXX 89  90  91  92  93  94  
+88  .   .   .   .   .   .   
+89  .   .   .   P*  .   .   
+90  .   .   .   B*  .   .   
+91  .   .   Yd  Y*  Yo  .   
+92  .   Bd  Gd  .   .   .   
+93  .   .   .   .   .   .   
+
+18/01/16_17:19:23: one's score is: 7
+18/01/16_17:19:23: two's score is: 5
+18/01/16_17:19:23: one just made the following move: [[Bd, 92, 90]]
+18/01/16_17:19:24: 
+XXX 89  90  91  92  93  94  
+88  .   .   .   .   .   .   
+89  .   .   .   P*  O*  .   
+90  .   .   .   B*  .   .   
+91  .   .   Yd  Y*  Yo  .   
+92  .   Bd  Gd  .   .   .   
+93  .   .   .   .   .   .   
+
+18/01/16_17:19:24: one's score is: 7
+18/01/16_17:19:24: two's score is: 7
+18/01/16_17:19:24: two just made the following move: [[O*, 89, 93]]
+
+18/01/16_17:19:24: It is your turn!
+
+18/01/16_17:19:24: Hand: [Gs, Bd, Bo, Go, Bx, G*]
+
+18/01/16_17:19:24: 
+XXX 89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   
+89  .   .   .   P*  O*  G*  .   
+90  .   .   .   B*  .   .   .   
+91  .   .   Yd  Y*  Yo  .   .   
+92  .   Bd  Gd  .   .   .   .   
+93  .   .   .   .   .   .   .   
+
+18/01/16_17:19:24: Hand: [18/01/16_17:19:24: It is now one's turn.
+
+18/01/16_17:19:24: 
+XXX 89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   
+89  .   .   .   P*  O*  G*  .   
+90  .   .   .   B*  .   .   .   
+91  .   .   Yd  Y*  Yo  .   .   
+92  .   Bd  Gd  .   .   .   .   
+93  .   .   .   .   .   .   .   
+
+18/01/16_17:19:24: one's score is: 10
+18/01/16_17:19:24: two's score is: 7
+18/01/16_17:19:24: one just made the following move: [[G*, 89, 94]]
+
+18/01/16_17:19:27: ÏOException while reading from socket.

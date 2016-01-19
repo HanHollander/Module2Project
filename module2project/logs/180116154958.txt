@@ -1,0 +1,66 @@
+18/01/16_15:49:58: Welcome in Qwirkle
+18/01/16_15:49:58: (only characters a-z A-Z and 1 to 16 characters long)
+18/01/16_15:49:58: What is your name? 
+
+18/01/16_15:50:01: 
+Server IP-adress: 
+
+18/01/16_15:50:03: 
+Server port: 
+
+18/01/16_15:50:05: 
+Bot: 'b', Human: 'h'
+18/01/16_15:50:06: 
+Checking host... 
+18/01/16_15:50:06: Host accepted.
+18/01/16_15:50:06: Checking port... 
+18/01/16_15:50:06: Port accepted.
+18/01/16_15:50:06: Creating client... 
+18/01/16_15:50:06: Client BOT created
+18/01/16_15:50:06: Starting client... 
+18/01/16_15:50:06: Client started.
+18/01/16_15:50:06: Sending registration message... 
+18/01/16_15:50:06: Registration message send.
+18/01/16_15:50:06: Welcome message received.
+
+18/01/16_15:50:06: Waiting for welcome message... 
+18/01/16_15:50:06: Players participating: [Player 1: Han, Player 2: BOT]
+
+18/01/16_15:50:06: AITime: 99999
+
+18/01/16_15:50:06: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Od  O*  Oc  .   
+92  .   .   .   .   .   
+
+18/01/16_15:50:06: Han's score is: 3
+18/01/16_15:50:06: BOT's score is: 0
+18/01/16_15:50:06: Han just made the following move: [[Od, 91, 91], [O*, 91, 92], [Oc, 91, 93]]
+
+18/01/16_15:50:06: Tiles in pool: 93
+
+18/01/16_15:50:06: It is your turn!
+
+18/01/16_15:50:06: Hand: [Pc, G*, Bo, Yx, Oo, Gs]
+
+18/01/16_15:50:06: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   Od  O*  Oc  Oo  .   
+92  .   .   .   .   .   .   
+
+18/01/16_15:50:06: Hand: [Pc, G*, Bo, Yx, Oo, Gs]
+
+18/01/16_15:50:07: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   Od  O*  Oc  Oo  .   
+92  .   .   .   .   .   .   
+
+18/01/16_15:50:07: Han's score is: 3
+18/01/16_15:50:07: BOT's score is: 4
+18/01/16_15:50:07: Tiles in pool: 99
+
+18/01/16_15:50:07: BOT IS KICKED FOR THE FOLLOWING REASON: made a invalid turn
+

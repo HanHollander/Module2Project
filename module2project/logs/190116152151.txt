@@ -1,0 +1,80 @@
+19/01/16_15:21:51: 
+Checking host... 
+19/01/16_15:21:51: Host accepted.
+19/01/16_15:21:51: Checking port... 
+19/01/16_15:21:51: Port accepted.
+19/01/16_15:21:51: Creating client... 
+19/01/16_15:21:51: Client Han created
+19/01/16_15:21:51: Starting client... 
+19/01/16_15:21:51: Client started.
+19/01/16_15:21:51: Sending registration message... 
+19/01/16_15:21:51: HELLO Han
+19/01/16_15:21:51: Registration message send.
+19/01/16_15:21:51: Waiting for welcome message... 
+19/01/16_15:21:51: Welcome message received.
+
+19/01/16_15:21:51: Tiles in pool: 102
+
+19/01/16_15:21:51: Players participating: [Player 0: test, Player 1: Han]
+
+19/01/16_15:21:51: AITime: 100
+
+19/01/16_15:21:51: u[2J
+19/01/16_15:21:51: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   [31mC[0m   [31mE[0m   .   
+92  .   .   .   .   
+
+19/01/16_15:21:51: test's score is: 2
+19/01/16_15:21:51: Han's score is: 0
+19/01/16_15:21:51: 
+test just made the following move: [[Rs, 91, 91], [Rx, 91, 92]]
+
+19/01/16_15:21:51: It is your turn!
+
+19/01/16_15:21:51: Hand: [1: [35mA[0m, 2: [32mB[0m, 3: [35mC[0m, 4: [33mE[0m, 5: [36mD[0m, 6: [36mA[0m]
+
+19/01/16_15:21:51: Type of turn: ANY
+19/01/16_15:21:51: What is your action?
+19/01/16_15:22:34: exceptions.InvalidMoveException: Invalid move. The move can not be done on the current board.
+19/01/16_15:22:34: u[2J
+19/01/16_15:22:34: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   [31mC[0m   [31mE[0m   .   
+92  .   .   .   .   
+
+19/01/16_15:22:34: Hand: [1: [35mA[0m, 2: [32mB[0m, 3: [35mC[0m, 4: [33mE[0m, 5: [36mD[0m, 6: [36mA[0m]
+
+19/01/16_15:22:34: Type of turn: ANY
+19/01/16_15:22:34: What is your action?
+19/01/16_15:22:44: u[2J
+19/01/16_15:22:44: 
+XXX 90  91  92  93  
+89  .   .   .   .   
+90  .   .   [33mE[0m   .   
+91  .   [31mC[0m   [31mE[0m   .   
+92  .   .   .   .   
+
+19/01/16_15:22:44: Hand: [1: [35mA[0m, 2: [32mB[0m, 3: [35mC[0m, 4: [36mD[0m, 5: [36mA[0m]
+
+19/01/16_15:22:44: Type of turn: MOVE
+19/01/16_15:22:44: What is your action?
+19/01/16_15:22:46: u[2J
+19/01/16_15:22:46: 
+XXX 90  91  92  93  
+89  .   .   .   .   
+90  .   .   [33mE[0m   .   
+91  .   [31mC[0m   [31mE[0m   .   
+92  .   .   .   .   
+
+19/01/16_15:22:46: MOVE Ox 90 92 
+19/01/16_15:22:46: test's score is: 2
+19/01/16_15:22:46: Han's score is: 2
+19/01/16_15:22:46: It is your turn!
+
+19/01/16_15:22:46: Hand: [1: [35mA[0m, 2: [32mB[0m, 3: [35mC[0m, 4: [36mD[0m, 5: [36mA[0m]
+
+19/01/16_15:22:46: Type of turn: ANY
+19/01/16_15:22:46: What is your action?

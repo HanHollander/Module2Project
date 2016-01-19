@@ -1,0 +1,64 @@
+19/01/16_15:08:34: 
+Checking host... 
+19/01/16_15:08:34: Host accepted.
+19/01/16_15:08:34: Checking port... 
+19/01/16_15:08:34: Port accepted.
+19/01/16_15:08:34: Creating client... 
+19/01/16_15:08:34: Client human created
+19/01/16_15:08:34: Starting client... 
+19/01/16_15:08:34: Client started.
+19/01/16_15:08:34: Sending registration message... 
+19/01/16_15:08:34: HELLO human
+19/01/16_15:08:34: Registration message send.
+19/01/16_15:08:34: Welcome message received.
+
+19/01/16_15:08:34: Waiting for welcome message... 
+19/01/16_15:08:38: Players participating: [Player 1: human, Player 2: bot]
+
+19/01/16_15:08:38: AITime: 99999
+
+19/01/16_15:08:38: u[2J
+19/01/16_15:08:38: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   [32mE[0m   [37mE[0m   [35mE[0m   [33mE[0m   .   
+92  .   .   .   .   .   .   
+
+19/01/16_15:08:38: human's score is: 4
+19/01/16_15:08:38: bot's score is: 0
+19/01/16_15:08:38: Tiles in pool: 92
+
+19/01/16_15:08:38: It is now bot's turn.
+
+19/01/16_15:08:38: u[2J
+19/01/16_15:08:38: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   [32mE[0m   [37mE[0m   [35mE[0m   [33mE[0m   .   
+92  .   .   .   .   [33mB[0m   .   
+93  .   .   .   .   .   .   
+
+19/01/16_15:08:38: human's score is: 4
+19/01/16_15:08:38: bot's score is: 2
+19/01/16_15:08:38: bot just made the following move: [[Od, 92, 94]]
+
+19/01/16_15:08:38: u[2J
+19/01/16_15:08:38: It is your turn!
+
+19/01/16_15:08:38: u[2J
+19/01/16_15:08:38: Hand: [1: [33mF[0m, 2: [31mC[0m, 3: [32mF[0m, 4: [37mB[0m, 5: [36mE[0m, 6: [37mD[0m]
+
+19/01/16_15:08:38: Type of turn: ANY
+19/01/16_15:08:38: What is your action?
+19/01/16_15:08:55: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   [32mE[0m   [37mE[0m   [35mE[0m   [33mE[0m   .   
+92  .   .   .   .   [33mB[0m   .   
+93  .   .   .   .   .   .   
+
+19/01/16_15:08:55: u[2J
+19/01/16_15:08:55: Hand: [1: [31mC[0m, 2: [32mF[0m, 3: [37mB[0m, 4: [36mE[0m, 5: [37mD[0m]
+
+19/01/16_15:08:55: Type of turn: SWAP
+19/01/16_15:08:55: What is your action?

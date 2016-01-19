@@ -1,0 +1,114 @@
+18/01/16_17:32:01: 
+Checking host... 
+18/01/16_17:32:01: Host accepted.
+18/01/16_17:32:01: Checking port... 
+18/01/16_17:32:01: Port accepted.
+18/01/16_17:32:01: Creating client... 
+18/01/16_17:32:01: Client two created
+18/01/16_17:32:01: Starting client... 
+18/01/16_17:32:01: Client started.
+18/01/16_17:32:01: Sending registration message... 
+18/01/16_17:32:01: HELLO two
+18/01/16_17:32:01: Registration message send.
+18/01/16_17:32:01: Waiting for welcome message... 
+18/01/16_17:32:01: Welcome message received.
+
+18/01/16_17:32:01: Players participating: [Player 1: one, Player 2: two]
+
+18/01/16_17:32:01: AITime: 30000
+
+18/01/16_17:32:01: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   Pd  Ps  Px  Pc  .   
+92  .   .   .   .   .   .   
+
+18/01/16_17:32:01: one's score is: 4
+18/01/16_17:32:01: two's score is: 0
+18/01/16_17:32:01: one just made the following move: [[Pd, 91, 91], [Ps, 91, 92], [Px, 91, 93], [Pc, 91, 94]]
+
+18/01/16_17:32:01: Tiles in pool: 92
+
+18/01/16_17:32:02: It is your turn!
+
+18/01/16_17:32:02: Hand: [Bd, Rs, Y*, G*, Oc, Y*]
+
+18/01/16_17:32:02: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   Pd  Ps  Px  Pc  .   
+92  .   .   .   .   Oc  .   
+93  .   .   .   .   .   .   
+
+18/01/16_17:32:02: Hand: [Bd, Rs, Y*, G*, Y*]
+
+18/01/16_17:32:02: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   Pd  Ps  Px  Pc  .   
+92  .   .   .   .   Oc  .   
+93  .   .   .   .   .   .   
+
+18/01/16_17:32:02: MOVE Oc 92 94 
+18/01/16_17:32:02: one's score is: 4
+18/01/16_17:32:02: two's score is: 2
+18/01/16_17:32:02: Tiles in pool: 91
+
+18/01/16_17:32:02: It is now one's turn.
+
+18/01/16_17:32:02: 
+XXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+91  .   Pd  Ps  Px  Pc  .   .   
+92  .   .   .   .   Oc  Oo  .   
+93  .   .   .   .   .   .   .   
+
+18/01/16_17:32:02: one's score is: 6
+18/01/16_17:32:02: two's score is: 2
+18/01/16_17:32:02: one just made the following move: [[Oo, 92, 95]]
+
+18/01/16_17:32:02: It is your turn!
+
+18/01/16_17:32:02: Hand: [Bd, Rs, Y*, G*, Y*, Go]
+
+18/01/16_17:32:02: 
+XXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+91  .   Pd  Ps  Px  Pc  .   .   
+92  .   .   .   .   Oc  Oo  .   
+93  .   .   .   .   .   Go  .   
+94  .   .   .   .   .   .   .   
+
+18/01/16_17:32:02: Hand: [Bd, Rs, Y*, G*, Y*]
+
+18/01/16_17:32:02: 
+XXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+91  .   Pd  Ps  Px  Pc  .   .   
+92  .   .   .   .   Oc  Oo  .   
+93  .   .   .   .   .   Go  .   
+94  .   .   .   .   .   .   .   
+
+18/01/16_17:32:02: MOVE Go 93 95 
+18/01/16_17:32:02: one's score is: 6
+18/01/16_17:32:02: two's score is: 4
+18/01/16_17:32:02: Tiles in pool: 89
+
+18/01/16_17:32:02: It is now one's turn.
+
+18/01/16_17:32:02: 
+XXX 90  91  92  93  94  95  96  97  
+90  .   .   .   .   .   .   .   .   
+91  .   Pd  Ps  Px  Pc  .   .   .   
+92  .   .   .   .   Oc  Oo  .   .   
+93  .   .   .   .   .   Go  Gd  .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_17:32:02: one's score is: 8
+18/01/16_17:32:02: two's score is: 4
+18/01/16_17:32:02: one just made the following move: [[Gd, 93, 96]]
+
+18/01/16_17:32:02: It is your turn!
+
+18/01/16_17:32:02: Hand: [Bd, Rs, Y*, G*, Y*, G*]
+

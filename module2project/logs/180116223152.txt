@@ -1,0 +1,4 @@
+18/01/16_22:31:52: Welcome in Qwirkle
+18/01/16_22:31:52: (only characters a-z A-Z and 1 to 16 characters long)
+18/01/16_22:31:52: What is your name? 
+

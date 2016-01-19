@@ -1,0 +1,51 @@
+18/01/16_15:57:02: Welcome in Qwirkle
+18/01/16_15:57:02: (only characters a-z A-Z and 1 to 16 characters long)
+18/01/16_15:57:02: What is your name? 
+
+18/01/16_15:57:05: 
+Server IP-adress: 
+
+18/01/16_15:57:33: 
+Server port: 
+
+18/01/16_15:57:35: 
+Bot: 'b', Human: 'h'
+18/01/16_15:57:36: 
+Checking host... 
+18/01/16_15:57:36: Host accepted.
+18/01/16_15:57:36: Checking port... 
+18/01/16_15:57:36: Port accepted.
+18/01/16_15:57:36: Creating client... 
+18/01/16_15:57:36: Client Han created
+18/01/16_15:57:36: Starting client... 
+18/01/16_15:57:36: Client started.
+18/01/16_15:57:36: Sending registration message... 
+18/01/16_15:57:36: Registration message send.
+18/01/16_15:57:36: Welcome message received.
+
+18/01/16_15:57:36: Waiting for welcome message... 
+18/01/16_15:58:08: Players participating: [Player 1: Han, Player 2: Han]
+
+18/01/16_15:58:08: AITime: 99999
+
+18/01/16_15:58:09: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Ps  Pc  Pd  .   
+92  .   .   .   .   .   
+
+18/01/16_15:58:09: Han's score is: 3
+18/01/16_15:58:09: Han's score is: 0
+18/01/16_15:58:09: Tiles in pool: 93
+
+18/01/16_15:58:09: It is now Han's turn.
+
+18/01/16_15:58:09: Tiles in pool: 99
+
+18/01/16_15:58:09: Han IS KICKED FOR THE FOLLOWING REASON: lost connection
+
+18/01/16_15:59:49: Tiles in pool: 105
+
+18/01/16_15:59:49: Han IS KICKED FOR THE FOLLOWING REASON: Did not make a move in time
+
+18/01/16_16:00:22: ÏOException while reading from socket.

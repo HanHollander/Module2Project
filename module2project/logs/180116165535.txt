@@ -1,0 +1,256 @@
+18/01/16_16:55:35: Welcome in Qwirkle
+18/01/16_16:55:35: (only characters a-z A-Z and 1 to 16 characters long)
+18/01/16_16:55:35: What is your name? 
+
+18/01/16_16:55:49: Name not valid, please try again.
+
+18/01/16_16:55:53: 
+Server IP-adress: 
+
+18/01/16_16:55:55: 
+Server port: 
+
+18/01/16_16:55:56: 
+Bot: 'b', Human: 'h'
+18/01/16_16:55:59: 
+Checking host... 
+18/01/16_16:55:59: Host accepted.
+18/01/16_16:55:59: Checking port... 
+18/01/16_16:55:59: Port accepted.
+18/01/16_16:55:59: Creating client... 
+18/01/16_16:55:59: Client two created
+18/01/16_16:55:59: Starting client... 
+18/01/16_16:55:59: Client started.
+18/01/16_16:55:59: Sending registration message... 
+18/01/16_16:55:59: HELLO two
+18/01/16_16:55:59: Registration message send.
+18/01/16_16:55:59: Waiting for welcome message... 
+18/01/16_16:55:59: Welcome message received.
+
+18/01/16_16:55:59: Players participating: [Player 1: one, Player 2: two]
+
+18/01/16_16:55:59: AITime: 99999
+
+18/01/16_16:55:59: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   Po  Px  .   
+92  .   .   .   .   
+
+18/01/16_16:55:59: one's score is: 2
+18/01/16_16:55:59: two's score is: 0
+18/01/16_16:55:59: one just made the following move: [[Po, 91, 91], [Px, 91, 92]]
+
+18/01/16_16:55:59: Tiles in pool: 94
+
+18/01/16_16:55:59: It is your turn!
+
+18/01/16_16:55:59: Hand: [Bx, Yo, Rs, Bd, Oc, Yc]
+
+18/01/16_16:56:00: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   Po  Px  .   
+92  .   Yo  .   .   
+93  .   .   .   .   
+
+18/01/16_16:56:00: Hand: [Bx, Rs, Bd, Oc, Yc]
+
+18/01/16_16:56:00: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   Po  Px  .   
+92  .   Yo  .   .   
+93  .   .   .   .   
+
+18/01/16_16:56:00: MOVE Yo 92 91 
+18/01/16_16:56:00: one's score is: 2
+18/01/16_16:56:00: two's score is: 2
+18/01/16_16:56:00: Tiles in pool: 93
+
+18/01/16_16:56:00: It is now one's turn.
+
+18/01/16_16:56:00: one swapped.
+
+18/01/16_16:56:00: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   Po  Px  .   
+92  .   Yo  .   .   
+93  .   .   .   .   
+
+18/01/16_16:56:00: one's score is: 2
+18/01/16_16:56:00: two's score is: 2
+18/01/16_16:56:00: It is your turn!
+
+18/01/16_16:56:00: Hand: [Bx, Rs, Bd, Oc, Yc, Yd]
+
+18/01/16_16:56:00: 
+XXX 89  90  91  92  93  
+90  .   .   .   .   .   
+91  .   .   Po  Px  .   
+92  .   Yd  Yo  .   .   
+93  .   .   .   .   .   
+
+18/01/16_16:56:00: Hand: [Bx, Rs, Bd, Oc, Yc]
+
+18/01/16_16:56:00: 
+XXX 89  90  91  92  93  
+90  .   .   .   .   .   
+91  .   .   Po  Px  .   
+92  .   Yd  Yo  .   .   
+93  .   .   .   .   .   
+
+18/01/16_16:56:00: MOVE Yd 92 90 
+18/01/16_16:56:00: one's score is: 2
+18/01/16_16:56:00: two's score is: 4
+18/01/16_16:56:00: Tiles in pool: 92
+
+18/01/16_16:56:00: It is now one's turn.
+
+18/01/16_16:56:01: 
+XXX 89  90  91  92  93  
+89  .   .   .   .   .   
+90  .   .   .   Po  .   
+91  .   .   Po  Px  .   
+92  .   Yd  Yo  .   .   
+93  .   .   .   .   .   
+
+18/01/16_16:56:01: one's score is: 4
+18/01/16_16:56:01: two's score is: 4
+18/01/16_16:56:01: one just made the following move: [[Po, 90, 92]]
+
+18/01/16_16:56:01: It is your turn!
+
+18/01/16_16:56:01: Hand: [Bx, Rs, Bd, Oc, Yc, Yo]
+
+18/01/16_16:56:01: 
+XXX 89  90  91  92  93  
+89  .   .   .   .   .   
+90  .   .   .   Po  .   
+91  .   .   Po  Px  .   
+92  .   Yd  Yo  .   .   
+93  .   Yo  .   .   .   
+94  .   .   .   .   .   
+
+18/01/16_16:56:01: Hand: [Bx, Rs, Bd, Oc, Yc]
+
+18/01/16_16:56:01: 
+XXX 89  90  91  92  93  
+89  .   .   .   .   .   
+90  .   .   .   Po  .   
+91  .   .   Po  Px  .   
+92  .   Yd  Yo  .   .   
+93  .   Yo  .   .   .   
+94  .   .   .   .   .   
+
+18/01/16_16:56:01: MOVE Yo 93 90 
+18/01/16_16:56:01: one's score is: 4
+18/01/16_16:56:01: two's score is: 6
+18/01/16_16:56:01: Tiles in pool: 90
+
+18/01/16_16:56:01: It is now one's turn.
+
+18/01/16_16:56:01: 
+XXX 89  90  91  92  93  94  
+89  .   .   .   .   .   .   
+90  .   .   .   Po  Px  .   
+91  .   .   Po  Px  .   .   
+92  .   Yd  Yo  .   .   .   
+93  .   Yo  .   .   .   .   
+94  .   .   .   .   .   .   
+
+18/01/16_16:56:01: one's score is: 6
+18/01/16_16:56:01: two's score is: 6
+18/01/16_16:56:01: one just made the following move: [[Px, 90, 93]]
+
+18/01/16_16:56:01: It is your turn!
+
+18/01/16_16:56:01: Hand: [Bx, Rs, Bd, Oc, Yc, Gc]
+
+18/01/16_16:56:01: 
+XXX 88  89  90  91  92  93  94  
+89  .   .   .   .   .   .   .   
+90  .   .   .   .   Po  Px  .   
+91  .   .   .   Po  Px  .   .   
+92  .   .   Yd  Yo  .   .   .   
+93  .   Yc  Yo  .   .   .   .   
+94  .   .   .   .   .   .   .   
+
+18/01/16_16:56:01: Hand: [Bx, Rs, Bd, Oc, Gc]
+
+18/01/16_16:56:01: 
+XXX 88  89  90  91  92  93  94  
+89  .   .   .   .   .   .   .   
+90  .   .   .   .   Po  Px  .   
+91  .   .   .   Po  Px  .   .   
+92  .   .   Yd  Yo  .   .   .   
+93  .   Yc  Yo  .   .   .   .   
+94  .   .   .   .   .   .   .   
+
+18/01/16_16:56:01: MOVE Yc 93 89 
+18/01/16_16:56:01: one's score is: 6
+18/01/16_16:56:01: two's score is: 8
+18/01/16_16:56:01: Tiles in pool: 88
+
+18/01/16_16:56:01: It is now one's turn.
+
+18/01/16_16:56:02: 
+XXX 87  88  89  90  91  92  93  94  
+89  .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Po  Px  .   
+91  .   .   .   .   Po  Px  .   .   
+92  .   .   .   Yd  Yo  .   .   .   
+93  .   Yd  Yc  Yo  .   .   .   .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:02: one's score is: 9
+18/01/16_16:56:02: two's score is: 8
+18/01/16_16:56:02: one just made the following move: [[Yd, 93, 88]]
+
+18/01/16_16:56:02: It is your turn!
+
+18/01/16_16:56:02: Hand: [Bx, Rs, Bd, Oc, Gc, Ps]
+
+18/01/16_16:56:02: 
+XXX 87  88  89  90  91  92  93  94  
+89  .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Po  Px  .   
+91  .   .   .   .   Po  Px  Ps  .   
+92  .   .   .   Yd  Yo  .   .   .   
+93  .   Yd  Yc  Yo  .   .   .   .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:02: Hand: [Bx, Rs, Bd, Oc, Gc]
+
+18/01/16_16:56:02: 
+XXX 87  88  89  90  91  92  93  94  
+89  .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Po  Px  .   
+91  .   .   .   .   Po  Px  Ps  .   
+92  .   .   .   Yd  Yo  .   .   .   
+93  .   Yd  Yc  Yo  .   .   .   .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:02: MOVE Ps 91 93 
+18/01/16_16:56:02: one's score is: 9
+18/01/16_16:56:02: two's score is: 13
+18/01/16_16:56:02: Tiles in pool: 86
+
+18/01/16_16:56:02: 
+XXX 87  88  89  90  91  92  93  94  
+89  .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Po  Px  .   
+91  .   .   .   .   Po  Px  Ps  .   
+92  .   .   .   Yd  Yo  .   .   .   
+93  .   Yd  Yc  Yo  .   .   .   .   
+94  .   .   Yo  .   .   .   .   .   
+95  .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:02: one's score is: 11
+18/01/16_16:56:02: two's score is: 13
+18/01/16_16:56:02: one just made the following move: [[Yo, 94, 89]]
+
+18/01/16_16:56:02: It is now one's turn.
+
+18/01/16_16:56:10: ÏOException while reading from socket.

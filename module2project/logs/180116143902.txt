@@ -1,0 +1,474 @@
+18/01/16_14:39:02: Welcome in Qwirkle
+18/01/16_14:39:02: (only characters a-z A-Z and 1 to 16 characters long)
+18/01/16_14:39:02: What is your name? 
+
+18/01/16_14:39:08: 
+Server IP-adress: 
+
+18/01/16_14:39:10: 
+Server port: 
+
+18/01/16_14:39:12: 
+Bot: 'b', Human: 'h'
+18/01/16_14:39:14: 
+Checking host... 
+18/01/16_14:39:14: Host accepted.
+18/01/16_14:39:14: Checking port... 
+18/01/16_14:39:14: Port accepted.
+18/01/16_14:39:14: Creating client... 
+18/01/16_14:39:14: Client Han created
+18/01/16_14:39:14: Starting client... 
+18/01/16_14:39:14: Client started.
+18/01/16_14:39:14: Sending registration message... 
+18/01/16_14:39:14: Registration message send.
+18/01/16_14:39:14: Waiting for welcome message... 
+18/01/16_14:39:14: Welcome message received.
+
+18/01/16_14:41:13: Players participating: [Player 1: Han, Player 2: NoScopeJonguh]
+
+18/01/16_14:41:13: AITime: 99999
+
+18/01/16_14:41:13: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   Rs  Ro  Rx  Rc  .   
+92  .   .   .   .   .   .   
+
+18/01/16_14:41:13: Han's score is: 0
+18/01/16_14:41:13: NoScopeJonguh's score is: 4
+18/01/16_14:41:13: NoScopeJonguh just made the following move: [[Rs, 91, 91], [Ro, 91, 92], [Rx, 91, 93], [Rc, 91, 94]]
+
+18/01/16_14:41:13: Tiles in pool: 92
+
+18/01/16_14:41:13: It is your turn!
+
+18/01/16_14:41:13: Hand: [P*, R*, Os, Yd, Pc, Pd]
+
+18/01/16_14:41:13: Type of turn: ANY
+18/01/16_14:41:13: What is your action?
+18/01/16_14:41:38: 
+XXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+91  .   Rs  Ro  Rx  Rc  R*  .   
+92  .   .   .   .   .   .   .   
+
+18/01/16_14:41:38: Hand: [P*, Os, Yd, Pc, Pd]
+
+18/01/16_14:41:38: Type of turn: MOVE
+18/01/16_14:41:38: What is your action?
+18/01/16_14:41:46: 
+XXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+91  .   Rs  Ro  Rx  Rc  R*  .   
+92  .   .   .   .   .   P*  .   
+93  .   .   .   .   .   .   .   
+
+18/01/16_14:41:46: Hand: [Os, Yd, Pc, Pd]
+
+18/01/16_14:41:46: Type of turn: MOVE
+18/01/16_14:41:46: What is your action?
+18/01/16_14:41:47: 
+XXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+91  .   Rs  Ro  Rx  Rc  R*  .   
+92  .   .   .   .   .   P*  .   
+93  .   .   .   .   .   .   .   
+
+18/01/16_14:41:47: Han's score is: 7
+18/01/16_14:41:47: NoScopeJonguh's score is: 4
+18/01/16_14:41:47: Tiles in pool: 90
+
+18/01/16_14:41:47: It is now NoScopeJonguh's turn.
+
+18/01/16_14:42:53: 
+XXX 90  91  92  93  94  95  96  97  
+90  .   .   .   .   .   .   .   .   
+91  .   Rs  Ro  Rx  Rc  R*  Rd  .   
+92  .   .   .   .   .   P*  .   .   
+93  .   .   .   .   .   .   .   .   
+
+18/01/16_14:42:53: Han's score is: 7
+18/01/16_14:42:53: NoScopeJonguh's score is: 16
+18/01/16_14:42:53: NoScopeJonguh just made the following move: [[Rd, 91, 96]]
+
+18/01/16_14:42:53: It is your turn!
+
+18/01/16_14:42:53: Hand: [Os, Yd, Pc, Pd, Gc, Bo]
+
+18/01/16_14:42:53: Type of turn: ANY
+18/01/16_14:42:53: What is your action?
+18/01/16_14:44:02: 
+XXX 90  91  92  93  94  95  96  97  
+90  .   .   .   .   .   .   .   .   
+91  .   Rs  Ro  Rx  Rc  R*  Rd  .   
+92  .   .   .   .   Pc  P*  .   .   
+93  .   .   .   .   .   .   .   .   
+
+18/01/16_14:44:02: Hand: [Os, Yd, Pd, Gc, Bo]
+
+18/01/16_14:44:02: Type of turn: MOVE
+18/01/16_14:44:02: What is your action?
+18/01/16_14:44:08: 
+XXX 90  91  92  93  94  95  96  97  
+90  .   .   .   .   .   .   .   .   
+91  .   Rs  Ro  Rx  Rc  R*  Rd  .   
+92  .   .   .   .   Pc  P*  .   .   
+93  .   .   .   .   Gc  .   .   .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_14:44:08: Hand: [Os, Yd, Pd, Bo]
+
+18/01/16_14:44:08: Type of turn: MOVE
+18/01/16_14:44:08: What is your action?
+18/01/16_14:44:09: 
+XXX 90  91  92  93  94  95  96  97  
+90  .   .   .   .   .   .   .   .   
+91  .   Rs  Ro  Rx  Rc  R*  Rd  .   
+92  .   .   .   .   Pc  P*  .   .   
+93  .   .   .   .   Gc  .   .   .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_14:44:09: Han's score is: 12
+18/01/16_14:44:09: NoScopeJonguh's score is: 16
+18/01/16_14:44:09: Tiles in pool: 87
+
+18/01/16_14:44:09: It is now NoScopeJonguh's turn.
+
+18/01/16_14:45:24: 
+XXX 90  91  92  93  94  95  96  97  
+90  .   .   .   .   .   .   .   .   
+91  .   Rs  Ro  Rx  Rc  R*  Rd  .   
+92  .   .   .   .   Pc  P*  .   .   
+93  .   .   .   .   Gc  G*  .   .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_14:45:24: Han's score is: 12
+18/01/16_14:45:24: NoScopeJonguh's score is: 21
+18/01/16_14:45:24: NoScopeJonguh just made the following move: [[G*, 93, 95]]
+
+18/01/16_14:45:24: It is your turn!
+
+18/01/16_14:45:24: Hand: [Os, Yd, Pd, Bo, Yo, Bc]
+
+18/01/16_14:45:24: Type of turn: ANY
+18/01/16_14:45:24: What is your action?
+18/01/16_14:46:03: 
+XXX 90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   
+90  .   .   Bo  .   .   .   .   .   
+91  .   Rs  Ro  Rx  Rc  R*  Rd  .   
+92  .   .   .   .   Pc  P*  .   .   
+93  .   .   .   .   Gc  G*  .   .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_14:46:03: Hand: [Os, Yd, Pd, Yo, Bc]
+
+18/01/16_14:46:03: Type of turn: MOVE
+18/01/16_14:46:03: What is your action?
+18/01/16_14:46:08: exceptions.InvalidMoveException: Invalid move. The move can not be done on the current board.
+18/01/16_14:46:08: 
+XXX 90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   
+90  .   .   Bo  .   .   .   .   .   
+91  .   Rs  Ro  Rx  Rc  R*  Rd  .   
+92  .   .   .   .   Pc  P*  .   .   
+93  .   .   .   .   Gc  G*  .   .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_14:46:08: Hand: [Os, Yd, Pd, Yo, Bc]
+
+18/01/16_14:46:08: Type of turn: MOVE
+18/01/16_14:46:08: What is your action?
+18/01/16_14:46:16: exceptions.InvalidMoveException: Invalid move. The move can not be done on the current board.
+18/01/16_14:46:16: 
+XXX 90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   
+90  .   .   Bo  .   .   .   .   .   
+91  .   Rs  Ro  Rx  Rc  R*  Rd  .   
+92  .   .   .   .   Pc  P*  .   .   
+93  .   .   .   .   Gc  G*  .   .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_14:46:16: Hand: [Os, Yd, Pd, Yo, Bc]
+
+18/01/16_14:46:16: Type of turn: MOVE
+18/01/16_14:46:16: What is your action?
+18/01/16_14:46:26: 
+XXX 90  91  92  93  94  95  96  97  
+88  .   .   .   .   .   .   .   .   
+89  .   .   Yo  .   .   .   .   .   
+90  .   .   Bo  .   .   .   .   .   
+91  .   Rs  Ro  Rx  Rc  R*  Rd  .   
+92  .   .   .   .   Pc  P*  .   .   
+93  .   .   .   .   Gc  G*  .   .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_14:46:26: Hand: [Os, Yd, Pd, Bc]
+
+18/01/16_14:46:26: Type of turn: MOVE
+18/01/16_14:46:26: What is your action?
+18/01/16_14:46:28: 
+XXX 90  91  92  93  94  95  96  97  
+88  .   .   .   .   .   .   .   .   
+89  .   .   Yo  .   .   .   .   .   
+90  .   .   Bo  .   .   .   .   .   
+91  .   Rs  Ro  Rx  Rc  R*  Rd  .   
+92  .   .   .   .   Pc  P*  .   .   
+93  .   .   .   .   Gc  G*  .   .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_14:46:28: Han's score is: 15
+18/01/16_14:46:28: NoScopeJonguh's score is: 21
+18/01/16_14:46:28: Tiles in pool: 84
+
+18/01/16_14:46:28: It is now NoScopeJonguh's turn.
+
+18/01/16_14:47:51: 
+XXX 90  91  92  93  94  95  96  97  
+88  .   .   .   .   .   .   .   .   
+89  .   Ys  Yo  .   .   .   .   .   
+90  .   Bs  Bo  .   .   .   .   .   
+91  .   Rs  Ro  Rx  Rc  R*  Rd  .   
+92  .   .   .   .   Pc  P*  .   .   
+93  .   .   .   .   Gc  G*  .   .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_14:47:51: Han's score is: 15
+18/01/16_14:47:51: NoScopeJonguh's score is: 28
+18/01/16_14:47:51: NoScopeJonguh just made the following move: [[Bs, 90, 91], [Ys, 89, 91]]
+
+18/01/16_14:47:51: It is your turn!
+
+18/01/16_14:47:51: Hand: [Os, Yd, Pd, Bc, B*, Gx]
+
+18/01/16_14:47:51: Type of turn: ANY
+18/01/16_14:47:51: What is your action?
+18/01/16_14:48:33: 
+XXX 90  91  92  93  94  95  96  97  
+88  .   .   .   .   .   .   .   .   
+89  .   Ys  Yo  .   .   .   .   .   
+90  .   Bs  Bo  .   Bc  .   .   .   
+91  .   Rs  Ro  Rx  Rc  R*  Rd  .   
+92  .   .   .   .   Pc  P*  .   .   
+93  .   .   .   .   Gc  G*  .   .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_14:48:33: Hand: [Os, Yd, Pd, B*, Gx]
+
+18/01/16_14:48:33: Type of turn: MOVE
+18/01/16_14:48:33: What is your action?
+18/01/16_14:48:38: exceptions.InvalidMoveException: Invalid move. The move can not be done on the current board.
+18/01/16_14:48:39: 
+XXX 90  91  92  93  94  95  96  97  
+88  .   .   .   .   .   .   .   .   
+89  .   Ys  Yo  .   .   .   .   .   
+90  .   Bs  Bo  .   Bc  .   .   .   
+91  .   Rs  Ro  Rx  Rc  R*  Rd  .   
+92  .   .   .   .   Pc  P*  .   .   
+93  .   .   .   .   Gc  G*  .   .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_14:48:39: Hand: [Os, Yd, Pd, B*, Gx]
+
+18/01/16_14:48:39: Type of turn: MOVE
+18/01/16_14:48:39: What is your action?
+18/01/16_14:48:50: 
+XXX 90  91  92  93  94  95  96  97  
+88  .   .   .   .   .   .   .   .   
+89  .   Ys  Yo  .   .   .   .   .   
+90  .   Bs  Bo  .   Bc  B*  .   .   
+91  .   Rs  Ro  Rx  Rc  R*  Rd  .   
+92  .   .   .   .   Pc  P*  .   .   
+93  .   .   .   .   Gc  G*  .   .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_14:48:50: Hand: [Os, Yd, Pd, Gx]
+
+18/01/16_14:48:50: Type of turn: MOVE
+18/01/16_14:48:50: What is your action?
+18/01/16_14:48:51: 
+XXX 90  91  92  93  94  95  96  97  
+88  .   .   .   .   .   .   .   .   
+89  .   Ys  Yo  .   .   .   .   .   
+90  .   Bs  Bo  .   Bc  B*  .   .   
+91  .   Rs  Ro  Rx  Rc  R*  Rd  .   
+92  .   .   .   .   Pc  P*  .   .   
+93  .   .   .   .   Gc  G*  .   .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_14:48:51: Han's score is: 25
+18/01/16_14:48:51: NoScopeJonguh's score is: 28
+18/01/16_14:48:51: Tiles in pool: 80
+
+18/01/16_14:48:51: It is now NoScopeJonguh's turn.
+
+18/01/16_14:49:37: 
+XXX 90  91  92  93  94  95  96  97  
+88  .   .   .   .   .   .   .   .   
+89  .   Ys  Yo  .   .   .   .   .   
+90  .   Bs  Bo  .   Bc  B*  .   .   
+91  .   Rs  Ro  Rx  Rc  R*  Rd  .   
+92  .   Ps  Po  .   Pc  P*  .   .   
+93  .   .   .   .   Gc  G*  .   .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_14:49:37: Han's score is: 25
+18/01/16_14:49:37: NoScopeJonguh's score is: 38
+18/01/16_14:49:37: NoScopeJonguh just made the following move: [[Ps, 92, 91], [Po, 92, 92]]
+
+18/01/16_14:49:37: It is your turn!
+
+18/01/16_14:49:37: Hand: [Os, Yd, Pd, Gx, Bd, Bx]
+
+18/01/16_14:49:37: Type of turn: ANY
+18/01/16_14:49:37: What is your action?
+18/01/16_14:50:05: 
+XXX 90  91  92  93  94  95  96  97  
+88  .   .   .   .   .   .   .   .   
+89  .   Ys  Yo  .   .   .   .   .   
+90  .   Bs  Bo  Bx  Bc  B*  .   .   
+91  .   Rs  Ro  Rx  Rc  R*  Rd  .   
+92  .   Ps  Po  .   Pc  P*  .   .   
+93  .   .   .   .   Gc  G*  .   .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_14:50:05: Hand: [Os, Yd, Pd, Gx, Bd]
+
+18/01/16_14:50:05: Type of turn: MOVE
+18/01/16_14:50:05: What is your action?
+18/01/16_14:50:06: 
+XXX 90  91  92  93  94  95  96  97  
+88  .   .   .   .   .   .   .   .   
+89  .   Ys  Yo  .   .   .   .   .   
+90  .   Bs  Bo  Bx  Bc  B*  .   .   
+91  .   Rs  Ro  Rx  Rc  R*  Rd  .   
+92  .   Ps  Po  .   Pc  P*  .   .   
+93  .   .   .   .   Gc  G*  .   .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_14:50:06: Han's score is: 32
+18/01/16_14:50:06: NoScopeJonguh's score is: 38
+18/01/16_14:50:06: Tiles in pool: 77
+
+18/01/16_14:50:06: It is now NoScopeJonguh's turn.
+
+18/01/16_14:51:05: 
+XXX 90  91  92  93  94  95  96  97  
+88  .   .   .   .   .   .   .   .   
+89  .   Ys  Yo  .   .   .   .   .   
+90  .   Bs  Bo  Bx  Bc  B*  .   .   
+91  .   Rs  Ro  Rx  Rc  R*  Rd  .   
+92  .   Ps  Po  .   Pc  P*  .   .   
+93  .   .   .   .   Gc  G*  Gd  .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_14:51:05: Han's score is: 32
+18/01/16_14:51:05: NoScopeJonguh's score is: 41
+18/01/16_14:51:05: NoScopeJonguh just made the following move: [[Gd, 93, 96]]
+
+18/01/16_14:51:05: It is your turn!
+
+18/01/16_14:51:05: Hand: [Os, Yd, Pd, Gx, Bd, Yx]
+
+18/01/16_14:51:05: Type of turn: ANY
+18/01/16_14:51:05: What is your action?
+18/01/16_14:51:17: 
+XXX 90  91  92  93  94  95  96  97  
+88  .   .   .   .   .   .   .   .   
+89  .   Ys  Yo  .   .   .   .   .   
+90  .   Bs  Bo  Bx  Bc  B*  Bd  .   
+91  .   Rs  Ro  Rx  Rc  R*  Rd  .   
+92  .   Ps  Po  .   Pc  P*  .   .   
+93  .   .   .   .   Gc  G*  Gd  .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_14:51:17: Hand: [Os, Yd, Pd, Gx, Yx]
+
+18/01/16_14:51:17: Type of turn: MOVE
+18/01/16_14:51:17: What is your action?
+18/01/16_14:51:24: 
+XXX 90  91  92  93  94  95  96  97  
+88  .   .   .   .   .   .   .   .   
+89  .   Ys  Yo  .   .   .   Yd  .   
+90  .   Bs  Bo  Bx  Bc  B*  Bd  .   
+91  .   Rs  Ro  Rx  Rc  R*  Rd  .   
+92  .   Ps  Po  .   Pc  P*  .   .   
+93  .   .   .   .   Gc  G*  Gd  .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_14:51:24: Hand: [Os, Pd, Gx, Yx]
+
+18/01/16_14:51:24: Type of turn: MOVE
+18/01/16_14:51:24: What is your action?
+18/01/16_14:51:25: 
+XXX 90  91  92  93  94  95  96  97  
+88  .   .   .   .   .   .   .   .   
+89  .   Ys  Yo  .   .   .   Yd  .   
+90  .   Bs  Bo  Bx  Bc  B*  Bd  .   
+91  .   Rs  Ro  Rx  Rc  R*  Rd  .   
+92  .   Ps  Po  .   Pc  P*  .   .   
+93  .   .   .   .   Gc  G*  Gd  .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_14:51:25: Han's score is: 47
+18/01/16_14:51:25: NoScopeJonguh's score is: 41
+18/01/16_14:51:25: Tiles in pool: 74
+
+18/01/16_14:51:25: It is now NoScopeJonguh's turn.
+
+18/01/16_14:52:04: 
+XXX 90  91  92  93  94  95  96  97  
+87  .   .   .   .   .   .   .   .   
+88  .   .   Oo  Ox  .   .   .   .   
+89  .   Ys  Yo  .   .   .   Yd  .   
+90  .   Bs  Bo  Bx  Bc  B*  Bd  .   
+91  .   Rs  Ro  Rx  Rc  R*  Rd  .   
+92  .   Ps  Po  .   Pc  P*  .   .   
+93  .   .   .   .   Gc  G*  Gd  .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_14:52:04: Han's score is: 47
+18/01/16_14:52:04: NoScopeJonguh's score is: 48
+18/01/16_14:52:04: NoScopeJonguh just made the following move: [[Oo, 88, 92], [Ox, 88, 93]]
+
+18/01/16_14:52:04: It is your turn!
+
+18/01/16_14:52:04: Hand: [Os, Pd, Gx, Yx, Od, Oc]
+
+18/01/16_14:52:04: Type of turn: ANY
+18/01/16_14:52:04: What is your action?
+18/01/16_14:54:07: exceptions.InvalidCommandException: Invalid command. Usage: [MOVE <tile> <row> <column>]
+18/01/16_14:54:07: Type of turn: ANY
+18/01/16_14:54:07: What is your action?
+18/01/16_14:54:17: 
+XXX 90  91  92  93  94  95  96  97  
+87  .   .   .   .   .   .   .   .   
+88  .   .   Oo  Ox  .   .   .   .   
+89  .   Ys  Yo  Yx  .   .   Yd  .   
+90  .   Bs  Bo  Bx  Bc  B*  Bd  .   
+91  .   Rs  Ro  Rx  Rc  R*  Rd  .   
+92  .   Ps  Po  .   Pc  P*  .   .   
+93  .   .   .   .   Gc  G*  Gd  .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_14:54:17: Hand: [Os, Pd, Gx, Od, Oc]
+
+18/01/16_14:54:17: Type of turn: MOVE
+18/01/16_14:54:17: What is your action?
+18/01/16_14:54:18: 
+XXX 90  91  92  93  94  95  96  97  
+87  .   .   .   .   .   .   .   .   
+88  .   .   Oo  Ox  .   .   .   .   
+89  .   Ys  Yo  Yx  .   .   Yd  .   
+90  .   Bs  Bo  Bx  Bc  B*  Bd  .   
+91  .   Rs  Ro  Rx  Rc  R*  Rd  .   
+92  .   Ps  Po  .   Pc  P*  .   .   
+93  .   .   .   .   Gc  G*  Gd  .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_14:54:18: Han's score is: 54
+18/01/16_14:54:18: NoScopeJonguh's score is: 48
+18/01/16_14:54:18: The winner is... NoScopeJonguh!
+18/01/16_14:54:18: There are no tiles left in the pool.
+
+18/01/16_14:54:18: ÏOException while reading from socket.

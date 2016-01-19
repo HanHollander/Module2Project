@@ -1,0 +1,48 @@
+18/01/16_19:18:29: 
+Checking host... 
+18/01/16_19:18:29: Host accepted.
+18/01/16_19:18:29: Checking port... 
+18/01/16_19:18:29: Port accepted.
+18/01/16_19:18:29: Creating client... 
+18/01/16_19:18:29: Client human created
+18/01/16_19:18:29: Starting client... 
+18/01/16_19:18:29: Client started.
+18/01/16_19:18:29: Sending registration message... 
+18/01/16_19:18:29: HELLO human
+18/01/16_19:18:29: Registration message send.
+18/01/16_19:18:29: Waiting for welcome message... 
+18/01/16_19:18:29: Welcome message received.
+
+18/01/16_19:18:32: Players participating: [Player 1: human, Player 2: bot]
+
+18/01/16_19:18:32: AITime: 99999
+
+18/01/16_19:18:32: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Bc  Bx  Bo  .   
+92  .   .   .   .   .   
+
+18/01/16_19:18:32: human's score is: 3
+18/01/16_19:18:32: bot's score is: 0
+18/01/16_19:18:32: Tiles in pool: 93
+
+18/01/16_19:18:32: It is now bot's turn.
+
+18/01/16_19:18:32: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Bc  Bx  Bo  .   
+92  .   .   Yx  .   .   
+93  .   .   .   .   .   
+
+18/01/16_19:18:32: human's score is: 3
+18/01/16_19:18:32: bot's score is: 2
+18/01/16_19:18:32: bot just made the following move: [[Yx, 92, 92]]
+
+18/01/16_19:18:32: It is your turn!
+
+18/01/16_19:18:32: Hand: [Oc, G*, Ox, Oo, Pc, Y*]
+
+18/01/16_19:18:32: Type of turn: ANY
+18/01/16_19:18:32: What is your action?

@@ -1,0 +1,35 @@
+19/01/16_14:03:22: 
+Checking host... 
+19/01/16_14:03:22: Host accepted.
+19/01/16_14:03:22: Checking port... 
+19/01/16_14:03:22: Port accepted.
+19/01/16_14:03:22: Creating client... 
+19/01/16_14:03:22: Client bot created
+19/01/16_14:03:22: Starting client... 
+19/01/16_14:03:22: Client started.
+19/01/16_14:03:22: Sending registration message... 
+19/01/16_14:03:22: HELLO bot
+19/01/16_14:03:22: Registration message send.
+19/01/16_14:03:22: Waiting for welcome message... 
+19/01/16_14:03:22: Welcome message received.
+
+19/01/16_14:03:22: Players participating: [Player 1: bot, Player 2: bot]
+
+19/01/16_14:03:22: AITime: 99999
+
+19/01/16_14:03:22: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   [37mE[0m   [32mE[0m   [36mE[0m   .   
+92  .   .   .   .   .   
+
+19/01/16_14:03:22: bot's score is: 3
+19/01/16_14:03:22: bot's score is: 0
+19/01/16_14:03:22: bot just made the following move: [[Bx, 91, 91], [Gx, 91, 92], [Yx, 91, 93]]
+
+19/01/16_14:03:22: Tiles in pool: 93
+
+19/01/16_14:03:22: It is your turn!
+
+19/01/16_14:03:22: Hand: [[36mD[0m,[33mE[0m,[33mA[0m,[35mE[0m,[31mF[0m,[37mD[0m,]
+

@@ -1,0 +1,413 @@
+18/01/16_16:25:05: Welcome in Qwirkle
+18/01/16_16:25:05: (only characters a-z A-Z and 1 to 16 characters long)
+18/01/16_16:25:05: What is your name? 
+
+18/01/16_16:25:08: 
+Server IP-adress: 
+
+18/01/16_16:25:10: 
+Server port: 
+
+18/01/16_16:25:13: 
+Bot: 'b', Human: 'h'
+18/01/16_16:25:16: 
+Checking host... 
+18/01/16_16:25:16: Host accepted.
+18/01/16_16:25:16: Checking port... 
+18/01/16_16:25:16: Port accepted.
+18/01/16_16:25:16: Creating client... 
+18/01/16_16:25:16: Client localhost created
+18/01/16_16:25:16: Starting client... 
+18/01/16_16:25:16: Client started.
+18/01/16_16:25:16: Sending registration message... 
+18/01/16_16:25:16: Registration message send.
+18/01/16_16:25:16: Welcome message received.
+
+18/01/16_16:25:16: Waiting for welcome message... 
+18/01/16_16:25:16: Players participating: [Player 1: bot, Player 2: localhost]
+
+18/01/16_16:25:16: AITime: 99999
+
+18/01/16_16:25:16: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   Rd  Rc  Ro  Rx  .   
+92  .   .   .   .   .   .   
+
+18/01/16_16:25:16: bot's score is: 0
+18/01/16_16:25:16: localhost's score is: 4
+18/01/16_16:25:16: Tiles in pool: 92
+
+18/01/16_16:25:16: It is now bot's turn.
+
+18/01/16_16:25:17: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   Rd  Rc  Ro  Rx  .   
+92  .   .   .   .   Px  .   
+93  .   .   .   .   .   .   
+
+18/01/16_16:25:17: bot's score is: 2
+18/01/16_16:25:17: localhost's score is: 4
+18/01/16_16:25:17: bot just made the following move: [[Px, 92, 94]]
+
+18/01/16_16:25:17: It is your turn!
+
+18/01/16_16:25:17: Hand: [Yd, Oo, G*, Gc, Pd, Gx]
+
+18/01/16_16:25:17: 
+XXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+91  .   Rd  Rc  Ro  Rx  .   .   
+92  .   .   .   .   Px  Gx  .   
+93  .   .   .   .   .   .   .   
+
+18/01/16_16:25:17: Hand: [Yd, Oo, G*, Gc, Pd]
+
+18/01/16_16:25:17: 
+XXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+91  .   Rd  Rc  Ro  Rx  .   .   
+92  .   .   .   .   Px  Gx  .   
+93  .   .   .   .   .   .   .   
+
+18/01/16_16:25:17: bot's score is: 2
+18/01/16_16:25:17: localhost's score is: 6
+18/01/16_16:25:17: Tiles in pool: 90
+
+18/01/16_16:25:17: It is now bot's turn.
+
+18/01/16_16:25:18: 
+XXX 90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   
+90  .   .   .   R*  .   .   .   
+91  .   Rd  Rc  Ro  Rx  .   .   
+92  .   .   .   .   Px  Gx  .   
+93  .   .   .   .   .   .   .   
+
+18/01/16_16:25:18: bot's score is: 4
+18/01/16_16:25:18: localhost's score is: 6
+18/01/16_16:25:18: bot just made the following move: [[R*, 90, 93]]
+
+18/01/16_16:25:18: It is your turn!
+
+18/01/16_16:25:18: Hand: [Yd, Oo, G*, Gc, Pd, Po]
+
+18/01/16_16:25:18: 
+XXX 90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   
+90  .   .   .   R*  .   .   .   
+91  .   Rd  Rc  Ro  Rx  .   .   
+92  .   Pd  .   .   Px  Gx  .   
+93  .   .   .   .   .   .   .   
+
+18/01/16_16:25:18: Hand: [Yd, Oo, G*, Gc, Po]
+
+18/01/16_16:25:18: 
+XXX 90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   
+90  .   .   .   R*  .   .   .   
+91  .   Rd  Rc  Ro  Rx  .   .   
+92  .   Pd  .   .   Px  Gx  .   
+93  .   .   .   .   .   .   .   
+
+18/01/16_16:25:18: bot's score is: 4
+18/01/16_16:25:18: localhost's score is: 8
+18/01/16_16:25:18: Tiles in pool: 88
+
+18/01/16_16:25:18: It is now bot's turn.
+
+18/01/16_16:25:18: 
+XXX 89  90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   .   
+90  .   .   .   .   R*  .   .   .   
+91  .   .   Rd  Rc  Ro  Rx  .   .   
+92  .   Od  Pd  .   .   Px  Gx  .   
+93  .   .   .   .   .   .   .   .   
+
+18/01/16_16:25:18: bot's score is: 6
+18/01/16_16:25:18: localhost's score is: 8
+18/01/16_16:25:18: bot just made the following move: [[Od, 92, 90]]
+
+18/01/16_16:25:18: It is your turn!
+
+18/01/16_16:25:18: Hand: [Yd, Oo, G*, Gc, Po, Bx]
+
+18/01/16_16:25:18: 
+XXX 89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   R*  .   .   .   .   
+91  .   .   Rd  Rc  Ro  Rx  .   .   .   
+92  .   Od  Pd  .   .   Px  Gx  Bx  .   
+93  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:25:18: Hand: [Yd, Oo, G*, Gc, Po]
+
+18/01/16_16:25:18: 
+XXX 89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   R*  .   .   .   .   
+91  .   .   Rd  Rc  Ro  Rx  .   .   .   
+92  .   Od  Pd  .   .   Px  Gx  Bx  .   
+93  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:25:18: bot's score is: 6
+18/01/16_16:25:18: localhost's score is: 11
+18/01/16_16:25:18: Tiles in pool: 86
+
+18/01/16_16:25:19: It is now bot's turn.
+
+18/01/16_16:25:19: 
+XXX 89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   R*  .   .   .   .   
+91  .   .   Rd  Rc  Ro  Rx  .   .   .   
+92  .   Od  Pd  .   .   Px  Gx  Bx  .   
+93  .   Oc  .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:25:19: bot's score is: 8
+18/01/16_16:25:19: localhost's score is: 11
+18/01/16_16:25:19: bot just made the following move: [[Oc, 93, 90]]
+
+18/01/16_16:25:19: It is your turn!
+
+18/01/16_16:25:19: Hand: [Yd, Oo, G*, Gc, Po, Go]
+
+18/01/16_16:25:19: 
+XXX 89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   R*  .   .   .   .   
+91  .   .   Rd  Rc  Ro  Rx  .   .   .   
+92  .   Od  Pd  .   .   Px  Gx  Bx  .   
+93  .   Oc  .   .   .   .   Go  .   .   
+94  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:25:19: Hand: [Yd, Oo, G*, Gc, Po]
+
+18/01/16_16:25:19: 
+XXX 89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   R*  .   .   .   .   
+91  .   .   Rd  Rc  Ro  Rx  .   .   .   
+92  .   Od  Pd  .   .   Px  Gx  Bx  .   
+93  .   Oc  .   .   .   .   Go  .   .   
+94  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:25:19: bot's score is: 8
+18/01/16_16:25:19: localhost's score is: 13
+18/01/16_16:25:19: Tiles in pool: 84
+
+18/01/16_16:25:19: It is now bot's turn.
+
+18/01/16_16:25:19: 
+XXX 88  89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   R*  .   .   .   .   
+91  .   .   .   Rd  Rc  Ro  Rx  .   .   .   
+92  .   .   Od  Pd  .   .   Px  Gx  Bx  .   
+93  .   Pc  Oc  .   .   .   .   Go  .   .   
+94  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:25:19: bot's score is: 10
+18/01/16_16:25:19: localhost's score is: 13
+18/01/16_16:25:19: bot just made the following move: [[Pc, 93, 89]]
+
+18/01/16_16:25:19: It is your turn!
+
+18/01/16_16:25:19: Hand: [Yd, Oo, G*, Gc, Po, Ys]
+
+18/01/16_16:25:19: 
+XXX 88  89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   R*  .   .   .   .   
+91  .   .   .   Rd  Rc  Ro  Rx  .   .   .   
+92  .   .   Od  Pd  .   .   Px  Gx  Bx  .   
+93  .   Pc  Oc  .   .   .   .   Go  .   .   
+94  .   Po  .   .   .   .   .   .   .   .   
+95  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:25:19: Hand: [Yd, Oo, G*, Gc, Ys]
+
+18/01/16_16:25:19: 
+XXX 88  89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   R*  .   .   .   .   
+91  .   .   .   Rd  Rc  Ro  Rx  .   .   .   
+92  .   .   Od  Pd  .   .   Px  Gx  Bx  .   
+93  .   Pc  Oc  .   .   .   .   Go  .   .   
+94  .   Po  .   .   .   .   .   .   .   .   
+95  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:25:19: bot's score is: 10
+18/01/16_16:25:19: localhost's score is: 15
+18/01/16_16:25:19: Tiles in pool: 82
+
+18/01/16_16:25:19: It is now bot's turn.
+
+18/01/16_16:25:19: 
+XXX 88  89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   R*  .   .   .   .   
+91  .   .   .   Rd  Rc  Ro  Rx  .   .   .   
+92  .   .   Od  Pd  .   .   Px  Gx  Bx  .   
+93  .   Pc  Oc  .   .   .   .   Go  .   .   
+94  .   Po  .   .   .   .   .   Gd  .   .   
+95  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:25:19: bot's score is: 13
+18/01/16_16:25:19: localhost's score is: 15
+18/01/16_16:25:19: bot just made the following move: [[Gd, 94, 95]]
+
+18/01/16_16:25:19: It is your turn!
+
+18/01/16_16:25:19: Hand: [Yd, Oo, G*, Gc, Ys, Bo]
+
+18/01/16_16:25:20: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   R*  .   .   .   .   
+91  .   .   .   .   Rd  Rc  Ro  Rx  .   .   .   
+92  .   .   .   Od  Pd  .   .   Px  Gx  Bx  .   
+93  .   .   Pc  Oc  .   .   .   .   Go  .   .   
+94  .   Bo  Po  .   .   .   .   .   Gd  .   .   
+95  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:25:20: Hand: [Yd, Oo, G*, Gc, Ys]
+
+18/01/16_16:25:20: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   R*  .   .   .   .   
+91  .   .   .   .   Rd  Rc  Ro  Rx  .   .   .   
+92  .   .   .   Od  Pd  .   .   Px  Gx  Bx  .   
+93  .   .   Pc  Oc  .   .   .   .   Go  .   .   
+94  .   Bo  Po  .   .   .   .   .   Gd  .   .   
+95  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:25:20: bot's score is: 13
+18/01/16_16:25:20: localhost's score is: 17
+18/01/16_16:25:20: Tiles in pool: 80
+
+18/01/16_16:25:20: It is now bot's turn.
+
+18/01/16_16:25:20: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   R*  .   .   .   .   
+91  .   .   .   .   Rd  Rc  Ro  Rx  .   .   .   
+92  .   .   .   Od  Pd  .   .   Px  Gx  Bx  .   
+93  .   .   Pc  Oc  .   .   .   .   Go  .   .   
+94  .   Bo  Po  .   .   .   .   .   Gd  .   .   
+95  .   Bc  .   .   .   .   .   .   .   .   .   
+96  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:25:20: bot's score is: 15
+18/01/16_16:25:20: localhost's score is: 17
+18/01/16_16:25:20: bot just made the following move: [[Bc, 95, 88]]
+
+18/01/16_16:25:20: It is your turn!
+
+18/01/16_16:25:20: Hand: [Yd, Oo, G*, Gc, Ys, P*]
+
+18/01/16_16:25:20: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   R*  .   .   .   .   
+91  .   .   .   .   .   Rd  Rc  Ro  Rx  .   .   .   
+92  .   .   .   .   Od  Pd  .   .   Px  Gx  Bx  .   
+93  .   .   .   Pc  Oc  .   .   .   .   Go  .   .   
+94  .   .   Bo  Po  .   .   .   .   .   Gd  .   .   
+95  .   Gc  Bc  .   .   .   .   .   .   .   .   .   
+96  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:25:20: Hand: [Yd, Oo, G*, Ys, P*]
+
+18/01/16_16:25:20: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   R*  .   .   .   .   
+91  .   .   .   .   .   Rd  Rc  Ro  Rx  .   .   .   
+92  .   .   .   .   Od  Pd  .   .   Px  Gx  Bx  .   
+93  .   .   .   Pc  Oc  .   .   .   .   Go  .   .   
+94  .   .   Bo  Po  .   .   .   .   .   Gd  .   .   
+95  .   Gc  Bc  .   .   .   .   .   .   .   .   .   
+96  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:25:20: bot's score is: 15
+18/01/16_16:25:20: localhost's score is: 19
+18/01/16_16:25:20: Tiles in pool: 78
+
+18/01/16_16:25:20: It is now bot's turn.
+
+18/01/16_16:25:20: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   .   R*  .   .   .   .   
+91  .   .   .   .   .   .   Rd  Rc  Ro  Rx  .   .   .   
+92  .   .   .   .   .   Od  Pd  .   .   Px  Gx  Bx  .   
+93  .   .   .   .   Pc  Oc  .   .   .   .   Go  .   .   
+94  .   .   .   Bo  Po  .   .   .   .   .   Gd  .   .   
+95  .   Yc  Gc  Bc  .   .   .   .   .   .   .   .   .   
+96  .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:25:20: bot's score is: 18
+18/01/16_16:25:20: localhost's score is: 19
+18/01/16_16:25:20: bot just made the following move: [[Yc, 95, 86]]
+
+18/01/16_16:25:20: It is your turn!
+
+18/01/16_16:25:20: Hand: [Yd, Oo, G*, Ys, P*, Ps]
+
+18/01/16_16:25:20: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   .   R*  .   .   .   .   
+91  .   .   .   .   .   .   Rd  Rc  Ro  Rx  .   .   .   
+92  .   .   .   .   .   Od  Pd  .   .   Px  Gx  Bx  .   
+93  .   .   .   .   Pc  Oc  .   .   .   .   Go  .   .   
+94  .   .   .   Bo  Po  .   .   .   .   .   Gd  .   .   
+95  .   Yc  Gc  Bc  .   .   .   .   .   .   .   .   .   
+96  .   Ys  .   .   .   .   .   .   .   .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:25:20: Hand: [Yd, Oo, G*, P*, Ps]
+
+18/01/16_16:25:20: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   .   R*  .   .   .   .   
+91  .   .   .   .   .   .   Rd  Rc  Ro  Rx  .   .   .   
+92  .   .   .   .   .   Od  Pd  .   .   Px  Gx  Bx  .   
+93  .   .   .   .   Pc  Oc  .   .   .   .   Go  .   .   
+94  .   .   .   Bo  Po  .   .   .   .   .   Gd  .   .   
+95  .   Yc  Gc  Bc  .   .   .   .   .   .   .   .   .   
+96  .   Ys  .   .   .   .   .   .   .   .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:25:20: bot's score is: 18
+18/01/16_16:25:20: localhost's score is: 21
+18/01/16_16:25:20: Tiles in pool: 76
+
+18/01/16_16:25:20: It is now bot's turn.
+
+18/01/16_16:25:20: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   .   .   R*  .   .   .   .   
+91  .   .   .   .   .   .   .   Rd  Rc  Ro  Rx  .   .   .   
+92  .   .   .   .   .   .   Od  Pd  .   .   Px  Gx  Bx  .   
+93  .   .   .   .   .   Pc  Oc  .   .   .   .   Go  .   .   
+94  .   .   .   .   Bo  Po  .   .   .   .   .   Gd  .   .   
+95  .   .   Yc  Gc  Bc  .   .   .   .   .   .   .   .   .   
+96  .   Yx  Ys  .   .   .   .   .   .   .   .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:25:20: bot's score is: 20
+18/01/16_16:25:20: localhost's score is: 21
+18/01/16_16:25:20: bot just made the following move: [[Yx, 96, 85]]
+
+18/01/16_16:27:00: Tiles in pool: 81
+
+18/01/16_16:27:00: bot IS KICKED FOR THE FOLLOWING REASON: Did not make a move in time
+

@@ -1,0 +1,825 @@
+18/01/16_16:36:53: Welcome in Qwirkle
+18/01/16_16:36:53: (only characters a-z A-Z and 1 to 16 characters long)
+18/01/16_16:36:53: What is your name? 
+
+18/01/16_16:37:11: 
+Server IP-adress: 
+
+18/01/16_16:37:13: 
+Server port: 
+
+18/01/16_16:37:15: 
+Bot: 'b', Human: 'h'
+18/01/16_16:37:17: 
+Checking host... 
+18/01/16_16:37:17: Host accepted.
+18/01/16_16:37:17: Checking port... 
+18/01/16_16:37:17: Port accepted.
+18/01/16_16:37:17: Creating client... 
+18/01/16_16:37:17: Client ohboyohboy created
+18/01/16_16:37:17: Starting client... 
+18/01/16_16:37:17: Client started.
+18/01/16_16:37:17: Sending registration message... 
+18/01/16_16:37:17: Registration message send.
+18/01/16_16:37:18: Waiting for welcome message... 
+18/01/16_16:37:18: Welcome message recei18/01/16_16:37:18: Players participating: [Player 1: boy, Player 2: ohboyohboy]
+
+18/01/16_16:37:18: AITime: 99999
+
+18/01/118/01/16_16:37:18: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Po  Oo  Go  .   
+92  .   .   .   .   18/01/16_16:37:18: boy's score is: 0
+18/01/16_16:37:18: ohboyohboy's score is: 3
+18/01/118/01/16_16:37:18: Tiles in pool: 93
+
+18/01/16_16:37:18: It is now boy's turn.
+
+18/01/16_16:37:18: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Po  Oo  Go  .   
+92  .   .   .   Gc  .   
+93  .   .   .   .   .   
+
+18/01/16_16:37:18: boy's score is: 2
+18/01/16_16:37:18: ohboyohboy's score is: 3
+18/01/16_16:37:18: boy just made the following move: [[Gc, 92, 93]]
+
+18/01/16_16:37:18: It is your turn!
+
+18/01/16_16:37:18: Hand: [Rd, Px, Y*, Rx, Yd, Gc]
+
+18/01/16_16:37:18: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Po  Oo  Go  .   
+92  .   Px  .   Gc  .   
+93  .   .   .   .   .   
+
+18/01/16_16:37:18: Hand: [Rd, Y*, Rx, Yd, Gc]
+
+18/01/16_16:37:18: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  18/01/16_16:37:18: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Po  Oo  Go  .   
+92  .   Px  .   Gc  .   
+93  .   .   .   .   .   
+
+18/01/16_16:37:18: boy's score is: 2
+18/01/16_16:37:18: ohboyohboy's score is: 5
+18/01/1618/01/16_16:37:18: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   Po  Oo  Go  Ro  .   
+92  .   Px  .   Gc  .   .   
+93  .   .   .   .   .   .   
+
+18/01/16_16:37:18: boy's score is: 6
+18/01/16_16:37:18: ohboyohboy's score is: 5
+18/01/16_16:37:18: boy just made the following move: [[Ro, 91, 94]]
+
+18/01/16_16:37:18: It is your turn!
+
+18/01/16_16:37:18: Hand: [Rd, Y*, Rx, Yd, Gc, Bo]
+
+18/01/16_16:37:19: 
+XXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+91  .   Po  Oo  Go  Ro  Bo  .   
+92  .   Px  .   Gc  .   .   .   
+93  .   .   .   .   .   .   .   
+
+18/01/16_16:37:19: Hand: [Rd, Y*, Rx, Yd, Gc]
+
+18/01/16_16:37:19: 
+XXX 90  91  92  93  94  95  96  
+90  .   .   .  18/01/16_16:37:19: 
+XXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+91  .   Po  Oo  Go  Ro  Bo  .   
+92  .   Px  .   Gc  .   .   .   
+93  .   .   .   .   .   .   .   
+
+18/01/16_16:37:19: boy's score is: 6
+18/01/16_16:37:1918/01/16_16:37:19: It is now boy's turn.
+
+18/01/16_16:37:19: 
+XXX 90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   
+90  .   .   Os  .   .   .   .   
+91  .   Po  Oo  Go  Ro  Bo  .   
+92  .   Px  .   Gc  .   .   .   
+93  .   .   .   .   .   .   .   
+
+18/01/16_16:37:19: boy's score is: 8
+18/01/16_16:37:19: ohboyohboy's score is: 10
+18/01/16_16:37:19: boy just made the following move: [[Os, 90, 92]]
+
+18/01/16_16:37:19: It is your turn!
+
+18/01/16_16:37:19: Hand: [Rd, Y*, Rx, Yd, Gc, G*]
+
+18/01/16_16:37:19: 
+XXX 90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   
+90  .   .   Os  .   .   .   .   
+91  .   Po  Oo  Go  Ro  Bo  .   
+92  .   Px  .   Gc  .   .   .   
+93  .   .   .   G*  .   .   .   
+94  .   .   .   .   .   .   .   
+
+18/01/1618/01/16_16:37:19: Tiles in pool: 88
+
+18/01/16_16:37:19: It is now ohboyohboy's turn.
+
+18/01/16_16:37:19: 
+XXX 90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   
+90  .   .   Os  .   .   .   .   
+91  .   Po  Oo  Go  Ro  Bo  .   
+92  .   Px  .   Gc  .   .   .   
+93  .   .   .   G*  .   .   .   
+94  .   .   .   .   .   .   .   
+
+18/01/16_16:37:19: boy's score is: 8
+18/01/16_16:37:19: ohboyohboy's score is: 13
+18/01/16_16:37:19: ohboyohboy jus18/01/16_16:37:19: 
+XXX 89  90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   .   
+90  .   .   .   Os  .   .   .   .   
+91  .   .   Po  Oo  Go  Ro  Bo  .   
+92  .   Ox  Px  .   Gc  .   .   .   
+93  .   .   .   .   G*  .   .   .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:19: boy's score is: 10
+18/01/16_16:37:19: ohboyohboy's score is: 13
+18/01/16_16:37:19: boy just made the following move: [[Ox, 92, 90]]
+
+18/01/16_16:37:19: It is your turn!
+
+18/01/16_16:37:19: Hand: [Rd, Y*, Rx, Yd, Gc, Yx]
+
+18/01/16_16:37:19: 
+XXX 88  89  90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Os  .   .   .   .   
+91  .   .   .   Po  Oo  Go  Ro  Bo  .   
+92  .   Yx  Ox  Px  .   Gc  .   .   .   
+93  .   .   .   .   .   G*  .   18/01/16_16:37:19: ohboyohboy's score is: 13
+18/01/16_16:37:19: Tiles in pool: 86
+
+18/01/16_16:37:19: It is now ohboyohboy's turn.
+
+18/01/16_16:37:19: 
+XXX 88  89  90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Os  .   .   .   .   
+91  .   .   .   Po  Oo  Go  Ro  Bo  .   
+92  .   Yx  Ox  Px  .   Gc  .   .   .   
+93  .   .   .   .   .   G*  .   .   .   
+94  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:19: boy's score is: 10
+18/01/16_16:37:19: ohboyohboy's score is: 16
+18/01/16_16:37:19: ohboyohboy just made the fol18/01/16_16:37:20: 
+XXX 88  89  90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Os  .   .   .   .   
+91  .   .   .   Po  Oo  Go  Ro  Bo  .   
+92  .   Yx  Ox  Px  .   Gc  .   .   .   
+93  .   Ys  .   .   .   G*  .   .   .   
+94  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:20: boy's score is: 12
+18/01/16_16:37:20: ohboyohboy's score is: 16
+18/01/16_16:37:20: boy just made the following move: [[Ys, 93, 89]]
+
+18/01/16_16:37:20: It is your turn!
+
+18/01/16_16:37:20: Hand: [Rd, Y*, Rx, Yd, Gc, Pd]
+
+18/01/16_16:37:20: 
+XXX 88  89  90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Os  .   .   .   .   
+91  .   .   .   Po  Oo  Go  Ro  Bo  .   
+92  .   Yx  Ox  Px  .   Gc  .   .   .   
+93  .  18/01/16_16:37:20: boy's score is: 12
+18/01/16_16:37:20: ohboyohboy's score is: 16
+18/01/16_16:37:20: Tiles in pool: 84
+
+18/01/16_16:37:20: It is now ohboyohboy's turn.
+
+18/01/16_16:37:20: 
+XXX 88  89  90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Os  .   .   .   .   
+91  .   .   .   Po  Oo  Go  Ro  Bo  .   
+92  .   Yx  Ox  Px  .   Gc  .   .   .   
+93  .   Ys  .   Pd  .   G*  .   .   .   
+94  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:20: boy's score is: 12
+18/01/16_16:37:20: ohboyohboy's score is: 19
+18/01/16_16:37:20: ohboyohboy jus18/01/16_16:37:20: 
+XXX 88  89  90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Os  .   .   .   .   
+91  .   .   .   Po  Oo  Go  Ro  Bo  .   
+92  .   Yx  Ox  Px  .   Gc  .   .   .   
+93  .   Ys  .   Pd  .   G*  .   .   .   
+94  .   .   .   Ps  .   .   .   .   .   
+95  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:20: boy's score is: 16
+18/01/16_16:37:20: ohboyohboy's score is: 19
+18/01/16_16:37:20: boy just made the following move: [[Ps, 94, 91]]
+
+18/01/16_16:37:20: It is your turn!
+
+18/01/16_16:37:20: Hand: [Rd, Y*, Rx, Yd, Gc, Bd]
+
+18/01/16_16:37:20: 
+XXX 88  89  90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Os  .   .   .   .   
+91  .   .   .   Po  Oo  Go  Ro  Bo  .   
+92  .   Yx  Ox  Px  .   Gc  .   Bd  .   
+93  .   Ys  .   Pd  .   G*  .   .   .   
+94  .   .   .   Ps  .   .   .   .   .   
+95  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:20: Hand: [Rd, Y*, Rx, Yd, Gc]
+
+18/01/16_16:37:20: 
+XXX 88  89  90  91  92  93  94  95  96  
+8918/01/16_16:37:20: 
+XXX 88  89  90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Os  .   .   .   .   
+91  .   .   .   Po  Oo  Go  Ro  Bo  .   
+92  .   Yx  Ox  Px  .   Gc  .   Bd  .   
+93  .   Ys  .   Pd  .   G*  .   .   .   
+94  .   .   .   Ps  .   .   .   .   .   
+95  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:20: boy's score is: 16
+18/01/16_16:37:20: ohboyohboy's score is: 21
+18/01/16_16:37:20: 18/01/16_16:37:20: 
+XXX 87  88  89  90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  .   
+93  .   Yx  Ys  .   Pd  .   G*  .   .   .   
+94  .   .   .   .   Ps  .   .   .   .   .   
+95  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:20: boy's score is: 18
+18/01/16_16:37:20: ohboyohboy's score is: 21
+18/01/16_16:37:20: boy just made the following move: [[Yx, 93, 88]]
+
+18/01/16_16:37:20: It is your turn!
+
+18/01/16_16:37:20: Hand: [Rd, Y*, Rx, Yd, Gc, Px]
+
+18/01/16_16:37:20: 
+XXX 87  88  89  90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  .   
+93  .   Yx  Ys  .   Pd  .   G*  .   .   .   
+94  .   .   .   .   Ps  Px  .   .   .   .   
+95  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:20: Hand: [Rd, Y*, Rx, Yd, Gc]
+
+18/01/16_16:37:20: 
+XXX 87  88  89  90  91  92  93  94  95  96  
+89  .   .   18/01/16_16:37:20: 
+XXX 87  88  89  90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  .   
+93  .   Yx  Ys  .   Pd  .   G*  .   .   .   
+94  .   .   .   .   Ps  Px  .   .   .   .   
+95  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:20: boy's score is: 18
+18/01/16_16:37:20: ohboyohboy's score is: 23
+18/0118/01/16_16:37:20: 
+XXX 87  88  89  90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  .   
+93  .   Yx  Ys  .   Pd  .   G*  .   .   .   
+94  .   .   .   .   Ps  Px  .   .   .   .   
+95  .   .   .   .   .   Pc  .   .   .   .   
+96  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:20: boy's score is: 20
+18/01/16_16:37:20: ohboyohboy's score is: 23
+18/01/16_16:37:20: boy just made the following move: [[Pc, 95, 92]]
+
+18/01/16_16:37:20: It is your turn!
+
+18/01/16_16:37:20: Hand: [Rd, Y*, Rx, Yd, Gc, O*]
+
+18/01/16_16:37:20: 
+XXX 87  88  89  90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  .   .   
+94  .   .   .   .   Ps  Px  .   .   .   .   
+95  .   .   .   .   .   Pc  .   .   .   .   
+96  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:20: Hand: [Rd, Y*, Rx, Yd, Gc]
+
+18/01/16_16:37:20: 
+XXX 87  88  89  90  91  92  93  94  95  96  
+89  .   .   .   .   .   . 18/01/16_16:37:20: 
+XXX 87  88  89  90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  .   .   
+94  .   .   .   .   Ps  Px  .   .   .   .   
+95  .   .   .   .   .   Pc  .   .   .   .   
+96  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:20: boy's score is: 20
+18/01/16_16:37:20: ohboyohboy's score18/01/16_16:37:21: 
+XXX 87  88  89  90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  .   .   
+94  .   .   .   .   Ps  Px  .   .   .   .   
+95  .   .   .   .   .   Pc  .   .   .   .   
+96  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:21: boy's score is: 22
+18/01/16_16:37:21: ohboyohboy's score is: 25
+18/01/16_16:37:21: boy just made the following move: [[Go, 90, 94]]
+
+18/01/16_16:37:21: It is your turn!
+
+18/01/16_16:37:21: Hand: [Rd, Y*, Rx, Yd, Gc, B*]
+
+18/01/16_16:37:21: 
+XXX 87  88  89  90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   
+94  .   .   .   .   Ps  Px  .   .   .   .   
+95  .   .   .   .   .   Pc  .   .   .   .   
+96  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:21:18/01/16_16:37:21: ohboyohboy's score is: 25
+18/01/16_16:37:21: Tiles in pool: 76
+
+18/01/16_16:37:21: It is now ohboyohboy's turn.
+
+18/01/16_16:37:21: 
+XXX 87  88  89  90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   
+94  .   .   .   .   Ps  Px  .   .   .   .   
+95  .   .   .   .   .   Pc  .   .   .   .   
+96  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:21: boy's score is: 22
+18/01/16_16:37:21: ohbo18/01/16_16:37:21: 
+XXX 87  88  89  90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   
+94  .   .   .   .   Ps  Px  .   .   Bs  .   
+95  .   .   .   .   .   Pc  .   .   .   .   
+96  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:21: boy's score is: 26
+18/01/16_16:37:21: ohboyohboy's score is: 31
+18/01/16_16:37:21: boy just made the following move: [[Bs, 94, 95]]
+
+18/01/16_16:37:21: It is your turn!
+
+18/01/16_16:37:21: Hand: [Rd, Y*, Rx, Yd, Gc, Gd]
+
+18/01/16_16:37:21: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  Gd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   .   
+94  .   .   .   .   Ps  Px  .   .   Bs  .   .   
+95  .   .   .   .   .   Pc  .   .   .   .   .   
+96  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:21: Hand: [Rd, Y*, Rx, Yd, Gc]
+
+18/01/16_16:37:21: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  
+89  .   .   . 18/01/16_16:37:21: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  Gd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   .   
+94  .   .   .   .   Ps  Px  .   .   Bs  .   .   
+95  .   .   .   .   .   Pc  .   .   .   .   .   
+96  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:21: boy's score is: 26
+18/01/16_16:37:21: ohboyohboy's score is: 3318/01/16_16:37:22: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  Gd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   .   
+94  .   .   .   .   Ps  Px  .   .   Bs  .   .   
+95  .   .   .   .   .   Pc  Ps  .   .   .   .   
+96  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:22: boy's score is: 28
+18/01/16_16:37:22: ohboyohboy's score is: 33
+18/01/16_16:37:22: boy just made the following move: [[Ps, 95, 93]]
+
+18/01/16_16:37:22: It is your turn!
+
+18/01/16_16:37:22: Hand: [Rd, Y*, Rx, Yd, Gc, Yd]
+
+18/01/16_16:37:22: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  Gd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   .   
+94  .   .   Yd  .   Ps  Px  .   .   Bs  .   .   
+95  .   .   .   .   .   Pc  Ps  .   .   .   .   
+96  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:22: Hand: [Rd, Y*, Rx, Yd, Gc]
+
+18/01/16_16:37:22: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   18/01/16_16:37:22: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  Gd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   .   
+94  .   .   Yd  .   Ps  Px  .   .   Bs  .   .   
+95  .   .   .   .   .   Pc  Ps  .   .   .   .   
+96  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:22: boy's score is: 28
+18/01/16_16:37:22: ohboyohboy's18/01/16_16:37:22: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  Gd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   .   
+94  .   .   Yd  .   Ps  Px  .   .   Bs  Bo  .   
+95  .   .   .   .   .   Pc  Ps  .   .   .   .   
+96  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:22: boy's score is: 30
+18/01/16_16:37:22: ohboyohboy's score is: 36
+18/01/16_16:37:22: boy just made the following move: [[Bo, 94, 96]]
+
+18/01/16_16:37:22: It is your turn!
+
+18/01/16_16:37:22: Hand: [Rd, Y*, Rx, Yd, Gc, Rs]
+
+18/01/16_16:37:22: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  Gd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   .   
+94  .   .   Yd  .   Ps  Px  .   .   Bs  Bo  .   
+95  .   .   .   .   .   Pc  Ps  .   .   .   .   
+96  .   .   .   .   .   .   Rs  .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:22: Hand: [Rd, Y*, Rx, Yd, Gc]
+
+18/01/16_16:37:22: 
+XXX 87  88  89  90  91  92  93  94  95  9618/01/16_16:37:22: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  Gd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   .   
+94  .   .   Yd  .   Ps  Px  .   .   Bs  Bo  .   
+95  .   .   .   .   .   Pc  Ps  .   .   .   .   
+96  .   .   .   .   .   .   Rs  .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:22: boy's score is: 30
+18/01/16_16:37:22: ohboyohboy's score is: 38
+18/01/16_16:37:22: o18/01/16_16:37:22: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  Gd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   .   
+94  .   .   Yd  .   Ps  Px  .   .   Bs  Bo  .   
+95  .   .   .   .   .   Pc  Ps  .   .   .   .   
+96  .   .   .   .   .   .   Rs  Ys  .   .   .   
+97  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:22: boy's score is: 32
+18/01/16_16:37:22: ohboyohboy's score is: 38
+18/01/16_16:37:22: boy just made the following move: [[Ys, 96, 94]]
+
+18/01/16_16:37:22: It is your turn!
+
+18/01/16_16:37:22: Hand: [Rd, Y*, Rx, Yd, Gc, Rd]
+
+18/01/16_16:37:22: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   .   .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  Gd  Rd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   .   .   
+94  .   .   Yd  .   Ps  Px  .   .   Bs  Bo  .   .   
+95  .   .   .   .   .   Pc  Ps  .   .   .   .   .   
+96  .   .   .   .   .   .   Rs  Ys  .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:22: Hand: [Rd, Y*, Rx, Yd, Gc]
+
+18/01/16_16:37:22: 
+XXX 87  88  89  18/01/16_16:37:22: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   .   .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  Gd  Rd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   .   .   
+94  .   .   Yd  .   Ps  Px  .   .   Bs  Bo  .   .   
+95  .   .   .   .   .   Pc  Ps  .   .   .   .   .   
+96  .   .   .   .   .   .   Rs  Ys  .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:22: boy's score is: 32
+18/01/16_16:37:22: ohboyohboy's score is: 41
+18/01/16_16:37:22: ohboyohboy just made the fo18/01/16_16:37:22: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   .   .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  Gd  Rd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   .   .   
+94  .   .   Yd  .   Ps  Px  .   .   Bs  Bo  .   .   
+95  .   .   .   .   .   Pc  Ps  .   .   .   .   .   
+96  .   .   .   .   .   .   Rs  Ys  .   .   .   .   
+97  .   .   .   .   .   .   .   Yo  .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:22: boy's score is: 34
+18/01/16_16:37:22: ohboyohboy's score is: 41
+18/01/16_16:37:22: boy just made the following move: [[Yo, 97, 94]]
+
+18/01/16_16:37:22: It is your turn!
+
+18/01/16_16:37:22: Hand: [Rd, Y*, Rx, Yd, Gc, Gs]
+
+18/01/16_16:37:22: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   .   .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  Gd  Rd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   .   .   
+94  .   .   Yd  .   Ps  Px  .   .   Bs  Bo  .   .   
+95  .   .   .   .   .   Pc  Ps  .   .   .   .   .   
+96  .   .   .   .   .   .   Rs  Ys  Gs  .   .   .   
+97  .   .   .   .   .   .   .   Yo  .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:22: Hand: [Rd, Y*, Rx, Yd, Gc]
+
+18/01/16_16:37:22: 
+XXX 87  88  89  90  91  92  9318/01/16_16:37:22: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   .   .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  Gd  Rd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   .   .   
+94  .   .   Yd  .   Ps  Px  .   .   Bs  Bo  .   .   
+95  .   .   .   .   .   Pc  Ps  .   .   .   .   .   
+96  .   .   .   .   .   .   Rs  Ys  Gs  .   .   .   
+97  .   .   .   .   .   .   .   Yo  .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:22: boy's score is: 34
+18/01/16_16:37:22: ohboyohboy's score is: 44
+18/01/16_16:37:22: ohboyohboy ju18/01/16_16:37:22: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   .   .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  Gd  Rd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   .   .   
+94  .   .   Yd  .   Ps  Px  .   .   Bs  Bo  .   .   
+95  .   .   .   .   .   Pc  Ps  .   .   .   .   .   
+96  .   .   .   .   .   .   Rs  Ys  Gs  Os  .   .   
+97  .   .   .   .   .   .   .   Yo  .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:22: boy's score is: 38
+18/01/16_16:37:22: ohboyohboy's score is: 44
+18/01/16_16:37:22: boy just made the following move: [[Os, 96, 96]]
+
+18/01/16_16:37:22: It is your turn!
+
+18/01/16_16:37:22: Hand: [Rd, Y*, Rx, Yd, Gc, Ox]
+
+18/01/16_16:37:22: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   .   .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  Gd  Rd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   .   .   
+94  .   .   Yd  .   Ps  Px  .   .   Bs  Bo  .   .   
+95  .   .   .   .   .   Pc  Ps  .   .   .   .   .   
+96  .   .   .   .   .   .   Rs  Ys  Gs  Os  .   .   
+97  .   .   .   .   .   .   .   Yo  .   Ox  .   .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:22: Hand: [Rd, Y*, Rx, Yd, Gc]
+
+18/01/16_16:37:22: 
+XXX 87  88  89  90  91  92  93  94  95  96  18/01/16_16:37:23: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   .   .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  Gd  Rd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   .   .   
+94  .   .   Yd  .   Ps  Px  .   .   Bs  Bo  .   .   
+95  .   .   .   .   .   Pc  Ps  .   .   .   .   .   
+96  .   .   .   .   .   .   Rs  Ys  Gs  Os  .   .   
+97  .   .   .   .   .   .   .   Yo  .   Ox  .   .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:23: boy's score is: 38
+18/01/16_16:37:23: ohboyohboy's score is: 46
+18/01/16_16:37:23:18/01/16_16:37:23: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   .   .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  Gd  Rd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   .   .   
+94  .   .   Yd  .   Ps  Px  .   .   Bs  Bo  .   .   
+95  .   .   .   .   .   Pc  Ps  .   .   .   .   .   
+96  .   .   .   .   .   .   Rs  Ys  Gs  Os  .   .   
+97  .   .   .   .   .   .   .   Yo  .   Ox  Rx  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:23: boy's score is: 40
+18/01/16_16:37:23: ohboyohboy's score is: 46
+18/01/16_16:37:23: boy just made the following move: [[Rx, 97, 97]]
+
+18/01/16_16:37:23: It is your turn!
+
+18/01/16_16:37:23: Hand: [Rd, Y*, Rx, Yd, Gc, Bc]
+
+18/01/16_16:37:23: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   .   .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  Gd  Rd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   .   .   
+94  .   .   Yd  .   Ps  Px  .   .   Bs  Bo  Bc  .   
+95  .   .   .   .   .   Pc  Ps  .   .   .   .   .   
+96  .   .   .   .   .   .   Rs  Ys  Gs  Os  .   .   
+97  .   .   .   .   .   .   .   Yo  .   Ox  Rx  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:23: Hand: [Rd, Y*, Rx, Yd, Gc]
+
+18/01/16_16:37:23: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  
+89  .18/01/16_16:37:23: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   .   .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  Gd  Rd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   .   .   
+94  .   .   Yd  .   Ps  Px  .   .   Bs  Bo  Bc  .   
+95  .   .   .   .   .   Pc  Ps  .   .   .   .   .   
+96  .   .   .   .   .   .   Rs  Ys  Gs  Os  .   .   
+97  .   .   .   .   .   .   .   Yo  .   Ox  Rx  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:23: boy's score is: 40
+18/01/118/01/16_16:37:23: It is now boy's turn.
+
+18/01/16_16:37:23: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   .   .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  Gd  Rd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   .   .   
+94  .   .   Yd  .   Ps  Px  .   .   Bs  Bo  Bc  .   
+95  .   .   .   .   .   Pc  Ps  .   .   .   .   .   
+96  .   .   .   .   .   .   Rs  Ys  Gs  Os  .   .   
+97  .   .   .   .   .   .   .   Yo  .   Ox  Rx  .   
+98  .   .   .   .   .   .   .   .   .   O*  .   .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:23: boy's score is: 43
+18/01/16_16:37:23: ohboyohboy's score is: 49
+18/01/16_16:37:23: boy just made the following move: [[O*, 98, 96]]
+
+18/01/16_16:37:23: It is your turn!
+
+18/01/16_16:37:23: Hand: [Rd, Y*, Rx, Yd, Gc, Po]
+
+18/01/16_16:37:23: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  
+88  .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Po  .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   .   .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  Gd  Rd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   .   .   
+94  .   .   Yd  .   Ps  Px  .   .   Bs  Bo  Bc  .   
+95  .   .   .   .   .   Pc  Ps  .   .   .   .   .   
+96  .   .   .   .   .   .   Rs  Ys  Gs  Os  .   .   
+97  .   .   .   .   .   .   .   Yo  .   Ox  Rx  .   
+98  .   .   .   .   .   .   .   .   .   O*  .   .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:23: Hand: [Rd, Y*, Rx,18/01/16_16:37:23: It is now ohboyohboy's turn.
+
+18/01/16_16:37:24: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  
+88  .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Po  .   .   .   .   
+90  .   .   .   .   .   Os  .   Go  .   .   .   .   
+91  .   .   .   .   Po  Oo  Go  Ro  Bo  .   .   .   
+92  .   .   Yx  Ox  Px  .   Gc  .   Bd  Gd  Rd  .   
+93  .   Yx  Ys  .   Pd  .   G*  O*  B*  .   .   .   
+94  .   .   Yd  .   Ps  Px  .   .   Bs  Bo  Bc  .   
+95  .   .   .   .   .   Pc  Ps  .   .   .   .   .   
+96  .   .   .   .   .   .   Rs  Ys  Gs  Os  .   .   
+97  .   .   .   .   .   .   .   Yo  .   Ox  Rx  .   
+98  .   .   .   .   .   .   .   .   .   O*  .   .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:37:24: boy's score is: 43
+18/01/16_16:37:24: ohboyohboy's score is: 52
+18/01/16_16:39:04: Tiles in pool: 65
+
+18/01/16_16:39:04: ohboyohboy IS KICKED FOR THE FOLLOWING REASON: Did not make a move in time
+
+ohboyohboy IS KICKED FOR THE FOLLOWING REASON: Did not make a move in time
+
+18/01/16_16:39:04: Tiles in pool: 71
+
+18/01/16_16:39:04: ohboyohboy IS KICKED FOR THE FOLLOWING REASON: lost connection
+
+18/01/16_16:39:04: The winner is... boy!
+18/01/16_16:42:58: ÏOException while reading from socket.

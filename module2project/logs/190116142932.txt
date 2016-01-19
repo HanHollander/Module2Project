@@ -1,0 +1,40 @@
+19/01/16_14:29:32: 
+Checking host... 
+19/01/16_14:29:32: Host accepted.
+19/01/16_14:29:32: Checking port... 
+19/01/16_14:29:32: Port accepted.
+19/01/16_14:29:32: Creating client... 
+19/01/16_14:29:32: Client human created
+19/01/16_14:29:32: Starting client... 
+19/01/16_14:29:32: Client started.
+19/01/16_14:29:32: Sending registration message... 
+19/01/16_14:29:32: HELLO human
+19/01/16_14:29:32: Registration message send.
+19/01/16_14:29:32: Welcome message received.
+
+19/01/16_14:29:32: Waiting for welcome message... 
+19/01/16_14:29:34: Players participating: [Player 1: human, Player 2: bot]
+
+19/01/16_14:29:34: AITime: 99999
+
+19/01/16_14:29:34: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   [37mE[0m   [37mA[0m   [37mD[0m   .   
+92  .   .   .   .   .   
+
+19/01/16_14:29:34: human's score is: 0
+19/01/16_14:29:34: bot's score is: 3
+19/01/16_14:29:34: bot just made the following move: [[Bx, 91, 91], [Bo, 91, 92], [Bc, 91, 93]]
+
+19/01/16_14:29:34: Tiles in pool: 93
+
+19/01/16_14:29:34: It is your turn!
+
+19/01/16_14:29:34: Hand: [[31mA[0m,[32mC[0m,[32mA[0m,[35mB[0m,[33mD[0m,[37mC[0m,]
+
+19/01/16_14:29:34: Type of turn: ANY
+19/01/16_14:29:34: What is your action?
+19/01/16_14:29:39: exceptions.InvalidCommandException: Invalid command. Usage: [SWAP <tile>]
+19/01/16_14:29:39: Type of turn: ANY
+19/01/16_14:29:39: What is your action?

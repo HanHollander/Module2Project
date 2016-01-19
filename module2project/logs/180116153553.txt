@@ -1,0 +1,26 @@
+18/01/16_15:35:53: Welcome in Qwirkle
+18/01/16_15:35:53: (only characters a-z A-Z and 1 to 16 characters long)
+18/01/16_15:35:53: What is your name? 
+
+18/01/16_15:36:02: 
+Server IP-adress: 
+
+18/01/16_15:36:04: 
+Server port: 
+
+18/01/16_15:36:05: 
+Bot: 'b', Human: 'h'
+18/01/16_15:36:06: 
+Checking host... 
+18/01/16_15:36:06: Host accepted.
+18/01/16_15:36:06: Checking port... 
+18/01/16_15:36:06: Port accepted.
+18/01/16_15:36:06: Creating client... 
+18/01/16_15:36:06: Client Han created
+18/01/16_15:36:06: Starting client... 
+18/01/16_15:36:06: Client started.
+18/01/16_15:36:06: Sending registration message... 
+18/01/16_15:36:06: Registration message send.
+18/01/16_15:36:06: Welcome message received.
+
+18/01/16_15:36:06: Waiting for welcome message... 

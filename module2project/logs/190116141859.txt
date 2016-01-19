@@ -1,0 +1,40 @@
+19/01/16_14:18:59: 
+Checking host... 
+19/01/16_14:18:59: Host accepted.
+19/01/16_14:18:59: Checking port... 
+19/01/16_14:18:59: Port accepted.
+19/01/16_14:18:59: Creating client... 
+19/01/16_14:18:59: Client bot created
+19/01/16_14:18:59: Starting client... 
+19/01/16_14:18:59: Client started.
+19/01/16_14:18:59: Sending registration message... 
+19/01/16_14:18:59: HELLO bot
+19/01/16_14:18:59: Registration message send.
+19/01/16_14:18:59: Welcome message received.
+
+19/01/16_14:18:59: Waiting for welcome message... 
+19/01/16_14:19:01: Players participating: [Player 1: bot, Player 2: human]
+
+19/01/16_14:19:01: AITime: 99999
+
+19/01/16_14:19:01: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   [37mF[0m   [32mF[0m   [33mF[0m   .   
+92  .   .   .   .   .   
+
+19/01/16_14:19:01: bot's score is: 3
+19/01/16_14:19:01: human's score is: 0
+19/01/16_14:19:01: Tiles in pool: 93
+
+19/01/16_14:19:01: It is now human's turn.
+
+19/01/16_14:19:18: Tiles in pool: 99
+
+19/01/16_14:19:18: human IS KICKED FOR THE FOLLOWING REASON: lost connection
+
+19/01/16_14:20:41: Tiles in pool: 105
+
+19/01/16_14:20:41: human IS KICKED FOR THE FOLLOWING REASON: Did not make a move in time
+
+19/01/16_14:28:14: ÏOException while reading from socket.

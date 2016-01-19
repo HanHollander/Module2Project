@@ -1,0 +1,51 @@
+18/01/16_19:25:12: 
+Checking host... 
+18/01/16_19:25:12: Host accepted.
+18/01/16_19:25:12: Checking port... 
+18/01/16_19:25:12: Port accepted.
+18/01/16_19:25:12: Creating client... 
+18/01/16_19:25:12: Client human created
+18/01/16_19:25:12: Starting client... 
+18/01/16_19:25:12: Client started.
+18/01/16_19:25:12: Sending registration message... 
+18/01/16_19:25:12: HELLO human
+18/01/16_19:25:12: Registration message send.
+18/01/16_19:25:12: Waiting for welcome message... 
+18/01/16_19:25:12: Welcome message received.
+
+18/01/16_19:25:14: Players participating: [Player 1: human, Player 2: bot]
+
+18/01/16_19:25:14: AITime: 99999
+
+18/01/16_19:25:14: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   Px  Rx  .   
+92  .   .   .   .   
+
+18/01/16_19:25:14: human's score is: 2
+18/01/16_19:25:14: bot's score is: 0
+18/01/16_19:25:14: Tiles in pool: 94
+
+18/01/16_19:25:14: It is now bot's turn.
+
+18/01/16_19:25:14: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Px  Rx  Yx  .   
+92  .   .   .   .   .   
+
+18/01/16_19:25:14: human's score is: 2
+18/01/16_19:25:14: bot's score is: 3
+18/01/16_19:25:14: bot just made the following move: [[Yx, 91, 93]]
+
+18/01/16_19:25:14: It is your turn!
+
+18/01/16_19:25:14: Hand: [Gs, P*, Os, Rx, Po, Pd]
+
+18/01/16_19:25:14: Type of turn: ANY
+18/01/16_19:25:14: What is your action?
+18/01/16_19:25:30: exceptions.InvalidCommandException: Invalid command. Usage: [MOVE <tile> <row> <column>]
+18/01/16_19:25:30: Type of turn: ANY
+18/01/16_19:25:30: What is your action?
+18/01/16_19:25:39: What is your action?

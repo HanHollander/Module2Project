@@ -1,0 +1,64 @@
+19/01/16_15:04:24: 
+Checking host... 
+19/01/16_15:04:24: Host accepted.
+19/01/16_15:04:24: Checking port... 
+19/01/16_15:04:24: Port accepted.
+19/01/16_15:04:24: Creating client... 
+19/01/16_15:04:24: Client bot created
+19/01/16_15:04:24: Starting client... 
+19/01/16_15:04:24: Client started.
+19/01/16_15:04:24: Sending registration message... 
+19/01/16_15:04:24: HELLO bot
+19/01/16_15:04:24: Registration message send.
+19/01/16_15:04:24: Welcome message received.
+
+19/01/16_15:04:24: Players participating: [Player 1: human, Player 2: bot]
+
+19/01/16_15:04:24: Waiting for welcome message... 
+19/01/16_15:04:24: AITime: 99999
+
+19/01/16_15:04:24: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   [36mF[0m   [36mC[0m   [36mA[0m   .   
+92  .   .   .   .   .   
+
+19/01/16_15:04:24: human's score is: 3
+19/01/16_15:04:24: bot's score is: 0
+19/01/16_15:04:24: human just made the following move: [[Y*, 91, 91], [Ys, 91, 92], [Yo, 91, 93]]
+
+19/01/16_15:04:24: Tiles in pool: 93
+
+19/01/16_15:04:24: u[H
+19/01/16_15:04:24: It is your turn!
+
+19/01/16_15:04:24: Hand: [1: [37mA[0m, 2: [33mA[0m, 3: [35mC[0m, 4: [31mF[0m, 5: [37mA[0m, 6: [37mD[0m]
+
+19/01/16_15:04:24: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   [36mF[0m   [36mC[0m   [36mA[0m   .   
+92  .   .   .   [37mA[0m   .   
+93  .   .   .   .   .   
+
+19/01/16_15:04:24: Hand: [1: [37mA[0m, 2: [33mA[0m, 3: [35mC[0m, 4: [31mF[0m, 5: [37mD[0m]
+
+19/01/16_15:04:24: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   [36mF[0m   [36mC[0m   [36mA[0m   .   
+92  .   .   .   [37mA[0m   .   
+93  .   .   .   .   .   
+
+19/01/16_15:04:24: MOVE Bo 92 93 
+19/01/16_15:04:24: human's score is: 3
+19/01/16_15:04:24: bot's score is: 2
+19/01/16_15:04:24: Tiles in pool: 92
+
+19/01/16_15:04:24: It is now human's turn.
+
+19/01/16_15:04:53: Tiles in pool: 98
+
+19/01/16_15:04:53: human IS KICKED FOR THE FOLLOWING REASON: made a invalid turn
+
+19/01/16_15:05:01: ÏOException while reading from socket.

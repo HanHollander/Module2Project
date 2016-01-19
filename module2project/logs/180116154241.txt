@@ -1,0 +1,46 @@
+18/01/16_15:42:41: Welcome in Qwirkle
+18/01/16_15:42:41: (only characters a-z A-Z and 1 to 16 characters long)
+18/01/16_15:42:41: What is your name? 
+
+18/01/16_15:43:00: 
+Server IP-adress: 
+
+18/01/16_15:43:02: 
+Server port: 
+
+18/01/16_15:43:04: 
+Bot: 'b', Human: 'h'
+18/01/16_15:43:05: 
+Checking host... 
+18/01/16_15:43:05: Host accepted.
+18/01/16_15:43:05: Checking port... 
+18/01/16_15:43:05: Port accepted.
+18/01/16_15:43:05: Creating client... 
+18/01/16_15:43:05: Client BOT created
+18/01/16_15:43:05: Starting client... 
+18/01/16_15:43:05: Client started.
+18/01/16_15:43:05: Sending registration message... 
+18/01/16_15:43:05: Registration message send.
+18/01/16_15:43:05: Waiting for welcome message... 
+18/01/16_15:43:05: Welcome message received.
+
+18/01/16_15:43:05: Players participating: [Player 1: Han, Player 2: BOT]
+
+18/01/16_15:43:05: AITime: 99999
+
+18/01/16_15:43:05: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Oc  Os  Oo  .   
+92  .   .   .   .   .   
+
+18/01/16_15:43:05: Han's score is: 3
+18/01/16_15:43:05: BOT's score is: 0
+18/01/16_15:43:05: Han just made the following move: [[Oc, 91, 91], [Os, 91, 92], [Oo, 91, 93]]
+
+18/01/16_15:43:05: Tiles in pool: 93
+
+18/01/16_15:43:05: It is your turn!
+
+18/01/16_15:43:05: Hand: [Go, Gx, B*, Ps, Gd, Bd]
+

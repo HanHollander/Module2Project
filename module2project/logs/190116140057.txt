@@ -1,0 +1,33 @@
+19/01/16_14:00:57: 
+Checking host... 
+19/01/16_14:00:57: Host accepted.
+19/01/16_14:00:57: Checking port... 
+19/01/16_14:00:57: Port accepted.
+19/01/16_14:00:57: Creating client... 
+19/01/16_14:00:57: Client two created
+19/01/16_14:00:57: Starting client... 
+19/01/16_14:00:57: Client started.
+19/01/16_14:00:57: Sending registration message... 
+19/01/16_14:00:57: HELLO two
+19/01/16_14:00:57: Registration message send.
+19/01/16_14:00:57: Waiting for welcome message... 
+19/01/16_14:00:57: Welcome message received.
+
+19/01/16_14:00:57: Players participating: [Player 1: one, Player 2: two]
+
+19/01/16_14:00:57: AITime: 30000
+
+19/01/16_14:00:57: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   [36mC[0m   [32mC[0m   [35mC[0m   .   
+92  .   .   .   .   .   
+
+19/01/16_14:00:57: one's score is: 0
+19/01/16_14:00:57: two's score is: 3
+19/01/16_14:00:57: Tiles in pool: 93
+
+19/01/16_14:00:58: It is now one's turn.
+
+19/01/16_14:00:58: The winner is... two!
+19/01/16_14:01:07: ÏOException while reading from socket.

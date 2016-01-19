@@ -1,0 +1,36 @@
+18/01/16_19:20:42: 
+Checking host... 
+18/01/16_19:20:42: Host accepted.
+18/01/16_19:20:42: Checking port... 
+18/01/16_19:20:42: Port accepted.
+18/01/16_19:20:42: Creating client... 
+18/01/16_19:20:42: Client bot created
+18/01/16_19:20:42: Starting client... 
+18/01/16_19:20:42: Client started.
+18/01/16_19:20:42: Sending registration message... 
+18/01/16_19:20:42: HELLO bot
+18/01/16_19:20:42: Registration message send.
+18/01/16_19:20:42: Waiting for welcome message... 
+18/01/16_19:20:42: Welcome message received.
+
+18/01/16_19:20:42: Players participating: [Player 1: human, Player 2: bot]
+
+18/01/16_19:20:42: AITime: 99999
+
+18/01/16_19:20:42: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Pd  Bd  Od  .   
+92  .   .   .   .   .   
+
+18/01/16_19:20:42: human's score is: 0
+18/01/16_19:20:42: bot's score is: 3
+18/01/16_19:20:42: Tiles in pool: 93
+
+18/01/16_19:20:42: It is now human's turn.
+
+18/01/16_19:22:22: Tiles in pool: 99
+
+18/01/16_19:22:22: human IS KICKED FOR THE FOLLOWING REASON: Did not make a move in time
+
+18/01/16_19:22:22: The winner is... bot!
