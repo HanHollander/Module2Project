@@ -119,9 +119,8 @@ public class HumanPlayer extends Player {
       validInput = validSwapCommand(input);
       if (validInput) {
         command = input.split(" ");
-        String colour = Character.toString(command[1].charAt(0));
-        String shape = Character.toString(command[1].charAt(1));
-        move = new Move(new Tile(colour, shape));
+        Tile tile = getHand().get(Integer.parseInt(command[1]));
+        move = new Move(tile);
       }
     //END command
     } else if (input.startsWith("END")) {
@@ -168,17 +167,24 @@ public class HumanPlayer extends Player {
   public boolean validMoveCommand(String input) throws InvalidCommandException {
     boolean validInput = false;
     String[] command = input.split(" "); 
+    int handIndex = 0;
     if (command.length == 4) { 
       //Command length must be four
       try { 
         //Row and column must be integers
-        int handIndex = Integer.parseInt(command[1]);
+        handIndex = Integer.parseInt(command[1]);
         int row = Integer.parseInt(command[2]);
         int column = Integer.parseInt(command[3]);
       } catch (NumberFormatException e) { 
         //Throw exception if row or column are invalid
         throw new InvalidCommandException(MOVEUSAGE);
       }
+      Tile tile = null;
+      try {
+        tile = getHand().get(handIndex - 1);
+      } catch (IndexOutOfBoundsException e) {
+        throw new InvalidCommandException(MOVEUSAGE);
+      } 
     } else { 
       //Throw exception if command lenght is not four
       throw new InvalidCommandException(MOVEUSAGE);
@@ -195,11 +201,23 @@ public class HumanPlayer extends Player {
    */
   public boolean validSwapCommand(String input) throws InvalidCommandException {
     boolean validInput = false;
+    int tileNr = -1;
     String[] command = input.split(" ");
     if (command.length == 2) { 
       //Command length must be 2.
-      String colour = Character.toString(command[1].charAt(0));
-      String shape = Character.toString(command[1].charAt(1));
+      try {
+        tileNr = Integer.parseInt(command[1]);
+      } catch (NumberFormatException e) {
+        Printer.print(e);
+      }
+      Tile tile = null;
+      try {
+        tile = getHand().get(tileNr - 1);
+      } catch (IndexOutOfBoundsException e) {
+        throw new InvalidCommandException(SWAPUSAGE);
+      }
+      String colour = tile.getColor();
+      String shape = tile.getShape();
       if (COLOURS.contains(colour) && SHAPES.contains(shape)) { 
         //Colour and shape must exist.
         validInput = true;
