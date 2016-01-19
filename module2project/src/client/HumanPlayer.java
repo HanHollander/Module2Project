@@ -119,7 +119,7 @@ public class HumanPlayer extends Player {
       validInput = validSwapCommand(input);
       if (validInput) {
         command = input.split(" ");
-        Tile tile = getHand().get(Integer.parseInt(command[1]));
+        Tile tile = getHand().get(Integer.parseInt(command[1]) - 1);
         move = new Move(tile);
       }
     //END command

@@ -183,7 +183,7 @@ public class Client extends Thread {
       if (playerNumber != game.getPlayer().getPlayerNumber()) {
         game.opponentTurn(moves, game.getPlayerWithNumber(playerNumber));
         if (!(command.length == 3)) {
-          Printer.print(getPlayerName(playerNumber) + " just made the following move: " + moves  + "\n");
+          Printer.print("\n" + getPlayerName(playerNumber) + " just made the following move: " + moves  + "\n");
         }
       } else if (firstTurn) {
         game.opponentTurn(moves, game.getPlayerWithNumber(playerNumber));
@@ -258,7 +258,7 @@ public class Client extends Thread {
         game.setPlayer(player);
       } else if (game.getPlayerType().equals("b")) {
         //If player type is AI, creat a new computer player.
-        Player player = new ComputerPlayer(command[1], playerNumber, new SmartStrategy());
+        Player player = new ComputerPlayer(command[1], playerNumber, new NaiveStrategy());
         game.setPlayer(player);
       }
       Printer.print("Welcome message received." + "\n");

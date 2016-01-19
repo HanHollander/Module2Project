@@ -81,7 +81,9 @@ public class Game {
     while (playerTurn) {
       Printer.print("Hand: " + player.handToString() + "\n");
       makeMove();
-      Printer.print("\n" + board.toString());
+      Printer.print("u\033[2J");
+      Printer.print(board.toString() + "\n");
+      printScores();
     }
     int score = 0;
     if (board.getMoveList().size() != 0) {
@@ -98,6 +100,7 @@ public class Game {
    * @param moves the moves the opponent did.
    */
   public void opponentTurn(List<Move> moves, Player player) {
+    Printer.print("u\033[2J");
     for (Move move : moves) {
       //Place all the moves on the board.
       board.putTile(move);
