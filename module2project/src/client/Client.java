@@ -258,7 +258,7 @@ public class Client extends Thread {
         game.setPlayer(player);
       } else if (game.getPlayerType().equals("b")) {
         //If player type is AI, creat a new computer player.
-        Player player = new ComputerPlayer(command[1], playerNumber, new NaiveStrategy());
+        Player player = new ComputerPlayer(command[1], playerNumber, new SmartStrategy());
         game.setPlayer(player);
       }
       Printer.print("Welcome message received." + "\n");
