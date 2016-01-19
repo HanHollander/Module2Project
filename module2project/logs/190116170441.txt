@@ -1,0 +1,154 @@
+19/01/16_17:04:41: 
+Checking host... 
+19/01/16_17:04:41: Host accepted.
+19/01/16_17:04:41: Checking port... 
+19/01/16_17:04:41: Port accepted.
+19/01/16_17:04:41: Creating client... 
+19/01/16_17:04:41: Client human created
+19/01/16_17:04:41: Starting client... 
+19/01/16_17:04:41: Client started.
+19/01/16_17:04:41: Sending registration message... 
+19/01/16_17:04:41: HELLO human
+19/01/16_17:04:41: Registration message send.
+19/01/16_17:04:41: Welcome message received.
+
+19/01/16_17:04:41: Waiting for welcome message... 
+19/01/16_17:04:42: Players participating: [Player 1: human, Player 2: bot]
+
+19/01/16_17:04:42: AITime: 99999
+
+19/01/16_17:04:42: u[2J
+19/01/16_17:04:42: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   [31mE[0m   [37mE[0m   .   
+92  .   .   .   .   
+
+19/01/16_17:04:42: human's score is: 2
+19/01/16_17:04:42: bot's score is: 0
+19/01/16_17:04:42: Tiles in pool: 94
+
+19/01/16_17:04:42: It is now bot's turn.
+
+19/01/16_17:04:42: u[2J
+19/01/16_17:04:42: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   [31mE[0m   [37mE[0m   .   
+92  .   [31mC[0m   .   .   
+93  .   .   .   .   
+
+19/01/16_17:04:42: human's score is: 2
+19/01/16_17:04:42: bot's score is: 2
+19/01/16_17:04:42: 
+bot just made the following move: [[Rs, 92, 91]]
+
+19/01/16_17:04:42: It is your turn!
+
+19/01/16_17:04:42: Hand: [1: [35mC[0m, 2: [35mC[0m, 3: [31mF[0m, 4: [35mA[0m, 5: [31mE[0m, 6: [36mF[0m]
+
+19/01/16_17:04:42: Type of turn: ANY
+19/01/16_17:04:42: What is your action?
+19/01/16_17:04:50: u[2J
+19/01/16_17:04:50: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   [31mE[0m   [37mE[0m   .   
+92  .   [31mC[0m   .   .   
+93  .   .   .   .   
+
+19/01/16_17:04:50: Hand: [1: [35mC[0m, 2: [31mF[0m, 3: [35mA[0m, 4: [31mE[0m, 5: [36mF[0m]
+
+19/01/16_17:04:50: Type of turn: SWAP
+19/01/16_17:04:50: What is your action?
+19/01/16_17:04:52: u[2J
+19/01/16_17:04:52: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   [31mE[0m   [37mE[0m   .   
+92  .   [31mC[0m   .   .   
+93  .   .   .   .   
+
+19/01/16_17:04:52: SWAP Ps 
+19/01/16_17:04:52: human's score is: 2
+19/01/16_17:04:52: bot's score is: 2
+19/01/16_17:04:52: Tiles in pool: 93
+
+19/01/16_17:04:52: human swapped.
+
+19/01/16_17:04:52: It is now bot's turn.
+
+19/01/16_17:04:52: u[2J
+19/01/16_17:04:52: 
+XXX 90  91  92  93  
+89  .   .   .   .   
+90  .   .   [37mF[0m   .   
+91  .   [31mE[0m   [37mE[0m   .   
+92  .   [31mC[0m   .   .   
+93  .   .   .   .   
+
+19/01/16_17:04:52: human's score is: 2
+19/01/16_17:04:52: bot's score is: 4
+19/01/16_17:04:52: 
+bot just made the following move: [[B*, 90, 92]]
+
+19/01/16_17:04:52: It is your turn!
+
+19/01/16_17:04:53: Hand: [1: [35mC[0m, 2: [31mF[0m, 3: [35mA[0m, 4: [31mE[0m, 5: [36mF[0m, 6: [32mD[0m]
+
+19/01/16_17:04:53: Type of turn: ANY
+19/01/16_17:04:53: What is your action?
+19/01/16_17:05:04: exceptions.InvalidCommandException: Invalid command. Usage: [SWAP <tile>]
+19/01/16_17:05:04: Type of turn: ANY
+19/01/16_17:05:04: What is your action?
+19/01/16_17:05:08: u[2J
+19/01/16_17:05:08: 
+XXX 90  91  92  93  
+89  .   .   .   .   
+90  .   .   [37mF[0m   .   
+91  .   [31mE[0m   [37mE[0m   .   
+92  .   [31mC[0m   .   .   
+93  .   .   .   .   
+
+19/01/16_17:05:09: Hand: [1: [35mC[0m, 2: [31mF[0m, 3: [35mA[0m, 4: [31mE[0m, 5: [36mF[0m]
+
+19/01/16_17:05:09: Type of turn: SWAP
+19/01/16_17:05:09: What is your action?
+19/01/16_17:05:13: u[2J
+19/01/16_17:05:13: 
+XXX 90  91  92  93  
+89  .   .   .   .   
+90  .   .   [37mF[0m   .   
+91  .   [31mE[0m   [37mE[0m   .   
+92  .   [31mC[0m   .   .   
+93  .   .   .   .   
+
+19/01/16_17:05:13: SWAP Gc 
+19/01/16_17:05:13: human's score is: 2
+19/01/16_17:05:13: bot's score is: 4
+19/01/16_17:05:13: Tiles in pool: 92
+
+19/01/16_17:05:13: human swapped.
+
+19/01/16_17:05:13: It is now bot's turn.
+
+19/01/16_17:05:14: u[2J
+19/01/16_17:05:14: 
+XXX 90  91  92  93  94  
+89  .   .   .   .   .   
+90  .   .   [37mF[0m   [37mD[0m   .   
+91  .   [31mE[0m   [37mE[0m   .   .   
+92  .   [31mC[0m   .   .   .   
+93  .   .   .   .   .   
+
+19/01/16_17:05:14: human's score is: 2
+19/01/16_17:05:14: bot's score is: 6
+19/01/16_17:05:14: 
+bot just made the following move: [[Bc, 90, 93]]
+
+19/01/16_17:05:14: It is your turn!
+
+19/01/16_17:05:14: Hand: [1: [35mC[0m, 2: [31mF[0m, 3: [35mA[0m, 4: [31mE[0m, 5: [36mF[0m, 6: [33mF[0m]
+
+19/01/16_17:05:14: Type of turn: ANY
+19/01/16_17:05:14: What is your action?

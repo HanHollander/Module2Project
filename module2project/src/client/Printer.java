@@ -10,13 +10,19 @@ import java.util.Date;
 
 public class Printer {
   
-  public static final String PATH = "src\\client\\";
+  public static final String PATH = "E:" + File.separator + "LocalGit" 
+      + File.separator + "Module2Project" + File.separator + "module2project" 
+      + File.separator + "logs" + File.separator;
   public static final BufferedWriter logger = createWriter();
   public static File file;
  
+  /**
+   * Creates a static bufferedwriter.
+   * @return a writer
+   */
   public static BufferedWriter createWriter() {
     String fileName = Qwirkle.getFileName();
-    file = new File(fileName + ".txt");
+    file = new File(PATH + fileName + ".txt");
     if (!file.exists()) {
       try {
         file.createNewFile();

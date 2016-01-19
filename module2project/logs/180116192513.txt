@@ -1,0 +1,57 @@
+18/01/16_19:25:13: 
+Checking host... 
+18/01/16_19:25:13: Host accepted.
+18/01/16_19:25:13: Checking port... 
+18/01/16_19:25:13: Port accepted.
+18/01/16_19:25:13: Creating client... 
+18/01/16_19:25:14: Client bot created
+18/01/16_19:25:14: Starting client... 
+18/01/16_19:25:14: Client started.
+18/01/16_19:25:14: Sending registration message... 
+18/01/16_19:25:14: HELLO bot
+18/01/16_19:25:14: Registration message send.
+18/01/16_19:25:14: Waiting for welcome message... 
+18/01/16_19:25:14: Welcome message received.
+
+18/01/16_19:25:14: Players participating: [Player 1: human, Player 2: bot]
+
+18/01/16_19:25:14: AITime: 99999
+
+18/01/16_19:25:14: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   Px  Rx  .   
+92  .   .   .   .   
+
+18/01/16_19:25:14: human's score is: 2
+18/01/16_19:25:14: bot's score is: 0
+18/01/16_19:25:14: human just made the following move: [[Px, 91, 91], [Rx, 91, 92]]
+
+18/01/16_19:25:14: Tiles in pool: 94
+
+18/01/16_19:25:14: It is your turn!
+
+18/01/16_19:25:14: Hand: [O*, Pd, Ox, Rs, Ys, Yx]
+
+18/01/16_19:25:14: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Px  Rx  Yx  .   
+92  .   .   .   .   .   
+
+18/01/16_19:25:14: Hand: [O*, Pd, Ox, Rs, Ys]
+
+18/01/16_19:25:14: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Px  Rx  Yx  .   
+92  .   .   .   .   .   
+
+18/01/16_19:25:14: MOVE Yx 91 93 
+18/01/16_19:25:14: human's score is: 2
+18/01/16_19:25:14: bot's score is: 3
+18/01/16_19:25:14: Tiles in pool: 93
+
+18/01/16_19:25:14: It is now human's turn.
+
+18/01/16_19:25:50: ÏOException while reading from socket.

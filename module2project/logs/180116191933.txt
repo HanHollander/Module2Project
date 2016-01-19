@@ -1,0 +1,60 @@
+18/01/16_19:19:33: Welcome in Qwirkle
+18/01/16_19:19:33: (only characters a-z A-Z and 1 to 16 characters long)
+18/01/16_19:19:33: What is your name? 
+
+18/01/16_19:19:35: 
+Server IP-adress: 
+
+18/01/16_19:19:37: 
+Server port: 
+
+18/01/16_19:19:38: 
+Bot: 'b', Human: 'h'
+18/01/16_19:19:39: 
+Checking host... 
+18/01/16_19:19:39: Host accepted.
+18/01/16_19:19:39: Checking port... 
+18/01/16_19:19:39: Port accepted.
+18/01/16_19:19:39: Creating client... 
+18/01/16_19:19:39: Client han created
+18/01/16_19:19:39: Starting client... 
+18/01/16_19:19:39: Client started.
+18/01/16_19:19:39: Sending registration message... 
+18/01/16_19:19:39: HELLO han
+18/01/16_19:19:39: Registration message send.
+18/01/16_19:19:39: Welcome message received.
+
+18/01/16_19:19:39: Waiting for welcome message... 
+18/01/16_19:19:39: Players participating: [Player 1: bot, Player 2: han]
+
+18/01/16_19:19:39: AITime: 99999
+
+18/01/16_19:19:39: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Gx  Gs  Gd  .   
+92  .   .   .   .   .   
+
+18/01/16_19:19:39: bot's score is: 0
+18/01/16_19:19:39: han's score is: 3
+18/01/16_19:19:39: Tiles in pool: 93
+
+18/01/16_19:19:39: It is now bot's turn.
+
+18/01/16_19:19:39: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Gx  Gs  Gd  .   
+92  .   .   .   Bd  .   
+93  .   .   .   .   .   
+
+18/01/16_19:19:39: bot's score is: 2
+18/01/16_19:19:39: han's score is: 3
+18/01/16_19:19:39: bot just made the following move: [[Bd, 92, 93]]
+
+18/01/16_19:19:39: It is your turn!
+
+18/01/16_19:19:39: Hand: [Os, Bd, Bx, Od, Pc, Gc]
+
+18/01/16_19:19:39: Type of turn: ANY
+18/01/16_19:19:39: What is your action?

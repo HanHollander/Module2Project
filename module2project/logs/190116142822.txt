@@ -1,0 +1,51 @@
+19/01/16_14:28:22: 
+Checking host... 
+19/01/16_14:28:22: Host accepted.
+19/01/16_14:28:22: Checking port... 
+19/01/16_14:28:22: Port accepted.
+19/01/16_14:28:22: Creating client... 
+19/01/16_14:28:22: Client human created
+19/01/16_14:28:22: Starting client... 
+19/01/16_14:28:22: Client started.
+19/01/16_14:28:22: Sending registration message... 
+19/01/16_14:28:22: HELLO human
+19/01/16_14:28:22: Registration message send.
+19/01/16_14:28:22: Waiting for welcome message... 
+19/01/16_14:28:22: Welcome message received.
+
+19/01/16_14:28:29: Players participating: [Player 1: human, Player 2: bot]
+
+19/01/16_14:28:29: AITime: 99999
+
+19/01/16_14:28:29: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   [36mA[0m   [36mF[0m   .   
+92  .   .   .   .   
+
+19/01/16_14:28:29: human's score is: 2
+19/01/16_14:28:29: bot's score is: 0
+19/01/16_14:28:29: Tiles in pool: 94
+
+19/01/16_14:28:29: It is now bot's turn.
+
+19/01/16_14:28:30: 
+XXX 89  90  91  92  93  
+90  .   .   .   .   .   
+91  .   .   [36mA[0m   [36mF[0m   .   
+92  .   [33mD[0m   [33mA[0m   .   .   
+93  .   .   .   .   .   
+
+19/01/16_14:28:30: human's score is: 2
+19/01/16_14:28:30: bot's score is: 4
+19/01/16_14:28:30: bot just made the following move: [[Oo, 92, 91], [Oc, 92, 90]]
+
+19/01/16_14:28:30: It is your turn!
+
+19/01/16_14:28:30: Hand: [[36mA[0m,[32mE[0m,[32mD[0m,[33mE[0m,[33mC[0m,[36mE[0m,]
+
+19/01/16_14:28:30: Type of turn: ANY
+19/01/16_14:28:30: What is your action?
+19/01/16_14:28:52: exceptions.InvalidCommandException: Invalid command. Usage: [MOVE <tileNr> <row> <column>]
+19/01/16_14:28:52: Type of turn: ANY
+19/01/16_14:28:52: What is your action?

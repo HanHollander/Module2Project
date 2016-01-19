@@ -1,0 +1,10 @@
+18/01/16_16:52:50: Welcome in Qwirkle
+18/01/16_16:52:50: (only characters a-z A-Z and 1 to 16 characters long)
+18/01/16_16:52:50: What is your name? 
+
+18/01/16_16:53:00: 
+Server IP-adress: 
+
+18/01/16_16:53:02: 
+Server port: 
+

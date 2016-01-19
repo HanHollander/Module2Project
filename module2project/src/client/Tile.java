@@ -9,7 +9,7 @@ public class Tile {
   public static final String ANSI_RED = "\u001B[31m";   //R
   public static final String ANSI_GREEN = "\u001B[32m"; //G
   public static final String ANSI_YELLOW = "\u001B[33m";  //Y
-  public static final String ANSI_BLUE = "\u001B[34m"; //B
+  public static final String ANSI_WHITE = "\u001B[37m"; //B
   public static final String ANSI_PURPLE = "\u001B[35m"; //P
   public static final String ANSI_CYAN = "\u001B[36m"; //O
   
@@ -60,7 +60,7 @@ public class Tile {
     String result = "";
     if (color.equals("R")) {result = ANSI_RED + letter + ANSI_RESET;}
     else if (color.equals("G")) {result = ANSI_GREEN + letter + ANSI_RESET;}
-    else if (color.equals("B")) {result = ANSI_BLUE + letter + ANSI_RESET;}
+    else if (color.equals("B")) {result = ANSI_WHITE + letter + ANSI_RESET;}
     else if (color.equals("P")) {result = ANSI_PURPLE + letter + ANSI_RESET;}
     else if (color.equals("Y")) {result = ANSI_CYAN + letter + ANSI_RESET;}
     else if (color.equals("O")) {result = ANSI_YELLOW + letter + ANSI_RESET;}

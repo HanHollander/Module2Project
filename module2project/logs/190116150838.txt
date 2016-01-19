@@ -1,0 +1,62 @@
+19/01/16_15:08:38: 
+Checking host... 
+19/01/16_15:08:38: Host accepted.
+19/01/16_15:08:38: Checking port... 
+19/01/16_15:08:38: Port accepted.
+19/01/16_15:08:38: Creating client... 
+19/01/16_15:08:38: Client bot created
+19/01/16_15:08:38: Starting client... 
+19/01/16_15:08:38: Client started.
+19/01/16_15:08:38: Sending registration message... 
+19/01/16_15:08:38: HELLO bot
+19/01/16_15:08:38: Registration message send.
+19/01/16_15:08:38: Welcome message received.
+
+19/01/16_15:08:38: Waiting for welcome message... 
+19/01/16_15:08:38: Players participating: [Player 1: human, Player 2: bot]
+
+19/01/16_15:08:38: AITime: 99999
+
+19/01/16_15:08:38: u[2J
+19/01/16_15:08:38: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   [32mE[0m   [37mE[0m   [35mE[0m   [33mE[0m   .   
+92  .   .   .   .   .   .   
+
+19/01/16_15:08:38: human's score is: 4
+19/01/16_15:08:38: bot's score is: 0
+19/01/16_15:08:38: human just made the following move: [[Gx, 91, 91], [Bx, 91, 92], [Px, 91, 93], [Ox, 91, 94]]
+
+19/01/16_15:08:38: Tiles in pool: 92
+
+19/01/16_15:08:38: u[2J
+19/01/16_15:08:38: It is your turn!
+
+19/01/16_15:08:38: u[2J
+19/01/16_15:08:38: Hand: [1: [32mD[0m, 2: [31mE[0m, 3: [35mA[0m, 4: [36mE[0m, 5: [31mF[0m, 6: [33mB[0m]
+
+19/01/16_15:08:38: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   [32mE[0m   [37mE[0m   [35mE[0m   [33mE[0m   .   
+92  .   .   .   .   [33mB[0m   .   
+93  .   .   .   .   .   .   
+
+19/01/16_15:08:38: u[2J
+19/01/16_15:08:38: Hand: [1: [32mD[0m, 2: [31mE[0m, 3: [35mA[0m, 4: [36mE[0m, 5: [31mF[0m]
+
+19/01/16_15:08:38: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   [32mE[0m   [37mE[0m   [35mE[0m   [33mE[0m   .   
+92  .   .   .   .   [33mB[0m   .   
+93  .   .   .   .   .   .   
+
+19/01/16_15:08:38: MOVE Od 92 94 
+19/01/16_15:08:39: human's score is: 4
+19/01/16_15:08:39: bot's score is: 2
+19/01/16_15:08:39: Tiles in pool: 91
+
+19/01/16_15:08:39: It is now human's turn.
+

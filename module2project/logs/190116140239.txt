@@ -1,0 +1,35 @@
+19/01/16_14:02:39: 
+Checking host... 
+19/01/16_14:02:39: Host accepted.
+19/01/16_14:02:39: Checking port... 
+19/01/16_14:02:39: Port accepted.
+19/01/16_14:02:39: Creating client... 
+19/01/16_14:02:39: Client two created
+19/01/16_14:02:39: Starting client... 
+19/01/16_14:02:39: Client started.
+19/01/16_14:02:39: Sending registration message... 
+19/01/16_14:02:39: HELLO two
+19/01/16_14:02:39: Registration message send.
+19/01/16_14:02:39: Waiting for welcome message... 
+19/01/16_14:02:39: Welcome message received.
+
+19/01/16_14:02:39: Players participating: [Player 1: one, Player 2: two]
+
+19/01/16_14:02:39: AITime: 30000
+
+19/01/16_14:02:39: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   [37mF[0m   [36mF[0m   .   
+92  .   .   .   .   
+
+19/01/16_14:02:39: one's score is: 2
+19/01/16_14:02:39: two's score is: 0
+19/01/16_14:02:39: one just made the following move: [[B*, 91, 91], [Y*, 91, 92]]
+
+19/01/16_14:02:39: Tiles in pool: 94
+
+19/01/16_14:02:39: It is your turn!
+
+19/01/16_14:02:39: Hand: [[31mC[0m,[33mE[0m,[36mF[0m,[31mD[0m,[37mD[0m,[36mE[0m,]
+

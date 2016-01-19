@@ -1,0 +1,3115 @@
+18/01/16_16:43:25: Welcome in Qwirkle
+18/01/16_16:43:25: (only characters a-z A-Z and 1 to 16 characters long)
+18/01/16_16:43:25: What is your name? 
+
+18/01/16_16:43:52: 
+Server IP-adress: 
+
+18/01/16_16:43:53: 
+Server port: 
+
+18/01/16_16:43:56: 
+Bot: 'b', Human: 'h'
+18/01/16_16:44:00: 
+Checking host... 
+18/01/16_16:44:00: Host accepted.
+18/01/16_16:44:00: Checking port... 
+18/01/16_16:44:00: Port accepted.
+18/01/16_16:44:00: Creating client... 
+18/01/16_16:44:00: Client ohboyohboyohboy created
+18/01/16_16:44:00: Starting client... 
+18/01/16_16:44:00: Client started.
+18/01/16_16:44:00: Sending registration message... 
+18/01/16_16:44:00: Registration message send.
+18/01/16_16:44:00: Waiting for welcome message... 
+18/01/16_16:44:00: Welcome message received.
+
+18/01/16_16:44:00: Players participating: [Player 1: bot, Player 2: ohboyohboyohboy]
+
+18/01/16_16:44:00: AITime: 99999
+
+18/01/16_16:44:00: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   Rd  Gd  .   
+92  .   .   .   .   
+
+18/01/16_16:44:00: bot's score is: 2
+18/01/16_16:44:00: ohboyohboyohboy's score is: 0
+18/01/16_16:44:00: bot just made the following move: [[Rd, 91, 91], [Gd, 91, 92]]
+
+18/01/16_16:44:00: Tiles in pool: 94
+
+18/01/16_16:44:00: It is your turn!
+
+18/01/16_16:44:00: Hand: [Pc, Ys, Bd, G*, Yo, Od]
+
+18/01/16_16:44:01: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Rd  Gd  Od  .   
+92  .   .   .   .   .   
+
+18/01/16_16:44:01: Hand: [Pc, Ys, Bd, G*, Yo]
+
+18/01/16_16:44:01: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Rd  Gd  Od  .   
+92  .   .   .   .   .   
+
+18/01/16_16:44:01: bot's score is: 2
+18/01/16_16:44:01: ohboyohboyohboy's score is: 3
+18/01/16_16:44:01: Tiles in pool: 93
+
+18/01/16_16:44:01: It is now bot's turn.
+
+18/01/16_16:44:01: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Rd  Gd  Od  .   
+92  .   .   .   Oo  .   
+93  .   .   .   .   .   
+
+18/01/16_16:44:01: bot's score is: 4
+18/01/16_16:44:01: ohboyohboyohboy's score is: 3
+18/01/16_16:44:01: bot just made the following move: [[Oo, 92, 93]]
+
+18/01/16_16:44:01: It is your turn!
+
+18/01/16_16:44:01: Hand: [Pc, Ys, Bd, G*, Yo, Oo]
+
+18/01/16_16:44:01: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   Rd  Gd  Od  .   .   
+92  .   .   .   Oo  Yo  .   
+93  .   .   .   .   .   .   
+
+18/01/16_16:44:01: Hand: [Pc, Ys, Bd, G*, Oo]
+
+18/01/16_16:44:01: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   Rd  Gd  Od  .   .   
+92  .   .   .   Oo  Yo  .   
+93  .   .   .   .   .   .   
+
+18/01/16_16:44:01: bot's score is: 4
+18/01/16_16:44:01: ohboyohboyohboy's score is: 5
+18/01/16_16:44:01: Tiles in pool: 91
+
+18/01/16_16:44:01: It is now bot's turn.
+
+18/01/16_16:44:01: 
+XXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+91  .   Rd  Gd  Od  .   .   .   
+92  .   .   .   Oo  Yo  Po  .   
+93  .   .   .   .   .   .   .   
+
+18/01/16_16:44:01: bot's score is: 7
+18/01/16_16:44:01: ohboyohboyohboy's score is: 5
+18/01/16_16:44:01: bot just made the following move: [[Po, 92, 95]]
+
+18/01/16_16:44:01: It is your turn!
+
+18/01/16_16:44:01: Hand: [Pc, Ys, Bd, G*, Oo, Yd]
+
+18/01/16_16:44:01: 
+XXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+91  .   Rd  Gd  Od  .   .   .   
+92  .   .   .   Oo  Yo  Po  .   
+93  .   .   .   .   Yd  .   .   
+94  .   .   .   .   .   .   .   
+
+18/01/16_16:44:01: Hand: [Pc, Ys, Bd, G*, Oo]
+
+18/01/16_16:44:01: 
+XXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+91  .   Rd  Gd  Od  .   .   .   
+92  .   .   .   Oo  Yo  Po  .   
+93  .   .   .   .   Yd  .   .   
+94  .   .   .   .   .   .   .   
+
+18/01/16_16:44:01: bot's score is: 7
+18/01/16_16:44:01: ohboyohboyohboy's score is: 7
+18/01/16_16:44:01: Tiles in pool: 89
+
+18/01/16_16:44:02: It is now bot's turn.
+
+18/01/16_16:44:02: 
+XXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+91  .   Rd  Gd  Od  .   .   .   
+92  .   .   .   Oo  Yo  Po  .   
+93  .   .   .   .   Yd  .   .   
+94  .   .   .   .   Y*  .   .   
+95  .   .   .   .   .   .   .   
+
+18/01/16_16:44:02: bot's score is: 10
+18/01/16_16:44:02: ohboyohboyohboy's score is: 7
+18/01/16_16:44:02: bot just made the following move: [[Y*, 94, 94]]
+
+18/01/16_16:44:02: It is your turn!
+
+18/01/16_16:44:02: Hand: [Pc, Ys, Bd, G*, Oo, Ps]
+
+18/01/16_16:44:02: 
+XXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+91  .   Rd  Gd  Od  .   Ps  .   
+92  .   .   .   Oo  Yo  Po  .   
+93  .   .   .   .   Yd  .   .   
+94  .   .   .   .   Y*  .   .   
+95  .   .   .   .   .   .   .   
+
+18/01/16_16:44:02: Hand: [Pc, Ys, Bd, G*, Oo]
+
+18/01/16_16:44:02: 
+XXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+91  .   Rd  Gd  Od  .   Ps  .   
+92  .   .   .   Oo  Yo  Po  .   
+93  .   .   .   .   Yd  .   .   
+94  .   .   .   .   Y*  .   .   
+95  .   .   .   .   .   .   .   
+
+18/01/16_16:44:02: bot's score is: 10
+18/01/16_16:44:02: ohboyohboyohboy's score is: 9
+18/01/16_16:44:02: Tiles in pool: 87
+
+18/01/16_16:44:02: It is now bot's turn.
+
+18/01/16_16:44:02: 
+XXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+91  .   Rd  Gd  Od  .   Ps  .   
+92  .   .   .   Oo  Yo  Po  .   
+93  .   .   .   .   Yd  Pd  .   
+94  .   .   .   .   Y*  .   .   
+95  .   .   .   .   .   .   .   
+
+18/01/16_16:44:02: bot's score is: 15
+18/01/16_16:44:02: ohboyohboyohboy's score is: 9
+18/01/16_16:44:02: bot just made the following move: [[Pd, 93, 95]]
+
+18/01/16_16:44:02: It is your turn!
+
+18/01/16_16:44:02: Hand: [Pc, Ys, Bd, G*, Oo, Y*]
+
+18/01/16_16:44:02: 
+XXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+91  .   Rd  Gd  Od  .   Ps  .   
+92  .   .   .   Oo  Yo  Po  .   
+93  .   .   .   .   Yd  Pd  .   
+94  .   .   .   G*  Y*  .   .   
+95  .   .   .   .   .   .   .   
+
+18/01/16_16:44:02: Hand: [Pc, Ys, Bd, Oo, Y*]
+
+18/01/16_16:44:02: 
+XXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+91  .   Rd  Gd  Od  .   Ps  .   
+92  .   .   .   Oo  Yo  Po  .   
+93  .   .   .   .   Yd  Pd  .   
+94  .   .   .   G*  Y*  .   .   
+95  .   .   .   .   .   .   .   
+
+18/01/16_16:44:02: bot's score is: 15
+18/01/16_16:44:02: ohboyohboyohboy's score is: 11
+18/01/16_16:44:02: Tiles in pool: 85
+
+18/01/16_16:44:02: It is now bot's turn.
+
+18/01/16_16:44:03: 
+XXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+91  .   Rd  Gd  Od  .   Ps  .   
+92  .   .   .   Oo  Yo  Po  .   
+93  .   .   .   .   Yd  Pd  .   
+94  .   .   .   G*  Y*  .   .   
+95  .   .   .   Gx  .   .   .   
+96  .   .   .   .   .   .   .   
+
+18/01/16_16:44:03: bot's score is: 17
+18/01/16_16:44:03: ohboyohboyohboy's score is: 11
+18/01/16_16:44:03: bot just made the following move: [[Gx, 95, 93]]
+
+18/01/16_16:44:03: It is your turn!
+
+18/01/16_16:44:03: Hand: [Pc, Ys, Bd, Oo, Y*, Bc]
+
+18/01/16_16:44:03: 
+XXX 90  91  92  93  94  95  96  97  
+90  .   .   .   .   .   .   .   .   
+91  .   Rd  Gd  Od  .   Ps  .   .   
+92  .   .   .   Oo  Yo  Po  .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   
+94  .   .   .   G*  Y*  .   .   .   
+95  .   .   .   Gx  .   .   .   .   
+96  .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:03: Hand: [Pc, Ys, Oo, Y*, Bc]
+
+18/01/16_16:44:03: 
+XXX 90  91  92  93  94  95  96  97  
+90  .   .   .   .   .   .   .   .   
+91  .   Rd  Gd  Od  .   Ps  .   .   
+92  .   .   .   Oo  Yo  Po  .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   
+94  .   .   .   G*  Y*  .   .   .   
+95  .   .   .   Gx  .   .   .   .   
+96  .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:03: bot's score is: 17
+18/01/16_16:44:03: ohboyohboyohboy's score is: 14
+18/01/16_16:44:03: Tiles in pool: 83
+
+18/01/16_16:44:03: It is now bot's turn.
+
+18/01/16_16:44:03: 
+XXX 90  91  92  93  94  95  96  97  
+90  .   .   .   .   .   .   .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  .   
+92  .   .   .   Oo  Yo  Po  .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   
+94  .   .   .   G*  Y*  .   .   .   
+95  .   .   .   Gx  .   .   .   .   
+96  .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:03: bot's score is: 19
+18/01/16_16:44:03: ohboyohboyohboy's score is: 14
+18/01/16_16:44:03: bot just made the following move: [[Po, 91, 96]]
+
+18/01/16_16:44:03: It is your turn!
+
+18/01/16_16:44:03: Hand: [Pc, Ys, Oo, Y*, Bc, Bo]
+
+18/01/16_16:44:03: 
+XXX 90  91  92  93  94  95  96  97  
+90  .   .   .   .   .   .   .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  .   
+92  .   .   .   Oo  Yo  Po  .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   
+94  .   .   .   G*  Y*  .   Bo  .   
+95  .   .   .   Gx  .   .   .   .   
+96  .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:03: Hand: [Pc, Ys, Oo, Y*, Bc]
+
+18/01/16_16:44:03: 
+XXX 90  91  92  93  94  95  96  97  
+90  .   .   .   .   .   .   .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  .   
+92  .   .   .   Oo  Yo  Po  .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   
+94  .   .   .   G*  Y*  .   Bo  .   
+95  .   .   .   Gx  .   .   .   .   
+96  .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:03: bot's score is: 19
+18/01/16_16:44:03: ohboyohboyohboy's score is: 16
+18/01/16_16:44:03: Tiles in pool: 81
+
+18/01/16_16:44:03: It is now bot's turn.
+
+18/01/16_16:44:03: 
+XXX 90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Ps  .   
+91  .   Rd  Gd  Od  .   Ps  Po  .   
+92  .   .   .   Oo  Yo  Po  .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   
+94  .   .   .   G*  Y*  .   Bo  .   
+95  .   .   .   Gx  .   .   .   .   
+96  .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:03: bot's score is: 21
+18/01/16_16:44:03: ohboyohboyohboy's score is: 16
+18/01/16_16:44:03: bot just made the following move: [[Ps, 90, 96]]
+
+18/01/16_16:44:03: It is your turn!
+
+18/01/16_16:44:03: Hand: [Pc, Ys, Oo, Y*, Bc, Ro]
+
+18/01/16_16:44:03: 
+XXX 90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Ps  .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  .   .   
+92  .   .   .   Oo  Yo  Po  .   .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   .   
+94  .   .   .   G*  Y*  .   Bo  Ro  .   
+95  .   .   .   Gx  .   .   .   .   .   
+96  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:03: Hand: [Pc, Ys, Oo, Y*, Bc]
+
+18/01/16_16:44:03: 
+XXX 90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Ps  .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  .   .   
+92  .   .   .   Oo  Yo  Po  .   .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   .   
+94  .   .   .   G*  Y*  .   Bo  Ro  .   
+95  .   .   .   Gx  .   .   .   .   .   
+96  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:03: bot's score is: 21
+18/01/16_16:44:03: ohboyohboyohboy's score is: 18
+18/01/16_16:44:03: Tiles in pool: 79
+
+18/01/16_16:44:03: It is now bot's turn.
+
+18/01/16_16:44:03: 
+XXX 90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Ps  .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  .   .   
+92  .   .   .   Oo  Yo  Po  .   .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   .   
+94  .   .   .   G*  Y*  .   Bo  Ro  .   
+95  .   .   G*  Gx  .   .   .   .   .   
+96  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:03: bot's score is: 23
+18/01/16_16:44:03: ohboyohboyohboy's score is: 18
+18/01/16_16:44:03: bot just made the following move: [[G*, 95, 92]]
+
+18/01/16_16:44:03: It is your turn!
+
+18/01/16_16:44:03: Hand: [Pc, Ys, Oo, Y*, Bc, Gc]
+
+18/01/16_16:44:03: 
+XXX 90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Ps  .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  .   .   
+92  .   .   .   Oo  Yo  Po  .   .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   .   
+94  .   .   .   G*  Y*  .   Bo  Ro  .   
+95  .   .   G*  Gx  .   .   .   .   .   
+96  .   .   .   Gc  .   .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:03: Hand: [Pc, Ys, Oo, Y*, Bc]
+
+18/01/16_16:44:03: 
+XXX 90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Ps  .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  .   .   
+92  .   .   .   Oo  Yo  Po  .   .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   .   
+94  .   .   .   G*  Y*  .   Bo  Ro  .   
+95  .   .   G*  Gx  .   .   .   .   .   
+96  .   .   .   Gc  .   .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:03: bot's score is: 23
+18/01/16_16:44:03: ohboyohboyohboy's score is: 21
+18/01/16_16:44:03: Tiles in pool: 77
+
+18/01/16_16:44:03: It is now bot's turn.
+
+18/01/16_16:44:04: 
+XXX 90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Ps  .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  .   .   
+92  .   .   .   Oo  Yo  Po  .   .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   .   
+94  .   .   .   G*  Y*  .   Bo  Ro  .   
+95  .   .   G*  Gx  .   .   .   .   .   
+96  .   .   .   Gc  Rc  .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:04: bot's score is: 25
+18/01/16_16:44:04: ohboyohboyohboy's score is: 21
+18/01/16_16:44:04: bot just made the following move: [[Rc, 96, 94]]
+
+18/01/16_16:44:04: It is your turn!
+
+18/01/16_16:44:04: Hand: [Pc, Ys, Oo, Y*, Bc, P*]
+
+18/01/16_16:44:04: 
+XXX 90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Ps  .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  .   .   
+92  .   .   .   Oo  Yo  Po  .   .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   .   
+94  .   .   P*  G*  Y*  .   Bo  Ro  .   
+95  .   .   G*  Gx  .   .   .   .   .   
+96  .   .   .   Gc  Rc  .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:04: Hand: [Pc, Ys, Oo, Y*, Bc]
+
+18/01/16_16:44:04: 
+XXX 90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Ps  .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  .   .   
+92  .   .   .   Oo  Yo  Po  .   .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   .   
+94  .   .   P*  G*  Y*  .   Bo  Ro  .   
+95  .   .   G*  Gx  .   .   .   .   .   
+96  .   .   .   Gc  Rc  .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:04: bot's score is: 25
+18/01/16_16:44:04: ohboyohboyohboy's score is: 26
+18/01/16_16:44:04: Tiles in pool: 75
+
+18/01/16_16:44:04: It is now bot's turn.
+
+18/01/16_16:44:04: 
+XXX 90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Ps  .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  .   .   
+92  .   .   .   Oo  Yo  Po  .   .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   .   
+94  .   .   P*  G*  Y*  .   Bo  Ro  .   
+95  .   .   G*  Gx  .   .   .   .   .   
+96  .   .   .   Gc  Rc  .   .   .   .   
+97  .   .   .   .   R*  .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:04: bot's score is: 27
+18/01/16_16:44:04: ohboyohboyohboy's score is: 26
+18/01/16_16:44:04: bot just made the following move: [[R*, 97, 94]]
+
+18/01/16_16:44:04: It is your turn!
+
+18/01/16_16:44:04: Hand: [Pc, Ys, Oo, Y*, Bc, Gs]
+
+18/01/16_16:44:04: 
+XXX 90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Ps  .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  .   .   
+92  .   .   .   Oo  Yo  Po  .   .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   .   
+94  .   .   P*  G*  Y*  .   Bo  Ro  .   
+95  .   Gs  G*  Gx  .   .   .   .   .   
+96  .   .   .   Gc  Rc  .   .   .   .   
+97  .   .   .   .   R*  .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:04: Hand: [Pc, Ys, Oo, Y*, Bc]
+
+18/01/16_16:44:04: 
+XXX 90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Ps  .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  .   .   
+92  .   .   .   Oo  Yo  Po  .   .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   .   
+94  .   .   P*  G*  Y*  .   Bo  Ro  .   
+95  .   Gs  G*  Gx  .   .   .   .   .   
+96  .   .   .   Gc  Rc  .   .   .   .   
+97  .   .   .   .   R*  .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:04: bot's score is: 27
+18/01/16_16:44:04: ohboyohboyohboy's score is: 29
+18/01/16_16:44:04: Tiles in pool: 73
+
+18/01/16_16:44:04: It is now bot's turn.
+
+18/01/16_16:44:04: 
+XXX 90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Ps  .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  .   .   
+92  .   .   .   Oo  Yo  Po  .   .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   .   
+94  .   .   P*  G*  Y*  .   Bo  Ro  .   
+95  .   Gs  G*  Gx  .   .   .   .   .   
+96  .   .   .   Gc  Rc  Pc  .   .   .   
+97  .   .   .   .   R*  .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:04: bot's score is: 30
+18/01/16_16:44:04: ohboyohboyohboy's score is: 29
+18/01/16_16:44:04: bot just made the following move: [[Pc, 96, 95]]
+
+18/01/16_16:44:04: It is your turn!
+
+18/01/16_16:44:04: Hand: [Pc, Ys, Oo, Y*, Bc, Oo]
+
+18/01/16_16:44:05: 
+XXX 90  91  92  93  94  95  96  97  98  99  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Ps  .   .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  .   .   .   
+92  .   .   .   Oo  Yo  Po  .   .   .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   .   .   
+94  .   .   P*  G*  Y*  .   Bo  Ro  Oo  .   
+95  .   Gs  G*  Gx  .   .   .   .   .   .   
+96  .   .   .   Gc  Rc  Pc  .   .   .   .   
+97  .   .   .   .   R*  .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:05: Hand: [Pc, Ys, Oo, Y*, Bc]
+
+18/01/16_16:44:05: 
+XXX 90  91  92  93  94  95  96  97  98  99  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Ps  .   .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  .   .   .   
+92  .   .   .   Oo  Yo  Po  .   .   .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   .   .   
+94  .   .   P*  G*  Y*  .   Bo  Ro  Oo  .   
+95  .   Gs  G*  Gx  .   .   .   .   .   .   
+96  .   .   .   Gc  Rc  Pc  .   .   .   .   
+97  .   .   .   .   R*  .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:05: bot's score is: 30
+18/01/16_16:44:05: ohboyohboyohboy's score is: 32
+18/01/16_16:44:05: Tiles in pool: 71
+
+18/01/16_16:44:05: It is now bot's turn.
+
+18/01/16_16:44:05: 
+XXX 90  91  92  93  94  95  96  97  98  99  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Ps  .   .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  .   .   .   
+92  .   .   .   Oo  Yo  Po  .   .   .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   .   .   
+94  .   .   P*  G*  Y*  .   Bo  Ro  Oo  .   
+95  .   Gs  G*  Gx  .   .   B*  .   .   .   
+96  .   .   .   Gc  Rc  Pc  .   .   .   .   
+97  .   .   .   .   R*  .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:05: bot's score is: 33
+18/01/16_16:44:05: ohboyohboyohboy's score is: 32
+18/01/16_16:44:05: bot just made the following move: [[B*, 95, 96]]
+
+18/01/16_16:44:05: It is your turn!
+
+18/01/16_16:44:05: Hand: [Pc, Ys, Oo, Y*, Bc, Yx]
+
+18/01/16_16:44:05: 
+XXX 90  91  92  93  94  95  96  97  98  99  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Ps  .   .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  .   .   .   
+92  .   .   .   Oo  Yo  Po  .   .   .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   .   .   
+94  .   .   P*  G*  Y*  .   Bo  Ro  Oo  .   
+95  .   Gs  G*  Gx  .   .   B*  .   .   .   
+96  .   .   .   Gc  Rc  Pc  Bc  .   .   .   
+97  .   .   .   .   R*  .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:05: Hand: [Pc, Ys, Oo, Y*, Yx]
+
+18/01/16_16:44:05: 
+XXX 90  91  92  93  94  95  96  97  98  99  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Ps  .   .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  .   .   .   
+92  .   .   .   Oo  Yo  Po  .   .   .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   .   .   
+94  .   .   P*  G*  Y*  .   Bo  Ro  Oo  .   
+95  .   Gs  G*  Gx  .   .   B*  .   .   .   
+96  .   .   .   Gc  Rc  Pc  Bc  .   .   .   
+97  .   .   .   .   R*  .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:05: bot's score is: 33
+18/01/16_16:44:05: ohboyohboyohboy's score is: 40
+18/01/16_16:44:05: Tiles in pool: 69
+
+18/01/16_16:44:05: It is now bot's turn.
+
+18/01/16_16:44:05: 
+XXX 90  91  92  93  94  95  96  97  98  99  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Ps  .   .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  .   .   .   
+92  .   .   .   Oo  Yo  Po  .   .   .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   .   .   
+94  .   .   P*  G*  Y*  .   Bo  Ro  Oo  .   
+95  .   Gs  G*  Gx  .   Bc  B*  .   .   .   
+96  .   .   .   Gc  Rc  Pc  Bc  .   .   .   
+97  .   .   .   .   R*  .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:05: bot's score is: 37
+18/01/16_16:44:05: ohboyohboyohboy's score is: 40
+18/01/16_16:44:05: bot just made the following move: [[Bc, 95, 95]]
+
+18/01/16_16:44:05: It is your turn!
+
+18/01/16_16:44:05: Hand: [Pc, Ys, Oo, Y*, Yx, Os]
+
+18/01/16_16:44:05: 
+XXX 90  91  92  93  94  95  96  97  98  99  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Ps  .   .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  .   .   .   
+92  .   .   .   Oo  Yo  Po  .   .   .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   .   .   
+94  .   .   P*  G*  Y*  .   Bo  Ro  Oo  .   
+95  .   Gs  G*  Gx  .   Bc  B*  .   .   .   
+96  .   Os  .   Gc  Rc  Pc  Bc  .   .   .   
+97  .   .   .   .   R*  .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:05: Hand: [Pc, Ys, Oo, Y*, Yx]
+
+18/01/16_16:44:05: 
+XXX 90  91  92  93  94  95  96  97  98  99  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Ps  .   .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  .   .   .   
+92  .   .   .   Oo  Yo  Po  .   .   .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   .   .   
+94  .   .   P*  G*  Y*  .   Bo  Ro  Oo  .   
+95  .   Gs  G*  Gx  .   Bc  B*  .   .   .   
+96  .   Os  .   Gc  Rc  Pc  Bc  .   .   .   
+97  .   .   .   .   R*  .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:05: bot's score is: 37
+18/01/16_16:44:05: ohboyohboyohboy's score is: 42
+18/01/16_16:44:05: Tiles in pool: 67
+
+18/01/16_16:44:05: It is now bot's turn.
+
+18/01/16_16:44:05: 
+XXX 90  91  92  93  94  95  96  97  98  99  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Ps  .   .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  Px  .   .   
+92  .   .   .   Oo  Yo  Po  .   .   .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   .   .   
+94  .   .   P*  G*  Y*  .   Bo  Ro  Oo  .   
+95  .   Gs  G*  Gx  .   Bc  B*  .   .   .   
+96  .   Os  .   Gc  Rc  Pc  Bc  .   .   .   
+97  .   .   .   .   R*  .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:05: bot's score is: 40
+18/01/16_16:44:05: ohboyohboyohboy's score is: 42
+18/01/16_16:44:05: bot just made the following move: [[Px, 91, 97]]
+
+18/01/16_16:44:05: It is your turn!
+
+18/01/16_16:44:05: Hand: [Pc, Ys, Oo, Y*, Yx, Yx]
+
+18/01/16_16:44:05: 
+XXX 90  91  92  93  94  95  96  97  98  99  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Ps  .   .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  Px  .   .   
+92  .   .   .   Oo  Yo  Po  .   Yx  .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   .   .   
+94  .   .   P*  G*  Y*  .   Bo  Ro  Oo  .   
+95  .   Gs  G*  Gx  .   Bc  B*  .   .   .   
+96  .   Os  .   Gc  Rc  Pc  Bc  .   .   .   
+97  .   .   .   .   R*  .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:05: Hand: [Pc, Ys, Oo, Y*, Yx]
+
+18/01/16_16:44:05: 
+XXX 90  91  92  93  94  95  96  97  98  99  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Ps  .   .   .   
+91  .   Rd  Gd  Od  .   Ps  Po  Px  .   .   
+92  .   .   .   Oo  Yo  Po  .   Yx  .   .   
+93  .   .   .   .   Yd  Pd  Bd  .   .   .   
+94  .   .   P*  G*  Y*  .   Bo  Ro  Oo  .   
+95  .   Gs  G*  Gx  .   Bc  B*  .   .   .   
+96  .   Os  .   Gc  Rc  Pc  Bc  .   .   .   
+97  .   .   .   .   R*  .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:05: bot's score is: 40
+18/01/16_16:44:05: ohboyohboyohboy's score is: 44
+18/01/16_16:44:05: Tiles in pool: 65
+
+18/01/16_16:44:05: It is now bot's turn.
+
+18/01/16_16:44:05: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+89  .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Ps  .   .   .   
+91  .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   
+92  .   .   .   .   Oo  Yo  Po  .   Yx  .   .   
+93  .   .   .   .   .   Yd  Pd  Bd  .   .   .   
+94  .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  .   
+95  .   .   Gs  G*  Gx  .   Bc  B*  .   .   .   
+96  .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   
+97  .   .   .   .   .   R*  .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:05: bot's score is: 42
+18/01/16_16:44:05: ohboyohboyohboy's score is: 44
+18/01/16_16:44:05: bot just made the following move: [[O*, 96, 90]]
+
+18/01/16_16:44:05: It is your turn!
+
+18/01/16_16:44:05: Hand: [Pc, Ys, Oo, Y*, Yx, Rc]
+
+18/01/16_16:44:06: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+89  .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Ps  .   .   .   
+91  .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   
+92  .   .   .   .   Oo  Yo  Po  .   Yx  .   .   
+93  .   .   .   .   .   Yd  Pd  Bd  .   .   .   
+94  .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  .   
+95  .   .   Gs  G*  Gx  .   Bc  B*  .   .   .   
+96  .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   
+97  .   .   .   .   .   R*  Rc  .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:06: Hand: [Pc, Ys, Oo, Y*, Yx]
+
+18/01/16_16:44:06: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+89  .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Ps  .   .   .   
+91  .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   
+92  .   .   .   .   Oo  Yo  Po  .   Yx  .   .   
+93  .   .   .   .   .   Yd  Pd  Bd  .   .   .   
+94  .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  .   
+95  .   .   Gs  G*  Gx  .   Bc  B*  .   .   .   
+96  .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   
+97  .   .   .   .   .   R*  Rc  .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:06: bot's score is: 42
+18/01/16_16:44:06: ohboyohboyohboy's score is: 49
+18/01/16_16:44:06: Tiles in pool: 63
+
+18/01/16_16:44:06: It is now bot's turn.
+
+18/01/16_16:44:06: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+89  .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Ps  .   .   .   
+91  .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   
+92  .   .   .   .   Oo  Yo  Po  .   Yx  .   .   
+93  .   .   .   .   .   Yd  Pd  Bd  .   .   .   
+94  .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  .   
+95  .   .   Gs  G*  Gx  .   Bc  B*  .   .   .   
+96  .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   
+97  .   R*  .   .   .   R*  Rc  .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:06: bot's score is: 44
+18/01/16_16:44:06: ohboyohboyohboy's score is: 49
+18/01/16_16:44:06: bot just made the following move: [[R*, 97, 90]]
+
+18/01/16_16:44:06: It is your turn!
+
+18/01/16_16:44:06: Hand: [Pc, Ys, Oo, Y*, Yx, Bx]
+
+18/01/16_16:44:06: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+89  .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Ps  .   .   .   
+91  .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   
+92  .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   
+93  .   .   .   .   .   Yd  Pd  Bd  .   .   .   
+94  .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  .   
+95  .   .   Gs  G*  Gx  .   Bc  B*  .   .   .   
+96  .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   
+97  .   R*  .   .   .   R*  Rc  .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:06: Hand: [Pc, Ys, Oo, Y*, Yx]
+
+18/01/16_16:44:06: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+89  .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Ps  .   .   .   
+91  .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   
+92  .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   
+93  .   .   .   .   .   Yd  Pd  Bd  .   .   .   
+94  .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  .   
+95  .   .   Gs  G*  Gx  .   Bc  B*  .   .   .   
+96  .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   
+97  .   R*  .   .   .   R*  Rc  .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:06: bot's score is: 44
+18/01/16_16:44:06: ohboyohboyohboy's score is: 51
+18/01/16_16:44:06: Tiles in pool: 61
+
+18/01/16_16:44:06: It is now bot's turn.
+
+18/01/16_16:44:06: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+89  .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Ps  .   .   .   
+91  .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   
+92  .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   
+93  .   .   .   .   .   Yd  Pd  Bd  .   .   .   
+94  .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  .   
+95  .   .   Gs  G*  Gx  .   Bc  B*  .   .   .   
+96  .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   
+97  .   R*  .   .   .   R*  Rc  .   .   .   .   
+98  .   .   .   .   .   .   Gc  .   .   .   .   
+99  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:06: bot's score is: 48
+18/01/16_16:44:06: ohboyohboyohboy's score is: 51
+18/01/16_16:44:06: bot just made the following move: [[Gc, 98, 95]]
+
+18/01/16_16:44:06: It is your turn!
+
+18/01/16_16:44:06: Hand: [Pc, Ys, Oo, Y*, Yx, Po]
+
+18/01/16_16:44:06: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  
+89  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Ps  .   .   .   .   
+91  .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   
+92  .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   
+93  .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   
+94  .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   
+95  .   .   Gs  G*  Gx  .   Bc  B*  .   .   .   .   
+96  .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   
+97  .   R*  .   .   .   R*  Rc  .   .   .   .   .   
+98  .   .   .   .   .   .   Gc  .   .   .   .   .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:06: Hand: [Pc, Ys, Oo, Y*, Yx]
+
+18/01/16_16:44:06: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  
+89  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Ps  .   .   .   .   
+91  .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   
+92  .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   
+93  .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   
+94  .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   
+95  .   .   Gs  G*  Gx  .   Bc  B*  .   .   .   .   
+96  .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   
+97  .   R*  .   .   .   R*  Rc  .   .   .   .   .   
+98  .   .   .   .   .   .   Gc  .   .   .   .   .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:06: bot's score is: 48
+18/01/16_16:44:06: ohboyohboyohboy's score is: 55
+18/01/16_16:44:06: Tiles in pool: 59
+
+18/01/16_16:44:06: It is now bot's turn.
+
+18/01/16_16:44:06: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  
+89  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   Bd  .   .   .   Ps  .   .   .   .   
+91  .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   
+92  .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   
+93  .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   
+94  .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   
+95  .   .   Gs  G*  Gx  .   Bc  B*  .   .   .   .   
+96  .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   
+97  .   R*  .   .   .   R*  Rc  .   .   .   .   .   
+98  .   .   .   .   .   .   Gc  .   .   .   .   .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:06: bot's score is: 50
+18/01/16_16:44:06: ohboyohboyohboy's score is: 55
+18/01/16_16:44:06: bot just made the following move: [[Bd, 90, 92]]
+
+18/01/16_16:44:06: It is your turn!
+
+18/01/16_16:44:06: Hand: [Pc, Ys, Oo, Y*, Yx, Go]
+
+18/01/16_16:44:06: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  
+89  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   Bd  .   .   .   Ps  .   .   .   .   
+91  .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   
+92  .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   
+93  .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   
+94  .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   
+95  .   .   Gs  G*  Gx  .   Bc  B*  .   .   .   .   
+96  .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   
+97  .   R*  .   .   .   R*  Rc  .   .   .   .   .   
+98  .   .   .   .   .   .   Gc  Go  .   .   .   .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:06: Hand: [Pc, Ys, Oo, Y*, Yx]
+
+18/01/16_16:44:06: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  
+89  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   Bd  .   .   .   Ps  .   .   .   .   
+91  .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   
+92  .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   
+93  .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   
+94  .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   
+95  .   .   Gs  G*  Gx  .   Bc  B*  .   .   .   .   
+96  .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   
+97  .   R*  .   .   .   R*  Rc  .   .   .   .   .   
+98  .   .   .   .   .   .   Gc  Go  .   .   .   .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:06: bot's score is: 50
+18/01/16_16:44:06: ohboyohboyohboy's score is: 57
+18/01/16_16:44:06: Tiles in pool: 57
+
+18/01/16_16:44:06: It is now bot's turn.
+
+18/01/16_16:44:07: 
+XXX 88  89  90  91  92  93  94  95  96  97  98  99  100  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   
+91  .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   
+92  .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   
+93  .   .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   
+94  .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   
+95  .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   .   .   
+96  .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   
+97  .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   
+98  .   .   .   .   .   .   .   Gc  Go  .   .   .   .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:07: bot's score is: 52
+18/01/16_16:44:07: ohboyohboyohboy's score is: 57
+18/01/16_16:44:07: bot just made the following move: [[Rx, 97, 89]]
+
+18/01/16_16:44:07: It is your turn!
+
+18/01/16_16:44:07: Hand: [Pc, Ys, Oo, Y*, Yx, Yx]
+
+18/01/16_16:44:07: 
+XXX 88  89  90  91  92  93  94  95  96  97  98  99  100  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   
+91  .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   
+92  .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   
+93  .   .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   
+94  .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   
+95  .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   .   .   
+96  .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   
+97  .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   
+98  .   Yx  .   .   .   .   .   Gc  Go  .   .   .   .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:07: Hand: [Pc, Ys, Oo, Y*, Yx]
+
+18/01/16_16:44:07: 
+XXX 88  89  90  91  92  93  94  95  96  97  98  99  100  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   
+91  .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   
+92  .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   
+93  .   .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   
+94  .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   
+95  .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   .   .   
+96  .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   
+97  .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   
+98  .   Yx  .   .   .   .   .   Gc  Go  .   .   .   .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:07: bot's score is: 52
+18/01/16_16:44:07: ohboyohboyohboy's score is: 59
+18/01/16_16:44:07: Tiles in pool: 55
+
+18/01/16_16:44:07: It is now bot's turn.
+
+18/01/16_16:44:07: 
+XXX 88  89  90  91  92  93  94  95  96  97  98  99  100  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   
+91  .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   
+92  .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   
+93  .   .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   
+94  .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   
+95  .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  .   
+96  .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   
+97  .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   
+98  .   Yx  .   .   .   .   .   Gc  Go  .   .   .   .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:07: bot's score is: 54
+18/01/16_16:44:07: ohboyohboyohboy's score is: 59
+18/01/16_16:44:07: bot just made the following move: [[Pd, 95, 99]]
+
+18/01/16_16:44:07: It is your turn!
+
+18/01/16_16:44:07: Hand: [Pc, Ys, Oo, Y*, Yx, Ox]
+
+18/01/16_16:44:07: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  99  100  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   
+91  .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   
+92  .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   
+93  .   .   .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   
+94  .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   
+95  .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  .   
+96  .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   
+97  .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   
+98  .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:07: Hand: [Pc, Ys, Oo, Y*, Yx]
+
+18/01/16_16:44:07: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  99  100  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   
+91  .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   
+92  .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   
+93  .   .   .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   
+94  .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   
+95  .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  .   
+96  .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   
+97  .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   
+98  .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:07: bot's score is: 54
+18/01/16_16:44:07: ohboyohboyohboy's score is: 61
+18/01/16_16:44:07: Tiles in pool: 53
+
+18/01/16_16:44:07: It is now bot's turn.
+
+18/01/16_16:44:07: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  99  100  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   
+91  .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   
+92  .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   
+93  .   .   .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   
+94  .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   
+95  .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  .   
+96  .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   
+97  .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   
+98  .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   
+99  .   .   .   .   .   .   .   .   .   Yo  .   .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:07: bot's score is: 56
+18/01/16_16:44:07: ohboyohboyohboy's score is: 61
+18/01/16_16:44:07: bot just made the following move: [[Yo, 99, 96]]
+
+18/01/16_16:44:07: It is your turn!
+
+18/01/16_16:44:07: Hand: [Pc, Ys, Oo, Y*, Yx, Od]
+
+18/01/16_16:44:07: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  99  100  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   
+91  .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   
+92  .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   
+93  .   .   .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   
+94  .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   
+95  .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  .   
+96  .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   
+97  .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   
+98  .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   
+99  .   Od  .   .   .   .   .   .   .   Yo  .   .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:07: Hand: [Pc, Ys, Oo, Y*, Yx]
+
+18/01/16_16:44:07: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  99  100  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   
+91  .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   
+92  .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   
+93  .   .   .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   
+94  .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   
+95  .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  .   
+96  .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   
+97  .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   
+98  .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   
+99  .   Od  .   .   .   .   .   .   .   Yo  .   .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:07: bot's score is: 56
+18/01/16_16:44:07: ohboyohboyohboy's score is: 63
+18/01/16_16:44:07: Tiles in pool: 51
+
+18/01/16_16:44:07: It is now bot's turn.
+
+18/01/16_16:44:07: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   .   
+97  .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Od  .   .   .   .   .   .   .   Yo  .   .   .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:07: bot's score is: 58
+18/01/16_16:44:07: ohboyohboyohboy's score is: 63
+18/01/16_16:44:07: bot just made the following move: [[Pc, 95, 100]]
+
+18/01/16_16:44:07: It is your turn!
+
+18/01/16_16:44:07: Hand: [Pc, Ys, Oo, Y*, Yx, Yc]
+
+18/01/16_16:44:07: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   .   
+97  .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Od  .   .   .   .   .   .   .   Yo  Yc  .   .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:07: Hand: [Pc, Ys, Oo, Y*, Yx]
+
+18/01/16_16:44:07: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   .   
+97  .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Od  .   .   .   .   .   .   .   Yo  Yc  .   .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:07: bot's score is: 58
+18/01/16_16:44:07: ohboyohboyohboy's score is: 65
+18/01/16_16:44:07: Tiles in pool: 49
+
+18/01/16_16:44:07: It is now bot's turn.
+
+18/01/16_16:44:07: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   .   
+97  .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Bd  Od  .   .   .   .   .   .   .   Yo  Yc  .   .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:07: bot's score is: 60
+18/01/16_16:44:07: ohboyohboyohboy's score is: 65
+18/01/16_16:44:07: bot just made the following move: [[Bd, 99, 87]]
+
+18/01/16_16:44:07: It is your turn!
+
+18/01/16_16:44:07: Hand: [Pc, Ys, Oo, Y*, Yx, Yo]
+
+18/01/16_16:44:07: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   .   
+97  .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Bd  Od  .   .   .   .   .   .   .   Yo  Yc  .   .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   Yo  .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:07: Hand: [Pc, Ys, Oo, Y*, Yx]
+
+18/01/16_16:44:07: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   .   
+97  .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Bd  Od  .   .   .   .   .   .   .   Yo  Yc  .   .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   Yo  .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:07: bot's score is: 60
+18/01/16_16:44:07: ohboyohboyohboy's score is: 67
+18/01/16_16:44:07: Tiles in pool: 47
+
+18/01/16_16:44:08: It is now bot's turn.
+
+18/01/16_16:44:08: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   .   
+97  .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Bd  Od  .   .   .   .   .   .   .   Yo  Yc  .   .   .   .   
+100  .   .   O*  .   .   .   .   .   .   .   .   Yo  .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:08: bot's score is: 63
+18/01/16_16:44:08: ohboyohboyohboy's score is: 67
+18/01/16_16:44:08: bot just made the following move: [[O*, 100, 88]]
+
+18/01/16_16:44:08: It is your turn!
+
+18/01/16_16:44:08: Hand: [Pc, Ys, Oo, Y*, Yx, Oc]
+
+18/01/16_16:44:08: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   .   
+97  .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Bd  Od  .   .   .   .   .   .   .   Yo  Yc  .   .   .   .   
+100  .   .   O*  Oc  .   .   .   .   .   .   .   Yo  .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:08: Hand: [Pc, Ys, Oo, Y*, Yx]
+
+18/01/16_16:44:08: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   .   
+97  .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Bd  Od  .   .   .   .   .   .   .   Yo  Yc  .   .   .   .   
+100  .   .   O*  Oc  .   .   .   .   .   .   .   Yo  .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:08: bot's score is: 63
+18/01/16_16:44:08: ohboyohboyohboy's score is: 69
+18/01/16_16:44:08: Tiles in pool: 45
+
+18/01/16_16:44:08: It is now bot's turn.
+
+18/01/16_16:44:08: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   .   
+97  .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Bd  Od  .   .   .   .   .   .   .   Yo  Yc  .   .   .   .   
+100  .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:08: bot's score is: 65
+18/01/16_16:44:08: ohboyohboyohboy's score is: 69
+18/01/16_16:44:08: bot just made the following move: [[Yc, 100, 98]]
+
+18/01/16_16:44:08: It is your turn!
+
+18/01/16_16:44:08: Hand: [Pc, Ys, Oo, Y*, Yx, Gs]
+
+18/01/16_16:44:08: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   .   
+97  .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Bd  Od  .   .   .   .   .   .   .   Yo  Yc  .   .   .   .   
+100  .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:08: Hand: [Pc, Ys, Oo, Y*, Gs]
+
+18/01/16_16:44:08: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   .   .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   .   
+97  .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Bd  Od  .   .   .   .   .   .   .   Yo  Yc  .   .   .   .   
+100  .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:08: bot's score is: 65
+18/01/16_16:44:08: ohboyohboyohboy's score is: 72
+18/01/16_16:44:08: Tiles in pool: 43
+
+18/01/16_16:44:08: It is now bot's turn.
+
+18/01/16_16:44:08: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   B*  .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   .   
+97  .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Bd  Od  .   .   .   .   .   .   .   Yo  Yc  .   .   .   .   
+100  .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:08: bot's score is: 68
+18/01/16_16:44:08: ohboyohboyohboy's score is: 72
+18/01/16_16:44:08: bot just made the following move: [[B*, 93, 92]]
+
+18/01/16_16:44:08: It is your turn!
+
+18/01/16_16:44:08: Hand: [Pc, Ys, Oo, Y*, Gs, Gx]
+
+18/01/16_16:44:08: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   B*  .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   .   
+97  .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Bd  Od  .   .   .   .   .   .   .   Yo  Yc  .   .   .   .   
+100  .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   .   Gx  .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:08: Hand: [Pc, Ys, Oo, Y*, Gs]
+
+18/01/16_16:44:08: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   B*  .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   .   
+97  .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Bd  Od  .   .   .   .   .   .   .   Yo  Yc  .   .   .   .   
+100  .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   .   Gx  .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:08: bot's score is: 68
+18/01/16_16:44:08: ohboyohboyohboy's score is: 74
+18/01/16_16:44:08: Tiles in pool: 41
+
+18/01/16_16:44:08: It is now bot's turn.
+
+18/01/16_16:44:09: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   B*  .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   .   
+97  .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Bd  Od  .   .   .   .   .   .   .   Yo  Yc  .   .   .   .   
+100  .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   .   Gx  Rx  .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:09: bot's score is: 70
+18/01/16_16:44:09: ohboyohboyohboy's score is: 74
+18/01/16_16:44:09: bot just made the following move: [[Rx, 101, 100]]
+
+18/01/16_16:44:09: It is your turn!
+
+18/01/16_16:44:09: Hand: [Pc, Ys, Oo, Y*, Gs, Gc]
+
+18/01/16_16:44:09: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   B*  .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   .   
+97  .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Bd  Od  .   .   .   .   .   .   .   Yo  Yc  .   .   .   .   
+100  .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   
+101  .   .   .   Gc  .   .   .   .   .   .   .   .   .   Gx  Rx  .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:09: Hand: [Pc, Ys, Oo, Y*, Gs]
+
+18/01/16_16:44:09: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   B*  .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   .   
+97  .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Bd  Od  .   .   .   .   .   .   .   Yo  Yc  .   .   .   .   
+100  .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   
+101  .   .   .   Gc  .   .   .   .   .   .   .   .   .   Gx  Rx  .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:09: bot's score is: 70
+18/01/16_16:44:09: ohboyohboyohboy's score is: 76
+18/01/16_16:44:09: Tiles in pool: 39
+
+18/01/16_16:44:09: It is now bot's turn.
+
+18/01/16_16:44:09: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   B*  .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   .   
+97  .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Bd  Od  .   .   .   .   .   .   .   Yo  Yc  .   .   .   .   
+100  .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   
+101  .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:09: bot's score is: 72
+18/01/16_16:44:09: ohboyohboyohboy's score is: 76
+18/01/16_16:44:09: bot just made the following move: [[G*, 101, 90]]
+
+18/01/16_16:44:09: It is your turn!
+
+18/01/16_16:44:09: Hand: [Pc, Ys, Oo, Y*, Gs, Rd]
+
+18/01/16_16:44:09: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   B*  .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   .   
+97  .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Bd  Od  .   .   .   .   .   .   .   Yo  Yc  .   .   .   .   
+100  .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   
+101  .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Rd  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:09: Hand: [Pc, Ys, Oo, Y*, Gs]
+
+18/01/16_16:44:09: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   B*  .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   .   
+97  .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Bd  Od  .   .   .   .   .   .   .   Yo  Yc  .   .   .   .   
+100  .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   
+101  .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Rd  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:09: bot's score is: 72
+18/01/16_16:44:09: ohboyohboyohboy's score is: 78
+18/01/16_16:44:09: Tiles in pool: 37
+
+18/01/16_16:44:09: It is now bot's turn.
+
+18/01/16_16:44:09: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   .   B*  .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Rd  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:09: bot's score is: 75
+18/01/16_16:44:09: ohboyohboyohboy's score is: 78
+18/01/16_16:44:09: bot just made the following move: [[Rd, 99, 86]]
+
+18/01/16_16:44:09: It is your turn!
+
+18/01/16_16:44:09: Hand: [Pc, Ys, Oo, Y*, Gs, Ys]
+
+18/01/16_16:44:09: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   .   B*  .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Rd  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:09: Hand: [Pc, Ys, Oo, Y*, Gs]
+
+18/01/16_16:44:09: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   .   B*  .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Rd  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:09: bot's score is: 75
+18/01/16_16:44:09: ohboyohboyohboy's score is: 83
+18/01/16_16:44:09: Tiles in pool: 35
+
+18/01/16_16:44:09: It is now bot's turn.
+
+18/01/16_16:44:09: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   .   B*  .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Rd  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:09: bot's score is: 80
+18/01/16_16:44:09: ohboyohboyohboy's score is: 83
+18/01/16_16:44:09: bot just made the following move: [[Oc, 96, 97]]
+
+18/01/16_16:44:09: It is your turn!
+
+18/01/16_16:44:09: Hand: [Pc, Ys, Oo, Y*, Gs, B*]
+
+18/01/16_16:44:09: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   .   B*  .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   
+102  .   .   .   .   .   B*  .   .   .   .   .   .   .   .   .   Rd  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:09: Hand: [Pc, Ys, Oo, Y*, Gs]
+
+18/01/16_16:44:09: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   
+93  .   .   .   .   .   .   .   B*  .   Yd  Pd  Bd  .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   
+102  .   .   .   .   .   B*  .   .   .   .   .   .   .   .   .   Rd  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:09: bot's score is: 80
+18/01/16_16:44:09: ohboyohboyohboy's score is: 85
+18/01/16_16:44:09: Tiles in pool: 33
+
+18/01/16_16:44:09: It is now bot's turn.
+
+18/01/16_16:44:10: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   
+93  .   .   .   .   .   .   .   B*  .   Yd  Pd  Bd  .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   
+102  .   .   .   .   .   B*  .   .   .   .   .   .   .   .   .   Rd  Od  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:10: bot's score is: 82
+18/01/16_16:44:10: ohboyohboyohboy's score is: 85
+18/01/16_16:44:10: bot just made the following move: [[Od, 102, 101]]
+
+18/01/16_16:44:10: It is your turn!
+
+18/01/16_16:44:10: Hand: [Pc, Ys, Oo, Y*, Gs, Bs]
+
+18/01/16_16:44:10: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   
+93  .   .   .   .   .   .   .   B*  .   Yd  Pd  Bd  .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   
+102  .   .   .   .   .   B*  Bs  .   .   .   .   .   .   .   .   Rd  Od  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:10: Hand: [Pc, Ys, Oo, Y*, Gs]
+
+18/01/16_16:44:10: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   
+93  .   .   .   .   .   .   .   B*  .   Yd  Pd  Bd  .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   
+102  .   .   .   .   .   B*  Bs  .   .   .   .   .   .   .   .   Rd  Od  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:10: bot's score is: 82
+18/01/16_16:44:10: ohboyohboyohboy's score is: 87
+18/01/16_16:44:10: Tiles in pool: 31
+
+18/01/16_16:44:10: It is now bot's turn.
+
+18/01/16_16:44:10: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   
+102  .   .   .   .   .   B*  Bs  .   .   .   .   .   .   .   .   Rd  Od  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:10: bot's score is: 84
+18/01/16_16:44:10: ohboyohboyohboy's score is: 87
+18/01/16_16:44:10: bot just made the following move: [[Bs, 93, 91]]
+
+18/01/16_16:44:10: It is your turn!
+
+18/01/16_16:44:10: Hand: [Pc, Ys, Oo, Y*, Gs, Rc]
+
+18/01/16_16:44:10: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   
+102  .   .   .   .   .   B*  Bs  .   .   .   .   .   .   .   .   Rd  Od  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Rc  .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:10: Hand: [Pc, Ys, Oo, Y*, Gs]
+
+18/01/16_16:44:10: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   
+102  .   .   .   .   .   B*  Bs  .   .   .   .   .   .   .   .   Rd  Od  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Rc  .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:10: bot's score is: 84
+18/01/16_16:44:10: ohboyohboyohboy's score is: 90
+18/01/16_16:44:10: Tiles in pool: 29
+
+18/01/16_16:44:10: It is now bot's turn.
+
+18/01/16_16:44:10: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   
+102  .   .   .   .   .   B*  Bs  .   .   .   .   .   .   .   .   Rd  Od  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Rc  .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:10: bot's score is: 87
+18/01/16_16:44:10: ohboyohboyohboy's score is: 90
+18/01/16_16:44:10: bot just made the following move: [[Px, 95, 101]]
+
+18/01/16_16:44:10: It is your turn!
+
+18/01/16_16:44:10: Hand: [Pc, Ys, Oo, Y*, Gs, Os]
+
+18/01/16_16:44:10: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   
+102  .   .   .   .   .   B*  Bs  .   .   .   .   .   .   .   .   Rd  Od  .   
+103  .   .   .   .   .   .   Os  .   .   .   .   .   .   .   .   Rc  .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:10: Hand: [Pc, Ys, Oo, Y*, Gs]
+
+18/01/16_16:44:10: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   
+102  .   .   .   .   .   B*  Bs  .   .   .   .   .   .   .   .   Rd  Od  .   
+103  .   .   .   .   .   .   Os  .   .   .   .   .   .   .   .   Rc  .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:10: bot's score is: 87
+18/01/16_16:44:10: ohboyohboyohboy's score is: 92
+18/01/16_16:44:10: Tiles in pool: 27
+
+18/01/16_16:44:10: It is now bot's turn.
+
+18/01/16_16:44:10: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   
+102  .   .   .   .   .   B*  Bs  Bo  .   .   .   .   .   .   .   Rd  Od  .   
+103  .   .   .   .   .   .   Os  .   .   .   .   .   .   .   .   Rc  .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:10: bot's score is: 90
+18/01/16_16:44:10: ohboyohboyohboy's score is: 92
+18/01/16_16:44:10: bot just made the following move: [[Bo, 102, 92]]
+
+18/01/16_16:44:10: It is your turn!
+
+18/01/16_16:44:10: Hand: [Pc, Ys, Oo, Y*, Gs, Gd]
+
+18/01/16_16:44:10: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  .   .   .   .   .   .   .   Rd  Od  Gd  .   
+103  .   .   .   .   .   .   Os  .   .   .   .   .   .   .   .   Rc  .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:10: Hand: [Pc, Ys, Oo, Y*, Gs]
+
+18/01/16_16:44:10: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  .   .   .   .   .   .   .   Rd  Od  Gd  .   
+103  .   .   .   .   .   .   Os  .   .   .   .   .   .   .   .   Rc  .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:10: bot's score is: 90
+18/01/16_16:44:10: ohboyohboyohboy's score is: 95
+18/01/16_16:44:10: Tiles in pool: 25
+
+18/01/16_16:44:10: It is now bot's turn.
+
+18/01/16_16:44:11: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  .   .   .   .   .   .   .   Rd  Od  Gd  .   
+103  .   .   .   .   .   .   Os  .   .   .   .   .   .   .   Rx  Rc  .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:11: bot's score is: 92
+18/01/16_16:44:11: ohboyohboyohboy's score is: 95
+18/01/16_16:44:11: bot just made the following move: [[Rx, 103, 99]]
+
+18/01/16_16:44:11: It is your turn!
+
+18/01/16_16:44:11: Hand: [Pc, Ys, Oo, Y*, Gs, Ox]
+
+18/01/16_16:44:11: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  .   .   .   .   .   .   .   Rd  Od  Gd  .   
+103  .   .   .   .   .   .   Os  .   .   .   .   .   .   .   Rx  Rc  .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Ox  .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:11: Hand: [Pc, Ys, Oo, Y*, Gs]
+
+18/01/16_16:44:11: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  .   .   .   .   .   .   .   Rd  Od  Gd  .   
+103  .   .   .   .   .   .   Os  .   .   .   .   .   .   .   Rx  Rc  .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Ox  .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:11: bot's score is: 92
+18/01/16_16:44:11: ohboyohboyohboy's score is: 97
+18/01/16_16:44:11: Tiles in pool: 23
+
+18/01/16_16:44:11: It is now bot's turn.
+
+18/01/16_16:44:11: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  .   .   .   .   .   .   .   Rd  Od  Gd  .   
+103  .   .   .   .   .   .   Os  .   .   .   .   .   .   .   Rx  Rc  .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:11: bot's score is: 94
+18/01/16_16:44:11: ohboyohboyohboy's score is: 97
+18/01/16_16:44:11: bot just made the following move: [[Px, 104, 98]]
+
+18/01/16_16:44:11: It is your turn!
+
+18/01/16_16:44:11: Hand: [Pc, Ys, Oo, Y*, Gs, O*]
+
+18/01/16_16:44:11: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  .   .   .   .   .   .   .   Rd  Od  Gd  .   
+103  .   .   .   .   .   O*  Os  .   .   .   .   .   .   .   Rx  Rc  .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:11: Hand: [Pc, Ys, Oo, Y*, Gs]
+
+18/01/16_16:44:11: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  .   .   .   .   .   .   .   Rd  Od  Gd  .   
+103  .   .   .   .   .   O*  Os  .   .   .   .   .   .   .   Rx  Rc  .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:11: bot's score is: 94
+18/01/16_16:44:11: ohboyohboyohboy's score is: 102
+18/01/16_16:44:11: Tiles in pool: 21
+
+18/01/16_16:44:11: It is now bot's turn.
+
+18/01/16_16:44:11: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  .   .   .   .   .   .   .   Rd  Od  Gd  .   
+103  .   .   .   .   .   O*  Os  .   .   .   .   .   .   .   Rx  Rc  .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   Ox  .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:11: bot's score is: 96
+18/01/16_16:44:11: ohboyohboyohboy's score is: 102
+18/01/16_16:44:11: bot just made the following move: [[Ox, 105, 98]]
+
+18/01/16_16:44:11: It is your turn!
+
+18/01/16_16:44:11: Hand: [Pc, Ys, Oo, Y*, Gs, Os]
+
+18/01/16_16:44:11: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  .   .   .   .   .   .   .   Rd  Od  Gd  .   
+103  .   .   .   .   .   O*  Os  .   .   .   .   .   .   .   Rx  Rc  .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:11: Hand: [Pc, Ys, Oo, Y*, Gs]
+
+18/01/16_16:44:11: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  .   .   .   .   .   .   .   Rd  Od  Gd  .   
+103  .   .   .   .   .   O*  Os  .   .   .   .   .   .   .   Rx  Rc  .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:11: bot's score is: 96
+18/01/16_16:44:11: ohboyohboyohboy's score is: 104
+18/01/16_16:44:11: Tiles in pool: 19
+
+18/01/16_16:44:11: It is now bot's turn.
+
+18/01/16_16:44:11: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  .   .   .   .   .   .   .   Rd  Od  Gd  .   
+103  .   .   .   .   .   O*  Os  .   .   .   .   .   .   .   Rx  Rc  .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   Gs  .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:11: bot's score is: 98
+18/01/16_16:44:11: ohboyohboyohboy's score is: 104
+18/01/16_16:44:11: bot just made the following move: [[Gs, 106, 97]]
+
+18/01/16_16:44:11: It is your turn!
+
+18/01/16_16:44:11: Hand: [Pc, Ys, Oo, Y*, Gs, Yd]
+
+18/01/16_16:44:12: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  .   .   .   .   .   .   .   Rd  Od  Gd  Yd  .   
+103  .   .   .   .   .   O*  Os  .   .   .   .   .   .   .   Rx  Rc  .   .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   Gs  .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:12: Hand: [Pc, Ys, Oo, Y*, Gs]
+
+18/01/16_16:44:12: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  .   .   .   .   .   .   .   Rd  Od  Gd  Yd  .   
+103  .   .   .   .   .   O*  Os  .   .   .   .   .   .   .   Rx  Rc  .   .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   Gs  .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:12: bot's score is: 98
+18/01/16_16:44:12: ohboyohboyohboy's score is: 108
+18/01/16_16:44:12: Tiles in pool: 17
+
+18/01/16_16:44:12: It is now bot's turn.
+
+18/01/16_16:44:12: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  .   .   .   .   .   .   .   Rd  Od  Gd  Yd  .   
+103  .   .   .   .   .   O*  Os  .   .   .   .   .   .   .   Rx  Rc  .   .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:12: bot's score is: 100
+18/01/16_16:44:12: ohboyohboyohboy's score is: 108
+18/01/16_16:44:12: bot just made the following move: [[Rs, 106, 96]]
+
+18/01/16_16:44:12: It is your turn!
+
+18/01/16_16:44:12: Hand: [Pc, Ys, Oo, Y*, Gs, Bc]
+
+18/01/16_16:44:12: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   
+103  .   .   .   .   .   O*  Os  .   .   .   .   .   .   .   Rx  Rc  .   .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:12: Hand: [Pc, Ys, Oo, Y*, Gs]
+
+18/01/16_16:44:12: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   
+103  .   .   .   .   .   O*  Os  .   .   .   .   .   .   .   Rx  Rc  .   .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:12: bot's score is: 100
+18/01/16_16:44:12: ohboyohboyohboy's score is: 112
+18/01/16_16:44:12: Tiles in pool: 15
+
+18/01/16_16:44:12: It is now bot's turn.
+
+18/01/16_16:44:12: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   
+103  .   .   .   .   .   O*  Os  .   .   .   .   .   .   .   Rx  Rc  .   .   Yc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:12: bot's score is: 102
+18/01/16_16:44:12: ohboyohboyohboy's score is: 112
+18/01/16_16:44:12: bot just made the following move: [[Yc, 103, 103]]
+
+18/01/16_16:44:12: It is your turn!
+
+18/01/16_16:44:12: Hand: [Pc, Ys, Oo, Y*, Gs, Y*]
+
+18/01/16_16:44:12: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   .   
+103  .   .   .   .   .   O*  Os  .   .   .   .   .   .   .   Rx  Rc  .   .   Yc  Y*  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:12: Hand: [Pc, Ys, Oo, Y*, Gs]
+
+18/01/16_16:44:12: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   .   
+103  .   .   .   .   .   O*  Os  .   .   .   .   .   .   .   Rx  Rc  .   .   Yc  Y*  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:12: bot's score is: 102
+18/01/16_16:44:12: ohboyohboyohboy's score is: 114
+18/01/16_16:44:12: Tiles in pool: 13
+
+18/01/16_16:44:12: It is now bot's turn.
+
+18/01/16_16:44:12: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   .   .   
+103  .   .   .   .   .   O*  Os  .   .   .   .   .   .   .   Rx  Rc  .   .   Yc  Y*  Yd  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:12: bot's score is: 105
+18/01/16_16:44:12: ohboyohboyohboy's score is: 114
+18/01/16_16:44:12: bot just made the following move: [[Yd, 103, 105]]
+
+18/01/16_16:44:12: It is your turn!
+
+18/01/16_16:44:12: Hand: [Pc, Ys, Oo, Y*, Gs, Bo]
+
+18/01/16_16:44:12: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   .   .   
+103  .   .   .   .   .   O*  Os  .   Bo  .   .   .   .   .   Rx  Rc  .   .   Yc  Y*  Yd  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:12: Hand: [Pc, Ys, Oo, Y*, Gs]
+
+18/01/16_16:44:12: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   .   .   
+103  .   .   .   .   .   O*  Os  .   Bo  .   .   .   .   .   Rx  Rc  .   .   Yc  Y*  Yd  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:12: bot's score is: 105
+18/01/16_16:44:12: ohboyohboyohboy's score is: 116
+18/01/16_16:44:12: Tiles in pool: 11
+
+18/01/16_16:44:12: It is now bot's turn.
+
+18/01/16_16:44:13: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   .   .   
+103  .   .   .   .   .   O*  Os  .   Bo  .   .   .   .   .   Rx  Rc  .   .   Yc  Y*  Yd  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   P*  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:13: bot's score is: 107
+18/01/16_16:44:13: ohboyohboyohboy's score is: 116
+18/01/16_16:44:13: bot just made the following move: [[P*, 104, 104]]
+
+18/01/16_16:44:13: It is your turn!
+
+18/01/16_16:44:13: Hand: [Pc, Ys, Oo, Y*, Gs, Ys]
+
+18/01/16_16:44:13: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   .   .   
+103  .   .   .   .   .   O*  Os  .   Bo  .   .   .   .   .   Rx  Rc  .   .   Yc  Y*  Yd  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   P*  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   Ys  .   .   .   .   .   .   .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:13: Hand: [Pc, Ys, Oo, Y*, Gs]
+
+18/01/16_16:44:13: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   .   .   
+103  .   .   .   .   .   O*  Os  .   Bo  .   .   .   .   .   Rx  Rc  .   .   Yc  Y*  Yd  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   P*  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   Ys  .   .   .   .   .   .   .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:13: bot's score is: 107
+18/01/16_16:44:13: ohboyohboyohboy's score is: 119
+18/01/16_16:44:13: Tiles in pool: 9
+
+18/01/16_16:44:13: It is now bot's turn.
+
+18/01/16_16:44:13: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   .   .   
+103  .   .   .   .   Oc  O*  Os  .   Bo  .   .   .   .   .   Rx  Rc  .   .   Yc  Y*  Yd  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   P*  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   Ys  .   .   .   .   .   .   .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:13: bot's score is: 110
+18/01/16_16:44:13: ohboyohboyohboy's score is: 119
+18/01/16_16:44:13: bot just made the following move: [[Oc, 103, 89]]
+
+18/01/16_16:44:13: It is your turn!
+
+18/01/16_16:44:13: Hand: [Pc, Ys, Oo, Y*, Gs, Ro]
+
+18/01/16_16:44:13: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   .   .   
+103  .   .   .   .   Oc  O*  Os  .   Bo  Ro  .   .   .   .   Rx  Rc  .   .   Yc  Y*  Yd  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   P*  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   Ys  .   .   .   .   .   .   .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:13: Hand: [Pc, Ys, Oo, Y*, Gs]
+
+18/01/16_16:44:13: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   .   .   
+103  .   .   .   .   Oc  O*  Os  .   Bo  Ro  .   .   .   .   Rx  Rc  .   .   Yc  Y*  Yd  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   P*  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   Ys  .   .   .   .   .   .   .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:13: bot's score is: 110
+18/01/16_16:44:13: ohboyohboyohboy's score is: 121
+18/01/16_16:44:13: Tiles in pool: 7
+
+18/01/16_16:44:13: It is now bot's turn.
+
+18/01/16_16:44:13: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   .   .   
+103  .   .   .   .   Oc  O*  Os  .   Bo  Ro  .   .   .   .   Rx  Rc  .   .   Yc  Y*  Yd  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   P*  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   Ys  Rs  .   .   .   .   .   .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:13: bot's score is: 112
+18/01/16_16:44:13: ohboyohboyohboy's score is: 121
+18/01/16_16:44:13: bot just made the following move: [[Rs, 107, 98]]
+
+18/01/16_16:44:13: It is your turn!
+
+18/01/16_16:44:13: Hand: [Pc, Ys, Oo, Y*, Gs, Rs]
+
+18/01/16_16:44:13: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   .   .   
+103  .   .   .   .   Oc  O*  Os  .   Bo  Ro  .   .   .   .   Rx  Rc  .   .   Yc  Y*  Yd  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   P*  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   Ys  Rs  .   .   .   .   .   .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   Rs  .   .   .   .   .   .   .   .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:13: Hand: [Pc, Ys, Oo, Y*, Gs]
+
+18/01/16_16:44:13: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   .   .   
+103  .   .   .   .   Oc  O*  Os  .   Bo  Ro  .   .   .   .   Rx  Rc  .   .   Yc  Y*  Yd  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   P*  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   Ys  Rs  .   .   .   .   .   .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   Rs  .   .   .   .   .   .   .   .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:13: bot's score is: 112
+18/01/16_16:44:13: ohboyohboyohboy's score is: 125
+18/01/16_16:44:13: Tiles in pool: 5
+
+18/01/16_16:44:13: It is now bot's turn.
+
+18/01/16_16:44:14: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   .   .   .   .   .   .   .   Gx  Rx  .   .   .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   .   .   
+103  .   .   .   .   Oc  O*  Os  .   Bo  Ro  .   .   .   .   Rx  Rc  .   .   Yc  Y*  Yd  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   P*  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   Ys  Rs  .   .   .   .   .   .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   Rs  Ps  .   .   .   .   .   .   .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:14: bot's score is: 116
+18/01/16_16:44:14: ohboyohboyohboy's score is: 125
+18/01/16_16:44:14: bot just made the following move: [[Ps, 108, 98]]
+
+18/01/16_16:44:14: It is your turn!
+
+18/01/16_16:44:14: Hand: [Pc, Ys, Oo, Y*, Gs, Ro]
+
+18/01/16_16:44:14: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   Ro  .   .   .   .   .   .   Gx  Rx  .   .   .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   .   .   
+103  .   .   .   .   Oc  O*  Os  .   Bo  Ro  .   .   .   .   Rx  Rc  .   .   Yc  Y*  Yd  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   P*  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   Ys  Rs  .   .   .   .   .   .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   Rs  Ps  .   .   .   .   .   .   .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:14: Hand: [Pc, Ys, Oo, Y*, Gs]
+
+18/01/16_16:44:14: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   Ro  .   .   .   .   .   .   Gx  Rx  .   .   .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   .   .   
+103  .   .   .   .   Oc  O*  Os  .   Bo  Ro  .   .   .   .   Rx  Rc  .   .   Yc  Y*  Yd  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   P*  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   Ys  Rs  .   .   .   .   .   .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   Rs  Ps  .   .   .   .   .   .   .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:14: bot's score is: 116
+18/01/16_16:44:14: ohboyohboyohboy's score is: 127
+18/01/16_16:44:14: Tiles in pool: 3
+
+18/01/16_16:44:14: It is now bot's turn.
+
+18/01/16_16:44:14: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   Ro  .   .   .   .   .   .   Gx  Rx  .   .   .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   .   .   
+103  .   .   .   .   Oc  O*  Os  .   Bo  Ro  .   .   .   .   Rx  Rc  .   .   Yc  Y*  Yd  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   P*  Pd  .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   Ys  Rs  .   .   .   .   .   .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   Rs  Ps  .   .   .   .   .   .   .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:14: bot's score is: 120
+18/01/16_16:44:14: ohboyohboyohboy's score is: 127
+18/01/16_16:44:14: bot just made the following move: [[Pd, 104, 105]]
+
+18/01/16_16:44:14: It is your turn!
+
+18/01/16_16:44:14: Hand: [Pc, Ys, Oo, Y*, Gs, Gx]
+
+18/01/16_16:44:14: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   Ro  .   .   .   .   .   .   Gx  Rx  .   Gx  .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   .   .   
+103  .   .   .   .   Oc  O*  Os  .   Bo  Ro  .   .   .   .   Rx  Rc  .   .   Yc  Y*  Yd  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   P*  Pd  .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   Ys  Rs  .   .   .   .   .   .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   Rs  Ps  .   .   .   .   .   .   .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:14: Hand: [Pc, Ys, Oo, Y*, Gs]
+
+18/01/16_16:44:14: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   Ro  .   .   .   .   .   .   Gx  Rx  .   Gx  .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   .   .   
+103  .   .   .   .   Oc  O*  Os  .   Bo  Ro  .   .   .   .   Rx  Rc  .   .   Yc  Y*  Yd  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   P*  Pd  .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   Ys  Rs  .   .   .   .   .   .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   Rs  Ps  .   .   .   .   .   .   .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:14: bot's score is: 120
+18/01/16_16:44:14: ohboyohboyohboy's score is: 129
+18/01/16_16:44:14: Tiles in pool: 1
+
+18/01/16_16:44:14: It is now bot's turn.
+
+18/01/16_16:44:14: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   Ro  .   .   .   .   .   .   Gx  Rx  .   Gx  .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   .   .   
+103  .   .   .   .   Oc  O*  Os  .   Bo  Ro  .   .   .   .   Rx  Rc  .   .   Yc  Y*  Yd  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   Px  Ox  .   .   .   .   P*  Pd  .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   Gd  .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   Ys  Rs  .   .   .   .   .   .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   Rs  Ps  .   .   .   .   .   .   .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:14: bot's score is: 123
+18/01/16_16:44:14: ohboyohboyohboy's score is: 129
+18/01/16_16:44:14: bot just made the following move: [[Gd, 105, 105]]
+
+18/01/16_16:44:14: It is your turn!
+
+18/01/16_16:44:14: Hand: [Pc, Ys, Oo, Y*, Gs, P*]
+
+18/01/16_16:44:14: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   Ro  .   .   .   .   .   .   Gx  Rx  .   Gx  .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   .   .   
+103  .   .   .   .   Oc  O*  Os  .   Bo  Ro  .   .   .   .   Rx  Rc  .   .   Yc  Y*  Yd  .   
+104  .   .   .   .   .   P*  .   .   .   .   .   .   .   Px  Ox  .   .   .   .   P*  Pd  .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   Gd  .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   Ys  Rs  .   .   .   .   .   .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   Rs  Ps  .   .   .   .   .   .   .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:14: Hand: [Pc, Ys, Oo, Y*, Gs]
+
+18/01/16_16:44:14: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+89  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bd  .   .   .   Ps  .   .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Rd  Gd  Od  .   Ps  Po  Px  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Oo  Yo  Po  .   Yx  Bx  .   .   .   .   .   .   .   .   
+93  .   .   .   .   .   .   Bs  B*  .   Yd  Pd  Bd  .   .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   P*  G*  Y*  .   Bo  Ro  Oo  Po  .   .   .   .   .   .   .   
+95  .   .   .   .   .   .   Gs  G*  Gx  .   Bc  B*  .   .   Pd  Pc  Px  .   .   .   .   .   
+96  .   .   .   .   .   O*  Os  .   Gc  Rc  Pc  Bc  Oc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   .   Rx  R*  .   .   .   R*  Rc  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   Ox  Yx  .   .   .   .   .   Gc  Go  .   .   .   .   .   .   .   .   .   .   
+99  .   Rd  Bd  Od  .   .   .   .   .   .   .   Yo  Yc  Ys  .   .   .   .   .   .   .   .   
+100  .   .   .   O*  Oc  .   .   .   .   .   .   .   Yo  Yc  Yx  .   .   .   .   .   .   .   
+101  .   .   .   .   Gc  G*  .   Ro  .   .   .   .   .   .   Gx  Rx  .   Gx  .   .   .   .   
+102  .   .   .   .   .   B*  Bs  Bo  Bc  .   .   .   .   .   .   Rd  Od  Gd  Yd  .   .   .   
+103  .   .   .   .   Oc  O*  Os  .   Bo  Ro  .   .   .   .   Rx  Rc  .   .   Yc  Y*  Yd  .   
+104  .   .   .   .   .   P*  .   .   .   .   .   .   .   Px  Ox  .   .   .   .   P*  Pd  .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Os  Ox  .   .   .   .   .   .   Gd  .   
+106  .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  .   .   .   .   .   .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   Ys  Rs  .   .   .   .   .   .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   Rs  Ps  .   .   .   .   .   .   .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:44:14: bot's score is: 123
+18/01/16_16:44:14: ohboyohboyohboy's score is: 133
+18/01/16_16:44:14: There are no tiles left in the pool.
+
+18/01/16_16:44:14: It is now bot's turn.
+
+18/01/16_16:45:54: Tiles in pool: 6
+
+18/01/16_16:45:55: bot IS KICKED FOR THE FOLLOWING REASON: Did not make a move in time
+
+18/01/16_16:45:55: ÏOException while reading from socket.

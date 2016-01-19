@@ -1,0 +1,84 @@
+19/01/16_14:41:51: 
+Checking host... 
+19/01/16_14:41:51: Host accepted.
+19/01/16_14:41:51: Checking port... 
+19/01/16_14:41:51: Port accepted.
+19/01/16_14:41:51: Creating client... 
+19/01/16_14:41:51: Client two created
+19/01/16_14:41:51: Starting client... 
+19/01/16_14:41:51: Client started.
+19/01/16_14:41:51: Sending registration message... 
+19/01/16_14:41:51: HELLO two
+19/01/16_14:41:51: Registration message send.
+19/01/16_14:41:51: Waiting for welcome message... 
+19/01/16_14:41:51: Welcome message received.
+
+19/01/16_14:41:51: Players participating: [Player 1: one, Player 2: two]
+
+19/01/16_14:41:51: AITime: 30000
+
+19/01/16_14:41:51: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   [35mC[0m   [36mC[0m   [33mC[0m   .   
+92  .   .   .   .   .   
+
+19/01/16_14:41:51: one's score is: 0
+19/01/16_14:41:51: two's score is: 3
+19/01/16_14:41:51: Tiles in pool: 93
+
+19/01/16_14:41:51: It is now one's turn.
+
+19/01/16_14:41:52: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   [35mC[0m   [36mC[0m   [33mC[0m   .   
+92  .   .   [37mC[0m   [36mC[0m   .   
+93  .   .   .   .   .   
+
+19/01/16_14:41:52: one's score is: 6
+19/01/16_14:41:52: two's score is: 3
+19/01/16_14:41:52: one just made the following move: [[Bs, 92, 92], [Ys, 92, 93]]
+
+19/01/16_14:41:52: It is your turn!
+
+19/01/16_14:41:52: Hand: [1: [36mD[0m, 2: [33mF[0m, 3: [37mA[0m, 4: [37mE[0m, 5: [35mB[0m, 6: [31mC[0m]
+
+19/01/16_14:41:52: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   [35mC[0m   [36mC[0m   [33mC[0m   .   
+92  .   [31mC[0m   [37mC[0m   [36mC[0m   .   
+93  .   .   .   .   .   
+
+19/01/16_14:41:52: Hand: [1: [36mD[0m, 2: [33mF[0m, 3: [37mA[0m, 4: [37mE[0m, 5: [35mB[0m]
+
+19/01/16_14:41:52: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   [35mC[0m   [36mC[0m   [33mC[0m   .   
+92  .   [31mC[0m   [37mC[0m   [36mC[0m   .   
+93  .   .   .   .   .   
+
+19/01/16_14:41:52: MOVE Rs 92 91 
+19/01/16_14:41:52: one's score is: 6
+19/01/16_14:41:52: two's score is: 8
+19/01/16_14:41:52: Tiles in pool: 90
+
+19/01/16_14:41:52: It is now one's turn.
+
+19/01/16_14:41:52: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   [35mC[0m   [36mC[0m   [33mC[0m   [31mC[0m   .   
+92  .   [31mC[0m   [37mC[0m   [36mC[0m   .   .   
+93  .   .   .   .   .   .   
+
+19/01/16_14:41:52: one's score is: 10
+19/01/16_14:41:52: two's score is: 8
+19/01/16_14:41:52: one just made the following move: [[Rs, 91, 94]]
+
+19/01/16_14:41:52: It is your turn!
+
+19/01/16_14:41:52: Hand: [1: [36mD[0m, 2: [33mF[0m, 3: [37mA[0m, 4: [37mE[0m, 5: [35mB[0m, 6: [33mF[0m]
+

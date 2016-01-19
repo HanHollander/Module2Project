@@ -1,0 +1,101 @@
+18/01/16_16:10:50: Welcome in Qwirkle
+18/01/16_16:10:50: (only characters a-z A-Z and 1 to 16 characters long)
+18/01/16_16:10:50: What is your name? 
+
+18/01/16_16:10:58: 
+Server IP-adress: 
+
+18/01/16_16:11:20: 
+Server port: 
+
+18/01/16_16:11:21: 
+Bot: 'b', Human: 'h'
+18/01/16_16:11:23: 
+Checking host... 
+18/01/16_16:11:23: Host accepted.
+18/01/16_16:11:23: Checking port... 
+18/01/16_16:11:23: Port accepted.
+18/01/16_16:11:23: Creating client... 
+18/01/16_16:11:23: Client han created
+18/01/16_16:11:23: Starting client... 
+18/01/16_16:11:23: Client started.
+18/01/16_16:11:23: Sending registration message... 
+18/01/16_16:11:23: Registration message send.
+18/01/16_16:11:23: Waiting for welcome message... 
+18/01/16_16:11:23: Welcome message received.
+
+18/01/16_16:11:46: Players participating: [Player 1: han, Player 2: localhost]
+
+18/01/16_16:11:46: AITime: 99999
+
+18/01/16_16:11:46: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   Ps  Pc  .   
+92  .   .   .   .   
+
+18/01/16_16:11:46: han's score is: 2
+18/01/16_16:11:46: localhost's score is: 0
+18/01/16_16:11:46: Tiles in pool: 94
+
+18/01/16_16:11:46: It is now localhost's turn.
+
+18/01/16_16:11:46: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   Ps  Pc  .   
+92  .   .   Rc  .   
+93  .   .   .   .   
+
+18/01/16_16:11:46: han's score is: 2
+18/01/16_16:11:46: localhost's score is: 2
+18/01/16_16:11:46: localhost just made the following move: [[Rc, 92, 92]]
+
+18/01/16_16:11:46: It is your turn!
+
+18/01/16_16:11:46: Hand: [Bx, Od, Yo, Rd, Ox, Po]
+
+18/01/16_16:11:46: Type of turn: ANY
+18/01/16_16:11:46: What is your action?
+18/01/16_16:12:08: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Ps  Pc  Po  .   
+92  .   .   Rc  .   .   
+93  .   .   .   .   .   
+
+18/01/16_16:12:08: Hand: [Bx, Od, Yo, Rd, Ox]
+
+18/01/16_16:12:08: Type of turn: MOVE
+18/01/16_16:12:08: What is your action?
+18/01/16_16:12:10: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Ps  Pc  Po  .   
+92  .   .   Rc  .   .   
+93  .   .   .   .   .   
+
+18/01/16_16:12:10: han's score is: 5
+18/01/16_16:12:10: localhost's score is: 2
+18/01/16_16:12:10: Tiles in pool: 92
+
+18/01/16_16:12:10: It is now localhost's turn.
+
+18/01/16_16:12:10: 
+XXX 90  91  92  93  94  
+89  .   .   .   .   .   
+90  .   .   .   Oo  .   
+91  .   Ps  Pc  Po  .   
+92  .   .   Rc  .   .   
+93  .   .   .   .   .   
+
+18/01/16_16:12:10: han's score is: 5
+18/01/16_16:12:10: localhost's score is: 4
+18/01/16_16:12:10: localhost just made the following move: [[Oo, 90, 93]]
+
+18/01/16_16:12:10: It is your turn!
+
+18/01/16_16:12:10: Hand: [Bx, Od, Yo, Rd, Ox, Go]
+
+18/01/16_16:12:10: Type of turn: ANY
+18/01/16_16:12:10: What is your action?

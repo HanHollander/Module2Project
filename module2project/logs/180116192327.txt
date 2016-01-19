@@ -1,0 +1,35 @@
+18/01/16_19:23:27: 
+Checking host... 
+18/01/16_19:23:27: Host accepted.
+18/01/16_19:23:27: Checking port... 
+18/01/16_19:23:27: Port accepted.
+18/01/16_19:23:27: Creating client... 
+18/01/16_19:23:27: Client bot created
+18/01/16_19:23:27: Starting client... 
+18/01/16_19:23:27: Client started.
+18/01/16_19:23:27: Sending registration message... 
+18/01/16_19:23:27: HELLO bot
+18/01/16_19:23:27: Registration message send.
+18/01/16_19:23:27: Waiting for welcome message... 
+18/01/16_19:23:27: Welcome message received.
+
+18/01/16_19:23:27: Players participating: [Player 1: human, Player 2: bot]
+
+18/01/16_19:23:27: AITime: 99999
+
+18/01/16_19:23:28: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Pc  Px  Ps  .   
+92  .   .   .   .   .   
+
+18/01/16_19:23:28: human's score is: 0
+18/01/16_19:23:28: bot's score is: 3
+18/01/16_19:23:28: Tiles in pool: 93
+
+18/01/16_19:23:28: It is now human's turn.
+
+18/01/16_19:24:32: Tiles in pool: 99
+
+18/01/16_19:24:32: human IS KICKED FOR THE FOLLOWING REASON: made a invalid turn
+

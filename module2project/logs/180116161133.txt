@@ -1,0 +1,109 @@
+18/01/16_16:11:33: Welcome in Qwirkle
+18/01/16_16:11:33: (only characters a-z A-Z and 1 to 16 characters long)
+18/01/16_16:11:33: What is your name? 
+
+18/01/16_16:11:38: 
+Server IP-adress: 
+
+18/01/16_16:11:40: 
+Server port: 
+
+18/01/16_16:11:44: 
+Bot: 'b', Human: 'h'
+18/01/16_16:11:46: 
+Checking host... 
+18/01/16_16:11:46: Host accepted.
+18/01/16_16:11:46: Checking port... 
+18/01/16_16:11:46: Port accepted.
+18/01/16_16:11:46: Creating client... 
+18/01/16_16:11:46: Client localhost created
+18/01/16_16:11:46: Starting client... 
+18/01/16_16:11:46: Client started.
+18/01/16_16:11:46: Sending registration message... 
+18/01/16_16:11:46: Registration message send.
+18/01/16_16:11:46: Waiting for welcome message... 
+18/01/16_16:11:46: Welcome message received.
+
+18/01/16_16:11:46: Players participating: [Player 1: han, Player 2: localhost]
+
+18/01/16_16:11:46: AITime: 99999
+
+18/01/16_16:11:46: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   Ps  Pc  .   
+92  .   .   .   .   
+
+18/01/16_16:11:46: han's score is: 2
+18/01/16_16:11:46: localhost's score is: 0
+18/01/16_16:11:46: han just made the following move: [[Ps, 91, 91], [Pc, 91, 92]]
+
+18/01/16_16:11:46: Tiles in pool: 94
+
+18/01/16_16:11:46: It is your turn!
+
+18/01/16_16:11:46: Hand: [Pd, O*, Px, Oo, Rc, B*]
+
+18/01/16_16:11:46: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   Ps  Pc  .   
+92  .   .   Rc  .   
+93  .   .   .   .   
+
+18/01/16_16:11:46: Hand: [Pd, O*, Px, Oo, Rc, B*]
+
+18/01/16_16:11:46: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   Ps  Pc  .   
+92  .   .   Rc  .   
+93  .   .   .   .   
+
+18/01/16_16:11:46: han's score is: 2
+18/01/16_16:11:46: localhost's score is: 2
+18/01/16_16:11:46: exceptions.HandIsFullException: Your hand is full.
+18/01/16_16:11:46: Tiles in pool: 93
+
+18/01/16_16:11:46: It is now han's turn.
+
+18/01/16_16:12:10: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Ps  Pc  Po  .   
+92  .   .   Rc  .   .   
+93  .   .   .   .   .   
+
+18/01/16_16:12:10: han's score is: 5
+18/01/16_16:12:10: localhost's score is: 2
+18/01/16_16:12:10: han just made the following move: [[Po, 91, 93]]
+
+18/01/16_16:12:10: It is your turn!
+
+18/01/16_16:12:10: Hand: [Pd, O*, Px, Oo, Rc, B*]
+
+18/01/16_16:12:10: 
+XXX 90  91  92  93  94  
+89  .   .   .   .   .   
+90  .   .   .   Oo  .   
+91  .   Ps  Pc  Po  .   
+92  .   .   Rc  .   .   
+93  .   .   .   .   .   
+
+18/01/16_16:12:10: Hand: [Pd, O*, Px, Oo, Rc, B*]
+
+18/01/16_16:12:10: 
+XXX 90  91  92  93  94  
+89  .   .   .   .   .   
+90  .   .   .   Oo  .   
+91  .   Ps  Pc  Po  .   
+92  .   .   Rc  .   .   
+93  .   .   .   .   .   
+
+18/01/16_16:12:10: han's score is: 5
+18/01/16_16:12:10: localhost's score is: 4
+18/01/16_16:12:10: exceptions.HandIsFullException: Your hand is full.
+18/01/16_16:12:10: Tiles in pool: 91
+
+18/01/16_16:12:10: It is now han's turn.
+

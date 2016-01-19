@@ -1,0 +1,376 @@
+18/01/16_17:19:50: 
+Checking host... 
+18/01/16_17:19:50: Host accepted.
+18/01/16_17:19:50: Checking port... 
+18/01/16_17:19:50: Port accepted.
+18/01/16_17:19:50: Creating client... 
+18/01/16_17:19:50: Client one created
+18/01/16_17:19:50: Starting client... 
+18/01/16_17:19:50: Client started.
+18/01/16_17:19:50: Sending registration message... 
+18/01/16_17:19:50: HELLO one
+18/01/16_17:19:50: Welcome message received.
+
+18/01/16_17:19:50: Players participating: [Player 1: two, Player 2: one]
+
+18/01/16_17:19:50: AITime: 30000
+
+18/01/16_17:19:50: Registration message send.
+18/01/16_17:19:51: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Rc  Ro  Rd  .   
+92  .   .   .   .   .   
+
+18/01/16_17:19:51: two's score is: 3
+18/01/16_17:19:51: one's score is: 0
+18/01/16_17:19:51: Waiting for welcome message... 
+18/01/16_17:19:51: Tiles in pool: 93
+
+18/01/16_17:19:51: It is now one's turn.
+
+18/01/16_17:19:51: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Rc  Ro  Rd  .   
+92  .   .   Yo  .   .   
+93  .   .   .   .   .   
+
+18/01/16_17:19:51: two's score is: 3
+18/01/16_17:19:51: one's score is: 2
+18/01/16_17:19:51: one just made the following move: [[Yo, 92, 92]]
+
+18/01/16_17:19:51: It is your turn!
+
+18/01/16_17:19:51: Hand: [Gs, G*, Oc, O*, Gc, Bc]
+
+18/01/16_17:19:51: 
+XXX 90  91  92  93  94  
+89  .   .   .   .   .   
+90  .   Bc  .   .   .   
+91  .   Rc  Ro  Rd  .   
+92  .   .   Yo  .   .   
+93  .   .   .   .   .   
+
+18/01/16_17:19:51: Hand: [Gs, G*, Oc, O*, G18/0118/01/16_17:19:51: 
+XXX 90  91  9218/01/16_17:19:51: It is now two's turn.
+
+18/01/16_17:19:51: 
+XXX 90  91  92  93  94  
+89  .   .   .   .   .   
+90  .   Bc  .   .   .   
+91  .   Rc  Ro  Rd  .   
+92  .   .   Yo  .   .   
+93  .   .   .   .   .   
+
+18/01/16_17:19:51: two's score is: 5
+18/01/16_17:19:51: one's score is: 2
+18/01/16_17:19:51: two just made the fol18/01/16_17:19:51: 
+XXX 89  90  91  92  93  94  
+89  .   .   .   .   .   .   
+90  .   B*  Bc  .   .   .   
+91  .   .   Rc  Ro  Rd  .   
+92  .   .   .   Yo  .   .   
+93  .   .   .   .   .   .   
+
+18/01/16_17:19:51: two's score is: 5
+18/01/16_17:19:51: one's score is: 4
+18/01/16_17:19:51: one just made the following move: [[B*, 90, 90]]
+
+18/01/16_17:19:51: It is your turn!
+
+18/01/16_17:19:51: Hand: [Gs, G*, Oc, O*, Gc, Od]
+
+18/01/16_17:19:51: 
+XXX 89  90  91  92  93  94  
+89  .   .   .   .   .   .   
+90  .   B*  Bc  .   Od  .   
+91  .   .   Rc  Ro  Rd  .   
+92  .   .   .   Yo  .   .  18/01/16_17:19:51: two's score is: 5
+18/01/16_17:19:52: one's score is: 4
+18/01/16_17:19:52: Tiles in pool: 90
+
+18/01/16_17:19:52: It is now two's turn.
+
+18/01/16_17:19:52: 
+XXX 89  90  91  92  93  94  
+89  .   .   .   .   .   .   
+90  .   B*  Bc  .   Od  .   
+91  .   .   Rc  Ro  Rd  .   
+92  .   .   .   Yo  .   .   
+93  .   .   .   .   .   .   
+
+18/01/16_17:19:52: two's score is: 7
+18/01/16_17:19:52: one's score is: 18/01/16_17:19:52: It is now one's turn.
+
+18/01/16_17:19:52: 
+XXX 89  90  91  92  93  94  
+88  .   .   .   .   .   .   
+89  .   Bc  .   .   .   .   
+90  .   B*  Bc  .   Od  .   
+91  .   .   Rc  Ro  Rd  .   
+92  .   .   .   Yo  .   .   
+93  .   .   .   .   .   .   
+
+18/01/16_17:19:52: two's score is: 7
+18/01/16_17:19:52: one's score is: 6
+18/01/16_17:19:52: one just made the following move: [[Bc, 89, 90]]
+
+18/01/16_17:19:52: It is your turn!
+
+18/01/16_17:19:52: Hand: [Gs, G*, Oc, O*, Gc, Rs]
+
+18/01/16_17:19:52: 
+XXX 89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   
+89  .   Bc  .   .   .   .   .   
+90  .   B*  Bc  .   Od  .   .   
+91  .   .   Rc  Ro  Rd  Rs  .   
+92  .  18/01/16_17:19:53: two's score is: 7
+18/01/16_17:19:53: one's score is: 6
+18/01/16_17:19:53: Tiles in pool: 88
+
+18/01/16_17:19:53: It is now two's turn.
+
+18/01/16_17:19:53: 
+XXX 89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   
+89  .   Bc  .   .   .   .   .   
+90  .   B*  Bc  .   Od  .   .   
+91  .   .   Rc  Ro  Rd  Rs  .   
+92  .   .   .   Yo  .   .   .   
+93  .   .   .   .   .   .   .   
+
+18/01/16_17:19:53: two's score is: 11
+18/01/16_17:19:53: one's score is: 6
+18/01/16_17:19:53: two just made the following move: [[Rs, 91, 94]]
+18/01/16_17:19:53: 
+XXX 89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   
+89  .   Bc  .   .   .   .   .   
+90  .   B*  Bc  .   Od  .   .   
+91  .   .   Rc  Ro  Rd  Rs  .   
+92  .   .   .   Yo  .   Ro  .   
+93  .   .   .   .   .   .   .   
+
+18/01/16_17:19:53: two's score is: 11
+18/01/16_17:19:53: one's score is: 8
+18/01/16_17:19:53: one just made the following move: [[Ro, 92, 94]]
+
+18/01/16_17:19:53: It is your turn!
+
+18/01/16_17:19:53: Hand: [Gs, G*, Oc, O*, Gc, Pd]
+
+18/01/16_17:19:53: 
+XXX 89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   
+89  .   Bc  .   .   Pd  .   .   
+90  .   B*  Bc  .   Od  .   .   
+91  .   .   Rc  Ro  Rd  Rs  .   
+92  .   .   .   Yo  .   Ro  .   
+93  .   .   .   .   .   .   .   
+
+18/01/16_17:19:18/01/16_17:19:53: Tiles in pool: 86
+
+18/01/16_17:19:53: It is now two's turn.
+
+18/01/16_17:19:53: 
+XXX 89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   
+89  .   Bc  .   .   Pd  .   .   
+90  .   B*  Bc  .   Od  .   .   
+91  .   .   Rc  Ro  Rd  Rs  .   
+92  .   .   .   Yo  .   Ro  .   
+93  .   .   .   .   .   .   .   
+
+18/01/16_17:19:53: two's score is: 14
+18/01/16_17:19:53: one's score is: 8
+18/01/16_17:19:53: two just made the following move: [[Pd, 89, 93]]
+18/01/16_17:19:53: 
+XXX 89  90  91  92  93  94  95  96  
+88  .   .   .   .   .   .   .   .   
+89  .   Bc  .   .   Pd  .   .   .   
+90  .   B*  Bc  .   Od  .   .   .   
+91  .   .   Rc  Ro  Rd  Rs  .   .   
+92  .   .   .   Yo  .   Ro  Bo  .   
+93  .   .   .   .   .   .   .   .   
+
+18/01/16_17:19:53: two's score is: 14
+18/01/16_17:19:53: one's score is: 10
+18/01/16_17:19:53: one just made the following move: [[Bo, 92, 95]]
+
+18/01/16_17:19:53: It is your turn!
+
+18/01/16_17:19:53: Hand: [Gs, G*, Oc, O*, Gc, Bx]
+
+18/01/16_17:19:53: 
+XXX 89  90  91  92  93  94  95  96  
+88  .   .   .   .   .   .   .   .   
+89  .   Bc  .   .   Pd  .   .   .   
+90  .   B*  Bc  .   Od  .   .   .   
+91  .   .   Rc  Ro  Rd  Rs  .   .   
+92  .   .   .   Yo  .   Ro  Bo  .   
+93  .   .   .   .   .   .   Bx  .   
+94  .   .   .   .18/01/16_17:19:53: Tiles in pool: 84
+
+18/01/16_17:19:53: It is now two's turn.
+
+18/01/16_17:19:53: 
+XXX 89  90  91  92  93  94  95  96  
+88  .   .   .   .   .   .   .   .   
+89  .   Bc  .   .   Pd  .   .   .   
+90  .   B*  Bc  .   Od  .   .   .   
+91  .   .   Rc  Ro  Rd  Rs  .   .   
+92  .   .   .   Yo  .   Ro  Bo  .   
+93  .   .   .   .   .   .   Bx  .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_17:19:53: two's score is: 16
+18/01/16_17:19:53: one's score is: 10
+18/01/16_17:19:53: two just made the following move: [[Bx, 93, 95]]
+
+18/01/16_17:19:53: It is your turn!18/01/16_17:19:53: 
+XXX 89  90  91  92  93  94  95  96  
+88  .   .   .   .   .   .   .   .   
+89  .   Bc  .   .   Pd  P*  .   .   
+90  .   B*  Bc  .   Od  .   .   .   
+91  .   .   Rc  Ro  Rd  Rs  .   .   
+92  .   .   .   Yo  .   Ro  Bo  .   
+93  .   .   .   .   .   .   Bx  .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_17:19:53: two's score is: 16
+18/01/16_17:19:53: one's score is: 12
+18/01/16_17:19:53: one just made the following move: [[P*, 89, 94]]
+
+18/01/16_17:19:53: It is your turn!
+
+18/01/16_17:19:53: Hand: [Gs, G*, Oc, O*, Gc, Gd]
+
+18/01/16_17:19:53: 
+XXX 89  90  91  92  93  94  95  96  
+87  .   .   .   .   .   .   .   .   
+88  .   .   .   .   Gd  .   .   .   
+89  .   Bc  .   .   Pd  P*  .   .   
+90  .   B*  Bc  .   Od  .   .   .   
+91  .   .   Rc  Ro  Rd  Rs  .   .   
+92  .   .   .   Yo  .   Ro  Bo  .   
+93  .   .   .   .   .   .   Bx  .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_17:19:53: Hand18/01/16_17:19:54: 
+XXX 89  90  91  92  93  94  95  96  
+87  .   .   .   .   .   .   .   .   
+88  .   .   .   .   Gd  .   .   .   
+89  .   Bc  .   .   Pd  P*  .   .   
+90  .   B*  Bc  .   Od  .   .   .   
+91  .   .   Rc  Ro  Rd  Rs  .   .   
+92  .   .   .   Yo  .   Ro  Bo  .   
+93  .   .   .   .   .   .   Bx  .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_17:19:54: two's score is: 20
+18/01/16_17:19:54: one's score is: 12
+18/01/16_17:19:54: two just made the following move: [[Gd, 88, 93]]
+
+18/01/16_17:19:54: It is your turn!
+
+18/01/16_17:19:54: Hand: [Ox, R*, 18/01/16_17:19:54: 
+XXX 89  90  91  92  93  94  95  96  
+87  .   .   .   .   .   .   .   .   
+88  .   .   .   .   Gd  .   .   .   
+89  .   Bc  Gc  .   Pd  P*  .   .   
+90  .   B*  Bc  .   Od  .   .   .   
+91  .   .   Rc  Ro  Rd  Rs  .   .   
+92  .   .   .   Yo  .   Ro  Bo  .   
+93  .   .   .   .   .   .   Bx  .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_17:19:54: two's score is: 20
+18/01/16_17:19:54: one's score is: 17
+18/01/16_17:19:54: one just made the following move: [[Gc, 89, 91]]
+
+18/01/16_17:19:54: It is your turn!
+
+18/01/16_17:19:54: Hand: [Gs, G*, Oc, O*, Gc, R*]
+
+18/01/16_17:19:54: 
+XXX 89  90  91  92  93  94  95  96  
+87  .   .   .   .   .   .   .   .   
+88  .   .   .   Gc  Gd  .   .   .   
+89  .   Bc  Gc  .   Pd  P*  .   .   
+90  .   B*  Bc  .   Od  .   .   .   
+91  .   .   Rc  Ro  Rd  Rs  .   .   
+92  .   .   .   Yo  .   Ro  Bo  .   
+93  .   .   .   .   .   .   Bx  .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_17:19:54: Hand18/01/16_17:19:54: 
+XXX 89  90  91  92  93  94  95  96  
+87  .   .   .   .   .   .   .   .   
+88  .   .   .   Gc  Gd  .   .   .   
+89  .   Bc  Gc  .   Pd  P*  .   .   
+90  .   B*  Bc  .   Od  .   .   .   
+91  .   .   Rc  Ro  Rd  Rs  .   .   
+92  .   .   .   Yo  .   Ro  Bo  .   
+93  .   .   .   .   .   .   Bx  .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_17:19:54: two's score is: 22
+18/01/16_17:19:54: one's score is: 17
+18/01/16_17:19:54: two just made the following move: [[Gc, 88, 92]]
+
+18/01/16_17:19:54: It is your turn!
+
+18/01/16_17:19:54: Hand: [Ox, R*, 18/01/16_17:19:54: 
+XXX 89  90  91  92  93  94  95  96  97  
+87  .   .   .   .   .   .   .   .   .   
+88  .   .   .   Gc  Gd  .   .   .   .   
+89  .   Bc  Gc  .   Pd  P*  .   .   .   
+90  .   B*  Bc  .   Od  .   .   .   .   
+91  .   .   Rc  Ro  Rd  Rs  .   .   .   
+92  .   .   .   Yo  .   Ro  Bo  .   .   
+93  .   .   .   .   .   .   Bx  Rx  .   
+94  .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:19:54: two's score is: 22
+18/01/16_17:19:54: one's score is: 19
+18/01/16_17:19:54: one just made the following move: [[Rx, 93, 96]]
+
+18/01/16_17:19:54: It is your turn!
+
+18/01/16_17:19:54: Hand: [Gs, G*, Oc, O*, R*, Po]
+
+18/01/16_17:19:54: 
+XXX 89  90  91  92  93  94  95  96  97  
+87  .   .   .   .   .   .   .   .   .   
+88  .   .   .   Gc  Gd  .   .   .   .   
+89  .   Bc  Gc  .   Pd  P*  .   .   .   
+90  .   B*  Bc  .   Od  .   .   .   .   
+91  .   .   Rc  Ro  Rd  Rs  .   .   .   
+92  .   .   .   Yo  .   Ro  Bo  .   .   
+93  .   .   .   Po  .   .18/01/16_17:19:54: Tiles in pool: 78
+
+18/01/16_17:19:54: It is now two's turn.
+
+18/01/16_17:19:54: 
+XXX 89  90  91  92  93  94  95  96  97  
+87  .   .   .   .   .   .   .   .   .   
+88  .   .   .   Gc  Gd  .   .   .   .   
+89  .   Bc  Gc  .   Pd  P*  .   .   .   
+90  .   B*  Bc  .   Od  .   .   .   .   
+91  .   .   Rc  Ro  Rd  Rs  .   .   .   
+92  .   .   .   Yo  .   Ro  Bo  .   .   
+93  .   .   .   Po  .   .   Bx  Rx  .   
+94  .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:19:54: two's score is: 25
+18/01/16_17:19:54: one's score is: 19
+18/01/16_17:19:54: two just made the following move: [[Po, 93, 92]]
+
+7:19:54: Tiles in pool: 77
+
+18/01/16_17:20:01: Tiles in pool: 83
+
+18/01/16_17:20:01: one IS KICKED FOR THE FOLLOWING REASON: lost connection
+

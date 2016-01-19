@@ -1,0 +1,58 @@
+18/01/16_17:21:08: 
+Checking host... 
+18/01/16_17:21:08: Host accepted.
+18/01/16_17:21:08: Checking port... 
+18/01/16_17:21:08: Port accepted.
+18/01/16_17:21:08: Creating client... 
+18/01/16_17:21:08: Client one created
+18/01/16_17:21:08: Starting client... 
+18/01/16_17:21:08: Client started.
+18/01/16_17:21:08: Sending registration message... 
+18/01/16_17:21:08: HELLO one
+18/01/16_17:21:09: Registration message send.
+18/01/16_17:21:09: Welcome message received.
+
+18/01/16_17:21:09: Waiting for welcome message... 
+18/01/16_17:21:09: Players participating: [Player 1: two, Player 2: one]
+
+18/01/16_17:21:09: AITime: 30000
+
+18/01/16_17:21:09: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Oc  O*  Oo  .   
+92  .   .   .   .   .   
+
+18/01/16_17:21:09: two's score is: 0
+18/01/16_17:21:09: one's score is: 3
+18/01/16_17:21:09: Tiles in pool: 93
+
+18/01/16_17:21:09: It is now two's turn.
+
+18/01/16_17:21:09: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   Oc  O*  Oo  Os  .   
+92  .   .   .   .   .   .   
+
+18/01/16_17:21:09: two's score is: 4
+18/01/16_17:21:09: one's score is: 3
+18/01/16_17:21:09: two just made the following move: [[Os, 91, 94]]
+
+8/01/16_17:21:08: Hand: [Yd, Oo, Go, Pc, P*]
+
+18/01/16_17:21:09: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   Oc  O*  Oo  Os  .   
+92  .   .   .   .   .   .   
+
+18/01/16_17:21:09: MOVE Os 91 94 
+18/01/16_17:21:09: two's score is: 4
+18/01/16_17:21:09: one's score is: 3
+18/01/16_17:21:09: Tiles in pool: 92
+
+18/01/16_17:21:15: Tiles in pool: 98
+
+18/01/16_17:21:15: one IS KICKED FOR THE FOLLOWING REASON: lost connection
+

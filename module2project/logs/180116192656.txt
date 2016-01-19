@@ -1,0 +1,74 @@
+18/01/16_19:26:56: 
+Checking host... 
+18/01/16_19:26:56: Host accepted.
+18/01/16_19:26:56: Checking port... 
+18/01/16_19:26:56: Port accepted.
+18/01/16_19:26:56: Creating client... 
+18/01/16_19:26:56: Client human created
+18/01/16_19:26:56: Starting client... 
+18/01/16_19:26:56: Client started.
+18/01/16_19:26:56: Sending registration message... 
+18/01/16_19:26:56: HELLO human
+18/01/16_19:26:56: Registration message send.
+18/01/16_19:26:56: Waiting for welcome message... 
+18/01/16_19:26:56: Welcome message received.
+
+18/01/16_19:26:57: Players participating: [Player 1: human, Player 2: bot]
+
+18/01/16_19:26:57: AITime: 99999
+
+18/01/16_19:26:58: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   Od  Ox  Ox  O*  .   
+92  .   .   .   .   .   .   
+
+18/01/16_19:26:58: human's score is: 4
+18/01/16_19:26:58: bot's score is: 0
+18/01/16_19:26:58: Tiles in pool: 92
+
+18/01/16_19:26:58: It is now bot's turn.
+
+18/01/16_19:26:58: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   Od  Ox  Ox  O*  .   
+92  .   Pd  .   .   .   .   
+93  .   .   .   .   .   .   
+
+18/01/16_19:26:58: human's score is: 4
+18/01/16_19:26:58: bot's score is: 2
+18/01/16_19:26:58: bot just made the following move: [[Pd, 92, 91]]
+
+18/01/16_19:26:58: It is your turn!
+
+18/01/16_19:26:58: Hand: [Px, G*, Gx, G*, Oc, Gd]
+
+18/01/16_19:26:58: Type of turn: ANY
+18/01/16_19:26:58: What is your action?
+18/01/16_19:27:07: exceptions.InvalidCommandException: Invalid command. Usage: [MOVE <tile> <row> <column>]
+18/01/16_19:27:07: Type of turn: ANY
+18/01/16_19:27:07: What is your action?
+18/01/16_19:27:17: exceptions.InvalidMoveException: Invalid move. The move can not be done on the current board.
+18/01/16_19:27:17: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   Od  Ox  Ox  O*  .   
+92  .   Pd  .   .   .   .   
+93  .   .   .   .   .   .   
+
+18/01/16_19:27:17: Hand: [Px, G*, Gx, G*, Oc, Gd]
+
+18/01/16_19:27:17: Type of turn: ANY
+18/01/16_19:27:17: What is your action?
+18/01/16_19:27:39: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   Od  Ox  Ox  O*  .   
+92  .   Pd  Px  .   .   .   
+93  .   .   .   .   .   .   
+
+18/01/16_19:27:39: Hand: [G*, Gx, G*, Oc, Gd]
+
+18/01/16_19:27:39: Type of turn: MOVE
+18/01/16_19:27:39: What is your action?

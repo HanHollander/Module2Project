@@ -1,0 +1,128 @@
+19/01/16_15:10:53: 
+Checking host... 
+19/01/16_15:10:53: Host accepted.
+19/01/16_15:10:53: Checking port... 
+19/01/16_15:10:53: Port accepted.
+19/01/16_15:10:53: Creating client... 
+19/01/16_15:10:53: Client human created
+19/01/16_15:10:53: Starting client... 
+19/01/16_15:10:53: Client started.
+19/01/16_15:10:53: Sending registration message... 
+19/01/16_15:10:53: HELLO human
+19/01/16_15:10:53: Registration message send.
+19/01/16_15:10:53: Welcome message received.
+
+19/01/16_15:10:53: Waiting for welcome message... 
+19/01/16_15:10:56: Players participating: [Player 1: human, Player 2: human]
+
+19/01/16_15:10:56: AITime: 99999
+
+19/01/16_15:10:56: u[2J
+19/01/16_15:10:56: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   [31mC[0m   [31mB[0m   [31mF[0m   [31mD[0m   .   
+92  .   .   .   .   .   .   
+
+19/01/16_15:10:56: human's score is: 4
+19/01/16_15:10:56: human's score is: 0
+19/01/16_15:10:56: Tiles in pool: 92
+
+19/01/16_15:10:56: It is now human's turn.
+
+19/01/16_15:11:03: human swapped.
+
+19/01/16_15:11:03: u[2J
+19/01/16_15:11:03: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   [31mC[0m   [31mB[0m   [31mF[0m   [31mD[0m   .   
+92  .   .   .   .   .   .   
+
+19/01/16_15:11:03: human's score is: 4
+19/01/16_15:11:03: human's score is: 0
+19/01/16_15:11:03: It is your turn!
+
+19/01/16_15:11:03: Hand: [1: [32mD[0m, 2: [36mA[0m, 3: [33mE[0m, 4: [37mC[0m, 5: [31mB[0m, 6: [37mE[0m]
+
+19/01/16_15:11:03: Type of turn: ANY
+19/01/16_15:11:03: What is your action?
+19/01/16_15:11:09: u[2J
+19/01/16_15:11:10: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   [31mC[0m   [31mB[0m   [31mF[0m   [31mD[0m   .   
+92  .   .   .   .   .   .   
+
+19/01/16_15:11:10: Hand: [1: [36mA[0m, 2: [33mE[0m, 3: [37mC[0m, 4: [31mB[0m, 5: [37mE[0m]
+
+19/01/16_15:11:10: Type of turn: SWAP
+19/01/16_15:11:10: What is your action?
+19/01/16_15:11:11: u[2J
+19/01/16_15:11:11: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   [31mC[0m   [31mB[0m   [31mF[0m   [31mD[0m   .   
+92  .   .   .   .   .   .   
+
+19/01/16_15:11:11: SWAP Gc 
+19/01/16_15:11:11: human's score is: 4
+19/01/16_15:11:11: human's score is: 0
+19/01/16_15:11:11: Tiles in pool: 92
+
+19/01/16_15:11:11: human swapped.
+
+19/01/16_15:11:11: It is now human's turn.
+
+19/01/16_15:11:28: u[2J
+19/01/16_15:11:28: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   [31mC[0m   [31mB[0m   [31mF[0m   [31mD[0m   .   
+92  .   .   .   .   [37mD[0m   .   
+93  .   .   .   .   .   .   
+
+19/01/16_15:11:28: human's score is: 4
+19/01/16_15:11:28: human's score is: 2
+19/01/16_15:11:28: human just made the following move: [[Bc, 92, 94]]
+
+19/01/16_15:11:28: It is your turn!
+
+19/01/16_15:11:28: Hand: [1: [36mA[0m, 2: [33mE[0m, 3: [37mC[0m, 4: [31mB[0m, 5: [37mE[0m, 6: [35mB[0m]
+
+19/01/16_15:11:28: Type of turn: ANY
+19/01/16_15:11:28: What is your action?
+19/01/16_15:11:44: exceptions.InvalidCommandException: Invalid command. Usage: [MOVE <tileNr> <row> <column>]
+19/01/16_15:11:44: Type of turn: ANY
+19/01/16_15:11:44: What is your action?
+19/01/16_15:11:54: u[2J
+19/01/16_15:11:54: 
+XXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+91  .   [31mC[0m   [31mB[0m   [31mF[0m   [31mD[0m   .   .   
+92  .   .   .   .   [37mD[0m   [37mC[0m   .   
+93  .   .   .   .   .   .   .   
+
+19/01/16_15:11:54: Hand: [1: [36mA[0m, 2: [33mE[0m, 3: [31mB[0m, 4: [37mE[0m, 5: [35mB[0m]
+
+19/01/16_15:11:54: Type of turn: MOVE
+19/01/16_15:11:54: What is your action?
+19/01/16_15:12:05: u[2J
+19/01/16_15:12:05: 
+XXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+91  .   [31mC[0m   [31mB[0m   [31mF[0m   [31mD[0m   .   .   
+92  .   .   .   .   [37mD[0m   [37mC[0m   .   
+93  .   .   .   .   .   .   .   
+
+19/01/16_15:12:05: MOVE Bs 92 95 
+19/01/16_15:12:05: human's score is: 6
+19/01/16_15:12:05: human's score is: 2
+19/01/16_15:12:05: Tiles in pool: 90
+
+19/01/16_15:12:05: It is now human's turn.
+
+19/01/16_15:12:35: Tiles in pool: 96
+
+19/01/16_15:12:35: human IS KICKED FOR THE FOLLOWING REASON: lost connection
+

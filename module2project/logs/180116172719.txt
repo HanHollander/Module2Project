@@ -1,0 +1,3770 @@
+18/01/16_17:27:19: 
+Checking host... 
+18/01/16_17:27:19: Host accepted.
+18/01/16_17:27:19: Checking port... 
+18/01/16_17:27:19: Port accepted.
+18/01/16_17:27:19: Creating client... 
+18/01/16_17:27:19: Client one created
+18/01/16_17:27:19: Starting client... 
+18/01/16_17:27:19: Client started.
+18/01/16_17:27:19: Sending registration message... 
+18/01/16_17:27:19: HELLO one
+18/01/16_17:27:19: Registration message send.
+18/01/16_17:27:19: Waiting for welcome message... 
+18/01/16_17:27:19: Welcome message received.
+
+18/01/16_17:27:20: Players participating: [Player 1: one, Player 2: two]
+
+18/01/16_17:27:20: AITime: 30000
+
+18/01/16_17:27:20: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   Yc  Yo  .   
+92  .   .   .   .   
+
+18/01/16_17:27:20: one's score is: 2
+18/01/16_17:27:20: two's score is: 0
+18/01/16_17:27:20: Tiles in pool: 94
+
+18/01/16_17:27:20: It is now two's turn.
+
+18/01/16_17:27:21: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   Yc  Yo  .   
+92  .   .   Ro  .   
+93  .   .   .   .   
+
+18/01/16_17:27:21: one's score is: 2
+18/01/16_17:27:21: two's score is: 2
+18/01/16_17:27:21: two just made the following move: [[Ro, 92, 92]]
+
+18/01/16_17:27:21: It is your turn!
+
+18/01/16_17:27:21: Hand: [Gs, Ox, Bx, Ro, Od, Yd]
+
+18/01/16_17:27:21: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Yc  Yo  Yd  .   
+92  .   .   Ro  .   .   
+93  .   .   .   .   .   
+
+18/01/16_17:27:21: Hand: [Gs, Ox, Bx, Ro, Od]
+
+18/01/16_17:27:21: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Yc  Yo  Yd  .   
+92  .   .   Ro  .   .   
+93  .   .   .   .   .   
+
+18/01/16_17:27:21: MOVE Yd 91 93 
+18/01/16_17:27:21: one's score is: 5
+18/01/16_17:27:21: two's score is: 2
+18/01/16_17:27:21: Tiles in pool: 92
+
+18/01/16_17:27:21: It is now two's turn.
+
+18/01/16_17:27:21: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Yc  Yo  Yd  .   
+92  .   .   Ro  .   .   
+93  .   .   Oo  .   .   
+94  .   .   .   .   .   
+
+18/01/16_17:27:21: one's score is: 5
+18/01/16_17:27:21: two's score is: 5
+18/01/16_17:27:21: two just made the following move: [[Oo, 93, 92]]
+
+18/01/16_17:27:21: It is your turn!
+
+18/01/16_17:27:21: Hand: [Gs, Ox, Bx, Ro, Od, Yc]
+
+18/01/16_17:27:21: 
+XXX 90  91  92  93  94  
+89  .   .   .   .   .   
+90  .   .   .   Yc  .   
+91  .   Yc  Yo  Yd  .   
+92  .   .   Ro  .   .   
+93  .   .   Oo  .   .   
+94  .   .   .   .   .   
+
+18/01/16_17:27:21: Hand: [Gs, Ox, Bx, Ro, Od]
+
+18/01/16_17:27:21: 
+XXX 90  91  92  93  94  
+89  .   .   .   .   .   
+90  .   .   .   Yc  .   
+91  .   Yc  Yo  Yd  .   
+92  .   .   Ro  .   .   
+93  .   .   Oo  .   .   
+94  .   .   .   .   .   
+
+18/01/16_17:27:21: MOVE Yc 90 93 
+18/01/16_17:27:21: one's score is: 7
+18/01/16_17:27:21: two's score is: 5
+18/01/16_17:27:21: Tiles in pool: 90
+
+18/01/16_17:27:21: It is now two's turn.
+
+18/01/16_17:27:21: 
+XXX 90  91  92  93  94  
+89  .   .   .   .   .   
+90  .   .   .   Yc  .   
+91  .   Yc  Yo  Yd  .   
+92  .   .   Ro  .   .   
+93  .   .   Oo  Yo  .   
+94  .   .   .   .   .   
+
+18/01/16_17:27:21: one's score is: 7
+18/01/16_17:27:21: two's score is: 7
+18/01/16_17:27:21: two just made the following move: [[Yo, 93, 93]]
+
+18/01/16_17:27:21: It is your turn!
+
+18/01/16_17:27:21: Hand: [Gs, Ox, Bx, Ro, Od, O*]
+
+18/01/16_17:27:21: 
+XXX 90  91  92  93  94  95  
+89  .   .   .   .   .   .   
+90  .   .   .   Yc  .   .   
+91  .   Yc  Yo  Yd  .   .   
+92  .   .   Ro  .   .   .   
+93  .   .   Oo  Yo  Ro  .   
+94  .   .   .   .   .   .   
+
+18/01/16_17:27:21: Hand: [Gs, Ox, Bx, Od, O*]
+
+18/01/16_17:27:21: 
+XXX 90  91  92  93  94  95  
+89  .   .   .   .   .   .   
+90  .   .   .   Yc  .   .   
+91  .   Yc  Yo  Yd  .   .   
+92  .   .   Ro  .   .   .   
+93  .   .   Oo  Yo  Ro  .   
+94  .   .   .   .   .   .   
+
+18/01/16_17:27:21: MOVE Ro 93 94 
+18/01/16_17:27:21: one's score is: 10
+18/01/16_17:27:21: two's score is: 7
+18/01/16_17:27:21: Tiles in pool: 88
+
+18/01/16_17:27:22: It is now two's turn.
+
+18/01/16_17:27:22: 
+XXX 90  91  92  93  94  95  
+89  .   .   .   .   .   .   
+90  .   .   .   Yc  .   .   
+91  .   Yc  Yo  Yd  .   .   
+92  .   .   Ro  .   .   .   
+93  .   .   Oo  Yo  Ro  .   
+94  .   .   .   Yd  .   .   
+95  .   .   .   .   .   .   
+
+18/01/16_17:27:22: one's score is: 10
+18/01/16_17:27:22: two's score is: 9
+18/01/16_17:27:22: two just made the following move: [[Yd, 94, 93]]
+
+18/01/16_17:27:22: It is your turn!
+
+18/01/16_17:27:22: Hand: [Gs, Ox, Bx, Od, O*, Bo]
+
+18/01/16_17:27:22: 
+XXX 90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   
+90  .   .   .   Yc  .   .   .   
+91  .   Yc  Yo  Yd  .   .   .   
+92  .   .   Ro  .   .   .   .   
+93  .   .   Oo  Yo  Ro  Bo  .   
+94  .   .   .   Yd  .   .   .   
+95  .   .   .   .   .   .   .   
+
+18/01/16_17:27:22: Hand: [Gs, Ox, Bx, Od, O*]
+
+18/01/16_17:27:22: 
+XXX 90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   
+90  .   .   .   Yc  .   .   .   
+91  .   Yc  Yo  Yd  .   .   .   
+92  .   .   Ro  .   .   .   .   
+93  .   .   Oo  Yo  Ro  Bo  .   
+94  .   .   .   Yd  .   .   .   
+95  .   .   .   .   .   .   .   
+
+18/01/16_17:27:22: MOVE Bo 93 95 
+18/01/16_17:27:22: one's score is: 14
+18/01/16_17:27:22: two's score is: 9
+18/01/16_17:27:22: Tiles in pool: 86
+
+18/01/16_17:27:22: It is now two's turn.
+
+18/01/16_17:27:22: 
+XXX 90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   
+90  .   .   .   Yc  .   .   .   .   
+91  .   Yc  Yo  Yd  .   .   .   .   
+92  .   .   Ro  .   .   .   .   .   
+93  .   .   Oo  Yo  Ro  Bo  Po  .   
+94  .   .   .   Yd  .   .   .   .   
+95  .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:22: one's score is: 14
+18/01/16_17:27:22: two's score is: 14
+18/01/16_17:27:22: two just made the following move: [[Po, 93, 96]]
+
+18/01/16_17:27:22: It is your turn!
+
+18/01/16_17:27:22: Hand: [Gs, Ox, Bx, Od, O*, B*]
+
+18/01/16_17:27:22: 
+XXX 90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   
+90  .   .   .   Yc  .   .   .   .   
+91  .   Yc  Yo  Yd  .   .   .   .   
+92  .   .   Ro  .   .   .   .   .   
+93  .   .   Oo  Yo  Ro  Bo  Po  .   
+94  .   .   .   Yd  .   B*  .   .   
+95  .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:22: Hand: [Gs, Ox, Bx, Od, O*]
+
+18/01/16_17:27:22: 
+XXX 90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   
+90  .   .   .   Yc  .   .   .   .   
+91  .   Yc  Yo  Yd  .   .   .   .   
+92  .   .   Ro  .   .   .   .   .   
+93  .   .   Oo  Yo  Ro  Bo  Po  .   
+94  .   .   .   Yd  .   B*  .   .   
+95  .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:22: MOVE B* 94 95 
+18/01/16_17:27:22: one's score is: 16
+18/01/16_17:27:22: two's score is: 14
+18/01/16_17:27:22: Tiles in pool: 84
+
+18/01/16_17:27:22: It is now two's turn.
+
+18/01/16_17:27:22: 
+XXX 90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   
+90  .   .   .   Yc  .   .   .   .   
+91  .   Yc  Yo  Yd  .   .   .   .   
+92  .   .   Ro  .   Rc  .   .   .   
+93  .   .   Oo  Yo  Ro  Bo  Po  .   
+94  .   .   .   Yd  .   B*  .   .   
+95  .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:22: one's score is: 16
+18/01/16_17:27:22: two's score is: 16
+18/01/16_17:27:22: two just made the following move: [[Rc, 92, 94]]
+
+18/01/16_17:27:22: It is your turn!
+
+18/01/16_17:27:22: Hand: [Gs, Ox, Bx, Od, O*, Rs]
+
+18/01/16_17:27:22: 
+XXX 90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   
+90  .   .   .   Yc  .   .   .   .   
+91  .   Yc  Yo  Yd  .   .   .   .   
+92  .   .   Ro  .   Rc  .   .   .   
+93  .   .   Oo  Yo  Ro  Bo  Po  .   
+94  .   .   .   Yd  .   B*  .   .   
+95  .   .   .   .   .   Bx  .   .   
+96  .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:22: Hand: [Gs, Ox, Od, O*, Rs]
+
+18/01/16_17:27:22: 
+XXX 90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   
+90  .   .   .   Yc  .   .   .   .   
+91  .   Yc  Yo  Yd  .   .   .   .   
+92  .   .   Ro  .   Rc  .   .   .   
+93  .   .   Oo  Yo  Ro  Bo  Po  .   
+94  .   .   .   Yd  .   B*  .   .   
+95  .   .   .   .   .   Bx  .   .   
+96  .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:22: MOVE Bx 95 95 
+18/01/16_17:27:22: one's score is: 19
+18/01/16_17:27:22: two's score is: 16
+18/01/16_17:27:22: Tiles in pool: 82
+
+18/01/16_17:27:22: It is now two's turn.
+
+18/01/16_17:27:22: 
+XXX 90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   
+90  .   .   .   Yc  .   .   .   .   
+91  .   Yc  Yo  Yd  .   .   .   .   
+92  .   .   Ro  .   Rc  .   .   .   
+93  .   .   Oo  Yo  Ro  Bo  Po  .   
+94  .   .   .   Yd  .   B*  P*  .   
+95  .   .   .   .   .   Bx  .   .   
+96  .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:22: one's score is: 19
+18/01/16_17:27:22: two's score is: 20
+18/01/16_17:27:22: two just made the following move: [[P*, 94, 96]]
+
+18/01/16_17:27:22: It is your turn!
+
+18/01/16_17:27:22: Hand: [Gs, Ox, Od, O*, Rs, Rc]
+
+18/01/16_17:27:22: 
+XXX 90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   
+90  .   .   .   Yc  .   .   .   .   
+91  .   Yc  Yo  Yd  .   .   .   .   
+92  .   Rc  Ro  .   Rc  .   .   .   
+93  .   .   Oo  Yo  Ro  Bo  Po  .   
+94  .   .   .   Yd  .   B*  P*  .   
+95  .   .   .   .   .   Bx  .   .   
+96  .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:22: Hand: [Gs, Ox, Od, O*, Rs]
+
+18/01/16_17:27:23: 
+XXX 90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   
+90  .   .   .   Yc  .   .   .   .   
+91  .   Yc  Yo  Yd  .   .   .   .   
+92  .   Rc  Ro  .   Rc  .   .   .   
+93  .   .   Oo  Yo  Ro  Bo  Po  .   
+94  .   .   .   Yd  .   B*  P*  .   
+95  .   .   .   .   .   Bx  .   .   
+96  .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:23: MOVE Rc 92 91 
+18/01/16_17:27:23: one's score is: 23
+18/01/16_17:27:23: two's score is: 20
+18/01/16_17:27:23: Tiles in pool: 80
+
+18/01/16_17:27:23: It is now two's turn.
+
+18/01/16_17:27:23: 
+XXX 90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   
+90  .   .   .   Yc  .   .   .   .   
+91  .   Yc  Yo  Yd  .   .   .   .   
+92  .   Rc  Ro  .   Rc  .   Ps  .   
+93  .   .   Oo  Yo  Ro  Bo  Po  .   
+94  .   .   .   Yd  .   B*  P*  .   
+95  .   .   .   .   .   Bx  .   .   
+96  .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:23: one's score is: 23
+18/01/16_17:27:23: two's score is: 23
+18/01/16_17:27:23: two just made the following move: [[Ps, 92, 96]]
+
+18/01/16_17:27:23: It is your turn!
+
+18/01/16_17:27:23: Hand: [Gs, Ox, Od, O*, Rs, Rc]
+
+18/01/16_17:27:23: 
+XXX 90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   
+90  .   .   .   Yc  Rc  .   .   .   
+91  .   Yc  Yo  Yd  .   .   .   .   
+92  .   Rc  Ro  .   Rc  .   Ps  .   
+93  .   .   Oo  Yo  Ro  Bo  Po  .   
+94  .   .   .   Yd  .   B*  P*  .   
+95  .   .   .   .   .   Bx  .   .   
+96  .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:23: Hand: [Gs, Ox, Od, O*, Rs]
+
+18/01/16_17:27:23: 
+XXX 90  91  92  93  94  95  96  97  
+89  .   .   .   .   .   .   .   .   
+90  .   .   .   Yc  Rc  .   .   .   
+91  .   Yc  Yo  Yd  .   .   .   .   
+92  .   Rc  Ro  .   Rc  .   Ps  .   
+93  .   .   Oo  Yo  Ro  Bo  Po  .   
+94  .   .   .   Yd  .   B*  P*  .   
+95  .   .   .   .   .   Bx  .   .   
+96  .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:23: MOVE Rc 90 94 
+18/01/16_17:27:23: one's score is: 25
+18/01/16_17:27:23: two's score is: 23
+18/01/16_17:27:23: Tiles in pool: 78
+
+18/01/16_17:27:23: It is now two's turn.
+
+18/01/16_17:27:23: 
+XXX 90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   Yc  Rc  .   .   .   .   
+91  .   Yc  Yo  Yd  .   .   .   .   .   
+92  .   Rc  Ro  .   Rc  .   Ps  Rs  .   
+93  .   .   Oo  Yo  Ro  Bo  Po  .   .   
+94  .   .   .   Yd  .   B*  P*  .   .   
+95  .   .   .   .   .   Bx  .   .   .   
+96  .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:23: one's score is: 25
+18/01/16_17:27:23: two's score is: 25
+18/01/16_17:27:23: two just made the following move: [[Rs, 92, 97]]
+
+18/01/16_17:27:23: It is your turn!
+
+18/01/16_17:27:23: Hand: [Gs, Ox, Od, O*, Rs, Bs]
+
+18/01/16_17:27:23: 
+XXX 90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   Yc  Rc  .   .   .   .   
+91  .   Yc  Yo  Yd  .   .   .   .   .   
+92  .   Rc  Ro  .   Rc  .   Ps  Rs  .   
+93  .   .   Oo  Yo  Ro  Bo  Po  .   .   
+94  .   .   .   Yd  .   B*  P*  .   .   
+95  .   .   .   .   Bs  Bx  .   .   .   
+96  .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:23: Hand: [Gs, Ox, Od, O*, Rs]
+
+18/01/16_17:27:23: 
+XXX 90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   Yc  Rc  .   .   .   .   
+91  .   Yc  Yo  Yd  .   .   .   .   .   
+92  .   Rc  Ro  .   Rc  .   Ps  Rs  .   
+93  .   .   Oo  Yo  Ro  Bo  Po  .   .   
+94  .   .   .   Yd  .   B*  P*  .   .   
+95  .   .   .   .   Bs  Bx  .   .   .   
+96  .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:23: MOVE Bs 95 94 
+18/01/16_17:27:23: one's score is: 27
+18/01/16_17:27:23: two's score is: 25
+18/01/16_17:27:23: Tiles in pool: 76
+
+18/01/16_17:27:23: It is now two's turn.
+
+18/01/16_17:27:23: 
+XXX 90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   Yc  Rc  .   .   .   .   
+91  .   Yc  Yo  Yd  .   .   Px  .   .   
+92  .   Rc  Ro  .   Rc  .   Ps  Rs  .   
+93  .   .   Oo  Yo  Ro  Bo  Po  .   .   
+94  .   .   .   Yd  .   B*  P*  .   .   
+95  .   .   .   .   Bs  Bx  .   .   .   
+96  .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:23: one's score is: 27
+18/01/16_17:27:23: two's score is: 29
+18/01/16_17:27:23: two just made the following move: [[Px, 91, 96]]
+
+18/01/16_17:27:24: It is your turn!
+
+18/01/16_17:27:24: Hand: [Gs, Ox, Od, O*, Rs, Gd]
+
+18/01/16_17:27:24: 
+XXX 90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   Yc  Rc  .   .   .   .   
+91  .   Yc  Yo  Yd  .   .   Px  .   .   
+92  .   Rc  Ro  .   Rc  .   Ps  Rs  .   
+93  .   .   Oo  Yo  Ro  Bo  Po  .   .   
+94  .   .   .   Yd  .   B*  P*  .   .   
+95  .   .   .   .   Bs  Bx  .   .   .   
+96  .   .   .   .   Rs  .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:24: Hand: [Gs, Ox, Od, O*, Gd]
+
+18/01/16_17:27:24: 
+XXX 90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   
+90  .   .   .   Yc  Rc  .   .   .   .   
+91  .   Yc  Yo  Yd  .   .   Px  .   .   
+92  .   Rc  Ro  .   Rc  .   Ps  Rs  .   
+93  .   .   Oo  Yo  Ro  Bo  Po  .   .   
+94  .   .   .   Yd  .   B*  P*  .   .   
+95  .   .   .   .   Bs  Bx  .   .   .   
+96  .   .   .   .   Rs  .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:24: MOVE Rs 96 94 
+18/01/16_17:27:24: one's score is: 29
+18/01/16_17:27:24: two's score is: 29
+18/01/16_17:27:24: Tiles in pool: 74
+
+18/01/16_17:27:24: It is now two's turn.
+
+18/01/16_17:27:24: 
+XXX 90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   
+90  .   Bc  .   Yc  Rc  .   .   .   .   
+91  .   Yc  Yo  Yd  .   .   Px  .   .   
+92  .   Rc  Ro  .   Rc  .   Ps  Rs  .   
+93  .   .   Oo  Yo  Ro  Bo  Po  .   .   
+94  .   .   .   Yd  .   B*  P*  .   .   
+95  .   .   .   .   Bs  Bx  .   .   .   
+96  .   .   .   .   Rs  .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:24: one's score is: 29
+18/01/16_17:27:24: two's score is: 32
+18/01/16_17:27:24: two just made the following move: [[Bc, 90, 91]]
+
+18/01/16_17:27:24: It is your turn!
+
+18/01/16_17:27:24: Hand: [Gs, Ox, Od, O*, Gd, Gx]
+
+18/01/16_17:27:24: 
+XXX 90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   
+90  .   Bc  .   Yc  Rc  .   .   .   .   
+91  .   Yc  Yo  Yd  .   Gx  Px  .   .   
+92  .   Rc  Ro  .   Rc  .   Ps  Rs  .   
+93  .   .   Oo  Yo  Ro  Bo  Po  .   .   
+94  .   .   .   Yd  .   B*  P*  .   .   
+95  .   .   .   .   Bs  Bx  .   .   .   
+96  .   .   .   .   Rs  .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:24: Hand: [Gs, Ox, Od, O*, Gd]
+
+18/01/16_17:27:24: 
+XXX 90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   
+90  .   Bc  .   Yc  Rc  .   .   .   .   
+91  .   Yc  Yo  Yd  .   Gx  Px  .   .   
+92  .   Rc  Ro  .   Rc  .   Ps  Rs  .   
+93  .   .   Oo  Yo  Ro  Bo  Po  .   .   
+94  .   .   .   Yd  .   B*  P*  .   .   
+95  .   .   .   .   Bs  Bx  .   .   .   
+96  .   .   .   .   Rs  .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:24: MOVE Gx 91 95 
+18/01/16_17:27:24: one's score is: 31
+18/01/16_17:27:24: two's score is: 32
+18/01/16_17:27:24: Tiles in pool: 72
+
+18/01/16_17:27:24: It is now two's turn.
+
+18/01/16_17:27:24: 
+XXX 90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   
+90  .   Bc  .   Yc  Rc  .   .   .   .   
+91  .   Yc  Yo  Yd  .   Gx  Px  .   .   
+92  .   Rc  Ro  .   Rc  .   Ps  Rs  .   
+93  .   .   Oo  Yo  Ro  Bo  Po  .   .   
+94  .   .   .   Yd  .   B*  P*  G*  .   
+95  .   .   .   .   Bs  Bx  .   .   .   
+96  .   .   .   .   Rs  .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:24: one's score is: 31
+18/01/16_17:27:24: two's score is: 35
+18/01/16_17:27:24: two just made the following move: [[G*, 94, 97]]
+
+18/01/16_17:27:24: It is your turn!
+
+18/01/16_17:27:24: Hand: [Gs, Ox, Od, O*, Gd, Od]
+
+18/01/16_17:27:24: 
+XXX 90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   
+90  .   Bc  .   Yc  Rc  .   .   .   .   
+91  .   Yc  Yo  Yd  .   Gx  Px  .   .   
+92  .   Rc  Ro  .   Rc  .   Ps  Rs  .   
+93  .   .   Oo  Yo  Ro  Bo  Po  .   .   
+94  .   .   .   Yd  .   B*  P*  G*  .   
+95  .   .   .   .   Bs  Bx  .   Gd  .   
+96  .   .   .   .   Rs  .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:24: Hand: [Gs, Ox, Od, O*, Od]
+
+18/01/16_17:27:24: 
+XXX 90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   
+90  .   Bc  .   Yc  Rc  .   .   .   .   
+91  .   Yc  Yo  Yd  .   Gx  Px  .   .   
+92  .   Rc  Ro  .   Rc  .   Ps  Rs  .   
+93  .   .   Oo  Yo  Ro  Bo  Po  .   .   
+94  .   .   .   Yd  .   B*  P*  G*  .   
+95  .   .   .   .   Bs  Bx  .   Gd  .   
+96  .   .   .   .   Rs  .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:24: MOVE Gd 95 97 
+18/01/16_17:27:24: one's score is: 33
+18/01/16_17:27:24: two's score is: 35
+18/01/16_17:27:24: Tiles in pool: 70
+
+18/01/16_17:27:24: It is now two's turn.
+
+18/01/16_17:27:24: 
+XXX 89  90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  .   
+96  .   .   .   .   .   Rs  .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:24: one's score is: 33
+18/01/16_17:27:24: two's score is: 37
+18/01/16_17:27:24: two just made the following move: [[Bo, 90, 90]]
+
+18/01/16_17:27:24: It is your turn!
+
+18/01/16_17:27:24: Hand: [Gs, Ox, Od, O*, Od, Rx]
+
+18/01/16_17:27:24: 
+XXX 89  90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  .   
+96  .   .   .   .   Rx  Rs  .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:24: Hand: [Gs, Ox, Od, O*, Od]
+
+18/01/16_17:27:24: 
+XXX 89  90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  .   
+96  .   .   .   .   Rx  Rs  .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:24: MOVE Rx 96 93 
+18/01/16_17:27:24: one's score is: 35
+18/01/16_17:27:24: two's score is: 37
+18/01/16_17:27:24: Tiles in pool: 68
+
+18/01/16_17:27:24: It is now two's turn.
+
+18/01/16_17:27:24: 
+XXX 89  90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  .   
+96  .   .   .   .   Rx  Rs  .   .   .   .   
+97  .   .   .   .   .   Ps  .   .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:24: one's score is: 35
+18/01/16_17:27:24: two's score is: 40
+18/01/16_17:27:24: two just made the following move: [[Ps, 97, 94]]
+
+18/01/16_17:27:24: It is your turn!
+
+18/01/16_17:27:24: Hand: [Gs, Ox, Od, O*, Od, Pd]
+
+18/01/16_17:27:24: 
+XXX 89  90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  .   
+96  .   .   .   .   Rx  Rs  .   .   .   .   
+97  .   .   .   .   .   Ps  Pd  .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:24: Hand: [Gs, Ox, Od, O*, Od]
+
+18/01/16_17:27:24: 
+XXX 89  90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  .   
+96  .   .   .   .   Rx  Rs  .   .   .   .   
+97  .   .   .   .   .   Ps  Pd  .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:24: MOVE Pd 97 95 
+18/01/16_17:27:24: one's score is: 37
+18/01/16_17:27:24: two's score is: 40
+18/01/16_17:27:24: Tiles in pool: 66
+
+18/01/16_17:27:24: It is now two's turn.
+
+18/01/16_17:27:24: 
+XXX 89  90  91  92  93  94  95  96  97  98  
+89  .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  .   
+96  .   .   .   .   Rx  Rs  .   .   .   .   
+97  .   .   .   .   .   Ps  Pd  .   .   .   
+98  .   .   .   .   .   .   Gd  .   .   .   
+99  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:24: one's score is: 37
+18/01/16_17:27:24: two's score is: 42
+18/01/16_17:27:24: two just made the following move: [[Gd, 98, 95]]
+
+18/01/16_17:27:24: It is your turn!
+
+18/01/16_17:27:24: Hand: [Gs, Ox, Od, O*, Od, Oc]
+
+18/01/16_17:27:24: 
+XXX 89  90  91  92  93  94  95  96  97  98  
+88  .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  .   
+96  .   .   .   .   Rx  Rs  .   .   .   .   
+97  .   .   .   .   .   Ps  Pd  .   .   .   
+98  .   .   .   .   .   .   Gd  .   .   .   
+99  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:24: Hand: [Gs, Ox, Od, O*, Od]
+
+18/01/16_17:27:24: 
+XXX 89  90  91  92  93  94  95  96  97  98  
+88  .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  .   
+96  .   .   .   .   Rx  Rs  .   .   .   .   
+97  .   .   .   .   .   Ps  Pd  .   .   .   
+98  .   .   .   .   .   .   Gd  .   .   .   
+99  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:24: MOVE Oc 89 94 
+18/01/16_17:27:24: one's score is: 39
+18/01/16_17:27:24: two's score is: 42
+18/01/16_17:27:24: Tiles in pool: 64
+
+18/01/16_17:27:24: It is now two's turn.
+
+18/01/16_17:27:24: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+88  .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  .   .   
+96  .   .   .   .   Rx  Rs  .   .   .   .   .   
+97  .   .   .   .   .   Ps  Pd  .   .   .   .   
+98  .   .   .   .   .   .   Gd  .   .   .   .   
+99  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:24: one's score is: 39
+18/01/16_17:27:24: two's score is: 45
+18/01/16_17:27:24: two just made the following move: [[Os, 92, 98]]
+
+18/01/16_17:27:24: It is your turn!
+
+18/01/16_17:27:24: Hand: [Gs, Ox, Od, O*, Od, Rd]
+
+18/01/16_17:27:24: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+88  .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  .   .   
+96  .   .   .   .   Rx  Rs  .   .   .   .   .   
+97  .   .   .   .   .   Ps  Pd  .   .   .   .   
+98  .   .   .   .   .   .   Gd  Rd  .   .   .   
+99  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:24: Hand: [Gs, Ox, Od, O*, Od]
+
+18/01/16_17:27:24: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+88  .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  .   .   
+96  .   .   .   .   Rx  Rs  .   .   .   .   .   
+97  .   .   .   .   .   Ps  Pd  .   .   .   .   
+98  .   .   .   .   .   .   Gd  Rd  .   .   .   
+99  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:24: MOVE Rd 98 96 
+18/01/16_17:27:24: one's score is: 41
+18/01/16_17:27:24: two's score is: 45
+18/01/16_17:27:24: Tiles in pool: 62
+
+18/01/16_17:27:24: It is now two's turn.
+
+18/01/16_17:27:24: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+88  .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  .   .   
+96  .   .   .   .   Rx  Rs  .   .   .   .   .   
+97  .   .   .   .   .   Ps  Pd  .   .   .   .   
+98  .   .   .   .   .   .   Gd  Rd  .   .   .   
+99  .   .   .   .   .   .   .   Gd  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:24: one's score is: 41
+18/01/16_17:27:24: two's score is: 47
+18/01/16_17:27:24: two just made the following move: [[Gd, 99, 96]]
+
+18/01/16_17:27:24: It is your turn!
+
+18/01/16_17:27:24: Hand: [Gs, Ox, Od, O*, Od, Rx]
+
+18/01/16_17:27:25: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+88  .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  .   .   
+96  .   .   .   .   Rx  Rs  .   .   .   .   .   
+97  .   .   .   .   .   Ps  Pd  .   .   .   .   
+98  .   .   .   .   .   .   Gd  Rd  .   .   .   
+99  .   .   .   .   .   .   .   Gd  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:25: Hand: [Gs, Ox, Od, O*, Od]
+
+18/01/16_17:27:25: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+88  .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  .   .   
+96  .   .   .   .   Rx  Rs  .   .   .   .   .   
+97  .   .   .   .   .   Ps  Pd  .   .   .   .   
+98  .   .   .   .   .   .   Gd  Rd  .   .   .   
+99  .   .   .   .   .   .   .   Gd  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:25: MOVE Rx 91 97 
+18/01/16_17:27:25: one's score is: 46
+18/01/16_17:27:25: two's score is: 47
+18/01/16_17:27:25: Tiles in pool: 60
+
+18/01/16_17:27:25: It is now two's turn.
+
+18/01/16_17:27:25: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+88  .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  .   .   
+96  .   .   .   .   Rx  Rs  .   .   .   .   .   
+97  .   .   .   .   .   Ps  Pd  .   .   .   .   
+98  .   .   .   .   .   .   Gd  Rd  .   .   .   
+99  .   .   .   .   .   .   .   Gd  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:25: one's score is: 46
+18/01/16_17:27:25: two's score is: 49
+18/01/16_17:27:25: two just made the following move: [[Yc, 89, 95]]
+
+18/01/16_17:27:25: It is your turn!
+
+18/01/16_17:27:25: Hand: [Gs, Ox, Od, O*, Od, Pd]
+
+18/01/16_17:27:25: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+88  .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  .   .   
+96  .   .   .   .   Rx  Rs  .   .   .   .   .   
+97  .   .   .   .   .   Ps  Pd  .   .   .   .   
+98  .   .   .   .   .   .   Gd  Rd  .   .   .   
+99  .   .   .   .   .   .   .   Gd  Pd  .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:25: Hand: [Gs, Ox, Od, O*, Od]
+
+18/01/16_17:27:25: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+88  .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  .   .   
+96  .   .   .   .   Rx  Rs  .   .   .   .   .   
+97  .   .   .   .   .   Ps  Pd  .   .   .   .   
+98  .   .   .   .   .   .   Gd  Rd  .   .   .   
+99  .   .   .   .   .   .   .   Gd  Pd  .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:25: MOVE Pd 99 97 
+18/01/16_17:27:25: one's score is: 48
+18/01/16_17:27:25: two's score is: 49
+18/01/16_17:27:25: Tiles in pool: 58
+
+18/01/16_17:27:25: It is now two's turn.
+
+18/01/16_17:27:25: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+88  .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  .   
+96  .   .   .   .   Rx  Rs  .   .   .   .   .   
+97  .   .   .   .   .   Ps  Pd  .   .   .   .   
+98  .   .   .   .   .   .   Gd  Rd  .   .   .   
+99  .   .   .   .   .   .   .   Gd  Pd  .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:25: one's score is: 48
+18/01/16_17:27:25: two's score is: 51
+18/01/16_17:27:25: two just made the following move: [[Go, 95, 98]]
+
+18/01/16_17:27:25: It is your turn!
+
+18/01/16_17:27:25: Hand: [Gs, Ox, Od, O*, Od, R*]
+
+18/01/16_17:27:25: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+88  .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  .   
+96  .   .   .   R*  Rx  Rs  .   .   .   .   .   
+97  .   .   .   .   .   Ps  Pd  .   .   .   .   
+98  .   .   .   .   .   .   Gd  Rd  .   .   .   
+99  .   .   .   .   .   .   .   Gd  Pd  .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:25: Hand: [Gs, Ox, Od, O*, Od]
+
+18/01/16_17:27:25: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+88  .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  .   
+96  .   .   .   R*  Rx  Rs  .   .   .   .   .   
+97  .   .   .   .   .   Ps  Pd  .   .   .   .   
+98  .   .   .   .   .   .   Gd  Rd  .   .   .   
+99  .   .   .   .   .   .   .   Gd  Pd  .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:25: MOVE R* 96 92 
+18/01/16_17:27:25: one's score is: 51
+18/01/16_17:27:25: two's score is: 51
+18/01/16_17:27:25: Tiles in pool: 56
+
+18/01/16_17:27:25: It is now two's turn.
+
+18/01/16_17:27:25: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+88  .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   .   
+97  .   .   .   .   .   Ps  Pd  .   .   .   .   
+98  .   .   .   .   .   .   Gd  Rd  .   .   .   
+99  .   .   .   .   .   .   .   Gd  Pd  .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:25: one's score is: 51
+18/01/16_17:27:25: two's score is: 55
+18/01/16_17:27:25: two just made the following move: [[Ro, 96, 91]]
+
+18/01/16_17:27:25: It is your turn!
+
+18/01/16_17:27:25: Hand: [Gs, Ox, Od, O*, Od, Y*]
+
+18/01/16_17:27:25: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+88  .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   
+98  .   .   .   .   .   .   Gd  Rd  .   .   .   
+99  .   .   .   .   .   .   .   Gd  Pd  .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:25: Hand: [Gs, Ox, Od, O*, Od]
+
+18/01/16_17:27:25: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+88  .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   
+98  .   .   .   .   .   .   Gd  Rd  .   .   .   
+99  .   .   .   .   .   .   .   Gd  Pd  .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:25: MOVE Y* 97 92 
+18/01/16_17:27:25: one's score is: 53
+18/01/16_17:27:25: two's score is: 55
+18/01/16_17:27:25: Tiles in pool: 54
+
+18/01/16_17:27:25: It is now two's turn.
+
+18/01/16_17:27:25: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+88  .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   
+98  .   .   .   .   .   .   Gd  Rd  .   .   .   
+99  .   .   .   .   .   .   .   Gd  Pd  .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:25: one's score is: 53
+18/01/16_17:27:25: two's score is: 57
+18/01/16_17:27:25: two just made the following move: [[Ox, 93, 98]]
+
+18/01/16_17:27:25: It is your turn!
+
+18/01/16_17:27:25: Hand: [Gs, Ox, Od, O*, Od, B*]
+
+18/01/16_17:27:25: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+88  .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   
+98  .   .   .   B*  .   .   Gd  Rd  .   .   .   
+99  .   .   .   .   .   .   .   Gd  Pd  .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:25: Hand: [Gs, Ox, Od, O*, Od]
+
+18/01/16_17:27:25: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+88  .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   
+98  .   .   .   B*  .   .   Gd  Rd  .   .   .   
+99  .   .   .   .   .   .   .   Gd  Pd  .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:25: MOVE B* 98 92 
+18/01/16_17:27:25: one's score is: 56
+18/01/16_17:27:25: two's score is: 57
+18/01/16_17:27:25: Tiles in pool: 52
+
+18/01/16_17:27:25: It is now two's turn.
+
+18/01/16_17:27:25: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  
+88  .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   
+98  .   .   .   B*  .   .   Gd  Rd  .   .   .   
+99  .   .   .   .   .   .   .   Gd  Pd  .   .   
+100  .   .   .   .   .   .   .   .   Po  .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:25: one's score is: 56
+18/01/16_17:27:25: two's score is: 59
+18/01/16_17:27:25: two just made the following move: [[Po, 100, 97]]
+
+18/01/16_17:27:25: It is your turn!
+
+18/01/16_17:27:25: Hand: [Gs, Ox, Od, O*, Od, Yx]
+
+18/01/16_17:27:25: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  
+88  .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   
+98  .   .   .   B*  .   .   Gd  Rd  .   .   .   .   
+99  .   .   .   .   .   .   .   Gd  Pd  .   .   .   
+100  .   .   .   .   .   .   .   .   Po  .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:25: Hand: [Gs, Ox, Od, O*, Od]
+
+18/01/16_17:27:25: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  
+88  .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   
+98  .   .   .   B*  .   .   Gd  Rd  .   .   .   .   
+99  .   .   .   .   .   .   .   Gd  Pd  .   .   .   
+100  .   .   .   .   .   .   .   .   Po  .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:25: MOVE Yx 93 99 
+18/01/16_17:27:25: one's score is: 58
+18/01/16_17:27:25: two's score is: 59
+18/01/16_17:27:25: Tiles in pool: 50
+
+18/01/16_17:27:25: It is now two's turn.
+
+18/01/16_17:27:25: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  
+88  .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   
+99  .   .   .   .   .   .   .   Gd  Pd  .   .   .   
+100  .   .   .   .   .   .   .   .   Po  .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:25: one's score is: 58
+18/01/16_17:27:25: two's score is: 61
+18/01/16_17:27:25: two just made the following move: [[R*, 98, 93]]
+
+18/01/16_17:27:25: It is your turn!
+
+18/01/16_17:27:25: Hand: [Gs, Ox, Od, O*, Od, Gc]
+
+18/01/16_17:27:25: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  
+88  .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  Gc  .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   
+99  .   .   .   .   .   .   .   Gd  Pd  .   .   .   
+100  .   .   .   .   .   .   .   .   Po  .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:25: Hand: [Gs, Ox, Od, O*, Od]
+
+18/01/16_17:27:25: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  
+88  .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  Gc  .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   
+99  .   .   .   .   .   .   .   Gd  Pd  .   .   .   
+100  .   .   .   .   .   .   .   .   Po  .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:25: MOVE Gc 95 99 
+18/01/16_17:27:25: one's score is: 61
+18/01/16_17:27:25: two's score is: 61
+18/01/16_17:27:25: Tiles in pool: 48
+
+18/01/16_17:27:25: It is now two's turn.
+
+18/01/16_17:27:25: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  
+88  .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  Gc  .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   
+99  .   .   .   .   .   .   .   Gd  Pd  .   .   .   
+100  .   .   .   .   .   .   .   .   Po  Px  .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:25: one's score is: 61
+18/01/16_17:27:25: two's score is: 63
+18/01/16_17:27:25: two just made the following move: [[Px, 100, 98]]
+
+18/01/16_17:27:25: It is your turn!
+
+18/01/16_17:27:25: Hand: [Gs, Ox, Od, O*, Od, Gx]
+
+18/01/16_17:27:25: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  
+88  .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  Gc  .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   
+99  .   .   .   .   .   .   .   Gd  Pd  .   .   .   
+100  .   .   .   .   .   .   .   .   Po  Px  .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:25: Hand: [Gs, Ox, Od, O*, Od]
+
+18/01/16_17:27:26: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  
+88  .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  Gc  .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   
+99  .   .   .   .   .   .   .   Gd  Pd  .   .   .   
+100  .   .   .   .   .   .   .   .   Po  Px  .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:26: MOVE Gx 101 98 
+18/01/16_17:27:26: one's score is: 63
+18/01/16_17:27:26: two's score is: 63
+18/01/16_17:27:26: Tiles in pool: 46
+
+18/01/16_17:27:26: It is now two's turn.
+
+18/01/16_17:27:26: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  
+88  .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  Gc  .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   
+99  .   .   .   .   .   .   .   Gd  Pd  .   .   .   
+100  .   .   .   .   .   .   .   .   Po  Px  .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:26: one's score is: 63
+18/01/16_17:27:26: two's score is: 65
+18/01/16_17:27:26: two just made the following move: [[G*, 101, 99]]
+
+18/01/16_17:27:26: It is your turn!
+
+18/01/16_17:27:26: Hand: [Gs, Ox, Od, O*, Od, Od]
+
+18/01/16_17:27:26: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  
+88  .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  Gc  .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   
+99  .   .   .   .   .   .   Od  Gd  Pd  .   .   .   
+100  .   .   .   .   .   .   .   .   Po  Px  .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:26: Hand: [Gs, Ox, Od, O*, Od]
+
+18/01/16_17:27:26: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  
+88  .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  Gc  .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   
+99  .   .   .   .   .   .   Od  Gd  Pd  .   .   .   
+100  .   .   .   .   .   .   .   .   Po  Px  .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:26: MOVE Od 99 95 
+18/01/16_17:27:26: one's score is: 69
+18/01/16_17:27:26: two's score is: 65
+18/01/16_17:27:26: Tiles in pool: 44
+
+18/01/16_17:27:26: It is now two's turn.
+
+18/01/16_17:27:26: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  Gc  .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   
+99  .   .   .   .   .   .   Od  Gd  Pd  .   .   .   .   
+100  .   .   .   .   .   .   .   .   Po  Px  .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:26: one's score is: 69
+18/01/16_17:27:26: two's score is: 68
+18/01/16_17:27:26: two just made the following move: [[Go, 101, 100]]
+
+18/01/16_17:27:26: It is your turn!
+
+18/01/16_17:27:26: Hand: [Gs, Ox, Od, O*, Od, Y*]
+
+18/01/16_17:27:26: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  Gc  .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   
+99  .   .   .   .   .   .   Od  Gd  Pd  .   .   .   .   
+100  .   .   .   .   .   .   .   .   Po  Px  .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:26: Hand: [Gs, Ox, Od, O*, Od]
+
+18/01/16_17:27:26: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  Gc  .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   
+99  .   .   .   .   .   .   Od  Gd  Pd  .   .   .   .   
+100  .   .   .   .   .   .   .   .   Po  Px  .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:26: MOVE Y* 102 99 
+18/01/16_17:27:26: one's score is: 71
+18/01/16_17:27:26: two's score is: 68
+18/01/16_17:27:26: Tiles in pool: 42
+
+18/01/16_17:27:26: It is now two's turn.
+
+18/01/16_17:27:26: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   
+99  .   .   .   .   .   .   Od  Gd  Pd  .   .   .   .   .   
+100  .   .   .   .   .   .   .   .   Po  Px  .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:26: one's score is: 71
+18/01/16_17:27:26: two's score is: 72
+18/01/16_17:27:26: two just made the following move: [[Gs, 101, 101]]
+
+18/01/16_17:27:26: It is your turn!
+
+18/01/16_17:27:26: Hand: [Gs, Ox, Od, O*, Od, Rd]
+
+18/01/16_17:27:26: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   .   .   .   
+100  .   .   .   .   .   .   .   .   Po  Px  .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:26: Hand: [Gs, Ox, Od, O*, Od]
+
+18/01/16_17:27:26: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   .   .   .   
+100  .   .   .   .   .   .   .   .   Po  Px  .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:26: MOVE Rd 99 94 
+18/01/16_17:27:26: one's score is: 75
+18/01/16_17:27:26: two's score is: 72
+18/01/16_17:27:26: Tiles in pool: 40
+
+18/01/16_17:27:26: It is now two's turn.
+
+18/01/16_17:27:26: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   .   .   .   
+100  .   .   .   .   .   .   Bd  .   Po  Px  .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:26: one's score is: 75
+18/01/16_17:27:26: two's score is: 76
+18/01/16_17:27:26: two just made the following move: [[Bd, 100, 95]]
+
+18/01/16_17:27:26: It is your turn!
+
+18/01/16_17:27:26: Hand: [Gs, Ox, Od, O*, Od, Pc]
+
+18/01/16_17:27:26: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   .   .   .   
+100  .   .   .   .   .   .   Bd  .   Po  Px  .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:26: Hand: [Gs, Ox, Od, O*, Od]
+
+18/01/16_17:27:26: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   .   .   .   
+100  .   .   .   .   .   .   Bd  .   Po  Px  .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:26: MOVE Pc 96 99 
+18/01/16_17:27:26: one's score is: 77
+18/01/16_17:27:26: two's score is: 76
+18/01/16_17:27:26: Tiles in pool: 38
+
+18/01/16_17:27:26: It is now two's turn.
+
+18/01/16_17:27:26: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   .   .   .   
+100  .   .   .   .   .   .   Bd  .   Po  Px  .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:26: one's score is: 77
+18/01/16_17:27:26: two's score is: 81
+18/01/16_17:27:26: two just made the following move: [[Pc, 90, 96]]
+
+18/01/16_17:27:26: It is your turn!
+
+18/01/16_17:27:26: Hand: [Gs, Ox, Od, O*, Od, Os]
+
+18/01/16_17:27:26: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   .   .   .   
+100  .   .   .   .   .   .   Bd  .   Po  Px  .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:26: Hand: [Gs, Ox, Od, O*, Od]
+
+18/01/16_17:27:26: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   
+95  .   .   .   .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   .   .   .   
+100  .   .   .   .   .   .   Bd  .   Po  Px  .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:26: MOVE Os 102 101 
+18/01/16_17:27:26: one's score is: 79
+18/01/16_17:27:26: two's score is: 81
+18/01/16_17:27:26: Tiles in pool: 36
+
+18/01/16_17:27:26: It is now two's turn.
+
+18/01/16_17:27:26: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   .   .   .   
+100  .   .   .   .   .   .   Bd  .   Po  Px  .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:26: one's score is: 79
+18/01/16_17:27:26: two's score is: 83
+18/01/16_17:27:26: two just made the following move: [[Go, 95, 91]]
+
+18/01/16_17:27:26: It is your turn!
+
+18/01/16_17:27:26: Hand: [Gs, Ox, Od, O*, Od, Bo]
+
+18/01/16_17:27:27: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   .   .   .   
+100  .   .   .   .   .   .   Bd  .   Po  Px  .   Bo  .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:27: Hand: [Gs, Ox, Od, O*, Od]
+
+18/01/16_17:27:27: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   .   .   .   
+100  .   .   .   .   .   .   Bd  .   Po  Px  .   Bo  .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:27: MOVE Bo 100 100 
+18/01/16_17:27:27: one's score is: 81
+18/01/16_17:27:27: two's score is: 83
+18/01/16_17:27:27: Tiles in pool: 34
+
+18/01/16_17:27:27: It is now two's turn.
+
+18/01/16_17:27:27: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   .   .   .   
+100  .   .   .   .   .   .   Bd  .   Po  Px  .   Bo  .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  .   
+103  .   .   .   .   .   .   .   .   .   .   P*  .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:27: one's score is: 81
+18/01/16_17:27:27: two's score is: 86
+18/01/16_17:27:27: two just made the following move: [[P*, 103, 99]]
+
+18/01/16_17:27:27: It is your turn!
+
+18/01/16_17:27:27: Hand: [Gs, Ox, Od, O*, Od, Bs]
+
+18/01/16_17:27:27: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   .   .   .   .   
+100  .   .   .   .   .   .   Bd  .   Po  Px  .   Bo  .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   
+103  .   .   .   .   .   .   .   .   .   .   P*  .   .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:27: Hand: [Gs, Ox, Od, O*, Od]
+
+18/01/16_17:27:27: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   .   .   .   .   
+100  .   .   .   .   .   .   Bd  .   Po  Px  .   Bo  .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   
+103  .   .   .   .   .   .   .   .   .   .   P*  .   .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:27: MOVE Bs 102 102 
+18/01/16_17:27:27: one's score is: 83
+18/01/16_17:27:27: two's score is: 86
+18/01/16_17:27:27: Tiles in pool: 32
+
+18/01/16_17:27:27: It is now two's turn.
+
+18/01/16_17:27:27: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   .   .   .   .   
+100  .   .   .   .   .   .   Bd  .   Po  Px  .   Bo  .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   
+103  .   .   .   .   .   .   .   .   .   .   P*  G*  .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:27: one's score is: 83
+18/01/16_17:27:27: two's score is: 88
+18/01/16_17:27:27: two just made the following move: [[G*, 103, 100]]
+
+18/01/16_17:27:27: It is your turn!
+
+18/01/16_17:27:27: Hand: [Gs, Ox, Od, O*, Od, Y*]
+
+18/01/16_17:27:27: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   .   .   .   .   
+100  .   .   .   .   .   .   Bd  .   Po  Px  .   Bo  .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   
+103  .   .   .   .   .   .   .   .   .   .   P*  G*  .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   Y*  .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:27: Hand: [Gs, Ox, Od, O*, Od]
+
+18/01/16_17:27:27: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   .   .   .   .   
+100  .   .   .   .   .   .   Bd  .   Po  Px  .   Bo  .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   
+103  .   .   .   .   .   .   .   .   .   .   P*  G*  .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   Y*  .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:27: MOVE Y* 104 100 
+18/01/16_17:27:27: one's score is: 85
+18/01/16_17:27:27: two's score is: 88
+18/01/16_17:27:27: Tiles in pool: 30
+
+18/01/16_17:27:27: It is now two's turn.
+
+18/01/16_17:27:27: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   .   .   .   .   
+100  .   .   .   .   .   .   Bd  .   Po  Px  .   Bo  .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   
+103  .   .   .   .   .   .   .   .   .   .   P*  G*  .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:27: one's score is: 85
+18/01/16_17:27:27: two's score is: 90
+18/01/16_17:27:27: two just made the following move: [[Ys, 104, 101]]
+
+18/01/16_17:27:27: It is your turn!
+
+18/01/16_17:27:27: Hand: [Gs, Ox, Od, O*, Od, Ox]
+
+18/01/16_17:27:27: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   
+103  .   .   .   .   .   .   .   .   .   .   P*  G*  .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:27: Hand: [Gs, Ox, Od, O*, Ox]
+
+18/01/16_17:27:27: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   
+103  .   .   .   .   .   .   .   .   .   .   P*  G*  .   .   .   
+104  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:27: MOVE Od 100 94 
+18/01/16_17:27:27: one's score is: 89
+18/01/16_17:27:27: two's score is: 90
+18/01/16_17:27:27: Tiles in pool: 28
+
+18/01/16_17:27:27: It is now two's turn.
+
+18/01/16_17:27:27: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   
+103  .   .   .   .   .   .   .   .   .   .   P*  G*  .   Bc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:27: one's score is: 89
+18/01/16_17:27:27: two's score is: 92
+18/01/16_17:27:27: two just made the following move: [[Bc, 103, 102]]
+
+18/01/16_17:27:27: It is your turn!
+
+18/01/16_17:27:27: Hand: [Gs, Ox, Od, O*, Ox, Oo]
+
+18/01/16_17:27:27: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   
+103  .   .   .   .   .   .   .   .   .   .   P*  G*  .   Bc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:27: Hand: [Gs, Ox, Od, O*, Ox]
+
+18/01/16_17:27:27: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   
+103  .   .   .   .   .   .   .   .   .   .   P*  G*  .   Bc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:27: MOVE Oo 99 100 
+18/01/16_17:27:27: one's score is: 92
+18/01/16_17:27:27: two's score is: 92
+18/01/16_17:27:27: Tiles in pool: 26
+
+18/01/16_17:27:27: It is now two's turn.
+
+18/01/16_17:27:27: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   
+103  .   .   .   .   .   .   .   .   .   .   P*  G*  .   Bc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Ps  .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:27: one's score is: 92
+18/01/16_17:27:27: two's score is: 94
+18/01/16_17:27:27: two just made the following move: [[Ps, 105, 101]]
+
+18/01/16_17:27:27: It is your turn!
+
+18/01/16_17:27:27: Hand: [Gs, Ox, Od, O*, Ox, O*]
+
+18/01/16_17:27:27: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Ps  .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:27: Hand: [Gs, Ox, Od, O*, Ox]
+
+18/01/16_17:27:27: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Ps  .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:27: MOVE O* 103 98 
+18/01/16_17:27:27: one's score is: 95
+18/01/16_17:27:27: two's score is: 94
+18/01/16_17:27:27: Tiles in pool: 24
+
+18/01/16_17:27:27: It is now two's turn.
+
+18/01/16_17:27:28: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Ps  Ys  .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:28: one's score is: 95
+18/01/16_17:27:28: two's score is: 96
+18/01/16_17:27:28: two just made the following move: [[Ys, 105, 102]]
+
+18/01/16_17:27:28: It is your turn!
+
+18/01/16_17:27:28: Hand: [Gs, Ox, Od, O*, Ox, Bd]
+
+18/01/16_17:27:28: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  .   
+104  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Ps  Ys  .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:28: Hand: [Gs, Ox, Od, O*, Ox]
+
+18/01/16_17:27:28: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  .   
+104  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Ps  Ys  .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:28: MOVE Bd 103 103 
+18/01/16_17:27:28: one's score is: 97
+18/01/16_17:27:28: two's score is: 96
+18/01/16_17:27:28: Tiles in pool: 22
+
+18/01/16_17:27:28: It is now two's turn.
+
+18/01/16_17:27:28: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   
+104  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Ps  Ys  .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:28: one's score is: 97
+18/01/16_17:27:28: two's score is: 99
+18/01/16_17:27:28: two just made the following move: [[Bx, 103, 104]]
+
+18/01/16_17:27:28: It is your turn!
+
+18/01/16_17:27:28: Hand: [Gs, Ox, Od, O*, Ox, Bs]
+
+18/01/16_17:27:28: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   
+104  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Ps  Ys  Bs  .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:28: Hand: [Gs, Ox, Od, O*, Ox]
+
+18/01/16_17:27:28: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   
+104  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Ps  Ys  Bs  .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:28: MOVE Bs 105 103 
+18/01/16_17:27:28: one's score is: 100
+18/01/16_17:27:28: two's score is: 99
+18/01/16_17:27:28: Tiles in pool: 20
+
+18/01/16_17:27:28: It is now two's turn.
+
+18/01/16_17:27:28: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   
+104  .   .   .   .   .   .   .   .   .   Oc  .   Y*  Ys  .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Ps  Ys  Bs  .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:28: one's score is: 100
+18/01/16_17:27:28: two's score is: 101
+18/01/16_17:27:28: two just made the following move: [[Oc, 104, 98]]
+
+18/01/16_17:27:28: It is your turn!
+
+18/01/16_17:27:28: Hand: [Gs, Ox, Od, O*, Ox, B*]
+
+18/01/16_17:27:28: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   
+104  .   .   .   .   .   .   .   .   .   Oc  .   Y*  Ys  .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Ps  Ys  Bs  .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   B*  .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:28: Hand: [Gs, Ox, Od, O*, Ox]
+
+18/01/16_17:27:28: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   
+104  .   .   .   .   .   .   .   .   .   Oc  .   Y*  Ys  .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Ps  Ys  Bs  .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   B*  .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:28: MOVE B* 106 103 
+18/01/16_17:27:28: one's score is: 102
+18/01/16_17:27:28: two's score is: 101
+18/01/16_17:27:28: Tiles in pool: 18
+
+18/01/16_17:27:28: It is now two's turn.
+
+18/01/16_17:27:28: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   
+104  .   .   .   .   .   .   .   .   .   Oc  .   Y*  Ys  .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Ps  Ys  Bs  Gs  .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   B*  .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:28: one's score is: 102
+18/01/16_17:27:28: two's score is: 105
+18/01/16_17:27:28: two just made the following move: [[Gs, 105, 104]]
+
+18/01/16_17:27:28: It is your turn!
+
+18/01/16_17:27:28: Hand: [Gs, Ox, Od, O*, Ox, Os]
+
+18/01/16_17:27:28: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   
+104  .   .   .   .   .   .   .   .   .   Oc  .   Y*  Ys  .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Ps  Ys  Bs  Gs  Os  .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   B*  .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:28: Hand: [Gs, Ox, Od, O*, Ox]
+
+18/01/16_17:27:28: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   
+104  .   .   .   .   .   .   .   .   .   Oc  .   Y*  Ys  .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Ps  Ys  Bs  Gs  Os  .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   B*  .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:28: MOVE Os 105 105 
+18/01/16_17:27:28: one's score is: 107
+18/01/16_17:27:28: two's score is: 105
+18/01/16_17:27:28: Tiles in pool: 16
+
+18/01/16_17:27:28: It is now two's turn.
+
+18/01/16_17:27:28: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   
+104  .   .   .   .   .   .   .   .   .   Oc  .   Y*  Ys  .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Ps  Ys  Bs  Gs  Os  .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   B*  .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:28: one's score is: 107
+18/01/16_17:27:28: two's score is: 107
+18/01/16_17:27:28: two just made the following move: [[Yo, 99, 101]]
+
+18/01/16_17:27:28: It is your turn!
+
+18/01/16_17:27:28: Hand: [Gs, Ox, Od, O*, Ox, Bd]
+
+18/01/16_17:27:28: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   
+104  .   .   .   .   .   .   .   .   .   Oc  .   Y*  Ys  .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Ps  Ys  Bs  Gs  Os  .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   B*  .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:28: Hand: [Gs, Ox, Od, O*, Ox]
+
+18/01/16_17:27:28: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   
+104  .   .   .   .   .   .   .   .   .   Oc  .   Y*  Ys  .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Ps  Ys  Bs  Gs  Os  .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   B*  .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:28: MOVE Bd 107 103 
+18/01/16_17:27:28: one's score is: 110
+18/01/16_17:27:28: two's score is: 107
+18/01/16_17:27:28: Tiles in pool: 14
+
+18/01/16_17:27:28: It is now two's turn.
+
+18/01/16_17:27:28: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   
+104  .   .   .   .   .   .   .   .   .   Oc  .   Y*  Ys  .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Ps  Ys  Bs  Gs  Os  .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   B*  .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:28: one's score is: 110
+18/01/16_17:27:28: two's score is: 109
+18/01/16_17:27:28: two just made the following move: [[Px, 102, 104]]
+
+18/01/16_17:27:28: It is your turn!
+
+18/01/16_17:27:28: Hand: [Gs, Ox, Od, O*, Ox, Rx]
+
+18/01/16_17:27:28: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   
+104  .   .   .   .   .   .   .   .   .   Oc  .   Y*  Ys  .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Ps  Ys  Bs  Gs  Os  .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   B*  .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:28: Hand: [Gs, Ox, Od, O*, Ox]
+
+18/01/16_17:27:28: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   
+104  .   .   .   .   .   .   .   .   .   Oc  .   Y*  Ys  .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Ps  Ys  Bs  Gs  Os  .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   B*  .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:28: MOVE Rx 102 105 
+18/01/16_17:27:28: one's score is: 112
+18/01/16_17:27:28: two's score is: 109
+18/01/16_17:27:28: Tiles in pool: 12
+
+18/01/16_17:27:28: It is now two's turn.
+
+18/01/16_17:27:28: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   
+104  .   .   .   .   .   .   .   .   Pc  Oc  .   Y*  Ys  .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Ps  Ys  Bs  Gs  Os  .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   B*  .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:28: one's score is: 112
+18/01/16_17:27:28: two's score is: 111
+18/01/16_17:27:28: two just made the following move: [[Pc, 104, 97]]
+
+18/01/16_17:27:28: It is your turn!
+
+18/01/16_17:27:28: Hand: [Gs, Ox, Od, O*, Ox, Rs]
+
+18/01/16_17:27:28: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   
+104  .   .   .   .   .   .   .   .   Pc  Oc  .   Y*  Ys  .   .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   B*  .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  .   .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:28: Hand: [Gs, Ox, Od, O*, Ox]
+
+18/01/16_17:27:28: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   
+104  .   .   .   .   .   .   .   .   Pc  Oc  .   Y*  Ys  .   .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   B*  .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  .   .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:28: MOVE Rs 105 106 
+18/01/16_17:27:28: one's score is: 124
+18/01/16_17:27:28: two's score is: 111
+18/01/16_17:27:28: Tiles in pool: 10
+
+18/01/16_17:27:28: It is now two's turn.
+
+18/01/16_17:27:28: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   
+104  .   .   .   .   .   .   .   .   Pc  Oc  .   Y*  Ys  .   .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   B*  .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  .   .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:28: one's score is: 124
+18/01/16_17:27:28: two's score is: 113
+18/01/16_17:27:28: two just made the following move: [[Po, 105, 97]]
+
+18/01/16_17:27:28: It is your turn!
+
+18/01/16_17:27:28: Hand: [Gs, Ox, Od, O*, Ox, Gc]
+
+18/01/16_17:27:28: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   B*  .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  .   .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:28: Hand: [Gs, Ox, Od, O*, Ox]
+
+18/01/16_17:27:28: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   B*  .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  .   .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:28: MOVE Gc 104 96 
+18/01/16_17:27:28: one's score is: 127
+18/01/16_17:27:28: two's score is: 113
+18/01/16_17:27:28: Tiles in pool: 8
+
+18/01/16_17:27:28: It is now two's turn.
+
+18/01/16_17:27:29: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   B*  .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:29: one's score is: 127
+18/01/16_17:27:29: two's score is: 115
+18/01/16_17:27:29: two just made the following move: [[Bc, 107, 104]]
+
+18/01/16_17:27:29: It is your turn!
+
+18/01/16_17:27:29: Hand: [Gs, Ox, Od, O*, Ox, Yd]
+
+18/01/16_17:27:29: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   B*  .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:29: Hand: [Gs, Ox, Od, O*, Ox]
+
+18/01/16_17:27:29: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   B*  .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:29: MOVE Yd 101 95 
+18/01/16_17:27:29: one's score is: 132
+18/01/16_17:27:29: two's score is: 115
+18/01/16_17:27:29: Tiles in pool: 6
+
+18/01/16_17:27:29: It is now two's turn.
+
+18/01/16_17:27:29: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   B*  .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  Bx  .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:29: one's score is: 132
+18/01/16_17:27:29: two's score is: 118
+18/01/16_17:27:29: two just made the following move: [[Bx, 107, 105]]
+
+18/01/16_17:27:29: It is your turn!
+
+18/01/16_17:27:29: Hand: [Gs, Ox, Od, O*, Ox, P*]
+
+18/01/16_17:27:29: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   
+106  .   .   .   .   .   .   .   .   P*  .   .   .   .   .   B*  .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  Bx  .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:29: Hand: [Gs, Ox, Od, O*, Ox]
+
+18/01/16_17:27:29: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   
+106  .   .   .   .   .   .   .   .   P*  .   .   .   .   .   B*  .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  Bx  .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:29: MOVE P* 106 97 
+18/01/16_17:27:29: one's score is: 135
+18/01/16_17:27:29: two's score is: 118
+18/01/16_17:27:29: Tiles in pool: 4
+
+18/01/16_17:27:29: It is now two's turn.
+
+18/01/16_17:27:29: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   
+106  .   .   .   .   .   .   .   .   P*  .   .   .   .   .   B*  .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  Bx  .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gx  .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:29: one's score is: 135
+18/01/16_17:27:29: two's score is: 120
+18/01/16_17:27:29: two just made the following move: [[Gx, 108, 105]]
+
+18/01/16_17:27:29: It is your turn!
+
+18/01/16_17:27:29: Hand: [Gs, Ox, Od, O*, Ox, Pd]
+
+18/01/16_17:27:29: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   
+106  .   .   .   .   .   .   .   .   P*  Pd  .   .   .   .   B*  .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  Bx  .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gx  .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:29: Hand: [Gs, Ox, Od, O*, Ox]
+
+18/01/16_17:27:29: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   
+106  .   .   .   .   .   .   .   .   P*  Pd  .   .   .   .   B*  .   .   .   .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  Bx  .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gx  .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:29: MOVE Pd 106 98 
+18/01/16_17:27:29: one's score is: 137
+18/01/16_17:27:29: two's score is: 120
+18/01/16_17:27:29: Tiles in pool: 2
+
+18/01/16_17:27:29: It is now two's turn.
+
+18/01/16_17:27:29: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   
+106  .   .   .   .   .   .   .   .   P*  Pd  .   .   .   .   B*  .   .   R*  .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  Bx  .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gx  .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:29: one's score is: 137
+18/01/16_17:27:29: two's score is: 122
+18/01/16_17:27:29: two just made the following move: [[R*, 106, 106]]
+
+18/01/16_17:27:29: It is your turn!
+
+18/01/16_17:27:29: Hand: [Gs, Ox, Od, O*, Ox, Ys]
+
+18/01/16_17:27:29: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   Ys  .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   
+106  .   .   .   .   .   .   .   .   P*  Pd  .   .   .   .   B*  .   .   R*  .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  Bx  .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gx  .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:29: Hand: [Gs, Ox, Od, O*, Ox]
+
+18/01/16_17:27:29: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   Ys  .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   
+106  .   .   .   .   .   .   .   .   P*  Pd  .   .   .   .   B*  .   .   R*  .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  Bx  .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gx  .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:29: MOVE Ys 104 105 
+18/01/16_17:27:29: one's score is: 139
+18/01/16_17:27:29: two's score is: 122
+18/01/16_17:27:29: Tiles in pool: 0
+
+18/01/16_17:27:29: It is now two's turn.
+
+18/01/16_17:27:29: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  108  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   Ys  .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   .   
+106  .   .   .   .   .   .   .   .   P*  Pd  .   .   .   .   B*  .   .   R*  Rd  .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  Bx  .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gx  .   .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:29: one's score is: 139
+18/01/16_17:27:29: two's score is: 124
+18/01/16_17:27:29: two just made the following move: [[Rd, 106, 107]]
+
+18/01/16_17:27:29: It is your turn!
+
+18/01/16_17:27:29: Hand: [Gs, Ox, Od, O*, Ox, Yx]
+
+18/01/16_17:27:29: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  108  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   Ys  .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   .   
+106  .   .   .   .   .   .   .   .   P*  Pd  .   .   .   .   B*  .   .   R*  Rd  .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  Bx  .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gx  Yx  .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:29: Hand: [Gs, Ox, Od, O*, Ox]
+
+18/01/16_17:27:29: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  108  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   Ys  .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   .   
+106  .   .   .   .   .   .   .   .   P*  Pd  .   .   .   .   B*  .   .   R*  Rd  .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  Bx  .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gx  Yx  .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:29: MOVE Yx 108 106 
+18/01/16_17:27:29: one's score is: 141
+18/01/16_17:27:29: two's score is: 124
+18/01/16_17:27:29: There are no tiles left in the pool.
+
+18/01/16_17:27:29: It is now two's turn.
+
+18/01/16_17:27:29: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  108  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   Ys  .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   .   
+106  .   .   .   .   .   .   .   .   P*  Pd  .   .   .   .   B*  .   .   R*  Rd  .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  Bx  .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gx  Yx  .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Yx  .   .   .   
+110  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:29: one's score is: 141
+18/01/16_17:27:29: two's score is: 127
+18/01/16_17:27:29: two just made the following move: [[Yx, 109, 105]]
+
+18/01/16_17:27:29: It is your turn!
+
+18/01/16_17:27:29: Hand: [Gs, Ox, Od, O*, Ox]
+
+18/01/16_17:27:29: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  108  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   Ys  .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   .   
+106  .   .   .   .   .   .   .   .   P*  Pd  .   .   .   .   B*  .   .   R*  Rd  .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  Bx  .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gx  Yx  .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Yx  Ox  .   .   
+110  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:29: Hand: [Gs, Ox, Od, O*]
+
+18/01/16_17:27:29: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  108  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   .   B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   Ys  .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   .   
+106  .   .   .   .   .   .   .   .   P*  Pd  .   .   .   .   B*  .   .   R*  Rd  .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  Bx  .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gx  Yx  .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Yx  Ox  .   .   
+110  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:29: MOVE Ox 109 106 
+18/01/16_17:27:29: one's score is: 145
+18/01/16_17:27:29: two's score is: 127
+18/01/16_17:27:29: There are no tiles left in the pool.
+
+18/01/16_17:27:29: It is now two's turn.
+
+18/01/16_17:27:29: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  108  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   O*  B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   .   .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   Ys  .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   .   
+106  .   .   .   .   .   .   .   .   P*  Pd  .   .   .   .   B*  .   .   R*  Rd  .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  Bx  .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gx  Yx  .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Yx  Ox  .   .   
+110  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:29: one's score is: 145
+18/01/16_17:27:29: two's score is: 130
+18/01/16_17:27:29: two just made the following move: [[O*, 98, 91]]
+
+18/01/16_17:27:29: It is your turn!
+
+18/01/16_17:27:29: Hand: [Gs, Ox, Od, O*]
+
+18/01/16_17:27:29: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  108  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   O*  B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   O*  .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   Ys  .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   .   
+106  .   .   .   .   .   .   .   .   P*  Pd  .   .   .   .   B*  .   .   R*  Rd  .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  Bx  .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gx  Yx  .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Yx  Ox  .   .   
+110  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:29: Hand: [Gs, Ox, Od]
+
+18/01/16_17:27:29: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  108  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   O*  B*  R*  .   Gd  Rd  .   .   .   .   .   .   .   .   .   .   .   .   
+99  .   .   .   O*  .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   Ys  .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   .   
+106  .   .   .   .   .   .   .   .   P*  Pd  .   .   .   .   B*  .   .   R*  Rd  .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  Bx  .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gx  Yx  .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Yx  Ox  .   .   
+110  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:29: MOVE O* 99 92 
+18/01/16_17:27:30: one's score is: 149
+18/01/16_17:27:30: two's score is: 130
+18/01/16_17:27:30: There are no tiles left in the pool.
+
+18/01/16_17:27:30: It is now two's turn.
+
+18/01/16_17:27:30: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  108  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   O*  B*  R*  .   Gd  Rd  .   .   .   .   Oo  .   .   .   .   .   .   .   
+99  .   .   .   O*  .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   Ys  .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   .   
+106  .   .   .   .   .   .   .   .   P*  Pd  .   .   .   .   B*  .   .   R*  Rd  .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  Bx  .   .   .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gx  Yx  .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Yx  Ox  .   .   
+110  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:30: one's score is: 149
+18/01/16_17:27:30: two's score is: 132
+18/01/16_17:27:30: two just made the following move: [[Oo, 98, 101]]
+
+18/01/16_17:27:30: It is your turn!
+
+18/01/16_17:27:30: Hand: [Gs, Ox, Od]
+
+18/01/16_17:27:30: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  108  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   O*  B*  R*  .   Gd  Rd  .   .   .   .   Oo  .   .   .   .   .   .   .   
+99  .   .   .   O*  .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   Ys  .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   .   
+106  .   .   .   .   .   .   .   .   P*  Pd  .   .   .   .   B*  .   .   R*  Rd  .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  Bx  .   Od  .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gx  Yx  .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Yx  Ox  .   .   
+110  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:30: Hand: [Gs, Ox]
+
+18/01/16_17:27:30: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  108  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  .   .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   O*  B*  R*  .   Gd  Rd  .   .   .   .   Oo  .   .   .   .   .   .   .   
+99  .   .   .   O*  .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   Ys  .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   .   
+106  .   .   .   .   .   .   .   .   P*  Pd  .   .   .   .   B*  .   .   R*  Rd  .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  Bx  .   Od  .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gx  Yx  .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Yx  Ox  .   .   
+110  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:30: MOVE Od 107 107 
+18/01/16_17:27:30: one's score is: 151
+18/01/16_17:27:30: two's score is: 132
+18/01/16_17:27:30: There are no tiles left in the pool.
+
+18/01/16_17:27:30: It is now two's turn.
+
+18/01/16_17:27:30: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  108  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  Gc  .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   O*  B*  R*  .   Gd  Rd  .   .   .   .   Oo  .   .   .   .   .   .   .   
+99  .   .   .   O*  .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   Ys  .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   .   
+106  .   .   .   .   .   .   .   .   P*  Pd  .   .   .   .   B*  .   .   R*  Rd  .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  Bx  .   Od  .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gx  Yx  .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Yx  Ox  .   .   
+110  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:30: one's score is: 151
+18/01/16_17:27:30: two's score is: 134
+18/01/16_17:27:30: two just made the following move: [[Gc, 96, 100]]
+
+18/01/16_17:27:30: It is your turn!
+
+18/01/16_17:27:30: Hand: [Gs, Ox]
+
+18/01/16_17:27:30: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  108  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  Gc  .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   O*  B*  R*  .   Gd  Rd  .   .   .   .   Oo  .   .   .   .   .   .   .   
+99  .   .   .   O*  .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   Ys  .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   .   
+106  .   .   .   .   .   .   .   .   P*  Pd  .   .   .   .   B*  .   .   R*  Rd  .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  Bx  .   Od  .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gx  Yx  .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Yx  Ox  .   .   
+110  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Ox  .   .   .   
+111  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:30: Hand: [Gs]
+
+18/01/16_17:27:30: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  108  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  Gc  .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   O*  B*  R*  .   Gd  Rd  .   .   .   .   Oo  .   .   .   .   .   .   .   
+99  .   .   .   O*  .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   Ys  .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   .   
+106  .   .   .   .   .   .   .   .   P*  Pd  .   .   .   .   B*  .   .   R*  Rd  .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  Bx  .   Od  .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gx  Yx  .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Yx  Ox  .   .   
+110  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Ox  .   .   .   
+111  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:30: MOVE Ox 110 105 
+18/01/16_17:27:30: one's score is: 155
+18/01/16_17:27:30: two's score is: 134
+18/01/16_17:27:30: There are no tiles left in the pool.
+
+18/01/16_17:27:30: It is now two's turn.
+
+18/01/16_17:27:30: 
+XXX 89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  105  106  107  108  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   .   .   
+90  .   Bo  Bc  .   Yc  Rc  .   Pc  .   .   .   .   .   .   .   .   .   .   .   .   
+91  .   .   Yc  Yo  Yd  .   Gx  Px  Rx  .   .   .   .   .   .   .   .   .   .   .   
+92  .   .   Rc  Ro  .   Rc  .   Ps  Rs  Os  .   .   .   .   .   .   .   .   .   .   
+93  .   .   .   Oo  Yo  Ro  Bo  Po  .   Ox  Yx  .   .   .   .   .   .   .   .   .   
+94  .   .   .   .   Yd  .   B*  P*  G*  .   .   .   .   .   .   .   .   .   .   .   
+95  .   .   Go  .   .   Bs  Bx  .   Gd  Go  Gc  .   .   .   .   .   .   .   .   .   
+96  .   .   Ro  R*  Rx  Rs  .   .   .   .   Pc  Gc  .   .   .   .   .   .   .   .   
+97  .   .   .   Y*  .   Ps  Pd  .   .   .   .   .   .   .   .   .   .   .   .   .   
+98  .   .   O*  B*  R*  .   Gd  Rd  .   .   .   .   Oo  .   .   .   .   .   .   .   
+99  .   .   .   O*  .   Rd  Od  Gd  Pd  .   .   Oo  Yo  .   .   .   .   .   .   .   
+100  .   .   .   .   .   Od  Bd  .   Po  Px  .   Bo  .   .   .   .   .   .   .   .   
+101  .   .   .   .   .   .   Yd  .   .   Gx  G*  Go  Gs  .   .   .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Y*  .   Os  Bs  .   Px  Rx  .   .   .   
+103  .   .   .   .   .   .   .   .   .   O*  P*  G*  .   Bc  Bd  Bx  .   .   .   .   
+104  .   .   .   .   .   .   .   Gc  Pc  Oc  .   Y*  Ys  .   .   .   Ys  .   .   .   
+105  .   .   .   .   .   .   .   .   Po  .   .   .   Ps  Ys  Bs  Gs  Os  Rs  .   .   
+106  .   .   .   .   .   .   .   .   P*  Pd  .   .   .   .   B*  .   .   R*  Rd  .   
+107  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Bd  Bc  Bx  .   Od  .   
+108  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gx  Yx  .   .   
+109  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Yx  Ox  .   .   
+110  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Oc  Ox  .   .   .   
+111  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_17:27:30: one's score is: 155
+18/01/16_17:27:30: two's score is: 136
+18/01/16_17:27:30: two just made the following move: [[Oc, 110, 104]]
+
+18/01/16_17:27:30: The winner is... one!
+18/01/16_17:30:57: ÏOException while reading from socket.

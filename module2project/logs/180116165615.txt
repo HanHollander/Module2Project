@@ -1,0 +1,3178 @@
+18/01/16_16:56:15: Welcome in Qwirkle
+18/01/16_16:56:15: (only characters a-z A-Z and 1 to 16 characters long)
+18/01/16_16:56:15: What is your name? 
+
+18/01/16_16:56:21: 
+Server IP-adress: 
+
+18/01/16_16:56:24: 
+Server port: 
+
+18/01/16_16:56:25: 
+Bot: 'b', Human: 'h'
+18/01/16_16:56:26: 
+Checking host... 
+18/01/16_16:56:26: Host accepted.
+18/01/16_16:56:26: Checking port... 
+18/01/16_16:56:26: Port accepted.
+18/01/16_16:56:26: Creating client... 
+18/01/16_16:56:26: Client one created
+18/01/16_16:56:26: Starting client... 
+18/01/16_16:56:26: Client started.
+18/01/16_16:56:26: Sending registration message... 
+18/01/16_16:56:26: HELLO one
+18/01/16_16:56:26: Registration message send.
+18/01/16_16:56:26: Waiting for welcome message... 
+18/01/16_16:56:26: Welcome message received.
+
+18/01/16_16:56:34: Players participating: [Player 1: one, Player 2: tow]
+
+18/01/16_16:56:34: AITime: 99999
+
+18/01/16_16:56:34: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   P*  Pc  Px  .   
+92  .   .   .   .   .   
+
+18/01/16_16:56:34: one's score is: 3
+18/01/16_16:56:34: tow's score is: 0
+18/01/16_16:56:34: Tiles in pool: 93
+
+18/01/16_16:56:34: It is now tow's turn.
+
+18/01/16_16:56:35: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   P*  Pc  Px  Pd  .   
+92  .   .   .   .   .   .   
+
+18/01/16_16:56:35: one's score is: 3
+18/01/16_16:56:35: tow's score is: 4
+18/01/16_16:56:35: tow just made the following move: [[Pd, 91, 94]]
+
+18/01/16_16:56:35: It is your turn!
+
+18/01/16_16:56:35: Hand: [Rs, Go, Gs, Yo, Yo, Go]
+
+18/01/16_16:56:35: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   P*  Pc  Px  Pd  .   
+92  .   .   .   .   .   .   
+
+18/01/16_16:56:35: Hand: [Rs, Go, Gs, Yo, Yo]
+
+18/01/16_16:56:35: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   P*  Pc  Px  Pd  .   
+92  .   .   .   .   .   .   
+
+18/01/16_16:56:35: SWAP Go 
+18/01/16_16:56:35: one's score is: 3
+18/01/16_16:56:35: tow's score is: 4
+18/01/16_16:56:35: Tiles in pool: 92
+
+18/01/16_16:56:35: one swapped.
+
+18/01/16_16:56:35: It is now tow's turn.
+
+18/01/16_16:56:35: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   P*  Pc  Px  Pd  .   
+92  .   .   .   Yx  .   .   
+93  .   .   .   .   .   .   
+
+18/01/16_16:56:35: one's score is: 3
+18/01/16_16:56:35: tow's score is: 6
+18/01/16_16:56:35: tow just made the following move: [[Yx, 92, 93]]
+
+18/01/16_16:56:35: It is your turn!
+
+18/01/16_16:56:35: Hand: [Rs, Go, Gs, Yo, Yo, R*]
+
+18/01/16_16:56:35: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   P*  Pc  Px  Pd  .   
+92  .   R*  .   Yx  .   .   
+93  .   .   .   .   .   .   
+
+18/01/16_16:56:35: Hand: [Rs, Go, Gs, Yo, Yo]
+
+18/01/16_16:56:35: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+91  .   P*  Pc  Px  Pd  .   
+92  .   R*  .   Yx  .   .   
+93  .   .   .   .   .   .   
+
+18/01/16_16:56:35: MOVE R* 92 91 
+18/01/16_16:56:35: one's score is: 5
+18/01/16_16:56:35: tow's score is: 6
+18/01/16_16:56:36: Tiles in pool: 90
+
+18/01/16_16:56:36: It is now tow's turn.
+
+18/01/16_16:56:36: 
+XXX 90  91  92  93  94  95  
+89  .   .   .   .   .   .   
+90  .   .   Bc  .   .   .   
+91  .   P*  Pc  Px  Pd  .   
+92  .   R*  .   Yx  .   .   
+93  .   .   .   .   .   .   
+
+18/01/16_16:56:36: one's score is: 5
+18/01/16_16:56:36: tow's score is: 8
+18/01/16_16:56:36: tow just made the following move: [[Bc, 90, 92]]
+
+18/01/16_16:56:36: It is your turn!
+
+18/01/16_16:56:36: Hand: [Rs, Go, Gs, Yo, Yo, Oc]
+
+18/01/16_16:56:36: 
+XXX 90  91  92  93  94  95  
+88  .   .   .   .   .   .   
+89  .   .   Oc  .   .   .   
+90  .   .   Bc  .   .   .   
+91  .   P*  Pc  Px  Pd  .   
+92  .   R*  .   Yx  .   .   
+93  .   .   .   .   .   .   
+
+18/01/16_16:56:36: Hand: [Rs, Go, Gs, Yo, Yo]
+
+18/01/16_16:56:36: 
+XXX 90  91  92  93  94  95  
+88  .   .   .   .   .   .   
+89  .   .   Oc  .   .   .   
+90  .   .   Bc  .   .   .   
+91  .   P*  Pc  Px  Pd  .   
+92  .   R*  .   Yx  .   .   
+93  .   .   .   .   .   .   
+
+18/01/16_16:56:36: MOVE Oc 89 92 
+18/01/16_16:56:36: one's score is: 8
+18/01/16_16:56:36: tow's score is: 8
+18/01/16_16:56:36: Tiles in pool: 88
+
+18/01/16_16:56:36: It is now tow's turn.
+
+18/01/16_16:56:36: 
+XXX 89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   
+89  .   .   .   Oc  .   .   .   
+90  .   .   .   Bc  .   .   .   
+91  .   .   P*  Pc  Px  Pd  .   
+92  .   Rd  R*  .   Yx  .   .   
+93  .   .   .   .   .   .   .   
+
+18/01/16_16:56:36: one's score is: 8
+18/01/16_16:56:36: tow's score is: 10
+18/01/16_16:56:36: tow just made the following move: [[Rd, 92, 90]]
+
+18/01/16_16:56:36: It is your turn!
+
+18/01/16_16:56:36: Hand: [Rs, Go, Gs, Yo, Yo, Gx]
+
+18/01/16_16:56:36: 
+XXX 89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   
+89  .   .   .   Oc  .   .   .   
+90  .   .   .   Bc  .   .   .   
+91  .   .   P*  Pc  Px  Pd  .   
+92  .   Rd  R*  .   Yx  .   .   
+93  .   .   .   .   Gx  .   .   
+94  .   .   .   .   .   .   .   
+
+18/01/16_16:56:36: Hand: [Rs, Go, Gs, Yo, Yo]
+
+18/01/16_16:56:36: 
+XXX 89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   
+89  .   .   .   Oc  .   .   .   
+90  .   .   .   Bc  .   .   .   
+91  .   .   P*  Pc  Px  Pd  .   
+92  .   Rd  R*  .   Yx  .   .   
+93  .   .   .   .   Gx  .   .   
+94  .   .   .   .   .   .   .   
+
+18/01/16_16:56:36: MOVE Gx 93 93 
+18/01/16_16:56:36: one's score is: 11
+18/01/16_16:56:36: tow's score is: 10
+18/01/16_16:56:36: Tiles in pool: 86
+
+18/01/16_16:56:36: It is now tow's turn.
+
+18/01/16_16:56:37: 
+XXX 89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   
+89  .   .   .   Oc  .   .   .   
+90  .   .   .   Bc  .   .   .   
+91  .   .   P*  Pc  Px  Pd  .   
+92  .   Rd  R*  .   Yx  .   .   
+93  .   Pd  .   .   Gx  .   .   
+94  .   .   .   .   .   .   .   
+
+18/01/16_16:56:37: one's score is: 11
+18/01/16_16:56:37: tow's score is: 12
+18/01/16_16:56:37: tow just made the following move: [[Pd, 93, 90]]
+
+18/01/16_16:56:37: It is your turn!
+
+18/01/16_16:56:37: Hand: [Rs, Go, Gs, Yo, Yo, Gx]
+
+18/01/16_16:56:37: 
+XXX 89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   
+89  .   .   .   Oc  .   .   .   
+90  .   .   .   Bc  .   .   .   
+91  .   .   P*  Pc  Px  Pd  .   
+92  .   Rd  R*  .   Yx  .   .   
+93  .   Pd  .   .   Gx  Gs  .   
+94  .   .   .   .   .   .   .   
+
+18/01/16_16:56:37: Hand: [Rs, Go, Yo, Yo, Gx]
+
+18/01/16_16:56:37: 
+XXX 89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   
+89  .   .   .   Oc  .   .   .   
+90  .   .   .   Bc  .   .   .   
+91  .   .   P*  Pc  Px  Pd  .   
+92  .   Rd  R*  .   Yx  .   .   
+93  .   Pd  .   .   Gx  Gs  .   
+94  .   .   .   .   .   .   .   
+
+18/01/16_16:56:37: MOVE Gs 93 94 
+18/01/16_16:56:37: one's score is: 13
+18/01/16_16:56:37: tow's score is: 12
+18/01/16_16:56:37: Tiles in pool: 84
+
+18/01/16_16:56:37: It is now tow's turn.
+
+18/01/16_16:56:37: 
+XXX 88  89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   .   
+89  .   .   .   .   Oc  .   .   .   
+90  .   .   .   .   Bc  .   .   .   
+91  .   .   .   P*  Pc  Px  Pd  .   
+92  .   Ro  Rd  R*  .   Yx  .   .   
+93  .   .   Pd  .   .   Gx  Gs  .   
+94  .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:37: one's score is: 13
+18/01/16_16:56:37: tow's score is: 15
+18/01/16_16:56:37: tow just made the following move: [[Ro, 92, 89]]
+
+18/01/16_16:56:37: It is your turn!
+
+18/01/16_16:56:37: Hand: [Rs, Go, Yo, Yo, Gx, Od]
+
+18/01/16_16:56:37: 
+XXX 88  89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   .   
+89  .   .   .   .   Oc  .   .   .   
+90  .   .   .   .   Bc  .   .   .   
+91  .   .   .   P*  Pc  Px  Pd  .   
+92  .   Ro  Rd  R*  .   Yx  .   .   
+93  .   .   Pd  .   .   Gx  Gs  .   
+94  .   .   Od  .   .   .   .   .   
+95  .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:37: Hand: [Rs, Go, Yo, Yo, Gx]
+
+18/01/16_16:56:37: 
+XXX 88  89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   .   
+89  .   .   .   .   Oc  .   .   .   
+90  .   .   .   .   Bc  .   .   .   
+91  .   .   .   P*  Pc  Px  Pd  .   
+92  .   Ro  Rd  R*  .   Yx  .   .   
+93  .   .   Pd  .   .   Gx  Gs  .   
+94  .   .   Od  .   .   .   .   .   
+95  .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:37: MOVE Od 94 90 
+18/01/16_16:56:37: one's score is: 16
+18/01/16_16:56:37: tow's score is: 15
+18/01/16_16:56:37: Tiles in pool: 82
+
+18/01/16_16:56:37: It is now tow's turn.
+
+18/01/16_16:56:37: 
+XXX 88  89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   .   
+89  .   .   .   .   Oc  .   .   .   
+90  .   .   .   .   Bc  .   .   .   
+91  .   .   .   P*  Pc  Px  Pd  .   
+92  .   Ro  Rd  R*  .   Yx  .   .   
+93  .   .   Pd  .   .   Gx  Gs  .   
+94  .   .   Od  .   .   Rx  .   .   
+95  .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:37: one's score is: 16
+18/01/16_16:56:37: tow's score is: 19
+18/01/16_16:56:37: tow just made the following move: [[Rx, 94, 93]]
+
+18/01/16_16:56:37: It is your turn!
+
+18/01/16_16:56:37: Hand: [Rs, Go, Yo, Yo, Gx, Od]
+
+18/01/16_16:56:37: 
+XXX 88  89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   .   
+89  .   .   .   .   Oc  .   .   .   
+90  .   .   .   .   Bc  .   Od  .   
+91  .   .   .   P*  Pc  Px  Pd  .   
+92  .   Ro  Rd  R*  .   Yx  .   .   
+93  .   .   Pd  .   .   Gx  Gs  .   
+94  .   .   Od  .   .   Rx  .   .   
+95  .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:37: Hand: [Rs, Go, Yo, Yo, Gx]
+
+18/01/16_16:56:37: 
+XXX 88  89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   .   
+89  .   .   .   .   Oc  .   .   .   
+90  .   .   .   .   Bc  .   Od  .   
+91  .   .   .   P*  Pc  Px  Pd  .   
+92  .   Ro  Rd  R*  .   Yx  .   .   
+93  .   .   Pd  .   .   Gx  Gs  .   
+94  .   .   Od  .   .   Rx  .   .   
+95  .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:37: MOVE Od 90 94 
+18/01/16_16:56:37: one's score is: 18
+18/01/16_16:56:37: tow's score is: 19
+18/01/16_16:56:37: Tiles in pool: 80
+
+18/01/16_16:56:37: It is now tow's turn.
+
+18/01/16_16:56:37: 
+XXX 88  89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   .   
+89  .   .   .   .   Oc  .   .   .   
+90  .   .   .   .   Bc  .   Od  .   
+91  .   .   .   P*  Pc  Px  Pd  .   
+92  .   Ro  Rd  R*  .   Yx  .   .   
+93  .   .   Pd  .   .   Gx  Gs  .   
+94  .   .   Od  .   .   Rx  Rs  .   
+95  .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:37: one's score is: 18
+18/01/16_16:56:37: tow's score is: 23
+18/01/16_16:56:37: tow just made the following move: [[Rs, 94, 94]]
+
+18/01/16_16:56:37: It is your turn!
+
+18/01/16_16:56:37: Hand: [Rs, Go, Yo, Yo, Gx, Yc]
+
+18/01/16_16:56:37: 
+XXX 88  89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   .   
+89  .   .   .   .   Oc  Yc  .   .   
+90  .   .   .   .   Bc  .   Od  .   
+91  .   .   .   P*  Pc  Px  Pd  .   
+92  .   Ro  Rd  R*  .   Yx  .   .   
+93  .   .   Pd  .   .   Gx  Gs  .   
+94  .   .   Od  .   .   Rx  Rs  .   
+95  .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:37: Hand: [Rs, Go, Yo, Yo, Gx]
+
+18/01/16_16:56:37: 
+XXX 88  89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   .   
+89  .   .   .   .   Oc  Yc  .   .   
+90  .   .   .   .   Bc  .   Od  .   
+91  .   .   .   P*  Pc  Px  Pd  .   
+92  .   Ro  Rd  R*  .   Yx  .   .   
+93  .   .   Pd  .   .   Gx  Gs  .   
+94  .   .   Od  .   .   Rx  Rs  .   
+95  .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:37: MOVE Yc 89 93 
+18/01/16_16:56:37: one's score is: 20
+18/01/16_16:56:37: tow's score is: 23
+18/01/16_16:56:37: Tiles in pool: 78
+
+18/01/16_16:56:37: It is now tow's turn.
+
+18/01/16_16:56:37: 
+XXX 88  89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   .   
+89  .   .   .   .   Oc  Yc  .   .   
+90  .   .   .   .   Bc  .   Od  .   
+91  .   Bo  .   P*  Pc  Px  Pd  .   
+92  .   Ro  Rd  R*  .   Yx  .   .   
+93  .   .   Pd  .   .   Gx  Gs  .   
+94  .   .   Od  .   .   Rx  Rs  .   
+95  .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:37: one's score is: 20
+18/01/16_16:56:37: tow's score is: 25
+18/01/16_16:56:37: tow just made the following move: [[Bo, 91, 89]]
+
+18/01/16_16:56:37: It is your turn!
+
+18/01/16_16:56:37: Hand: [Rs, Go, Yo, Yo, Gx, Gd]
+
+18/01/16_16:56:37: 
+XXX 88  89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   .   
+89  .   .   .   .   Oc  Yc  .   .   
+90  .   .   .   .   Bc  .   Od  .   
+91  .   Bo  .   P*  Pc  Px  Pd  .   
+92  .   Ro  Rd  R*  .   Yx  .   .   
+93  .   .   Pd  .   .   Gx  Gs  .   
+94  .   .   Od  Gd  .   Rx  Rs  .   
+95  .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:37: Hand: [Rs, Go, Yo, Yo, Gx]
+
+18/01/16_16:56:37: 
+XXX 88  89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   .   
+89  .   .   .   .   Oc  Yc  .   .   
+90  .   .   .   .   Bc  .   Od  .   
+91  .   Bo  .   P*  Pc  Px  Pd  .   
+92  .   Ro  Rd  R*  .   Yx  .   .   
+93  .   .   Pd  .   .   Gx  Gs  .   
+94  .   .   Od  Gd  .   Rx  Rs  .   
+95  .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:37: MOVE Gd 94 91 
+18/01/16_16:56:37: one's score is: 22
+18/01/16_16:56:37: tow's score is: 25
+18/01/16_16:56:38: Tiles in pool: 76
+
+18/01/16_16:56:38: It is now tow's turn.
+
+18/01/16_16:56:38: 
+XXX 88  89  90  91  92  93  94  95  
+88  .   .   .   .   .   .   .   .   
+89  .   .   .   .   Oc  Yc  .   .   
+90  .   .   .   .   Bc  .   Od  .   
+91  .   Bo  .   P*  Pc  Px  Pd  .   
+92  .   Ro  Rd  R*  .   Yx  .   .   
+93  .   .   Pd  .   .   Gx  Gs  .   
+94  .   .   Od  Gd  .   Rx  Rs  .   
+95  .   .   .   .   .   .   Ps  .   
+96  .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:38: one's score is: 22
+18/01/16_16:56:38: tow's score is: 28
+18/01/16_16:56:38: tow just made the following move: [[Ps, 95, 94]]
+
+18/01/16_16:56:38: It is your turn!
+
+18/01/16_16:56:38: Hand: [Rs, Go, Yo, Yo, Gx, Os]
+
+18/01/16_16:56:38: 
+XXX 88  89  90  91  92  93  94  95  96  
+88  .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   Oc  Yc  .   .   .   
+90  .   .   .   .   Bc  .   Od  .   .   
+91  .   Bo  .   P*  Pc  Px  Pd  .   .   
+92  .   Ro  Rd  R*  .   Yx  .   .   .   
+93  .   .   Pd  .   .   Gx  Gs  .   .   
+94  .   .   Od  Gd  .   Rx  Rs  .   .   
+95  .   .   .   .   .   .   Ps  Os  .   
+96  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:38: Hand: [Rs, Go, Yo, Yo, Gx]
+
+18/01/16_16:56:38: 
+XXX 88  89  90  91  92  93  94  95  96  
+88  .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   Oc  Yc  .   .   .   
+90  .   .   .   .   Bc  .   Od  .   .   
+91  .   Bo  .   P*  Pc  Px  Pd  .   .   
+92  .   Ro  Rd  R*  .   Yx  .   .   .   
+93  .   .   Pd  .   .   Gx  Gs  .   .   
+94  .   .   Od  Gd  .   Rx  Rs  .   .   
+95  .   .   .   .   .   .   Ps  Os  .   
+96  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:38: MOVE Os 95 95 
+18/01/16_16:56:38: one's score is: 24
+18/01/16_16:56:38: tow's score is: 28
+18/01/16_16:56:38: Tiles in pool: 74
+
+18/01/16_16:56:38: It is now tow's turn.
+
+18/01/16_16:56:38: 
+XXX 88  89  90  91  92  93  94  95  96  
+87  .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   Pc  .   .   .   
+89  .   .   .   .   Oc  Yc  .   .   .   
+90  .   .   .   .   Bc  .   Od  .   .   
+91  .   Bo  .   P*  Pc  Px  Pd  .   .   
+92  .   Ro  Rd  R*  .   Yx  .   .   .   
+93  .   .   Pd  .   .   Gx  Gs  .   .   
+94  .   .   Od  Gd  .   Rx  Rs  .   .   
+95  .   .   .   .   .   .   Ps  Os  .   
+96  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:38: one's score is: 24
+18/01/16_16:56:38: tow's score is: 30
+18/01/16_16:56:38: tow just made the following move: [[Pc, 88, 93]]
+
+18/01/16_16:56:38: It is your turn!
+
+18/01/16_16:56:38: Hand: [Rs, Go, Yo, Yo, Gx, Bd]
+
+18/01/16_16:56:38: 
+XXX 88  89  90  91  92  93  94  95  96  
+87  .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   Pc  .   .   .   
+89  .   .   .   .   Oc  Yc  .   .   .   
+90  .   .   .   .   Bc  .   Od  .   .   
+91  .   Bo  .   P*  Pc  Px  Pd  .   .   
+92  .   Ro  Rd  R*  .   Yx  .   .   .   
+93  .   .   Pd  .   .   Gx  Gs  .   .   
+94  .   .   Od  Gd  .   Rx  Rs  .   .   
+95  .   .   .   Bd  .   .   Ps  Os  .   
+96  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:38: Hand: [Rs, Go, Yo, Yo, Gx]
+
+18/01/16_16:56:38: 
+XXX 88  89  90  91  92  93  94  95  96  
+87  .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   Pc  .   .   .   
+89  .   .   .   .   Oc  Yc  .   .   .   
+90  .   .   .   .   Bc  .   Od  .   .   
+91  .   Bo  .   P*  Pc  Px  Pd  .   .   
+92  .   Ro  Rd  R*  .   Yx  .   .   .   
+93  .   .   Pd  .   .   Gx  Gs  .   .   
+94  .   .   Od  Gd  .   Rx  Rs  .   .   
+95  .   .   .   Bd  .   .   Ps  Os  .   
+96  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:38: MOVE Bd 95 91 
+18/01/16_16:56:38: one's score is: 26
+18/01/16_16:56:38: tow's score is: 30
+18/01/16_16:56:38: Tiles in pool: 72
+
+18/01/16_16:56:38: It is now tow's turn.
+
+18/01/16_16:56:39: 
+XXX 88  89  90  91  92  93  94  95  96  
+87  .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   Pc  .   .   .   
+89  .   .   .   .   Oc  Yc  .   .   .   
+90  .   .   .   .   Bc  .   Od  .   .   
+91  .   Bo  .   P*  Pc  Px  Pd  .   .   
+92  .   Ro  Rd  R*  .   Yx  .   .   .   
+93  .   .   Pd  .   .   Gx  Gs  .   .   
+94  .   .   Od  Gd  .   Rx  Rs  .   .   
+95  .   .   .   Bd  .   .   Ps  Os  .   
+96  .   .   .   .   .   .   Os  .   .   
+97  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:39: one's score is: 26
+18/01/16_16:56:39: tow's score is: 34
+18/01/16_16:56:39: tow just made the following move: [[Os, 96, 94]]
+
+18/01/16_16:56:39: It is your turn!
+
+18/01/16_16:56:39: Hand: [Rs, Go, Yo, Yo, Gx, Bc]
+
+18/01/16_16:56:39: 
+XXX 88  89  90  91  92  93  94  95  96  
+87  .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   Pc  .   .   .   
+89  .   .   .   .   Oc  Yc  .   .   .   
+90  .   .   .   .   Bc  .   Od  .   .   
+91  .   Bo  .   P*  Pc  Px  Pd  .   .   
+92  .   Ro  Rd  R*  .   Yx  .   .   .   
+93  .   .   Pd  .   .   Gx  Gs  .   .   
+94  .   .   Od  Gd  .   Rx  Rs  .   .   
+95  .   .   .   Bd  Bc  .   Ps  Os  .   
+96  .   .   .   .   .   .   Os  .   .   
+97  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:39: Hand: [Rs, Go, Yo, Yo, Gx]
+
+18/01/16_16:56:39: 
+XXX 88  89  90  91  92  93  94  95  96  
+87  .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   Pc  .   .   .   
+89  .   .   .   .   Oc  Yc  .   .   .   
+90  .   .   .   .   Bc  .   Od  .   .   
+91  .   Bo  .   P*  Pc  Px  Pd  .   .   
+92  .   Ro  Rd  R*  .   Yx  .   .   .   
+93  .   .   Pd  .   .   Gx  Gs  .   .   
+94  .   .   Od  Gd  .   Rx  Rs  .   .   
+95  .   .   .   Bd  Bc  .   Ps  Os  .   
+96  .   .   .   .   .   .   Os  .   .   
+97  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:39: MOVE Bc 95 92 
+18/01/16_16:56:39: one's score is: 28
+18/01/16_16:56:39: tow's score is: 34
+18/01/16_16:56:39: Tiles in pool: 70
+
+18/01/16_16:56:39: It is now tow's turn.
+
+18/01/16_16:56:39: 
+XXX 88  89  90  91  92  93  94  95  96  
+87  .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   Pc  .   .   .   
+89  .   .   .   .   Oc  Yc  .   .   .   
+90  .   .   .   .   Bc  .   Od  .   .   
+91  .   Bo  .   P*  Pc  Px  Pd  .   .   
+92  .   Ro  Rd  R*  .   Yx  .   .   .   
+93  .   .   Pd  .   .   Gx  Gs  .   .   
+94  .   .   Od  Gd  .   Rx  Rs  .   .   
+95  .   .   .   Bd  Bc  .   Ps  Os  .   
+96  .   .   .   .   .   .   Os  Gs  .   
+97  .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:39: one's score is: 28
+18/01/16_16:56:39: tow's score is: 38
+18/01/16_16:56:39: tow just made the following move: [[Gs, 96, 95]]
+
+18/01/16_16:56:39: It is your turn!
+
+18/01/16_16:56:39: Hand: [Rs, Go, Yo, Yo, Gx, Ro]
+
+18/01/16_16:56:39: 
+XXX 87  88  89  90  91  92  93  94  95  96  
+87  .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   Pc  .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   
+90  .   .   .   .   .   Bc  .   Od  .   .   
+91  .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   
+92  .   .   Ro  Rd  R*  .   Yx  .   .   .   
+93  .   .   .   Pd  .   .   Gx  Gs  .   .   
+94  .   .   .   Od  Gd  .   Rx  Rs  .   .   
+95  .   .   .   .   Bd  Bc  .   Ps  Os  .   
+96  .   .   .   .   .   .   .   Os  Gs  .   
+97  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:39: Hand: [Rs, Go, Yo, Yo, Gx]
+
+18/01/16_16:56:39: 
+XXX 87  88  89  90  91  92  93  94  95  96  
+87  .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   Pc  .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   
+90  .   .   .   .   .   Bc  .   Od  .   .   
+91  .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   
+92  .   .   Ro  Rd  R*  .   Yx  .   .   .   
+93  .   .   .   Pd  .   .   Gx  Gs  .   .   
+94  .   .   .   Od  Gd  .   Rx  Rs  .   .   
+95  .   .   .   .   Bd  Bc  .   Ps  Os  .   
+96  .   .   .   .   .   .   .   Os  Gs  .   
+97  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:39: MOVE Ro 91 88 
+18/01/16_16:56:39: one's score is: 30
+18/01/16_16:56:39: tow's score is: 38
+18/01/16_16:56:39: Tiles in pool: 68
+
+18/01/16_16:56:39: It is now tow's turn.
+
+18/01/16_16:56:39: 
+XXX 87  88  89  90  91  92  93  94  95  96  
+87  .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   Pc  .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   
+90  .   .   .   .   .   Bc  .   Od  .   .   
+91  .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   
+92  .   .   Ro  Rd  R*  .   Yx  .   .   .   
+93  .   .   .   Pd  .   .   Gx  Gs  .   .   
+94  .   .   .   Od  Gd  .   Rx  Rs  .   .   
+95  .   .   .   .   Bd  Bc  .   Ps  Os  .   
+96  .   .   .   .   .   B*  .   Os  Gs  .   
+97  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:39: one's score is: 30
+18/01/16_16:56:39: tow's score is: 40
+18/01/16_16:56:39: tow just made the following move: [[B*, 96, 92]]
+
+18/01/16_16:56:39: It is your turn!
+
+18/01/16_16:56:39: Hand: [Rs, Go, Yo, Yo, Gx, Rx]
+
+18/01/16_16:56:39: 
+XXX 87  88  89  90  91  92  93  94  95  96  
+87  .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   Pc  .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   
+90  .   .   .   .   .   Bc  .   Od  .   .   
+91  .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   
+92  .   Rx  Ro  Rd  R*  .   Yx  .   .   .   
+93  .   .   .   Pd  .   .   Gx  Gs  .   .   
+94  .   .   .   Od  Gd  .   Rx  Rs  .   .   
+95  .   .   .   .   Bd  Bc  .   Ps  Os  .   
+96  .   .   .   .   .   B*  .   Os  Gs  .   
+97  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:39: Hand: [Rs, Go, Yo, Yo, Gx]
+
+18/01/16_16:56:39: 
+XXX 87  88  89  90  91  92  93  94  95  96  
+87  .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   Pc  .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   
+90  .   .   .   .   .   Bc  .   Od  .   .   
+91  .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   
+92  .   Rx  Ro  Rd  R*  .   Yx  .   .   .   
+93  .   .   .   Pd  .   .   Gx  Gs  .   .   
+94  .   .   .   Od  Gd  .   Rx  Rs  .   .   
+95  .   .   .   .   Bd  Bc  .   Ps  Os  .   
+96  .   .   .   .   .   B*  .   Os  Gs  .   
+97  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:39: MOVE Rx 92 88 
+18/01/16_16:56:39: one's score is: 36
+18/01/16_16:56:39: tow's score is: 40
+18/01/16_16:56:39: Tiles in pool: 66
+
+18/01/16_16:56:39: It is now tow's turn.
+
+18/01/16_16:56:39: 
+XXX 87  88  89  90  91  92  93  94  95  96  
+87  .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   Pc  .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   
+90  .   .   .   .   .   Bc  .   Od  .   .   
+91  .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   
+92  .   Rx  Ro  Rd  R*  .   Yx  .   .   .   
+93  .   R*  .   Pd  .   .   Gx  Gs  .   .   
+94  .   .   .   Od  Gd  .   Rx  Rs  .   .   
+95  .   .   .   .   Bd  Bc  .   Ps  Os  .   
+96  .   .   .   .   .   B*  .   Os  Gs  .   
+97  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:39: one's score is: 36
+18/01/16_16:56:39: tow's score is: 43
+18/01/16_16:56:39: tow just made the following move: [[R*, 93, 88]]
+
+18/01/16_16:56:39: It is your turn!
+
+18/01/16_16:56:39: Hand: [Rs, Go, Yo, Yo, Gx, Ox]
+
+18/01/16_16:56:39: 
+XXX 87  88  89  90  91  92  93  94  95  96  
+87  .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   Pc  .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   
+90  .   .   .   .   .   Bc  .   Od  Ox  .   
+91  .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   
+92  .   Rx  Ro  Rd  R*  .   Yx  .   .   .   
+93  .   R*  .   Pd  .   .   Gx  Gs  .   .   
+94  .   .   .   Od  Gd  .   Rx  Rs  .   .   
+95  .   .   .   .   Bd  Bc  .   Ps  Os  .   
+96  .   .   .   .   .   B*  .   Os  Gs  .   
+97  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:39: Hand: [Rs, Go, Yo, Yo, Gx]
+
+18/01/16_16:56:39: 
+XXX 87  88  89  90  91  92  93  94  95  96  
+87  .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   Pc  .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   
+90  .   .   .   .   .   Bc  .   Od  Ox  .   
+91  .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   
+92  .   Rx  Ro  Rd  R*  .   Yx  .   .   .   
+93  .   R*  .   Pd  .   .   Gx  Gs  .   .   
+94  .   .   .   Od  Gd  .   Rx  Rs  .   .   
+95  .   .   .   .   Bd  Bc  .   Ps  Os  .   
+96  .   .   .   .   .   B*  .   Os  Gs  .   
+97  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:39: MOVE Ox 90 95 
+18/01/16_16:56:39: one's score is: 38
+18/01/16_16:56:39: tow's score is: 43
+18/01/16_16:56:39: Tiles in pool: 64
+
+18/01/16_16:56:39: It is now tow's turn.
+
+18/01/16_16:56:39: 
+XXX 87  88  89  90  91  92  93  94  95  96  
+87  .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   Pc  .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   
+90  .   .   .   .   .   Bc  .   Od  Ox  .   
+91  .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   
+92  .   Rx  Ro  Rd  R*  .   Yx  .   .   .   
+93  .   R*  .   Pd  .   .   Gx  Gs  Go  .   
+94  .   .   .   Od  Gd  .   Rx  Rs  .   .   
+95  .   .   .   .   Bd  Bc  .   Ps  Os  .   
+96  .   .   .   .   .   B*  .   Os  Gs  .   
+97  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:39: one's score is: 38
+18/01/16_16:56:39: tow's score is: 46
+18/01/16_16:56:39: tow just made the following move: [[Go, 93, 95]]
+
+18/01/16_16:56:39: It is your turn!
+
+18/01/16_16:56:39: Hand: [Rs, Go, Yo, Yo, Gx, Ox]
+
+18/01/16_16:56:39: 
+XXX 87  88  89  90  91  92  93  94  95  96  
+87  .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   Pc  .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   
+90  .   .   .   .   .   Bc  .   Od  Ox  .   
+91  .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   
+92  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  .   
+93  .   R*  .   Pd  .   .   Gx  Gs  Go  .   
+94  .   .   .   Od  Gd  .   Rx  Rs  .   .   
+95  .   .   .   .   Bd  Bc  .   Ps  Os  .   
+96  .   .   .   .   .   B*  .   Os  Gs  .   
+97  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:39: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:39: 
+XXX 87  88  89  90  91  92  93  94  95  96  
+87  .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   Pc  .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   
+90  .   .   .   .   .   Bc  .   Od  Ox  .   
+91  .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   
+92  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  .   
+93  .   R*  .   Pd  .   .   Gx  Gs  Go  .   
+94  .   .   .   Od  Gd  .   Rx  Rs  .   .   
+95  .   .   .   .   Bd  Bc  .   Ps  Os  .   
+96  .   .   .   .   .   B*  .   Os  Gs  .   
+97  .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:39: MOVE Gx 92 95 
+18/01/16_16:56:39: one's score is: 40
+18/01/16_16:56:39: tow's score is: 46
+18/01/16_16:56:39: Tiles in pool: 62
+
+18/01/16_16:56:39: It is now tow's turn.
+
+18/01/16_16:56:40: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  
+87  .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   Pc  .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   
+90  .   .   .   .   .   Bc  .   Od  Ox  .   .   
+91  .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   
+92  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  .   .   
+93  .   R*  .   Pd  .   .   Gx  Gs  Go  .   .   
+94  .   .   .   Od  Gd  .   Rx  Rs  .   .   .   
+95  .   .   .   .   Bd  Bc  .   Ps  Os  .   .   
+96  .   .   .   .   .   B*  .   Os  Gs  Ps  .   
+97  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:40: one's score is: 40
+18/01/16_16:56:40: tow's score is: 49
+18/01/16_16:56:40: tow just made the following move: [[Ps, 96, 96]]
+
+18/01/16_16:56:40: It is your turn!
+
+18/01/16_16:56:40: Hand: [Rs, Go, Yo, Yo, Ox, Ox]
+
+18/01/16_16:56:40: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  
+87  .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   Pc  .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   
+90  .   .   .   .   .   Bc  .   Od  Ox  .   .   
+91  .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   
+92  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   
+93  .   R*  .   Pd  .   .   Gx  Gs  Go  .   .   
+94  .   .   .   Od  Gd  .   Rx  Rs  .   .   .   
+95  .   .   .   .   Bd  Bc  .   Ps  Os  .   .   
+96  .   .   .   .   .   B*  .   Os  Gs  Ps  .   
+97  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:40: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:40: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  
+87  .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   Pc  .   .   .   .   
+89  .   .   .   .   .   Oc  Yc  .   .   .   .   
+90  .   .   .   .   .   Bc  .   Od  Ox  .   .   
+91  .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   
+92  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   
+93  .   R*  .   Pd  .   .   Gx  Gs  Go  .   .   
+94  .   .   .   Od  Gd  .   Rx  Rs  .   .   .   
+95  .   .   .   .   Bd  Bc  .   Ps  Os  .   .   
+96  .   .   .   .   .   B*  .   Os  Gs  Ps  .   
+97  .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:40: MOVE Ox 92 96 
+18/01/16_16:56:40: one's score is: 42
+18/01/16_16:56:40: tow's score is: 49
+18/01/16_16:56:40: Tiles in pool: 60
+
+18/01/16_16:56:40: It is now tow's turn.
+
+18/01/16_16:56:40: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  
+87  .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Pc  .   .   .   .   
+89  .   .   .   .   .   .   Oc  Yc  .   .   .   .   
+90  .   .   .   .   .   .   Bc  .   Od  Ox  .   .   
+91  .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   
+92  .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   
+93  .   B*  R*  .   Pd  .   .   Gx  Gs  Go  .   .   
+94  .   .   .   .   Od  Gd  .   Rx  Rs  .   .   .   
+95  .   .   .   .   .   Bd  Bc  .   Ps  Os  .   .   
+96  .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:40: one's score is: 42
+18/01/16_16:56:40: tow's score is: 51
+18/01/16_16:56:40: tow just made the following move: [[B*, 93, 87]]
+
+18/01/16_16:56:40: It is your turn!
+
+18/01/16_16:56:40: Hand: [Rs, Go, Yo, Yo, Ox, Px]
+
+18/01/16_16:56:40: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  
+87  .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Pc  .   .   .   .   
+89  .   .   .   .   .   .   Oc  Yc  .   .   .   .   
+90  .   .   .   .   .   .   Bc  .   Od  Ox  .   .   
+91  .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   
+92  .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   
+93  .   B*  R*  .   Pd  .   .   Gx  Gs  Go  .   .   
+94  .   .   .   .   Od  Gd  .   Rx  Rs  .   .   .   
+95  .   .   .   .   .   Bd  Bc  .   Ps  Os  .   .   
+96  .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   
+97  .   .   .   .   .   .   .   .   .   .   Px  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:40: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:40: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  
+87  .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Pc  .   .   .   .   
+89  .   .   .   .   .   .   Oc  Yc  .   .   .   .   
+90  .   .   .   .   .   .   Bc  .   Od  Ox  .   .   
+91  .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   
+92  .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   
+93  .   B*  R*  .   Pd  .   .   Gx  Gs  Go  .   .   
+94  .   .   .   .   Od  Gd  .   Rx  Rs  .   .   .   
+95  .   .   .   .   .   Bd  Bc  .   Ps  Os  .   .   
+96  .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   
+97  .   .   .   .   .   .   .   .   .   .   Px  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:40: MOVE Px 97 96 
+18/01/16_16:56:40: one's score is: 44
+18/01/16_16:56:40: tow's score is: 51
+18/01/16_16:56:40: Tiles in pool: 58
+
+18/01/16_16:56:40: It is now tow's turn.
+
+18/01/16_16:56:40: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  
+87  .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Pc  .   .   .   .   
+89  .   .   .   .   .   .   Oc  Yc  .   .   .   .   
+90  .   .   .   .   .   .   Bc  .   Od  Ox  .   .   
+91  .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   
+92  .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   
+93  .   B*  R*  .   Pd  .   .   Gx  Gs  Go  .   .   
+94  .   .   .   .   Od  Gd  .   Rx  Rs  .   .   .   
+95  .   .   .   .   .   Bd  Bc  .   Ps  Os  .   .   
+96  .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   
+97  .   .   .   .   .   .   Bo  .   .   .   Px  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:40: one's score is: 44
+18/01/16_16:56:40: tow's score is: 54
+18/01/16_16:56:40: tow just made the following move: [[Bo, 97, 92]]
+
+18/01/16_16:56:40: It is your turn!
+
+18/01/16_16:56:40: Hand: [Rs, Go, Yo, Yo, Ox, Yd]
+
+18/01/16_16:56:40: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  
+87  .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Pc  .   .   .   .   
+89  .   .   .   .   .   .   Oc  Yc  .   .   .   .   
+90  .   .   .   .   .   .   Bc  .   Od  Ox  .   .   
+91  .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   
+92  .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   
+93  .   B*  R*  .   Pd  .   .   Gx  Gs  Go  .   .   
+94  .   .   .   Yd  Od  Gd  .   Rx  Rs  .   .   .   
+95  .   .   .   .   .   Bd  Bc  .   Ps  Os  .   .   
+96  .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   
+97  .   .   .   .   .   .   Bo  .   .   .   Px  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:40: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:40: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  
+87  .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Pc  .   .   .   .   
+89  .   .   .   .   .   .   Oc  Yc  .   .   .   .   
+90  .   .   .   .   .   .   Bc  .   Od  Ox  .   .   
+91  .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   
+92  .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   
+93  .   B*  R*  .   Pd  .   .   Gx  Gs  Go  .   .   
+94  .   .   .   Yd  Od  Gd  .   Rx  Rs  .   .   .   
+95  .   .   .   .   .   Bd  Bc  .   Ps  Os  .   .   
+96  .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   
+97  .   .   .   .   .   .   Bo  .   .   .   Px  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:40: MOVE Yd 94 89 
+18/01/16_16:56:40: one's score is: 47
+18/01/16_16:56:40: tow's score is: 54
+18/01/16_16:56:40: Tiles in pool: 56
+
+18/01/16_16:56:40: It is now tow's turn.
+
+18/01/16_16:56:40: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Pc  .   .   .   .   .   
+89  .   .   .   .   .   .   Oc  Yc  .   .   .   .   .   
+90  .   .   .   .   .   .   Bc  .   Od  Ox  .   .   .   
+91  .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   
+92  .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   .   
+93  .   B*  R*  .   Pd  .   .   Gx  Gs  Go  .   .   .   
+94  .   .   .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   
+95  .   .   .   .   .   Bd  Bc  .   Ps  Os  .   .   .   
+96  .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   
+97  .   .   .   .   .   .   Bo  .   .   .   Px  P*  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:40: one's score is: 47
+18/01/16_16:56:40: tow's score is: 56
+18/01/16_16:56:40: tow just made the following move: [[P*, 97, 97]]
+
+18/01/16_16:56:40: It is your turn!
+
+18/01/16_16:56:40: Hand: [Rs, Go, Yo, Yo, Ox, Yx]
+
+18/01/16_16:56:40: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Pc  .   .   .   .   .   
+89  .   .   .   .   .   .   Oc  Yc  .   .   .   .   .   
+90  .   .   .   .   .   .   Bc  .   Od  Ox  .   .   .   
+91  .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   
+92  .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   .   
+93  .   B*  R*  .   Pd  .   .   Gx  Gs  Go  .   .   .   
+94  .   .   .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   
+95  .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   
+96  .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   
+97  .   .   .   .   .   .   Bo  .   .   .   Px  P*  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:40: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:40: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Pc  .   .   .   .   .   
+89  .   .   .   .   .   .   Oc  Yc  .   .   .   .   .   
+90  .   .   .   .   .   .   Bc  .   Od  Ox  .   .   .   
+91  .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   
+92  .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   .   
+93  .   B*  R*  .   Pd  .   .   Gx  Gs  Go  .   .   .   
+94  .   .   .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   
+95  .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   
+96  .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   
+97  .   .   .   .   .   .   Bo  .   .   .   Px  P*  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:40: MOVE Yx 95 89 
+18/01/16_16:56:40: one's score is: 49
+18/01/16_16:56:40: tow's score is: 56
+18/01/16_16:56:40: Tiles in pool: 54
+
+18/01/16_16:56:40: It is now tow's turn.
+
+18/01/16_16:56:41: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   .   .   
+93  .   B*  R*  .   Pd  .   .   Gx  Gs  Go  .   .   .   .   
+94  .   .   .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   Bo  .   .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:41: one's score is: 49
+18/01/16_16:56:41: tow's score is: 59
+18/01/16_16:56:41: tow just made the following move: [[Po, 97, 98]]
+
+18/01/16_16:56:41: It is your turn!
+
+18/01/16_16:56:41: Hand: [Rs, Go, Yo, Yo, Ox, Po]
+
+18/01/16_16:56:41: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   .   .   
+93  .   B*  R*  .   Pd  .   .   Gx  Gs  Go  .   .   .   .   
+94  .   .   .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   Bo  .   .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   .   .   .   .   Po  .   .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:41: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:41: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   .   .   
+93  .   B*  R*  .   Pd  .   .   Gx  Gs  Go  .   .   .   .   
+94  .   .   .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   Bo  .   .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   .   .   .   .   Po  .   .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:41: MOVE Po 98 97 
+18/01/16_16:56:41: one's score is: 51
+18/01/16_16:56:41: tow's score is: 59
+18/01/16_16:56:41: Tiles in pool: 52
+
+18/01/16_16:56:41: It is now tow's turn.
+
+18/01/16_16:56:41: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   .   .   
+93  .   B*  R*  .   Pd  .   .   Gx  Gs  Go  .   .   .   .   
+94  .   .   .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   .   .   .   .   Po  .   .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:41: one's score is: 51
+18/01/16_16:56:41: tow's score is: 61
+18/01/16_16:56:41: tow just made the following move: [[Bd, 97, 93]]
+
+18/01/16_16:56:41: It is your turn!
+
+18/01/16_16:56:41: Hand: [Rs, Go, Yo, Yo, Ox, G*]
+
+18/01/16_16:56:41: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   .   .   
+93  .   B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   .   .   .   .   Po  .   .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:41: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:41: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   .   .   
+93  .   B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   .   .   .   .   Po  .   .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:41: MOVE G* 93 92 
+18/01/16_16:56:41: one's score is: 55
+18/01/16_16:56:41: tow's score is: 61
+18/01/16_16:56:41: Tiles in pool: 50
+
+18/01/16_16:56:41: It is now tow's turn.
+
+18/01/16_16:56:41: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   .   .   
+93  .   B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   .   .   .   .   Po  Px  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:41: one's score is: 55
+18/01/16_16:56:41: tow's score is: 65
+18/01/16_16:56:41: tow just made the following move: [[Px, 98, 98]]
+
+18/01/16_16:56:41: It is your turn!
+
+18/01/16_16:56:41: Hand: [Rs, Go, Yo, Yo, Ox, Rd]
+
+18/01/16_16:56:41: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   .   .   
+93  .   B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Rd  .   .   .   Po  Px  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:41: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:41: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   .   .   
+93  .   B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Rd  .   .   .   Po  Px  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:41: MOVE Rd 98 93 
+18/01/16_16:56:41: one's score is: 57
+18/01/16_16:56:41: tow's score is: 65
+18/01/16_16:56:41: Tiles in pool: 48
+
+18/01/16_16:56:41: It is now tow's turn.
+
+18/01/16_16:56:41: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   .   .   
+93  .   B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Rd  Od  .   .   Po  Px  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:41: one's score is: 57
+18/01/16_16:56:41: tow's score is: 67
+18/01/16_16:56:41: tow just made the following move: [[Od, 98, 94]]
+
+18/01/16_16:56:41: It is your turn!
+
+18/01/16_16:56:41: Hand: [Rs, Go, Yo, Yo, Ox, Gc]
+
+18/01/16_16:56:42: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   .   .   
+93  .   B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Rd  Od  .   .   Po  Px  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:42: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:42: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   .   .   
+93  .   B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Rd  Od  .   .   Po  Px  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:42: MOVE Gc 89 91 
+18/01/16_16:56:42: one's score is: 60
+18/01/16_16:56:42: tow's score is: 67
+18/01/16_16:56:42: Tiles in pool: 46
+
+18/01/16_16:56:42: It is now tow's turn.
+
+18/01/16_16:56:42: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   .   .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   .   Rd  Od  .   .   Po  Px  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:42: one's score is: 60
+18/01/16_16:56:42: tow's score is: 70
+18/01/16_16:56:42: tow just made the following move: [[G*, 93, 86]]
+
+18/01/16_16:56:42: It is your turn!
+
+18/01/16_16:56:42: Hand: [Rs, Go, Yo, Yo, Ox, R*]
+
+18/01/16_16:56:42: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   .   Rd  Od  .   .   Po  Px  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:42: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:42: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   .   .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   .   Rd  Od  .   .   Po  Px  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:42: MOVE R* 94 87 
+18/01/16_16:56:42: one's score is: 62
+18/01/16_16:56:42: tow's score is: 70
+18/01/16_16:56:42: Tiles in pool: 44
+
+18/01/16_16:56:42: It is now tow's turn.
+
+18/01/16_16:56:42: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   .   Rd  Od  .   .   Po  Px  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:42: one's score is: 62
+18/01/16_16:56:42: tow's score is: 74
+18/01/16_16:56:42: tow just made the following move: [[Rc, 90, 88]]
+
+18/01/16_16:56:42: It is your turn!
+
+18/01/16_16:56:42: Hand: [Rs, Go, Yo, Yo, Ox, Gd]
+
+18/01/16_16:56:42: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   .   Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:42: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:42: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   .   Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:42: MOVE Gd 98 95 
+18/01/16_16:56:42: one's score is: 65
+18/01/16_16:56:42: tow's score is: 74
+18/01/16_16:56:42: Tiles in pool: 42
+
+18/01/16_16:56:42: It is now tow's turn.
+
+18/01/16_16:56:42: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   .   Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   .   .   .   .   G*  .   .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:42: one's score is: 65
+18/01/16_16:56:42: tow's score is: 76
+18/01/16_16:56:42: tow just made the following move: [[G*, 99, 95]]
+
+18/01/16_16:56:42: It is your turn!
+
+18/01/16_16:56:42: Hand: [Rs, Go, Yo, Yo, Ox, Bd]
+
+18/01/16_16:56:42: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   .   .   .   .   G*  .   .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:42: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:42: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   .   .   .   .   G*  .   .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:42: MOVE Bd 98 92 
+18/01/16_16:56:42: one's score is: 73
+18/01/16_16:56:42: tow's score is: 76
+18/01/16_16:56:42: Tiles in pool: 40
+
+18/01/16_16:56:42: It is now tow's turn.
+
+18/01/16_16:56:42: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  .   .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   .   .   .   .   G*  O*  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:42: one's score is: 73
+18/01/16_16:56:42: tow's score is: 78
+18/01/16_16:56:42: tow just made the following move: [[O*, 99, 96]]
+
+18/01/16_16:56:42: It is your turn!
+
+18/01/16_16:56:42: Hand: [Rs, Go, Yo, Yo, Ox, Yx]
+
+18/01/16_16:56:42: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   .   .   .   .   G*  O*  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:42: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:42: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   .   .   .   .   G*  O*  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:42: MOVE Yx 92 97 
+18/01/16_16:56:42: one's score is: 76
+18/01/16_16:56:42: tow's score is: 78
+18/01/16_16:56:42: Tiles in pool: 38
+
+18/01/16_16:56:42: It is now tow's turn.
+
+18/01/16_16:56:43: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   .   Bx  .   .   G*  O*  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:43: one's score is: 76
+18/01/16_16:56:43: tow's score is: 83
+18/01/16_16:56:43: tow just made the following move: [[Bx, 99, 92]]
+
+18/01/16_16:56:43: It is your turn!
+
+18/01/16_16:56:43: Hand: [Rs, Go, Yo, Yo, Ox, Oo]
+
+18/01/16_16:56:43: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   .   Bx  .   .   G*  O*  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   Oo  .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:43: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:43: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   .   Bx  .   .   G*  O*  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   Oo  .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:43: MOVE Oo 100 96 
+18/01/16_16:56:43: one's score is: 78
+18/01/16_16:56:43: tow's score is: 83
+18/01/16_16:56:43: Tiles in pool: 36
+
+18/01/16_16:56:43: It is now tow's turn.
+
+18/01/16_16:56:43: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   .   Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   .   Bx  .   .   G*  O*  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   Oo  .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:43: one's score is: 78
+18/01/16_16:56:43: tow's score is: 89
+18/01/16_16:56:43: tow just made the following move: [[Rc, 88, 92]]
+
+18/01/16_16:56:43: It is your turn!
+
+18/01/16_16:56:43: Hand: [Rs, Go, Yo, Yo, Ox, Y*]
+
+18/01/16_16:56:43: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   .   Bx  .   .   G*  O*  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   Oo  .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:43: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:43: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   .   Bx  .   .   G*  O*  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   Oo  .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:43: MOVE Y* 95 88 
+18/01/16_16:56:43: one's score is: 80
+18/01/16_16:56:43: tow's score is: 89
+18/01/16_16:56:43: Tiles in pool: 34
+
+18/01/16_16:56:43: It is now tow's turn.
+
+18/01/16_16:56:43: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   .   .   .   .   
+92  .   .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   Oo  .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:43: one's score is: 80
+18/01/16_16:56:43: tow's score is: 91
+18/01/16_16:56:43: tow just made the following move: [[B*, 99, 91]]
+
+18/01/16_16:56:43: It is your turn!
+
+18/01/16_16:56:43: Hand: [Rs, Go, Yo, Yo, Ox, Oo]
+
+18/01/16_16:56:43: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   
+92  .   .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   Oo  .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:43: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:43: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   
+92  .   .   .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   Oo  .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:43: MOVE Oo 91 96 
+18/01/16_16:56:43: one's score is: 82
+18/01/16_16:56:43: tow's score is: 91
+18/01/16_16:56:43: Tiles in pool: 32
+
+18/01/16_16:56:43: It is now tow's turn.
+
+18/01/16_16:56:43: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   
+92  .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   Oo  .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:43: one's score is: 82
+18/01/16_16:56:43: tow's score is: 93
+18/01/16_16:56:43: tow just made the following move: [[Gd, 92, 86]]
+
+18/01/16_16:56:43: It is your turn!
+
+18/01/16_16:56:43: Hand: [Rs, Go, Yo, Yo, Ox, Bo]
+
+18/01/16_16:56:43: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   
+92  .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   Oo  Bo  .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:43: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:43: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   
+92  .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   Oo  Bo  .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:43: MOVE Bo 100 97 
+18/01/16_16:56:43: one's score is: 84
+18/01/16_16:56:43: tow's score is: 93
+18/01/16_16:56:43: Tiles in pool: 30
+
+18/01/16_16:56:43: It is now tow's turn.
+
+18/01/16_16:56:44: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   
+92  .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   Oo  Bo  .   .   
+101  .   .   .   .   .   .   .   .   .   .   .   Oc  .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:44: one's score is: 84
+18/01/16_16:56:44: tow's score is: 96
+18/01/16_16:56:44: tow just made the following move: [[Oc, 101, 96]]
+
+18/01/16_16:56:44: It is your turn!
+
+18/01/16_16:56:44: Hand: [Rs, Go, Yo, Yo, Ox, Go]
+
+18/01/16_16:56:44: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   
+92  .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   Oo  Bo  Go  .   
+101  .   .   .   .   .   .   .   .   .   .   .   Oc  .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:44: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:44: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   
+92  .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   Oo  Bo  Go  .   
+101  .   .   .   .   .   .   .   .   .   .   .   Oc  .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:44: MOVE Go 100 98 
+18/01/16_16:56:44: one's score is: 87
+18/01/16_16:56:44: tow's score is: 96
+18/01/16_16:56:44: Tiles in pool: 28
+
+18/01/16_16:56:44: It is now tow's turn.
+
+18/01/16_16:56:44: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   
+92  .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   Oo  Bo  Go  .   
+101  .   .   .   .   .   .   .   .   .   .   O*  Oc  .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:44: one's score is: 87
+18/01/16_16:56:44: tow's score is: 98
+18/01/16_16:56:44: tow just made the following move: [[O*, 101, 95]]
+
+18/01/16_16:56:44: It is your turn!
+
+18/01/16_16:56:44: Hand: [Rs, Go, Yo, Yo, Ox, Gs]
+
+18/01/16_16:56:44: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   
+92  .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   Oo  Bo  Go  .   
+101  .   .   .   .   .   .   .   .   .   .   O*  Oc  .   Gs  .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:44: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:44: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   
+92  .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   Oo  Bo  Go  .   
+101  .   .   .   .   .   .   .   .   .   .   O*  Oc  .   Gs  .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:44: MOVE Gs 101 98 
+18/01/16_16:56:44: one's score is: 89
+18/01/16_16:56:44: tow's score is: 98
+18/01/16_16:56:44: Tiles in pool: 26
+
+18/01/16_16:56:44: It is now tow's turn.
+
+18/01/16_16:56:44: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   
+92  .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   
+100  .   .   .   .   .   .   .   .   .   .   .   Oo  Bo  Go  .   
+101  .   .   .   .   .   .   .   .   .   .   O*  Oc  .   Gs  .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:44: one's score is: 89
+18/01/16_16:56:44: tow's score is: 102
+18/01/16_16:56:44: tow just made the following move: [[Rx, 92, 98]]
+
+18/01/16_16:56:44: It is your turn!
+
+18/01/16_16:56:44: Hand: [Rs, Go, Yo, Yo, Ox, Bx]
+
+18/01/16_16:56:44: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   
+92  .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   
+100  .   .   .   .   .   .   Bx  .   .   .   .   Oo  Bo  Go  .   
+101  .   .   .   .   .   .   .   .   .   .   O*  Oc  .   Gs  .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:44: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:44: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   
+92  .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   
+100  .   .   .   .   .   .   Bx  .   .   .   .   Oo  Bo  Go  .   
+101  .   .   .   .   .   .   .   .   .   .   O*  Oc  .   Gs  .   
+102  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:44: MOVE Bx 100 91 
+18/01/16_16:56:44: one's score is: 91
+18/01/16_16:56:44: tow's score is: 102
+18/01/16_16:56:44: Tiles in pool: 24
+
+18/01/16_16:56:44: It is now tow's turn.
+
+18/01/16_16:56:44: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   
+92  .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   
+100  .   .   .   .   .   .   Bx  .   .   .   .   Oo  Bo  Go  .   
+101  .   .   .   .   .   .   .   .   .   .   O*  Oc  .   Gs  .   
+102  .   .   .   .   .   .   .   .   .   .   P*  .   .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:44: one's score is: 91
+18/01/16_16:56:44: tow's score is: 104
+18/01/16_16:56:44: tow just made the following move: [[P*, 102, 95]]
+
+18/01/16_16:56:44: It is your turn!
+
+18/01/16_16:56:44: Hand: [Rs, Go, Yo, Yo, Ox, Gx]
+
+18/01/16_16:56:44: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   
+92  .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   
+100  .   .   .   .   .   .   Bx  .   .   .   .   Oo  Bo  Go  .   .   
+101  .   .   .   .   .   .   .   .   .   .   O*  Oc  .   Gs  Gx  .   
+102  .   .   .   .   .   .   .   .   .   .   P*  .   .   .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:44: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:44: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   
+92  .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   
+100  .   .   .   .   .   .   Bx  .   .   .   .   Oo  Bo  Go  .   .   
+101  .   .   .   .   .   .   .   .   .   .   O*  Oc  .   Gs  Gx  .   
+102  .   .   .   .   .   .   .   .   .   .   P*  .   .   .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:44: MOVE Gx 101 99 
+18/01/16_16:56:44: one's score is: 93
+18/01/16_16:56:44: tow's score is: 104
+18/01/16_16:56:44: Tiles in pool: 22
+
+18/01/16_16:56:44: It is now tow's turn.
+
+18/01/16_16:56:45: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   
+92  .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   
+96  .   .   .   .   .   .   .   B*  .   Os  Gs  Ps  .   .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   
+100  .   .   .   .   .   .   Bx  Bs  .   .   .   Oo  Bo  Go  .   .   
+101  .   .   .   .   .   .   .   .   .   .   O*  Oc  .   Gs  Gx  .   
+102  .   .   .   .   .   .   .   .   .   .   P*  .   .   .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:45: one's score is: 93
+18/01/16_16:56:45: tow's score is: 118
+18/01/16_16:56:45: tow just made the following move: [[Bs, 100, 92]]
+
+18/01/16_16:56:45: It is your turn!
+
+18/01/16_16:56:45: Hand: [Rs, Go, Yo, Yo, Ox, Yc]
+
+18/01/16_16:56:45: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   
+92  .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   
+96  .   .   .   .   Yc  .   .   B*  .   Os  Gs  Ps  .   .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   
+100  .   .   .   .   .   .   Bx  Bs  .   .   .   Oo  Bo  Go  .   .   
+101  .   .   .   .   .   .   .   .   .   .   O*  Oc  .   Gs  Gx  .   
+102  .   .   .   .   .   .   .   .   .   .   P*  .   .   .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:45: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:45: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   
+92  .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   
+96  .   .   .   .   Yc  .   .   B*  .   Os  Gs  Ps  .   .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   
+100  .   .   .   .   .   .   Bx  Bs  .   .   .   Oo  Bo  Go  .   .   
+101  .   .   .   .   .   .   .   .   .   .   O*  Oc  .   Gs  Gx  .   
+102  .   .   .   .   .   .   .   .   .   .   P*  .   .   .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:45: MOVE Yc 96 89 
+18/01/16_16:56:45: one's score is: 96
+18/01/16_16:56:45: tow's score is: 118
+18/01/16_16:56:45: Tiles in pool: 20
+
+18/01/16_16:56:45: It is now tow's turn.
+
+18/01/16_16:56:45: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   
+92  .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   
+96  .   .   .   .   Yc  .   .   B*  .   Os  Gs  Ps  .   .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   
+100  .   .   .   .   .   .   Bx  Bs  .   .   .   Oo  Bo  Go  .   .   
+101  .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   
+102  .   .   .   .   .   .   .   .   .   .   P*  .   .   .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:45: one's score is: 96
+18/01/16_16:56:45: tow's score is: 121
+18/01/16_16:56:45: tow just made the following move: [[Os, 101, 94]]
+
+18/01/16_16:56:45: It is your turn!
+
+18/01/16_16:56:45: Hand: [Rs, Go, Yo, Yo, Ox, Bx]
+
+18/01/16_16:56:45: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   
+92  .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   
+96  .   .   .   .   Yc  .   .   B*  .   Os  Gs  Ps  .   .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   
+100  .   .   .   .   .   .   Bx  Bs  .   .   .   Oo  Bo  Go  .   .   
+101  .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   
+102  .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:45: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:45: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   
+92  .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   
+96  .   .   .   .   Yc  .   .   B*  .   Os  Gs  Ps  .   .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   
+100  .   .   .   .   .   .   Bx  Bs  .   .   .   Oo  Bo  Go  .   .   
+101  .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   
+102  .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:45: MOVE Bx 102 99 
+18/01/16_16:56:45: one's score is: 98
+18/01/16_16:56:45: tow's score is: 121
+18/01/16_16:56:45: Tiles in pool: 18
+
+18/01/16_16:56:45: It is now tow's turn.
+
+18/01/16_16:56:45: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   
+92  .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   
+96  .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   
+100  .   .   .   .   .   .   Bx  Bs  .   .   .   Oo  Bo  Go  .   .   
+101  .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   
+102  .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:45: one's score is: 98
+18/01/16_16:56:45: tow's score is: 123
+18/01/16_16:56:45: tow just made the following move: [[Yo, 96, 90]]
+
+18/01/16_16:56:45: It is your turn!
+
+18/01/16_16:56:45: Hand: [Rs, Go, Yo, Yo, Ox, Bc]
+
+18/01/16_16:56:45: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   
+92  .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   
+96  .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   .   .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   
+100  .   .   .   .   .   .   Bx  Bs  .   .   .   Oo  Bo  Go  .   .   .   
+101  .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   
+102  .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:45: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:45: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   
+92  .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   
+96  .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   .   .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   
+100  .   .   .   .   .   .   Bx  Bs  .   .   .   Oo  Bo  Go  .   .   .   
+101  .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   
+102  .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:45: MOVE Bc 102 100 
+18/01/16_16:56:45: one's score is: 100
+18/01/16_16:56:45: tow's score is: 123
+18/01/16_16:56:45: Tiles in pool: 16
+
+18/01/16_16:56:45: It is now tow's turn.
+
+18/01/16_16:56:45: 
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   
+91  .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   
+92  .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   
+93  .   G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   .   .   
+94  .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   
+95  .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   
+96  .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   
+97  .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   .   .   
+98  .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   
+99  .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   
+100  .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   
+101  .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   
+102  .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:45: one's score is: 100
+18/01/16_16:56:45: tow's score is: 125
+18/01/16_16:56:45: tow just made the following move: [[Ys, 100, 94]]
+
+18/01/16_16:56:45: It is your turn!
+
+18/01/16_16:56:45: Hand: [Rs, Go, Yo, Yo, Ox, O*]
+
+18/01/16_16:56:45: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   
+97  .   .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:45: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:45: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   
+97  .   .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:45: MOVE O* 93 85 
+18/01/16_16:56:45: one's score is: 104
+18/01/16_16:56:45: tow's score is: 125
+18/01/16_16:56:45: Tiles in pool: 14
+
+18/01/16_16:56:45: It is now tow's turn.
+
+18/01/16_16:56:46: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   .   .   .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   
+97  .   .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Pc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:46: one's score is: 104
+18/01/16_16:56:46: tow's score is: 127
+18/01/16_16:56:46: tow just made the following move: [[Pc, 103, 100]]
+
+18/01/16_16:56:46: It is your turn!
+
+18/01/16_16:56:46: Hand: [Rs, Go, Yo, Yo, Ox, Rs]
+
+18/01/16_16:56:46: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   Rs  .   .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   
+97  .   .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Pc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:46: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:46: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   Rs  .   .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   
+97  .   .   .   .   .   .   .   .   Bo  Bd  .   .   Px  P*  Po  .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Pc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:46: MOVE Rs 93 98 
+18/01/16_16:56:46: one's score is: 106
+18/01/16_16:56:46: tow's score is: 127
+18/01/16_16:56:46: Tiles in pool: 12
+
+18/01/16_16:56:46: It is now tow's turn.
+
+18/01/16_16:56:46: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   Rs  .   .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   
+97  .   .   .   .   .   .   Ys  .   Bo  Bd  .   .   Px  P*  Po  .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Pc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:46: one's score is: 106
+18/01/16_16:56:46: tow's score is: 129
+18/01/16_16:56:46: tow just made the following move: [[Ys, 97, 90]]
+
+18/01/16_16:56:46: It is your turn!
+
+18/01/16_16:56:46: Hand: [Rs, Go, Yo, Yo, Ox, Rd]
+
+18/01/16_16:56:46: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   Rs  Rd  .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   
+97  .   .   .   .   .   .   Ys  .   Bo  Bd  .   .   Px  P*  Po  .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Pc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:46: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:46: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   Rs  Rd  .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   
+97  .   .   .   .   .   .   Ys  .   Bo  Bd  .   .   Px  P*  Po  .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Pc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:46: MOVE Rd 93 99 
+18/01/16_16:56:46: one's score is: 108
+18/01/16_16:56:46: tow's score is: 129
+18/01/16_16:56:46: Tiles in pool: 10
+
+18/01/16_16:56:46: It is now tow's turn.
+
+18/01/16_16:56:46: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   Rs  Rd  .   .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   .   
+97  .   .   .   .   .   .   Ys  .   Bo  Bd  .   .   Px  P*  Po  .   .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Pc  Rc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:46: one's score is: 108
+18/01/16_16:56:46: tow's score is: 131
+18/01/16_16:56:46: tow just made the following move: [[Rc, 103, 101]]
+
+18/01/16_16:56:46: It is your turn!
+
+18/01/16_16:56:46: Hand: [Rs, Go, Yo, Yo, Ox, Y*]
+
+18/01/16_16:56:46: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   Rs  Rd  .   .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   .   
+97  .   .   .   .   .   .   Ys  .   Bo  Bd  .   .   Px  P*  Po  .   .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   Y*  .   .   .   .   Pc  Rc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:46: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:46: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   Rs  Rd  .   .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   .   
+97  .   .   .   .   .   .   Ys  .   Bo  Bd  .   .   Px  P*  Po  .   .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   Y*  .   .   .   .   Pc  Rc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:46: MOVE Y* 103 95 
+18/01/16_16:56:46: one's score is: 111
+18/01/16_16:56:46: tow's score is: 131
+18/01/16_16:56:46: Tiles in pool: 8
+
+18/01/16_16:56:46: It is now tow's turn.
+
+18/01/16_16:56:46: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   Rs  Rd  .   .   .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   .   .   
+97  .   .   .   .   .   .   Ys  .   Bo  Bd  .   .   Px  P*  Po  .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   Y*  .   .   .   .   Pc  Rc  Oc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:46: one's score is: 111
+18/01/16_16:56:46: tow's score is: 134
+18/01/16_16:56:46: tow just made the following move: [[Oc, 103, 102]]
+
+18/01/16_16:56:46: It is your turn!
+
+18/01/16_16:56:46: Hand: [Rs, Go, Yo, Yo, Ox, Oo]
+
+18/01/16_16:56:46: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   Rs  Rd  .   .   .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   .   .   
+97  .   .   .   .   .   .   Ys  .   Bo  Bd  .   .   Px  P*  Po  .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   Y*  .   .   .   .   Pc  Rc  Oc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Oo  .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:46: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:46: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   Rs  Rd  .   .   .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   .   .   
+97  .   .   .   .   .   .   Ys  .   Bo  Bd  .   .   Px  P*  Po  .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   Y*  .   .   .   .   Pc  Rc  Oc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Oo  .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:46: MOVE Oo 104 102 
+18/01/16_16:56:46: one's score is: 113
+18/01/16_16:56:46: tow's score is: 134
+18/01/16_16:56:46: Tiles in pool: 6
+
+18/01/16_16:56:46: It is now tow's turn.
+
+18/01/16_16:56:47: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   Rs  Rd  .   .   .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   .   .   
+97  .   .   .   .   .   .   Ys  .   Bo  Bd  .   .   Px  P*  Po  .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   .   Pc  Rc  Oc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Oo  .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:47: one's score is: 113
+18/01/16_16:56:47: tow's score is: 136
+18/01/16_16:56:47: tow just made the following move: [[Ys, 103, 96]]
+
+18/01/16_16:56:47: It is your turn!
+
+18/01/16_16:56:47: Hand: [Rs, Go, Yo, Yo, Ox, Y*]
+
+18/01/16_16:56:47: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   Rs  Rd  .   .   .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   .   .   
+97  .   .   .   .   .   .   Ys  .   Bo  Bd  .   .   Px  P*  Po  .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   .   Pc  Rc  Oc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   Y*  .   .   .   .   .   Oo  .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:47: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:47: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   Rs  Rd  .   .   .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   .   .   
+97  .   .   .   .   .   .   Ys  .   Bo  Bd  .   .   Px  P*  Po  .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   .   Pc  Rc  Oc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   Y*  .   .   .   .   .   Oo  .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:47: MOVE Y* 104 96 
+18/01/16_16:56:47: one's score is: 115
+18/01/16_16:56:47: tow's score is: 136
+18/01/16_16:56:47: Tiles in pool: 4
+
+18/01/16_16:56:47: It is now tow's turn.
+
+18/01/16_16:56:47: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   Rs  Rd  .   .   .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   .   .   
+97  .   .   .   .   .   .   Ys  .   Bo  Bd  .   .   Px  P*  Po  .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   .   Pc  Rc  Oc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   Y*  Yc  .   .   .   .   Oo  .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:47: one's score is: 115
+18/01/16_16:56:47: tow's score is: 138
+18/01/16_16:56:47: tow just made the following move: [[Yc, 104, 97]]
+
+18/01/16_16:56:47: It is your turn!
+
+18/01/16_16:56:47: Hand: [Rs, Go, Yo, Yo, Ox, Gc]
+
+18/01/16_16:56:47: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   Rs  Rd  .   .   .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   .   .   
+97  .   .   .   .   .   .   Ys  .   Bo  Bd  .   .   Px  P*  Po  .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   .   Pc  Rc  Oc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   Y*  Yc  .   .   .   .   Oo  .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   Gc  .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:47: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:47: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   Rs  Rd  .   .   .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   .   .   
+97  .   .   .   .   .   .   Ys  .   Bo  Bd  .   .   Px  P*  Po  .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   .   Pc  Rc  Oc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   Y*  Yc  .   .   .   .   Oo  .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   Gc  .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:47: MOVE Gc 105 97 
+18/01/16_16:56:47: one's score is: 117
+18/01/16_16:56:47: tow's score is: 138
+18/01/16_16:56:47: Tiles in pool: 2
+
+18/01/16_16:56:47: It is now tow's turn.
+
+18/01/16_16:56:47: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   Rs  Rd  .   .   .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   .   .   
+97  .   .   .   .   .   .   Ys  .   Bo  Bd  .   .   Px  P*  Po  .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   .   Pc  Rc  Oc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   Y*  Yc  Yd  .   .   .   Oo  .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   Gc  .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:47: one's score is: 117
+18/01/16_16:56:47: tow's score is: 141
+18/01/16_16:56:47: tow just made the following move: [[Yd, 104, 98]]
+
+18/01/16_16:56:47: It is your turn!
+
+18/01/16_16:56:47: Hand: [Rs, Go, Yo, Yo, Ox, Gc]
+
+18/01/16_16:56:47: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   Rs  Rd  .   .   .   .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   .   .   .   
+97  .   .   .   .   .   .   Ys  .   Bo  Bd  .   .   Px  P*  Po  .   .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   .   Pc  Rc  Oc  Gc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   Y*  Yc  Yd  .   .   .   Oo  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   Gc  .   .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:47: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:47: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   Rs  Rd  .   .   .   .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   .   .   .   
+97  .   .   .   .   .   .   Ys  .   Bo  Bd  .   .   Px  P*  Po  .   .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   .   P*  .   .   .   Bx  Bc  .   .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   .   Pc  Rc  Oc  Gc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   Y*  Yc  Yd  .   .   .   Oo  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   Gc  .   .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:47: MOVE Gc 103 103 
+18/01/16_16:56:47: one's score is: 121
+18/01/16_16:56:47: tow's score is: 141
+18/01/16_16:56:47: Tiles in pool: 0
+
+18/01/16_16:56:47: It is now tow's turn.
+
+18/01/16_16:56:48: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   Rs  Rd  .   .   .   .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   .   .   .   
+97  .   .   .   .   .   .   Ys  .   Bo  Bd  .   .   Px  P*  Po  .   .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Ps  P*  .   .   .   Bx  Bc  .   .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   .   Pc  Rc  Oc  Gc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   Y*  Yc  Yd  .   .   .   Oo  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   Gc  .   .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:48: one's score is: 121
+18/01/16_16:56:48: tow's score is: 146
+18/01/16_16:56:48: tow just made the following move: [[Ps, 102, 94]]
+
+18/01/16_16:56:48: It is your turn!
+
+18/01/16_16:56:48: Hand: [Rs, Go, Yo, Yo, Ox, Ro]
+
+18/01/16_16:56:48: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   Rs  Rd  .   .   .   .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   .   .   .   
+97  .   .   .   .   .   .   Ys  .   Bo  Bd  .   .   Px  P*  Po  .   .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Ps  P*  .   .   .   Bx  Bc  .   .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   .   Pc  Rc  Oc  Gc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   Y*  Yc  Yd  .   .   Ro  Oo  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   Gc  .   .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:48: Hand: [Rs, Go, Yo, Yo, Ox]
+
+18/01/16_16:56:48: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100  101  102  103  104  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   .   Rc  Pc  .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   .   .   .   .   Gc  Oc  Yc  .   .   .   .   .   .   .   .   .   .   .   
+90  .   .   .   .   Rc  .   .   .   Bc  .   Od  Ox  .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   Ro  Bo  .   P*  Pc  Px  Pd  .   Oo  .   .   .   .   .   .   .   .   
+92  .   .   Gd  .   Rx  Ro  Rd  R*  .   Yx  .   Gx  Ox  Yx  Rx  .   .   .   .   .   .   
+93  .   O*  G*  B*  R*  .   Pd  .   G*  Gx  Gs  Go  .   .   Rs  Rd  .   .   .   .   .   
+94  .   .   .   R*  .   Yd  Od  Gd  .   Rx  Rs  .   .   .   .   .   .   .   .   .   .   
+95  .   .   .   .   Y*  Yx  .   Bd  Bc  .   Ps  Os  .   .   .   .   .   .   .   .   .   
+96  .   .   .   .   .   Yc  Yo  .   B*  .   Os  Gs  Ps  .   .   .   .   .   .   .   .   
+97  .   .   .   .   .   .   Ys  .   Bo  Bd  .   .   Px  P*  Po  .   .   .   .   .   .   
+98  .   .   .   .   .   .   .   .   Bd  Rd  Od  Gd  .   Po  Px  .   .   .   .   .   .   
+99  .   .   .   .   .   .   .   B*  Bx  .   .   G*  O*  .   .   .   .   .   .   .   .   
+100  .   .   .   .   .   .   .   Bx  Bs  .   Ys  .   Oo  Bo  Go  .   .   .   .   .   .   
+101  .   .   .   .   .   .   .   .   .   .   Os  O*  Oc  .   Gs  Gx  .   .   .   .   .   
+102  .   .   .   .   .   .   .   .   .   .   Ps  P*  .   .   .   Bx  Bc  .   .   .   .   
+103  .   .   .   .   .   .   .   .   .   .   .   Y*  Ys  .   .   .   Pc  Rc  Oc  Gc  .   
+104  .   .   .   .   .   .   .   .   .   .   .   .   Y*  Yc  Yd  .   .   Ro  Oo  .   .   
+105  .   .   .   .   .   .   .   .   .   .   .   .   .   Gc  .   .   .   .   .   .   .   
+106  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+18/01/16_16:56:48: MOVE Ro 104 101 
+18/01/16_16:56:48: one's score is: 125
+18/01/16_16:56:48: tow's score is: 146
+18/01/16_16:58:28: Tiles in pool: 5
+
+18/01/16_16:58:28: one IS KICKED FOR THE FOLLOWING REASON: Did not make a move in time
+

@@ -1,0 +1,47 @@
+18/01/16_15:44:35: Welcome in Qwirkle
+18/01/16_15:44:35: (only characters a-z A-Z and 1 to 16 characters long)
+18/01/16_15:44:35: What is your name? 
+
+18/01/16_15:44:45: 
+Server IP-adress: 
+
+18/01/16_15:44:48: 
+Server port: 
+
+18/01/16_15:44:49: 
+Bot: 'b', Human: 'h'
+18/01/16_15:44:50: 
+Checking host... 
+18/01/16_15:44:50: Host accepted.
+18/01/16_15:44:50: Checking port... 
+18/01/16_15:44:50: Port accepted.
+18/01/16_15:44:50: Creating client... 
+18/01/16_15:44:50: Client Han created
+18/01/16_15:44:50: Starting client... 
+18/01/16_15:44:50: Client started.
+18/01/16_15:44:50: Sending registration message... 
+18/01/16_15:44:50: Registration message send.
+18/01/16_15:44:50: Waiting for welcome message... 
+18/01/16_15:44:50: Welcome message received.
+
+18/01/16_15:44:57: Players participating: [Player 1: Han, Player 2: BOT]
+
+18/01/16_15:44:57: AITime: 99999
+
+18/01/16_15:44:57: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   G*  Gc  .   
+92  .   .   .   .   
+
+18/01/16_15:44:57: Han's score is: 2
+18/01/16_15:44:57: BOT's score is: 0
+18/01/16_15:44:57: Tiles in pool: 94
+
+18/01/16_15:44:57: It is now BOT's turn.
+
+18/01/16_15:44:57: Tiles in pool: 100
+
+18/01/16_15:44:57: BOT IS KICKED FOR THE FOLLOWING REASON: made a invalid turn
+
+18/01/16_15:45:36: ÏOException while reading from socket.

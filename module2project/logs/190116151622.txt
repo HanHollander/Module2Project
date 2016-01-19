@@ -1,0 +1,39 @@
+19/01/16_15:16:22: Welcome in Qwirkle
+19/01/16_15:16:22: (only characters a-z A-Z and 1 to 16 characters long)
+19/01/16_15:16:22: What is your name? 
+
+19/01/16_15:16:24: 
+Server IP-adress: 
+
+19/01/16_15:16:40: 
+Server port: 
+
+19/01/16_15:16:44: 
+Bot: 'b', Human: 'h'
+19/01/16_15:16:46: 
+Checking host... 
+19/01/16_15:16:46: Host accepted.
+19/01/16_15:16:46: Checking port... 
+19/01/16_15:16:46: Port accepted.
+19/01/16_15:16:46: Creating client... 
+19/01/16_15:16:46: Client Han created
+19/01/16_15:16:46: Starting client... 
+19/01/16_15:16:46: Client started.
+19/01/16_15:16:46: Sending registration message... 
+19/01/16_15:16:46: HELLO Han
+19/01/16_15:16:46: Registration message send.
+19/01/16_15:16:46: Waiting for welcome message... 
+19/01/16_15:16:46: Welcome message received.
+
+19/01/16_15:16:46: Tiles in pool: 102
+
+19/01/16_15:16:46: Players participating: [Player 0: test, Player 1: Han]
+
+19/01/16_15:16:46: AITime: 100
+
+19/01/16_15:16:46: Tiles in pool: 102
+
+19/01/16_15:16:46: test IS KICKED FOR THE FOLLOWING REASON: No valid move!
+
+19/01/16_15:16:46: It is now test's turn.
+

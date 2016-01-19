@@ -1,0 +1,47 @@
+18/01/16_15:34:28: Welcome in Qwirkle
+18/01/16_15:34:28: (only characters a-z A-Z and 1 to 16 characters long)
+18/01/16_15:34:28: What is your name? 
+
+18/01/16_15:34:38: 
+Server IP-adress: 
+
+18/01/16_15:34:39: 
+Server port: 
+
+18/01/16_15:34:41: 
+Bot: 'b', Human: 'h'
+18/01/16_15:34:43: 
+Checking host... 
+18/01/16_15:34:43: Host accepted.
+18/01/16_15:34:43: Checking port... 
+18/01/16_15:34:43: Port accepted.
+18/01/16_15:34:43: Creating client... 
+18/01/16_15:34:43: Client Han created
+18/01/16_15:34:43: Starting client... 
+18/01/16_15:34:43: Client started.
+18/01/16_15:34:43: Sending registration message... 
+18/01/16_15:34:43: Registration message send.
+18/01/16_15:34:43: Waiting for welcome message... 
+18/01/16_15:34:43: Welcome message received.
+
+18/01/16_15:35:04: Players participating: [Player 1: Han, Player 2: BOT]
+
+18/01/16_15:35:04: AITime: 99999
+
+18/01/16_15:35:04: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Rx  R*  Ro  .   
+92  .   .   .   .   .   
+
+18/01/16_15:35:04: Han's score is: 3
+18/01/16_15:35:04: BOT's score is: 0
+18/01/16_15:35:04: Tiles in pool: 93
+
+18/01/16_15:35:05: It is now BOT's turn.
+
+18/01/16_15:35:05: Tiles in pool: 99
+
+18/01/16_15:35:05: BOT IS KICKED FOR THE FOLLOWING REASON: lost connection
+
+18/01/16_15:35:47: ÏOException while reading from socket.

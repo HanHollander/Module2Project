@@ -77,8 +77,13 @@ public abstract class Player {
   
   public String handToString() {
     String result = "[";
-    for (Tile tile : hand) {
-      result = result + tile.colourToString() + ",";
+    int i = 1;
+    if (hand.size() > 0) {
+      for (Tile tile : hand) {
+        result = result + i + ": " + tile.colourToString() + ", ";
+        i++;
+      }
+      result = result.substring(0, result.length() - 2);
     }
     result = result + "]";
     return result;

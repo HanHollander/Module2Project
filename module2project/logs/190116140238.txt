@@ -1,0 +1,35 @@
+19/01/16_14:02:38: 
+Checking host... 
+19/01/16_14:02:38: Host accepted.
+19/01/16_14:02:38: Checking port... 
+19/01/16_14:02:38: Port accepted.
+19/01/16_14:02:38: Creating client... 
+19/01/16_14:02:38: Client one created
+19/01/16_14:02:38: Starting client... 
+19/01/16_14:02:38: Client started.
+19/01/16_14:02:38: Sending registration message... 
+19/01/16_14:02:38: HELLO one
+19/01/16_14:02:38: Registration message send.
+19/01/16_14:02:38: Waiting for welcome message... 
+19/01/16_14:02:38: Welcome message received.
+
+19/01/16_14:02:39: Players participating: [Player 1: one, Player 2: two]
+
+19/01/16_14:02:39: AITime: 30000
+
+19/01/16_14:02:39: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   [37mF[0m   [36mF[0m   .   
+92  .   .   .   .   
+
+19/01/16_14:02:39: one's score is: 2
+19/01/16_14:02:39: two's score is: 0
+19/01/16_14:02:39: Tiles in pool: 94
+
+19/01/16_14:02:39: It is now two's turn.
+
+19/01/16_14:02:39: Tiles in pool: 100
+
+19/01/16_14:02:39: two IS KICKED FOR THE FOLLOWING REASON: lost connection
+

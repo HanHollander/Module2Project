@@ -1,0 +1,64 @@
+19/01/16_14:55:08: 
+Checking host... 
+19/01/16_14:55:08: Host accepted.
+19/01/16_14:55:08: Checking port... 
+19/01/16_14:55:08: Port accepted.
+19/01/16_14:55:08: Creating client... 
+19/01/16_14:55:08: Client bot created
+19/01/16_14:55:08: Starting client... 
+19/01/16_14:55:08: Client started.
+19/01/16_14:55:08: Sending registration message... 
+19/01/16_14:55:08: HELLO bot
+19/01/16_14:55:08: Registration message send.
+19/01/16_14:55:08: Waiting for welcome message... 
+19/01/16_14:55:08: Welcome message received.
+
+19/01/16_14:55:08: Players participating: [Player 1: human, Player 2: bot]
+
+19/01/16_14:55:08: AITime: 99999
+
+19/01/16_14:55:08: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   [35mC[0m   [36mC[0m   .   
+92  .   .   .   .   
+
+19/01/16_14:55:08: human's score is: 2
+19/01/16_14:55:08: bot's score is: 0
+19/01/16_14:55:08: human just made the following move: [[Ps, 91, 91], [Ys, 91, 92]]
+
+19/01/16_14:55:08: Tiles in pool: 94
+
+19/01/16_14:55:08: It is your turn!
+
+19/01/16_14:55:08: Hand: [1: [33mC[0m, 2: [32mE[0m, 3: [31mE[0m, 4: [32mF[0m, 5: [36mB[0m, 6: [37mB[0m]
+
+19/01/16_14:55:08: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   [35mC[0m   [36mC[0m   .   
+92  .   .   [36mB[0m   .   
+93  .   .   .   .   
+
+19/01/16_14:55:08: Hand: [1: [33mC[0m, 2: [32mE[0m, 3: [31mE[0m, 4: [32mF[0m, 5: [37mB[0m]
+
+19/01/16_14:55:08: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   [35mC[0m   [36mC[0m   .   
+92  .   .   [36mB[0m   .   
+93  .   .   .   .   
+
+19/01/16_14:55:08: MOVE Yd 92 92 
+19/01/16_14:55:08: human's score is: 2
+19/01/16_14:55:08: bot's score is: 2
+19/01/16_14:55:08: Tiles in pool: 93
+
+19/01/16_14:55:08: It is now human's turn.
+
+19/01/16_14:56:48: Tiles in pool: 99
+
+19/01/16_14:56:48: human IS KICKED FOR THE FOLLOWING REASON: Did not make a move in time
+
+19/01/16_14:56:48: The winner is... bot!
+19/01/16_14:57:59: ÏOException while reading from socket.
