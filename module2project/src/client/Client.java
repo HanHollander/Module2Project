@@ -262,7 +262,7 @@ public class Client extends Thread {
         game.setPlayer(player);
       }
       Printer.print("Welcome message received." + "\n");
-    }  
+    }
   }
 
   /**

@@ -39,28 +39,29 @@ public class NaiveStrategy implements Strategy {
    */
   public List<List<Integer>> getPossiblePlaces(Board board) {
     List<List<Integer>> result = new ArrayList<>();
+    Tile empty = new Tile(".", " ");
     for (int i = 0; i < DIM; i++) {
       for (int j = 0; j < DIM; j ++) {
-        if (!board.getTile(i, j).equals(new Tile(".", " "))) {
-          if (board.getTile(i - 1, j).equals(new Tile(".", " "))) {
+        if (!board.getTile(i, j).equals(empty)) {
+          if (board.getTile(i - 1, j).equals(empty)) {
             List<Integer> add = new ArrayList<>();
             add.add(i - 1);
             add.add(j);
             result.add(add);
           } 
-          if (board.getTile(i + 1, j).equals(new Tile(".", " "))) {
+          if (board.getTile(i + 1, j).equals(empty)) {
             List<Integer> add = new ArrayList<>();
             add.add(i + 1);
             add.add(j);
             result.add(add);
           }
-          if (board.getTile(i, j - 1).equals(new Tile(".", " "))) {
+          if (board.getTile(i, j - 1).equals(empty)) {
             List<Integer> add = new ArrayList<>();
             add.add(i);
             add.add(j - 1);
             result.add(add);
           }
-          if (board.getTile(i, j + 1).equals(new Tile(".", " "))) {
+          if (board.getTile(i, j + 1).equals(empty)) {
             List<Integer> add = new ArrayList<>();
             add.add(i);
             add.add(j + 1);
@@ -70,7 +71,6 @@ public class NaiveStrategy implements Strategy {
       }
     }
     return result;
-    
   }
 
 }

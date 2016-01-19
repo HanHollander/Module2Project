@@ -15,11 +15,11 @@ public class Tile {
     this.shape = shape;
   }
   
-  public String getColor(){
+  public String getColor() {
     return color;
   }
   
-  public String getShape(){
+  public String getShape() {
     return shape;
   }
   
