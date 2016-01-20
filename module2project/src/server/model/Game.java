@@ -105,15 +105,15 @@ public class Game extends Observable{
       tilesBack.add(tile);
     }
     
-    setChanged();
-    notifyObservers("turn made");
-    
     if (!isFirstTurn) {
       server.giveTiles(player.getPlayerNumber(), tilesBack);
     }
     server.sendTurn(player.getPlayerNumber(), turn);
     player.addToScore(board.getScoreCurrentTurn());
     board.endTurn();
+    
+    setChanged();
+    notifyObservers("turn made");
   }
   
   /**
@@ -171,9 +171,7 @@ public class Game extends Observable{
       if (!result) {
         break;
       }
-      System.out.println("Testing move: " + move.toString());
       result = result && testBoard.checkMove(move);
-      System.out.println("Result = " + result);
       if (result) {
         testBoard.putTile(move);
       } else {
