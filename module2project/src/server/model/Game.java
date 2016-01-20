@@ -8,10 +8,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Observable;
 import java.util.Set;
 
 
-public class Game {
+public class Game extends Observable{
     
   //Fields\\
   
@@ -30,6 +31,7 @@ public class Game {
    * @param server The server through which the game can communicate with the players.
    */
   public Game(Server server) {
+    addObserver(server.getObserver());
     this.server = server;
     board = new Board(this);
     playerList = new HashMap<Integer, Player>();
@@ -66,6 +68,8 @@ public class Game {
         System.out.println(e);
       }
     }
+    setChanged();
+    notifyObservers("turn made");
     server.giveTiles(player.getPlayerNumber(), newTiles);
     server.broadcast("TURN " + player.getPlayerNumber() + " empty");
   }
@@ -100,6 +104,9 @@ public class Game {
       }
       tilesBack.add(tile);
     }
+    
+    setChanged();
+    notifyObservers("turn made");
     
     if (!isFirstTurn) {
       server.giveTiles(player.getPlayerNumber(), tilesBack);

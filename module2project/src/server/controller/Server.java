@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Observer;
 import java.util.Set;
 
 import server.model.Game;
@@ -49,8 +50,9 @@ public class Server extends Thread{
     }
     
     Object waitingForFullLoby = new Object();
+    int serverNr = 1;
     while (true) {
-      Server server = new Server(serverSocket, numberOfPlayers, aiTime, waitingForFullLoby);
+      Server server = new Server(serverSocket, numberOfPlayers, aiTime, waitingForFullLoby, serverNr);
       server.start();
       synchronized (waitingForFullLoby) {
         try {
@@ -60,6 +62,7 @@ public class Server extends Thread{
           System.exit(0);
         }
       }
+      serverNr++;
     }
   }
 
@@ -74,10 +77,14 @@ public class Server extends Thread{
   private boolean wokenByTimer;
   private boolean imReady;
   private Object waitingForFullLoby;
+  private int serverNr;
+  private Observer observer;
   
   /** Constructs a new Server object. */
-  public Server(ServerSocket serverSocket, int numberOfPlayersArg, int aiTime, Object waitingForFullLoby) {
-    numberOfPlayers = numberOfPlayersArg;
+  public Server(ServerSocket serverSocket, int numberOfPlayers, 
+      int aiTime, Object waitingForFullLoby, int serverNr) {
+    observer = new View(this);
+    this.numberOfPlayers = numberOfPlayers;
     threads = new HashMap<Integer, ClientHandler>();
     game = new Game(this);
     monitor = new Object();
@@ -86,6 +93,8 @@ public class Server extends Thread{
     this.aiTime = aiTime;
     this.waitingForFullLoby = waitingForFullLoby;
     this.serverSocket = serverSocket;
+    this.serverNr = serverNr;
+    
   }
 
   /**
@@ -110,12 +119,15 @@ public class Server extends Thread{
         System.out.println("Could not connect to client " + numberOfConnectingPlayer);
       }
     }
+    
     synchronized (waitingForFullLoby) {
       waitingForFullLoby.notifyAll();
     }
+    
     System.out.println("Clients connected: [" + (numberOfConnectingPlayer - 1) 
         + " of " + numberOfPlayers + "]");
     System.out.println("Waiting for everyone to send their name" + "\n");
+    
     while (!allPlayerNamesAreKnown()) {
       synchronized (monitor) {
         try {
@@ -125,6 +137,7 @@ public class Server extends Thread{
         }
       }
     }
+    
     Set<Integer> playerNrs = threads.keySet();
     System.out.println("\n" + "Everyone has send their name");
     String namesMsg = "NAMES";
@@ -141,22 +154,7 @@ public class Server extends Thread{
       nextPlayerTurn();
     }
     
-    
-    
     while (!game.isGameOver() && threads.size() > 1) {
-      // Print game situation
-      playerNrs = threads.keySet();
-      System.out.println("\n" + "\n" + "\n" + "Score board:");
-      for (int number : playerNrs) {
-        System.out.println("Player-" + number + ": " + game.getPlayer(number).getScore());
-      }
-      System.out.println("\n" + game.getBoard().toString() + "\n" + "Tiles in pool: " 
-          + game.getPoolSize());
-      for (int number : playerNrs) {
-        System.out.println("Player-" + number + " hand: " + game.getPlayer(number).getHand());
-      }
-      System.out.println("");
-      
       // Wait for a clientHandler to do something (make a move or kick)
       synchronized (monitor) {
         Timer timer = new Timer(aiTime, this);
@@ -240,6 +238,18 @@ public class Server extends Thread{
   
   public ClientHandler getThread(int playerNr) {
     return threads.get(playerNr);
+  }
+  
+  public int getServerNr() {
+    return serverNr;
+  }
+  
+  public Set<Integer> getPlayerNrs() {
+    return threads.keySet();
+  }
+  
+  public Observer getObserver() {
+    return observer;
   }
   
   public boolean isReady() {
