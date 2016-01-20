@@ -13,7 +13,7 @@ public class AnsiTest {
   public static final String ANSI_WHITE = "\u001B[37m";
   
   public static void main(String[] args) {
-    System.out.println(ANSI_RED + "\u2666" + ANSI_RESET);
+    //System.out.println(ANSI_RED + "\u2666" + ANSI_RESET);
   }
 
 }

@@ -47,25 +47,45 @@ public class Tile {
     }
     return equals;
   }
+  
+  /**
+   * Coloured letters!
+   * @return letter in colour.
+   */
   // o d s c x *
   public String colourToString() {
     String letter = "";
-    if (shape.equals("o")) { letter = "A"; }
-    else if (shape.equals("d")) { letter = "B"; }
-    else if (shape.equals("s")) { letter = "C"; }
-    else if (shape.equals("c")) { letter = "D"; }
-    else if (shape.equals("x")) { letter = "E"; }
-    else if (shape.equals("*")) { letter = "F"; }
-    else { letter = "."; }
+    if (shape.equals("o")) { 
+      letter = "A"; 
+    } else if (shape.equals("d")) { 
+      letter = "B"; 
+    } else if (shape.equals("s")) { 
+      letter = "C"; 
+    } else if (shape.equals("c")) { 
+      letter = "D"; 
+    } else if (shape.equals("x")) { 
+      letter = "E"; 
+    } else if (shape.equals("*")) { 
+      letter = "F"; 
+    } else { 
+      letter = "."; 
+    }
     String result = "";
-    if (color.equals("R")) {result = ANSI_RED + letter + ANSI_RESET;}
-    else if (color.equals("G")) {result = ANSI_GREEN + letter + ANSI_RESET;}
-    else if (color.equals("B")) {result = ANSI_WHITE + letter + ANSI_RESET;}
-    else if (color.equals("P")) {result = ANSI_PURPLE + letter + ANSI_RESET;}
-    else if (color.equals("Y")) {result = ANSI_CYAN + letter + ANSI_RESET;}
-    else if (color.equals("O")) {result = ANSI_YELLOW + letter + ANSI_RESET;}
-    else { result = letter; }
-    
+    if (color.equals("R")) {
+      result = ANSI_RED + letter + ANSI_RESET;
+    } else if (color.equals("G")) {
+      result = ANSI_GREEN + letter + ANSI_RESET;
+    } else if (color.equals("B")) {
+      result = ANSI_WHITE + letter + ANSI_RESET;
+    } else if (color.equals("P")) {
+      result = ANSI_PURPLE + letter + ANSI_RESET;
+    } else if (color.equals("Y")) {
+      result = ANSI_CYAN + letter + ANSI_RESET;
+    } else if (color.equals("O")) {
+      result = ANSI_YELLOW + letter + ANSI_RESET;
+    } else { 
+      result = letter; 
+    }
     return result;
   }
   

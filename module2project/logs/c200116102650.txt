@@ -1,0 +1,68 @@
+20/01/16_10:26:50: 
+Checking host... 
+20/01/16_10:26:50: Host accepted.
+20/01/16_10:26:50: Checking port... 
+20/01/16_10:26:50: Port accepted.
+20/01/16_10:26:50: Creating client... 
+20/01/16_10:26:50: Client human created
+20/01/16_10:26:51: Starting client... 
+20/01/16_10:26:51: Client started.
+20/01/16_10:26:51: Sending registration message... 
+20/01/16_10:26:51: HELLO human
+20/01/16_10:26:51: Registration message send.
+20/01/16_10:26:51: Welcome message received.
+
+20/01/16_10:26:51: Waiting for welcome message... 
+20/01/16_10:26:51: Players participating: [Player 1: human, Player 2: bot]
+
+20/01/16_10:26:51: AITime: 999999
+
+20/01/16_10:26:51: u[2J
+20/01/16_10:26:51: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   [33mA[0m   [36mA[0m   .   
+92  .   .   .   .   
+
+20/01/16_10:26:51: human's score is: 2
+20/01/16_10:26:51: bot's score is: 0
+20/01/16_10:26:51: Tiles in pool: 94
+
+20/01/16_10:26:51: It is now bot's turn.
+
+20/01/16_10:26:52: u[2J
+20/01/16_10:26:52: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   [33mA[0m   [36mA[0m   [32mA[0m   .   
+92  .   .   .   [32mD[0m   .   
+93  .   .   .   .   .   
+
+20/01/16_10:26:52: human's score is: 2
+20/01/16_10:26:52: bot's score is: 5
+20/01/16_10:26:52: 
+bot just made the following move: [[Go, 91, 93], [Gc, 92, 93]]
+
+20/01/16_10:26:52: It is your turn!
+
+20/01/16_10:26:52: Hand: [1: [37mC[0m, 2: [31mB[0m, 3: [33mB[0m, 4: [31mD[0m, 5: [35mD[0m, 6: [35mF[0m]
+
+20/01/16_10:26:52: Type of turn: ANY
+20/01/16_10:26:52: What is your action?
+20/01/16_10:26:59: u[2J
+20/01/16_10:26:59: XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   [33mA[0m   [36mA[0m   [32mA[0m   .   
+92  .   .   .   [32mD[0m   .   
+93  .   .   .   .   .   
+
+
+20/01/16_10:26:59: human's score is: 2
+20/01/16_10:26:59: bot's score is: 5
+20/01/16_10:26:59: MOVE
+20/01/16_10:26:59: human's score is: 2
+20/01/16_10:26:59: bot's score is: 5
+20/01/16_10:26:59: Tiles in pool: 98
+
+20/01/16_10:26:59: human IS KICKED FOR THE FOLLOWING REASON: made a invalid turn
+

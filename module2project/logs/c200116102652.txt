@@ -1,0 +1,68 @@
+20/01/16_10:26:52: 
+Checking host... 
+20/01/16_10:26:52: Host accepted.
+20/01/16_10:26:52: Checking port... 
+20/01/16_10:26:52: Port accepted.
+20/01/16_10:26:52: Creating client... 
+20/01/16_10:26:52: Client human created
+20/01/16_10:26:52: Starting client... 
+20/01/16_10:26:52: Client started.
+20/01/16_10:26:52: Sending registration message... 
+20/01/16_10:26:52: HELLO human
+20/01/16_10:26:52: Registration message send.
+20/01/16_10:26:52: Welcome message received.
+
+20/01/16_10:26:52: Waiting for welcome message... 
+20/01/16_10:26:53: Players participating: [Player 1: human, Player 2: bot]
+
+20/01/16_10:26:53: AITime: 999999
+
+20/01/16_10:26:53: u[2J
+20/01/16_10:26:53: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   [36mA[0m   [31mA[0m   [33mA[0m   .   
+92  .   .   .   .   .   
+
+20/01/16_10:26:53: human's score is: 3
+20/01/16_10:26:53: bot's score is: 0
+20/01/16_10:26:53: Tiles in pool: 93
+
+20/01/16_10:26:53: It is now bot's turn.
+
+20/01/16_10:26:54: u[2J
+20/01/16_10:26:54: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   [36mA[0m   [31mA[0m   [33mA[0m   .   
+92  .   [36mE[0m   [31mE[0m   .   .   
+93  .   .   .   .   .   
+
+20/01/16_10:26:54: human's score is: 3
+20/01/16_10:26:54: bot's score is: 6
+20/01/16_10:26:54: 
+bot just made the following move: [[Yx, 92, 91], [Rx, 92, 92]]
+
+20/01/16_10:26:54: It is your turn!
+
+20/01/16_10:26:54: Hand: [1: [31mA[0m, 2: [32mD[0m, 3: [31mB[0m, 4: [36mA[0m, 5: [36mD[0m, 6: [33mA[0m]
+
+20/01/16_10:26:54: Type of turn: ANY
+20/01/16_10:26:54: What is your action?
+20/01/16_10:27:01: u[2J
+20/01/16_10:27:01: XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   [36mA[0m   [31mA[0m   [33mA[0m   .   
+92  .   [36mE[0m   [31mE[0m   .   .   
+93  .   .   .   .   .   
+
+
+20/01/16_10:27:01: human's score is: 3
+20/01/16_10:27:01: bot's score is: 6
+20/01/16_10:27:01: MOVE
+20/01/16_10:27:01: human's score is: 3
+20/01/16_10:27:01: bot's score is: 6
+20/01/16_10:27:01: Tiles in pool: 97
+
+20/01/16_10:27:01: human IS KICKED FOR THE FOLLOWING REASON: made a invalid turn
+

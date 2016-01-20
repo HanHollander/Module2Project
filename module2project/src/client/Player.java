@@ -1,11 +1,11 @@
 package client;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import exceptions.HandIsFullException;
 import exceptions.InvalidMoveException;
 import exceptions.TileNotInHandException;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public abstract class Player {
     
@@ -75,13 +75,17 @@ public abstract class Player {
     return hand;
   }
   
+  /**
+   * Returns a nice list with colour.
+   * @return nice list
+   */
   public String handToString() {
     String result = "[";
-    int i = 1;
+    int index = 1;
     if (hand.size() > 0) {
       for (Tile tile : hand) {
-        result = result + i + ": " + tile.colourToString() + ", ";
-        i++;
+        result = result + index + ": " + tile.colourToString() + ", ";
+        index++;
       }
       result = result.substring(0, result.length() - 2);
     }
