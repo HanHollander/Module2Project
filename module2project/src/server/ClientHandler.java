@@ -22,6 +22,7 @@ public class ClientHandler extends Thread {
   private String clientName;
   private int playerNr;
   private Object listener;
+  private boolean isShutDown;
   
   /**
    * Constructor for clienthandler.
@@ -37,6 +38,7 @@ public class ClientHandler extends Thread {
     out = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
     this.playerNr = playerNr;
     this.listener = listener;
+    isShutDown = false;
   }
   
   /**
@@ -44,7 +46,6 @@ public class ClientHandler extends Thread {
    */
   public void run() {
     String text = "";
-    boolean isKicked = false;
     // Starting procedure
     try {
       text = in.readLine();
@@ -58,15 +59,13 @@ public class ClientHandler extends Thread {
       } else {
         server.kick(playerNr, "Did not recieve valid start message");
         shutdown();
-        isKicked = true;
       }
     } catch (IOException e) {
       server.kick(playerNr, "lost connection with player");
       shutdown();
-      isKicked = true;
     }
     
-    while (!server.getGame().isGameOver() && !isKicked) {
+    while (!server.getGame().isGameOver() && !isShutDown) {
       try {
         text = in.readLine();
         System.out.println("Received from player-" + playerNr + ": " + text);
@@ -100,19 +99,16 @@ public class ClientHandler extends Thread {
             }
             server.handlerWakesServer();
           } else {
-            server.kick(playerNr, "made a invalid turn");
+            server.kick(playerNr, "made an invalid turn");
             shutdown();
-            isKicked = true;
           }
         } else {
           server.kick(playerNr, "spoke before his/her turn");
           shutdown();
-          isKicked = true;
         }
       } catch (IOException e) {
         server.kick(playerNr, "lost connection");
         shutdown();
-        isKicked = true;
       }
     }
     if (!server.isReady()) {
@@ -276,6 +272,7 @@ public class ClientHandler extends Thread {
    * Closes the socket of this clientHandler.
    */
   public void shutdown() {
+    isShutDown = true;
     try {
       socket.close();
     } catch (IOException e) {

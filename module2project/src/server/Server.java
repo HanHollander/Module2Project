@@ -133,16 +133,18 @@ public class Server extends Thread{
     }
     broadcast(namesMsg + " " + aiTime);
     
-    System.out.println("\n" + "Dealing tiles and making first move" + "\n");
-    game.dealTiles();
-    System.out.println("\n" + "Tiles dealt and first move made" + "\n");
+    if (threads.size() > 1) {
+      System.out.println("\n" + "Dealing tiles and making first move" + "\n");
+      game.dealTiles();
+      System.out.println("\n" + "Tiles dealt and first move made" + "\n");
     
-    nextPlayerTurn();
+      nextPlayerTurn();
+    }
     
     
     
     while (!game.isGameOver() && threads.size() > 1) {
-      // Print game situation
+//      Print game situation
 //      playerNrs = threads.keySet();
 //      System.out.println("\n" + "\n" + "\n" + "Score board:");
 //      for (int number : playerNrs) {
@@ -181,7 +183,10 @@ public class Server extends Thread{
       }
     }
     broadcast("WINNER " + game.getWinningPlayerNr());
-    
+//    playerNrs = threads.keySet();
+//    for (int number : playerNrs) {
+//      threads.get(number).shutdown();
+//    }
   }
   
   /**

@@ -206,7 +206,7 @@ public class Board {
       for (int column = columnMin; column <= columnMax; column++) {
         result = result + boardMatrix.get(row).get(column).colourToString() + "   ";
       }
-      result = result + "\n";
+      result = result + "\n" + "\n";
     }
     return result;
   }
