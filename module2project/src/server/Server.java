@@ -12,7 +12,7 @@ import java.util.Set;
  * @author  Theo Ruys
  * @version 2005.02.21
  */
-public class Server {
+public class Server extends Thread{
   private static final String USAGE = "usage: " + Server.class.getName() 
       + " <port> <numberOfPlayers(2,3,4)> <AITime>";
   
@@ -40,13 +40,30 @@ public class Server {
       System.exit(0);
     }
     
-    Server server = new Server(portInt, numberOfPlayers, aiTime);
-    server.run();
-
+    ServerSocket serverSocket = null;
+    try {
+      serverSocket = new ServerSocket(portInt);
+    } catch (IOException e) {
+      System.out.println("Could not create server socket on port " + portInt);
+      System.exit(0);
+    }
+    
+    Object waitingForFullLoby = new Object();
+    while (true) {
+      Server server = new Server(serverSocket, numberOfPlayers, aiTime, waitingForFullLoby);
+      server.start();
+      synchronized (waitingForFullLoby) {
+        try {
+          waitingForFullLoby.wait();
+        } catch (InterruptedException e) {
+          System.out.println("Server got interupted while waiting for the new lobby to get full.");
+          System.exit(0);
+        }
+      }
+    }
   }
 
 
-  private int port;
   private HashMap<Integer, ClientHandler> threads;
   private ServerSocket serverSocket;
   private int numberOfPlayers;
@@ -56,10 +73,10 @@ public class Server {
   private int aiTime;
   private boolean wokenByTimer;
   private boolean imReady;
+  private Object waitingForFullLoby;
   
   /** Constructs a new Server object. */
-  public Server(int portArg, int numberOfPlayersArg, int aiTime) {
-    port = portArg;
+  public Server(ServerSocket serverSocket, int numberOfPlayersArg, int aiTime, Object waitingForFullLoby) {
     numberOfPlayers = numberOfPlayersArg;
     threads = new HashMap<Integer, ClientHandler>();
     game = new Game(this);
@@ -67,11 +84,8 @@ public class Server {
     listener = new Object();
     imReady = true;
     this.aiTime = aiTime;
-    try {
-      serverSocket = new ServerSocket(port);
-    } catch (IOException e) {
-      System.out.println("Could not create server socket on port " + port);
-    }
+    this.waitingForFullLoby = waitingForFullLoby;
+    this.serverSocket = serverSocket;
   }
 
   /**
@@ -95,6 +109,9 @@ public class Server {
       } catch (IOException e) {
         System.out.println("Could not connect to client " + numberOfConnectingPlayer);
       }
+    }
+    synchronized (waitingForFullLoby) {
+      waitingForFullLoby.notifyAll();
     }
     System.out.println("Clients connected: [" + (numberOfConnectingPlayer - 1) 
         + " of " + numberOfPlayers + "]");
@@ -227,12 +244,12 @@ public class Server {
    * @param reason A String with a message about the reason of the kick.
    */
   public void kick(int playerNr, String reason) {
+    System.out.println(reason);
     List<Tile> hand = game.getPlayer(playerNr).getHand();
     broadcast("KICK " + playerNr + " " + hand.size() + " " + reason);
     for (Tile tile : hand) {
       game.addTileToPool(tile);
     }
-    threads.get(playerNr).shutdown();
     game.removePlayer(playerNr);
   }
   
