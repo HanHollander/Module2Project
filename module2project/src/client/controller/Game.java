@@ -53,7 +53,7 @@ public class Game {
   private int pool = 108;
   private boolean playerTurn;
   
-  private SmartStrategy hintGen;
+  private NaiveStrategy hintGen;
   
   /**
    * Constructs a new game and a new client.
@@ -67,7 +67,7 @@ public class Game {
     playerList = new ArrayList<>();
     this.playerName = name;
     this.setPlayerType(playerType);
-    setHintGen(new SmartStrategy());
+    setHintGen(new NaiveStrategy());
     //Try creating a client.
     try {
       Printer.print("Creating client... ");
@@ -84,7 +84,7 @@ public class Game {
       Printer.print("Client could not be created or started.");
     }
   }
-  
+
   /**
    * Gets called when it is the turn of the player.
    */
@@ -215,7 +215,7 @@ public class Game {
    * Determines a hint for the human player.
    */
   public Move getHint() {
-    return hintGen.determineMove(board, player.getHand(), player);
+    return hintGen.getHint(board, player.getHand());
   }
 
   public void setPlayer(Player player) {
@@ -258,11 +258,11 @@ public class Game {
     playerTurn = bool;
   }
 
-  public SmartStrategy getHintGen() {
+  public NaiveStrategy getHintGen() {
     return hintGen;
   }
 
-  public void setHintGen(SmartStrategy hintGen) {
+  public void setHintGen(NaiveStrategy hintGen) {
     this.hintGen = hintGen;
   }
 

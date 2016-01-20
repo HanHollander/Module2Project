@@ -38,10 +38,6 @@ public class ComputerPlayer extends Player {
     } 
     return result;
   }
-  
-  public void setMadeMove(boolean bool) {
-    setMadeMove(bool);
-  }
 
 
   
