@@ -145,7 +145,7 @@ public class Server extends Thread{
     
     
     while (!game.isGameOver() && threads.size() > 1) {
-//      Print game situation
+      // Print game situation
       playerNrs = threads.keySet();
       System.out.println("\n" + "\n" + "\n" + "Score board:");
       for (int number : playerNrs) {
