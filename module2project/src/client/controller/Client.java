@@ -150,8 +150,8 @@ public class Client extends Thread {
       } catch (NumberFormatException e) {
         Printer.print("Not a number. (WINNER)");
       }
+      Printer.printBoard(game);
       Printer.print("The winner is... " + getPlayerName(playerNumber) + "!\n");
-      game.printScores();
       Printer.print("Would you like to play another game? Y/N");
       String answer = Qwirkle.readInput();
       if (answer.equals("Y") || answer.equals("y")) {
