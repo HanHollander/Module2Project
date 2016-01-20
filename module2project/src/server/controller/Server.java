@@ -79,12 +79,12 @@ public class Server extends Thread{
   private boolean imReady;
   private Object waitingForFullLoby;
   private int serverNr;
-  private Observer observer;
+  private TUIView tui;
   
   /** Constructs a new Server object. */
   public Server(ServerSocket serverSocket, int numberOfPlayers, 
       int aiTime, Object waitingForFullLoby, int serverNr) {
-    observer = new TUIView(this);
+    tui = new TUIView(this);
     this.numberOfPlayers = numberOfPlayers;
     threads = new HashMap<Integer, ClientHandler>();
     game = new Game(this);
@@ -105,11 +105,11 @@ public class Server extends Thread{
    * communication with the Client.
    */
   public void run() {
-    System.out.println("Waiting for clients to connect");
+    tui.print("Waiting for clients to connect");
     int numberOfConnectingPlayer = 1;
     while (numberOfConnectingPlayer - 1 < numberOfPlayers) {
       try {
-        System.out.println("Clients connected: [" + (numberOfConnectingPlayer - 1) 
+        tui.print("Clients connected: [" + (numberOfConnectingPlayer - 1) 
             + " of " + numberOfPlayers + "]");
         ClientHandler ch = new ClientHandler(numberOfConnectingPlayer, 
             this, serverSocket.accept(), listener);
@@ -117,7 +117,7 @@ public class Server extends Thread{
         ch.start();
         numberOfConnectingPlayer++;
       } catch (IOException e) {
-        System.out.println("Could not connect to client " + numberOfConnectingPlayer);
+        tui.print("Could not connect to client " + numberOfConnectingPlayer);
       }
     }
     
@@ -125,22 +125,22 @@ public class Server extends Thread{
       waitingForFullLoby.notifyAll();
     }
     
-    System.out.println("Clients connected: [" + (numberOfConnectingPlayer - 1) 
+    tui.print("Clients connected: [" + (numberOfConnectingPlayer - 1) 
         + " of " + numberOfPlayers + "]");
-    System.out.println("Waiting for everyone to send their name" + "\n");
+    tui.print("Waiting for everyone to send their name" + "\n");
     
     while (!allPlayerNamesAreKnown()) {
       synchronized (monitor) {
         try {
           monitor.wait();
         } catch (InterruptedException e) {
-          System.out.println("Interupted while waiting for everyone to send their name");
+          tui.print("Interupted while waiting for everyone to send their name");
         }
       }
     }
     
     Set<Integer> playerNrs = threads.keySet();
-    System.out.println("\n" + "Everyone has send their name");
+    tui.print("\n" + "Everyone has send their name");
     String namesMsg = "NAMES";
     for (int number : playerNrs) {
       namesMsg = namesMsg + " " + game.getPlayer(number).getName() + " " + number;
@@ -148,9 +148,9 @@ public class Server extends Thread{
     broadcast(namesMsg + " " + aiTime);
     
     if (threads.size() > 1) {
-      System.out.println("\n" + "Dealing tiles and making first move" + "\n");
+      tui.print("\n" + "Dealing tiles and making first move" + "\n");
       game.dealTiles();
-      System.out.println("\n" + "Tiles dealt and first move made" + "\n");
+      tui.print("\n" + "Tiles dealt and first move made" + "\n");
     
       nextPlayerTurn();
     }
@@ -169,7 +169,7 @@ public class Server extends Thread{
           monitor.wait();
           imReady = false;
         } catch (InterruptedException e) {
-          System.out.println("Interupted while waiting for someone to make a move");
+          tui.print("Interupted while waiting for someone to make a move");
         }
         if (wokenByTimer) {
           kick(game.getCurrentPlayer(), "Did not make a move in time");
@@ -211,9 +211,11 @@ public class Server extends Thread{
    * to all connected Clients.
    * @param msg message that is send
    */
-  public void broadcast(String msg) {
-    for (Map.Entry<Integer, ClientHandler> entry : threads.entrySet()) {
-      entry.getValue().sendMessage(msg);
+  public synchronized void broadcast(String msg) {
+    synchronized (threads) {
+      for (Map.Entry<Integer, ClientHandler> entry : threads.entrySet()) {
+        entry.getValue().sendMessage(msg);
+      }
     }
   }
 
@@ -221,16 +223,20 @@ public class Server extends Thread{
    * Add a ClientHandler to the collection of ClientHandlers.
    * @param handler ClientHandler that will be added
    */
-  public void addHandler(int playerNr, ClientHandler handler) {
-    threads.put(playerNr, handler);
+  public synchronized void addHandler(int playerNr, ClientHandler handler) {
+    synchronized (threads) {
+      threads.put(playerNr, handler);
+    }
   }
 
   /**
    * Remove a ClientHandler from the collection of ClientHanlders. 
-   * @param handler ClientHandler that will be removed
+   * @param playerNr number of the ClientHandler that will be removed.
    */
-  public void removeHandler(int playerNr) {
-    threads.remove(playerNr);
+  public synchronized void removeHandler(int playerNr) {
+    synchronized (threads) {
+      threads.remove(playerNr);
+    }
   }
   
   public Game getGame() {
@@ -249,8 +255,8 @@ public class Server extends Thread{
     return threads.keySet();
   }
   
-  public Observer getObserver() {
-    return observer;
+  public TUIView getObserver() {
+    return tui;
   }
   
   public boolean isReady() {
@@ -263,14 +269,15 @@ public class Server extends Thread{
    * @param playerNr The number of the player that is being kicked.
    * @param reason A String with a message about the reason of the kick.
    */
-  public void kick(int playerNr, String reason) {
-    System.out.println(reason);
-    List<Tile> hand = game.getPlayer(playerNr).getHand();
-    broadcast("KICK " + playerNr + " " + hand.size() + " " + reason);
-    for (Tile tile : hand) {
-      game.addTileToPool(tile);
+  public synchronized void kick(int playerNr, String reason) {
+    synchronized (threads) {
+      List<Tile> hand = game.getPlayer(playerNr).getHand();
+      broadcast("KICK " + playerNr + " " + hand.size() + " " + reason);
+      for (Tile tile : hand) {
+        game.addTileToPool(tile);
+      }
+      game.removePlayer(playerNr);
     }
-    game.removePlayer(playerNr);
   }
   
   /**

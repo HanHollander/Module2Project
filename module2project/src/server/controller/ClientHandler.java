@@ -1,5 +1,9 @@
 package server.controller;
 
+import server.model.Move;
+import server.model.Tile;
+import server.view.TUIView;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -9,9 +13,6 @@ import java.net.Socket;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
-import server.model.Move;
-import server.model.Tile;
 
 public class ClientHandler extends Thread {
   
@@ -26,12 +27,17 @@ public class ClientHandler extends Thread {
   private int playerNr;
   private Object listener;
   private boolean isShutDown;
+  private TUIView tui;
   
   /**
-   * Constructor for clienthandler.
+   * Constructor for client handler.
+   * @param playerNr The number of the player which this client handler
+   *        communicates with.
    * @param serverArg server
    * @param sockArg socket
-   * @throws IOException if not able to create in or out
+   * @param listener the object on which the server notifies when 
+   *        it's ready to receive another update.
+   * @throws IOException if not able to create in or out stream.
    */
   public ClientHandler(int playerNr, Server serverArg, Socket sockArg, 
       Object listener) throws IOException {
@@ -42,6 +48,7 @@ public class ClientHandler extends Thread {
     this.playerNr = playerNr;
     this.listener = listener;
     isShutDown = false;
+    tui = server.getObserver();
   }
   
   /**
@@ -55,7 +62,7 @@ public class ClientHandler extends Thread {
       if (isValidStartMessage(text)) {
         String[] textParts = text.split(" ");
         clientName = textParts[1];
-        System.out.println("Received from client " + playerNr + ": " + text);
+        tui.print("Received from client " + playerNr + ": " + text);
         sendMessage("WELCOME " + clientName + " " + playerNr);
         server.getGame().addPlayer(playerNr, clientName);
         server.handlerWakesServer();
@@ -71,7 +78,7 @@ public class ClientHandler extends Thread {
     while (!server.getGame().isGameOver() && !isShutDown) {
       try {
         text = in.readLine();
-        System.out.println("Received from player-" + playerNr + ": " + text);
+        tui.print("Received from player-" + playerNr + ": " + text);
         if (server.getGame().getCurrentPlayer() == playerNr) {
           if (isValidMoveTurn(text)) {
             List<Move> turn = convertStringToMoveTurn(text);
@@ -81,8 +88,8 @@ public class ClientHandler extends Thread {
                 try {
                   listener.wait();
                 } catch (InterruptedException e) {
-                  // TODO Auto-generated catch block
-                  e.printStackTrace();
+                  tui.print("ClientHandler-" + playerNr 
+                      + " got interupted while waiting for the server to get ready.");
                 }
               }
             }
@@ -95,8 +102,8 @@ public class ClientHandler extends Thread {
                 try {
                   listener.wait();
                 } catch (InterruptedException e) {
-                  // TODO Auto-generated catch block
-                  e.printStackTrace();
+                  tui.print("ClientHandler-" + playerNr 
+                      + " got interupted while waiting for the server to get ready.");
                 }
               }
             }
@@ -115,7 +122,7 @@ public class ClientHandler extends Thread {
         }
       } catch (IOException e) {
         if (!isShutDown) {
-          server.kick(playerNr, "lost connection");
+          server.kick(playerNr, "lost connection with player");
           shutdown();
         }
       }
@@ -125,8 +132,8 @@ public class ClientHandler extends Thread {
         try {
           listener.wait();
         } catch (InterruptedException e) {
-          // TODO Auto-generated catch block
-          e.printStackTrace();
+          tui.print("ClientHandler-" + playerNr 
+              + " got interupted while waiting for the server to get ready.");
         }
       }
       if (server.getGame().getCurrentPlayer() == playerNr) {
@@ -270,7 +277,7 @@ public class ClientHandler extends Thread {
     } catch (IOException e) {
       shutdown();
     }
-    System.out.println("Send to player-" + playerNr + ": " +  msg);
+    tui.print("Send to player-" + playerNr + ": " +  msg);
   }
   
   public String getClientName() {
@@ -285,10 +292,10 @@ public class ClientHandler extends Thread {
     try {
       socket.close();
     } catch (IOException e) {
-      System.out.println("Could not close socket in the shutdown procedure.");
+      tui.print("Could not close socket in the shutdown procedure.");
     }
     server.removeHandler(playerNr);
-    System.out.println("Closed the connection wiht player-" + playerNr);
+    tui.print("Closed the connection with player-" + playerNr);
   }
 
 }

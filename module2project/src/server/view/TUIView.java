@@ -15,10 +15,14 @@ public class TUIView implements Observer {
     this.server = server;
   }
   
+  public void print(String msg) {
+    System.out.println("Game-" + server.getServerNr() + ": " + msg);
+  }
+  
   public void update(Observable o, Object arg) {
     if (arg.equals("turn made")) {
       Game game = server.getGame();
-      System.out.println("Game " + server.getServerNr() + ": Current game situation");
+      System.out.println("\n" + "Game " + server.getServerNr() + ": Current game situation");
       System.out.println(game.getBoard().toString());
       System.out.println("Scores:");
       Set<Integer> playerNrs = server.getPlayerNrs();
