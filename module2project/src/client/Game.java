@@ -174,6 +174,7 @@ public class Game {
   
   public void printScores() {
     for (Player player : playerList) {
+      Printer.print(playerList.toString());
       Printer.print(player.getName() + "'s score is: " + player.getScore());
     }
   }

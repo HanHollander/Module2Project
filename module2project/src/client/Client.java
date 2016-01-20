@@ -234,7 +234,7 @@ public class Client extends Thread {
       }
       Printer.print("Players participating: " + game.getPlayerList() + "\n");
       Printer.print("AITime: " + command[command.length - 1] + "\n");
-    } else if (command.length == 4) {
+    } else if (command.length == 4 && text.startsWith(Game.NAMES)) {
       addPlayer(command[1], command[2]);
     }
   }
