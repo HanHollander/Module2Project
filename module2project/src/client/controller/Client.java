@@ -33,6 +33,9 @@ public class Client extends Thread {
   private BufferedWriter out;
   private Game game;
   
+  private InetAddress host;
+  private int port;
+  
   private boolean firstTurn = true;
   
 
@@ -46,7 +49,9 @@ public class Client extends Thread {
    */
   public Client(String name, InetAddress host, int port, Game game) throws IOException {
     clientName = name;
-    sock = new Socket(host, port);
+    this.host = host;
+    this.port = port;
+    sock = new Socket(this.host, this.port);
     this.game = game;
     in = new BufferedReader(new InputStreamReader(sock.getInputStream()));
     out = new BufferedWriter(new OutputStreamWriter(sock.getOutputStream()));
@@ -145,7 +150,18 @@ public class Client extends Thread {
       } catch (NumberFormatException e) {
         Printer.print("Not a number. (WINNER)");
       }
-      Printer.print("The winner is... " + getPlayerName(playerNumber) + "!");
+      Printer.print("The winner is... " + getPlayerName(playerNumber) + "!\n");
+      Printer.print("Would you like to play another game? Y/N");
+      String answer = Qwirkle.readInput();
+      if (answer.equals("Y") || answer.equals("y")) {
+        String[] args = new String[4];
+        args[0] = clientName;
+        args[1] = host.getHostAddress();
+        args[2] = Integer.toString(port);
+        args[3] = game.getPlayerType();
+        Qwirkle.main(args);
+      }
+      shutdown();
     }
   }
   

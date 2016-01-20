@@ -15,7 +15,7 @@ public class SmartStrategy implements Strategy {
     thePerfectTurn = new ArrayList<>();
   }
   
-  public Move determineMove(Board board, List<Tile> hand, Player player) {
+  public Move determineMove(Board board, List<Tile> hand, ComputerPlayer player) {
     Move theMove;
     if (thePerfectTurn.size() == 0) {
       List<List<Integer>> possiblePlaces = getPossiblePlaces(board);

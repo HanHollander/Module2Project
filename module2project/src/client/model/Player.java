@@ -28,6 +28,10 @@ public abstract class Player {
     this.setMoves(new ArrayList<Move>());
   }
         
+  public Player() {
+    this.name = "hintGen";
+  }
+
   /**
    * Function that determines what move is played next.
    * @throws InvalidMoveException invalid move

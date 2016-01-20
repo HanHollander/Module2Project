@@ -5,6 +5,6 @@ import java.util.Map;
 
 public interface Strategy {
   
-  public Move determineMove(Board board, List<Tile> hand, Player player);
+  public Move determineMove(Board board, List<Tile> hand, ComputerPlayer player);
 
 }

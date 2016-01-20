@@ -16,7 +16,7 @@ public class NaiveStrategy implements Strategy {
    * @param hand the hand
    * @param player the computerplayer
    */
-  public Move determineMove(Board board, List<Tile> hand, Player player) {
+  public Move determineMove(Board board, List<Tile> hand, ComputerPlayer player) {
     Move result = null;
     List<List<Integer>> places = getPossiblePlaces(board);
     for (Tile tile : hand) {
@@ -71,6 +71,29 @@ public class NaiveStrategy implements Strategy {
           }
         }
       }
+    }
+    return result;
+  }
+
+  /**
+   * Generate hint.
+   * @param board b
+   * @param hand h
+   * @return hint
+   */
+  public Move getHint(Board board, List<Tile> hand) {
+    Move result = null;
+    List<List<Integer>> places = getPossiblePlaces(board);
+    for (Tile tile : hand) {
+      for (List<Integer> place : places) {
+        Move newMove = new Move(tile, place.get(0), place.get(1));
+        if (board.checkMove(newMove)) {
+          result = newMove;
+        }
+      }
+    }
+    if (result == null) {
+      result = new Move(hand.get(1));
     }
     return result;
   }
