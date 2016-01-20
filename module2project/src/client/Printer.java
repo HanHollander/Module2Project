@@ -22,7 +22,7 @@ public class Printer {
    */
   public static BufferedWriter createWriter() {
     String fileName = Qwirkle.getFileName();
-    file = new File(PATH + fileName + ".txt");
+    file = new File(PATH + "c" + fileName + ".txt");
     if (!file.exists()) {
       try {
         file.createNewFile();
@@ -58,7 +58,7 @@ public class Printer {
   }
   
   /**
-   * Prints to console and file.
+   * Prints an exception to console and file.
    * @param e to be printed
    */
   public static void print(Exception e) {
