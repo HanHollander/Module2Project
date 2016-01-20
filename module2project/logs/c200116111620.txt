@@ -1,0 +1,3221 @@
+20/01/16_11:16:20: 
+Checking host... 
+20/01/16_11:16:20: Host accepted.
+20/01/16_11:16:20: Checking port... 
+20/01/16_11:16:20: Port accepted.
+20/01/16_11:16:20: Creating client... 
+20/01/16_11:16:20: Client one created
+20/01/16_11:16:20: Starting client... 
+20/01/16_11:16:20: Client started.
+20/01/16_11:16:20: Sending registration message... 
+20/01/16_11:16:20: HELLO one
+20/01/16_11:16:20: Registration message send.
+20/01/16_11:16:20: Waiting for welcome message... 
+20/01/16_11:16:20: Welcome message received.
+
+20/01/16_11:16:21: Players participating: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+
+20/01/16_11:16:21: AITime: 30000
+
+20/01/16_11:16:21: u[2J
+20/01/16_11:16:22: 
+XXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+
+91  .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   .   
+
+92  .   .   .   .   .   .   
+
+
+20/01/16_11:16:22: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:22: one's score is: 0
+20/01/16_11:16:22: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:22: two's score is: 4
+20/01/16_11:16:22: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:22: one's score is: 0
+20/01/16_11:16:22: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:22: two's score is: 0
+20/01/16_11:16:22: 
+two just made the following move: [[Yc, 91, 91], [Yd, 91, 92], [Yo, 91, 93], [Ys, 91, 94]]
+
+20/01/16_11:16:22: Tiles in pool: 80
+
+20/01/16_11:16:22: It is your turn!
+
+20/01/16_11:16:22: Hand: [1: [32mA[0m, 2: [33mA[0m, 3: [31mC[0m, 4: [35mA[0m, 5: [35mE[0m, 6: [33mC[0m]
+
+20/01/16_11:16:22: u[2J
+20/01/16_11:16:22: XXX 90  91  92  93  94  95  
+89  .   .   .   .   .   .   
+
+90  .   .   .   [33mA[0m   .   .   
+
+91  .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   .   
+
+92  .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:22: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:22: one's score is: 0
+20/01/16_11:16:22: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:22: two's score is: 4
+20/01/16_11:16:22: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:22: one's score is: 0
+20/01/16_11:16:22: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:22: two's score is: 0
+20/01/16_11:16:22: Hand: [1: [32mA[0m, 2: [31mC[0m, 3: [35mA[0m, 4: [35mE[0m, 5: [33mC[0m]
+
+20/01/16_11:16:22: u[2J
+20/01/16_11:16:22: XXX 90  91  92  93  94  95  
+89  .   .   .   .   .   .   
+
+90  .   .   .   [33mA[0m   [33mC[0m   .   
+
+91  .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   .   
+
+92  .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:22: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:22: one's score is: 0
+20/01/16_11:16:22: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:22: two's score is: 4
+20/01/16_11:16:22: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:22: one's score is: 0
+20/01/16_11:16:22: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:22: two's score is: 0
+20/01/16_11:16:22: Hand: [1: [32mA[0m, 2: [31mC[0m, 3: [35mA[0m, 4: [35mE[0m]
+
+20/01/16_11:16:22: u[2J
+20/01/16_11:16:22: XXX 90  91  92  93  94  95  
+89  .   .   .   .   .   .   
+
+90  .   .   .   [33mA[0m   [33mC[0m   .   
+
+91  .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   .   
+
+92  .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:22: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:22: one's score is: 0
+20/01/16_11:16:22: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:22: two's score is: 4
+20/01/16_11:16:22: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:22: one's score is: 0
+20/01/16_11:16:22: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:22: two's score is: 0
+20/01/16_11:16:22: MOVE Oo 90 93 Os 90 94 
+20/01/16_11:16:22: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:22: one's score is: 0
+20/01/16_11:16:22: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:22: two's score is: 4
+20/01/16_11:16:22: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:22: one's score is: 6
+20/01/16_11:16:22: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:22: two's score is: 0
+20/01/16_11:16:22: Tiles in pool: 78
+
+20/01/16_11:16:23: It is now two's turn.
+
+20/01/16_11:16:23: u[2J
+20/01/16_11:16:23: 
+XXX 90  91  92  93  94  95  
+88  .   .   .   .   .   .   
+
+89  .   .   [37mA[0m   [32mA[0m   .   .   
+
+90  .   .   .   [33mA[0m   [33mC[0m   .   
+
+91  .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   .   
+
+92  .   .   .   .   .   .   
+
+
+20/01/16_11:16:23: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:23: one's score is: 0
+20/01/16_11:16:23: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:23: two's score is: 4
+20/01/16_11:16:23: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:23: one's score is: 6
+20/01/16_11:16:23: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:23: two's score is: 5
+20/01/16_11:16:23: 
+two just made the following move: [[Go, 89, 93], [Bo, 89, 92]]
+
+20/01/16_11:16:23: It is now one's turn.
+
+20/01/16_11:16:23: u[2J
+20/01/16_11:16:23: 
+XXX 90  91  92  93  94  95  96  
+87  .   .   .   .   .   .   .   
+
+88  .   .   .   .   .   [35mF[0m   .   
+
+89  .   .   [37mA[0m   [32mA[0m   .   [32mF[0m   .   
+
+90  .   .   .   [33mA[0m   [33mC[0m   [33mF[0m   .   
+
+91  .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   .   .   
+
+92  .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:23: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:23: one's score is: 6
+20/01/16_11:16:23: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:23: two's score is: 4
+20/01/16_11:16:23: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:23: one's score is: 6
+20/01/16_11:16:23: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:23: two's score is: 5
+20/01/16_11:16:23: 
+one just made the following move: [[O*, 90, 95], [G*, 89, 95], [P*, 88, 95]]
+
+20/01/16_11:16:23: It is now two's turn.
+
+20/01/16_11:16:24: u[2J
+20/01/16_11:16:24: 
+XXX 90  91  92  93  94  95  96  
+87  .   .   .   .   .   .   .   
+
+88  .   .   .   .   .   [35mF[0m   .   
+
+89  .   .   [37mA[0m   [32mA[0m   .   [32mF[0m   .   
+
+90  .   .   .   [33mA[0m   [33mC[0m   [33mF[0m   .   
+
+91  .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   .   .   
+
+92  .   .   .   [35mA[0m   [35mC[0m   .   .   
+
+93  .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:24: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:24: one's score is: 6
+20/01/16_11:16:24: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:24: two's score is: 13
+20/01/16_11:16:24: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:24: one's score is: 6
+20/01/16_11:16:24: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:24: two's score is: 5
+20/01/16_11:16:24: 
+two just made the following move: [[Po, 92, 93], [Ps, 92, 94]]
+
+20/01/16_11:16:24: It is your turn!
+
+20/01/16_11:16:24: Hand: [1: [32mA[0m, 2: [31mC[0m, 3: [35mA[0m, 4: [35mE[0m, 5: [32mE[0m, 6: [33mF[0m]
+
+20/01/16_11:16:24: u[2J
+20/01/16_11:16:24: XXX 90  91  92  93  94  95  96  97  
+87  .   .   .   .   .   .   .   .   
+
+88  .   .   .   .   .   [35mF[0m   [35mE[0m   .   
+
+89  .   .   [37mA[0m   [32mA[0m   .   [32mF[0m   .   .   
+
+90  .   .   .   [33mA[0m   [33mC[0m   [33mF[0m   .   .   
+
+91  .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   .   .   .   
+
+92  .   .   .   [35mA[0m   [35mC[0m   .   .   .   
+
+93  .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:24: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:24: one's score is: 6
+20/01/16_11:16:24: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:24: two's score is: 13
+20/01/16_11:16:24: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:24: one's score is: 6
+20/01/16_11:16:24: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:24: two's score is: 5
+20/01/16_11:16:24: Hand: [1: [32mA[0m, 2: [31mC[0m, 3: [35mA[0m, 4: [32mE[0m, 5: [33mF[0m]
+
+20/01/16_11:16:24: u[2J
+20/01/16_11:16:24: XXX 90  91  92  93  94  95  96  97  
+87  .   .   .   .   .   .   .   .   
+
+88  .   .   .   .   .   [35mF[0m   [35mE[0m   .   
+
+89  .   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   .   
+
+90  .   .   .   [33mA[0m   [33mC[0m   [33mF[0m   .   .   
+
+91  .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   .   .   .   
+
+92  .   .   .   [35mA[0m   [35mC[0m   .   .   .   
+
+93  .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:24: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:24: one's score is: 6
+20/01/16_11:16:24: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:24: two's score is: 13
+20/01/16_11:16:24: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:24: one's score is: 6
+20/01/16_11:16:24: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:24: two's score is: 5
+20/01/16_11:16:24: Hand: [1: [32mA[0m, 2: [31mC[0m, 3: [35mA[0m, 4: [33mF[0m]
+
+20/01/16_11:16:24: u[2J
+20/01/16_11:16:24: XXX 90  91  92  93  94  95  96  97  
+87  .   .   .   .   .   .   .   .   
+
+88  .   .   .   .   .   [35mF[0m   [35mE[0m   .   
+
+89  .   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   .   
+
+90  .   .   .   [33mA[0m   [33mC[0m   [33mF[0m   .   .   
+
+91  .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   .   .   .   
+
+92  .   .   .   [35mA[0m   [35mC[0m   .   .   .   
+
+93  .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:24: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:24: one's score is: 6
+20/01/16_11:16:24: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:24: two's score is: 13
+20/01/16_11:16:24: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:24: one's score is: 6
+20/01/16_11:16:24: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:24: two's score is: 5
+20/01/16_11:16:24: MOVE Px 88 96 Gx 89 96 
+20/01/16_11:16:25: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:25: one's score is: 6
+20/01/16_11:16:25: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:25: two's score is: 13
+20/01/16_11:16:25: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:25: one's score is: 12
+20/01/16_11:16:25: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:25: two's score is: 5
+20/01/16_11:16:25: Tiles in pool: 69
+
+20/01/16_11:16:25: It is now two's turn.
+
+20/01/16_11:16:25: u[2J
+20/01/16_11:16:25: 
+XXX 90  91  92  93  94  95  96  97  
+87  .   .   .   .   .   .   .   .   
+
+88  .   .   .   .   .   [35mF[0m   [35mE[0m   .   
+
+89  .   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   .   
+
+90  .   .   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   
+
+91  .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   .   .   .   
+
+92  .   .   .   [35mA[0m   [35mC[0m   .   .   .   
+
+93  .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:25: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:25: one's score is: 6
+20/01/16_11:16:25: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:25: two's score is: 13
+20/01/16_11:16:25: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:25: one's score is: 12
+20/01/16_11:16:25: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:25: two's score is: 12
+20/01/16_11:16:25: 
+two just made the following move: [[Ox, 90, 96]]
+
+20/01/16_11:16:25: It is now one's turn.
+
+20/01/16_11:16:25: u[2J
+20/01/16_11:16:25: 
+XXX 90  91  92  93  94  95  96  97  
+86  .   .   .   .   .   .   .   .   
+
+87  .   .   .   .   .   [31mF[0m   [31mE[0m   .   
+
+88  .   .   .   .   .   [35mF[0m   [35mE[0m   .   
+
+89  .   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   .   
+
+90  .   .   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   
+
+91  .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   .   .   .   
+
+92  .   .   .   [35mA[0m   [35mC[0m   .   .   .   
+
+93  .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:25: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:25: one's score is: 16
+20/01/16_11:16:25: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:25: two's score is: 13
+20/01/16_11:16:25: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:25: one's score is: 12
+20/01/16_11:16:25: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:25: two's score is: 12
+20/01/16_11:16:25: 
+one just made the following move: [[R*, 87, 95], [Rx, 87, 96]]
+
+20/01/16_11:16:25: It is now two's turn.
+
+20/01/16_11:16:25: u[2J
+20/01/16_11:16:25: 
+XXX 90  91  92  93  94  95  96  97  
+86  .   .   .   .   .   .   .   .   
+
+87  .   .   .   .   .   [31mF[0m   [31mE[0m   .   
+
+88  .   .   .   .   .   [35mF[0m   [35mE[0m   .   
+
+89  .   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   .   
+
+90  .   .   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   
+
+91  .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   .   .   .   
+
+92  .   .   .   [35mA[0m   [35mC[0m   .   .   .   
+
+93  .   .   .   .   [32mC[0m   [33mC[0m   .   .   
+
+94  .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:25: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:25: one's score is: 16
+20/01/16_11:16:26: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:26: two's score is: 19
+20/01/16_11:16:26: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:26: one's score is: 12
+20/01/16_11:16:26: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:26: two's score is: 12
+20/01/16_11:16:26: 
+two just made the following move: [[Gs, 93, 94], [Os, 93, 95]]
+
+20/01/16_11:16:26: It is your turn!
+
+20/01/16_11:16:26: Hand: [1: [32mA[0m, 2: [31mC[0m, 3: [35mA[0m, 4: [33mF[0m, 5: [37mC[0m, 6: [32mF[0m]
+
+20/01/16_11:16:26: u[2J
+20/01/16_11:16:26: XXX 90  91  92  93  94  95  96  97  
+86  .   .   .   .   .   .   .   .   
+
+87  .   .   .   .   .   [31mF[0m   [31mE[0m   .   
+
+88  .   .   .   .   .   [35mF[0m   [35mE[0m   .   
+
+89  .   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   .   
+
+90  .   .   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   
+
+91  .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   .   .   .   
+
+92  .   .   .   [35mA[0m   [35mC[0m   .   .   .   
+
+93  .   .   .   .   [32mC[0m   [33mC[0m   .   .   
+
+94  .   .   .   .   [37mC[0m   .   .   .   
+
+95  .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:26: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:26: one's score is: 16
+20/01/16_11:16:26: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:26: two's score is: 19
+20/01/16_11:16:26: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:26: one's score is: 12
+20/01/16_11:16:26: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:26: two's score is: 12
+20/01/16_11:16:26: Hand: [1: [32mA[0m, 2: [31mC[0m, 3: [35mA[0m, 4: [33mF[0m, 5: [32mF[0m]
+
+20/01/16_11:16:26: u[2J
+20/01/16_11:16:26: XXX 90  91  92  93  94  95  96  97  
+86  .   .   .   .   .   .   .   .   
+
+87  .   .   .   .   .   [31mF[0m   [31mE[0m   .   
+
+88  .   .   .   .   .   [35mF[0m   [35mE[0m   .   
+
+89  .   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   .   
+
+90  .   .   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   
+
+91  .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   .   .   .   
+
+92  .   .   .   [35mA[0m   [35mC[0m   .   .   .   
+
+93  .   .   .   .   [32mC[0m   [33mC[0m   .   .   
+
+94  .   .   .   .   [37mC[0m   .   .   .   
+
+95  .   .   .   .   [31mC[0m   .   .   .   
+
+96  .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:26: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:26: one's score is: 16
+20/01/16_11:16:26: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:26: two's score is: 19
+20/01/16_11:16:26: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:26: one's score is: 12
+20/01/16_11:16:26: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:26: two's score is: 12
+20/01/16_11:16:26: Hand: [1: [32mA[0m, 2: [35mA[0m, 3: [33mF[0m, 4: [32mF[0m]
+
+20/01/16_11:16:26: u[2J
+20/01/16_11:16:26: XXX 90  91  92  93  94  95  96  97  
+86  .   .   .   .   .   .   .   .   
+
+87  .   .   .   .   .   [31mF[0m   [31mE[0m   .   
+
+88  .   .   .   .   .   [35mF[0m   [35mE[0m   .   
+
+89  .   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   .   
+
+90  .   .   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   
+
+91  .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   .   .   .   
+
+92  .   .   .   [35mA[0m   [35mC[0m   .   .   .   
+
+93  .   .   .   .   [32mC[0m   [33mC[0m   .   .   
+
+94  .   .   .   .   [37mC[0m   .   .   .   
+
+95  .   .   .   .   [31mC[0m   .   .   .   
+
+96  .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:26: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:26: one's score is: 16
+20/01/16_11:16:26: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:26: two's score is: 19
+20/01/16_11:16:26: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:26: one's score is: 12
+20/01/16_11:16:26: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:26: two's score is: 12
+20/01/16_11:16:26: MOVE Bs 94 94 Rs 95 94 
+20/01/16_11:16:26: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:26: one's score is: 16
+20/01/16_11:16:27: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:27: two's score is: 19
+20/01/16_11:16:27: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:27: one's score is: 24
+20/01/16_11:16:27: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:27: two's score is: 12
+20/01/16_11:16:27: Tiles in pool: 62
+
+20/01/16_11:16:27: It is now two's turn.
+
+20/01/16_11:16:27: u[2J
+20/01/16_11:16:27: 
+XXX 90  91  92  93  94  95  96  97  
+86  .   .   .   .   .   .   .   .   
+
+87  .   .   .   .   .   [31mF[0m   [31mE[0m   .   
+
+88  .   .   .   .   .   [35mF[0m   [35mE[0m   .   
+
+89  .   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   .   
+
+90  .   .   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   
+
+91  .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   .   .   
+
+92  .   .   .   [35mA[0m   [35mC[0m   .   .   .   
+
+93  .   .   .   .   [32mC[0m   [33mC[0m   .   .   
+
+94  .   .   .   .   [37mC[0m   .   .   .   
+
+95  .   .   .   .   [31mC[0m   .   .   .   
+
+96  .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:27: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:27: one's score is: 16
+20/01/16_11:16:27: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:27: two's score is: 19
+20/01/16_11:16:27: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:27: one's score is: 24
+20/01/16_11:16:27: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:27: two's score is: 22
+20/01/16_11:16:27: 
+two just made the following move: [[Y*, 91, 95]]
+
+20/01/16_11:16:27: It is now one's turn.
+
+20/01/16_11:16:28: u[2J
+20/01/16_11:16:28: 
+XXX 90  91  92  93  94  95  96  97  
+86  .   .   .   .   .   .   .   .   
+
+87  .   .   .   .   .   [31mF[0m   [31mE[0m   .   
+
+88  .   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   .   
+
+89  .   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   .   
+
+90  .   .   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   
+
+91  .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   .   .   
+
+92  .   .   .   [35mA[0m   [35mC[0m   .   .   .   
+
+93  .   .   .   .   [32mC[0m   [33mC[0m   .   .   
+
+94  .   .   .   .   [37mC[0m   .   .   .   
+
+95  .   .   .   .   [31mC[0m   .   .   .   
+
+96  .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:28: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:28: one's score is: 25
+20/01/16_11:16:28: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:28: two's score is: 19
+20/01/16_11:16:28: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:28: one's score is: 24
+20/01/16_11:16:28: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:28: two's score is: 22
+20/01/16_11:16:28: 
+one just made the following move: [[Ro, 88, 93], [Yo, 88, 92]]
+
+20/01/16_11:16:28: It is now two's turn.
+
+20/01/16_11:16:29: u[2J
+20/01/16_11:16:29: 
+XXX 88  89  90  91  92  93  94  95  96  97  
+86  .   .   .   .   .   .   .   .   .   .   
+
+87  .   .   .   .   .   .   .   [31mF[0m   [31mE[0m   .   
+
+88  .   .   .   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   .   
+
+89  .   .   .   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   .   
+
+90  .   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   
+
+91  .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   .   .   
+
+92  .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   
+
+93  .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   
+
+94  .   .   .   .   .   .   [37mC[0m   .   .   .   
+
+95  .   .   .   .   .   .   [31mC[0m   .   .   .   
+
+96  .   .   .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:29: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:29: one's score is: 25
+20/01/16_11:16:29: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:29: two's score is: 24
+20/01/16_11:16:29: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:29: one's score is: 24
+20/01/16_11:16:29: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:29: two's score is: 22
+20/01/16_11:16:29: 
+two just made the following move: [[Yd, 90, 91], [Yc, 90, 90], [Y*, 90, 89]]
+
+20/01/16_11:16:29: It is your turn!
+
+20/01/16_11:16:29: Hand: [1: [32mA[0m, 2: [35mA[0m, 3: [33mF[0m, 4: [32mF[0m, 5: [37mD[0m, 6: [36mA[0m]
+
+20/01/16_11:16:29: u[2J
+20/01/16_11:16:29: XXX 88  89  90  91  92  93  94  95  96  97  98  
+86  .   .   .   .   .   .   .   .   .   .   .   
+
+87  .   .   .   .   .   .   .   [31mF[0m   [31mE[0m   .   .   
+
+88  .   .   .   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   .   .   
+
+89  .   .   .   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   
+
+90  .   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   
+
+91  .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   .   .   .   
+
+92  .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   
+
+93  .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   
+
+94  .   .   .   .   .   .   [37mC[0m   .   .   .   .   
+
+95  .   .   .   .   .   .   [31mC[0m   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:29: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:29: one's score is: 25
+20/01/16_11:16:29: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:29: two's score is: 24
+20/01/16_11:16:29: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:29: one's score is: 24
+20/01/16_11:16:29: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:29: two's score is: 22
+20/01/16_11:16:29: Hand: [1: [35mA[0m, 2: [33mF[0m, 3: [32mF[0m, 4: [37mD[0m, 5: [36mA[0m]
+
+20/01/16_11:16:29: u[2J
+20/01/16_11:16:29: XXX 88  89  90  91  92  93  94  95  96  97  98  
+86  .   .   .   .   .   .   .   .   .   .   .   
+
+87  .   .   .   .   .   .   .   [31mF[0m   [31mE[0m   .   .   
+
+88  .   .   .   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   .   
+
+89  .   .   .   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   
+
+90  .   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   
+
+91  .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   .   .   .   
+
+92  .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   
+
+93  .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   
+
+94  .   .   .   .   .   .   [37mC[0m   .   .   .   .   
+
+95  .   .   .   .   .   .   [31mC[0m   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:29: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:29: one's score is: 25
+20/01/16_11:16:29: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:29: two's score is: 24
+20/01/16_11:16:29: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:29: one's score is: 24
+20/01/16_11:16:29: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:29: two's score is: 22
+20/01/16_11:16:29: Hand: [1: [33mF[0m, 2: [32mF[0m, 3: [37mD[0m, 4: [36mA[0m]
+
+20/01/16_11:16:29: u[2J
+20/01/16_11:16:29: XXX 88  89  90  91  92  93  94  95  96  97  98  
+86  .   .   .   .   .   .   .   .   .   .   .   
+
+87  .   .   .   .   .   .   .   [31mF[0m   [31mE[0m   .   .   
+
+88  .   .   .   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   .   
+
+89  .   .   .   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   
+
+90  .   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   
+
+91  .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   .   .   .   
+
+92  .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   
+
+93  .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   
+
+94  .   .   .   .   .   .   [37mC[0m   .   .   .   .   
+
+95  .   .   .   .   .   .   [31mC[0m   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:29: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:29: one's score is: 25
+20/01/16_11:16:29: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:29: two's score is: 24
+20/01/16_11:16:29: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:29: one's score is: 24
+20/01/16_11:16:29: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:29: two's score is: 22
+20/01/16_11:16:29: MOVE Go 89 97 Po 88 97 
+20/01/16_11:16:29: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:29: one's score is: 25
+20/01/16_11:16:29: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:29: two's score is: 24
+20/01/16_11:16:30: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:30: one's score is: 32
+20/01/16_11:16:30: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:30: two's score is: 22
+20/01/16_11:16:30: Tiles in pool: 54
+
+20/01/16_11:16:30: It is now two's turn.
+
+20/01/16_11:16:30: u[2J
+20/01/16_11:16:30: 
+XXX 88  89  90  91  92  93  94  95  96  97  98  99  
+86  .   .   .   .   .   .   .   .   .   .   .   .   
+
+87  .   .   .   .   .   .   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   
+
+88  .   .   .   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   
+
+89  .   .   .   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   
+
+90  .   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   
+
+91  .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   .   .   .   .   
+
+92  .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   
+
+93  .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   
+
+94  .   .   .   .   .   .   [37mC[0m   .   .   .   .   .   
+
+95  .   .   .   .   .   .   [31mC[0m   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:30: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:30: one's score is: 25
+20/01/16_11:16:30: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:30: two's score is: 24
+20/01/16_11:16:30: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:30: one's score is: 32
+20/01/16_11:16:30: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:30: two's score is: 28
+20/01/16_11:16:30: 
+two just made the following move: [[Pc, 88, 98], [P*, 87, 98]]
+
+20/01/16_11:16:30: It is now one's turn.
+
+20/01/16_11:16:30: u[2J
+20/01/16_11:16:30: 
+XXX 88  89  90  91  92  93  94  95  96  97  98  99  
+86  .   .   .   .   .   .   .   .   .   .   .   .   
+
+87  .   .   .   .   .   .   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   
+
+88  .   .   .   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   
+
+89  .   .   .   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   
+
+90  .   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   
+
+91  .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   .   .   .   .   
+
+92  .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   
+
+93  .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   
+
+94  .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   
+
+95  .   .   .   .   .   [31mB[0m   [31mC[0m   .   .   .   .   .   
+
+96  .   .   .   .   .   [33mB[0m   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:30: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:30: one's score is: 32
+20/01/16_11:16:30: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:30: two's score is: 24
+20/01/16_11:16:31: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:31: one's score is: 32
+20/01/16_11:16:31: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:31: two's score is: 28
+20/01/16_11:16:31: 
+one just made the following move: [[Bd, 94, 93], [Rd, 95, 93], [Od, 96, 93]]
+
+20/01/16_11:16:31: It is now two's turn.
+
+20/01/16_11:16:31: u[2J
+20/01/16_11:16:31: 
+XXX 88  89  90  91  92  93  94  95  96  97  98  99  
+86  .   .   .   .   .   .   .   .   .   .   .   .   
+
+87  .   .   .   .   .   .   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   
+
+88  .   .   .   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   
+
+89  .   .   .   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   
+
+90  .   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   
+
+91  .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   
+
+92  .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   
+
+93  .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   
+
+94  .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   
+
+95  .   .   .   .   .   [31mB[0m   [31mC[0m   .   .   .   .   .   
+
+96  .   .   .   .   .   [33mB[0m   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:31: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:31: one's score is: 32
+20/01/16_11:16:31: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:31: two's score is: 41
+20/01/16_11:16:31: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:31: one's score is: 32
+20/01/16_11:16:31: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:31: two's score is: 28
+20/01/16_11:16:31: 
+two just made the following move: [[Yx, 91, 96]]
+
+20/01/16_11:16:31: It is your turn!
+
+20/01/16_11:16:31: Hand: [1: [33mF[0m, 2: [32mF[0m, 3: [37mD[0m, 4: [36mA[0m, 5: [32mA[0m, 6: [32mD[0m]
+
+20/01/16_11:16:32: u[2J
+20/01/16_11:16:32: XXX 88  89  90  91  92  93  94  95  96  97  98  99  
+86  .   .   .   .   .   .   .   .   .   .   .   .   
+
+87  .   .   .   .   .   .   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   
+
+88  .   .   .   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   
+
+89  .   .   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   
+
+90  .   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   
+
+91  .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   
+
+92  .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   
+
+93  .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   
+
+94  .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   
+
+95  .   .   .   .   .   [31mB[0m   [31mC[0m   .   .   .   .   .   
+
+96  .   .   .   .   .   [33mB[0m   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:32: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:32: one's score is: 32
+20/01/16_11:16:32: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:32: two's score is: 41
+20/01/16_11:16:32: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:32: one's score is: 32
+20/01/16_11:16:32: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:32: two's score is: 28
+20/01/16_11:16:32: Hand: [1: [33mF[0m, 2: [32mF[0m, 3: [37mD[0m, 4: [36mA[0m, 5: [32mA[0m]
+
+20/01/16_11:16:32: u[2J
+20/01/16_11:16:32: XXX 88  89  90  91  92  93  94  95  96  97  98  99  
+86  .   .   .   .   .   .   .   .   .   .   .   .   
+
+87  .   .   .   .   .   .   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   
+
+88  .   .   .   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   
+
+89  .   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   
+
+90  .   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   
+
+91  .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   
+
+92  .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   
+
+93  .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   
+
+94  .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   
+
+95  .   .   .   .   .   [31mB[0m   [31mC[0m   .   .   .   .   .   
+
+96  .   .   .   .   .   [33mB[0m   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:32: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:32: one's score is: 32
+20/01/16_11:16:32: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:32: two's score is: 41
+20/01/16_11:16:32: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:32: one's score is: 32
+20/01/16_11:16:32: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:32: two's score is: 28
+20/01/16_11:16:32: Hand: [1: [33mF[0m, 2: [37mD[0m, 3: [36mA[0m, 4: [32mA[0m]
+
+20/01/16_11:16:32: u[2J
+20/01/16_11:16:32: XXX 87  88  89  90  91  92  93  94  95  96  97  98  99  
+86  .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+87  .   .   .   .   .   .   .   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   
+
+88  .   .   .   .   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   
+
+89  .   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   
+
+90  .   .   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   
+
+91  .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   
+
+92  .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   
+
+94  .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   
+
+95  .   .   .   .   .   .   [31mB[0m   [31mC[0m   .   .   .   .   .   
+
+96  .   .   .   .   .   .   [33mB[0m   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:32: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:32: one's score is: 32
+20/01/16_11:16:32: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:32: two's score is: 41
+20/01/16_11:16:32: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:32: one's score is: 32
+20/01/16_11:16:32: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:32: two's score is: 28
+20/01/16_11:16:32: Hand: [1: [33mF[0m, 2: [37mD[0m, 3: [36mA[0m]
+
+20/01/16_11:16:32: u[2J
+20/01/16_11:16:32: XXX 87  88  89  90  91  92  93  94  95  96  97  98  99  
+86  .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+87  .   .   .   .   .   .   .   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   
+
+88  .   .   .   .   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   
+
+89  .   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   
+
+90  .   .   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   
+
+91  .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   
+
+92  .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   
+
+94  .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   
+
+95  .   .   .   .   .   .   [31mB[0m   [31mC[0m   .   .   .   .   .   
+
+96  .   .   .   .   .   .   [33mB[0m   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:32: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:32: one's score is: 32
+20/01/16_11:16:32: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:32: two's score is: 41
+20/01/16_11:16:32: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:32: one's score is: 32
+20/01/16_11:16:32: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:32: two's score is: 28
+20/01/16_11:16:32: MOVE Gc 89 90 G* 89 89 Go 89 88 
+20/01/16_11:16:32: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:32: one's score is: 32
+20/01/16_11:16:32: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:32: two's score is: 41
+20/01/16_11:16:32: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:32: one's score is: 39
+20/01/16_11:16:32: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:32: two's score is: 28
+20/01/16_11:16:32: Tiles in pool: 45
+
+20/01/16_11:16:32: It is now two's turn.
+
+20/01/16_11:16:33: u[2J
+20/01/16_11:16:33: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  99  
+86  .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+87  .   .   .   .   .   .   .   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   
+
+88  .   .   .   .   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   
+
+89  .   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   
+
+90  .   .   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   
+
+91  .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   
+
+92  .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   
+
+94  .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   
+
+95  .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   
+
+96  .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:33: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:33: one's score is: 32
+20/01/16_11:16:33: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:33: two's score is: 41
+20/01/16_11:16:33: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:33: one's score is: 39
+20/01/16_11:16:33: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:33: two's score is: 35
+20/01/16_11:16:33: 
+two just made the following move: [[Rd, 96, 92], [R*, 95, 92]]
+
+20/01/16_11:16:33: It is now one's turn.
+
+20/01/16_11:16:34: u[2J
+20/01/16_11:16:34: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  99  100 
+85  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+86  .   .   .   .   .   .   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   
+
+87  .   .   .   .   .   .   .   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   
+
+88  .   .   .   .   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   .   
+
+89  .   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   .   
+
+90  .   .   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   
+
+91  .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   
+
+92  .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   
+
+94  .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   
+
+95  .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   
+
+96  .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:34: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:34: one's score is: 51
+20/01/16_11:16:34: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:34: two's score is: 41
+20/01/16_11:16:34: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:34: one's score is: 39
+20/01/16_11:16:34: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:34: two's score is: 35
+20/01/16_11:16:34: 
+one just made the following move: [[Bx, 86, 96], [Gx, 86, 97], [Px, 86, 98], [Ox, 86, 99]]
+
+20/01/16_11:16:34: It is now two's turn.
+
+20/01/16_11:16:35: u[2J
+20/01/16_11:16:35: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  99  100 
+85  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+86  .   .   .   .   .   .   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   
+
+87  .   .   .   .   .   .   .   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   
+
+88  .   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   .   
+
+89  .   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   .   
+
+90  .   .   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   
+
+91  .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   
+
+92  .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   
+
+94  .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   
+
+95  .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   
+
+96  .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:35: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:35: one's score is: 51
+20/01/16_11:16:35: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:35: two's score is: 49
+20/01/16_11:16:35: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:35: one's score is: 39
+20/01/16_11:16:35: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:35: two's score is: 35
+20/01/16_11:16:35: 
+two just made the following move: [[Bc, 88, 90], [B*, 88, 89]]
+
+20/01/16_11:16:35: It is your turn!
+
+20/01/16_11:16:35: Hand: [1: [33mF[0m, 2: [37mD[0m, 3: [36mA[0m, 4: [32mC[0m, 5: [35mE[0m, 6: [37mD[0m]
+
+20/01/16_11:16:35: u[2J
+20/01/16_11:16:35: XXX 87  88  89  90  91  92  93  94  95  96  97  98  99  100 
+85  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+86  .   .   .   .   .   .   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   
+
+87  .   .   .   .   .   .   .   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   
+
+88  .   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   .   
+
+89  .   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   .   
+
+90  .   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   
+
+91  .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   
+
+92  .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   
+
+94  .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   
+
+95  .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   
+
+96  .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:35: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:35: one's score is: 51
+20/01/16_11:16:35: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:35: two's score is: 49
+20/01/16_11:16:35: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:35: one's score is: 39
+20/01/16_11:16:35: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:35: two's score is: 35
+20/01/16_11:16:35: Hand: [1: [33mF[0m, 2: [37mD[0m, 3: [32mC[0m, 4: [35mE[0m, 5: [37mD[0m]
+
+20/01/16_11:16:35: u[2J
+20/01/16_11:16:35: XXX 87  88  89  90  91  92  93  94  95  96  97  98  99  100 
+85  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+86  .   .   .   .   .   .   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   
+
+87  .   .   .   .   .   .   .   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   
+
+88  .   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   .   
+
+89  .   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   .   
+
+90  .   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   
+
+91  .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   
+
+92  .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   
+
+94  .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   
+
+95  .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   
+
+96  .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:35: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:35: one's score is: 51
+20/01/16_11:16:35: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:35: two's score is: 49
+20/01/16_11:16:35: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:35: one's score is: 39
+20/01/16_11:16:35: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:35: two's score is: 35
+20/01/16_11:16:35: MOVE Yo 90 88 
+20/01/16_11:16:35: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:35: one's score is: 51
+20/01/16_11:16:35: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:35: two's score is: 49
+20/01/16_11:16:35: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:35: one's score is: 45
+20/01/16_11:16:35: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:35: two's score is: 35
+20/01/16_11:16:35: Tiles in pool: 36
+
+20/01/16_11:16:35: It is now two's turn.
+
+20/01/16_11:16:35: u[2J
+20/01/16_11:16:35: 
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+84  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   .   .   .   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   .   
+
+86  .   .   .   .   .   .   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   .   
+
+87  .   .   .   .   .   .   .   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   
+
+88  .   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   .   .   
+
+89  .   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   .   .   
+
+90  .   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   
+
+91  .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   
+
+92  .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:35: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:35: one's score is: 51
+20/01/16_11:16:35: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:35: two's score is: 49
+20/01/16_11:16:35: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:35: one's score is: 45
+20/01/16_11:16:35: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:35: two's score is: 44
+20/01/16_11:16:35: 
+two just made the following move: [[Ps, 85, 98], [Os, 85, 99], [Bs, 85, 100]]
+
+20/01/16_11:16:35: It is now one's turn.
+
+20/01/16_11:16:37: u[2J
+20/01/16_11:16:37: 
+XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+84  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   .   .   .   .   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   .   
+
+86  .   .   .   .   .   .   .   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   .   
+
+87  .   [35mC[0m   .   .   .   .   .   .   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   
+
+88  .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   .   .   
+
+89  .   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   .   .   
+
+90  .   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   
+
+91  .   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:37: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:37: one's score is: 64
+20/01/16_11:16:37: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:37: two's score is: 49
+20/01/16_11:16:37: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:37: one's score is: 45
+20/01/16_11:16:37: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:37: two's score is: 44
+20/01/16_11:16:37: 
+one just made the following move: [[Ys, 90, 87], [Gs, 89, 87], [Rs, 88, 87], [Ps, 87, 87]]
+
+20/01/16_11:16:37: It is your turn!
+
+20/01/16_11:16:37: Hand: [1: [33mF[0m, 2: [37mD[0m, 3: [32mC[0m, 4: [35mE[0m, 5: [37mD[0m, 6: [33mD[0m]
+
+20/01/16_11:16:37: u[2J
+20/01/16_11:16:37: XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+84  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   .   .   .   .   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   .   
+
+86  .   .   .   .   .   .   .   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   .   
+
+87  .   [35mC[0m   .   .   [33mD[0m   .   .   .   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   
+
+88  .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   .   .   
+
+89  .   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   .   .   
+
+90  .   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   
+
+91  .   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:37: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:37: one's score is: 64
+20/01/16_11:16:37: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:37: two's score is: 49
+20/01/16_11:16:37: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:37: one's score is: 45
+20/01/16_11:16:37: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:37: two's score is: 44
+20/01/16_11:16:37: Hand: [1: [33mF[0m, 2: [37mD[0m, 3: [32mC[0m, 4: [35mE[0m, 5: [37mD[0m]
+
+20/01/16_11:16:37: u[2J
+20/01/16_11:16:37: XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+84  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   .   .   .   .   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   .   
+
+86  .   .   .   .   .   .   .   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   .   
+
+87  .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   .   .   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   
+
+88  .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   .   .   
+
+89  .   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   .   .   
+
+90  .   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   
+
+91  .   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:37: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:37: one's score is: 64
+20/01/16_11:16:37: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:37: two's score is: 49
+20/01/16_11:16:37: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:37: one's score is: 45
+20/01/16_11:16:37: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:37: two's score is: 44
+20/01/16_11:16:37: Hand: [1: [37mD[0m, 2: [32mC[0m, 3: [35mE[0m, 4: [37mD[0m]
+
+20/01/16_11:16:37: u[2J
+20/01/16_11:16:37: XXX 86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+84  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   .   .   .   .   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   .   
+
+86  .   .   .   .   .   .   .   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   .   
+
+87  .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   .   .   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   
+
+88  .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   .   .   
+
+89  .   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   .   .   
+
+90  .   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   
+
+91  .   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:37: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:37: one's score is: 64
+20/01/16_11:16:37: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:37: two's score is: 49
+20/01/16_11:16:37: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:37: one's score is: 45
+20/01/16_11:16:37: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:37: two's score is: 44
+20/01/16_11:16:37: MOVE Oc 87 90 O* 87 89 
+20/01/16_11:16:37: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:37: one's score is: 64
+20/01/16_11:16:37: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:37: two's score is: 49
+20/01/16_11:16:37: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:37: one's score is: 55
+20/01/16_11:16:37: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:37: two's score is: 44
+20/01/16_11:16:37: Tiles in pool: 27
+
+20/01/16_11:16:37: It is now two's turn.
+
+20/01/16_11:16:38: u[2J
+20/01/16_11:16:38: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+84  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   .   .   .   .   .   .   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   .   
+
+86  .   .   .   .   .   .   .   .   .   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   .   
+
+87  .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   .   .   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   
+
+88  .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   .   .   
+
+89  .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   .   .   
+
+90  .   .   .   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   
+
+91  .   .   .   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:38: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:38: one's score is: 64
+20/01/16_11:16:38: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:38: two's score is: 49
+20/01/16_11:16:38: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:38: one's score is: 55
+20/01/16_11:16:38: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:38: two's score is: 56
+20/01/16_11:16:38: 
+two just made the following move: [[Gx, 89, 86], [Gd, 89, 85]]
+
+20/01/16_11:16:38: It is now one's turn.
+
+20/01/16_11:16:38: u[2J
+20/01/16_11:16:38: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+84  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   .   .   .   .   .   .   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   .   
+
+86  .   .   .   .   .   .   .   .   .   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   .   
+
+87  .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   
+
+88  .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   .   .   
+
+89  .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   .   .   
+
+90  .   .   .   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   
+
+91  .   .   .   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:38: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:38: one's score is: 81
+20/01/16_11:16:38: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:38: two's score is: 49
+20/01/16_11:16:38: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:38: one's score is: 55
+20/01/16_11:16:38: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:38: two's score is: 56
+20/01/16_11:16:38: 
+one just made the following move: [[Bo, 87, 93], [Po, 87, 92]]
+
+20/01/16_11:16:38: It is your turn!
+
+20/01/16_11:16:38: Hand: [1: [37mD[0m, 2: [32mC[0m, 3: [35mE[0m, 4: [37mD[0m, 5: [36mE[0m, 6: [37mB[0m]
+
+20/01/16_11:16:38: u[2J
+20/01/16_11:16:38: XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+84  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   .   .   .   .   .   .   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   .   
+
+86  .   .   .   .   .   .   .   .   .   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   .   
+
+87  .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   
+
+88  .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   .   .   
+
+89  .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   .   .   
+
+90  .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   
+
+91  .   .   .   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:38: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:38: one's score is: 81
+20/01/16_11:16:38: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:38: two's score is: 49
+20/01/16_11:16:38: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:38: one's score is: 55
+20/01/16_11:16:38: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:38: two's score is: 56
+20/01/16_11:16:38: Hand: [1: [37mD[0m, 2: [32mC[0m, 3: [35mE[0m, 4: [37mD[0m, 5: [37mB[0m]
+
+20/01/16_11:16:38: u[2J
+20/01/16_11:16:38: XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+84  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   .   .   .   .   .   .   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   .   
+
+86  .   .   .   .   .   .   .   .   .   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   .   
+
+87  .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   
+
+88  .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   .   .   
+
+89  .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   .   .   
+
+90  .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   
+
+91  .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:38: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:38: one's score is: 81
+20/01/16_11:16:38: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:38: two's score is: 49
+20/01/16_11:16:38: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:38: one's score is: 55
+20/01/16_11:16:38: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:38: two's score is: 56
+20/01/16_11:16:38: Hand: [1: [37mD[0m, 2: [32mC[0m, 3: [37mD[0m, 4: [37mB[0m]
+
+20/01/16_11:16:38: u[2J
+20/01/16_11:16:39: XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+84  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   .   .   .   .   .   .   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   .   
+
+86  .   .   .   .   .   .   .   .   .   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   .   
+
+87  .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   
+
+88  .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   .   .   
+
+89  .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   .   .   
+
+90  .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   
+
+91  .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:39: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:39: one's score is: 81
+20/01/16_11:16:39: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:39: two's score is: 49
+20/01/16_11:16:39: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:39: one's score is: 55
+20/01/16_11:16:39: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:39: two's score is: 56
+20/01/16_11:16:39: MOVE Yx 90 86 Px 91 86 
+20/01/16_11:16:39: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:39: one's score is: 81
+20/01/16_11:16:39: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:39: two's score is: 49
+20/01/16_11:16:39: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:39: one's score is: 70
+20/01/16_11:16:39: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:39: two's score is: 56
+20/01/16_11:16:39: Tiles in pool: 21
+
+20/01/16_11:16:39: It is now two's turn.
+
+20/01/16_11:16:39: u[2J
+20/01/16_11:16:39: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+84  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   .   .   .   .   .   .   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   .   
+
+86  .   .   .   [37mC[0m   [37mB[0m   .   .   .   .   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   .   
+
+87  .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   
+
+88  .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   .   .   
+
+89  .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   .   .   
+
+90  .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   
+
+91  .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:39: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:39: one's score is: 81
+20/01/16_11:16:39: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:39: two's score is: 49
+20/01/16_11:16:39: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:39: one's score is: 70
+20/01/16_11:16:39: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:39: two's score is: 63
+20/01/16_11:16:39: 
+two just made the following move: [[Bs, 86, 87], [Bd, 86, 88]]
+
+20/01/16_11:16:39: It is now one's turn.
+
+20/01/16_11:16:40: u[2J
+20/01/16_11:16:41: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+84  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   .   .   .   .   .   .   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   .   
+
+86  .   .   .   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   .   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   .   
+
+87  .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   
+
+88  .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   .   .   
+
+89  .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   .   .   
+
+90  .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   
+
+91  .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:41: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:41: one's score is: 88
+20/01/16_11:16:41: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:41: two's score is: 49
+20/01/16_11:16:41: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:41: one's score is: 70
+20/01/16_11:16:41: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:41: two's score is: 63
+20/01/16_11:16:41: 
+one just made the following move: [[Rc, 86, 90], [Rx, 86, 91]]
+
+20/01/16_11:16:41: It is your turn!
+
+20/01/16_11:16:41: Hand: [1: [37mD[0m, 2: [32mC[0m, 3: [37mD[0m, 4: [37mB[0m, 5: [37mA[0m, 6: [36mE[0m]
+
+20/01/16_11:16:41: u[2J
+20/01/16_11:16:41: XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+84  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   .   .   .   .   .   .   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   .   
+
+86  .   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   .   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   .   
+
+87  .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   
+
+88  .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   .   .   
+
+89  .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   .   .   
+
+90  .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   
+
+91  .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:41: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:41: one's score is: 88
+20/01/16_11:16:41: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:41: two's score is: 49
+20/01/16_11:16:41: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:41: one's score is: 70
+20/01/16_11:16:41: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:41: two's score is: 63
+20/01/16_11:16:41: Hand: [1: [37mD[0m, 2: [32mC[0m, 3: [37mD[0m, 4: [37mB[0m, 5: [36mE[0m]
+
+20/01/16_11:16:41: u[2J
+20/01/16_11:16:41: XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+84  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   .   [37mD[0m   .   .   .   .   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   .   
+
+86  .   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   .   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   .   
+
+87  .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   
+
+88  .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   .   .   
+
+89  .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   .   .   
+
+90  .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   
+
+91  .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:41: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:41: one's score is: 88
+20/01/16_11:16:41: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:41: two's score is: 49
+20/01/16_11:16:41: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:41: one's score is: 70
+20/01/16_11:16:41: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:41: two's score is: 63
+20/01/16_11:16:41: Hand: [1: [37mD[0m, 2: [32mC[0m, 3: [37mB[0m, 4: [36mE[0m]
+
+20/01/16_11:16:41: u[2J
+20/01/16_11:16:41: XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+83  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   .   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   .   [37mD[0m   .   .   .   .   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   .   
+
+86  .   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   .   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   .   
+
+87  .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   
+
+88  .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   .   .   
+
+89  .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   .   .   
+
+90  .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   
+
+91  .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:41: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:41: one's score is: 88
+20/01/16_11:16:41: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:41: two's score is: 49
+20/01/16_11:16:41: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:41: one's score is: 70
+20/01/16_11:16:41: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:41: two's score is: 63
+20/01/16_11:16:41: Hand: [1: [37mD[0m, 2: [32mC[0m, 3: [36mE[0m]
+
+20/01/16_11:16:41: u[2J
+20/01/16_11:16:41: XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+83  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   .   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   .   [37mD[0m   .   .   .   .   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   .   
+
+86  .   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   .   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   .   
+
+87  .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   
+
+88  .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   .   .   
+
+89  .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   .   .   
+
+90  .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   
+
+91  .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:41: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:41: one's score is: 88
+20/01/16_11:16:41: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:41: two's score is: 49
+20/01/16_11:16:41: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:41: one's score is: 70
+20/01/16_11:16:41: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:41: two's score is: 63
+20/01/16_11:16:41: MOVE Bo 86 86 Bc 85 86 Bd 84 86 
+20/01/16_11:16:41: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:41: one's score is: 88
+20/01/16_11:16:41: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:41: two's score is: 49
+20/01/16_11:16:41: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:41: one's score is: 76
+20/01/16_11:16:41: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:41: two's score is: 63
+20/01/16_11:16:41: Tiles in pool: 14
+
+20/01/16_11:16:41: It is now two's turn.
+
+20/01/16_11:16:42: u[2J
+20/01/16_11:16:42: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+83  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   [33mB[0m   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   [33mD[0m   [37mD[0m   .   .   .   .   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   .   
+
+86  .   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   .   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   .   
+
+87  .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   
+
+88  .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   .   .   
+
+89  .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   .   .   
+
+90  .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   
+
+91  .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:42: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:42: one's score is: 88
+20/01/16_11:16:42: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:42: two's score is: 49
+20/01/16_11:16:42: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:42: one's score is: 76
+20/01/16_11:16:42: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:42: two's score is: 69
+20/01/16_11:16:42: 
+two just made the following move: [[Od, 84, 85], [Oc, 85, 85]]
+
+20/01/16_11:16:42: It is now one's turn.
+
+20/01/16_11:16:43: u[2J
+20/01/16_11:16:43: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+83  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   [33mB[0m   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   [33mD[0m   [37mD[0m   .   .   .   [35mD[0m   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   .   
+
+86  .   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   .   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   .   
+
+87  .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   
+
+88  .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   .   .   
+
+89  .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   .   .   
+
+90  .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   
+
+91  .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:43: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:43: one's score is: 100
+20/01/16_11:16:43: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:43: two's score is: 49
+20/01/16_11:16:43: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:43: one's score is: 76
+20/01/16_11:16:43: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:43: two's score is: 69
+20/01/16_11:16:43: 
+one just made the following move: [[Pc, 85, 90]]
+
+20/01/16_11:16:43: It is your turn!
+
+20/01/16_11:16:43: Hand: [1: [37mD[0m, 2: [32mC[0m, 3: [36mE[0m, 4: [31mA[0m, 5: [31mD[0m, 6: [36mC[0m]
+
+20/01/16_11:16:43: u[2J
+20/01/16_11:16:43: XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+83  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   [33mB[0m   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   [33mD[0m   [37mD[0m   .   .   .   [35mD[0m   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   .   
+
+86  .   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   [31mA[0m   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   .   
+
+87  .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   
+
+88  .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   .   .   
+
+89  .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   .   .   
+
+90  .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   
+
+91  .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:43: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:43: one's score is: 100
+20/01/16_11:16:43: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:43: two's score is: 49
+20/01/16_11:16:43: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:43: one's score is: 76
+20/01/16_11:16:43: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:43: two's score is: 69
+20/01/16_11:16:43: Hand: [1: [37mD[0m, 2: [32mC[0m, 3: [36mE[0m, 4: [31mD[0m, 5: [36mC[0m]
+
+20/01/16_11:16:43: u[2J
+20/01/16_11:16:43: XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+83  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   [33mB[0m   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   [33mD[0m   [37mD[0m   .   .   .   [35mD[0m   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   .   
+
+86  .   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   [31mA[0m   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   .   
+
+87  .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   
+
+88  .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   .   .   .   
+
+89  .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   .   .   .   
+
+90  .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   
+
+91  .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:43: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:43: one's score is: 100
+20/01/16_11:16:43: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:43: two's score is: 49
+20/01/16_11:16:43: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:43: one's score is: 76
+20/01/16_11:16:43: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:43: two's score is: 69
+20/01/16_11:16:43: MOVE Ro 86 92 
+20/01/16_11:16:43: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:43: one's score is: 100
+20/01/16_11:16:43: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:43: two's score is: 49
+20/01/16_11:16:43: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:43: one's score is: 83
+20/01/16_11:16:43: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:43: two's score is: 69
+20/01/16_11:16:43: Tiles in pool: 10
+
+20/01/16_11:16:43: It is now two's turn.
+
+20/01/16_11:16:44: u[2J
+20/01/16_11:16:44: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+83  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   [33mB[0m   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   [33mD[0m   [37mD[0m   .   .   .   [35mD[0m   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   .   
+
+86  .   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   [31mA[0m   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   .   
+
+87  .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   
+
+88  .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   [35mB[0m   .   .   
+
+89  .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   [35mF[0m   .   .   
+
+90  .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   
+
+91  .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:44: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:44: one's score is: 100
+20/01/16_11:16:44: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:44: two's score is: 49
+20/01/16_11:16:44: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:44: one's score is: 83
+20/01/16_11:16:44: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:44: two's score is: 76
+20/01/16_11:16:44: 
+two just made the following move: [[Pd, 88, 99], [P*, 89, 99]]
+
+20/01/16_11:16:44: It is now one's turn.
+
+20/01/16_11:16:44: u[2J
+20/01/16_11:16:44: 
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+82  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+83  .   .   [37mE[0m   [37mF[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   [33mB[0m   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   [33mD[0m   [37mD[0m   .   .   .   [35mD[0m   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   .   
+
+86  .   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   [31mA[0m   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   .   
+
+87  .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   
+
+88  .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   [35mB[0m   .   .   
+
+89  .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   [35mF[0m   .   .   
+
+90  .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   
+
+91  .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:44: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:44: one's score is: 106
+20/01/16_11:16:44: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:44: two's score is: 49
+20/01/16_11:16:44: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:44: one's score is: 83
+20/01/16_11:16:44: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:44: two's score is: 76
+20/01/16_11:16:44: 
+one just made the following move: [[Bx, 83, 86], [B*, 83, 87]]
+
+20/01/16_11:16:44: It is your turn!
+
+20/01/16_11:16:44: Hand: [1: [37mD[0m, 2: [32mC[0m, 3: [36mE[0m, 4: [31mD[0m, 5: [36mC[0m, 6: [35mB[0m]
+
+20/01/16_11:16:44: u[2J
+20/01/16_11:16:44: XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+82  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+83  .   .   [37mE[0m   [37mF[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   [33mB[0m   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   [33mD[0m   [37mD[0m   .   .   .   [35mD[0m   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   [36mC[0m   .   
+
+86  .   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   [31mA[0m   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   .   .   
+
+87  .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   .   
+
+88  .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   [35mB[0m   .   .   .   
+
+89  .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   [35mF[0m   .   .   .   
+
+90  .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   .   
+
+91  .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:44: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:44: one's score is: 106
+20/01/16_11:16:44: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:44: two's score is: 49
+20/01/16_11:16:44: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:44: one's score is: 83
+20/01/16_11:16:44: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:44: two's score is: 76
+20/01/16_11:16:44: Hand: [1: [37mD[0m, 2: [32mC[0m, 3: [36mE[0m, 4: [31mD[0m, 5: [35mB[0m]
+
+20/01/16_11:16:44: u[2J
+20/01/16_11:16:44: XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+82  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+83  .   .   [37mE[0m   [37mF[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   [33mB[0m   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   [33mD[0m   [37mD[0m   .   .   .   [35mD[0m   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   [36mC[0m   .   
+
+86  .   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   [31mA[0m   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   [32mC[0m   .   
+
+87  .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   .   
+
+88  .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   [35mB[0m   .   .   .   
+
+89  .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   [35mF[0m   .   .   .   
+
+90  .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   .   
+
+91  .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:44: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:44: one's score is: 106
+20/01/16_11:16:44: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:44: two's score is: 49
+20/01/16_11:16:44: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:44: one's score is: 83
+20/01/16_11:16:44: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:44: two's score is: 76
+20/01/16_11:16:44: Hand: [1: [37mD[0m, 2: [36mE[0m, 3: [31mD[0m, 4: [35mB[0m]
+
+20/01/16_11:16:44: u[2J
+20/01/16_11:16:44: XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+82  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+83  .   .   [37mE[0m   [37mF[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   [33mB[0m   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   [33mD[0m   [37mD[0m   .   .   .   [35mD[0m   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   [36mC[0m   .   
+
+86  .   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   [31mA[0m   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   [32mC[0m   .   
+
+87  .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   .   
+
+88  .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   [35mB[0m   .   .   .   
+
+89  .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   [35mF[0m   .   .   .   
+
+90  .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   .   
+
+91  .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:44: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:44: one's score is: 106
+20/01/16_11:16:44: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:44: two's score is: 49
+20/01/16_11:16:44: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:44: one's score is: 83
+20/01/16_11:16:44: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:44: two's score is: 76
+20/01/16_11:16:44: MOVE Ys 85 101 Gs 86 101 
+20/01/16_11:16:44: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:44: one's score is: 106
+20/01/16_11:16:44: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:44: two's score is: 49
+20/01/16_11:16:44: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:44: one's score is: 89
+20/01/16_11:16:45: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:45: two's score is: 76
+20/01/16_11:16:45: Tiles in pool: 4
+
+20/01/16_11:16:45: It is now two's turn.
+
+20/01/16_11:16:45: u[2J
+20/01/16_11:16:45: 
+XXX 83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+82  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+83  .   .   .   [37mE[0m   [37mF[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   [36mB[0m   [33mB[0m   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   [36mD[0m   [33mD[0m   [37mD[0m   .   .   .   [35mD[0m   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   [36mC[0m   .   
+
+86  .   .   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   [31mA[0m   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   [32mC[0m   .   
+
+87  .   .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   .   
+
+88  .   .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   [35mB[0m   .   .   .   
+
+89  .   .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   [35mF[0m   .   .   .   
+
+90  .   .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   .   
+
+91  .   .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:45: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:45: one's score is: 106
+20/01/16_11:16:45: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:45: two's score is: 49
+20/01/16_11:16:45: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:45: one's score is: 89
+20/01/16_11:16:45: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:45: two's score is: 84
+20/01/16_11:16:45: 
+two just made the following move: [[Yc, 85, 84], [Yd, 84, 84]]
+
+20/01/16_11:16:45: It is now one's turn.
+
+20/01/16_11:16:46: u[2J
+20/01/16_11:16:46: 
+XXX 83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+81  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+82  .   .   .   [37mF[0m   [37mE[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+83  .   .   .   [37mE[0m   [37mF[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   [36mB[0m   [33mB[0m   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   [36mD[0m   [33mD[0m   [37mD[0m   .   .   .   [35mD[0m   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   [36mC[0m   .   
+
+86  .   .   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   [31mA[0m   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   [32mC[0m   .   
+
+87  .   .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   .   
+
+88  .   .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   [35mB[0m   .   .   .   
+
+89  .   .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   [35mF[0m   .   .   .   
+
+90  .   .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   .   
+
+91  .   .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:46: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:46: one's score is: 115
+20/01/16_11:16:46: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:46: two's score is: 49
+20/01/16_11:16:46: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:46: one's score is: 89
+20/01/16_11:16:46: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:46: two's score is: 84
+20/01/16_11:16:46: 
+one just made the following move: [[Bx, 82, 87], [B*, 82, 86]]
+
+20/01/16_11:16:46: It is your turn!
+
+20/01/16_11:16:46: Hand: [1: [37mD[0m, 2: [36mE[0m, 3: [31mD[0m, 4: [35mB[0m, 5: [31mD[0m, 6: [31mE[0m]
+
+20/01/16_11:16:46: u[2J
+20/01/16_11:16:46: XXX 82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+81  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+82  .   .   .   .   [37mF[0m   [37mE[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+83  .   .   .   .   [37mE[0m   [37mF[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   .   [36mB[0m   [33mB[0m   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   [31mD[0m   [36mD[0m   [33mD[0m   [37mD[0m   .   .   .   [35mD[0m   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   [36mC[0m   .   
+
+86  .   .   .   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   [31mA[0m   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   [32mC[0m   .   
+
+87  .   .   .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   .   
+
+88  .   .   .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   [35mB[0m   .   .   .   
+
+89  .   .   .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   [35mF[0m   .   .   .   
+
+90  .   .   .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   .   
+
+91  .   .   .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:46: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:46: one's score is: 115
+20/01/16_11:16:46: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:46: two's score is: 49
+20/01/16_11:16:46: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:46: one's score is: 89
+20/01/16_11:16:46: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:46: two's score is: 84
+20/01/16_11:16:46: Hand: [1: [37mD[0m, 2: [36mE[0m, 3: [31mD[0m, 4: [35mB[0m, 5: [31mE[0m]
+
+20/01/16_11:16:46: u[2J
+20/01/16_11:16:46: XXX 82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+81  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+82  .   .   .   .   [37mF[0m   [37mE[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+83  .   .   .   .   [37mE[0m   [37mF[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   .   [36mB[0m   [33mB[0m   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   [31mD[0m   [36mD[0m   [33mD[0m   [37mD[0m   .   .   .   [35mD[0m   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   [36mC[0m   .   
+
+86  .   [31mE[0m   .   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   [31mA[0m   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   [32mC[0m   .   
+
+87  .   .   .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   .   
+
+88  .   .   .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   [35mB[0m   .   .   .   
+
+89  .   .   .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   [35mF[0m   .   .   .   
+
+90  .   .   .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   .   
+
+91  .   .   .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:46: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:46: one's score is: 115
+20/01/16_11:16:46: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:46: two's score is: 49
+20/01/16_11:16:46: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:46: one's score is: 89
+20/01/16_11:16:46: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:46: two's score is: 84
+20/01/16_11:16:46: Hand: [1: [37mD[0m, 2: [36mE[0m, 3: [31mD[0m, 4: [35mB[0m]
+
+20/01/16_11:16:46: u[2J
+20/01/16_11:16:46: XXX 82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+81  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+82  .   .   .   .   [37mF[0m   [37mE[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+83  .   .   .   .   [37mE[0m   [37mF[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   .   [36mB[0m   [33mB[0m   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   [31mD[0m   [36mD[0m   [33mD[0m   [37mD[0m   .   .   .   [35mD[0m   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   [36mC[0m   .   
+
+86  .   [31mE[0m   .   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   [31mA[0m   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   [32mC[0m   .   
+
+87  .   .   .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   .   
+
+88  .   .   .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   [35mB[0m   .   .   .   
+
+89  .   .   .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   [35mF[0m   .   .   .   
+
+90  .   .   .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   .   
+
+91  .   .   .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:46: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:46: one's score is: 115
+20/01/16_11:16:46: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:46: two's score is: 49
+20/01/16_11:16:46: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:46: one's score is: 89
+20/01/16_11:16:46: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:46: two's score is: 84
+20/01/16_11:16:46: MOVE Rc 85 83 Rx 86 83 
+20/01/16_11:16:46: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:46: one's score is: 115
+20/01/16_11:16:46: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:46: two's score is: 49
+20/01/16_11:16:46: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:46: one's score is: 95
+20/01/16_11:16:46: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:46: two's score is: 84
+20/01/16_11:16:46: There are no tiles left in the pool.
+
+20/01/16_11:16:46: It is now two's turn.
+
+20/01/16_11:16:47: u[2J
+20/01/16_11:16:47: 
+XXX 81  82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+81  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+82  .   .   .   .   .   [37mF[0m   [37mE[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+83  .   [32mB[0m   .   .   .   [37mE[0m   [37mF[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   [32mF[0m   .   [36mB[0m   [33mB[0m   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   [32mD[0m   [31mD[0m   [36mD[0m   [33mD[0m   [37mD[0m   .   .   .   [35mD[0m   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   [36mC[0m   .   
+
+86  .   .   [31mE[0m   .   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   [31mA[0m   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   [32mC[0m   .   
+
+87  .   .   .   .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   .   
+
+88  .   .   .   .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   [35mB[0m   .   .   .   
+
+89  .   .   .   .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   [35mF[0m   .   .   .   
+
+90  .   .   .   .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   .   
+
+91  .   .   .   .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:47: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:47: one's score is: 115
+20/01/16_11:16:47: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:47: two's score is: 49
+20/01/16_11:16:47: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:47: one's score is: 95
+20/01/16_11:16:47: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:47: two's score is: 92
+20/01/16_11:16:47: 
+two just made the following move: [[Gc, 85, 82], [G*, 84, 82], [Gd, 83, 82]]
+
+20/01/16_11:16:47: It is now one's turn.
+
+20/01/16_11:16:49: u[2J
+20/01/16_11:16:49: 
+XXX 80  81  82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+81  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+82  .   .   .   .   .   .   [37mF[0m   [37mE[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+83  .   .   [32mB[0m   .   .   .   [37mE[0m   [37mF[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   .   [32mF[0m   .   [36mB[0m   [33mB[0m   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   [35mD[0m   [32mD[0m   [31mD[0m   [36mD[0m   [33mD[0m   [37mD[0m   .   .   .   [35mD[0m   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   [36mC[0m   .   
+
+86  .   [35mB[0m   .   [31mE[0m   .   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   [31mA[0m   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   [32mC[0m   .   
+
+87  .   .   .   .   .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   .   
+
+88  .   .   .   .   .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   [35mB[0m   .   .   .   
+
+89  .   .   .   .   .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   [35mF[0m   .   .   .   
+
+90  .   .   .   .   .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   .   
+
+91  .   .   .   .   .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   .   .   .   .   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:49: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:49: one's score is: 129
+20/01/16_11:16:49: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:49: two's score is: 49
+20/01/16_11:16:49: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:49: one's score is: 95
+20/01/16_11:16:49: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:49: two's score is: 92
+20/01/16_11:16:49: 
+one just made the following move: [[Pc, 85, 81], [Pd, 86, 81]]
+
+20/01/16_11:16:49: It is your turn!
+
+20/01/16_11:16:49: Hand: [1: [37mD[0m, 2: [36mE[0m, 3: [31mD[0m, 4: [35mB[0m]
+
+20/01/16_11:16:49: u[2J
+20/01/16_11:16:49: XXX 80  81  82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+81  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+82  .   .   .   .   .   .   [37mF[0m   [37mE[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+83  .   .   [32mB[0m   .   .   .   [37mE[0m   [37mF[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   .   [32mF[0m   .   [36mB[0m   [33mB[0m   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   [35mD[0m   [32mD[0m   [31mD[0m   [36mD[0m   [33mD[0m   [37mD[0m   .   .   .   [35mD[0m   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   [36mC[0m   .   
+
+86  .   [35mB[0m   .   [31mE[0m   .   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   [31mA[0m   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   [32mC[0m   .   
+
+87  .   .   .   .   .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   .   
+
+88  .   .   .   .   .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   [35mB[0m   .   .   .   
+
+89  .   .   .   .   .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   [35mF[0m   .   .   .   
+
+90  .   .   .   .   .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   .   
+
+91  .   .   .   .   .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   .   .   .   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   .   .   .   [31mD[0m   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:49: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:49: one's score is: 129
+20/01/16_11:16:49: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:49: two's score is: 49
+20/01/16_11:16:49: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:49: one's score is: 95
+20/01/16_11:16:49: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:49: two's score is: 92
+20/01/16_11:16:49: Hand: [1: [37mD[0m, 2: [36mE[0m, 3: [35mB[0m]
+
+20/01/16_11:16:49: u[2J
+20/01/16_11:16:49: XXX 80  81  82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+81  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+82  .   .   .   .   .   .   [37mF[0m   [37mE[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+83  .   .   [32mB[0m   .   .   .   [37mE[0m   [37mF[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   .   [32mF[0m   .   [36mB[0m   [33mB[0m   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   [35mD[0m   [32mD[0m   [31mD[0m   [36mD[0m   [33mD[0m   [37mD[0m   .   .   .   [35mD[0m   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   [36mC[0m   .   
+
+86  .   [35mB[0m   .   [31mE[0m   .   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   [31mA[0m   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   [32mC[0m   .   
+
+87  .   .   .   .   .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   .   
+
+88  .   .   .   .   .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   [35mB[0m   .   .   .   
+
+89  .   .   .   .   .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   [35mF[0m   .   .   .   
+
+90  .   .   .   .   .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   .   
+
+91  .   .   .   .   .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   .   .   [37mD[0m   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   .   .   .   [31mD[0m   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:49: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:49: one's score is: 129
+20/01/16_11:16:49: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:49: two's score is: 49
+20/01/16_11:16:49: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:49: one's score is: 95
+20/01/16_11:16:49: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:49: two's score is: 92
+20/01/16_11:16:49: Hand: [1: [36mE[0m, 2: [35mB[0m]
+
+20/01/16_11:16:49: u[2J
+20/01/16_11:16:49: XXX 80  81  82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+81  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+82  .   .   .   .   .   .   [37mF[0m   [37mE[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+83  .   .   [32mB[0m   .   .   .   [37mE[0m   [37mF[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   .   [32mF[0m   .   [36mB[0m   [33mB[0m   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   [35mD[0m   [32mD[0m   [31mD[0m   [36mD[0m   [33mD[0m   [37mD[0m   .   .   .   [35mD[0m   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   [36mC[0m   .   
+
+86  .   [35mB[0m   .   [31mE[0m   .   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   [31mA[0m   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   [32mC[0m   .   
+
+87  .   .   .   .   .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   .   
+
+88  .   .   .   .   .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   [35mB[0m   .   .   .   
+
+89  .   .   .   .   .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   [35mF[0m   .   .   .   
+
+90  .   .   .   .   .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   .   
+
+91  .   .   .   .   .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   .   .   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   .   .   [37mD[0m   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   .   .   .   [31mD[0m   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:49: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:49: one's score is: 129
+20/01/16_11:16:49: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:49: two's score is: 49
+20/01/16_11:16:49: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:49: one's score is: 95
+20/01/16_11:16:49: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:49: two's score is: 92
+20/01/16_11:16:49: MOVE Rc 95 91 Bc 94 91 
+20/01/16_11:16:49: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:49: one's score is: 129
+20/01/16_11:16:49: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:49: two's score is: 49
+20/01/16_11:16:49: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:49: one's score is: 101
+20/01/16_11:16:49: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:49: two's score is: 92
+20/01/16_11:16:49: There are no tiles left in the pool.
+
+20/01/16_11:16:49: It is now two's turn.
+
+20/01/16_11:16:50: u[2J
+20/01/16_11:16:50: 
+XXX 80  81  82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+81  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+82  .   .   .   .   .   .   [37mF[0m   [37mE[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+83  .   .   [32mB[0m   .   .   .   [37mE[0m   [37mF[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   .   [32mF[0m   .   [36mB[0m   [33mB[0m   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   [35mD[0m   [32mD[0m   [31mD[0m   [36mD[0m   [33mD[0m   [37mD[0m   .   .   .   [35mD[0m   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   [36mC[0m   .   
+
+86  .   [35mB[0m   .   [31mE[0m   .   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   [31mA[0m   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   [32mC[0m   .   
+
+87  .   .   .   .   .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   .   
+
+88  .   .   .   .   .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   [35mB[0m   .   .   .   
+
+89  .   .   .   .   .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   [35mF[0m   .   .   .   
+
+90  .   .   .   .   .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   .   
+
+91  .   .   .   .   .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   [32mD[0m   [33mD[0m   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   .   .   [37mD[0m   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   .   .   .   [31mD[0m   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   .   .   .   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:50: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:50: one's score is: 129
+20/01/16_11:16:50: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:50: two's score is: 49
+20/01/16_11:16:50: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:50: one's score is: 101
+20/01/16_11:16:50: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:50: two's score is: 97
+20/01/16_11:16:50: 
+two just made the following move: [[Oc, 93, 91], [Gc, 93, 90]]
+
+20/01/16_11:16:50: It is now one's turn.
+
+20/01/16_11:16:50: u[2J
+20/01/16_11:16:51: 
+XXX 80  81  82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+81  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+82  .   .   .   .   .   .   [37mF[0m   [37mE[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+83  .   .   [32mB[0m   .   .   .   [37mE[0m   [37mF[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   .   [32mF[0m   .   [36mB[0m   [33mB[0m   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   [35mD[0m   [32mD[0m   [31mD[0m   [36mD[0m   [33mD[0m   [37mD[0m   .   .   .   [35mD[0m   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   [36mC[0m   .   
+
+86  .   [35mB[0m   .   [31mE[0m   .   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   [31mA[0m   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   [32mC[0m   .   
+
+87  .   .   .   .   .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   .   
+
+88  .   .   .   .   .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   [35mB[0m   .   .   .   
+
+89  .   .   .   .   .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   [35mF[0m   .   .   .   
+
+90  .   .   .   .   .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   .   
+
+91  .   .   .   .   .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   [32mD[0m   [33mD[0m   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   .   .   [37mD[0m   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   .   .   [31mA[0m   [31mD[0m   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   .   .   [31mC[0m   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:51: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:51: one's score is: 136
+20/01/16_11:16:51: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:51: two's score is: 49
+20/01/16_11:16:51: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:51: one's score is: 101
+20/01/16_11:16:51: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:51: two's score is: 97
+20/01/16_11:16:51: 
+one just made the following move: [[Ro, 95, 90], [Rs, 96, 90]]
+
+20/01/16_11:16:51: It is your turn!
+
+20/01/16_11:16:51: Hand: [1: [36mE[0m, 2: [35mB[0m]
+
+20/01/16_11:16:51: u[2J
+20/01/16_11:16:51: XXX 80  81  82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+81  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+82  .   .   .   .   .   .   [37mF[0m   [37mE[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+83  .   .   [32mB[0m   .   .   .   [37mE[0m   [37mF[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   .   [32mF[0m   .   [36mB[0m   [33mB[0m   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   [35mD[0m   [32mD[0m   [31mD[0m   [36mD[0m   [33mD[0m   [37mD[0m   .   .   .   [35mD[0m   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   [36mC[0m   .   
+
+86  .   [35mB[0m   .   [31mE[0m   [36mE[0m   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   [31mA[0m   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   [32mC[0m   .   
+
+87  .   .   .   .   .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   .   
+
+88  .   .   .   .   .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   [35mB[0m   .   .   .   
+
+89  .   .   .   .   .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   [35mF[0m   .   .   .   
+
+90  .   .   .   .   .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   .   
+
+91  .   .   .   .   .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   [32mD[0m   [33mD[0m   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   .   .   [37mD[0m   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   .   .   [31mA[0m   [31mD[0m   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   .   .   [31mC[0m   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:51: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:51: one's score is: 136
+20/01/16_11:16:51: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:51: two's score is: 49
+20/01/16_11:16:51: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:51: one's score is: 101
+20/01/16_11:16:51: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:51: two's score is: 97
+20/01/16_11:16:51: Hand: [1: [35mB[0m]
+
+20/01/16_11:16:51: u[2J
+20/01/16_11:16:51: XXX 80  81  82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+81  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+82  .   .   .   .   .   .   [37mF[0m   [37mE[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+83  .   .   [32mB[0m   .   .   .   [37mE[0m   [37mF[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   .   [32mF[0m   .   [36mB[0m   [33mB[0m   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+85  .   [35mD[0m   [32mD[0m   [31mD[0m   [36mD[0m   [33mD[0m   [37mD[0m   .   .   .   [35mD[0m   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   [36mC[0m   .   
+
+86  .   [35mB[0m   .   [31mE[0m   [36mE[0m   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   [31mA[0m   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   [32mC[0m   .   
+
+87  .   .   .   .   .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   .   
+
+88  .   .   .   .   .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   [35mB[0m   .   .   .   
+
+89  .   .   .   .   .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   [35mF[0m   .   .   .   
+
+90  .   .   .   .   .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   .   
+
+91  .   .   .   .   .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   [32mD[0m   [33mD[0m   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   .   .   [37mD[0m   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   .   .   [31mA[0m   [31mD[0m   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   .   .   [31mC[0m   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+
+20/01/16_11:16:51: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:51: one's score is: 136
+20/01/16_11:16:51: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:51: two's score is: 49
+20/01/16_11:16:51: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:51: one's score is: 101
+20/01/16_11:16:51: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:51: two's score is: 97
+20/01/16_11:16:51: MOVE Yx 86 84 
+20/01/16_11:16:51: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:51: one's score is: 136
+20/01/16_11:16:51: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:51: two's score is: 49
+20/01/16_11:16:51: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:51: one's score is: 106
+20/01/16_11:16:51: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:51: two's score is: 97
+20/01/16_11:16:51: There are no tiles left in the pool.
+
+20/01/16_11:16:51: It is now two's turn.
+
+20/01/16_11:16:51: u[2J
+20/01/16_11:16:51: 
+XXX 80  81  82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+81  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+82  .   .   .   .   .   .   [37mF[0m   [37mE[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+83  .   .   [32mB[0m   .   .   .   [37mE[0m   [37mF[0m   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+84  .   .   [32mF[0m   .   [36mB[0m   [33mB[0m   [37mB[0m   .   .   .   .   .   .   .   .   .   .   .   .   [33mF[0m   .   .   .   
+
+85  .   [35mD[0m   [32mD[0m   [31mD[0m   [36mD[0m   [33mD[0m   [37mD[0m   .   .   .   [35mD[0m   .   .   .   .   .   .   .   [35mC[0m   [33mC[0m   [37mC[0m   [36mC[0m   .   
+
+86  .   [35mB[0m   .   [31mE[0m   [36mE[0m   .   [37mA[0m   [37mC[0m   [37mB[0m   .   [31mD[0m   [31mE[0m   [31mA[0m   .   .   .   [37mE[0m   [32mE[0m   [35mE[0m   [33mE[0m   .   [32mC[0m   .   
+
+87  .   .   .   .   .   .   .   [35mC[0m   .   [33mF[0m   [33mD[0m   .   [35mA[0m   [37mA[0m   .   [31mF[0m   [31mE[0m   .   [35mF[0m   .   .   .   .   
+
+88  .   .   .   .   .   .   .   [31mC[0m   .   [37mF[0m   [37mD[0m   .   [36mA[0m   [31mA[0m   .   [35mF[0m   [35mE[0m   [35mA[0m   [35mD[0m   [35mB[0m   .   .   .   
+
+89  .   .   .   .   .   [32mB[0m   [32mE[0m   [32mC[0m   [32mA[0m   [32mF[0m   [32mD[0m   .   [37mA[0m   [32mA[0m   .   [32mF[0m   [32mE[0m   [32mA[0m   .   [35mF[0m   .   .   .   
+
+90  .   .   .   .   .   .   [36mE[0m   [36mC[0m   [36mA[0m   [36mF[0m   [36mD[0m   [36mB[0m   .   [33mA[0m   [33mC[0m   [33mF[0m   [33mE[0m   .   .   .   .   .   .   
+
+91  .   .   .   .   .   .   [35mE[0m   .   .   .   .   [36mD[0m   [36mB[0m   [36mA[0m   [36mC[0m   [36mF[0m   [36mE[0m   .   .   .   .   .   .   
+
+92  .   .   .   .   .   .   .   .   .   .   .   .   .   [35mA[0m   [35mC[0m   .   .   .   .   .   .   .   .   
+
+93  .   .   .   .   .   .   .   .   .   .   [32mD[0m   [33mD[0m   .   .   [32mC[0m   [33mC[0m   .   .   .   .   .   .   .   
+
+94  .   .   .   .   .   .   .   .   .   .   .   [37mD[0m   .   [37mB[0m   [37mC[0m   .   .   .   .   .   .   .   .   
+
+95  .   .   .   .   .   .   .   .   .   .   [31mA[0m   [31mD[0m   [31mF[0m   [31mB[0m   [31mC[0m   .   .   .   .   .   .   .   .   
+
+96  .   .   .   .   .   .   .   .   .   .   [31mC[0m   .   [31mB[0m   [33mB[0m   .   .   .   .   .   .   .   .   .   
+
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+
+20/01/16_11:16:51: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:51: one's score is: 136
+20/01/16_11:16:51: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:51: two's score is: 49
+20/01/16_11:16:51: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:51: one's score is: 106
+20/01/16_11:16:51: [Player 1: one, Player 2: two, Player 3: one, Player 4: two]
+20/01/16_11:16:51: two's score is: 100
+20/01/16_11:16:51: 
+two just made the following move: [[O*, 84, 99]]
+
+20/01/16_11:16:51: The winner is... one!

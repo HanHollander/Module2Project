@@ -1,6 +1,6 @@
 package exceptions;
 
-import client.Tile;
+import client.model.Tile;
 
 public class TileNotInHandException extends Exception {
   

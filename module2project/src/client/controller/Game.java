@@ -1,4 +1,4 @@
-package client;
+package client.controller;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,7 +8,14 @@ import java.net.InetAddress;
 import java.util.ArrayList;
 import java.util.List;
 
-import client.Move.Type;
+import client.model.Board;
+import client.model.ComputerPlayer;
+import client.model.Move;
+import client.model.Player;
+import client.model.Tile;
+import client.model.Move.Type;
+import client.model.NaiveStrategy;
+import client.view.Printer;
 import exceptions.HandIsFullException;
 import exceptions.InvalidMoveException;
 import exceptions.TileNotInHandException;
@@ -43,6 +50,8 @@ public class Game {
   private int pool = 108;
   private boolean playerTurn;
   
+  private NaiveStrategy hintGen;
+  
   /**
    * Constructs a new game and a new client.
    * @param name name of client.
@@ -55,6 +64,7 @@ public class Game {
     playerList = new ArrayList<>();
     this.playerName = name;
     this.setPlayerType(playerType);
+    setHintGen(new NaiveStrategy());
     //Try creating a client.
     try {
       Printer.print("Creating client... ");
@@ -76,14 +86,13 @@ public class Game {
    * Gets called when it is the turn of the player.
    */
   public void playerTurn() {
+    Printer.printBoard(this);
     setPlayerTurn(true);
-    Printer.print("It is your turn!" + "\n");
+    Printer.print("\nIt is your turn!");
     while (playerTurn) {
-      Printer.print("Hand: " + player.handToString() + "\n");
+      Printer.print("\nWhat is your action?");
       makeMove();
-      Printer.print("u\033[2J");
-      Printer.print(board.toString() + "\n");
-      printScores();
+      Printer.printBoard(this);
     }
     int score = 0;
     if (board.getMoveList().size() != 0) {
@@ -100,7 +109,6 @@ public class Game {
    * @param moves the moves the opponent did.
    */
   public void opponentTurn(List<Move> moves, Player player) {
-    Printer.print("u\033[2J");
     for (Move move : moves) {
       //Place all the moves on the board.
       board.putTile(move);
@@ -112,8 +120,7 @@ public class Game {
       score = board.getScoreCurrentTurn();
     } 
     player.setScore(player.getScore() + score);
-    Printer.print("\n" + board.toString());
-    printScores();
+    Printer.printBoard(this);
     //Reset board counters.
     board.endTurn();
   }
@@ -165,16 +172,12 @@ public class Game {
     //Send the command to server.
     //Printer.print("Command sent to server: " + command);
     client.sendMessage(command);
-    //Add score
-    
-    printScores();
     //Reset the board counters.
     board.endTurn();
   }
   
   public void printScores() {
     for (Player player : playerList) {
-      Printer.print(playerList.toString());
       Printer.print(player.getName() + "'s score is: " + player.getScore());
     }
   }
@@ -188,7 +191,7 @@ public class Game {
   }
   
   /**
-   * Get player with nr
+   * Get player with nr.
    * @param nr nr
    * @return player
    */
@@ -240,6 +243,14 @@ public class Game {
 
   public void setPlayerTurn(boolean bool) {
     playerTurn = bool;
+  }
+
+  public NaiveStrategy getHintGen() {
+    return hintGen;
+  }
+
+  public void setHintGen(NaiveStrategy hintGen) {
+    this.hintGen = hintGen;
   }
 
 

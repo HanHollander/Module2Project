@@ -1,4 +1,4 @@
-package client;
+package client.model;
 
 import exceptions.HandIsFullException;
 import exceptions.InvalidMoveException;

@@ -7,8 +7,8 @@ import java.net.InetAddress;
 import org.junit.Before;
 import org.junit.Test;
 
-import client.Client;
-import client.Game;
+import client.controller.Client;
+import client.controller.Game;
 
 public class ClientTest {
   

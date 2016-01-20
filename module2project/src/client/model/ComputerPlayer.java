@@ -1,10 +1,11 @@
-package client;
+package client.model;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import client.Move.Type;
+import client.model.Move.Type;
+import client.view.Printer;
 import exceptions.HandIsFullException;
 import exceptions.InvalidMoveException;
 import exceptions.TileNotInHandException;
