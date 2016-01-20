@@ -1,4 +1,4 @@
-package client;
+package client.model;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,7 +8,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
-import client.Move.Type;
+import client.model.Move.Type;
+import client.view.Printer;
 import exceptions.HandIsFullException;
 import exceptions.InvalidCommandException;
 import exceptions.InvalidMoveException;
@@ -147,7 +148,6 @@ public class HumanPlayer extends Player {
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     while (move == null) {
       try {
-        Printer.print("What is your action?");
         input = reader.readLine();
       } catch (IOException e) {
         Printer.print("Could not read line.");

@@ -1,0 +1,39 @@
+20/01/16_12:13:40: 
+Checking host... 
+20/01/16_12:13:40: Host accepted.
+20/01/16_12:13:40: Checking port... 
+20/01/16_12:13:40: Port accepted.
+20/01/16_12:13:40: Creating client... 
+20/01/16_12:13:40: Client bot created
+20/01/16_12:13:40: Starting client... 
+20/01/16_12:13:40: Client started.
+20/01/16_12:13:40: Sending registration message... 
+20/01/16_12:13:40: HELLO bot
+20/01/16_12:13:40: Registration message send.
+20/01/16_12:13:40: Welcome message received.
+
+20/01/16_12:13:40: Waiting for welcome message... 
+20/01/16_12:13:41: Players participating: [Player 1: bot, Player 2: human]
+
+20/01/16_12:13:41: AITime: 999999
+
+20/01/16_12:13:41: u[2JXXX 90  91  92  93  94  
+90  .   .   .   .   .   
+
+91  .   [36mD[0m   [35mD[0m   [32mD[0m   .   
+
+92  .   .   .   .   .   
+
+
+Hand: []
+
+20/01/16_12:13:41: bot's score is: 3
+20/01/16_12:13:41: human's score is: 0
+20/01/16_12:13:41: Tiles in pool: 93
+
+20/01/16_12:13:41: It is now human's turn.
+
+20/01/16_12:13:51: Tiles in pool: 99
+
+20/01/16_12:13:51: human IS KICKED FOR THE FOLLOWING REASON: lost connection
+

@@ -7,10 +7,10 @@ import java.io.ByteArrayInputStream;
 import org.junit.Before;
 import org.junit.Test;
 
-import client.Board;
-import client.HumanPlayer;
-import client.Move;
-import client.Tile;
+import client.model.Board;
+import client.model.HumanPlayer;
+import client.model.Move;
+import client.model.Tile;
 import exceptions.HandIsFullException;
 import exceptions.InvalidCommandException;
 import exceptions.InvalidMoveException;

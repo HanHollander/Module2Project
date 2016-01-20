@@ -69,7 +69,7 @@ public class Player {
     if (contains) {
       hand.remove(remove);
     } else {
-      throw new TileNotInHandException(new client.Tile(tile.getColor(), tile.getShape()));
+      throw new TileNotInHandException(new client.model.Tile(tile.getColor(), tile.getShape()));
     }
   }
   

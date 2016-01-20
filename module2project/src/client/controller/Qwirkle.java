@@ -1,4 +1,4 @@
-package client;
+package client.controller;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -16,6 +16,8 @@ import java.util.Date;
 import java.util.List;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
+
+import client.view.Printer;
 
 public class Qwirkle {
   

@@ -1,4 +1,4 @@
-package client;
+package client.view;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -7,6 +7,10 @@ import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import client.controller.Game;
+import client.controller.Qwirkle;
+import client.model.HumanPlayer;
 
 public class Printer {
   
@@ -72,6 +76,17 @@ public class Printer {
       logger.flush();
     } catch (IOException ex) {
       System.out.println("Could not write.");
+    }
+  }
+  
+  public static void printBoard(Game game) {
+    String board = "u\033[2J" + game.getBoard().toString() + "\nHand: " 
+        + game.getPlayer().handToString() + "\n" + "Tiles in pool: " + game.getPool() + "\n";
+    print(board);
+    game.printScores();
+    if (game.getPlayer() instanceof HumanPlayer && game.getPlayer().getHand().size() != 0) {
+      Printer.print("\nHint: " 
+          + game.getHintGen().getHint(game.getBoard(), game.getPlayer().getHand()).toString());
     }
   }
   

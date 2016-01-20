@@ -1,4 +1,4 @@
-package client;
+package client.controller;
 
 import exceptions.HandIsFullException;
 import exceptions.InvalidCommandException;
@@ -12,6 +12,15 @@ import java.net.InetAddress;
 import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
+
+import client.model.ComputerPlayer;
+import client.model.HumanPlayer;
+import client.model.Move;
+import client.model.OpponentPlayer;
+import client.model.Player;
+import client.model.SmartStrategy;
+import client.model.Tile;
+import client.view.Printer;
 
 
 

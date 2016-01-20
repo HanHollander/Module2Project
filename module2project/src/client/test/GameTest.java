@@ -12,11 +12,10 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
-import client.Board;
-import client.Game;
-import client.HumanPlayer;
-import client.Move;
-import client.Tile;
+import client.controller.Game;
+import client.model.HumanPlayer;
+import client.model.Move;
+import client.model.Tile;
 
 public class GameTest {
 

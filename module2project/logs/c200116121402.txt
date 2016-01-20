@@ -1,0 +1,121 @@
+20/01/16_12:14:02: 
+Checking host... 
+20/01/16_12:14:02: Host accepted.
+20/01/16_12:14:02: Checking port... 
+20/01/16_12:14:02: Port accepted.
+20/01/16_12:14:02: Creating client... 
+20/01/16_12:14:03: Client human created
+20/01/16_12:14:03: Starting client... 
+20/01/16_12:14:03: Client started.
+20/01/16_12:14:03: Sending registration message... 
+20/01/16_12:14:03: HELLO human
+20/01/16_12:14:03: Registration message send.
+20/01/16_12:14:03: Welcome message received.
+
+20/01/16_12:14:03: Waiting for welcome message... 
+20/01/16_12:14:03: Players participating: [Player 1: bot, Player 2: human]
+
+20/01/16_12:14:03: AITime: 999999
+
+20/01/16_12:14:03: u[2JXXX 90  91  92  93  94  
+90  .   .   .   .   .   
+
+91  .   [32mC[0m   [32mD[0m   [32mA[0m   .   
+
+92  .   .   .   .   .   
+
+
+Hand: []
+
+20/01/16_12:14:03: bot's score is: 3
+20/01/16_12:14:03: human's score is: 0
+20/01/16_12:14:03: 
+bot just made the following move: [[Gs, 91, 91], [Gc, 91, 9220/01/16_12:14:53: human swapped.
+
+20/01/16_12:14:53: u[2JXXX 90  91  92  93  94  
+90  .   .   .   .   .   
+
+91  .   [32mC[0m   [32mD[0m   [32mA[0m   .   
+
+92  .   .   .   .   .   
+
+
+Hand: [1: [37mF[0m, 2: [33mB[0m, 3: [36mF[0m, 4: [31mB[0m, 5: [35mC[0m, 6: [35mE[0m]
+
+20/01/16_12:14:53: bot's score is: 3
+20/01/16_12:14:53: human's score is: 0
+20/01/16_12:14:53: u[2JXXX 90  91  92  93  94  
+90  .   .   .   .   .   
+
+91  .   [32mC[0m   [32mD[0m   [32mA[0m   .   
+
+92  .   .   .   .   .   
+
+
+Hand: [1: [37mF[0m, 2: [33mB[0m, 3: [36mF[0m, 4: [31mB[0m, 5: [35mC[0m, 6: [35mE[0m]
+
+20/01/16_12:14:53: bot's score is: 3
+20/01/16_12:14:53: human's score is: 0
+20/01/16_12:14:53: 
+It is your turn!
+
+20/01/16_12:14:53: What is your action?
+20/01/16_12:14:53: u[2JXXX 90  91  92  93  94  
+89  .   .   .   .   .   
+
+90  .   [35mC[0m   .   .   .   
+
+91  .   [32mC[0m   [32mD[0m   [32mA[0m   .   
+
+92  .   .   .   .   .   
+
+
+Hand: [1: [37mF[0m, 2: [33mB[0m, 3: [36mF[0m, 4: [31mB[0m, 5: [35mE[0m]
+
+20/01/16_12:14:53: bot's score is: 3
+20/01/16_12:14:53: human's score is: 0
+20/01/16_12:14:53: What is your action?
+20/01/16_12:14:53: u[2JXXX 89  90  91  92  93  94  
+89  .   .   .   .   .   .   
+
+90  .   [35mE[0m   [35mC[0m   .   .   .   
+
+91  .   .   [32mC[0m   [32mD[0m   [32mA[0m   .   
+
+92  .   20/01/16_12:14:53: u[2JXXX 89  90  91  92  93  94  
+89  .   .   .   .   .   .   
+
+90  .   [35mE[0m   [35mC[0m   .   .   .   
+
+91  .   .   [32mC[0m   [32mD[0m   [32mA[0m   .   
+
+92  .   .   .   .   .   .   
+
+
+Hand: [1: [31mA[0m, 2: [33mD[0m, 3: [35mB[0m, 4: [35mF[0m, 5: [31mD[0m, 6: [36mB[0m]
+
+20/01/16_12:14:53: bot's score is: 7
+20/01/16_12:14:53: human's score is: 0
+20/01/16_12:14:53: 
+bot just made the following move: [[Ps, 90, 91], [Px, 90, 90]]
+
+20/01/16_12:14:53: u[2JXXX 89  90  91  92  93  94  
+89  .   .   .   .   .   .   
+
+90  .   [35mE[0m   [35mC[0m   .   .   .   
+
+91  .   .   [32mC[0m   [32mD[0m   [32mA[0m   .   
+
+92  .   .   .   .   .   .   
+
+
+Hand:20/01/16_12:14:55: ÏOException while reading from socket.
+m, 5: [31mD[0m, 6: [36mB[0m]
+
+20/01/16_12:14:53: bot's score is: 7
+20/01/16_12:14:53: human's score is: 0
+20/01/16_12:14:53: 
+It is your turn!
+
+20/01/16_12:14:53: What is your action?
+20/01/16_12:14:53: Type of turn: ANY

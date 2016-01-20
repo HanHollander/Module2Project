@@ -1,0 +1,32 @@
+20/01/16_12:28:27: 
+Checking host... 
+20/01/16_12:28:27: Host accepted.
+20/01/16_12:28:27: Checking port... 
+20/01/16_12:28:27: Port accepted.
+20/01/16_12:28:27: Creating client... 
+20/01/16_12:28:27: Client human created
+20/01/16_12:28:27: Starting client... 
+20/01/16_12:28:27: Client started.
+20/01/16_12:28:27: Sending registration message... 
+20/01/16_12:28:27: HELLO human
+20/01/16_12:28:27: Registration message send.
+20/01/16_12:28:27: Welcome message received.
+
+20/01/16_12:28:27: Players participating: [Player 1: human, Player 2: human]
+
+20/01/16_12:28:27: Waiting for welcome message... 
+20/01/16_12:28:27: AITime: 999999
+
+20/01/16_12:28:27: u[2JXXX 90  91  92  93  94  
+90  .   .   .   .   .   
+
+91  .   [35mD[0m   [35mA[0m   [35mB[0m   .   
+
+92  .   .   .   .   .   
+
+
+Hand: []
+
+20/01/16_12:28:27: human's score is: 0
+20/01/16_12:28:27: human's score is: 3
+20/01/16_12:28:27: Could not determine a hint

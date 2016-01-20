@@ -1,4 +1,4 @@
 cd ..
 cd bin
-java client.Qwirkle bot localhost 7778 b
+java client.controller.Qwirkle bot localhost 7778 b
 pause

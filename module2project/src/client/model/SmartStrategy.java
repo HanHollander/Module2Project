@@ -1,4 +1,4 @@
-package client;
+package client.model;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -19,6 +19,7 @@ public class SmartStrategy implements Strategy {
     Move theMove;
     if (thePerfectTurn.size() == 0) {
       List<List<Integer>> possiblePlaces = getPossiblePlaces(board);
+      //System.out.println("PossiblePlaces: " + possiblePlaces);
       HashMap<List<Move>, Integer> result = new HashMap<List<Move>, Integer>();
       for (List<Integer> coord : possiblePlaces) {
         for (Tile tile : hand) {
@@ -26,6 +27,7 @@ public class SmartStrategy implements Strategy {
           int col = coord.get(1);
           Move move = new Move(tile, row, col);
           if (board.checkMove(move)) {
+            //System.out.println("Dinkie");
             List<Tile> testHand = new ArrayList<>();
             List<Move> testTurn = new ArrayList<>();
             testTurn.add(move);
@@ -45,8 +47,11 @@ public class SmartStrategy implements Strategy {
       Set<List<Move>> resultKeySet = result.keySet();
       List<Move> bestTurn = new ArrayList<Move>();;
       int bestScore = -1;
+      System.out.println(result.toString());
       for (List<Move> selectedTurn : resultKeySet) {
+        //System.out.println(selectedTurn.toString());
         int turnScore = result.get(selectedTurn);
+        //System.out.println(turnScore);
         if (turnScore > bestScore) {
           bestTurn = new ArrayList<Move>();
           bestTurn.addAll(selectedTurn);
@@ -134,6 +139,7 @@ public class SmartStrategy implements Strategy {
           Set<List<Move>> tussenResultKeySet = tussenResult.keySet();
           for (List<Move> tussenTurn : tussenResultKeySet) {
             int testScoreDinkie = tussenResult.get(tussenTurn);
+            System.out.println(tussenTurn + " " + testScoreDinkie);
             result.put(tussenTurn, testScoreDinkie);
           }
         }
@@ -156,6 +162,7 @@ public class SmartStrategy implements Strategy {
           Set<List<Move>> tussenResultKeySet = tussenResult.keySet();
           for (List<Move> tussenTurn : tussenResultKeySet) {
             int testScoreDinkie = tussenResult.get(tussenTurn);
+            System.out.println(tussenTurn + " " + testScoreDinkie);
             result.put(tussenTurn, testScoreDinkie);
           }
         }
@@ -178,6 +185,7 @@ public class SmartStrategy implements Strategy {
           Set<List<Move>> tussenResultKeySet = tussenResult.keySet();
           for (List<Move> tussenTurn : tussenResultKeySet) {
             int testScoreDinkie = tussenResult.get(tussenTurn);
+            System.out.println(tussenTurn + " " + testScoreDinkie);
             result.put(tussenTurn, testScoreDinkie);
           }
         }
@@ -200,6 +208,7 @@ public class SmartStrategy implements Strategy {
           Set<List<Move>> tussenResultKeySet = tussenResult.keySet();
           for (List<Move> tussenTurn : tussenResultKeySet) {
             int testScoreDinkie = tussenResult.get(tussenTurn);
+            System.out.println(tussenTurn + " " + testScoreDinkie);
             result.put(tussenTurn, testScoreDinkie);
           }
         }

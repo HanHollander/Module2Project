@@ -1,4 +1,4 @@
-package client;
+package client.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -221,9 +221,8 @@ public class Board {
     Boolean gotHorizontalRow;
     String empty = ". ";
     Boolean result = true;
-    // Check if the destination of the move is empty on the board
+    // Check if the destination of the move is 
     if (getTile(move.getRow(), move.getColumn()).toString().equals(empty)) {
-      // Check if the current move and the moves made this turn are in the same row
       if (currentMovesLineUp(move)) {
         // Check if the current move creates a vertical and horizontal row.
         gotVerticalRow = !getTile(move.getRow() - 1, move.getColumn()).toString().equals(empty) 
@@ -311,8 +310,6 @@ public class Board {
           }
         }
         
-        // Here it checks when the current move has no tiles next to it if this move
-        // is in the middle of the board.
         if (!gotHorizontalRow && !gotVerticalRow) {
           result = move.getRow() == 91 && move.getColumn() == 91;
         }
