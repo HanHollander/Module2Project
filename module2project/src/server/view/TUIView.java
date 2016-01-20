@@ -7,11 +7,11 @@ import java.util.Set;
 import server.controller.Server;
 import server.model.Game;
 
-public class View implements Observer {
+public class TUIView implements Observer {
 
   private Server server;
   
-  public View(Server server) {
+  public TUIView(Server server) {
     this.server = server;
   }
   
@@ -31,7 +31,7 @@ public class View implements Observer {
         System.out.println(game.getPlayer(playerNr).getName() + ": " 
             + game.getPlayer(playerNr).getHand().toString());
       }
-      System.out.println("Tiles in pool: " + game.getPoolSize());
+      System.out.println("Tiles in pool: " + game.getPoolSize() + "\n");
     }
   }
 

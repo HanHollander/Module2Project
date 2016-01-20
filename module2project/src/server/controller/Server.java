@@ -12,7 +12,7 @@ import java.util.Set;
 import server.model.Game;
 import server.model.Move;
 import server.model.Tile;
-import server.view.View;
+import server.view.TUIView;
 
 public class Server extends Thread{
   private static final String USAGE = "usage: " + Server.class.getName() 
@@ -84,7 +84,7 @@ public class Server extends Thread{
   /** Constructs a new Server object. */
   public Server(ServerSocket serverSocket, int numberOfPlayers, 
       int aiTime, Object waitingForFullLoby, int serverNr) {
-    observer = new View(this);
+    observer = new TUIView(this);
     this.numberOfPlayers = numberOfPlayers;
     threads = new HashMap<Integer, ClientHandler>();
     game = new Game(this);
