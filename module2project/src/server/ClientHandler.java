@@ -285,6 +285,7 @@ public class ClientHandler extends Thread {
       System.out.println("Could not close socket in the shutdown procedure.");
     }
     server.removeHandler(playerNr);
+    System.out.println("Closed the connection wiht player-" + playerNr);
   }
 
 }

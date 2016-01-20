@@ -146,17 +146,17 @@ public class Server extends Thread{
     
     while (!game.isGameOver() && threads.size() > 1) {
 //      Print game situation
-//      playerNrs = threads.keySet();
-//      System.out.println("\n" + "\n" + "\n" + "Score board:");
-//      for (int number : playerNrs) {
-//        System.out.println("Player-" + number + ": " + game.getPlayer(number).getScore());
-//      }
-//      System.out.println("\n" + game.getBoard().toString() + "\n" + "Tiles in pool: " 
-//          + game.getPoolSize());
-//      for (int number : playerNrs) {
-//        System.out.println("Player-" + number + " hand: " + game.getPlayer(number).getHand());
-//      }
-//      System.out.println("");
+      playerNrs = threads.keySet();
+      System.out.println("\n" + "\n" + "\n" + "Score board:");
+      for (int number : playerNrs) {
+        System.out.println("Player-" + number + ": " + game.getPlayer(number).getScore());
+      }
+      System.out.println("\n" + game.getBoard().toString() + "\n" + "Tiles in pool: " 
+          + game.getPoolSize());
+      for (int number : playerNrs) {
+        System.out.println("Player-" + number + " hand: " + game.getPlayer(number).getHand());
+      }
+      System.out.println("");
       
       // Wait for a clientHandler to do something (make a move or kick)
       synchronized (monitor) {
