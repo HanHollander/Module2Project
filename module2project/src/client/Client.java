@@ -1,5 +1,8 @@
 package client;
 
+import exceptions.HandIsFullException;
+import exceptions.InvalidCommandException;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -10,8 +13,7 @@ import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
 
-import exceptions.HandIsFullException;
-import exceptions.InvalidCommandException;
+
 
 public class Client extends Thread {
   private static final String USAGE = "usage: java week7.cmdchat.Client <name> <address> <port>";
@@ -232,7 +234,9 @@ public class Client extends Thread {
       }
       Printer.print("Players participating: " + game.getPlayerList() + "\n");
       Printer.print("AITime: " + command[command.length - 1] + "\n");
-    }  
+    } else if (command.length == 4) {
+      addPlayer(command[1], command[2]);
+    }
   }
 
   /**
@@ -309,7 +313,7 @@ public class Client extends Thread {
   }
   
   /**
-   * Close the socket connection
+   * Close the socket connection.
    */
   public void shutdown() {
     Printer.print("Closing socket connection...");

@@ -1,0 +1,82 @@
+20/01/16_10:26:53: 
+Checking host... 
+20/01/16_10:26:53: Host accepted.
+20/01/16_10:26:53: Checking port... 
+20/01/16_10:26:53: Port accepted.
+20/01/16_10:26:53: Creating client... 
+20/01/16_10:26:53: Client bot created
+20/01/16_10:26:53: Starting client... 
+20/01/16_10:26:53: Client started.
+20/01/16_10:26:53: Sending registration message... 
+20/01/16_10:26:53: HELLO bot
+20/01/16_10:26:53: Registration message send.
+20/01/16_10:26:53: Welcome message received.
+
+20/01/16_10:26:53: Waiting for welcome message... 
+20/01/16_10:26:53: Players participating: [Player 1: human, Player 2: bot]
+
+20/01/16_10:26:53: AITime: 999999
+
+20/01/16_10:26:53: u[2J
+20/01/16_10:26:53: 
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   [36mA[0m   [31mA[0m   [33mA[0m   .   
+92  .   .   .   .   .   
+
+20/01/16_10:26:53: human's score is: 3
+20/01/16_10:26:53: bot's score is: 0
+20/01/16_10:26:53: 
+human just made the following move: [[Yo, 91, 91], [Ro, 91, 92], [Oo, 91, 93]]
+
+20/01/16_10:26:53: Tiles in pool: 93
+
+20/01/16_10:26:53: It is your turn!
+
+20/01/16_10:26:53: Hand: [1: [35mA[0m, 2: [31mE[0m, 3: [32mF[0m, 4: [36mE[0m, 5: [33mD[0m, 6: [37mD[0m]
+
+20/01/16_10:26:53: u[2J
+20/01/16_10:26:53: XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   [36mA[0m   [31mA[0m   [33mA[0m   .   
+92  .   [36mE[0m   .   .   .   
+93  .   .   .   .   .   
+
+
+20/01/16_10:26:53: human's score is: 3
+20/01/16_10:26:53: bot's score is: 0
+20/01/16_10:26:53: Hand: [1: [35mA[0m, 2: [31mE[0m, 3: [32mF[0m, 4: [33mD[0m, 5: [37mD[0m]
+
+20/01/16_10:26:53: u[2J
+20/01/16_10:26:53: XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   [36mA[0m   [31mA[0m   [33mA[0m   .   
+92  .   [36mE[0m   [31mE[0m   .   .   
+93  .   .   .   .   .   
+
+
+20/01/16_10:26:53: human's score is: 3
+20/01/16_10:26:53: bot's score is: 0
+20/01/16_10:26:53: Hand: [1: [35mA[0m, 2: [32mF[0m, 3: [33mD[0m, 4: [37mD[0m]
+
+20/01/16_10:26:53: u[2J
+20/01/16_10:26:54: XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   [36mA[0m   [31mA[0m   [33mA[0m   .   
+92  .   [36mE[0m   [31mE[0m   .   .   
+93  .   .   .   .   .   
+
+
+20/01/16_10:26:54: human's score is: 3
+20/01/16_10:26:54: bot's score is: 0
+20/01/16_10:26:54: MOVE Yx 92 91 Rx 92 92 
+20/01/16_10:26:54: human's score is: 3
+20/01/16_10:26:54: bot's score is: 6
+20/01/16_10:26:54: Tiles in pool: 91
+
+20/01/16_10:26:54: It is now human's turn.
+
+20/01/16_10:27:01: Tiles in pool: 97
+
+20/01/16_10:27:01: human IS KICKED FOR THE FOLLOWING REASON: made a invalid turn
+

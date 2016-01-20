@@ -1,0 +1,33 @@
+20/01/16_10:22:38: 
+Checking host... 
+20/01/16_10:22:38: Host accepted.
+20/01/16_10:22:38: Checking port... 
+20/01/16_10:22:38: Port accepted.
+20/01/16_10:22:38: Creating client... 
+20/01/16_10:22:38: Client bot created
+20/01/16_10:22:38: Starting client... 
+20/01/16_10:22:38: Client started.
+20/01/16_10:22:38: Sending registration message... 
+20/01/16_10:22:38: HELLO bot
+20/01/16_10:22:38: Registration message send.
+20/01/16_10:22:38: Welcome message received.
+
+20/01/16_10:22:38: Waiting for welcome message... 
+20/01/16_10:22:40: Players participating: [Player 1: bot, Player 2: human]
+
+20/01/16_10:22:40: AITime: 999999
+
+20/01/16_10:22:40: u[2J
+20/01/16_10:22:40: 
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   [32mE[0m   [31mE[0m   .   
+92  .   .   .   .   
+
+20/01/16_10:22:40: bot's score is: 2
+20/01/16_10:22:40: human's score is: 0
+20/01/16_10:22:40: Tiles in pool: 94
+
+20/01/16_10:22:40: It is now human's turn.
+
+20/01/16_10:23:33: ÏOException while reading from socket.
