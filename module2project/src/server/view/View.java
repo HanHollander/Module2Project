@@ -1,9 +1,10 @@
-package server.controller;
+package server.view;
 
 import java.util.Observable;
 import java.util.Observer;
 import java.util.Set;
 
+import server.controller.Server;
 import server.model.Game;
 
 public class View implements Observer {

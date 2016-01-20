@@ -12,6 +12,7 @@ import java.util.Set;
 import server.model.Game;
 import server.model.Move;
 import server.model.Tile;
+import server.view.View;
 
 public class Server extends Thread{
   private static final String USAGE = "usage: " + Server.class.getName() 
