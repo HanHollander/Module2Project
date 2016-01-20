@@ -99,16 +99,22 @@ public class ClientHandler extends Thread {
             }
             server.handlerWakesServer();
           } else {
-            server.kick(playerNr, "made an invalid turn");
-            shutdown();
+            if (!isShutDown) {
+              server.kick(playerNr, "made an invalid turn");
+              shutdown();
+            }
           }
         } else {
-          server.kick(playerNr, "spoke before his/her turn");
-          shutdown();
+          if (!isShutDown) {
+            server.kick(playerNr, "spoke before his/her turn");
+            shutdown();
+          }
         }
       } catch (IOException e) {
-        server.kick(playerNr, "lost connection");
-        shutdown();
+        if (!isShutDown) {
+          server.kick(playerNr, "lost connection");
+          shutdown();
+        }
       }
     }
     if (!server.isReady()) {

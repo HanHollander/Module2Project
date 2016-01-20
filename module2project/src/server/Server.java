@@ -2,6 +2,7 @@ package server;
 
 import java.io.IOException;
 import java.net.ServerSocket;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -182,11 +183,15 @@ public class Server extends Thread{
         }
       }
     }
+    imReady = true;
     broadcast("WINNER " + game.getWinningPlayerNr());
-//    playerNrs = threads.keySet();
-//    for (int number : playerNrs) {
-//      threads.get(number).shutdown();
-//    }
+    playerNrs = threads.keySet();
+    List<Integer> players = new ArrayList<Integer>();
+    players.addAll(playerNrs);
+    while (players.size() > 0) {
+      threads.get(players.get(0)).shutdown();
+      players.remove(0);
+    }
   }
   
   /**
