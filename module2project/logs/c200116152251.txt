@@ -1,0 +1,115 @@
+20/01/16_15:22:51: 
+Checking host... 
+20/01/16_15:22:51: Host accepted.
+20/01/16_15:22:51: Checking port... 
+20/01/16_15:22:51: Port accepted.
+20/01/16_15:22:51: Creating client... 
+20/01/16_15:22:51: Client bot created
+20/01/16_15:22:51: Starting client... 
+20/01/16_15:22:51: Client started.
+20/01/16_15:22:51: Sending registration message... 
+20/01/16_15:22:51: HELLO bot
+20/01/16_15:22:51: Registration message send.
+20/01/16_15:22:51: Waiting for welcome message... 
+20/01/16_15:22:51: Welcome message received.
+
+20/01/16_15:22:52: Players participating: [Player 1: bot, Player 2: human]
+
+20/01/16_15:22:52: AITime: 999999
+
+20/01/16_15:22:52: u[2JXXX 90  91  92  93  94  
+90  .   .   .   .   .   
+
+91  .   [37mC[0m   [37mE[0m   [37mB[0m   .   
+
+92  .   .   .   .   .   
+
+
+Hand: []
+Tiles in pool: 99
+
+20/01/16_15:22:52: bot's score is: 3
+20/01/16_15:22:52: human's score is: 0
+20/01/16_15:22:52: Tiles in pool: 93
+
+20/01/16_15:22:52: It is now human's turn.
+
+20/01/16_15:23:16: u[2JXXX 90  91  92  93  94  
+90  .   .   .   .   .   
+
+91  .   [37mC[0m   [37mE[0m   [37mB[0m   .   
+
+92  .   .   [33mE[0m   .   .   
+
+93  .   .   .   .   .   
+
+
+Hand: [1: [35mA[0m, 2: [31mA[0m, 3: [35mD[0m, 4: [32mA[0m, 5: [33mF[0m, 6: [37mC[0m]
+Tiles in pool: 92
+
+20/01/16_15:23:16: bot's score is: 3
+20/01/16_15:23:16: human's score is: 2
+20/01/16_15:23:16: 
+human just made the following move: [[Ox, 92, 92]]
+
+20/01/16_15:23:16: u[2JXXX 90  91  92  93  94  
+90  .   .   .   .   .   
+
+91  .   [37mC[0m   [37mE[0m   [37mB[0m   .   
+
+92  .   .   [33mE[0m   .   .   
+
+93  .   .   .   .   .   
+
+
+Hand: [1: [35mA[0m, 2: [31mA[0m, 3: [35mD[0m, 4: [32mA[0m, 5: [33mF[0m, 6: [37mC[0m]
+Tiles in pool: 92
+
+20/01/16_15:23:16: bot's score is: 3
+20/01/16_15:23:16: human's score is: 2
+20/01/16_15:23:16: 
+It is your turn!
+20/01/16_15:23:16: 
+What is your action?
+20/01/16_15:23:16: u[2JXXX 90  91  92  93  94  
+89  .   .   .   .   .   
+
+90  .   .   .   [37mC[0m   .   
+
+91  .   [37mC[0m   [37mE[0m   [37mB[0m   .   
+
+92  .   .   [33mE[0m   .   .   
+
+93  .   .   .   .   .   
+
+
+Hand: [1: [35mA[0m, 2: [31mA[0m, 3: [35mD[0m, 4: [32mA[0m, 5: [33mF[0m]
+Tiles in pool: 92
+
+20/01/16_15:23:16: bot's score is: 3
+20/01/16_15:23:16: human's score is: 2
+20/01/16_15:23:16: 
+What is your action?
+20/01/16_15:23:16: u[2JXXX 90  91  92  93  94  
+89  .   .   .   .   .   
+
+90  .   .   .   [37mC[0m   .   
+
+91  .   [37mC[0m   [37mE[0m   [37mB[0m   .   
+
+92  .   .   [33mE[0m   .   .   
+
+93  .   .   .   .   .   
+
+
+Hand: [1: [35mA[0m, 2: [31mA[0m, 3: [35mD[0m, 4: [32mA[0m, 5: [33mF[0m]
+Tiles in pool: 92
+
+20/01/16_15:23:16: bot's score is: 3
+20/01/16_15:23:16: human's score is: 2
+20/01/16_15:23:16: MOVE Bs 90 93 
+20/01/16_15:23:16: Tiles in pool: 91
+
+20/01/16_15:23:16: It is now human's turn.
+
+20/01/16_15:23:20: ÏOException while reading from socket.

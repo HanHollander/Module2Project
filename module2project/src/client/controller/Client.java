@@ -151,6 +151,7 @@ public class Client extends Thread {
         Printer.print("Not a number. (WINNER)");
       }
       Printer.print("The winner is... " + getPlayerName(playerNumber) + "!\n");
+      game.printScores();
       Printer.print("Would you like to play another game? Y/N");
       String answer = Qwirkle.readInput();
       if (answer.equals("Y") || answer.equals("y")) {
