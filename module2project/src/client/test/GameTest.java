@@ -13,7 +13,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 import client.controller.Game;
-import client.model.Board;
 import client.model.HumanPlayer;
 import client.model.Move;
 import client.model.Tile;

@@ -2,6 +2,7 @@ package server;
 
 import java.io.IOException;
 import java.net.ServerSocket;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -145,17 +146,17 @@ public class Server extends Thread{
     
     while (!game.isGameOver() && threads.size() > 1) {
 //      Print game situation
-//      playerNrs = threads.keySet();
-//      System.out.println("\n" + "\n" + "\n" + "Score board:");
-//      for (int number : playerNrs) {
-//        System.out.println("Player-" + number + ": " + game.getPlayer(number).getScore());
-//      }
-//      System.out.println("\n" + game.getBoard().toString() + "\n" + "Tiles in pool: " 
-//          + game.getPoolSize());
-//      for (int number : playerNrs) {
-//        System.out.println("Player-" + number + " hand: " + game.getPlayer(number).getHand());
-//      }
-//      System.out.println("");
+      playerNrs = threads.keySet();
+      System.out.println("\n" + "\n" + "\n" + "Score board:");
+      for (int number : playerNrs) {
+        System.out.println("Player-" + number + ": " + game.getPlayer(number).getScore());
+      }
+      System.out.println("\n" + game.getBoard().toString() + "\n" + "Tiles in pool: " 
+          + game.getPoolSize());
+      for (int number : playerNrs) {
+        System.out.println("Player-" + number + " hand: " + game.getPlayer(number).getHand());
+      }
+      System.out.println("");
       
       // Wait for a clientHandler to do something (make a move or kick)
       synchronized (monitor) {
@@ -182,11 +183,15 @@ public class Server extends Thread{
         }
       }
     }
+    imReady = true;
     broadcast("WINNER " + game.getWinningPlayerNr());
-//    playerNrs = threads.keySet();
-//    for (int number : playerNrs) {
-//      threads.get(number).shutdown();
-//    }
+    playerNrs = threads.keySet();
+    List<Integer> players = new ArrayList<Integer>();
+    players.addAll(playerNrs);
+    while (players.size() > 0) {
+      threads.get(players.get(0)).shutdown();
+      players.remove(0);
+    }
   }
   
   /**
