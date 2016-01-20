@@ -1,0 +1,117 @@
+20/01/16_12:59:08: 
+Checking host... 
+20/01/16_12:59:08: Host accepted.
+20/01/16_12:59:08: Checking port... 
+20/01/16_12:59:08: Port accepted.
+20/01/16_12:59:08: Creating client... 
+20/01/16_12:59:09: Client human created
+20/01/16_12:59:09: Starting client... 
+20/01/16_12:59:09: Client started.
+20/01/16_12:59:09: Sending registration message... 
+20/01/16_12:59:09: HELLO human
+20/01/16_12:59:09: Welcome message received.
+
+20/01/16_12:59:09: Registration message send.
+20/01/16_12:59:09: Players participating: [Player 1: bot, Player 2: human]
+
+20/01/16_12:59:09: Waiting for welcome message... 
+20/01/16_12:59:09: AITime: 9999920/020/01/16_12:59:09: u[2JXXX 90  91  92  93  94  
+90  .   .   .   .   .   
+
+91  .   [37mB[0m   [37mA[0m   [37mF[0m   .   
+
+92  .   .   .   .   .   
+
+
+Hand: []
+Tiles in pool: 99
+
+20/01/16_12:59:09: bot's score is: 0
+20/01/16_12:59:09: human's score is:20/020/01/16_12:59:09: Tiles in pool: 93
+
+20/01/16_12:59:09: It is now bot's turn.
+
+20/01/16_12:59:10: u[2JXXX 89  90  91  92  93  94  
+89  .   .   .   .   .   .   
+
+90  .   [32mD[0m   .   .   .   .   
+
+91  .   [37mD[0m   [37mB[0m   [37mA[0m   [37mF[0m   .   
+
+92  .   .   .   .   .   .   
+
+
+Hand: [1: [33mE[0m, 2: [33mD[0m, 3: [36mA[0m, 4: [36mB[0m, 5: [35mA[0m, 6: [31mD[0m]
+Tiles in pool: 91
+
+20/01/16_12:59:10: bot's score is: 6
+20/01/16_12:59:10: human's score is: 3
+20/01/16_12:59:10: 
+Hint: [[31mD[0m, 92, 90]
+20/01/16_12:59:10: 
+bot just made the following move: [[Bc, 91, 90], [Gc, 90, 90]]
+
+20/01/16_12:59:10: u[2JXXX 89  90  91  92  93  94  
+89  .   .   .   .   .   .   
+
+90  .   [32mD[0m   .   .   .   .   
+
+91  .   [37mD[0m   [37mB[0m   [37mA[0m   [37mF[0m   .   
+
+92  .   .   .   .   .   .   
+
+
+Hand: [1: [33mE[0m, 2: [33mD[0m, 3: [36mA[0m, 4: [36mB[0m, 5: [35mA[0m, 6: [31mD[0m]
+Tiles in pool: 91
+
+20/01/16_12:59:10: bot's score is: 6
+20/01/16_12:59:10: human's score is: 3
+20/01/16_12:59:10: 
+Hint: [[31mD[0m, 92, 90]
+20/01/16_12:59:10: 
+It is your turn!
+20/01/16_12:59:10: 
+What is your action?
+20/01/16_12:59:10: Type of turn: ANY
+20/01/16_12:59:21: exceptions.InvalidCommandException: Invalid command. Usage: [MOVE <tileNr> <row> <column>] Usage: [SWAP <tile>]
+20/01/16_12:59:21: Type of turn: ANY
+20/01/16_12:59:27: u[2JXXX 89  90  91  92  93  94  
+89  .   .   .   .   .   .   
+
+90  .   [32mD[0m   .   .   .   .   
+
+91  .   [37mD[0m   [37mB[0m   [37mA[0m   [37mF[0m   .   
+
+92  .   [31mD[0m   .   .   .   .   
+
+93  .   .   .   .   .   .   
+
+
+Hand: [1: [33mE[0m, 2: [33mD[0m, 3: [36mA[0m, 4: [36mB[0m, 5: [35mA[0m]
+Tiles in pool: 91
+
+20/01/16_12:59:27: bot's score is: 6
+20/01/16_12:59:27: human's score is: 3
+20/01/16_12:59:27: 
+Hint: [[33mD[0m, 92, 89]
+20/01/16_12:59:27: 
+What is your action?20/01/16_12:59:37: Tiles in pool: 97
+
+20/01/16_12:59:37: human IS KICKED FOR THE FOLLOWING REASON: lost connection
+
+   .   .   
+
+90  .   .   [32mD[0m   .   .   .   .   
+
+91  .   .   [37mD[0m   [37mB[0m   [37mA[0m   [37mF[0m   .   
+
+92  .   [33mD[0m   [31mD[0m   .   .   .   .   
+
+93  .   .   .   .   .   .   .   
+
+
+Hand: [1: [33mE[0m, 2: [36mA[0m, 3: [36mB[0m, 4: [35mA[0m]
+Tiles in pool: 91
+
+20/01/16_12:59:37: bot's score is: 6
+20/01/16_12:59:37: human's score is: 3

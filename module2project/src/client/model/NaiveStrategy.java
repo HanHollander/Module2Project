@@ -16,7 +16,7 @@ public class NaiveStrategy implements Strategy {
    * @param hand the hand
    * @param player the computerplayer
    */
-  public Move determineMove(Board board, List<Tile> hand, ComputerPlayer player) {
+  public Move determineMove(Board board, List<Tile> hand, Player player) {
     Move result = null;
     List<List<Integer>> places = getPossiblePlaces(board);
     for (Tile tile : hand) {
@@ -31,32 +31,6 @@ public class NaiveStrategy implements Strategy {
       result = new Move(hand.get(1));
     }
     player.setMadeMove(true);
-    return result;
-  }
-  
-  /**
-   * Determines a hint for the human player. Very, very bad AI.
-   * @param board the board
-   * @param hand the hand
-   */
-  public Move getHint(Board board, List<Tile> hand) {
-    Move result = null;
-    List<List<Integer>> places = getPossiblePlaces(board);
-    for (Tile tile : hand) {
-      for (List<Integer> place : places) {
-        Move newMove = new Move(tile, place.get(0), place.get(1));
-        if (board.checkMove(newMove)) {
-          result = newMove;
-        }
-      }
-    }
-    if (result == null) {
-      try {
-        result = new Move(hand.get(1));
-      } catch (IndexOutOfBoundsException e) {
-        Printer.print("Could not determine a hint");
-      }
-    }
     return result;
   }
   

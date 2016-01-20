@@ -63,31 +63,31 @@ public class Printer {
   
   /**
    * Prints an exception to console and file.
-   * @param e to be printed
+   * @param ex to be printed
    */
-  public static void print(Exception e) {
-    System.out.println(e);
+  public static void print(Exception ex) {
+    System.out.println(ex);
     try {
       DateFormat df = new SimpleDateFormat("dd/MM/yy_HH:mm:ss");
       Date dateobj = new Date();
       String dateTime = df.format(dateobj);
-      logger.write(dateTime + ": " + e);
+      logger.write(dateTime + ": " + ex);
       logger.newLine();
       logger.flush();
-    } catch (IOException ex) {
+    } catch (IOException e) {
       System.out.println("Could not write.");
     }
   }
   
+  /**
+   * print board of game.
+   * @param game the game
+   */
   public static void printBoard(Game game) {
     String board = "u\033[2J" + game.getBoard().toString() + "\nHand: " 
         + game.getPlayer().handToString() + "\n" + "Tiles in pool: " + game.getPool() + "\n";
     print(board);
     game.printScores();
-    if (game.getPlayer() instanceof HumanPlayer && game.getPlayer().getHand().size() != 0) {
-      Printer.print("\nHint: " 
-          + game.getHintGen().getHint(game.getBoard(), game.getPlayer().getHand()).toString());
-    }
   }
   
 }

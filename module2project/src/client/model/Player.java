@@ -14,6 +14,7 @@ public abstract class Player {
   private List<Tile> hand;
   private List<Move> moves;
   private int score;
+  private boolean madeMove;
         
   /**
    * Constructor for a Player.
@@ -115,6 +116,14 @@ public abstract class Player {
 
   public void setScore(int score) {
     this.score = score;
+  }
+
+  public boolean isMadeMove() {
+    return madeMove;
+  }
+
+  public void setMadeMove(boolean madeMove) {
+    this.madeMove = madeMove;
   }
     
 }

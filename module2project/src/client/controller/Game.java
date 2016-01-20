@@ -10,8 +10,10 @@ import java.util.List;
 
 import client.model.Board;
 import client.model.ComputerPlayer;
+import client.model.HumanPlayer;
 import client.model.Move;
 import client.model.Player;
+import client.model.SmartStrategy;
 import client.model.Tile;
 import client.model.Move.Type;
 import client.model.NaiveStrategy;
@@ -27,6 +29,7 @@ import exceptions.TileNotInHandException;
 public class Game {
      
   private Board board;
+  private Board copy;
     
   private List<Player> playerList;
   private Player player;
@@ -50,7 +53,7 @@ public class Game {
   private int pool = 108;
   private boolean playerTurn;
   
-  private NaiveStrategy hintGen;
+  private SmartStrategy hintGen;
   
   /**
    * Constructs a new game and a new client.
@@ -64,7 +67,7 @@ public class Game {
     playerList = new ArrayList<>();
     this.playerName = name;
     this.setPlayerType(playerType);
-    setHintGen(new NaiveStrategy());
+    setHintGen(new SmartStrategy());
     //Try creating a client.
     try {
       Printer.print("Creating client... ");
@@ -87,6 +90,9 @@ public class Game {
    */
   public void playerTurn() {
     Printer.printBoard(this);
+    if (getPlayer() instanceof HumanPlayer && getPlayer().getHand().size() != 0) {
+      Printer.print("\nHint: " + getHint().colourToString());
+    }
     setPlayerTurn(true);
     Printer.print("\nIt is your turn!");
     while (playerTurn) {
@@ -204,6 +210,13 @@ public class Game {
     }
     return result;
   }
+  
+  /**
+   * Determines a hint for the human player.
+   */
+  public Move getHint() {
+    return hintGen.determineMove(board, player.getHand(), player);
+  }
 
   public void setPlayer(Player player) {
     this.player = player;
@@ -245,11 +258,11 @@ public class Game {
     playerTurn = bool;
   }
 
-  public NaiveStrategy getHintGen() {
+  public SmartStrategy getHintGen() {
     return hintGen;
   }
 
-  public void setHintGen(NaiveStrategy hintGen) {
+  public void setHintGen(SmartStrategy hintGen) {
     this.hintGen = hintGen;
   }
 

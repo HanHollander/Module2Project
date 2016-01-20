@@ -54,6 +54,10 @@ public class Move {
   public String toString() {
     return "[" + tile.toString() + ", " + row + ", " + column + "]";
   }
+  
+  public String colourToString() {
+    return "[" + tile.colourToString() + ", " + row + ", " + column + "]";
+  }
 
   /**
    * Custom equals function to make life easier.

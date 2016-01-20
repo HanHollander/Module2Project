@@ -1,0 +1,92 @@
+20/01/16_12:57:57: 
+Checking host... 
+20/01/16_12:57:57: Host accepted.
+20/01/16_12:57:57: Checking port... 
+20/01/16_12:57:57: Port accepted.
+20/01/16_12:57:57: Creating client... 
+20/01/16_12:57:57: Client human created
+20/01/16_12:57:57: Starting client... 
+20/01/16_12:57:57: Client started.
+20/01/16_12:57:57: Sending registration message... 
+20/01/16_12:57:57: HELLO human
+20/01/16_12:57:57: Registration message send.
+20/01/16_12:57:57: Welcome message received.
+
+20/01/16_12:57:57: Waiting for welcome message... 
+20/01/16_12:57:57: Players participating: [Player 1: bot, Player 2: human]
+
+20/01/16_12:57:57: AITime: 999999
+
+20/01/16_12:57:58: u[2JXXX 90  91  92  93  94  
+90  .   .   .   .   .   
+
+91  .   [37mD[0m   [33mD[0m   [31mD[0m   .   
+
+92  .   .   .   .   .   
+
+
+Hand: []
+Tiles in pool: 99
+
+20/01/16_12:57:58: bot's score is: 3
+20/01/16_12:57:58: human's score is: 0
+20/01/16_12:57:58: 
+bot just made the following move: [[Bc, 91, 91], [Oc, 91, 92], [Rc, 91, 93]]
+
+20/01/16_12:57:58: Tiles in pool: 93
+
+20/01/16_12:57:58: u[2JXXX 90  91  92  93  94  
+90  .   .   .   .   .   
+
+91  .   [37mD[0m   [33mD[0m   [31mD[0m   .   
+
+92  .   .   .   .   .   
+
+
+Hand: [1: [33mF[0m, 2: [31mC[0m, 3: [36mE[0m, 4: [31mC[0m, 5: [31mD[0m, 6: [35mB[0m]
+Tiles in pool: 93
+
+20/01/16_12:57:58: bot's score is: 3
+20/01/16_12:57:58: human's score is: 0
+20/01/16_12:57:58: 
+Hint: [[31mD[0m, 92, 92]
+20/01/16_12:57:58: 
+It is your turn!
+20/01/16_12:57:58: 
+What is your action?
+20/01/16_12:57:58: Type of turn: ANY
+20/01/16_12:58:13: u[2JXXX 90  91  92  93  94  
+90  .   .   .   .   .   
+
+91  .   [37mD[0m   [33mD[0m   [31mD[0m   .   
+
+92  .   .   [31mD[0m   .   .   
+
+93  .   .   .   .   .   
+
+
+Hand: [1: [33mF[0m, 2: [31mC[0m, 3: [36mE[0m, 4: [31mC[0m, 5: [35mB[0m]
+Tiles in pool: 93
+
+20/01/16_12:58:13: bot's score is: 3
+20/01/16_12:58:13: human's score is: 0
+20/01/16_12:58:13: 
+Hint: [[31mC[0m, 92, 93]
+20/01/16_12:58:13: 
+What is your action?
+20/01/16_12:58:13: Type of turn: MOVE
+20/01/16_12:58:21: u[2JXXX 90  91  92  93  94  
+90  .   .   .   .   .   
+
+91  .   [37mD[0m   [33mD[0m   [31mD[0m   .   
+
+92  .   .   [31mD[0m   [31mC[0m   .   
+
+93  .   .   .   .   .   
+
+
+Hand: [1: [33mF[0m, 2: [31mC[0m, 3: [36mE[0m, 4: [35mB[0m]
+Tiles in pool: 93
+
+20/01/16_12:58:21: bot's score is: 3
+20/01/16_12:58:21: human's score is: 0

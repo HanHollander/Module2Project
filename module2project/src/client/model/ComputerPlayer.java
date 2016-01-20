@@ -13,7 +13,6 @@ import exceptions.TileNotInHandException;
 public class ComputerPlayer extends Player {
   
   private Strategy strategy;
-  private boolean madeMove = false;
  
   public ComputerPlayer(String name, int playerNumber, Strategy strategy) {
     super(name, playerNumber);
@@ -23,7 +22,7 @@ public class ComputerPlayer extends Player {
   public Move determineMove(Board board) throws InvalidMoveException {
     Move result = null;
     System.out.println("detmov");
-    if (!madeMove) {      
+    if (!isMadeMove()) {      
       System.out.println("mov mov");
       result = strategy.determineMove(board, getHand(), this);
       try {
@@ -32,16 +31,16 @@ public class ComputerPlayer extends Player {
         Printer.print(e);
       }
       getMoves().add(result);
-    } else if (madeMove) {
+    } else if (isMadeMove()) {
       System.out.println("end mov");
       result = new Move();
-      madeMove = false;
+      setMadeMove(false);
     } 
     return result;
   }
   
   public void setMadeMove(boolean bool) {
-    madeMove = bool;
+    setMadeMove(bool);
   }
 
 
