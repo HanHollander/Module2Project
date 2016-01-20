@@ -1,4 +1,4 @@
-package server;
+package server.controller;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -9,6 +9,9 @@ import java.net.Socket;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+import server.model.Move;
+import server.model.Tile;
 
 public class ClientHandler extends Thread {
   

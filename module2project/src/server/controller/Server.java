@@ -1,4 +1,4 @@
-package server;
+package server.controller;
 
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -8,11 +8,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-/**
- * Server. 
- * @author  Theo Ruys
- * @version 2005.02.21
- */
+import server.model.Game;
+import server.model.Move;
+import server.model.Tile;
+
 public class Server extends Thread{
   private static final String USAGE = "usage: " + Server.class.getName() 
       + " <port> <numberOfPlayers(2,3,4)> <AITime>";

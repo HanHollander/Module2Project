@@ -1,7 +1,8 @@
-package server;
+package server.model;
 
 import exceptions.HandIsFullException;
 import exceptions.TileNotInHandException;
+import server.controller.Server;
 
 import java.util.ArrayList;
 import java.util.Arrays;
