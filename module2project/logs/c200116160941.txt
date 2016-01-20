@@ -1,0 +1,110 @@
+20/01/16_16:09:42: 
+Checking host... 
+20/01/16_16:09:42: Host accepted.
+20/01/16_16:09:42: Checking port... 
+20/01/16_16:09:42: Port accepted.
+20/01/16_16:09:42: Creating client... 
+20/01/16_16:09:42: Client bot created
+20/01/16_16:09:42: Starting client... 
+20/01/16_16:09:42: Client started.
+20/01/16_16:09:42: Sending registration message... 
+20/01/16_16:09:42: HELLO bot
+20/01/16_16:09:42: Registration message send.
+20/01/16_16:09:42: Welcome message received.
+
+20/01/16_16:09:42: Players participating: [Player 1: bot, Player 2: bot]
+
+20/01/16_16:09:42: Waiting for welcome message... 
+20/01/16_16:09:42: AITime: 999999
+
+20/01/16_16:09:43: u[2JXXX 90  91  92  93  94  
+90  .   .   .   .   .   
+
+91  .   [37mA[0m   [37mC[0m   [37mE[0m   .   
+
+92  .   .   .   .   .   
+
+
+Hand: []
+Tiles in pool: 99
+
+20/01/16_16:09:43: bot's score is: 0
+20/01/16_16:09:43: bot's score is: 3
+20/01/16_16:09:43: Tiles in pool: 93
+
+20/01/16_16:09:43: It is now bot's turn.
+
+20/01/16_16:09:45: u[2JXXX 89  90  91  92  93  94  
+90  .   .   .   .   .   .   
+
+91  .   .   [37mA[0m   [37mC[0m   [37mE[0m   .   
+
+92  .   [31mF[0m   [31mA[0m   .   .   .   
+
+93  .   .   .   .   .   .   
+
+
+Hand: [1: [36mB[0m, 2: [32mB[0m, 3: [33mC[0m, 4: [32mD[0m, 5: [37mF[0m, 6: [33mE[0m]
+Tiles in pool: 91
+
+20/01/16_16:09:45: bot's score is: 4
+20/01/16_16:09:45: bot's score is: 3
+20/01/16_16:09:45: 
+bot just made the following move: [[Ro, 92, 91], [R*, 92, 90]]
+
+20/01/16_16:09:45: u[2JXXX 89  90  91  92  93  94  
+90  .   .   .   .   .   .   
+
+91  .   .   [37mA[0m   [37mC[0m   [37mE[0m   .   
+
+92  .   [31mF[0m   [31mA[0m   .   .   .   
+
+93  .   .   .   .   .   .   
+
+
+Hand: [1: [36mB[0m, 2: [32mB[0m, 3: [33mC[0m, 4: [32mD[0m, 5: [37mF[0m, 6: [33mE[0m]
+Tiles in pool: 91
+
+20/01/16_16:09:45: bot's score is: 4
+20/01/16_16:09:45: bot's score is: 3
+20/01/16_16:09:45: 
+It is your turn!
+20/01/16_16:09:45: 
+What is your action?
+20/01/16_16:09:45: u[2JXXX 89  90  91  92  93  94  
+90  .   .   .   .   .   .   
+
+91  .   [37mF[0m   [37mA[0m   [37mC[0m   [37mE[0m   .   
+
+92  .   [31mF[0m   [31mA[0m   .   .   .   
+
+93  .   .   .   .   .   .   
+
+
+Hand: [1: [36mB[0m, 2: [32mB[0m, 3: [33mC[0m, 4: [32mD[0m, 5: [33mE[0m]
+Tiles in pool: 91
+
+20/01/16_16:09:45: bot's score is: 4
+20/01/16_16:09:45: bot's score is: 3
+20/01/16_16:09:45: 
+What is your action?
+20/01/16_16:09:45: u[2JXXX 89  90  91  92  93  94  
+90  .   .   .   .   .   .   
+
+91  .   [37mF[0m   [37mA[0m   [37mC[0m   [37mE[0m   .   
+
+92  .   [31mF[0m   [31mA[0m   .   .   .   
+
+93  .   .   .   .   .   .   
+
+
+Hand: [1: [36mB[0m, 2: [32mB[0m, 3: [33mC[0m, 4: [32mD[0m, 5: [33mE[0m]
+Tiles in pool: 91
+
+20/01/16_16:09:45: bot's score is: 4
+20/01/16_16:09:45: bot's score is: 3
+20/01/16_16:09:45: MOVE B* 91 90 
+20/01/16_16:09:46: Tiles in pool: 90
+
+20/01/16_16:09:46: It is now bot's turn.
+
