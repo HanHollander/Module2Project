@@ -3,17 +3,12 @@ package client;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.net.InetAddress;
 import java.net.Socket;
-import java.net.UnknownHostException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.locks.Condition;
 
 import exceptions.HandIsFullException;
 import exceptions.InvalidCommandException;
@@ -183,7 +178,8 @@ public class Client extends Thread {
       if (playerNumber != game.getPlayer().getPlayerNumber()) {
         game.opponentTurn(moves, game.getPlayerWithNumber(playerNumber));
         if (!(command.length == 3)) {
-          Printer.print("\n" + getPlayerName(playerNumber) + " just made the following move: " + moves  + "\n");
+          Printer.print("\n" + getPlayerName(playerNumber) 
+              + " just made the following move: " + moves  + "\n");
         }
       } else if (firstTurn) {
         game.opponentTurn(moves, game.getPlayerWithNumber(playerNumber));
@@ -258,7 +254,7 @@ public class Client extends Thread {
         game.setPlayer(player);
       } else if (game.getPlayerType().equals("b")) {
         //If player type is AI, creat a new computer player.
-        Player player = new ComputerPlayer(command[1], playerNumber, new NaiveStrategy());
+        Player player = new ComputerPlayer(command[1], playerNumber, new SmartStrategy());
         game.setPlayer(player);
       }
       Printer.print("Welcome message received." + "\n");
