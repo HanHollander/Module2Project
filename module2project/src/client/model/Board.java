@@ -216,11 +216,11 @@ public class Board {
    * @param move The move that needs to be checked.
    * @return True or false whether the move is a correct move or not.
    */
-  public Boolean checkMove(Move move) {
-    Boolean gotVerticalRow;
-    Boolean gotHorizontalRow;
+  public boolean checkMove(Move move) {
+    boolean gotVerticalRow;
+    boolean gotHorizontalRow;
     String empty = ". ";
-    Boolean result = true;
+    boolean result = true;
     // Check if the destination of the move is empty on the board
     if (getTile(move.getRow(), move.getColumn()).toString().equals(empty)) {
       // Check if the current move and the moves made this turn are in the same row
@@ -248,7 +248,7 @@ public class Board {
             adjesentHorizontalTilesColors.add(getTile(row, column).getColor());
             column--;
           }
-          Boolean shapesAreTheSame = true;
+          boolean shapesAreTheSame = true;
           String templateShape = move.getTile().getShape();
           for (String shape : adjesentHorizontalTilesShapes) {
             shapesAreTheSame = shapesAreTheSame && shape.equals(templateShape);
@@ -256,7 +256,7 @@ public class Board {
           shapesAreTheSame = shapesAreTheSame 
               && !adjesentHorizontalTilesColors.contains(move.getTile().getColor());
           
-          Boolean colorsAreTheSame = true;
+          boolean colorsAreTheSame = true;
           String templateColor = move.getTile().getColor();
           for (String color : adjesentHorizontalTilesColors) {
             colorsAreTheSame = colorsAreTheSame && color.equals(templateColor);
@@ -288,7 +288,7 @@ public class Board {
             adjesentVerticalTilesColors.add(getTile(row, column).getColor());
             row--;
           }
-          Boolean shapesAreTheSame = true;
+          boolean shapesAreTheSame = true;
           String templateShape = move.getTile().getShape();
           for (String shape : adjesentVerticalTilesShapes) {
             shapesAreTheSame = shapesAreTheSame && shape.equals(templateShape);
@@ -296,7 +296,7 @@ public class Board {
           shapesAreTheSame = shapesAreTheSame 
               && !adjesentVerticalTilesColors.contains(move.getTile().getColor());
           
-          Boolean colorsAreTheSame = true;
+          boolean colorsAreTheSame = true;
           String templateColor = move.getTile().getColor();
           for (String color : adjesentVerticalTilesColors) {
             colorsAreTheSame = colorsAreTheSame && color.equals(templateColor);
@@ -331,10 +331,10 @@ public class Board {
    * @param move The move that is added this turn.
    * @return True or False whether the moves line up or not.
    */
-  public Boolean currentMovesLineUp(Move move) {
-    Boolean result = false;
+  public boolean currentMovesLineUp(Move move) {
+    boolean result = false;
     if (!currentLocalTurn.isEmpty()) {
-      Boolean horizontalLineUp = true;
+      boolean horizontalLineUp = true;
       Move previousMove = move;
       int lowestColumn = move.getColumn();
       int highestColumn = move.getColumn();
@@ -351,7 +351,7 @@ public class Board {
       if (horizontalLineUp) {
         result = highestColumn - lowestColumn == currentLocalTurn.size();
       } else {
-        Boolean verticalLineUp = true;
+        boolean verticalLineUp = true;
         previousMove = move;
         int lowestRow = move.getRow();
         int highestRow = move.getRow();
@@ -386,8 +386,8 @@ public class Board {
     int verticalResult = 0;
     int horizontalResult = 0;
     for (Move move : currentLocalTurn) {
-      Boolean gotVerticalRow;
-      Boolean gotHorizontalRow;
+      boolean gotVerticalRow;
+      boolean gotHorizontalRow;
       // Check in which directions the move makes rows.
       gotVerticalRow = !getTile(move.getRow() - 1, move.getColumn()).toString().equals(empty) 
           || !getTile(move.getRow() + 1, move.getColumn()).toString().equals(empty);
@@ -435,7 +435,7 @@ public class Board {
         horizontalResult = 1;
       }
     }
-    Boolean horizontalLineUp = true;
+    boolean horizontalLineUp = true;
     Move previousMove = currentLocalTurn.get(0);
     for (Move doneMove : currentLocalTurn) {
       horizontalLineUp = horizontalLineUp && previousMove.getRow() == doneMove.getRow();

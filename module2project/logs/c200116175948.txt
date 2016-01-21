@@ -1,0 +1,93 @@
+20/01/16_17:59:48: 
+Checking host... 
+20/01/16_17:59:48: Host accepted.
+20/01/16_17:59:48: Checking port... 
+20/01/16_17:59:48: Port accepted.
+20/01/16_17:59:48: Creating client... 
+20/01/16_17:59:49: Client human created
+20/01/16_17:59:49: Starting client... 
+20/01/16_17:59:49: Client started.
+20/01/16_17:59:49: Sending registration message... 
+20/01/16_17:59:49: HELLO human
+20/01/16_17:59:49: Registration message send.
+20/01/16_17:59:49: Welcome message received.
+
+20/01/16_17:59:49: Waiting for welcome message... 
+20/01/16_17:59:49: Players participating: [Player 1: human, Player 2: human]
+
+20/01/16_17:59:49: AITime: 999999
+
+20/01/16_17:59:49: u[2JXXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+
+91  .   [35mA[0m   [37mA[0m   [36mA[0m   [31mA[0m   .   
+
+92  .   .   .   .   .   .   
+
+
+Hand: []
+Tiles in pool: 98
+
+20/01/16_17:59:49: human's score is: 0
+20/01/16_17:59:49: human's score is: 4
+20/01/16_17:59:49: 
+human just made the following move: [[Po, 91, 91], [Bo, 91, 92], [Yo, 91, 93], [Ro, 91, 94]]
+
+20/01/16_17:59:49: Tiles in pool: 92
+
+20/01/16_17:59:49: u[2JXXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+
+91  .   [35mA[0m   [37mA[0m   [36mA[0m   [31mA[0m   .   
+
+92  .   .   .   .   .   .   
+
+
+Hand: [1: [36mD[0m, 2: [33mD[0m, 3: [32mC[0m, 4: [32mB[0m, 5: [37mB[0m, 6: [33mE[0m]
+Tiles in pool: 92
+
+20/01/16_17:59:49: human's score is: 0
+20/01/16_17:59:49: human's score is: 4
+20/01/16_17:59:49: 
+Hint: [[37mB[0m, 92, 92]
+20/01/16_17:59:49: 
+It is your turn!
+20/01/16_17:59:49: 
+What is your action?
+20/01/16_17:59:49: Type of turn: ANY
+20/01/16_18:00:10: u[2JXXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+
+91  .   [35mA[0m   [37mA[0m   [36mA[0m   [31mA[0m   .   
+
+92  .   .   [37mB[0m   .   .   .   
+
+93  .   .   .   .   .   .   
+
+
+Hand: [1: [36mD[0m, 2: [33mD[0m, 3: [32mC[0m, 4: [32mB[0m, 5: [33mE[0m]
+Tiles in pool: 92
+
+20/01/16_18:00:10: human's score is: 0
+20/01/16_18:00:10: human's score is: 4
+20/01/16_18:00:10: 
+What is your action?
+20/01/16_18:00:10: Type of turn: MOVE
+20/01/16_18:00:12: u[2JXXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+
+91  .   [35mA[0m   [37mA[0m   [36mA[0m   [31mA[0m   .   
+
+92  .   .   [37mB[0m   .   .   .   
+
+93  .   .   .   .   .   .   
+
+
+Hand: [1: [36mD[0m, 2: [33mD[0m, 3: [32mC[0m, 4: [32mB[0m, 5: [33mE[0m]
+Tiles in pool: 92
+
+20/01/16_18:00:12: human's score is: 0
+20/01/16_18:00:12: human's score is: 4
+20/01/16_18:00:12: MOVE Bd 92 92 
+20/01/16_18:00:12: Lost connection. (Maybe you were kicked...?)
+20/01/16_18:00:12: Disconnected from server. Will now exit.

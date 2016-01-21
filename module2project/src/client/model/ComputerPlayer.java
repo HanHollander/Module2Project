@@ -19,11 +19,15 @@ public class ComputerPlayer extends Player {
     this.strategy = strategy;
   }
 
+  /**
+   * Determines the next move the player is going to make.
+   * @param board the board.
+   * @return the move.
+   */
+  //@ensures board.checkMove(\result);
   public Move determineMove(Board board) throws InvalidMoveException {
     Move result = null;
-    System.out.println("detmov");
     if (!isMadeMove()) {      
-      System.out.println("mov mov");
       result = strategy.determineMove(board, getHand(), this);
       try {
         removeFromHand(result.getTile());
@@ -32,7 +36,6 @@ public class ComputerPlayer extends Player {
       }
       getMoves().add(result);
     } else if (isMadeMove()) {
-      System.out.println("end mov");
       result = new Move();
       setMadeMove(false);
     } 
