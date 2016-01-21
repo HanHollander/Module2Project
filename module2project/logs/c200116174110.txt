@@ -1,0 +1,54 @@
+20/01/16_17:41:10: 
+Checking host... 
+20/01/16_17:41:10: Host accepted.
+20/01/16_17:41:10: Checking port... 
+20/01/16_17:41:10: Port accepted.
+20/01/16_17:41:10: Creating client... 
+20/01/16_17:41:10: Client human created
+20/01/16_17:41:10: Starting client... 
+20/01/16_17:41:10: Client started.
+20/01/16_17:41:10: Sending registration message... 
+20/01/16_17:41:10: HELLO human
+20/01/16_17:41:10: Registration message send.
+20/01/16_17:41:10: Waiting for welcome message... 
+20/01/16_17:41:10: Welcome message received.
+
+20/01/16_17:41:10: Players participating: [Player 1: human, Player 2: human]
+
+20/01/16_17:41:10: AITime: 999999
+
+20/01/16_17:41:11: u[2JXXX 90  91  92  93  94  
+90  .   .   .   .   .   
+
+91  .   [35mE[0m   [35mC[0m   [35mD[0m   .   
+
+92  .   .   .   .   .   
+
+
+Hand: []
+Tiles in pool: 99
+
+20/01/16_17:41:11: human's score is: 3
+20/01/16_17:41:11: human's score is: 0
+20/01/16_17:41:11: 
+human just made the following move: [[Px, 91, 91], [Ps, 91, 92],20/01/16_17:41:13: ÏOException while reading from socket.
+01/16_17:41:11: u[2JXXX 90  91  92  93  94  
+90  .   .   .   .   .   
+
+91  .   [35mE[0m   [35mC[0m   [35mD[0m   .   
+
+92  .   .   .   .   .   
+
+
+Hand: [1: [36mF[0m, 2: [36mA[0m, 3: [37mF[0m, 4: [36mC[0m, 5: [31mD[0m, 6: [33mB[0m]
+Tiles in pool: 93
+
+20/01/16_17:41:11: human's score is: 3
+20/01/16_17:41:11: human's score is: 0
+20/01/16_17:41:11: 
+Hint: [[31mD[0m, 92, 93]
+20/01/16_17:41:11: 
+It is your turn!
+20/01/16_17:41:11: 
+What is your action?
+20/01/16_17:41:11: Type of turn: ANY

@@ -72,6 +72,12 @@ public class NaiveStrategy implements Strategy {
         }
       }
     }
+    if (result.size() == 0) {
+      List<Integer> add = new ArrayList<>();
+      add.add(91);
+      add.add(91);
+      result.add(add);
+    }
     return result;
   }
 

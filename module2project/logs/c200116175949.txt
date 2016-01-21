@@ -1,0 +1,37 @@
+20/01/16_17:59:49: 
+Checking host... 
+20/01/16_17:59:49: Host accepted.
+20/01/16_17:59:49: Checking port... 
+20/01/16_17:59:49: Port accepted.
+20/01/16_17:59:49: Creating client... 
+20/01/16_17:59:49: Client human created
+20/01/16_17:59:49: Starting client... 
+20/01/16_17:59:49: Client started.
+20/01/16_17:59:49: Sending registration message... 
+20/01/16_17:59:49: HELLO human
+20/01/16_17:59:49: Welcome message received.
+
+20/01/16_17:59:49: Registration message send.
+20/01/16_17:59:49: Waiting for welcome message... 
+20/01/16_17:59:49: Players participating: [Player 1: human, Player 2: human]
+
+20/01/16_17:59:49: AITime: 999999
+
+20/01/16_17:59:50: u[2JXXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+
+91  .   [35mA[0m   [37mA[0m   [36mA[0m   [31mA[0m   .   
+
+92  .   .   .   .   .   .   
+
+
+Hand: []
+Tiles in pool: 98
+
+20/01/16_17:59:50: human's score is: 0
+20/01/16_17:59:50: human's score is: 4
+20/01/16_17:59:50: Tiles in pool: 92
+
+20/01/16_17:59:50: It is now human's turn.
+
+20/01/16_17:59:51: Disconnected from server. Will now exit.

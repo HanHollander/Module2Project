@@ -78,7 +78,7 @@ public class Client extends Thread {
         }
       }
     } catch (IOException e) {
-      Printer.print("ÏOException while reading from socket.");
+      Printer.print("Disconnected from server. Will now exit.");
     } catch (InvalidCommandException e) {
       Printer.print(e);
     }
