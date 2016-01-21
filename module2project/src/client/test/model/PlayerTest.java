@@ -23,7 +23,7 @@ public class PlayerTest {
   
   @Before
   public void setUp() throws Exception {
-    p = new HumanPlayer("p", 1);
+    p = new HumanPlayer("p", 1, null);
   }
 
   @Test

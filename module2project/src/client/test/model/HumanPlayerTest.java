@@ -7,6 +7,7 @@ import java.io.BufferedWriter;
 import org.junit.Before;
 import org.junit.Test;
 
+import client.controller.Game;
 import client.model.Board;
 import client.model.HumanPlayer;
 import client.model.Move;
@@ -21,10 +22,11 @@ public class HumanPlayerTest {
   private HumanPlayer p;
   private Board b;
   private boolean valid;
+  private Game g;
   
   @Before
   public void setUp() throws Exception {
-    p = new HumanPlayer("p", 1);
+    p = new HumanPlayer("p", 1, g);
     p.addToHand(new Tile("S", "o"));
     p.addToHand(new Tile("B", "o"));
     p.addToHand(new Tile("Y", "o"));
