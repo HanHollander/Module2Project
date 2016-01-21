@@ -78,7 +78,7 @@ public class Client extends Thread {
         }
       }
     } catch (IOException e) {
-      Printer.print("Disconnected from server. Will now exit.");
+      Printer.print("Previous game will now exit.");
     } catch (InvalidCommandException e) {
       Printer.print(e);
     }
@@ -280,14 +280,15 @@ public class Client extends Thread {
       }
       //If player type is human, create a new human player.
       if (game.getPlayerType().equals("h")) {
-        Player player = new HumanPlayer(command[1], playerNumber);
+        Player player = new HumanPlayer(command[1], playerNumber, game);
         game.setPlayer(player);
       } else if (game.getPlayerType().equals("b")) {
         //If player type is AI, creat a new computer player.
         Player player = new ComputerPlayer(command[1], playerNumber, new SmartStrategy());
         game.setPlayer(player);
       }
-      Printer.print("Welcome message received." + "\n");
+      Printer.print("Welcome message received.");
+      Printer.print("Waiting for other players to connect...");
     }
   }
 
@@ -328,7 +329,6 @@ public class Client extends Thread {
    */
   public void sendMessage(String msg) {
     try {
-      Printer.print(msg);
       out.write(msg);
       out.newLine();
       out.flush();
@@ -342,7 +342,7 @@ public class Client extends Thread {
    * Close the socket connection.
    */
   public void shutdown() {
-    Printer.print("Closing socket connection...");
+    Printer.print("Closing socket connection from previous game...");
     try {
       sock.close();
     } catch (IOException e) {

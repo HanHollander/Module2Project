@@ -118,7 +118,9 @@ public class Game {
     for (Move move : moves) {
       //Place all the moves on the board.
       board.putTile(move);
-      setPool(getPool() - 1);
+      if (getPool() > 0) {
+        setPool(getPool() - 1);
+      }
     }
     //Get score
     int score = 0;

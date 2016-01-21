@@ -1,0 +1,238 @@
+21/01/16_20:40:22: 
+Checking host... 
+21/01/16_20:40:22: Host accepted.
+21/01/16_20:40:22: Checking port... 
+21/01/16_20:40:22: Port accepted.
+21/01/16_20:40:22: Creating client... 
+21/01/16_20:40:22: Client bot created
+21/01/16_20:40:22: Starting client... 
+21/01/16_20:40:22: Client started.
+21/01/16_20:40:22: Sending registration message... 
+21/01/16_20:40:22: HELLO bot
+21/01/16_20:40:22: Welcome message received.
+
+21/01/16_20:40:22: Registration message send.
+21/01/16_20:40:22: Players participating: [Player 1: bot, Player 2: bot]
+
+21/01/16_20:40:22: Waiting for welcome message... 
+21/01/16_20:40:22: AITime: 999999
+
+21/01/16_20:40:23: u[2JXXX 90  91  92  93  94  
+90  .   .   .   .   .   
+
+91  .   [32mD[0m   [32mE[0m   [32mF[0m   .   
+
+92  .   .   .   .   .   
+
+
+Hand: []
+Tiles in pool: 99
+
+21/01/16_20:40:23: bot's score is: 3
+21/01/16_20:40:23: bot's score is: 0
+21/01/16_20:40:23: 
+bot just made the following move: [[Gc, 91, 91], [Gx, 91, 92], [G*, 91, 93]]
+
+21/01/16_20:40:23: Tiles in pool: 93
+
+21/01/16_20:40:23: u[2JXXX 90  91  92  93  94  
+90  .   .   .   .   .   
+
+91  .   [32mD[0m   [32mE[0m   [32mF[0m   .   
+
+92  .   .   .   .   .   
+
+
+Hand: [1: [36mE[0m, 2: [32mB[0m, 3: [37mB[0m, 4: [31mB[0m, 5: [33mF[0m, 6: [35mA[0m]
+Tiles in pool: 93
+
+21/01/16_20:40:23: bot's score is: 3
+21/01/16_20:40:23: bot's score is: 0
+21/01/16_20:40:23: 
+It is your turn!
+21/01/16_20:40:23: 
+What is your action?
+21/01/16_20:40:23: u[2JXXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+
+91  .   [32mD[0m   [32mE[0m   [32mF[0m   [32mB[0m   .   
+
+92  .   .   .   .   .   .   
+
+
+Hand: [1: [36mE[0m, 2: [37mB[0m, 3: [31mB[0m, 4: [33mF[0m, 5: [35mA[0m]
+Tiles in pool: 93
+
+21/01/16_20:40:23: bot's score is: 3
+21/01/16_20:40:23: bot's score is: 0
+21/01/16_20:40:23: 
+What is your action?
+21/01/16_20:40:23: u[2JXXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+
+91  .   [32mD[0m   [32mE[0m   [32mF[0m   [32mB[0m   .   
+
+92  .   .   .   .   [37mB[0m   .   
+
+93  .   .   .   .   .   .   
+
+
+Hand: [1: [36mE[0m, 2: [31mB[0m, 3: [33mF[0m, 4: [35mA[0m]
+Tiles in pool: 93
+
+21/01/16_20:40:23: bot's score is: 3
+21/01/16_20:40:23: bot's score is: 0
+21/01/16_20:40:23: 
+What is your action?
+21/01/16_20:40:23: u[2JXXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+
+91  .   [32mD[0m   [32mE[0m   [32mF[0m   [32mB[0m   .   
+
+92  .   .   .   .   [37mB[0m   .   
+
+93  .   .   .   .   [31mB[0m   .   
+
+94  .   .   .   .   .   .   
+
+
+Hand: [1: [36mE[0m, 2: [33mF[0m, 3: [35mA[0m]
+Tiles in pool: 93
+
+21/01/16_20:40:23: bot's score is: 3
+21/01/16_20:40:23: bot's score is: 0
+21/01/16_20:40:23: 
+What is your action?
+21/01/16_20:40:23: u[2JXXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+
+91  .   [32mD[0m   [32mE[0m   [32mF[0m   [32mB[0m   .   
+
+92  .   .   .   .   [37mB[0m   .   
+
+93  .   .   .   .   [31mB[0m   .   
+
+94  .   .   .   .   .   .   
+
+
+Hand: [1: [36mE[0m, 2: [33mF[0m, 3: [35mA[0m]
+Tiles in pool: 93
+
+21/01/16_20:40:23: bot's score is: 3
+21/01/16_20:40:23: bot's score is: 0
+21/01/16_20:40:23: MOVE Gd 91 94 Bd 92 94 Rd 93 94 
+21/01/16_20:40:23: Tiles in pool: 90
+
+21/01/16_20:40:23: It is now bot's turn.
+
+21/01/16_20:40:24: u[2JXXX 90  91  92  93  94  95  
+90  .   .   .   .   .   .   
+
+91  .   [32mD[0m   [32mE[0m   [32mF[0m   [32mB[0m   .   
+
+92  .   .   .   .   [37mB[0m   .   
+
+93  .   .   .   .   [31mB[0m   .   
+
+94  .   .   .   .   .   .   
+
+
+Hand: [1: [36mE[0m, 2: [33mF[0m, 3: [35mA[0m, 4: [31mE[0m, 5: [31mC[0m, 6: [33mA[0m]
+Tiles in pool: 90
+
+21/01/16_20:40:24: bot's score is: 3
+21/01/16_20:40:24: bot's score is: 7
+21/01/16_20:40:24: 
+It is your turn!
+21/01/16_20:40:24: 
+What is your action?
+21/01/16_20:40:24: u[2JXXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+
+91  .   [32mD[0m   [32mE[0m   [32mF[0m   [32mB[0m   .   .   
+
+92  .   .   .   .   [37mB[0m   .   .   
+
+93  .   .   .   .   [31mB[0m   [31mE[0m   .   
+
+94  .   .   .   .   .   .   .   
+
+
+Hand: [1: [36mE[0m, 2: [33mF[0m, 3: [35mA[0m, 4: [31mC[0m, 5: [33mA[0m]
+Tiles in pool: 90
+
+21/01/16_20:40:24: bot's score is: 3
+21/01/16_20:40:24: bot's score is: 7
+21/01/16_20:40:24: 
+What is your action?
+21/01/16_20:40:24: u[2JXXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+
+91  .   [32mD[0m   [32mE[0m   [32mF[0m   [32mB[0m   .   .   
+
+92  .   .   .   .   [37mB[0m   .   .   
+
+93  .   .   .   .   [31mB[0m   [31mE[0m   .   
+
+94  .   .   .   .   .   [31mC[0m   .   
+
+95  .   .   .   .   .   .   .   
+
+
+Hand: [1: [36mE[0m, 2: [33mF[0m, 3: [35mA[0m, 4: [33mA[0m]
+Tiles in pool: 90
+
+21/01/16_20:40:24: bot's score is: 3
+21/01/16_20:40:24: bot's score is: 7
+21/01/16_20:40:24: 
+What is your action?
+21/01/16_20:40:24: u[2JXXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+
+91  .   [32mD[0m   [32mE[0m   [32mF[0m   [32mB[0m   .   .   
+
+92  .   .   .   .   [37mB[0m   .   .   
+
+93  .   .   .   .   [31mB[0m   [31mE[0m   .   
+
+94  .   .   .   .   .   [31mC[0m   .   
+
+95  .   .   .   .   .   .   .   
+
+
+Hand: [1: [36mE[0m, 2: [33mF[0m, 3: [35mA[0m, 4: [33mA[0m]
+Tiles in pool: 90
+
+21/01/16_20:40:24: bot's score is: 3
+21/01/16_20:40:24: bot's score is: 7
+21/01/16_20:40:24: MOVE Rx 93 95 Rs 94 95 
+21/01/16_20:40:24: Tiles in pool: 88
+
+21/01/16_20:40:25: It is now bot's turn.
+
+21/01/16_20:40:25: Tiles in pool: 94
+
+21/01/16_20:40:25: bot IS KICKED FOR THE FOLLOWING REASON: made an invalid turn
+
+21/01/16_20:40:25: u[2JXXX 90  91  92  93  94  95  96  
+90  .   .   .   .   .   .   .   
+
+91  .   [32mD[0m   [32mE[0m   [32mF[0m   [32mB[0m   .   .   
+
+92  .   .   .   .   [37mB[0m   .   .   
+
+93  .   .   .   .   [31mB[0m   [31mE[0m   .   
+
+94  .   .   .   .   .   [31mC[0m   .   
+
+95  .   .   .   .   .   .   .   
+
+
+Hand: [1: [36mE[0m, 2: [33mF[0m, 3: [35mA[0m, 4: [33mA[0m, 5: [35mD[0m, 6: [36mF[0m]
+Tiles in pool: 94
+
+21/01/16_20:40:25: bot's score is: 3
+21/01/16_20:40:25: bot's score is: 11
+21/01/16_20:40:25: The winner is... bot!
+
+21/01/16_20:40:25: Would you like to play another game? Y/N
