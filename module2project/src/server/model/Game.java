@@ -223,18 +223,27 @@ public class Game extends Observable{
         }
       }
     }
-    System.out.println("Player-" + getPlayerNrWithTheBestHand() + " started");
+    setCurrentPlayer(getPlayerNrWithTheBestHand());
     for (int playerNr : playerNrs) {
       server.getThread(playerNr).sendMessage("NEW" + getPlayer(playerNr).handToString());
     }
   }
 
+  /**
+   * Creates a new player and adds it to the playerList.
+   * @param playerNr The player number of the new player.
+   * @param name The name of the new player.
+   */
   public synchronized void addPlayer(int playerNr, String name) {
     synchronized (playerList) {
       playerList.put(playerNr, new Player(name, playerNr));
     }
   }
   
+  /**
+   * Removes the player with the given playerNr from the playerList.
+   * @param playerNr The number of the player that needs to be removed.
+   */
   public void removePlayer(int playerNr) {
     synchronized (playerList) {
       playerList.remove(playerNr);
