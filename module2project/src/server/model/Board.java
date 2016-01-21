@@ -76,9 +76,11 @@ public class Board {
    * @param move The move that needs to be undone.
    */
   public void undoMove(Move move) {
-    Move emptyMove = new Move(new Tile(), move.getRow(), move.getColumn());
-    if (!getTile(move.getRow(), move.getColumn()).toString().equals(emptyMove.toString())) {
-      putTile(emptyMove);
+    Tile empty = new Tile();
+    int row = move.getRow();
+    int column = move.getColumn();
+    if (!getTile(move.getRow(), move.getColumn()).equals(empty)) {
+      boardMatrix.get(row).set(column, empty);
     }
   }
   
@@ -169,10 +171,12 @@ public class Board {
       result.get(1).add(90);
       result.get(1).add(92);
     }
-    result.get(0).add(rowMin);
-    result.get(0).add(rowMax);
-    result.get(1).add(columnMin);
-    result.get(1).add(columnMax);
+    if (result.size() == 0) {
+      result.get(0).add(rowMin);
+      result.get(0).add(rowMax);
+      result.get(1).add(columnMin);
+      result.get(1).add(columnMax);
+    }
 
     
     return result;
@@ -481,5 +485,26 @@ public class Board {
     }
     
     return horizontalResult + verticalResult;
+  }
+  
+  /**
+   * Checks if this board is the same as the given board.
+   * @param board That needs to be compared.
+   * @return True or False whether the boards are equal or not.
+   */
+  public boolean equals(Board board) {
+    boolean result = true;
+    for (int row = 0; row < 183; row++) {
+      for (int column = 0; column < 183; column++) {
+        if (!boardMatrix.get(row).get(column).equals(board.getTile(row, column))) {
+          result = false;
+          break;
+        }
+      }
+      if (!result) {
+        break;
+      }
+    }
+    return result;
   }
 }

@@ -134,15 +134,15 @@ public class ClientHandler extends Thread {
           shutdown();
         }
       }
-    }
-    if (!server.isReady()) {
-      synchronized (listener) {
-        try {
-          listener.wait();
-          wait(100);
-        } catch (InterruptedException e) {
-          tui.print("ClientHandler-" + playerNr 
-              + " got interupted while waiting for the server to get ready.");
+      while (!server.isReady()) {
+        synchronized (listener) {
+          try {
+            listener.wait();
+            wait(100);
+          } catch (InterruptedException e) {
+            tui.print("ClientHandler-" + playerNr 
+                + " got interupted while waiting for the server to get ready.");
+          }
         }
       }
       if (server.getGame().getCurrentPlayer() == playerNr) {
@@ -313,8 +313,7 @@ public class ClientHandler extends Thread {
       out.newLine();
       out.flush();
     } catch (IOException e) {
-      server.kick(playerNr, "lost connection");
-      shutdown();
+      tui.print("Could not send message: '" + msg + "' to player-" + playerNr);
     }
     tui.print("Send to player-" + playerNr + ": " +  msg);
   }
