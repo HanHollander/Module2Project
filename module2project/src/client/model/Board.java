@@ -34,16 +34,6 @@ public class Board {
   }
   
   /**
-   * Returns the Tile located at the given row and column.
-   * @param row A row number of the board.
-   * @param column A column number of the board.
-   * @return the Tile located at the given row and column.
-   */
-  public Tile getTile(int row, int column) {
-    return boardMatrix.get(row).get(column);
-  }
-  
-  /**
    * Ends the current turn by removing all the moves from
    * the array of moves of the current (now previous) turn.
    */
@@ -56,9 +46,11 @@ public class Board {
    * @param move The move that needs to be undone.
    */
   public void undoMove(Move move) {
-    Move emptyMove = new Move(new Tile(), move.getRow(), move.getColumn());
-    if (!getTile(move.getRow(), move.getColumn()).toString().equals(emptyMove.toString())) {
-      putTile(emptyMove);
+    Tile empty = new Tile();
+    int row = move.getRow();
+    int column = move.getColumn();
+    if (!getTile(move.getRow(), move.getColumn()).equals(empty)) {
+      boardMatrix.get(row).set(column, empty);
     }
   }
   
@@ -70,93 +62,6 @@ public class Board {
       undoMove(move);
     }
     currentLocalTurn = new ArrayList<Move>();
-  }
-  
-  /**
-   * Calculates the part of the board where there are tiles.
-   * @return A list with 2 tupels, in the first: the min and 
-   *         max row margin, in the second: the min and max 
-   *         column margin.
-   */
-  public ArrayList<ArrayList<Integer>> getMargins() {
-    ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>>();
-    result.add(new ArrayList<Integer>());
-    result.add(new ArrayList<Integer>());
-    // the result will be like [[rowMin, rowMax], [columnMin, columnMax]]
-    int row = 0;
-    int column = 0;
-    int rowMin = 0;
-    int rowMax = 0;
-    int columnMin = 0;
-    int columnMax = 0;
-    String empty = ". ";
-    
-    //Get the start row
-    while (row < 182 && boardMatrix.get(row).get(column).toString().equals(empty)) { 
-      if (column < 182) {
-        column++;
-      } else {
-        column = 0;
-        row++;
-      }
-    }
-    
-    rowMin = row - 1;
-    
-    row = 182;
-    column = 0;
-    //Get the end row
-    while (row > 0 && boardMatrix.get(row).get(column).toString().equals(empty)) { 
-      if (column > 0) {
-        column--;
-      } else {
-        column = 182;
-        row--;
-      }
-    }
-    rowMax = row + 1;
-    
-    // rowMin < rowMax == true when there are no tiles placed on the board.
-    if (rowMin < rowMax) {
-      row = 0;
-      column = 0;
-      //Get the start column
-      while (column < 182 && boardMatrix.get(row).get(column).toString().equals(empty)) { 
-        if (row < 182) {
-          row++;
-        } else {
-          row = 0;
-          column++;
-        }
-      }
-      columnMin = column - 1;
-      
-      row = 0;
-      column = 182;
-      //Get the end row
-      while (column > 0 && boardMatrix.get(row).get(column).toString().equals(empty)) { 
-        if (row > 0) {
-          row--;
-        } else {
-          row = 182;
-          column--;
-        }
-      }
-      columnMax = column + 1;
-    } else {
-      result.get(0).add(90);
-      result.get(0).add(92);
-      result.get(1).add(90);
-      result.get(1).add(92);
-    }
-    if (result.size() == 0) {
-      result.get(0).add(rowMin);
-      result.get(0).add(rowMax);
-      result.get(1).add(columnMin);
-      result.get(1).add(columnMax);
-    }
-    
-    return result;
   }
   
   /**
@@ -378,6 +283,103 @@ public class Board {
   }
   
   /**
+   * Returns the Tile located at the given row and column.
+   * @param row A row number of the board.
+   * @param column A column number of the board.
+   * @return the Tile located at the given row and column.
+   */
+  public Tile getTile(int row, int column) {
+    return boardMatrix.get(row).get(column);
+  }
+
+  /**
+   * Calculates the part of the board where there are tiles.
+   * @return A list with 2 tupels, in the first: the min and 
+   *         max row margin, in the second: the min and max 
+   *         column margin.
+   */
+  public ArrayList<ArrayList<Integer>> getMargins() {
+    ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>>();
+    result.add(new ArrayList<Integer>());
+    result.add(new ArrayList<Integer>());
+    // the result will be like [[rowMin, rowMax], [columnMin, columnMax]]
+    int row = 0;
+    int column = 0;
+    int rowMin = 0;
+    int rowMax = 0;
+    int columnMin = 0;
+    int columnMax = 0;
+    String empty = ". ";
+    
+    //Get the start row
+    while (row < 182 && boardMatrix.get(row).get(column).toString().equals(empty)) { 
+      if (column < 182) {
+        column++;
+      } else {
+        column = 0;
+        row++;
+      }
+    }
+    
+    rowMin = row - 1;
+    
+    row = 182;
+    column = 0;
+    //Get the end row
+    while (row > 0 && boardMatrix.get(row).get(column).toString().equals(empty)) { 
+      if (column > 0) {
+        column--;
+      } else {
+        column = 182;
+        row--;
+      }
+    }
+    rowMax = row + 1;
+    
+    // rowMin < rowMax == true when there are no tiles placed on the board.
+    if (rowMin < rowMax) {
+      row = 0;
+      column = 0;
+      //Get the start column
+      while (column < 182 && boardMatrix.get(row).get(column).toString().equals(empty)) { 
+        if (row < 182) {
+          row++;
+        } else {
+          row = 0;
+          column++;
+        }
+      }
+      columnMin = column - 1;
+      
+      row = 0;
+      column = 182;
+      //Get the end row
+      while (column > 0 && boardMatrix.get(row).get(column).toString().equals(empty)) { 
+        if (row > 0) {
+          row--;
+        } else {
+          row = 182;
+          column--;
+        }
+      }
+      columnMax = column + 1;
+    } else {
+      result.get(0).add(90);
+      result.get(0).add(92);
+      result.get(1).add(90);
+      result.get(1).add(92);
+    }
+    if (result.get(0).size() == 0) {
+      result.get(0).add(rowMin);
+      result.get(0).add(rowMax);
+      result.get(1).add(columnMin);
+      result.get(1).add(columnMax);
+    }
+    
+    return result;
+  }
+
+  /**
    * Calculates the amount of points that are earned with
    * the current turn.
    * @return The calculated the amount of points that are 
@@ -466,5 +468,26 @@ public class Board {
   
   public List<Move> getMoveList() {
     return currentLocalTurn;
+  }
+  
+  /**
+   * Checks if this board is the same as the given board.
+   * @param board That needs to be compared.
+   * @return True or False whether the boards are equal or not.
+   */
+  public boolean equals(Board board) {
+    boolean result = true;
+    for (int row = 0; row < 183; row++) {
+      for (int column = 0; column < 183; column++) {
+        if (!boardMatrix.get(row).get(column).equals(board.getTile(row, column))) {
+          result = false;
+          break;
+        }
+      }
+      if (!result) {
+        break;
+      }
+    }
+    return result;
   }
 }
