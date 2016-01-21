@@ -54,7 +54,7 @@ public class ClientHandler extends Thread {
   /**
    * Reads the in of the socket and handles the input according to the protocol.
    */
-  public void run() {
+  public synchronized void run() {
     String text = "";
     // Starting procedure
     // Here the client handler expects to receive: "HELLO <name>"
