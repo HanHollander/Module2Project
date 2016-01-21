@@ -1,4 +1,4 @@
-package client.test.controller;
+package client.test.model;
 
 import static org.junit.Assert.*;
 
@@ -9,6 +9,7 @@ import client.model.Player;
 import client.model.Board;
 import client.model.ComputerPlayer;
 import client.model.Move;
+import client.model.Move.Type;
 import client.model.NaiveStrategy;
 import client.model.SmartStrategy;
 import client.model.Tile;
@@ -39,8 +40,11 @@ public class ComputerPlayerTest {
   public void testDetermineMove() throws InvalidMoveException {
     Move move1 = p1.determineMove(b);
     Move move2 = p2.determineMove(b);
-    assertTrue(b.checkMove(move1));
-    assertTrue(b.checkMove(move2));
+    assertTrue(b.checkMove(move1) && move1.getType().equals(Type.MOVE));
+    assertTrue(b.checkMove(move2) && move1.getType().equals(Type.MOVE));
+    
+    Move move3 = p1.determineMove(b);
+    assertTrue(move3.getType().equals(Type.END));
     
     
   }

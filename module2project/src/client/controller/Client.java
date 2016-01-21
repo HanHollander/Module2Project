@@ -36,7 +36,7 @@ public class Client extends Thread {
   private InetAddress host;
   private int port;
   
-  private boolean firstTurn = true;
+  private boolean firstTurn = true; 
   
 
   /**

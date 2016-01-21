@@ -26,6 +26,8 @@ public class HumanPlayer extends Player {
   
   public static final List<String> COLOURS = Arrays.asList("R", "O", "B", "Y", "G", "P");
   public static final List<String> SHAPES = Arrays.asList("o", "d", "s", "c", "x", "*");
+  
+  private Type listType;
 
   /**
    * Constructor for a human.
@@ -45,7 +47,6 @@ public class HumanPlayer extends Player {
     boolean validMove = false;
     Move move = null;
     while (!validMove) {
-      Type listType;
       if (getMoves().size() == 0) {
         listType = Type.ANY;
       } else {
@@ -185,6 +186,15 @@ public class HumanPlayer extends Player {
       } catch (IndexOutOfBoundsException e) {
         throw new InvalidCommandException(MOVEUSAGE);
       } 
+      String colour = tile.getColor();
+      String shape = tile.getShape();
+      if (COLOURS.contains(colour) && SHAPES.contains(shape)) { 
+        //Colour and shape must exist.
+        validInput = true;
+      } else { 
+        //Invalid colour and shape.
+        throw new InvalidCommandException("Colours: " + COLOURS + ", shapes: " + SHAPES);
+      }
     } else { 
       //Throw exception if command lenght is not four
       throw new InvalidCommandException(MOVEUSAGE);
@@ -246,6 +256,10 @@ public class HumanPlayer extends Player {
       throw new InvalidCommandException("Usage: END.");
     }
     return validInput;
+  }
+  
+  public Type getListType() {
+    return listType;
   }
   
 }

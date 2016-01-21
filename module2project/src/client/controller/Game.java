@@ -182,6 +182,9 @@ public class Game {
     board.endTurn();
   }
   
+  /**
+   * Print the scores.
+   */
   public void printScores() {
     for (Player player : playerList) {
       Printer.print(player.getName() + "'s score is: " + player.getScore());

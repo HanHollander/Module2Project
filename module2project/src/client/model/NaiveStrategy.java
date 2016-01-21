@@ -28,7 +28,7 @@ public class NaiveStrategy implements Strategy {
       }
     }
     if (result == null) {
-      result = new Move(hand.get(1));
+      result = new Move(hand.get(0));
     }
     player.setMadeMove(true);
     return result;
@@ -99,7 +99,7 @@ public class NaiveStrategy implements Strategy {
       }
     }
     if (result == null) {
-      result = new Move(hand.get(1));
+      result = new Move(hand.get(0));
     }
     return result;
   }

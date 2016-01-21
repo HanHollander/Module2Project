@@ -27,10 +27,6 @@ public abstract class Player {
     this.hand = new ArrayList<Tile>();
     this.setMoves(new ArrayList<Move>());
   }
-        
-  public Player() {
-    this.name = "hintGen";
-  }
 
   /**
    * Function that determines what move is played next.
