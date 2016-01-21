@@ -19,6 +19,9 @@ public class TUIView implements Observer {
     System.out.println("Game-" + server.getServerNr() + ": " + msg);
   }
   
+  /**
+   * Prints the board situation to System.out.
+   */
   public void update(Observable o, Object arg) {
     if (arg.equals("turn made")) {
       Game game = server.getGame();

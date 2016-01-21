@@ -1,6 +1,7 @@
 package client.model;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
@@ -54,7 +55,11 @@ public class SmartStrategy implements Strategy {
         }
       }
       thePerfectTurn = new ArrayList<Move>();
-      thePerfectTurn.addAll(bestTurn);
+      if (bestTurn.size() > 1) {
+        thePerfectTurn.addAll(bestTurn);
+      } else {
+        thePerfectTurn.addAll(getBestSwapTurn(hand));
+      }
       theMove = thePerfectTurn.get(0);
       thePerfectTurn.remove(0);
       if (thePerfectTurn.size() == 0) { 
@@ -70,6 +75,34 @@ public class SmartStrategy implements Strategy {
     return theMove;
   }
   
+  public List<Move> getBestSwapTurn(List<Tile> hand) {
+    // Check if you got tiles double in your hand
+    List<Tile> doubleTiles = new ArrayList<Tile>();
+    for (Tile tile : hand) {
+      List<Tile> testHand = new ArrayList<Tile>();
+      testHand.addAll(hand);
+      testHand.remove(tile);
+      for (Tile tile2 : testHand) {
+        if (tile.equals(tile2)) {
+          doubleTiles.add(tile2);
+        }
+      }
+    }
+    
+    List<Move> result = new ArrayList<Move>();
+    if (doubleTiles.size() > 0) {
+      for (Tile tile : doubleTiles) {
+        result.add(new Move(tile));
+      }
+    }
+    
+    if (result.size() == 0) {
+      result.add(new Move(hand.get(0)));
+    }
+    
+    return result;
+  }
+
   /**
    * Gets places where a tile can be.
    * @param board the board
@@ -107,6 +140,12 @@ public class SmartStrategy implements Strategy {
           }
         }
       }
+    }
+    if (result.size() == 0) {
+      List<Integer> add = new ArrayList<>();
+      add.add(91);
+      add.add(91);
+      result.add(add);
     }
     return result;
   }
