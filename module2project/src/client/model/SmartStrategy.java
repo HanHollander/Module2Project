@@ -1,7 +1,6 @@
 package client.model;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
@@ -16,6 +15,9 @@ public class SmartStrategy implements Strategy {
     thePerfectTurn = new ArrayList<>();
   }
   
+  /**
+   * Calculates the best move possible with the current board and hand.
+   */
   public Move determineMove(Board board, List<Tile> hand, ComputerPlayer player) {
     Move theMove;
     if (thePerfectTurn.size() == 0) {
@@ -27,19 +29,7 @@ public class SmartStrategy implements Strategy {
           int col = coord.get(1);
           Move move = new Move(tile, row, col);
           if (board.checkMove(move)) {
-            List<Tile> testHand = new ArrayList<>();
-            List<Move> testTurn = new ArrayList<>();
-            testTurn.add(move);
-            testHand.addAll(hand);
-            testHand.remove(tile);
-            Board testBoard = board.deepCopy();
-            testBoard.putTile(move);
-            HashMap<List<Move>, Integer> tussenResult = new HashMap<List<Move>, Integer>();
-            tussenResult = getBestTurn(testBoard, hand, testTurn);
-            Set<List<Move>> tussenResultKeySet = tussenResult.keySet();
-            for (List<Move> tussenTurn : tussenResultKeySet) {
-              result.put(tussenTurn, tussenResult.get(tussenTurn));
-            }
+            calculateBestOutcome(board, hand, result, tile, move);
           }
         }
       }
@@ -55,7 +45,7 @@ public class SmartStrategy implements Strategy {
         }
       }
       thePerfectTurn = new ArrayList<Move>();
-      if (bestTurn.size() > 1) {
+      if (bestTurn.size() > 0) {
         thePerfectTurn.addAll(bestTurn);
       } else {
         thePerfectTurn.addAll(getBestSwapTurn(hand));
@@ -74,7 +64,37 @@ public class SmartStrategy implements Strategy {
     }
     return theMove;
   }
+
+  /**
+   * Calculates the best possible moves with the given move as start move.
+   * @param board The board.
+   * @param hand The players hand.
+   * @param result The result in which the best possible turns and scores will be added.
+   * @param tile The tile that was just placed.
+   * @param move The move that was just made.
+   */
+  private void calculateBestOutcome(Board board, List<Tile> hand,
+      HashMap<List<Move>, Integer> result, Tile tile, Move move) {
+    List<Tile> testHand = new ArrayList<>();
+    List<Move> testTurn = new ArrayList<>();
+    testTurn.add(move);
+    testHand.addAll(hand);
+    testHand.remove(tile);
+    Board testBoard = board.deepCopy();
+    testBoard.putTile(move);
+    HashMap<List<Move>, Integer> tussenResult = new HashMap<List<Move>, Integer>();
+    tussenResult = getBestTurn(testBoard, hand, testTurn);
+    Set<List<Move>> tussenResultKeySet = tussenResult.keySet();
+    for (List<Move> tussenTurn : tussenResultKeySet) {
+      result.put(tussenTurn, tussenResult.get(tussenTurn));
+    }
+  }
   
+  /**
+   * Calculates which tiles out of the hand are the best tiles to swap.
+   * @param hand From which the tiles need to be swapped.
+   * @return A list of well calculated swap moves.
+   */
   public List<Move> getBestSwapTurn(List<Tile> hand) {
     // Check if you got tiles double in your hand
     List<Tile> doubleTiles = new ArrayList<Tile>();
@@ -150,6 +170,14 @@ public class SmartStrategy implements Strategy {
     return result;
   }
   
+  /**
+   * A recursive function which calculates the outcome of every possible
+   * move with the given board, hand and already placed tiles this turn.
+   * @param board The board.
+   * @param hand The hand of the player.
+   * @param turn The already made moves this turn.
+   * @return A hash map with the moves of a turn as key and the score of that turn as value.
+   */
   public HashMap<List<Move>, Integer> getBestTurn(Board board, List<Tile> hand, List<Move> turn) {
     Tile empty = new Tile(".", " ");
     Move move = turn.get(turn.size() - 1);
@@ -172,8 +200,7 @@ public class SmartStrategy implements Strategy {
           tussenResult = getBestTurn(testBoard, hand, testTurn);
           Set<List<Move>> tussenResultKeySet = tussenResult.keySet();
           for (List<Move> tussenTurn : tussenResultKeySet) {
-            int testScoreDinkie = tussenResult.get(tussenTurn);
-            result.put(tussenTurn, testScoreDinkie);
+            result.put(tussenTurn, tussenResult.get(tussenTurn));
           }
         }
       }
@@ -194,8 +221,7 @@ public class SmartStrategy implements Strategy {
           tussenResult = getBestTurn(testBoard, hand, testTurn);
           Set<List<Move>> tussenResultKeySet = tussenResult.keySet();
           for (List<Move> tussenTurn : tussenResultKeySet) {
-            int testScoreDinkie = tussenResult.get(tussenTurn);
-            result.put(tussenTurn, testScoreDinkie);
+            result.put(tussenTurn, tussenResult.get(tussenTurn));
           }
         }
       }
@@ -216,8 +242,7 @@ public class SmartStrategy implements Strategy {
           tussenResult = getBestTurn(testBoard, hand, testTurn);
           Set<List<Move>> tussenResultKeySet = tussenResult.keySet();
           for (List<Move> tussenTurn : tussenResultKeySet) {
-            int testScoreDinkie = tussenResult.get(tussenTurn);
-            result.put(tussenTurn, testScoreDinkie);
+            result.put(tussenTurn, tussenResult.get(tussenTurn));
           }
         }
       }
@@ -238,8 +263,7 @@ public class SmartStrategy implements Strategy {
           tussenResult = getBestTurn(testBoard, hand, testTurn);
           Set<List<Move>> tussenResultKeySet = tussenResult.keySet();
           for (List<Move> tussenTurn : tussenResultKeySet) {
-            int testScoreDinkie = tussenResult.get(tussenTurn);
-            result.put(tussenTurn, testScoreDinkie);
+            result.put(tussenTurn, tussenResult.get(tussenTurn));
           }
         }
       }

@@ -2,7 +2,8 @@ package server.model;
 
 public class Move {
   
-  public enum Type {MOVE, SWAP, END, ANY};
+  public enum Type { MOVE, SWAP, END, ANY; }
+  
   private Type type;
   private Tile tile;
   private int row;
@@ -10,10 +11,9 @@ public class Move {
   
   /**
    * Constructor for MOVE move.
-   * @param colour c of t
-   * @param shape s of t
-   * @param row r of t
-   * @param column c of t
+   * @param tile Tile
+   * @param row Row on the board
+   * @param column Column on the board
    */
   public Move(Tile tile, int row, int column) {
     this.type = Type.MOVE;

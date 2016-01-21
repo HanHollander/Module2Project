@@ -154,14 +154,11 @@ public class Game extends Observable{
     Boolean result = true;
     Board testBoard = board.deepCopy();
     List<Tile> hand = player.getHand();
-    
     for (int i = 0; i < turn.size(); i++) {
-      
       Move move = turn.get(i);
       Tile tile = move.getTile();
       for (Tile tileInHand : hand) {
         boolean containsTile = tile.equals(tileInHand);
-        
         result = result || containsTile;
         if (containsTile) {
           hand.remove(tileInHand);
@@ -177,8 +174,6 @@ public class Game extends Observable{
       } else {
         break;
       }
-      
-      
     }
     return result;
   }
@@ -209,13 +204,13 @@ public class Game extends Observable{
   }
   
   /**
-   * Gives every player 6 tiles and sends those to the players personally.
+   * Gives every player 6 random tiles from the pool and sends those to the players personally.
    */
   public void dealTiles() {
     Set<Integer> playerNrs = getPlayerNrs();
-    for (int playerNr : playerNrs) {
-      Player player = getPlayer(playerNr);
-      for (int i = 0; i < 6; i++) {
+    for (int i = 0; i < 6; i++) {
+      for (int playerNr : playerNrs) {
+        Player player = getPlayer(playerNr);
         try {
           player.addToHand(drawRandomTileFromPool());
         } catch (HandIsFullException e) {
@@ -223,7 +218,8 @@ public class Game extends Observable{
         }
       }
     }
-    setCurrentPlayer(getPlayerNrWithTheBestHand());
+    doBestMoveOutOfAllPlayers();
+    // Send to every player their hand
     for (int playerNr : playerNrs) {
       server.getThread(playerNr).sendMessage("NEW" + getPlayer(playerNr).handToString());
     }
@@ -299,26 +295,28 @@ public class Game extends Observable{
   /**
    * Calculates which player has the best move in their hand
    * and applies that move to the board.
-   * @return the player who had the best move.
    */
-  public int getPlayerNrWithTheBestHand() {
+  public void doBestMoveOutOfAllPlayers() {
     Set<Integer> playerNrs = getPlayerNrs();
     int playerNrWithBestPossibleHandPointsYet = 0;
     List<Tile> overAllBestRow = new ArrayList<Tile>();
     for (int playerNr : playerNrs) {
       List<Tile> hand = getPlayer(playerNr).getHand();
       List<Tile> bestRow = new ArrayList<Tile>();
-      //System.out.println("Calculating best hand for player-" + playerNr);
       for (Tile tile : hand) {
-        
+        // The list only tiles will be added in if they have the same shape and if 
+        // the list rowWithShapeTheSameColors doesn't already contain the color of the tiles.
         List<Tile> rowWithShapeTheSame = new ArrayList<Tile>();
         List<String> rowWithShapeTheSameColors = new ArrayList<String>();
+        // The list only tiles will be added in if they have the same color and if 
+        // the list rowWithColorTheSameShapes doesn't already contain the shape of the tiles.
         List<Tile> rowWithColorTheSame = new ArrayList<Tile>();
         List<String> rowWithColorTheSameShapes = new ArrayList<String>();
         rowWithShapeTheSame.add(tile);
         rowWithShapeTheSameColors.add(tile.getColor());
         rowWithColorTheSame.add(tile);
         rowWithColorTheSameShapes.add(tile.getShape());
+        // Add the tiles to the lists if they match the above description.
         for (Tile tile2 : hand) {
           if (tile.getShape().equals(tile2.getShape()) 
               && !rowWithShapeTheSameColors.contains(tile2.getColor())) {
@@ -332,26 +330,27 @@ public class Game extends Observable{
             rowWithColorTheSameShapes.add(tile2.getShape());
           }
         }
-        //System.out.println("rowWithShapeTheSame: " + rowWithShapeTheSame);
+        // Check if the current list is bigger than the previous biggest list yet.
+        // If so, then the current list is the biggest list yet.
         if (rowWithShapeTheSame.size() > bestRow.size()) {
-          //System.out.println("Bigger than previous");
           bestRow = new ArrayList<Tile>();
           bestRow.addAll(rowWithShapeTheSame);
         }
-        //System.out.println("rowWithColorTheSame: " + rowWithColorTheSame);
         if (rowWithColorTheSame.size() > bestRow.size()) {
-          //System.out.println("Bigger than previous");
           bestRow = new ArrayList<Tile>();
           bestRow.addAll(rowWithColorTheSame);
         }
       }
+      // Check if the current list is bigger than the previous biggest list yet.
+      // If so, then the current list is the biggest list yet.
       if (bestRow.size() > overAllBestRow.size()) {
         playerNrWithBestPossibleHandPointsYet = playerNr;
         overAllBestRow = new ArrayList<Tile>();
         overAllBestRow.addAll(bestRow);
-        //System.out.println("Player-" + playerNr + "got the best hand yet");
       }
     }
+    // The best row that is finally chosen is here converted into a (very simple turn) list of moves
+    // that starts at [row=91, col=91] and goes on to the right for as long as the row is.
     List<Move> turn = new ArrayList<Move>();
     int row = 91;
     int column = 91;
@@ -359,9 +358,10 @@ public class Game extends Observable{
       turn.add(new Move(tile, row, column));
       column++;
     }
+    // Here the turn is applied and the variable currentPlayer is set to the player who had
+    // the best row in his/her hand.
     applyMoveTurn(getPlayer(playerNrWithBestPossibleHandPointsYet), turn, true);
     setCurrentPlayer(playerNrWithBestPossibleHandPointsYet);
-    return playerNrWithBestPossibleHandPointsYet;
   }
   
   /**

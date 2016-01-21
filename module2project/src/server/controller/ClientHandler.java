@@ -2,7 +2,7 @@ package server.controller;
 
 import server.model.Move;
 import server.model.Tile;
-import server.view.TUIView;
+import server.view.Tuiview;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -27,7 +27,7 @@ public class ClientHandler extends Thread {
   private int playerNr;
   private Object listener;
   private boolean isShutDown;
-  private TUIView tui;
+  private Tuiview tui;
   
   /**
    * Constructor for client handler.
@@ -52,11 +52,14 @@ public class ClientHandler extends Thread {
   }
   
   /**
-   * CLIENT -> server.
+   * Reads the in of the socket and handles the input according to the protocol.
    */
   public void run() {
     String text = "";
     // Starting procedure
+    // Here the client handler expects to receive: "HELLO <name>"
+    // If everything is as expected, the client handler sends to the player:
+    // "WELCOME <playerNr>"
     try {
       text = in.readLine();
       if (isValidStartMessage(text)) {
@@ -75,6 +78,9 @@ public class ClientHandler extends Thread {
       shutdown();
     }
     
+    // Here the client handler enters a loop in which it reads from the socket
+    // and handles accordingly. If the client sends something that is not valid
+    // according the protocol, the client is immediately kicked.
     while (!server.getGame().isGameOver() && !isShutDown) {
       try {
         text = in.readLine();
@@ -87,6 +93,7 @@ public class ClientHandler extends Thread {
               synchronized (listener) {
                 try {
                   listener.wait();
+                  wait(100);
                 } catch (InterruptedException e) {
                   tui.print("ClientHandler-" + playerNr 
                       + " got interupted while waiting for the server to get ready.");
@@ -101,6 +108,7 @@ public class ClientHandler extends Thread {
               synchronized (listener) {
                 try {
                   listener.wait();
+                  wait(100);
                 } catch (InterruptedException e) {
                   tui.print("ClientHandler-" + playerNr 
                       + " got interupted while waiting for the server to get ready.");
@@ -131,6 +139,7 @@ public class ClientHandler extends Thread {
       synchronized (listener) {
         try {
           listener.wait();
+          wait(100);
         } catch (InterruptedException e) {
           tui.print("ClientHandler-" + playerNr 
               + " got interupted while waiting for the server to get ready.");
@@ -142,6 +151,11 @@ public class ClientHandler extends Thread {
     }
   }
   
+  /**
+   * Converts the given text to a actual swap turn, which is a list of tiles.
+   * @param text The text that needs to be converted.
+   * @return The list of tiles that was made from the text.
+   */
   private List<Tile> convertStringToSwapTurn(String text) {
     String[] swapTextParts = text.substring(5).split(" ");
     List<Tile> turn = new ArrayList<Tile>();
@@ -150,7 +164,12 @@ public class ClientHandler extends Thread {
     }
     return turn;
   }
-
+  
+  /**
+   * Converts the given text to a actual move turn, which is a list of moves.
+   * @param text The text that needs to be converted.
+   * @return The list of moves that was made from the text.
+   */
   private List<Move> convertStringToMoveTurn(String text) {
     String[] moveTextParts = text.substring(5).split(" ");
     List<Move> turn = new ArrayList<Move>();
@@ -163,7 +182,12 @@ public class ClientHandler extends Thread {
     }
     return turn;
   }
-
+  
+  /**
+   * Checks if the given text is a valid swap turn according to the protocol.
+   * @param text The text that needs to be checked.
+   * @return True of false whether this text is a valid swap turn or not.
+   */
   private boolean isValidSwapTurn(String text) {
     boolean result = true;
     String[] swapTextParts = null;
@@ -173,6 +197,7 @@ public class ClientHandler extends Thread {
       if (swapTextParts.length > 0 && swapTextParts.length < 7) {
         for (String tile : swapTextParts) {
           if (tile.length() == 2) {
+            // Check if the tiles are valid tiles
             if (COLOURS.contains(tile.substring(0,1)) 
                 && SHAPES.contains(tile.substring(1,2))) {
               result = result && true;
@@ -189,14 +214,20 @@ public class ClientHandler extends Thread {
       result = false;
     }
     
-    //Check if tiles are in the hand of the player
+    //Check if tiles are in the hand of the player and the pool has that many tiles left.
     if (result) {
       List<Tile> turn = convertStringToSwapTurn(text);
       result = result && server.getGame().checkSwapTurn(turn, server.getGame().getPlayer(playerNr));
     }
     return result;
   }
-
+  
+  /**
+   * Checks if the given text is a valid move turn according to the protocol
+   * and the rules of Qwirkle.
+   * @param text The text that needs to be checked.
+   * @return True of false whether this text is a valid move turn or not.
+   */
   private boolean isValidMoveTurn(String text) {
     boolean result = true;
     String[] moveTextParts = null;
@@ -247,8 +278,14 @@ public class ClientHandler extends Thread {
     }
     return result;
   }
-
-  private Boolean isValidStartMessage(String text) {
+  
+  /**
+   * Checks if the given text is a valid start message according to the protocol.
+   * @param text The text that needs to be checked.
+   * @return True of false whether this text is a valid start message or not.
+   */
+  private boolean isValidStartMessage(String text) {
+    // The name may only contain lower and upper case letters
     List<String> allowedChars = Arrays.asList("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", 
         "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", 
         "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", 
@@ -259,6 +296,7 @@ public class ClientHandler extends Thread {
       String name = text.substring(6);
       result = result && name.length() < 17;
       for (int i = 0; i < name.length(); i++) {
+        // Here is checked for every character in the name if it is one of the allowed characters.
         result = result && allowedChars.contains(name.substring(i, i + 1));
       }
     }
@@ -266,7 +304,7 @@ public class ClientHandler extends Thread {
   }
 
   /**
-   * SERVER -> client.
+   * Sends a message to the client through the out of the socket.
    * @param msg message
    */
   public void sendMessage(String msg) {
@@ -275,6 +313,7 @@ public class ClientHandler extends Thread {
       out.newLine();
       out.flush();
     } catch (IOException e) {
+      server.kick(playerNr, "lost connection");
       shutdown();
     }
     tui.print("Send to player-" + playerNr + ": " +  msg);

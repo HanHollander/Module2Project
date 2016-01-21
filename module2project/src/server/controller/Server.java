@@ -12,7 +12,7 @@ import java.util.Set;
 import server.model.Game;
 import server.model.Move;
 import server.model.Tile;
-import server.view.TUIView;
+import server.view.Tuiview;
 
 public class Server extends Thread{
   private static final String USAGE = "usage: " + Server.class.getName() 
@@ -53,7 +53,8 @@ public class Server extends Thread{
     Object waitingForFullLoby = new Object();
     int serverNr = 1;
     while (true) {
-      Server server = new Server(serverSocket, numberOfPlayers, aiTime, waitingForFullLoby, serverNr);
+      Server server = new Server(serverSocket, numberOfPlayers, 
+          aiTime, waitingForFullLoby, serverNr);
       server.start();
       synchronized (waitingForFullLoby) {
         try {
@@ -79,12 +80,12 @@ public class Server extends Thread{
   private boolean imReady;
   private Object waitingForFullLoby;
   private int serverNr;
-  private TUIView tui;
+  private Tuiview tui;
   
   /** Constructs a new Server object. */
   public Server(ServerSocket serverSocket, int numberOfPlayers, 
       int aiTime, Object waitingForFullLoby, int serverNr) {
-    tui = new TUIView(this);
+    tui = new Tuiview(this);
     this.numberOfPlayers = numberOfPlayers;
     threads = new HashMap<Integer, ClientHandler>();
     game = new Game(this);
@@ -105,6 +106,8 @@ public class Server extends Thread{
    * communication with the Client.
    */
   public void run() {
+    // For every client that connects a client handler is made and started
+    // until the max player limit is reached.
     tui.print("Waiting for clients to connect");
     int numberOfConnectingPlayer = 1;
     while (numberOfConnectingPlayer - 1 < numberOfPlayers) {
@@ -121,6 +124,8 @@ public class Server extends Thread{
       }
     }
     
+    // This notifies the main method that this game server is full
+    // so the main method can create and start another game server.
     synchronized (waitingForFullLoby) {
       waitingForFullLoby.notifyAll();
     }
@@ -138,25 +143,36 @@ public class Server extends Thread{
         }
       }
     }
+    // When every client handler has received a "HELLO <name>" message
+    // and has send a "WELCOME <playerNr>" message.
     
+    // Send every player the names of the other players and the time 
+    // they have to determine their turn in the format of:
+    // "NAMES <playerNr> <name> <playerNr> <name> <playerNr> <name> <time>"
     Set<Integer> playerNrs = threads.keySet();
-    tui.print("\n" + "Everyone has send their name");
+    tui.print("Everyone has send their name");
     String namesMsg = "NAMES";
     for (int number : playerNrs) {
       namesMsg = namesMsg + " " + game.getPlayer(number).getName() + " " + number;
     }
     broadcast(namesMsg + " " + aiTime);
     
-    if (threads.size() > 1) {
-      tui.print("\n" + "Dealing tiles and making first move" + "\n");
-      game.dealTiles();
-      tui.print("\n" + "Tiles dealt and first move made" + "\n");
     
+    if (threads.size() > 1) {
+      // Here are the tiles dealt and the server calculates the best move
+      // for every player and places the best move on the board.
+      // After that all the hands of the players will be send to them in the format of:
+      // "NEW <tile> <tile> <tile> <tile> <tile> <tile>"
+      tui.print("Dealing tiles and making first move");
+      game.dealTiles();
+      tui.print("Tiles dealt and first move made");
+    
+      // Because the current player is now the player for whom the server just made
+      // the move, it is now time to pass the turn over to the next player.
       nextPlayerTurn();
     }
     
     while (!game.isGameOver() && threads.size() > 1) {
-      // Wait for a clientHandler to do something (make a move or kick)
       synchronized (monitor) {
         Timer timer = new Timer(aiTime, this);
         timer.start();
@@ -166,7 +182,7 @@ public class Server extends Thread{
           synchronized (listener) {
             listener.notifyAll();
           }
-          monitor.wait();
+          monitor.wait(); // Wait for a clientHandler to do something (make a move or kick)
           imReady = false;
         } catch (InterruptedException e) {
           tui.print("Interupted while waiting for someone to make a move");
@@ -182,7 +198,11 @@ public class Server extends Thread{
       }
     }
     imReady = true;
+    // Send the winner to all players
+    // "WINNER <playerNr>
     broadcast("WINNER " + game.getWinningPlayerNr());
+    
+    // Close the connection with all players
     playerNrs = threads.keySet();
     List<Integer> players = new ArrayList<Integer>();
     players.addAll(playerNrs);
@@ -197,6 +217,8 @@ public class Server extends Thread{
    * @return True of false whether all players have send their name or not.
    */
   private boolean allPlayerNamesAreKnown() {
+    // Here is checked if for every client handler in server
+    // also a player in game is created.
     boolean result = true;
     Set<Integer> playerNrs = threads.keySet();
     Set<Integer> knownPlayers = game.getPlayerNrs();
@@ -255,7 +277,7 @@ public class Server extends Thread{
     return threads.keySet();
   }
   
-  public TUIView getObserver() {
+  public Tuiview getObserver() {
     return tui;
   }
   
@@ -265,13 +287,16 @@ public class Server extends Thread{
   
   /**
    * Kicks the given player, removes all references to that player
-   * in the game and broadcasts it to all players.
+   * in the game and broadcasts it to all players. (the game keeps going
+   * without the player, but the tiles he/she had in his/her hand are returned
+   * to the pool)
    * @param playerNr The number of the player that is being kicked.
    * @param reason A String with a message about the reason of the kick.
    */
   public synchronized void kick(int playerNr, String reason) {
     synchronized (threads) {
       List<Tile> hand = game.getPlayer(playerNr).getHand();
+      // "KICK <playerNr> <ammountOfTilesBackIntoThePool> <reason>"
       broadcast("KICK " + playerNr + " " + hand.size() + " " + reason);
       for (Tile tile : hand) {
         game.addTileToPool(tile);
@@ -284,13 +309,19 @@ public class Server extends Thread{
    * Gives the turn to the next player and broadcasts it to all players.
    */
   public void nextPlayerTurn() {
+    // Here it gets the current player and keeps going through the
+    // numbers 1, 2, 3 and 4 from the current player number until
+    // it has found another valid player number.
     Set<Integer> playingPlayers = threads.keySet();
     int previousPlayer = game.getCurrentPlayer();
     int nextPlayer = (previousPlayer + 1) % 5;
     while (!playingPlayers.contains(nextPlayer)) {
-      nextPlayer = (nextPlayer + 1) % 4;
+      nextPlayer = (nextPlayer + 1) % 5;
     }
     game.setCurrentPlayer(nextPlayer);
+    // Here the server sends a message to all the players who's turn 
+    // it is now with the format:
+    // "NEXT <playerNr>"
     broadcast("NEXT " + nextPlayer);
   }
   
@@ -301,11 +332,10 @@ public class Server extends Thread{
    */
   public void sendTurn(int playerNr, List<Move> turn) {
     String msg = "TURN " + playerNr;
-    
     for (int i = 0; i < turn.size(); i++) {
       msg = msg + " " + turn.get(i).toString();
     }
-    
+    // "TURN <playerNr> <tile> <row> <column> <tile> <row> <column>"
     broadcast(msg);
   }
   
@@ -324,6 +354,8 @@ public class Server extends Thread{
     } else {
       msg = "NEW empty";
     }
+    // "NEW <tile> <tile> <tile>"
+    // "NEW empty" (if the pool is empty)
     threads.get(playerNr).sendMessage(msg);
   }
   
@@ -339,6 +371,10 @@ public class Server extends Thread{
     }
   }
   
+  /**
+   * A function that is only called by a clientHandler. This function wakes
+   * the server.
+   */
   public void handlerWakesServer() {
     synchronized (monitor) {
       monitor.notifyAll();

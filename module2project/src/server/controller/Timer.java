@@ -7,6 +7,14 @@ public class Timer extends Thread{
   private long time;
   private boolean stoppedFromTheOutside;
   
+  /**
+   * Creates a new timer thread which notifies the given 
+   * server if the give time has ran out.
+   * @param time The time in milliseconds for how long the timer
+   *             needs to be set.
+   * @param server The server which needs to be notified
+   *               when the timer has stopped.
+   */
   public Timer(int time, Server server) {
     this.server = server;
     this.time = new Long(time);
@@ -14,6 +22,10 @@ public class Timer extends Thread{
     timerMonitor = new Object();
   }
   
+  /**
+   * Starts the timer and notifies the server when the
+   * timer stops if the timer was not stopped by the server.
+   */
   public void run() {
     synchronized (timerMonitor) {
       try {
@@ -28,6 +40,9 @@ public class Timer extends Thread{
     }
   }
   
+  /**
+   * The function that can be called from another thread to stop the timer.
+   */
   public void stopTimer() {
     stoppedFromTheOutside = true;
     synchronized (timerMonitor) {

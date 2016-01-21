@@ -85,12 +85,21 @@ public class Player {
     return name;
   }
   
+  /**
+   * Get the hand of the player.
+   * @return hand
+   */
   public List<Tile> getHand() {
     List<Tile> result = new ArrayList<Tile>();
     result.addAll(hand);
     return result;
   }
   
+  /**
+   * Return a string representation of the hand.
+   * @return string representation of the hand
+   *         " (tile) (tile) (tile) (tile) (tile) (tile)"
+   */
   public String handToString() {
     String result = "";
     for (Tile tile : hand) {
