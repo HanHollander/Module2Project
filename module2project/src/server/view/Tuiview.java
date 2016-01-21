@@ -49,7 +49,7 @@ public class Tuiview implements Observer {
         output.println(game.getPlayer(playerNr).getName() + ": " 
             + game.getPlayer(playerNr).getHand().toString());
       }
-      output.println("Tiles in pool: " + server.getGame().getPoolSize());
+      output.println("Tiles in pool: " + server.getGame().getPoolSize() + "\n");
     }
   }
 

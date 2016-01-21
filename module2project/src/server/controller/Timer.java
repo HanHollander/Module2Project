@@ -29,15 +29,12 @@ public class Timer extends Thread{
   public void run() {
     synchronized (timerMonitor) {
       try {
-        System.out.println("Timer is waiting for " + time + " ms");
         timerMonitor.wait(time);
       } catch (InterruptedException e) {
         System.out.println("Timer thread got interupted");
       }
       if (!stoppedFromTheOutside) {
         server.timerWakesServer();
-      } else {
-        System.out.println("Timer stopped");
       }
     }
   }

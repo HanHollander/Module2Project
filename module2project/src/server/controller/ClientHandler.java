@@ -308,14 +308,18 @@ public class ClientHandler extends Thread {
    * @param msg message
    */
   public void sendMessage(String msg) {
+    boolean messageSent = true;
     try {
       out.write(msg);
       out.newLine();
       out.flush();
     } catch (IOException e) {
-      tui.print("Could not send message: '" + msg + "' to player-" + playerNr);
+      tui.print("Could not send to player-" + playerNr + ": " + msg);
+      messageSent = false;
     }
-    tui.print("Send to player-" + playerNr + ": " +  msg);
+    if (messageSent) {
+      tui.print("Sent to player-" + playerNr + ": " +  msg);
+    }
   }
   
   public String getClientName() {
