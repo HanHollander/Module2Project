@@ -8,6 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
+import client.controller.Game;
 import client.model.Move.Type;
 import client.view.Printer;
 import exceptions.HandIsFullException;
@@ -28,14 +29,16 @@ public class HumanPlayer extends Player {
   public static final List<String> SHAPES = Arrays.asList("o", "d", "s", "c", "x", "*");
   
   private Type listType;
+  private Game game;
 
   /**
    * Constructor for a human.
    * @param name name of human
    * @param playerNumber nr of human
    */
-  public HumanPlayer(String name, int playerNumber) {
+  public HumanPlayer(String name, int playerNumber, Game game) {
     super(name, playerNumber);
+    this.game = game;
   }
   
   /**
@@ -65,6 +68,9 @@ public class HumanPlayer extends Player {
               removeFromHand(move.getTile());
             } catch (TileNotInHandException e) {
               Printer.print(e);
+            }
+            if (game.getPool() <= 0) {
+              throw new InvalidMoveException(SWAPUSAGE);
             }
             validMove = true;
             getMoves().add(move);
