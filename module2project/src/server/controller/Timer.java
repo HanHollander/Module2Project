@@ -36,6 +36,8 @@ public class Timer extends Thread{
       }
       if (!stoppedFromTheOutside) {
         server.timerWakesServer();
+      } else {
+        System.out.println("Timer stopped");
       }
     }
   }

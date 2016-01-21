@@ -149,11 +149,12 @@ public class Board {
       result.get(1).add(90);
       result.get(1).add(92);
     }
-    result.get(0).add(rowMin);
-    result.get(0).add(rowMax);
-    result.get(1).add(columnMin);
-    result.get(1).add(columnMax);
-
+    if (result.size() == 0) {
+      result.get(0).add(rowMin);
+      result.get(0).add(rowMax);
+      result.get(1).add(columnMin);
+      result.get(1).add(columnMax);
+    }
     
     return result;
   }
