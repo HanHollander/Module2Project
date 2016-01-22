@@ -41,11 +41,7 @@ public class Tile {
    * @return If the tiles match.
    */
   public boolean equals(Tile tile) {
-    boolean equals = false;
-    if (color.equals(tile.getColor()) && shape.equals(tile.getShape())) {
-      equals = true;
-    }
-    return equals;
+    return (color.equals(tile.getColor()) && shape.equals(tile.getShape()));
   }
   
   /**

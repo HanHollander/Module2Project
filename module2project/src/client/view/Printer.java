@@ -86,7 +86,7 @@ public class Printer {
   public static void printBoard(Game game) {
     String board = "u\033[2J" + game.getBoard().toString() + "\nHand: " 
         + game.getPlayer().handToString() + "\n" + "Tiles in pool: " + game.getPool() + "\n";
-    print(board);
+    System.out.println(board);
     game.printScores();
   }
   

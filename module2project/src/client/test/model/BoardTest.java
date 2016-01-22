@@ -31,6 +31,24 @@ public class BoardTest {
     assertTrue(b.checkMove(move1));
     assertTrue(b.checkMove(move2));
     assertFalse(b.checkMove(move3));
+    Board b2 = new Board();
+    b2.putTile(new Move(new Tile("R", "o"), 91, 90));
+    b2.putTile(new Move(new Tile("B", "o"), 91, 91));
+    b2.putTile(new Move(new Tile("G", "o"), 91, 92));
+    b2.putTile(new Move(new Tile("P", "o"), 91, 94));
+    b2.putTile(new Move(new Tile("Y", "o"), 91, 95));
+    b2.putTile(new Move(new Tile("C", "o"), 91, 96));
+    b2.endTurn();
+    assertFalse(b2.checkMove(new Move(new Tile("R", "o"), 91, 93)));
+    Board b3 = new Board();
+    b3.putTile(new Move(new Tile("C", "o"), 91, 90));
+    b3.putTile(new Move(new Tile("B", "o"), 91, 91));
+    b3.putTile(new Move(new Tile("G", "o"), 91, 92));
+    b3.putTile(new Move(new Tile("P", "o"), 91, 94));
+    b3.putTile(new Move(new Tile("Y", "o"), 91, 95));
+    b3.putTile(new Move(new Tile("C", "o"), 91, 96));
+    b3.endTurn();
+    assertFalse(b3.checkMove(new Move(new Tile("R", "o"), 91, 93)));
   }
   
   @Test

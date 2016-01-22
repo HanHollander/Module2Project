@@ -41,10 +41,14 @@ public class Move {
   }
 
   public int getRow() {
+//    int result = 0 + row;
+//    return result;
     return row;
   }
 
   public int getColumn() {
+//    int result = 0 + column;
+//    return result;
     return column;
   }
   

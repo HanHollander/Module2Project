@@ -89,33 +89,9 @@ public class ClientHandler extends Thread {
           if (isValidMoveTurn(text)) {
             List<Move> turn = convertStringToMoveTurn(text);
             server.getGame().applyMoveTurn(server.getGame().getPlayer(playerNr), turn, false);
-            if (!server.isReady()) {
-              synchronized (listener) {
-                try {
-                  listener.wait();
-                  wait(100);
-                } catch (InterruptedException e) {
-                  tui.print("ClientHandler-" + playerNr 
-                      + " got interupted while waiting for the server to get ready.");
-                }
-              }
-            }
-            server.handlerWakesServer();
           } else if (isValidSwapTurn(text)) {
             List<Tile> turn = convertStringToSwapTurn(text);
             server.getGame().applySwapTurn(turn, server .getGame().getPlayer(playerNr));
-            if (!server.isReady()) {
-              synchronized (listener) {
-                try {
-                  listener.wait();
-                  wait(100);
-                } catch (InterruptedException e) {
-                  tui.print("ClientHandler-" + playerNr 
-                      + " got interupted while waiting for the server to get ready.");
-                }
-              }
-            }
-            server.handlerWakesServer();
           } else {
             if (!isShutDown) {
               server.kick(playerNr, "made an invalid turn");
@@ -146,6 +122,7 @@ public class ClientHandler extends Thread {
         }
       }
       if (server.getGame().getCurrentPlayer() == playerNr) {
+        tui.print("clientHandler-" + playerNr + " wakes server");
         server.handlerWakesServer();
       }
     }
