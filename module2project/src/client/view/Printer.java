@@ -49,16 +49,7 @@ public class Printer {
    */
   public static void print(String text) {
     System.out.println(text);
-    try {
-      DateFormat df = new SimpleDateFormat("dd/MM/yy_HH:mm:ss");
-      Date dateobj = new Date();
-      String dateTime = df.format(dateobj);
-      logger.write(dateTime + ": " + text);
-      logger.newLine();
-      logger.flush();
-    } catch (IOException e) {
-      System.out.println("Could not write.");
-    }
+    printToLog(text);
   }
   
   /**
@@ -67,16 +58,7 @@ public class Printer {
    */
   public static void print(Exception ex) {
     System.out.println(ex);
-    try {
-      DateFormat df = new SimpleDateFormat("dd/MM/yy_HH:mm:ss");
-      Date dateobj = new Date();
-      String dateTime = df.format(dateobj);
-      logger.write(dateTime + ": " + ex);
-      logger.newLine();
-      logger.flush();
-    } catch (IOException e) {
-      System.out.println("Could not write.");
-    }
+    printToLog(ex);
   }
   
   /**
@@ -88,6 +70,38 @@ public class Printer {
         + game.getPlayer().handToString() + "\n" + "Tiles in pool: " + game.getPool() + "\n";
     System.out.println(board);
     game.printScores();
+  }
+  
+  /**
+   * Print to log only.
+   */
+  public static void printToLog(String text) {
+    try {
+      DateFormat df = new SimpleDateFormat("dd/MM/yy_HH:mm:ss");
+      Date dateobj = new Date();
+      String dateTime = df.format(dateobj);
+      logger.write(dateTime + ": " + text);
+      logger.newLine();
+      logger.flush();
+    } catch (IOException e) {
+      System.out.println("Could not write to log.");
+    }
+  }
+  
+  /**
+   * Print to log only.
+   */
+  public static void printToLog(Exception exception) {
+    try {
+      DateFormat df = new SimpleDateFormat("dd/MM/yy_HH:mm:ss");
+      Date dateobj = new Date();
+      String dateTime = df.format(dateobj);
+      logger.write(dateTime + ": " + exception);
+      logger.newLine();
+      logger.flush();
+    } catch (IOException e) {
+      System.out.println("Could not write to log.");
+    }
   }
   
 }

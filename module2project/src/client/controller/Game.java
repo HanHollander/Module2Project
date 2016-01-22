@@ -62,11 +62,11 @@ public class Game {
    * @param port port of server.
    * @param playerType type of player.
    */
-  public Game(String name, InetAddress host, int port, String playerType) {
+  public Game(String name, InetAddress host, int port) {
     this.board = new Board();
     playerList = new ArrayList<>();
     this.playerName = name;
-    this.setPlayerType(playerType);
+    this.setPlayerType(Qwirkle.getPlayerType());
     setHintGen(new NaiveStrategy());
     //Try creating a client.
     try {

@@ -24,6 +24,8 @@ public class Qwirkle {
   private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
   private static Game game;
   private static String fileName;
+  private static String playerType;
+  private static String strategyType;
 
   /**
    * Main method to run the game.
@@ -38,7 +40,7 @@ public class Qwirkle {
     String name = "";
     String addr = "";
     String portString = "";
-    String playerType = "";
+    
     
     if (args.length == 0) {
       //Get the player input.
@@ -46,7 +48,6 @@ public class Qwirkle {
       Printer.print("(only characters a-z A-Z and 1 to 16 characters long)");
       Printer.print("What is your name? \n");
       boolean validName = false;
-      name = "";
       //Check for valid name
       while (!validName) {
         name = readInput();
@@ -59,13 +60,38 @@ public class Qwirkle {
       addr = readInput();
       Printer.print("\nServer port: \n");
       portString = readInput();
-      Printer.print("\nBot: 'b', Human: 'h'");
-      playerType = readInput();
+      Printer.print("\nBot: 'b', Human: 'h'\n");
+      boolean validPlayerType = false;
+      //Check for valid type
+      while (!validPlayerType) {
+        playerType = readInput();
+        if (playerType.equals("b") || playerType.equals("h")) {
+          validPlayerType = true;
+        }
+        if (!validPlayerType) {
+          Printer.print("Player type not valid, please try again." + "\n");
+        }
+      }
     } else if (args.length == 4) {
       name = args[0];
       addr = args[1];
       portString = args[2];
       playerType = args[3];
+    }
+    
+    if (playerType.equals("b")) {
+      Printer.print("\n Naive: 'n', Smart: 's'");
+      boolean validStratType = false;
+      //Check for valid type
+      while (!validStratType) {
+        strategyType = readInput();
+        if (strategyType.equals("n") || strategyType.equals("s")) {
+          validStratType = true;
+        }
+        if (!validStratType) {
+          Printer.print("Strategy type not valid, please try again." + "\n");
+        }
+      }
     }
    
     InetAddress host = null;
@@ -92,7 +118,7 @@ public class Qwirkle {
     }
     
     //Start a new game.
-    game = new Game(name, host, port, playerType);
+    game = new Game(name, host, port);
   }
   
   /**
@@ -138,5 +164,13 @@ public class Qwirkle {
 
   public static void setFileName(String fileName) {
     Qwirkle.fileName = fileName;
+  }
+  
+  public static String getPlayerType() {
+    return playerType;
+  }
+  
+  public static String getStrategyType() {
+    return strategyType;
   }
 }

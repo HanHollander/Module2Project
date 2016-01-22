@@ -1,5 +1,0 @@
-21/01/16_12:34:07: java.lang.NumberFormatException: For input string: "a"
-21/01/16_12:34:07: Type of turn: ANY
-21/01/16_12:34:10: Type of turn: MOVE
-21/01/16_12:34:11: Type of turn: ANY
-21/01/16_12:34:13: Type of turn: SWAP

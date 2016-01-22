@@ -16,13 +16,13 @@ import java.util.List;
 import client.model.ComputerPlayer;
 import client.model.HumanPlayer;
 import client.model.Move;
+import client.model.NaiveStrategy;
 import client.model.OpponentPlayer;
 import client.model.Player;
 import client.model.SmartStrategy;
+import client.model.Strategy;
 import client.model.Tile;
 import client.view.Printer;
-
-
 
 public class Client extends Thread {
   private static final String USAGE = "usage: java week7.cmdchat.Client <name> <address> <port>";
@@ -75,6 +75,7 @@ public class Client extends Thread {
           checkNew(text);
           checkKick(text);
           checkWinner(text);
+          Printer.printToLog("IN: " + text);
         }
       }
     } catch (IOException e) {
@@ -284,7 +285,14 @@ public class Client extends Thread {
         game.setPlayer(player);
       } else if (game.getPlayerType().equals("b")) {
         //If player type is AI, creat a new computer player.
-        Player player = new ComputerPlayer(command[1], playerNumber, new SmartStrategy());
+        //determine strategy
+        Strategy strat = null;
+        if (Qwirkle.getStrategyType().equals("n")) {
+          strat = new NaiveStrategy();
+        } else if (Qwirkle.getStrategyType().equals("s")) {
+          strat = new SmartStrategy();
+        }
+        Player player = new ComputerPlayer(command[1], playerNumber, strat);
         game.setPlayer(player);
       }
       Printer.print("Welcome message received.");
@@ -329,6 +337,7 @@ public class Client extends Thread {
    */
   public void sendMessage(String msg) {
     try {
+      Printer.printToLog("OUT: " + msg);
       out.write(msg);
       out.newLine();
       out.flush();
