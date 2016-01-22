@@ -1,18 +1,19 @@
 package server.controller;
 
+import server.model.Game;
+import server.model.Move;
+import server.model.Tile;
+import server.view.Tuiview;
+
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.net.ServerSocket;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Observer;
 import java.util.Set;
-
-import server.model.Game;
-import server.model.Move;
-import server.model.Tile;
-import server.view.Tuiview;
 
 public class Server extends Thread{
   private static final String USAGE = "usage: " + Server.class.getName() 
@@ -20,34 +21,106 @@ public class Server extends Thread{
   
   /** Start een Server-applicatie op. */
   public static void main(String[] args) {
-    if (args.length != 3) {
-      System.out.println(USAGE);
-      System.exit(0);
-    }
     int portInt = 0;
     int numberOfPlayers = 0;
     int aiTime = 0;
-    
-    try {
-      portInt = Integer.parseInt(args[0]);
-      numberOfPlayers = Integer.parseInt(args[1]);
-      aiTime = Integer.parseInt(args[2]);
-    } catch (NumberFormatException e) {
-      System.out.println(USAGE);
-      System.exit(0);
-    }
-    
-    if (numberOfPlayers < 2 && numberOfPlayers > 4) {
-      System.out.println(USAGE);
-      System.exit(0);
-    }
-    
     ServerSocket serverSocket = null;
-    try {
-      serverSocket = new ServerSocket(portInt);
-    } catch (IOException e) {
-      System.out.println("Could not create server socket on port " + portInt);
-      System.exit(0);
+    if (args.length > 0) {
+      // Create server with main arguments
+      if (args.length != 3) {
+        System.out.println(USAGE);
+        System.exit(0);
+      }
+      try {
+        portInt = Integer.parseInt(args[0]);
+        numberOfPlayers = Integer.parseInt(args[1]);
+        aiTime = Integer.parseInt(args[2]);
+      } catch (NumberFormatException e) {
+        System.out.println(USAGE);
+        System.exit(0);
+      }
+      
+      if (numberOfPlayers < 2 && numberOfPlayers > 4) {
+        System.out.println(USAGE);
+        System.exit(0);
+      }
+      try {
+        serverSocket = new ServerSocket(portInt);
+      } catch (IOException e) {
+        System.out.println("Could not create server socket on port " + portInt);
+      }
+    } else {
+      // Create server with user input.
+      Boolean validAnswer = false;
+      String answer = "";
+      while (!validAnswer) {
+        System.out.print("Number of players allowed per game (2,3 or 4): ");
+        try {
+          BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+          answer = reader.readLine();
+          validAnswer = true;
+        } catch (IOException e) {
+          System.out.println("Could not read line");
+        }
+        if (validAnswer) {
+          try {
+            numberOfPlayers = Integer.parseInt(answer);
+          } catch (NumberFormatException e) {
+            System.out.println(answer + " is not a valid number");
+            validAnswer = false;
+          }
+          validAnswer = validAnswer && (numberOfPlayers > 1 && numberOfPlayers < 5);
+        }
+      }
+      
+      validAnswer = false;
+      while (!validAnswer) {
+        System.out.print("Allowed time to think per turn (in milliseconds): ");
+        try {
+          BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+          answer = reader.readLine();
+          validAnswer = true;
+        } catch (IOException e) {
+          System.out.println("Could not read line");
+        }
+        if (validAnswer) {
+          try {
+            aiTime = Integer.parseInt(answer);
+          } catch (NumberFormatException e) {
+            System.out.println(answer + " is not a valid waiting time");
+            validAnswer = false;
+          }
+          validAnswer = validAnswer && aiTime > 0;
+        }
+      }
+      validAnswer = false;
+      while (!validAnswer) {
+        System.out.print("Create game servers on port (1 - 65535): ");
+        try {
+          BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+          answer = reader.readLine();
+          validAnswer = true;
+        } catch (IOException e) {
+          System.out.println("Could not read line");
+        }
+        if (validAnswer) {
+          try {
+            portInt = Integer.parseInt(answer);
+          } catch (NumberFormatException e) {
+            System.out.println(answer + " is not a valid number");
+            validAnswer = false;
+          }
+          validAnswer = validAnswer && (portInt > 0 && portInt < 65536);
+          if (validAnswer) {
+            try {
+              serverSocket = new ServerSocket(portInt);
+            } catch (IOException e) {
+              System.out.println("Could not create server socket on port " + portInt);
+              validAnswer = false;
+            }
+          }
+        }
+      }
     }
     
     Object waitingForFullLoby = new Object();
@@ -85,6 +158,7 @@ public class Server extends Thread{
   /** Constructs a new Server object. */
   public Server(ServerSocket serverSocket, int numberOfPlayers, 
       int aiTime, Object waitingForFullLoby, int serverNr) {
+    this.serverNr = serverNr;
     tui = new Tuiview(this);
     this.numberOfPlayers = numberOfPlayers;
     threads = new HashMap<Integer, ClientHandler>();
@@ -95,7 +169,6 @@ public class Server extends Thread{
     this.aiTime = aiTime;
     this.waitingForFullLoby = waitingForFullLoby;
     this.serverSocket = serverSocket;
-    this.serverNr = serverNr;
     
   }
 
