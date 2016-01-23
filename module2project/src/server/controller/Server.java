@@ -297,6 +297,8 @@ public class Server extends Thread{
    * @return True of false whether all players have send their name or not.
    */
   //@ requires getGame().getPlayerNrs() != null;
+  /*@ ensures (\forall int playerNr; getThread(playerNr) != null; 
+   !getGame().getPlayerNrs().contains(playerNr) ==> \result == false); */
   private boolean allPlayerNamesAreKnown() {
     // Here is checked if for every client handler in server
     // also a player in game is created.
@@ -368,6 +370,10 @@ public class Server extends Thread{
     return imReady;
   }
   
+  //@ requires getThread(playerNr) != null;
+  //@ ensures getGame().getPlayer(playerNr) == null;
+  /*@ ensures getGame().getPoolSize() == \old(getGame().getPoolSize()) 
+   + \old(getGame().getPlayer(playerNr).getHand().size()); */
   /**
    * Kicks the given player, removes all references to that player
    * in the game and broadcasts it to all players. (the game keeps going
@@ -376,9 +382,6 @@ public class Server extends Thread{
    * @param playerNr The number of the player that is being kicked.
    * @param reason A String with a message about the reason of the kick.
    */
-  //@ requires getThread(playerNr) != null;
-  //@ ensures getGame().getPlayer(playerNr) == null;
-  //@ ensures getGame().getPoolSize() == \old(getGame().getPoolSize()) + \old(getGame().getPlayer(playerNr).getHand().size());
   public synchronized void kick(int playerNr, String reason) {
     synchronized (threads) {
       List<Tile> hand = game.getPlayer(playerNr).getHand();

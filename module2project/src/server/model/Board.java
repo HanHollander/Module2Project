@@ -9,11 +9,12 @@ public class Board {
   private ArrayList<Move> currentLocalTurn;
   private Game game;
   
+  //@ ensures getMoveList().size() == 0;
+  /*@ ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183; 
+      getTile(i, j).toString().equals(". ")); */
   /**
    * Board constructor. Constructs a empty board.
    */
-  //@ ensures getMoveList().size() == 0;
-  //@ ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183; getTile(i, j).toString().equals(". "));
   public Board() {
     boardMatrix = new ArrayList<ArrayList<Tile>>();
     for (int row = 0; row < 183; row++) {
@@ -25,13 +26,14 @@ public class Board {
     currentLocalTurn = new ArrayList<Move>();
   }
   
-  /**
-   * Board constructor. Constructs a empty board.
-   */
   //@ requires game != null;
   //@ ensures getGame() == game;
   //@ ensures getMoveList().size() == 0;
-  //@ ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183; getTile(i, j).toString().equals(". "));
+  /*@ ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183; 
+      getTile(i, j).toString().equals(". ")); */
+  /**
+   * Board constructor. Constructs a empty board.
+   */
   public Board(Game game) {
     boardMatrix = new ArrayList<ArrayList<Tile>>();
     for (int row = 0; row < 183; row++) {
@@ -88,11 +90,12 @@ public class Board {
     }
   }
   
+  /*@ ensures (\forall Move move; getMoveList().contains(move); 
+              getTile(move.getRow(), move.getColumn()).toString().equals(". ")); */
+  //@ ensures getMoveList().size() == 0;
   /**
    * Undoes every move of the current turn.
    */
-  //@ ensures (\forall Move move; getMoveList().contains(move); getTile(move.getRow(), move.getColumn()).toString().equals(". "));
-  //@ ensures getMoveList().size() == 0;
   public void resetTurn() {
     for (Move move : currentLocalTurn) {
       undoMove(move);
@@ -100,13 +103,14 @@ public class Board {
     currentLocalTurn = new ArrayList<Move>();
   }
   
+  //@ ensures \result != null;
+  /*@ ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183; 
+              \result.getTile(i, j).equals(getTile(i, j))); */
+  //@ ensures \result.getMoveList().containsAll(getMoveList());
   /**
    * Creates a new board and copies the contents of the current board to the new board.
    * @return A copy of board.
    */
-  //@ ensures \result != null;
-  //@ ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183; \result.getTile(i, j).equals(getTile(i, j)));
-  //@ ensures \result.getMoveList().containsAll(getMoveList());
   public Board deepCopy() {
     Board result = new Board();
     for (int row = 0; row < 183; row++) {
@@ -331,8 +335,6 @@ public class Board {
   public String toString() {
     String result = "";
     ArrayList<ArrayList<Integer>> marges = getMargins();
-    int rowMin = marges.get(0).get(0);
-    int rowMax = marges.get(0).get(1);
     int columnMin = marges.get(1).get(0);
     int columnMax = marges.get(1).get(1);
     result = "XXX ";
@@ -346,6 +348,8 @@ public class Board {
         result = result + (column) + "   ";
       }
     }
+    int rowMin = marges.get(0).get(0);
+    int rowMax = marges.get(0).get(1);
     result = result + "\n";
     // This part creates the rest
     for (int row = rowMin; row <= rowMax; row++) {
@@ -384,8 +388,6 @@ public class Board {
     // the result will be like [[rowMin, rowMax], [columnMin, columnMax]]
     int row = 0;
     int column = 0;
-    int rowMin = 0;
-    int rowMax = 0;
     int columnMin = 0;
     int columnMax = 0;
     String empty = ". ";
@@ -400,6 +402,7 @@ public class Board {
       }
     }
     
+    int rowMin;
     rowMin = row - 1;
     
     row = 182;
@@ -413,6 +416,8 @@ public class Board {
         row--;
       }
     }
+    
+    int rowMax;
     rowMax = row + 1;
     
     // rowMin < rowMax == true when there are no tiles placed on the board.
@@ -571,13 +576,14 @@ public class Board {
     return boardMatrix;
   }
   
+  //@ requires board != null;
+  /*@ ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183; 
+              !getTile(i, j).equals(board.getTile(i, j)) ==> \result == false); */
   /**
    * Checks if this board is the same as the given board.
    * @param board That needs to be compared.
    * @return True or False whether the boards are equal or not.
    */
-  //@ requires board != null;
-  //@ ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183; !getTile(i, j).equals(board.getTile(i, j)) ==> \result == false);
   /*@ pure */ public boolean equals(Board board) {
     boolean result = true;
     for (int row = 0; row < 183; row++) {

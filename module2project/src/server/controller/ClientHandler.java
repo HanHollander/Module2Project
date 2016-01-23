@@ -169,8 +169,11 @@ public class ClientHandler extends Thread {
    */
   //@ ensures !text.startsWith("SWAP ") ==> \result == false;
   //@ ensures text.split(" ").length < 2 || text.split(" ").length > 7 ==> \result == false;
-  //@ ensures (\forall int i; i >= 0 & i < text.substring(5).split(" ").length; (!COLOURS.contains(text.substring(5).split(" ")[i].substring(0,1)) || !SHAPES.contains(text.substring(5).split(" ")[i].substring(1,2))) ==> \result == false);
-  private boolean isValidSwapTurnMessage(String text) {
+  /*@ ensures (\forall int i; i >= 0 & i < text.substring(5).split(" ").length; 
+              (!COLOURS.contains(text.substring(5).split(" ")[i].substring(0,1)) 
+              || !SHAPES.contains(text.substring(5).split(" ")[i].substring(1,2))) 
+              ==> \result == false); */
+  /*@ pure */ private boolean isValidSwapTurnMessage(String text) {
     boolean result = true;
     String[] swapTextParts = null;
     if (text.startsWith("SWAP ")) {
@@ -209,7 +212,15 @@ public class ClientHandler extends Thread {
    * @return True of false whether this text is a valid move turn or not.
    */
   //@ ensures !text.startsWith("MOVE ") ==> \result == false;
-  private boolean isValidMoveTurnMessage(String text) {
+  /*@ ensures (\forall int i; i >= 0 & i < text.substring(5).split(" ").length & i % 3 == 0; 
+              (!COLOURS.contains(text.substring(5).split(" ")[i].substring(0,1)) 
+              || !SHAPES.contains(text.substring(5).split(" ")[i].substring(1,2))) 
+              ==> \result == false); */
+  /*@ ensures (\forall int i; i >= 0 & i < text.substring(5).split(" ").length & !(i % 3 == 0); 
+              Integer.parseInt(text.substring(5).split(" ")[i]) >= 0
+              & Integer.parseInt(text.substring(5).split(" ")[i]) < 183
+              ==> \result == false); */
+  /*@ pure */ private boolean isValidMoveTurnMessage(String text) {
     boolean result = true;
     String[] moveTextParts = null;
     if (text.startsWith("MOVE ")) {

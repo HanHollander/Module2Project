@@ -313,7 +313,7 @@ public class Game extends Observable{
   /*@ pure */ public int getCurrentPlayer() {
     return currentPlayer;
   }
-
+  
   /*@ pure */ public Player getPlayer(int playerNr) {
     return playerList.get(playerNr);
   }
@@ -412,7 +412,7 @@ public class Game extends Observable{
    * @return True of False whether the game is over or not.
    */
   //@ requires getPlayerNrs() != null;
-  //@ ensures getPoolSize() > 0 ==> \result == false
+  //@ ensures getPoolSize() > 0 ==> \result == false;
   //@ ensures (\forall int playerNr; getPlayerNrs().contains(playerNr); (getPlayer(playerNr).getHand().size() == 0 & getPoolSize() == 0) ==> \result == true);
   public boolean isGameOver() {
     boolean result = getPoolSize() == 0;
