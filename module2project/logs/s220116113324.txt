@@ -1,0 +1,40 @@
+Waiting for clients to connect
+Clients connected: [0 of 2]
+Clients connected: [1 of 2]
+Received from client 1: HELLO human
+Sent to player-1: WELCOME human 1
+Clients connected: [2 of 2]
+Waiting for everyone to send their name
+Received from client 2: HELLO bot
+Sent to player-2: WELCOME bot 2
+Everyone has send their name
+Sent to player-1: NAMES human 1 bot 2 999999
+Sent to player-2: NAMES human 1 bot 2 999999
+Dealing tiles and making first move
+Sent to player-1: TURN 2 Go 91 91 Yo 91 92 Oo 91 93
+Sent to player-2: TURN 2 Go 91 91 Yo 91 92 Oo 91 93
+
+Current game situation
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Go  Yo  Oo  .   
+92  .   .   .   .   .   
+
+Scores:
+human: 0
+bot: 3
+Hands:
+human: [Rc, Gx, Yo, Bc, Ps, Rx]
+bot: [Gd, P*, Ps, Pd, Yd, R*]
+Tiles in pool: 93
+Sent to player-1: NEW Rc Gx Yo Bc Ps Rx
+Sent to player-2: NEW Gd P* Ps Pd Yd R*
+Tiles dealt and first move made
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Sent to player-1: KICK 2 6 lost connection with player
+Could not send to player-2: KICK 2 6 lost connection with player
+Closed the connection with player-2
+Could not send to player-1: KICK 1 6 lost connection with player
+Closed the connection with player-1
+clientHandler-1 wakes server

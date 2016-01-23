@@ -1,0 +1,89 @@
+22/01/16_12:07:10: 
+Naive: 'n', Smart: 's'
+22/01/16_12:07:18: 
+Checking host... 
+22/01/16_12:07:18: Host accepted.
+22/01/16_12:07:18: Checking port... 
+22/01/16_12:07:18: Port accepted.
+22/01/16_12:07:18: Creating client... 
+22/01/16_12:07:18: Client bot created
+22/01/16_12:07:18: Starting client... 
+22/01/16_12:07:18: Client started.
+22/01/16_12:07:18: Sending registration message... 
+22/01/16_12:07:18: OUT: HELLO bot
+22/01/16_12:07:18: Registration message send.
+22/01/16_12:07:18: Waiting for welcome message... 
+22/01/16_12:07:18: Welcome message received.
+22/01/16_12:07:18: Waiting for other players to connect...
+22/01/16_12:07:18: IN: WELCOME bot 2
+22/01/16_12:07:18: Players participating: [Player 1: human, Player 2: bot]
+
+22/01/16_12:07:18: AITime: 999999
+
+22/01/16_12:07:18: IN: NAMES human 1 bot 2 999999
+22/01/16_12:07:18: human's score is: 3
+22/01/16_12:07:18: bot's score is: 0
+22/01/16_12:07:18: 
+human just made the following move: [[Gc, 91, 91], [Pc, 91, 92], [Oc, 91, 93]]
+
+22/01/16_12:07:18: IN: TURN 1 Gc 91 91 Pc 91 92 Oc 91 93
+22/01/16_12:07:19: Tiles in pool: 93
+
+22/01/16_12:07:19: IN: NEW Rc Bc Od Yd Yc Bd
+22/01/16_12:07:19: human's score is: 3
+22/01/16_12:07:19: bot's score is: 0
+22/01/16_12:07:19: 
+It is your turn!
+22/01/16_12:07:19: 
+What is your action?
+22/01/16_12:07:19: human's score is: 3
+22/01/16_12:07:19: bot's score is: 0
+22/01/16_12:07:19: 
+What is your action?
+22/01/16_12:07:19: human's score is: 3
+22/01/16_12:07:19: bot's score is: 0
+22/01/16_12:07:19: OUT: MOVE Yc 91 94 
+22/01/16_12:07:19: IN: NEXT 2
+22/01/16_12:07:19: Tiles in pool: 92
+
+22/01/16_12:07:19: IN: NEW Po
+22/01/16_12:07:19: IN: TURN 2 Yc 91 94
+22/01/16_12:07:19: It is now human's turn.
+
+22/01/16_12:07:19: IN: NEXT 1
+22/01/16_12:08:28: human's score is: 5
+22/01/16_12:08:28: bot's score is: 4
+22/01/16_12:08:28: 
+human just made the following move: [[Yx, 92, 94]]
+
+22/01/16_12:08:28: IN: TURN 1 Yx 92 94
+22/01/16_12:08:28: human's score is: 5
+22/01/16_12:08:28: bot's score is: 4
+22/01/16_12:08:28: 
+It is your turn!
+22/01/16_12:08:28: 
+What is your action?
+22/01/16_12:08:28: human's score is: 5
+22/01/16_12:08:28: bot's score is: 4
+22/01/16_12:08:28: 
+What is your action?
+22/01/16_12:08:28: human's score is: 5
+22/01/16_12:08:28: bot's score is: 4
+22/01/16_12:08:28: OUT: MOVE Po 92 92 
+22/01/16_12:08:28: IN: NEXT 2
+22/01/16_12:08:28: Tiles in pool: 90
+
+22/01/16_12:08:28: IN: NEW Ox
+22/01/16_12:08:28: IN: TURN 2 Po 92 92
+22/01/16_12:08:28: It is now human's turn.
+
+22/01/16_12:08:28: IN: NEXT 1
+22/01/16_12:09:17: Tiles in pool: 96
+
+22/01/16_12:09:17: human IS KICKED FOR THE FOLLOWING REASON: lost connection with player
+
+22/01/16_12:09:17: IN: KICK 1 6 lost connection with player
+22/01/16_12:09:17: human's score is: 5
+22/01/16_12:09:17: bot's score is: 6
+22/01/16_12:09:17: You won.
+22/01/16_12:09:17: Would you like to play another game? Y/N

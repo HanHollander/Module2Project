@@ -70,6 +70,11 @@ public class Printer {
         + game.getPlayer().handToString() + "\n" + "Tiles in pool: " + game.getPool() + "\n";
     System.out.println(board);
     game.printScores();
+    System.out.println("\nYou can use the following commands:");
+    System.out.println(HumanPlayer.MOVEUSAGE);
+    System.out.println(HumanPlayer.SWAPUSAGE);
+    System.out.println("If you are done, type 'END'");
+
   }
   
   /**

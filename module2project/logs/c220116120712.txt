@@ -1,0 +1,84 @@
+22/01/16_12:07:12: 
+Checking host... 
+22/01/16_12:07:12: Host accepted.
+22/01/16_12:07:12: Checking port... 
+22/01/16_12:07:12: Port accepted.
+22/01/16_12:07:12: Creating client... 
+22/01/16_12:07:12: Client human created
+22/01/16_12:07:12: Starting client... 
+22/01/16_12:07:12: Client started.
+22/01/16_12:07:12: Sending registration message... 
+22/01/16_12:07:12: OUT: HELLO human
+22/01/16_12:07:12: Registration message send.
+22/01/16_12:07:12: Welcome message received.
+22/01/16_12:07:12: Waiting for welcome message... 
+22/01/16_12:07:12: Waiting for other players to connect...
+22/01/16_12:07:12: IN: WELCOME human 1
+22/01/16_12:07:18: Players participating: [Player 1: human, Player 2: bot]
+
+22/01/16_12:07:18: AITime: 999999
+
+22/01/16_12:07:18: IN: NAMES human 1 bot 2 999999
+22/01/16_12:07:19: human's score is: 3
+22/01/16_12:07:19: bot's score is: 0
+22/01/16_12:07:19: IN: TURN 1 Gc 91 91 Pc 91 92 Oc 91 93
+22/01/16_12:07:19: Tiles in pool: 93
+
+22/01/16_12:07:19: IN: NEW P* Ro Os Gs Oc Yx
+22/01/16_12:07:19: It is now bot's turn.
+
+22/01/16_12:07:19: IN: NEXT 2
+22/01/16_12:07:19: human's score is: 3
+22/01/16_12:07:19: bot's score is: 4
+22/01/16_12:07:19: 
+bot just made the following move: [[Yc, 91, 94]]
+
+22/01/16_12:07:19: IN: TURN 2 Yc 91 94
+22/01/16_12:07:19: human's score is: 3
+22/01/16_12:07:19: bot's score is: 4
+22/01/16_12:07:19: 
+Hint: [[36mE[0m, 92, 94]
+22/01/16_12:07:19: 
+It is your turn!
+22/01/16_12:07:19: 
+What is your action?
+22/01/16_12:07:19: Type of turn: ANY
+22/01/16_12:08:20: human's score is: 3
+22/01/16_12:08:20: bot's score is: 4
+22/01/16_12:08:20: 
+What is your action?
+22/01/16_12:08:20: Type of turn: MOVE
+22/01/16_12:08:28: human's score is: 3
+22/01/16_12:08:28: bot's score is: 4
+22/01/16_12:08:28: OUT: MOVE Yx 92 94 
+22/01/16_12:08:28: IN: NEXT 1
+22/01/16_12:08:28: Tiles in pool: 91
+
+22/01/16_12:08:28: IN: NEW Bd
+22/01/16_12:08:28: IN: TURN 1 Yx 92 94
+22/01/16_12:08:28: It is now bot's turn.
+
+22/01/16_12:08:28: IN: NEXT 2
+22/01/16_12:08:28: human's score is: 5
+22/01/16_12:08:28: bot's score is: 6
+22/01/16_12:08:28: 
+bot just made the following move: [[Po, 92, 92]]
+
+22/01/16_12:08:28: IN: TURN 2 Po 92 92
+22/01/16_12:08:28: human's score is: 5
+22/01/16_12:08:28: bot's score is: 6
+22/01/16_12:08:28: 
+Hint: [[33mD[0m, 90, 91]
+22/01/16_12:08:28: 
+It is your turn!
+22/01/16_12:08:28: 
+What is your action?
+22/01/16_12:08:28: Type of turn: ANY
+22/01/16_12:08:33: exceptions.InvalidCommandException: Invalid command. Usage: [MOVE <tileNr> <row> <column>]
+22/01/16_12:08:33: Type of turn: ANY
+22/01/16_12:08:51: exceptions.InvalidMoveException: Invalid move. The move can not be done on the current board.
+22/01/16_12:08:51: human's score is: 5
+22/01/16_12:08:51: bot's score is: 6
+22/01/16_12:08:51: 
+What is your action?
+22/01/16_12:08:51: Type of turn: ANY

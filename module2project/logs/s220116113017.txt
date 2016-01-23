@@ -1,0 +1,2099 @@
+Waiting for clients to connect
+Clients connected: [0 of 2]
+Clients connected: [1 of 2]
+Received from client 1: HELLO bot
+Sent to player-1: WELCOME bot 1
+Clients connected: [2 of 2]
+Waiting for everyone to send their name
+Received from client 2: HELLO bot
+Sent to player-2: WELCOME bot 2
+Everyone has send their name
+Sent to player-1: NAMES bot 1 bot 2 999999
+Sent to player-2: NAMES bot 1 bot 2 999999
+Dealing tiles and making first move
+Sent to player-1: TURN 1 Oc 91 91 Ox 91 92 Od 91 93
+Sent to player-2: TURN 1 Oc 91 91 Ox 91 92 Od 91 93
+
+Current game situation
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Oc  Ox  Od  .   
+92  .   .   .   .   .   
+
+Scores:
+bot: 3
+bot: 0
+Hands:
+bot: [Y*, Od, Bo, Gd, Os, P*]
+bot: [Yx, Bs, Ox, R*, Os, Gd]
+Tiles in pool: 93
+Sent to player-1: NEW Y* Od Bo Gd Os P*
+Sent to player-2: NEW Yx Bs Ox R* Os Gd
+Tiles dealt and first move made
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Ox 90 93 Os 90 92 
+Sent to player-2: NEW Yx Y*
+Sent to player-1: TURN 2 Ox 90 93 Os 90 92
+Sent to player-2: TURN 2 Ox 90 93 Os 90 92
+
+Current game situation
+XXX 90  91  92  93  94  
+89  .   .   .   .   .   
+90  .   .   Os  Ox  .   
+91  .   Oc  Ox  Od  .   
+92  .   .   .   .   .   
+
+Scores:
+bot: 3
+bot: 6
+Hands:
+bot: [Y*, Od, Bo, Gd, Os, P*]
+bot: [Yx, Bs, R*, Gd, Yx, Y*]
+Tiles in pool: 91
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Os 91 94 
+Sent to player-1: NEW R*
+Sent to player-1: TURN 1 Os 91 94
+Sent to player-2: TURN 1 Os 91 94
+
+Current game situation
+XXX 90  91  92  93  94  95  
+89  .   .   .   .   .   .   
+90  .   .   Os  Ox  .   .   
+91  .   Oc  Ox  Od  Os  .   
+92  .   .   .   .   .   .   
+
+Scores:
+bot: 7
+bot: 6
+Hands:
+bot: [Y*, Od, Bo, Gd, P*, R*]
+bot: [Yx, Bs, R*, Gd, Yx, Y*]
+Tiles in pool: 90
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Bs 92 94 
+Sent to player-2: NEW O*
+Sent to player-1: TURN 2 Bs 92 94
+Sent to player-2: TURN 2 Bs 92 94
+
+Current game situation
+XXX 90  91  92  93  94  95  
+89  .   .   .   .   .   .   
+90  .   .   Os  Ox  .   .   
+91  .   Oc  Ox  Od  Os  .   
+92  .   .   .   .   Bs  .   
+93  .   .   .   .   .   .   
+
+Scores:
+bot: 7
+bot: 8
+Hands:
+bot: [Y*, Od, Bo, Gd, P*, R*]
+bot: [Yx, R*, Gd, Yx, Y*, O*]
+Tiles in pool: 89
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Bo 92 95 
+Sent to player-1: NEW Yc
+Sent to player-1: TURN 1 Bo 92 95
+Sent to player-2: TURN 1 Bo 92 95
+
+Current game situation
+XXX 90  91  92  93  94  95  96  
+89  .   .   .   .   .   .   .   
+90  .   .   Os  Ox  .   .   .   
+91  .   Oc  Ox  Od  Os  .   .   
+92  .   .   .   .   Bs  Bo  .   
+93  .   .   .   .   .   .   .   
+
+Scores:
+bot: 9
+bot: 8
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Yc]
+bot: [Yx, R*, Gd, Yx, Y*, O*]
+Tiles in pool: 88
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE O* 91 90 Y* 90 90 R* 89 90 
+Sent to player-2: NEW Bd Go Bs
+Sent to player-1: TURN 2 O* 91 90 Y* 90 90 R* 89 90
+Sent to player-2: TURN 2 O* 91 90 Y* 90 90 R* 89 90
+
+Current game situation
+XXX 89  90  91  92  93  94  95  96  
+88  .   .   .   .   .   .   .   .   
+89  .   R*  .   .   .   .   .   .   
+90  .   Y*  .   Os  Ox  .   .   .   
+91  .   O*  Oc  Ox  Od  Os  .   .   
+92  .   .   .   .   .   Bs  Bo  .   
+93  .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 9
+bot: 16
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Yc]
+bot: [Yx, Gd, Yx, Bd, Go, Bs]
+Tiles in pool: 85
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Yc 92 91 
+Sent to player-1: NEW Ps
+Sent to player-1: TURN 1 Yc 92 91
+Sent to player-2: TURN 1 Yc 92 91
+
+Current game situation
+XXX 89  90  91  92  93  94  95  96  
+88  .   .   .   .   .   .   .   .   
+89  .   R*  .   .   .   .   .   .   
+90  .   Y*  .   Os  Ox  .   .   .   
+91  .   O*  Oc  Ox  Od  Os  .   .   
+92  .   .   Yc  .   .   Bs  Bo  .   
+93  .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 11
+bot: 16
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Ps]
+bot: [Yx, Gd, Yx, Bd, Go, Bs]
+Tiles in pool: 84
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Bd 92 96 Gd 93 96 
+Sent to player-2: NEW Gs Oc
+Sent to player-1: TURN 2 Bd 92 96 Gd 93 96
+Sent to player-2: TURN 2 Bd 92 96 Gd 93 96
+
+Current game situation
+XXX 89  90  91  92  93  94  95  96  97  
+88  .   .   .   .   .   .   .   .   .   
+89  .   R*  .   .   .   .   .   .   .   
+90  .   Y*  .   Os  Ox  .   .   .   .   
+91  .   O*  Oc  Ox  Od  Os  .   .   .   
+92  .   .   Yc  .   .   Bs  Bo  Bd  .   
+93  .   .   .   .   .   .   .   Gd  .   
+94  .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 11
+bot: 21
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Ps]
+bot: [Yx, Yx, Go, Bs, Gs, Oc]
+Tiles in pool: 82
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Ps 93 94 
+Sent to player-1: NEW Yc
+Sent to player-1: TURN 1 Ps 93 94
+Sent to player-2: TURN 1 Ps 93 94
+
+Current game situation
+XXX 89  90  91  92  93  94  95  96  97  
+88  .   .   .   .   .   .   .   .   .   
+89  .   R*  .   .   .   .   .   .   .   
+90  .   Y*  .   Os  Ox  .   .   .   .   
+91  .   O*  Oc  Ox  Od  Os  .   .   .   
+92  .   .   Yc  .   .   Bs  Bo  Bd  .   
+93  .   .   .   .   .   Ps  .   Gd  .   
+94  .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 14
+bot: 21
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Yc]
+bot: [Yx, Yx, Go, Bs, Gs, Oc]
+Tiles in pool: 81
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Gs 94 94 Go 94 93 
+Sent to player-2: NEW Po Bo
+Sent to player-1: TURN 2 Gs 94 94 Go 94 93
+Sent to player-2: TURN 2 Gs 94 94 Go 94 93
+
+Current game situation
+XXX 89  90  91  92  93  94  95  96  97  
+88  .   .   .   .   .   .   .   .   .   
+89  .   R*  .   .   .   .   .   .   .   
+90  .   Y*  .   Os  Ox  .   .   .   .   
+91  .   O*  Oc  Ox  Od  Os  .   .   .   
+92  .   .   Yc  .   .   Bs  Bo  Bd  .   
+93  .   .   .   .   .   Ps  .   Gd  .   
+94  .   .   .   .   Go  Gs  .   .   .   
+95  .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 14
+bot: 27
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Yc]
+bot: [Yx, Yx, Bs, Oc, Po, Bo]
+Tiles in pool: 79
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Yc 90 89 
+Sent to player-1: NEW Gc
+Sent to player-1: TURN 1 Yc 90 89
+Sent to player-2: TURN 1 Yc 90 89
+
+Current game situation
+XXX 88  89  90  91  92  93  94  95  96  97  
+88  .   .   .   .   .   .   .   .   .   .   
+89  .   .   R*  .   .   .   .   .   .   .   
+90  .   Yc  Y*  .   Os  Ox  .   .   .   .   
+91  .   .   O*  Oc  Ox  Od  Os  .   .   .   
+92  .   .   .   Yc  .   .   Bs  Bo  Bd  .   
+93  .   .   .   .   .   .   Ps  .   Gd  .   
+94  .   .   .   .   .   Go  Gs  .   .   .   
+95  .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 16
+bot: 27
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Gc]
+bot: [Yx, Yx, Bs, Oc, Po, Bo]
+Tiles in pool: 78
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Oc 92 92 
+Sent to player-2: NEW Bs
+Sent to player-1: TURN 2 Oc 92 92
+Sent to player-2: TURN 2 Oc 92 92
+
+Current game situation
+XXX 88  89  90  91  92  93  94  95  96  97  
+88  .   .   .   .   .   .   .   .   .   .   
+89  .   .   R*  .   .   .   .   .   .   .   
+90  .   Yc  Y*  .   Os  Ox  .   .   .   .   
+91  .   .   O*  Oc  Ox  Od  Os  .   .   .   
+92  .   .   .   Yc  Oc  .   Bs  Bo  Bd  .   
+93  .   .   .   .   .   .   Ps  .   Gd  .   
+94  .   .   .   .   .   Go  Gs  .   .   .   
+95  .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 16
+bot: 32
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Gc]
+bot: [Yx, Yx, Bs, Po, Bo, Bs]
+Tiles in pool: 77
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Gc 94 95 
+Sent to player-1: NEW Pd
+Sent to player-1: TURN 1 Gc 94 95
+Sent to player-2: TURN 1 Gc 94 95
+
+Current game situation
+XXX 88  89  90  91  92  93  94  95  96  97  
+88  .   .   .   .   .   .   .   .   .   .   
+89  .   .   R*  .   .   .   .   .   .   .   
+90  .   Yc  Y*  .   Os  Ox  .   .   .   .   
+91  .   .   O*  Oc  Ox  Od  Os  .   .   .   
+92  .   .   .   Yc  Oc  .   Bs  Bo  Bd  .   
+93  .   .   .   .   .   .   Ps  .   Gd  .   
+94  .   .   .   .   .   Go  Gs  Gc  .   .   
+95  .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 19
+bot: 32
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Pd]
+bot: [Yx, Yx, Bs, Po, Bo, Bs]
+Tiles in pool: 76
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Po 93 93 
+Sent to player-2: NEW Px
+Sent to player-1: TURN 2 Po 93 93
+Sent to player-2: TURN 2 Po 93 93
+
+Current game situation
+XXX 88  89  90  91  92  93  94  95  96  97  
+88  .   .   .   .   .   .   .   .   .   .   
+89  .   .   R*  .   .   .   .   .   .   .   
+90  .   Yc  Y*  .   Os  Ox  .   .   .   .   
+91  .   .   O*  Oc  Ox  Od  Os  .   .   .   
+92  .   .   .   Yc  Oc  .   Bs  Bo  Bd  .   
+93  .   .   .   .   .   Po  Ps  .   Gd  .   
+94  .   .   .   .   .   Go  Gs  Gc  .   .   
+95  .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 19
+bot: 36
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Pd]
+bot: [Yx, Yx, Bs, Bo, Bs, Px]
+Tiles in pool: 75
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Pd 93 97 
+Sent to player-1: NEW Gc
+Sent to player-1: TURN 1 Pd 93 97
+Sent to player-2: TURN 1 Pd 93 97
+
+Current game situation
+XXX 88  89  90  91  92  93  94  95  96  97  98  
+88  .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   R*  .   .   .   .   .   .   .   .   
+90  .   Yc  Y*  .   Os  Ox  .   .   .   .   .   
+91  .   .   O*  Oc  Ox  Od  Os  .   .   .   .   
+92  .   .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   
+93  .   .   .   .   .   Po  Ps  .   Gd  Pd  .   
+94  .   .   .   .   .   Go  Gs  Gc  .   .   .   
+95  .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 21
+bot: 36
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Gc]
+bot: [Yx, Yx, Bs, Bo, Bs, Px]
+Tiles in pool: 74
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Yx 90 88 Px 91 88 
+Sent to player-2: NEW G* Bx
+Sent to player-1: TURN 2 Yx 90 88 Px 91 88
+Sent to player-2: TURN 2 Yx 90 88 Px 91 88
+
+Current game situation
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  
+88  .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   R*  .   .   .   .   .   .   .   .   
+90  .   Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   
+91  .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   
+92  .   .   .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   
+93  .   .   .   .   .   .   Po  Ps  .   Gd  Pd  .   
+94  .   .   .   .   .   .   Go  Gs  Gc  .   .   .   
+95  .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 21
+bot: 41
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Gc]
+bot: [Yx, Bs, Bo, Bs, G*, Bx]
+Tiles in pool: 72
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Gc 93 91 
+Sent to player-1: NEW Oo
+Sent to player-1: TURN 1 Gc 93 91
+Sent to player-2: TURN 1 Gc 93 91
+
+Current game situation
+XXX 87  88  89  90  91  92  93  94  95  96  97  98  
+88  .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   .   .   R*  .   .   .   .   .   .   .   .   
+90  .   Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   
+91  .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   
+92  .   .   .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   
+93  .   .   .   .   Gc  .   Po  Ps  .   Gd  Pd  .   
+94  .   .   .   .   .   .   Go  Gs  Gc  .   .   .   
+95  .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 24
+bot: 41
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Oo]
+bot: [Yx, Bs, Bo, Bs, G*, Bx]
+Tiles in pool: 71
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Bx 89 88 Bs 89 87 Bo 89 86 
+Sent to player-2: NEW Pd Go Yd
+Sent to player-1: TURN 2 Bx 89 88 Bs 89 87 Bo 89 86
+Sent to player-2: TURN 2 Bx 89 88 Bs 89 87 Bo 89 86
+
+Current game situation
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   Bo  Bs  Bx  .   R*  .   .   .   .   .   .   .   .   
+90  .   .   .   Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   
+91  .   .   .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   
+92  .   .   .   .   .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   
+93  .   .   .   .   .   .   Gc  .   Po  Ps  .   Gd  Pd  .   
+94  .   .   .   .   .   .   .   .   Go  Gs  Gc  .   .   .   
+95  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 24
+bot: 47
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Oo]
+bot: [Yx, Bs, G*, Pd, Go, Yd]
+Tiles in pool: 68
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Oo 95 93 
+Sent to player-1: NEW B*
+Sent to player-1: TURN 1 Oo 95 93
+Sent to player-2: TURN 1 Oo 95 93
+
+Current game situation
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   Bo  Bs  Bx  .   R*  .   .   .   .   .   .   .   .   
+90  .   .   .   Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   
+91  .   .   .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   
+92  .   .   .   .   .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   
+93  .   .   .   .   .   .   Gc  .   Po  Ps  .   Gd  Pd  .   
+94  .   .   .   .   .   .   .   .   Go  Gs  Gc  .   .   .   
+95  .   .   .   .   .   .   .   .   Oo  .   .   .   .   .   
+96  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 27
+bot: 47
+Hands:
+bot: [Y*, Od, Gd, P*, R*, B*]
+bot: [Yx, Bs, G*, Pd, Go, Yd]
+Tiles in pool: 67
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Go 95 92 G* 94 92 
+Sent to player-2: NEW Bc Ys
+Sent to player-1: TURN 2 Go 95 92 G* 94 92
+Sent to player-2: TURN 2 Go 95 92 G* 94 92
+
+Current game situation
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   Bo  Bs  Bx  .   R*  .   .   .   .   .   .   .   .   
+90  .   .   .   Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   
+91  .   .   .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   
+92  .   .   .   .   .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   
+93  .   .   .   .   .   .   Gc  .   Po  Ps  .   Gd  Pd  .   
+94  .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   .   .   
+95  .   .   .   .   .   .   .   Go  Oo  .   .   .   .   .   
+96  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 27
+bot: 55
+Hands:
+bot: [Y*, Od, Gd, P*, R*, B*]
+bot: [Yx, Bs, Pd, Yd, Bc, Ys]
+Tiles in pool: 65
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE B* 89 91 
+Sent to player-1: NEW Px
+Sent to player-1: TURN 1 B* 89 91
+Sent to player-2: TURN 1 B* 89 91
+
+Current game situation
+XXX 85  86  87  88  89  90  91  92  93  94  95  96  97  98  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   Bo  Bs  Bx  .   R*  B*  .   .   .   .   .   .   .   
+90  .   .   .   Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   
+91  .   .   .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   
+92  .   .   .   .   .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   
+93  .   .   .   .   .   .   Gc  .   Po  Ps  .   Gd  Pd  .   
+94  .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   .   .   
+95  .   .   .   .   .   .   .   Go  Oo  .   .   .   .   .   
+96  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 29
+bot: 55
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Px]
+bot: [Yx, Bs, Pd, Yd, Bc, Ys]
+Tiles in pool: 64
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Bc 89 85 Bs 90 85 
+Sent to player-2: NEW Gc Bc
+Sent to player-1: TURN 2 Bc 89 85 Bs 90 85
+Sent to player-2: TURN 2 Bc 89 85 Bs 90 85
+
+Current game situation
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   Bc  Bo  Bs  Bx  .   R*  B*  .   .   .   .   .   .   .   
+90  .   Bs  .   .   Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   
+91  .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   
+92  .   .   .   .   .   .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   
+93  .   .   .   .   .   .   .   Gc  .   Po  Ps  .   Gd  Pd  .   
+94  .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   .   .   
+95  .   .   .   .   .   .   .   .   Go  Oo  .   .   .   .   .   
+96  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 29
+bot: 61
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Px]
+bot: [Yx, Pd, Yd, Ys, Gc, Bc]
+Tiles in pool: 62
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Px 94 97 
+Sent to player-1: NEW Ro
+Sent to player-1: TURN 1 Px 94 97
+Sent to player-2: TURN 1 Px 94 97
+
+Current game situation
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   Bc  Bo  Bs  Bx  .   R*  B*  .   .   .   .   .   .   .   
+90  .   Bs  .   .   Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   
+91  .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   
+92  .   .   .   .   .   .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   
+93  .   .   .   .   .   .   .   Gc  .   Po  Ps  .   Gd  Pd  .   
+94  .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  .   
+95  .   .   .   .   .   .   .   .   Go  Oo  .   .   .   .   .   
+96  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 31
+bot: 61
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Ro]
+bot: [Yx, Pd, Yd, Ys, Gc, Bc]
+Tiles in pool: 61
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Yd 93 98 Yx 94 98 Ys 95 98 
+Sent to player-2: NEW R* Oc Pd
+Sent to player-1: TURN 2 Yd 93 98 Yx 94 98 Ys 95 98
+Sent to player-2: TURN 2 Yd 93 98 Yx 94 98 Ys 95 98
+
+Current game situation
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   Bc  Bo  Bs  Bx  .   R*  B*  .   .   .   .   .   .   .   .   
+90  .   Bs  .   .   Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   .   
+91  .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   .   
+92  .   .   .   .   .   .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   .   
+93  .   .   .   .   .   .   .   Gc  .   Po  Ps  .   Gd  Pd  Yd  .   
+94  .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   
+95  .   .   .   .   .   .   .   .   Go  Oo  .   .   .   .   Ys  .   
+96  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 31
+bot: 69
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Ro]
+bot: [Pd, Gc, Bc, R*, Oc, Pd]
+Tiles in pool: 58
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Ro 96 93 
+Sent to player-1: NEW Ro
+Sent to player-1: TURN 1 Ro 96 93
+Sent to player-2: TURN 1 Ro 96 93
+
+Current game situation
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   Bc  Bo  Bs  Bx  .   R*  B*  .   .   .   .   .   .   .   .   
+90  .   Bs  .   .   Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   .   
+91  .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   .   
+92  .   .   .   .   .   .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   .   
+93  .   .   .   .   .   .   .   Gc  .   Po  Ps  .   Gd  Pd  Yd  .   
+94  .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   
+95  .   .   .   .   .   .   .   .   Go  Oo  .   .   .   .   Ys  .   
+96  .   .   .   .   .   .   .   .   .   Ro  .   .   .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 35
+bot: 69
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Ro]
+bot: [Pd, Gc, Bc, R*, Oc, Pd]
+Tiles in pool: 57
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Oc 89 93 Bc 89 94 Gc 89 95 
+Sent to player-2: NEW Px Ys B*
+Sent to player-1: TURN 2 Oc 89 93 Bc 89 94 Gc 89 95
+Sent to player-2: TURN 2 Oc 89 93 Bc 89 94 Gc 89 95
+
+Current game situation
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  .   .   .   .   
+90  .   Bs  .   .   Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   .   
+91  .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   .   
+92  .   .   .   .   .   .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   .   
+93  .   .   .   .   .   .   .   Gc  .   Po  Ps  .   Gd  Pd  Yd  .   
+94  .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   
+95  .   .   .   .   .   .   .   .   Go  Oo  .   .   .   .   Ys  .   
+96  .   .   .   .   .   .   .   .   .   Ro  .   .   .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 35
+bot: 75
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Ro]
+bot: [Pd, R*, Pd, Px, Ys, B*]
+Tiles in pool: 54
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Ro 95 91 
+Sent to player-1: NEW Oo
+Sent to player-1: TURN 1 Ro 95 91
+Sent to player-2: TURN 1 Ro 95 91
+
+Current game situation
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+88  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+89  .   Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  .   .   .   .   
+90  .   Bs  .   .   Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   .   
+91  .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   .   
+92  .   .   .   .   .   .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   .   
+93  .   .   .   .   .   .   .   Gc  .   Po  Ps  .   Gd  Pd  Yd  .   
+94  .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   
+95  .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  .   
+96  .   .   .   .   .   .   .   .   .   Ro  .   .   .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 38
+bot: 75
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Oo]
+bot: [Pd, R*, Pd, Px, Ys, B*]
+Tiles in pool: 53
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE B* 88 90 R* 88 91 
+Sent to player-2: NEW Rd Go
+Sent to player-1: TURN 2 B* 88 90 R* 88 91
+Sent to player-2: TURN 2 B* 88 90 R* 88 91
+
+Current game situation
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   B*  R*  .   .   .   .   .   .   .   .   
+89  .   Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  .   .   .   .   
+90  .   Bs  .   .   Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   .   
+91  .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   .   
+92  .   .   .   .   .   .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   .   
+93  .   .   .   .   .   .   .   Gc  .   Po  Ps  .   Gd  Pd  Yd  .   
+94  .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   
+95  .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  .   
+96  .   .   .   .   .   .   .   .   .   Ro  .   .   .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 38
+bot: 83
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Oo]
+bot: [Pd, Pd, Px, Ys, Rd, Go]
+Tiles in pool: 51
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Oo 96 94 
+Sent to player-1: NEW Yc
+Sent to player-1: TURN 1 Oo 96 94
+Sent to player-2: TURN 1 Oo 96 94
+
+Current game situation
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   B*  R*  .   .   .   .   .   .   .   .   
+89  .   Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  .   .   .   .   
+90  .   Bs  .   .   Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   .   
+91  .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   .   
+92  .   .   .   .   .   .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   .   
+93  .   .   .   .   .   .   .   Gc  .   Po  Ps  .   Gd  Pd  Yd  .   
+94  .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   
+95  .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  .   
+96  .   .   .   .   .   .   .   .   .   Ro  Oo  .   .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 40
+bot: 83
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Yc]
+bot: [Pd, Pd, Px, Ys, Rd, Go]
+Tiles in pool: 50
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Ys 90 87 
+Sent to player-2: NEW B*
+Sent to player-1: TURN 2 Ys 90 87
+Sent to player-2: TURN 2 Ys 90 87
+
+Current game situation
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   B*  R*  .   .   .   .   .   .   .   .   
+89  .   Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  .   .   .   .   
+90  .   Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   .   
+91  .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   .   
+92  .   .   .   .   .   .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   .   
+93  .   .   .   .   .   .   .   Gc  .   Po  Ps  .   Gd  Pd  Yd  .   
+94  .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   
+95  .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  .   
+96  .   .   .   .   .   .   .   .   .   Ro  Oo  .   .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 40
+bot: 89
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Yc]
+bot: [Pd, Pd, Px, Rd, Go, B*]
+Tiles in pool: 49
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Yc 95 99 
+Sent to player-1: NEW Rc
+Sent to player-1: TURN 1 Yc 95 99
+Sent to player-2: TURN 1 Yc 95 99
+
+Current game situation
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   B*  R*  .   .   .   .   .   .   .   .   .   
+89  .   Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  .   .   .   .   .   
+90  .   Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   .   .   
+91  .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   .   .   
+93  .   .   .   .   .   .   .   Gc  .   Po  Ps  .   Gd  Pd  Yd  .   .   
+94  .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   .   
+95  .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   
+96  .   .   .   .   .   .   .   .   .   Ro  Oo  .   .   .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 42
+bot: 89
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Rc]
+bot: [Pd, Pd, Px, Rd, Go, B*]
+Tiles in pool: 48
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Rd 93 99 Pd 92 99 
+Sent to player-2: NEW Bx Rx
+Sent to player-1: TURN 2 Rd 93 99 Pd 92 99
+Sent to player-2: TURN 2 Rd 93 99 Pd 92 99
+
+Current game situation
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   B*  R*  .   .   .   .   .   .   .   .   .   
+89  .   Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  .   .   .   .   .   
+90  .   Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   .   .   
+91  .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  .   
+93  .   .   .   .   .   .   .   Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  .   
+94  .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   .   
+95  .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   
+96  .   .   .   .   .   .   .   .   .   Ro  Oo  .   .   .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 42
+bot: 95
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Rc]
+bot: [Pd, Px, Go, B*, Bx, Rx]
+Tiles in pool: 46
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Rc 96 99 
+Sent to player-1: NEW Pc
+Sent to player-1: TURN 1 Rc 96 99
+Sent to player-2: TURN 1 Rc 96 99
+
+Current game situation
+XXX 84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   B*  R*  .   .   .   .   .   .   .   .   .   
+89  .   Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  .   .   .   .   .   
+90  .   Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   .   .   
+91  .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  .   
+93  .   .   .   .   .   .   .   Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  .   
+94  .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   .   
+95  .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   
+96  .   .   .   .   .   .   .   .   .   Ro  Oo  .   .   .   .   Rc  .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 44
+bot: 95
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Pc]
+bot: [Pd, Px, Go, B*, Bx, Rx]
+Tiles in pool: 45
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE B* 89 84 Bx 90 84 
+Sent to player-2: NEW Yd Rc
+Sent to player-1: TURN 2 B* 89 84 Bx 90 84
+Sent to player-2: TURN 2 B* 89 84 Bx 90 84
+
+Current game situation
+XXX 83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   B*  R*  .   .   .   .   .   .   .   .   .   
+89  .   B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  .   .   .   .   .   
+90  .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   .   .   
+91  .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  .   
+93  .   .   .   .   .   .   .   .   Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  .   
+94  .   .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   .   
+95  .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   
+96  .   .   .   .   .   .   .   .   .   .   Ro  Oo  .   .   .   .   Rc  .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 44
+bot: 104
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Pc]
+bot: [Pd, Px, Go, Rx, Yd, Rc]
+Tiles in pool: 43
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Pc 96 100 
+Sent to player-1: NEW Po
+Sent to player-1: TURN 1 Pc 96 100
+Sent to player-2: TURN 1 Pc 96 100
+
+Current game situation
+XXX 83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   B*  R*  .   .   .   .   .   .   .   .   .   .   
+89  .   B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  .   .   .   .   .   .   
+90  .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   .   .   .   
+92  .   .   .   .   .   .   .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  .   .   
+93  .   .   .   .   .   .   .   .   Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  .   .   
+94  .   .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   
+95  .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   
+96  .   .   .   .   .   .   .   .   .   .   Ro  Oo  .   .   .   .   Rc  Pc  .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 46
+bot: 104
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Po]
+bot: [Pd, Px, Go, Rx, Yd, Rc]
+Tiles in pool: 42
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Rx 92 88 Px 92 87 
+Sent to player-2: NEW Gx G*
+Sent to player-1: TURN 2 Rx 92 88 Px 92 87
+Sent to player-2: TURN 2 Rx 92 88 Px 92 87
+
+Current game situation
+XXX 83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   B*  R*  .   .   .   .   .   .   .   .   .   .   
+89  .   B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  .   .   .   .   .   .   
+90  .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   .   .   .   
+92  .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  .   .   
+93  .   .   .   .   .   .   .   .   Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  .   .   
+94  .   .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   
+95  .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   
+96  .   .   .   .   .   .   .   .   .   .   Ro  Oo  .   .   .   .   Rc  Pc  .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 46
+bot: 110
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Po]
+bot: [Pd, Go, Yd, Rc, Gx, G*]
+Tiles in pool: 40
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Po 97 100 
+Sent to player-1: NEW Po
+Sent to player-1: TURN 1 Po 97 100
+Sent to player-2: TURN 1 Po 97 100
+
+Current game situation
+XXX 83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   B*  R*  .   .   .   .   .   .   .   .   .   .   
+89  .   B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  .   .   .   .   .   .   
+90  .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   .   .   .   
+92  .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  .   .   
+93  .   .   .   .   .   .   .   .   Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  .   .   
+94  .   .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   
+95  .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   
+96  .   .   .   .   .   .   .   .   .   .   Ro  Oo  .   .   .   .   Rc  Pc  .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Po  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 48
+bot: 110
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Po]
+bot: [Pd, Go, Yd, Rc, Gx, G*]
+Tiles in pool: 39
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE G* 93 90 Go 93 89 Gx 93 88 
+Sent to player-2: NEW Ro Rs Rc
+Sent to player-1: TURN 2 G* 93 90 Go 93 89 Gx 93 88
+Sent to player-2: TURN 2 G* 93 90 Go 93 89 Gx 93 88
+
+Current game situation
+XXX 83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   B*  R*  .   .   .   .   .   .   .   .   .   .   
+89  .   B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  .   .   .   .   .   .   
+90  .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   .   .   .   
+92  .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  .   .   
+93  .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  .   .   
+94  .   .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   
+95  .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   
+96  .   .   .   .   .   .   .   .   .   .   Ro  Oo  .   .   .   .   Rc  Pc  .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Po  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 48
+bot: 119
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Po]
+bot: [Pd, Yd, Rc, Ro, Rs, Rc]
+Tiles in pool: 36
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Po 96 95 
+Sent to player-1: NEW Yo
+Sent to player-1: TURN 1 Po 96 95
+Sent to player-2: TURN 1 Po 96 95
+
+Current game situation
+XXX 83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   B*  R*  .   .   .   .   .   .   .   .   .   .   
+89  .   B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  .   .   .   .   .   .   
+90  .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   .   .   .   
+92  .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  .   .   
+93  .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  .   .   
+94  .   .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   
+95  .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   
+96  .   .   .   .   .   .   .   .   .   .   Ro  Oo  Po  .   .   .   Rc  Pc  .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Po  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 51
+bot: 119
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Yo]
+bot: [Pd, Yd, Rc, Ro, Rs, Rc]
+Tiles in pool: 35
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Rc 89 96 Rs 88 96 Ro 87 96 
+Sent to player-2: NEW Yo Oo Bc
+Sent to player-1: TURN 2 Rc 89 96 Rs 88 96 Ro 87 96
+Sent to player-2: TURN 2 Rc 89 96 Rs 88 96 Ro 87 96
+
+Current game situation
+XXX 83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 
+86  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   Ro  .   .   .   .   .   
+88  .   .   .   .   .   .   .   B*  R*  .   .   .   .   Rs  .   .   .   .   .   
+89  .   B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  .   .   .   .   .   
+90  .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   .   .   .   
+92  .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  .   .   
+93  .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  .   .   
+94  .   .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   
+95  .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   
+96  .   .   .   .   .   .   .   .   .   .   Ro  Oo  Po  .   .   .   Rc  Pc  .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Po  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 51
+bot: 126
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Yo]
+bot: [Pd, Yd, Rc, Yo, Oo, Bc]
+Tiles in pool: 32
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Yo 97 101 
+Sent to player-1: NEW Rs
+Sent to player-1: TURN 1 Yo 97 101
+Sent to player-2: TURN 1 Yo 97 101
+
+Current game situation
+XXX 83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+86  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   Ro  .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   B*  R*  .   .   .   .   Rs  .   .   .   .   .   .   
+89  .   B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  .   .   .   .   .   .   
+90  .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  .   .   .   .   .   .   .   .   
+92  .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  .   .   .   
+93  .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  .   .   .   
+94  .   .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   
+95  .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   
+96  .   .   .   .   .   .   .   .   .   .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Po  Yo  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 53
+bot: 126
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Rs]
+bot: [Pd, Yd, Rc, Yo, Oo, Bc]
+Tiles in pool: 31
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Oo 91 95 
+Sent to player-2: NEW Gs
+Sent to player-1: TURN 2 Oo 91 95
+Sent to player-2: TURN 2 Oo 91 95
+
+Current game situation
+XXX 83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+86  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   Ro  .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   B*  R*  .   .   .   .   Rs  .   .   .   .   .   .   
+89  .   B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  .   .   .   .   .   .   
+90  .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   
+92  .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  .   .   .   
+93  .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  .   .   .   
+94  .   .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   
+95  .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   
+96  .   .   .   .   .   .   .   .   .   .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Po  Yo  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 53
+bot: 140
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Rs]
+bot: [Pd, Yd, Rc, Yo, Bc, Gs]
+Tiles in pool: 30
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Rs 96 91 
+Sent to player-1: NEW Rx
+Sent to player-1: TURN 1 Rs 96 91
+Sent to player-2: TURN 1 Rs 96 91
+
+Current game situation
+XXX 83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+86  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   Ro  .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   B*  R*  .   .   .   .   Rs  .   .   .   .   .   .   
+89  .   B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  .   .   .   .   .   .   
+90  .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   
+92  .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  .   .   .   
+93  .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  .   .   .   
+94  .   .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   
+95  .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   
+96  .   .   .   .   .   .   .   .   Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Po  Yo  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 55
+bot: 140
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Rx]
+bot: [Pd, Yd, Rc, Yo, Bc, Gs]
+Tiles in pool: 29
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Yd 98 101 Pd 98 100 
+Sent to player-2: NEW Ps Pc
+Sent to player-1: TURN 2 Yd 98 101 Pd 98 100
+Sent to player-2: TURN 2 Yd 98 101 Pd 98 100
+
+Current game situation
+XXX 83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+86  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   Ro  .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   B*  R*  .   .   .   .   Rs  .   .   .   .   .   .   
+89  .   B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  .   .   .   .   .   .   
+90  .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   
+92  .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  .   .   .   
+93  .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  .   .   .   
+94  .   .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   
+95  .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   
+96  .   .   .   .   .   .   .   .   Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Po  Yo  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Pd  Yd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 55
+bot: 147
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Rx]
+bot: [Rc, Yo, Bc, Gs, Ps, Pc]
+Tiles in pool: 27
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Rx 96 90 
+Sent to player-1: NEW Os
+Sent to player-1: TURN 1 Rx 96 90
+Sent to player-2: TURN 1 Rx 96 90
+
+Current game situation
+XXX 83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+86  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   Ro  .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   B*  R*  .   .   .   .   Rs  .   .   .   .   .   .   
+89  .   B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  .   .   .   .   .   .   
+90  .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   .   .   .   .   .   .   
+91  .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   
+92  .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  .   .   .   
+93  .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  .   .   .   
+94  .   .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   
+95  .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   
+96  .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Po  Yo  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Pd  Yd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 57
+bot: 147
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Os]
+bot: [Rc, Yo, Bc, Gs, Ps, Pc]
+Tiles in pool: 26
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Rc 88 97 Pc 89 97 Bc 90 97 
+Sent to player-2: NEW Ps Gd Bo
+Sent to player-1: TURN 2 Rc 88 97 Pc 89 97 Bc 90 97
+Sent to player-2: TURN 2 Rc 88 97 Pc 89 97 Bc 90 97
+
+Current game situation
+XXX 83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+86  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   Ro  .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   B*  R*  .   .   .   .   Rs  Rc  .   .   .   .   .   
+89  .   B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  Pc  .   .   .   .   .   
+90  .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   Bc  .   .   .   .   .   
+91  .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   
+92  .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  .   .   .   
+93  .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  .   .   .   
+94  .   .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   
+95  .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   
+96  .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   
+97  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Po  Yo  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Pd  Yd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 57
+bot: 157
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Os]
+bot: [Yo, Gs, Ps, Ps, Gd, Bo]
+Tiles in pool: 23
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Os 97 94 
+Sent to player-1: NEW Rx
+Sent to player-1: TURN 1 Os 97 94
+Sent to player-2: TURN 1 Os 97 94
+
+Current game situation
+XXX 83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+86  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   Ro  .   .   .   .   .   .   
+88  .   .   .   .   .   .   .   B*  R*  .   .   .   .   Rs  Rc  .   .   .   .   .   
+89  .   B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  Pc  .   .   .   .   .   
+90  .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   Bc  .   .   .   .   .   
+91  .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   
+92  .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  .   .   .   
+93  .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  .   .   .   
+94  .   .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   
+95  .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   
+96  .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   
+97  .   .   .   .   .   .   .   .   .   .   .   Os  .   .   .   .   .   Po  Yo  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Pd  Yd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 59
+bot: 157
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Rx]
+bot: [Yo, Gs, Ps, Ps, Gd, Bo]
+Tiles in pool: 22
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Yo 88 86 Bo 88 85 
+Sent to player-2: NEW O* Bx
+Sent to player-1: TURN 2 Yo 88 86 Bo 88 85
+Sent to player-2: TURN 2 Yo 88 86 Bo 88 85
+
+Current game situation
+XXX 83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+86  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   Ro  .   .   .   .   .   .   
+88  .   .   Bo  Yo  .   .   .   B*  R*  .   .   .   .   Rs  Rc  .   .   .   .   .   
+89  .   B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  Pc  .   .   .   .   .   
+90  .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   Bc  .   .   .   .   .   
+91  .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   
+92  .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  .   .   .   
+93  .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  .   .   .   
+94  .   .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   
+95  .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   
+96  .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   
+97  .   .   .   .   .   .   .   .   .   .   .   Os  .   .   .   .   .   Po  Yo  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Pd  Yd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 59
+bot: 164
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Rx]
+bot: [Gs, Ps, Ps, Gd, O*, Bx]
+Tiles in pool: 20
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Rx 97 91 
+Sent to player-1: NEW P*
+Sent to player-1: TURN 1 Rx 97 91
+Sent to player-2: TURN 1 Rx 97 91
+
+Current game situation
+XXX 83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+86  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   Ro  .   .   .   .   .   .   
+88  .   .   Bo  Yo  .   .   .   B*  R*  .   .   .   .   Rs  Rc  .   .   .   .   .   
+89  .   B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  Pc  .   .   .   .   .   
+90  .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   Bc  .   .   .   .   .   
+91  .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   
+92  .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  .   .   .   
+93  .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  .   .   .   
+94  .   .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   
+95  .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   
+96  .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   
+97  .   .   .   .   .   .   .   .   Rx  .   .   Os  .   .   .   .   .   Po  Yo  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Pd  Yd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 62
+bot: 164
+Hands:
+bot: [Y*, Od, Gd, P*, R*, P*]
+bot: [Gs, Ps, Ps, Gd, O*, Bx]
+Tiles in pool: 19
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Ps 99 100 Gs 99 99 
+Sent to player-2: NEW Od Gx
+Sent to player-1: TURN 2 Ps 99 100 Gs 99 99
+Sent to player-2: TURN 2 Ps 99 100 Gs 99 99
+
+Current game situation
+XXX 83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+86  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   Ro  .   .   .   .   .   .   
+88  .   .   Bo  Yo  .   .   .   B*  R*  .   .   .   .   Rs  Rc  .   .   .   .   .   
+89  .   B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  Pc  .   .   .   .   .   
+90  .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   Bc  .   .   .   .   .   
+91  .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   
+92  .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  .   .   .   
+93  .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  .   .   .   
+94  .   .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   
+95  .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   
+96  .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   
+97  .   .   .   .   .   .   .   .   Rx  .   .   Os  .   .   .   .   .   Po  Yo  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Pd  Yd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gs  Ps  .   .   
+100 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 62
+bot: 170
+Hands:
+bot: [Y*, Od, Gd, P*, R*, P*]
+bot: [Ps, Gd, O*, Bx, Od, Gx]
+Tiles in pool: 17
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE P* 100 100 
+Sent to player-1: NEW Gs
+Sent to player-1: TURN 1 P* 100 100
+Sent to player-2: TURN 1 P* 100 100
+
+Current game situation
+XXX 83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+86  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   Ro  .   .   .   .   .   .   
+88  .   .   Bo  Yo  .   .   .   B*  R*  .   .   .   .   Rs  Rc  .   .   .   .   .   
+89  .   B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  Pc  .   .   .   .   .   
+90  .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   Bc  .   .   .   .   .   
+91  .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   
+92  .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  .   .   .   
+93  .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  .   .   .   
+94  .   .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   
+95  .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   
+96  .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   
+97  .   .   .   .   .   .   .   .   Rx  .   .   Os  .   .   .   .   .   Po  Yo  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Pd  Yd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gs  Ps  .   .   
+100 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   P*  .   .   
+101 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 67
+bot: 170
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Gs]
+bot: [Ps, Gd, O*, Bx, Od, Gx]
+Tiles in pool: 16
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Od 93 100 Gd 92 100 
+Sent to player-2: NEW Bd Rs
+Sent to player-1: TURN 2 Od 93 100 Gd 92 100
+Sent to player-2: TURN 2 Od 93 100 Gd 92 100
+
+Current game situation
+XXX 83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+86  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   Ro  .   .   .   .   .   .   
+88  .   .   Bo  Yo  .   .   .   B*  R*  .   .   .   .   Rs  Rc  .   .   .   .   .   
+89  .   B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  Pc  .   .   .   .   .   
+90  .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   Bc  .   .   .   .   .   
+91  .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   
+92  .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  Gd  .   .   
+93  .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  Od  .   .   
+94  .   .   .   .   .   .   .   .   .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   
+95  .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   
+96  .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   
+97  .   .   .   .   .   .   .   .   Rx  .   .   Os  .   .   .   .   .   Po  Yo  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Pd  Yd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gs  Ps  .   .   
+100 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   P*  .   .   
+101 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 67
+bot: 179
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Gs]
+bot: [Ps, O*, Bx, Gx, Bd, Rs]
+Tiles in pool: 14
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Gs 94 90 
+Sent to player-1: NEW P*
+Sent to player-1: TURN 1 Gs 94 90
+Sent to player-2: TURN 1 Gs 94 90
+
+Current game situation
+XXX 83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+86  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   Ro  .   .   .   .   .   .   
+88  .   .   Bo  Yo  .   .   .   B*  R*  .   .   .   .   Rs  Rc  .   .   .   .   .   
+89  .   B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  Pc  .   .   .   .   .   
+90  .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   Bc  .   .   .   .   .   
+91  .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   
+92  .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  Gd  .   .   
+93  .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  Od  .   .   
+94  .   .   .   .   .   .   .   Gs  .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   
+95  .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   
+96  .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   
+97  .   .   .   .   .   .   .   .   Rx  .   .   Os  .   .   .   .   .   Po  Yo  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Pd  Yd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gs  Ps  .   .   
+100 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   P*  .   .   
+101 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 69
+bot: 179
+Hands:
+bot: [Y*, Od, Gd, P*, R*, P*]
+bot: [Ps, O*, Bx, Gx, Bd, Rs]
+Tiles in pool: 13
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Bd 89 83 Bx 88 83 
+Sent to player-2: NEW Gx Ys
+Sent to player-1: TURN 2 Bd 89 83 Bx 88 83
+Sent to player-2: TURN 2 Bd 89 83 Bx 88 83
+
+Current game situation
+XXX 82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+86  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Ro  .   .   .   .   .   .   
+88  .   Bx  .   Bo  Yo  .   .   .   B*  R*  .   .   .   .   Rs  Rc  .   .   .   .   .   
+89  .   Bd  B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  Pc  .   .   .   .   .   
+90  .   .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   Bc  .   .   .   .   .   
+91  .   .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   
+92  .   .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  Gd  .   .   
+93  .   .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  Od  .   .   
+94  .   .   .   .   .   .   .   .   Gs  .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   
+95  .   .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   
+96  .   .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   
+97  .   .   .   .   .   .   .   .   .   Rx  .   .   Os  .   .   .   .   .   Po  Yo  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Pd  Yd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gs  Ps  .   .   
+100 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   P*  .   .   
+101 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 69
+bot: 193
+Hands:
+bot: [Y*, Od, Gd, P*, R*, P*]
+bot: [Ps, O*, Gx, Rs, Gx, Ys]
+Tiles in pool: 11
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE P* 88 92 
+Sent to player-1: NEW G*
+Sent to player-1: TURN 1 P* 88 92
+Sent to player-2: TURN 1 P* 88 92
+
+Current game situation
+XXX 82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+86  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Ro  .   .   .   .   .   .   
+88  .   Bx  .   Bo  Yo  .   .   .   B*  R*  P*  .   .   .   Rs  Rc  .   .   .   .   .   
+89  .   Bd  B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  Pc  .   .   .   .   .   
+90  .   .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   Bc  .   .   .   .   .   
+91  .   .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   
+92  .   .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  Gd  .   .   
+93  .   .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  Od  .   .   
+94  .   .   .   .   .   .   .   .   Gs  .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   
+95  .   .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   
+96  .   .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   
+97  .   .   .   .   .   .   .   .   .   Rx  .   .   Os  .   .   .   .   .   Po  Yo  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Pd  Yd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gs  Ps  .   .   
+100 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   P*  .   .   
+101 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 72
+bot: 193
+Hands:
+bot: [Y*, Od, Gd, P*, R*, G*]
+bot: [Ps, O*, Gx, Rs, Gx, Ys]
+Tiles in pool: 10
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE O* 88 93 
+Sent to player-2: NEW Yx
+Sent to player-1: TURN 2 O* 88 93
+Sent to player-2: TURN 2 O* 88 93
+
+Current game situation
+XXX 82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+86  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Ro  .   .   .   .   .   .   
+88  .   Bx  .   Bo  Yo  .   .   .   B*  R*  P*  O*  .   .   Rs  Rc  .   .   .   .   .   
+89  .   Bd  B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  Pc  .   .   .   .   .   
+90  .   .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   Bc  .   .   .   .   .   
+91  .   .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   
+92  .   .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  Gd  .   .   
+93  .   .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  Od  .   .   
+94  .   .   .   .   .   .   .   .   Gs  .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   
+95  .   .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   
+96  .   .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   
+97  .   .   .   .   .   .   .   .   .   Rx  .   .   Os  .   .   .   .   .   Po  Yo  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Pd  Yd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gs  Ps  .   .   
+100 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   P*  .   .   
+101 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 72
+bot: 201
+Hands:
+bot: [Y*, Od, Gd, P*, R*, G*]
+bot: [Ps, Gx, Rs, Gx, Ys, Yx]
+Tiles in pool: 9
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE G* 100 101 
+Sent to player-1: NEW Bd
+Sent to player-1: TURN 1 G* 100 101
+Sent to player-2: TURN 1 G* 100 101
+
+Current game situation
+XXX 82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+86  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Ro  .   .   .   .   .   .   
+88  .   Bx  .   Bo  Yo  .   .   .   B*  R*  P*  O*  .   .   Rs  Rc  .   .   .   .   .   
+89  .   Bd  B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  Pc  .   .   .   .   .   
+90  .   .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   Bc  .   .   .   .   .   
+91  .   .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   
+92  .   .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  Gd  .   .   
+93  .   .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  Od  .   .   
+94  .   .   .   .   .   .   .   .   Gs  .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   
+95  .   .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   
+96  .   .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   
+97  .   .   .   .   .   .   .   .   .   Rx  .   .   Os  .   .   .   .   .   Po  Yo  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Pd  Yd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gs  Ps  .   .   
+100 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   P*  G*  .   
+101 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 74
+bot: 201
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Bd]
+bot: [Ps, Gx, Rs, Gx, Ys, Yx]
+Tiles in pool: 8
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Rs 99 98 Ps 98 98 Ys 97 98 
+Sent to player-2: NEW Pc Yd Y*
+Sent to player-1: TURN 2 Rs 99 98 Ps 98 98 Ys 97 98
+Sent to player-2: TURN 2 Rs 99 98 Ps 98 98 Ys 97 98
+
+Current game situation
+XXX 82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 
+86  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Ro  .   .   .   .   .   .   
+88  .   Bx  .   Bo  Yo  .   .   .   B*  R*  P*  O*  .   .   Rs  Rc  .   .   .   .   .   
+89  .   Bd  B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  Pc  .   .   .   .   .   
+90  .   .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   Bc  .   .   .   .   .   
+91  .   .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   
+92  .   .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  Gd  .   .   
+93  .   .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  Od  .   .   
+94  .   .   .   .   .   .   .   .   Gs  .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   
+95  .   .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   
+96  .   .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   
+97  .   .   .   .   .   .   .   .   .   Rx  .   .   Os  .   .   .   Ys  .   Po  Yo  .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Ps  .   Pd  Yd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  Ps  .   .   
+100 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   P*  G*  .   
+101 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 74
+bot: 207
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Bd]
+bot: [Gx, Gx, Yx, Pc, Yd, Y*]
+Tiles in pool: 5
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Bd 98 102 
+Sent to player-1: NEW Yo
+Sent to player-1: TURN 1 Bd 98 102
+Sent to player-2: TURN 1 Bd 98 102
+
+Current game situation
+XXX 82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 103 
+86  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   .   .   .   .   .   .   .   Ro  .   .   .   .   .   .   .   
+88  .   Bx  .   Bo  Yo  .   .   .   B*  R*  P*  O*  .   .   Rs  Rc  .   .   .   .   .   .   
+89  .   Bd  B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  Pc  .   .   .   .   .   .   
+90  .   .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   Bc  .   .   .   .   .   .   
+91  .   .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  Gd  .   .   .   
+93  .   .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  Od  .   .   .   
+94  .   .   .   .   .   .   .   .   Gs  .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   .   
+95  .   .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   .   
+96  .   .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   .   
+97  .   .   .   .   .   .   .   .   .   Rx  .   .   Os  .   .   .   Ys  .   Po  Yo  .   .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Ps  .   Pd  Yd  Bd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  Ps  .   .   .   
+100 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   P*  G*  .   .   
+101 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 77
+bot: 207
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Yo]
+bot: [Gx, Gx, Yx, Pc, Yd, Y*]
+Tiles in pool: 4
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Y* 88 89 Yd 87 89 Yx 86 89 
+Sent to player-2: NEW Ox Rd Rd
+Sent to player-1: TURN 2 Y* 88 89 Yd 87 89 Yx 86 89
+Sent to player-2: TURN 2 Y* 88 89 Yd 87 89 Yx 86 89
+
+Current game situation
+XXX 82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 103 
+85  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+86  .   .   .   .   .   .   .   Yx  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   Yd  .   .   .   .   .   .   Ro  .   .   .   .   .   .   .   
+88  .   Bx  .   Bo  Yo  .   .   Y*  B*  R*  P*  O*  .   .   Rs  Rc  .   .   .   .   .   .   
+89  .   Bd  B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  Pc  .   .   .   .   .   .   
+90  .   .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   Bc  .   .   .   .   .   .   
+91  .   .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  Gd  .   .   .   
+93  .   .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  Od  .   .   .   
+94  .   .   .   .   .   .   .   .   Gs  .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   .   
+95  .   .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   .   
+96  .   .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   .   
+97  .   .   .   .   .   .   .   .   .   Rx  .   .   Os  .   .   .   Ys  .   Po  Yo  .   .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Ps  .   Pd  Yd  Bd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  Ps  .   .   .   
+100 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   P*  G*  .   .   
+101 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 77
+bot: 215
+Hands:
+bot: [Y*, Od, Gd, P*, R*, Yo]
+bot: [Gx, Gx, Pc, Ox, Rd, Rd]
+Tiles in pool: 1
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Yo 97 97 
+Sent to player-1: NEW O*
+Sent to player-1: TURN 1 Yo 97 97
+Sent to player-2: TURN 1 Yo 97 97
+
+Current game situation
+XXX 82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 103 
+85  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+86  .   .   .   .   .   .   .   Yx  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   Yd  .   .   .   .   .   .   Ro  .   .   .   .   .   .   .   
+88  .   Bx  .   Bo  Yo  .   .   Y*  B*  R*  P*  O*  .   .   Rs  Rc  .   .   .   .   .   .   
+89  .   Bd  B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  Pc  .   .   .   .   .   .   
+90  .   .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   Bc  .   .   .   .   .   .   
+91  .   .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  Gd  .   .   .   
+93  .   .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  Od  .   .   .   
+94  .   .   .   .   .   .   .   .   Gs  .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   .   
+95  .   .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   .   
+96  .   .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   .   
+97  .   .   .   .   .   .   .   .   .   Rx  .   .   Os  .   .   Yo  Ys  .   Po  Yo  .   .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Ps  .   Pd  Yd  Bd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  Ps  .   .   .   
+100 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   P*  G*  .   .   
+101 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 79
+bot: 215
+Hands:
+bot: [Y*, Od, Gd, P*, R*, O*]
+bot: [Gx, Gx, Pc, Ox, Rd, Rd]
+Tiles in pool: 0
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Ox 94 88 Gx 94 87 
+Sent to player-2: NEW empty
+Sent to player-1: TURN 2 Ox 94 88 Gx 94 87
+Sent to player-2: TURN 2 Ox 94 88 Gx 94 87
+
+Current game situation
+XXX 82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 103 
+85  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+86  .   .   .   .   .   .   .   Yx  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   Yd  .   .   .   .   .   .   Ro  .   .   .   .   .   .   .   
+88  .   Bx  .   Bo  Yo  .   .   Y*  B*  R*  P*  O*  .   .   Rs  Rc  .   .   .   .   .   .   
+89  .   Bd  B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  Pc  .   .   .   .   .   .   
+90  .   .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   Bc  .   .   .   .   .   .   
+91  .   .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  Gd  .   .   .   
+93  .   .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  Od  .   .   .   
+94  .   .   .   .   .   Gx  Ox  .   Gs  .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   .   
+95  .   .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   .   
+96  .   .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   .   
+97  .   .   .   .   .   .   .   .   .   Rx  .   .   Os  .   .   Yo  Ys  .   Po  Yo  .   .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Ps  .   Pd  Yd  Bd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  Ps  .   .   .   
+100 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   P*  G*  .   .   
+101 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 79
+bot: 229
+Hands:
+bot: [Y*, Od, Gd, P*, R*, O*]
+bot: [Gx, Pc, Rd, Rd]
+Tiles in pool: 0
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE O* 100 102 
+Sent to player-1: NEW empty
+Sent to player-1: TURN 1 O* 100 102
+Sent to player-2: TURN 1 O* 100 102
+
+Current game situation
+XXX 82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 103 
+85  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+86  .   .   .   .   .   .   .   Yx  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   Yd  .   .   .   .   .   .   Ro  .   .   .   .   .   .   .   
+88  .   Bx  .   Bo  Yo  .   .   Y*  B*  R*  P*  O*  .   .   Rs  Rc  .   .   .   .   .   .   
+89  .   Bd  B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  Pc  .   .   .   .   .   .   
+90  .   .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   Bc  .   .   .   .   .   .   
+91  .   .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   Px  Rx  .   .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  Gd  .   .   .   
+93  .   .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  Od  .   .   .   
+94  .   .   .   .   .   Gx  Ox  .   Gs  .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   .   
+95  .   .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   .   
+96  .   .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   .   
+97  .   .   .   .   .   .   .   .   .   Rx  .   .   Os  .   .   Yo  Ys  .   Po  Yo  .   .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Ps  .   Pd  Yd  Bd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  Ps  .   .   .   
+100 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   P*  G*  O*  .   
+101 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 82
+bot: 229
+Hands:
+bot: [Y*, Od, Gd, P*, R*]
+bot: [Gx, Pc, Rd, Rd]
+Tiles in pool: 0
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Gx 92 89 
+Sent to player-2: NEW empty
+Sent to player-1: TURN 2 Gx 92 89
+Sent to player-2: TURN 2 Gx 92 89
+
+Current game situation
+XXX 82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 103 
+85  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+86  .   .   .   .   .   .   .   Yx  .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   Yd  .   .   .   .   .   .   Ro  .   .   .   .   .   .   .   
+88  .   Bx  .   Bo  Yo  .   .   Y*  B*  R*  P*  O*  .   .   Rs  Rc  .   .   .   .   .   .   
+89  .   Bd  B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  Pc  .   .   .   .   .   .   
+90  .   .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   Bc  .   .   .   .   .   .   
+91  .   .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   Px  Rx  Gx  .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  Gd  .   .   .   
+93  .   .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  Od  .   .   .   
+94  .   .   .   .   .   Gx  Ox  .   Gs  .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   .   
+95  .   .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   .   
+96  .   .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   .   
+97  .   .   .   .   .   .   .   .   .   Rx  .   .   Os  .   .   Yo  Ys  .   Po  Yo  .   .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Ps  .   Pd  Yd  Bd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  Ps  .   .   .   
+100 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   P*  G*  O*  .   
+101 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 82
+bot: 234
+Hands:
+bot: [Y*, Od, Gd, P*, R*]
+bot: [Pc, Rd, Rd]
+Tiles in pool: 0
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE R* 100 103 
+Sent to player-1: NEW empty
+Sent to player-1: TURN 1 R* 100 103
+Sent to player-2: TURN 1 R* 100 103
+
+Current game situation
+XXX 82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 103 104 
+85  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+86  .   .   .   .   .   .   .   Yx  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   Yd  .   .   .   .   .   .   Ro  .   .   .   .   .   .   .   .   
+88  .   Bx  .   Bo  Yo  .   .   Y*  B*  R*  P*  O*  .   .   Rs  Rc  .   .   .   .   .   .   .   
+89  .   Bd  B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  Pc  .   .   .   .   .   .   .   
+90  .   .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   Bc  .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   Px  Rx  Gx  .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  Gd  .   .   .   .   
+93  .   .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  Od  .   .   .   .   
+94  .   .   .   .   .   Gx  Ox  .   Gs  .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   .   .   
+95  .   .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   .   .   
+96  .   .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   Rx  .   .   Os  .   .   Yo  Ys  .   Po  Yo  .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Ps  .   Pd  Yd  Bd  .   .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  Ps  .   .   .   .   
+100 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   P*  G*  O*  R*  .   
+101 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 86
+bot: 234
+Hands:
+bot: [Y*, Od, Gd, P*]
+bot: [Pc, Rd, Rd]
+Tiles in pool: 0
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Rd 98 103 
+Sent to player-2: NEW empty
+Sent to player-1: TURN 2 Rd 98 103
+Sent to player-2: TURN 2 Rd 98 103
+
+Current game situation
+XXX 82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 103 104 
+85  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+86  .   .   .   .   .   .   .   Yx  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   Yd  .   .   .   .   .   .   Ro  .   .   .   .   .   .   .   .   
+88  .   Bx  .   Bo  Yo  .   .   Y*  B*  R*  P*  O*  .   .   Rs  Rc  .   .   .   .   .   .   .   
+89  .   Bd  B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  Pc  .   .   .   .   .   .   .   
+90  .   .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   Bc  .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   Px  Rx  Gx  .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  Gd  .   .   .   .   
+93  .   .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  Od  .   .   .   .   
+94  .   .   .   .   .   Gx  Ox  .   Gs  .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   .   .   
+95  .   .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   .   .   
+96  .   .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   Rx  .   .   Os  .   .   Yo  Ys  .   Po  Yo  .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Ps  .   Pd  Yd  Bd  Rd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  Ps  .   .   .   .   
+100 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   P*  G*  O*  R*  .   
+101 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 86
+bot: 238
+Hands:
+bot: [Y*, Od, Gd, P*]
+bot: [Pc, Rd]
+Tiles in pool: 0
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE P* 101 103 
+Sent to player-1: NEW empty
+Sent to player-1: TURN 1 P* 101 103
+Sent to player-2: TURN 1 P* 101 103
+
+Current game situation
+XXX 82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 103 104 
+85  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+86  .   .   .   .   .   .   .   Yx  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   Yd  .   .   .   .   .   .   Ro  .   .   .   .   .   .   .   .   
+88  .   Bx  .   Bo  Yo  .   .   Y*  B*  R*  P*  O*  .   .   Rs  Rc  .   .   .   .   .   .   .   
+89  .   Bd  B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  Pc  .   .   .   .   .   .   .   
+90  .   .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   Bc  .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   Px  Rx  Gx  .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  Gd  .   .   .   .   
+93  .   .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  Od  .   .   .   .   
+94  .   .   .   .   .   Gx  Ox  .   Gs  .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   .   .   
+95  .   .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   .   .   
+96  .   .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   Rx  .   .   Os  .   .   Yo  Ys  .   Po  Yo  .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Ps  .   Pd  Yd  Bd  Rd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  Ps  .   .   .   .   
+100 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   P*  G*  O*  R*  .   
+101 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   P*  .   
+102 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 88
+bot: 238
+Hands:
+bot: [Y*, Od, Gd]
+bot: [Pc, Rd]
+Tiles in pool: 0
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Rd 86 96 
+Sent to player-2: NEW empty
+Sent to player-1: TURN 2 Rd 86 96
+Sent to player-2: TURN 2 Rd 86 96
+
+Current game situation
+XXX 82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 103 104 
+85  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+86  .   .   .   .   .   .   .   Yx  .   .   .   .   .   .   Rd  .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   Yd  .   .   .   .   .   .   Ro  .   .   .   .   .   .   .   .   
+88  .   Bx  .   Bo  Yo  .   .   Y*  B*  R*  P*  O*  .   .   Rs  Rc  .   .   .   .   .   .   .   
+89  .   Bd  B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  Pc  .   .   .   .   .   .   .   
+90  .   .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   Bc  .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   Px  Rx  Gx  .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  Gd  .   .   .   .   
+93  .   .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  Od  .   .   .   .   
+94  .   .   .   .   .   Gx  Ox  .   Gs  .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   .   .   
+95  .   .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   .   .   
+96  .   .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   Rx  .   .   Os  .   .   Yo  Ys  .   Po  Yo  .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Ps  .   Pd  Yd  Bd  Rd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  Ps  .   .   .   .   
+100 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   P*  G*  O*  R*  .   
+101 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   P*  .   
+102 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 88
+bot: 242
+Hands:
+bot: [Y*, Od, Gd]
+bot: [Pc]
+Tiles in pool: 0
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Gd 101 101 
+Sent to player-1: NEW empty
+Sent to player-1: TURN 1 Gd 101 101
+Sent to player-2: TURN 1 Gd 101 101
+
+Current game situation
+XXX 82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 103 104 
+85  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+86  .   .   .   .   .   .   .   Yx  .   .   .   .   .   .   Rd  .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   Yd  .   .   .   .   .   .   Ro  .   .   .   .   .   .   .   .   
+88  .   Bx  .   Bo  Yo  .   .   Y*  B*  R*  P*  O*  .   .   Rs  Rc  .   .   .   .   .   .   .   
+89  .   Bd  B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  Pc  .   .   .   .   .   .   .   
+90  .   .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   Bc  .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   Px  Rx  Gx  .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  Gd  .   .   .   .   
+93  .   .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  Od  .   .   .   .   
+94  .   .   .   .   .   Gx  Ox  .   Gs  .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   .   .   
+95  .   .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   .   .   
+96  .   .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   Rx  .   .   Os  .   .   Yo  Ys  .   Po  Yo  .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Ps  .   Pd  Yd  Bd  Rd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  Ps  .   .   .   .   
+100 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   P*  G*  O*  R*  .   
+101 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gd  .   P*  .   
+102 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 90
+bot: 242
+Hands:
+bot: [Y*, Od]
+bot: [Pc]
+Tiles in pool: 0
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Pc 87 92 
+Sent to player-2: NEW empty
+Sent to player-1: TURN 2 Pc 87 92
+Sent to player-2: TURN 2 Pc 87 92
+
+Current game situation
+XXX 82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  100 101 102 103 104 
+85  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+86  .   .   .   .   .   .   .   Yx  .   .   .   .   .   .   Rd  .   .   .   .   .   .   .   .   
+87  .   .   .   .   .   .   .   Yd  .   .   Pc  .   .   .   Ro  .   .   .   .   .   .   .   .   
+88  .   Bx  .   Bo  Yo  .   .   Y*  B*  R*  P*  O*  .   .   Rs  Rc  .   .   .   .   .   .   .   
+89  .   Bd  B*  Bc  Bo  Bs  Bx  .   R*  B*  .   Oc  Bc  Gc  Rc  Pc  .   .   .   .   .   .   .   
+90  .   .   Bx  Bs  .   Ys  Yx  Yc  Y*  .   Os  Ox  .   .   .   Bc  .   .   .   .   .   .   .   
+91  .   .   .   .   .   .   Px  .   O*  Oc  Ox  Od  Os  Oo  .   .   .   .   .   .   .   .   .   
+92  .   .   .   .   .   Px  Rx  Gx  .   Yc  Oc  .   Bs  Bo  Bd  .   .   Pd  Gd  .   .   .   .   
+93  .   .   .   .   .   .   Gx  Go  G*  Gc  .   Po  Ps  .   Gd  Pd  Yd  Rd  Od  .   .   .   .   
+94  .   .   .   .   .   Gx  Ox  .   Gs  .   G*  Go  Gs  Gc  .   Px  Yx  .   .   .   .   .   .   
+95  .   .   .   .   .   .   .   .   .   Ro  Go  Oo  .   .   .   .   Ys  Yc  .   .   .   .   .   
+96  .   .   .   .   .   .   .   .   Rx  Rs  .   Ro  Oo  Po  .   .   .   Rc  Pc  .   .   .   .   
+97  .   .   .   .   .   .   .   .   .   Rx  .   .   Os  .   .   Yo  Ys  .   Po  Yo  .   .   .   
+98  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Ps  .   Pd  Yd  Bd  Rd  .   
+99  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Rs  Gs  Ps  .   .   .   .   
+100 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   P*  G*  O*  R*  .   
+101 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   Gd  .   P*  .   
+102 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+bot: 90
+bot: 244
+Hands:
+bot: [Y*, Od]
+bot: []
+Tiles in pool: 0
+clientHandler-2 wakes server
+Sent to player-1: WINNER 2
+Sent to player-2: WINNER 2
+Closed the connection with player-1
+Closed the connection with player-2

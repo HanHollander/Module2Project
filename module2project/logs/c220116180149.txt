@@ -1,0 +1,41 @@
+22/01/16_18:01:49: 
+Naive: 'n', Smart: 's'
+22/01/16_18:01:51: 
+Checking host... 
+22/01/16_18:01:51: Host accepted.
+22/01/16_18:01:51: Checking port... 
+22/01/16_18:01:51: Port accepted.
+22/01/16_18:01:51: Creating client... 
+22/01/16_18:01:51: Client bot created
+22/01/16_18:01:51: Starting client... 
+22/01/16_18:01:51: Client started.
+22/01/16_18:01:51: Sending registration message... 
+22/01/16_18:01:51: OUT: HELLO bot
+22/01/16_18:01:51: Registration message send.
+22/01/16_18:01:51: Waiting for welcome message... 
+22/01/16_18:01:51: Welcome message received.
+22/01/16_18:01:51: Waiting for other players to connect...
+22/01/16_18:01:51: IN: WELCOME bot 1
+22/01/16_18:01:53: Players participating: [Player 1: bot, Player 2: human]
+
+22/01/16_18:01:53: AITime: 999999
+
+22/01/16_18:01:53: IN: NAMES bot 1 human 2 999999
+22/01/16_18:01:54: bot's score is: 3
+22/01/16_18:01:54: human's score is: 0
+22/01/16_18:01:54: IN: TURN 1 Yx 91 91 Gx 91 92 Px 91 93
+22/01/16_18:01:54: Tiles in pool: 93
+
+22/01/16_18:01:54: IN: NEW Pd Gc Bc Rc Pd Rd
+22/01/16_18:01:54: It is now human's turn.
+
+22/01/16_18:01:54: IN: NEXT 2
+22/01/16_18:03:19: Tiles in pool: 99
+
+22/01/16_18:03:19: human IS KICKED FOR THE FOLLOWING REASON: lost connection with player
+
+22/01/16_18:03:19: IN: KICK 2 6 lost connection with player
+22/01/16_18:03:19: bot's score is: 3
+22/01/16_18:03:19: human's score is: 0
+22/01/16_18:03:19: You won.
+22/01/16_18:03:19: Would you like to play another game? Y/N

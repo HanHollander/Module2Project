@@ -80,7 +80,7 @@ public class Qwirkle {
     }
     
     if (playerType.equals("b")) {
-      Printer.print("\n Naive: 'n', Smart: 's'");
+      Printer.print("\nNaive: 'n', Smart: 's'");
       boolean validStratType = false;
       //Check for valid type
       while (!validStratType) {

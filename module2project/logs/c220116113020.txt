@@ -1,0 +1,1967 @@
+22/01/16_11:30:20: 
+ Naive: 'n', Smart: 's'
+22/01/16_11:30:35: 
+Checking host... 
+22/01/16_11:30:35: Host accepted.
+22/01/16_11:30:35: Checking port... 
+22/01/16_11:30:35: Port accepted.
+22/01/16_11:30:35: Creating client... 
+22/01/16_11:30:35: Client bot created
+22/01/16_11:30:35: Starting client... 
+22/01/16_11:30:35: Client started.
+22/01/16_11:30:35: Sending registration message... 
+22/01/16_11:30:35: OUT: HELLO bot
+22/01/16_11:30:35: Registration message send.
+22/01/16_11:30:35: Waiting for welcome message... 
+22/01/16_11:30:35: Welcome message received.
+22/01/16_11:30:35: Waiting for other players to connect...
+22/01/16_11:30:35: IN: WELCOME bot 2
+22/01/16_11:30:35: Players participating: [Player 1: bot, Player 2: bot]
+
+22/01/16_11:30:35: AITime: 999999
+
+22/01/16_11:30:35: IN: NAMES bot 1 bot 2 999999
+22/01/16_11:30:35: bot's score is: 3
+22/01/16_11:30:35: bot's score is: 0
+22/01/16_11:30:35: 
+bot just made the following move: [[Oc, 91, 91], [Ox, 91, 92], [Od, 91, 93]]
+
+22/01/16_11:30:35: IN: TURN 1 Oc 91 91 Ox 91 92 Od 91 93
+22/01/16_11:30:35: Tiles in pool: 93
+
+22/01/16_11:30:35: IN: NEW Yx Bs Ox R* Os Gd
+22/01/16_11:30:35: bot's score is: 3
+22/01/16_11:30:35: bot's score is: 0
+22/01/16_11:30:35: 
+It is your turn!
+22/01/16_11:30:35: 
+What is your action?
+22/01/16_11:30:36: bot's score is: 3
+22/01/16_11:30:36: bot's score is: 0
+22/01/16_11:30:36: 
+What is your action?
+22/01/16_11:30:36: bot's score is: 3
+22/01/16_11:30:36: bot's score is: 0
+22/01/16_11:30:36: 
+What is your action?
+22/01/16_11:30:36: bot's score is: 3
+22/01/16_11:30:36: bot's score is: 0
+22/01/16_11:30:36: OUT: MOVE Ox 90 93 Os 90 92 
+22/01/16_11:30:36: IN: NEXT 2
+22/01/16_11:30:36: Tiles in pool: 91
+
+22/01/16_11:30:36: IN: NEW Yx Y*
+22/01/16_11:30:36: IN: TURN 2 Ox 90 93 Os 90 92
+22/01/16_11:30:36: It is now bot's turn.
+
+22/01/16_11:30:36: IN: NEXT 1
+22/01/16_11:30:36: bot's score is: 7
+22/01/16_11:30:36: bot's score is: 6
+22/01/16_11:30:36: 
+bot just made the following move: [[Os, 91, 94]]
+
+22/01/16_11:30:36: IN: TURN 1 Os 91 94
+22/01/16_11:30:36: bot's score is: 7
+22/01/16_11:30:36: bot's score is: 6
+22/01/16_11:30:36: 
+It is your turn!
+22/01/16_11:30:36: 
+What is your action?
+22/01/16_11:30:36: bot's score is: 7
+22/01/16_11:30:36: bot's score is: 6
+22/01/16_11:30:36: 
+What is your action?
+22/01/16_11:30:36: bot's score is: 7
+22/01/16_11:30:36: bot's score is: 6
+22/01/16_11:30:36: OUT: MOVE Bs 92 94 
+22/01/16_11:30:36: IN: NEXT 2
+22/01/16_11:30:36: Tiles in pool: 89
+
+22/01/16_11:30:36: IN: NEW O*
+22/01/16_11:30:36: IN: TURN 2 Bs 92 94
+22/01/16_11:30:37: It is now bot's turn.
+
+22/01/16_11:30:37: IN: NEXT 1
+22/01/16_11:30:37: bot's score is: 9
+22/01/16_11:30:37: bot's score is: 8
+22/01/16_11:30:37: 
+bot just made the following move: [[Bo, 92, 95]]
+
+22/01/16_11:30:37: IN: TURN 1 Bo 92 95
+22/01/16_11:30:37: bot's score is: 9
+22/01/16_11:30:37: bot's score is: 8
+22/01/16_11:30:37: 
+It is your turn!
+22/01/16_11:30:37: 
+What is your action?
+22/01/16_11:30:37: bot's score is: 9
+22/01/16_11:30:37: bot's score is: 8
+22/01/16_11:30:37: 
+What is your action?
+22/01/16_11:30:37: bot's score is: 9
+22/01/16_11:30:37: bot's score is: 8
+22/01/16_11:30:37: 
+What is your action?
+22/01/16_11:30:37: bot's score is: 9
+22/01/16_11:30:37: bot's score is: 8
+22/01/16_11:30:37: 
+What is your action?
+22/01/16_11:30:37: bot's score is: 9
+22/01/16_11:30:37: bot's score is: 8
+22/01/16_11:30:37: OUT: MOVE O* 91 90 Y* 90 90 R* 89 90 
+22/01/16_11:30:37: IN: NEXT 2
+22/01/16_11:30:37: Tiles in pool: 85
+
+22/01/16_11:30:37: IN: NEW Bd Go Bs
+22/01/16_11:30:37: IN: TURN 2 O* 91 90 Y* 90 90 R* 89 90
+22/01/16_11:30:37: It is now bot's turn.
+
+22/01/16_11:30:37: IN: NEXT 1
+22/01/16_11:30:37: bot's score is: 11
+22/01/16_11:30:37: bot's score is: 16
+22/01/16_11:30:37: 
+bot just made the following move: [[Yc, 92, 91]]
+
+22/01/16_11:30:37: IN: TURN 1 Yc 92 91
+22/01/16_11:30:37: bot's score is: 11
+22/01/16_11:30:37: bot's score is: 16
+22/01/16_11:30:37: 
+It is your turn!
+22/01/16_11:30:37: 
+What is your action?
+22/01/16_11:30:37: bot's score is: 11
+22/01/16_11:30:37: bot's score is: 16
+22/01/16_11:30:37: 
+What is your action?
+22/01/16_11:30:37: bot's score is: 11
+22/01/16_11:30:37: bot's score is: 16
+22/01/16_11:30:37: 
+What is your action?
+22/01/16_11:30:37: bot's score is: 11
+22/01/16_11:30:37: bot's score is: 16
+22/01/16_11:30:37: OUT: MOVE Bd 92 96 Gd 93 96 
+22/01/16_11:30:37: IN: NEXT 2
+22/01/16_11:30:37: Tiles in pool: 82
+
+22/01/16_11:30:37: IN: NEW Gs Oc
+22/01/16_11:30:37: IN: TURN 2 Bd 92 96 Gd 93 96
+22/01/16_11:30:37: It is now bot's turn.
+
+22/01/16_11:30:37: IN: NEXT 1
+22/01/16_11:30:38: bot's score is: 14
+22/01/16_11:30:38: bot's score is: 21
+22/01/16_11:30:38: 
+bot just made the following move: [[Ps, 93, 94]]
+
+22/01/16_11:30:38: IN: TURN 1 Ps 93 94
+22/01/16_11:30:38: bot's score is: 14
+22/01/16_11:30:38: bot's score is: 21
+22/01/16_11:30:38: 
+It is your turn!
+22/01/16_11:30:38: 
+What is your action?
+22/01/16_11:30:38: bot's score is: 14
+22/01/16_11:30:38: bot's score is: 21
+22/01/16_11:30:38: 
+What is your action?
+22/01/16_11:30:38: bot's score is: 14
+22/01/16_11:30:38: bot's score is: 21
+22/01/16_11:30:38: 
+What is your action?
+22/01/16_11:30:38: bot's score is: 14
+22/01/16_11:30:38: bot's score is: 21
+22/01/16_11:30:38: OUT: MOVE Gs 94 94 Go 94 93 
+22/01/16_11:30:38: IN: NEXT 2
+22/01/16_11:30:38: Tiles in pool: 79
+
+22/01/16_11:30:38: IN: NEW Po Bo
+22/01/16_11:30:38: IN: TURN 2 Gs 94 94 Go 94 93
+22/01/16_11:30:38: It is now bot's turn.
+
+22/01/16_11:30:38: IN: NEXT 1
+22/01/16_11:30:38: bot's score is: 16
+22/01/16_11:30:38: bot's score is: 27
+22/01/16_11:30:38: 
+bot just made the following move: [[Yc, 90, 89]]
+
+22/01/16_11:30:38: IN: TURN 1 Yc 90 89
+22/01/16_11:30:38: bot's score is: 16
+22/01/16_11:30:38: bot's score is: 27
+22/01/16_11:30:38: 
+It is your turn!
+22/01/16_11:30:38: 
+What is your action?
+22/01/16_11:30:38: bot's score is: 16
+22/01/16_11:30:38: bot's score is: 27
+22/01/16_11:30:38: 
+What is your action?
+22/01/16_11:30:38: bot's score is: 16
+22/01/16_11:30:38: bot's score is: 27
+22/01/16_11:30:38: OUT: MOVE Oc 92 92 
+22/01/16_11:30:38: IN: NEXT 2
+22/01/16_11:30:38: Tiles in pool: 77
+
+22/01/16_11:30:38: IN: NEW Bs
+22/01/16_11:30:38: IN: TURN 2 Oc 92 92
+22/01/16_11:30:38: It is now bot's turn.
+
+22/01/16_11:30:38: IN: NEXT 1
+22/01/16_11:30:39: bot's score is: 19
+22/01/16_11:30:39: bot's score is: 32
+22/01/16_11:30:39: 
+bot just made the following move: [[Gc, 94, 95]]
+
+22/01/16_11:30:39: IN: TURN 1 Gc 94 95
+22/01/16_11:30:39: bot's score is: 19
+22/01/16_11:30:39: bot's score is: 32
+22/01/16_11:30:39: 
+It is your turn!
+22/01/16_11:30:39: 
+What is your action?
+22/01/16_11:30:39: bot's score is: 19
+22/01/16_11:30:39: bot's score is: 32
+22/01/16_11:30:39: 
+What is your action?
+22/01/16_11:30:39: bot's score is: 19
+22/01/16_11:30:39: bot's score is: 32
+22/01/16_11:30:39: OUT: MOVE Po 93 93 
+22/01/16_11:30:39: IN: NEXT 2
+22/01/16_11:30:39: Tiles in pool: 75
+
+22/01/16_11:30:39: IN: NEW Px
+22/01/16_11:30:39: IN: TURN 2 Po 93 93
+22/01/16_11:30:39: It is now bot's turn.
+
+22/01/16_11:30:39: IN: NEXT 1
+22/01/16_11:30:39: bot's score is: 21
+22/01/16_11:30:39: bot's score is: 36
+22/01/16_11:30:39: 
+bot just made the following move: [[Pd, 93, 97]]
+
+22/01/16_11:30:39: IN: TURN 1 Pd 93 97
+22/01/16_11:30:39: bot's score is: 21
+22/01/16_11:30:39: bot's score is: 36
+22/01/16_11:30:39: 
+It is your turn!
+22/01/16_11:30:39: 
+What is your action?
+22/01/16_11:30:39: bot's score is: 21
+22/01/16_11:30:39: bot's score is: 36
+22/01/16_11:30:39: 
+What is your action?
+22/01/16_11:30:39: bot's score is: 21
+22/01/16_11:30:39: bot's score is: 36
+22/01/16_11:30:39: 
+What is your action?
+22/01/16_11:30:39: bot's score is: 21
+22/01/16_11:30:39: bot's score is: 36
+22/01/16_11:30:39: OUT: MOVE Yx 90 88 Px 91 88 
+22/01/16_11:30:39: IN: NEXT 2
+22/01/16_11:30:39: Tiles in pool: 72
+
+22/01/16_11:30:39: IN: NEW G* Bx
+22/01/16_11:30:39: IN: TURN 2 Yx 90 88 Px 91 88
+22/01/16_11:30:39: It is now bot's turn.
+
+22/01/16_11:30:39: IN: NEXT 1
+22/01/16_11:30:40: bot's score is: 24
+22/01/16_11:30:40: bot's score is: 41
+22/01/16_11:30:40: 
+bot just made the following move: [[Gc, 93, 91]]
+
+22/01/16_11:30:40: IN: TURN 1 Gc 93 91
+22/01/16_11:30:40: bot's score is: 24
+22/01/16_11:30:40: bot's score is: 41
+22/01/16_11:30:40: 
+It is your turn!
+22/01/16_11:30:40: 
+What is your action?
+22/01/16_11:30:40: bot's score is: 24
+22/01/16_11:30:40: bot's score is: 41
+22/01/16_11:30:40: 
+What is your action?
+22/01/16_11:30:40: bot's score is: 24
+22/01/16_11:30:40: bot's score is: 41
+22/01/16_11:30:40: 
+What is your action?
+22/01/16_11:30:40: bot's score is: 24
+22/01/16_11:30:40: bot's score is: 41
+22/01/16_11:30:40: 
+What is your action?
+22/01/16_11:30:40: bot's score is: 24
+22/01/16_11:30:40: bot's score is: 41
+22/01/16_11:30:40: OUT: MOVE Bx 89 88 Bs 89 87 Bo 89 86 
+22/01/16_11:30:40: IN: NEXT 2
+22/01/16_11:30:40: Tiles in pool: 68
+
+22/01/16_11:30:40: IN: NEW Pd Go Yd
+22/01/16_11:30:40: IN: TURN 2 Bx 89 88 Bs 89 87 Bo 89 86
+22/01/16_11:30:40: It is now bot's turn.
+
+22/01/16_11:30:40: IN: NEXT 1
+22/01/16_11:30:40: bot's score is: 27
+22/01/16_11:30:40: bot's score is: 47
+22/01/16_11:30:40: 
+bot just made the following move: [[Oo, 95, 93]]
+
+22/01/16_11:30:40: IN: TURN 1 Oo 95 93
+22/01/16_11:30:40: bot's score is: 27
+22/01/16_11:30:40: bot's score is: 47
+22/01/16_11:30:40: 
+It is your turn!
+22/01/16_11:30:40: 
+What is your action?
+22/01/16_11:30:40: bot's score is: 27
+22/01/16_11:30:40: bot's score is: 47
+22/01/16_11:30:40: 
+What is your action?
+22/01/16_11:30:40: bot's score is: 27
+22/01/16_11:30:40: bot's score is: 47
+22/01/16_11:30:40: 
+What is your action?
+22/01/16_11:30:40: bot's score is: 27
+22/01/16_11:30:40: bot's score is: 47
+22/01/16_11:30:40: OUT: MOVE Go 95 92 G* 94 92 
+22/01/16_11:30:40: IN: NEXT 2
+22/01/16_11:30:40: Tiles in pool: 65
+
+22/01/16_11:30:40: IN: NEW Bc Ys
+22/01/16_11:30:40: IN: TURN 2 Go 95 92 G* 94 92
+22/01/16_11:30:41: It is now bot's turn.
+
+22/01/16_11:30:41: IN: NEXT 1
+22/01/16_11:30:41: bot's score is: 29
+22/01/16_11:30:41: bot's score is: 55
+22/01/16_11:30:41: 
+bot just made the following move: [[B*, 89, 91]]
+
+22/01/16_11:30:41: IN: TURN 1 B* 89 91
+22/01/16_11:30:41: bot's score is: 29
+22/01/16_11:30:41: bot's score is: 55
+22/01/16_11:30:41: 
+It is your turn!
+22/01/16_11:30:41: 
+What is your action?
+22/01/16_11:30:41: bot's score is: 29
+22/01/16_11:30:41: bot's score is: 55
+22/01/16_11:30:41: 
+What is your action?
+22/01/16_11:30:41: bot's score is: 29
+22/01/16_11:30:41: bot's score is: 55
+22/01/16_11:30:41: 
+What is your action?
+22/01/16_11:30:41: bot's score is: 29
+22/01/16_11:30:41: bot's score is: 55
+22/01/16_11:30:41: OUT: MOVE Bc 89 85 Bs 90 85 
+22/01/16_11:30:41: IN: NEXT 2
+22/01/16_11:30:41: Tiles in pool: 62
+
+22/01/16_11:30:41: IN: NEW Gc Bc
+22/01/16_11:30:41: IN: TURN 2 Bc 89 85 Bs 90 85
+22/01/16_11:30:41: It is now bot's turn.
+
+22/01/16_11:30:41: IN: NEXT 1
+22/01/16_11:30:41: bot's score is: 31
+22/01/16_11:30:41: bot's score is: 61
+22/01/16_11:30:41: 
+bot just made the following move: [[Px, 94, 97]]
+
+22/01/16_11:30:41: IN: TURN 1 Px 94 97
+22/01/16_11:30:41: bot's score is: 31
+22/01/16_11:30:41: bot's score is: 61
+22/01/16_11:30:41: 
+It is your turn!
+22/01/16_11:30:41: 
+What is your action?
+22/01/16_11:30:41: bot's score is: 31
+22/01/16_11:30:41: bot's score is: 61
+22/01/16_11:30:41: 
+What is your action?
+22/01/16_11:30:41: bot's score is: 31
+22/01/16_11:30:41: bot's score is: 61
+22/01/16_11:30:41: 
+What is your action?
+22/01/16_11:30:42: bot's score is: 31
+22/01/16_11:30:42: bot's score is: 61
+22/01/16_11:30:42: 
+What is your action?
+22/01/16_11:30:42: bot's score is: 31
+22/01/16_11:30:42: bot's score is: 61
+22/01/16_11:30:42: OUT: MOVE Yd 93 98 Yx 94 98 Ys 95 98 
+22/01/16_11:30:42: IN: NEXT 2
+22/01/16_11:30:42: Tiles in pool: 58
+
+22/01/16_11:30:42: IN: NEW R* Oc Pd
+22/01/16_11:30:42: IN: TURN 2 Yd 93 98 Yx 94 98 Ys 95 98
+22/01/16_11:30:42: It is now bot's turn.
+
+22/01/16_11:30:42: IN: NEXT 1
+22/01/16_11:30:42: bot's score is: 35
+22/01/16_11:30:42: bot's score is: 69
+22/01/16_11:30:42: 
+bot just made the following move: [[Ro, 96, 93]]
+
+22/01/16_11:30:42: IN: TURN 1 Ro 96 93
+22/01/16_11:30:42: bot's score is: 35
+22/01/16_11:30:42: bot's score is: 69
+22/01/16_11:30:42: 
+It is your turn!
+22/01/16_11:30:42: 
+What is your action?
+22/01/16_11:30:42: bot's score is: 35
+22/01/16_11:30:42: bot's score is: 69
+22/01/16_11:30:42: 
+What is your action?
+22/01/16_11:30:42: bot's score is: 35
+22/01/16_11:30:42: bot's score is: 69
+22/01/16_11:30:42: 
+What is your action?
+22/01/16_11:30:42: bot's score is: 35
+22/01/16_11:30:42: bot's score is: 69
+22/01/16_11:30:42: 
+What is your action?
+22/01/16_11:30:42: bot's score is: 35
+22/01/16_11:30:42: bot's score is: 69
+22/01/16_11:30:42: OUT: MOVE Oc 89 93 Bc 89 94 Gc 89 95 
+22/01/16_11:30:42: IN: NEXT 2
+22/01/16_11:30:42: Tiles in pool: 54
+
+22/01/16_11:30:42: IN: NEW Px Ys B*
+22/01/16_11:30:42: IN: TURN 2 Oc 89 93 Bc 89 94 Gc 89 95
+22/01/16_11:30:42: It is now bot's turn.
+
+22/01/16_11:30:42: IN: NEXT 1
+22/01/16_11:30:42: bot's score is: 38
+22/01/16_11:30:42: bot's score is: 75
+22/01/16_11:30:42: 
+bot just made the following move: [[Ro, 95, 91]]
+
+22/01/16_11:30:42: IN: TURN 1 Ro 95 91
+22/01/16_11:30:42: bot's score is: 38
+22/01/16_11:30:42: bot's score is: 75
+22/01/16_11:30:42: 
+It is your turn!
+22/01/16_11:30:42: 
+What is your action?
+22/01/16_11:30:42: bot's score is: 38
+22/01/16_11:30:42: bot's score is: 75
+22/01/16_11:30:42: 
+What is your action?
+22/01/16_11:30:42: bot's score is: 38
+22/01/16_11:30:42: bot's score is: 75
+22/01/16_11:30:43: 
+What is your action?
+22/01/16_11:30:43: bot's score is: 38
+22/01/16_11:30:43: bot's score is: 75
+22/01/16_11:30:43: OUT: MOVE B* 88 90 R* 88 91 
+22/01/16_11:30:43: IN: NEXT 2
+22/01/16_11:30:43: Tiles in pool: 51
+
+22/01/16_11:30:43: IN: NEW Rd Go
+22/01/16_11:30:43: IN: TURN 2 B* 88 90 R* 88 91
+22/01/16_11:30:43: It is now bot's turn.
+
+22/01/16_11:30:43: IN: NEXT 1
+22/01/16_11:30:43: bot's score is: 40
+22/01/16_11:30:43: bot's score is: 83
+22/01/16_11:30:43: 
+bot just made the following move: [[Oo, 96, 94]]
+
+22/01/16_11:30:43: IN: TURN 1 Oo 96 94
+22/01/16_11:30:43: bot's score is: 40
+22/01/16_11:30:43: bot's score is: 83
+22/01/16_11:30:43: 
+It is your turn!
+22/01/16_11:30:43: 
+What is your action?
+22/01/16_11:30:43: bot's score is: 40
+22/01/16_11:30:43: bot's score is: 83
+22/01/16_11:30:43: 
+What is your action?
+22/01/16_11:30:43: bot's score is: 40
+22/01/16_11:30:43: bot's score is: 83
+22/01/16_11:30:43: OUT: MOVE Ys 90 87 
+22/01/16_11:30:43: IN: NEXT 2
+22/01/16_11:30:43: Tiles in pool: 49
+
+22/01/16_11:30:43: IN: NEW B*
+22/01/16_11:30:43: IN: TURN 2 Ys 90 87
+22/01/16_11:30:43: It is now bot's turn.
+
+22/01/16_11:30:43: IN: NEXT 1
+22/01/16_11:30:43: bot's score is: 42
+22/01/16_11:30:43: bot's score is: 89
+22/01/16_11:30:43: 
+bot just made the following move: [[Yc, 95, 99]]
+
+22/01/16_11:30:43: IN: TURN 1 Yc 95 99
+22/01/16_11:30:43: bot's score is: 42
+22/01/16_11:30:43: bot's score is: 89
+22/01/16_11:30:43: 
+It is your turn!
+22/01/16_11:30:43: 
+What is your action?
+22/01/16_11:30:43: bot's score is: 42
+22/01/16_11:30:43: bot's score is: 89
+22/01/16_11:30:43: 
+What is your action?
+22/01/16_11:30:43: bot's score is: 42
+22/01/16_11:30:43: bot's score is: 89
+22/01/16_11:30:43: 
+What is your action?
+22/01/16_11:30:43: bot's score is: 42
+22/01/16_11:30:43: bot's score is: 89
+22/01/16_11:30:43: OUT: MOVE Rd 93 99 Pd 92 99 
+22/01/16_11:30:43: IN: NEXT 2
+22/01/16_11:30:43: Tiles in pool: 46
+
+22/01/16_11:30:43: IN: NEW Bx Rx
+22/01/16_11:30:43: IN: TURN 2 Rd 93 99 Pd 92 99
+22/01/16_11:30:44: It is now bot's turn.
+
+22/01/16_11:30:44: IN: NEXT 1
+22/01/16_11:30:44: bot's score is: 44
+22/01/16_11:30:44: bot's score is: 95
+22/01/16_11:30:44: 
+bot just made the following move: [[Rc, 96, 99]]
+
+22/01/16_11:30:44: IN: TURN 1 Rc 96 99
+22/01/16_11:30:44: bot's score is: 44
+22/01/16_11:30:44: bot's score is: 95
+22/01/16_11:30:44: 
+It is your turn!
+22/01/16_11:30:44: 
+What is your action?
+22/01/16_11:30:44: bot's score is: 44
+22/01/16_11:30:44: bot's score is: 95
+22/01/16_11:30:44: 
+What is your action?
+22/01/16_11:30:44: bot's score is: 44
+22/01/16_11:30:44: bot's score is: 95
+22/01/16_11:30:44: 
+What is your action?
+22/01/16_11:30:44: bot's score is: 44
+22/01/16_11:30:44: bot's score is: 95
+22/01/16_11:30:44: OUT: MOVE B* 89 84 Bx 90 84 
+22/01/16_11:30:44: IN: NEXT 2
+22/01/16_11:30:44: Tiles in pool: 43
+
+22/01/16_11:30:44: IN: NEW Yd Rc
+22/01/16_11:30:44: IN: TURN 2 B* 89 84 Bx 90 84
+22/01/16_11:30:44: It is now bot's turn.
+
+22/01/16_11:30:44: IN: NEXT 1
+22/01/16_11:30:44: bot's score is: 46
+22/01/16_11:30:44: bot's score is: 104
+22/01/16_11:30:44: 
+bot just made the following move: [[Pc, 96, 100]]
+
+22/01/16_11:30:44: IN: TURN 1 Pc 96 100
+22/01/16_11:30:44: bot's score is: 46
+22/01/16_11:30:44: bot's score is: 104
+22/01/16_11:30:44: 
+It is your turn!
+22/01/16_11:30:44: 
+What is your action?
+22/01/16_11:30:44: bot's score is: 46
+22/01/16_11:30:44: bot's score is: 104
+22/01/16_11:30:44: 
+What is your action?
+22/01/16_11:30:45: bot's score is: 46
+22/01/16_11:30:45: bot's score is: 104
+22/01/16_11:30:45: 
+What is your action?
+22/01/16_11:30:45: bot's score is: 46
+22/01/16_11:30:45: bot's score is: 104
+22/01/16_11:30:45: OUT: MOVE Rx 92 88 Px 92 87 
+22/01/16_11:30:45: IN: NEXT 2
+22/01/16_11:30:45: Tiles in pool: 40
+
+22/01/16_11:30:45: IN: NEW Gx G*
+22/01/16_11:30:45: IN: TURN 2 Rx 92 88 Px 92 87
+22/01/16_11:30:45: It is now bot's turn.
+
+22/01/16_11:30:45: IN: NEXT 1
+22/01/16_11:30:45: bot's score is: 48
+22/01/16_11:30:45: bot's score is: 110
+22/01/16_11:30:45: 
+bot just made the following move: [[Po, 97, 100]]
+
+22/01/16_11:30:45: IN: TURN 1 Po 97 100
+22/01/16_11:30:45: bot's score is: 48
+22/01/16_11:30:45: bot's score is: 110
+22/01/16_11:30:45: 
+It is your turn!
+22/01/16_11:30:45: 
+What is your action?
+22/01/16_11:30:45: bot's score is: 48
+22/01/16_11:30:45: bot's score is: 110
+22/01/16_11:30:45: 
+What is your action?
+22/01/16_11:30:46: bot's score is: 48
+22/01/16_11:30:46: bot's score is: 110
+22/01/16_11:30:46: 
+What is your action?
+22/01/16_11:30:46: bot's score is: 48
+22/01/16_11:30:46: bot's score is: 110
+22/01/16_11:30:46: 
+What is your action?
+22/01/16_11:30:46: bot's score is: 48
+22/01/16_11:30:46: bot's score is: 110
+22/01/16_11:30:46: OUT: MOVE G* 93 90 Go 93 89 Gx 93 88 
+22/01/16_11:30:46: IN: NEXT 2
+22/01/16_11:30:46: Tiles in pool: 36
+
+22/01/16_11:30:46: IN: NEW Ro Rs Rc
+22/01/16_11:30:46: IN: TURN 2 G* 93 90 Go 93 89 Gx 93 88
+22/01/16_11:30:46: It is now bot's turn.
+
+22/01/16_11:30:46: IN: NEXT 1
+22/01/16_11:30:46: bot's score is: 51
+22/01/16_11:30:46: bot's score is: 119
+22/01/16_11:30:46: 
+bot just made the following move: [[Po, 96, 95]]
+
+22/01/16_11:30:46: IN: TURN 1 Po 96 95
+22/01/16_11:30:46: bot's score is: 51
+22/01/16_11:30:46: bot's score is: 119
+22/01/16_11:30:46: 
+It is your turn!
+22/01/16_11:30:46: 
+What is your action?
+22/01/16_11:30:46: bot's score is: 51
+22/01/16_11:30:46: bot's score is: 119
+22/01/16_11:30:46: 
+What is your action?
+22/01/16_11:30:47: bot's score is: 51
+22/01/16_11:30:47: bot's score is: 119
+22/01/16_11:30:47: 
+What is your action?
+22/01/16_11:30:47: bot's score is: 51
+22/01/16_11:30:47: bot's score is: 119
+22/01/16_11:30:47: 
+What is your action?
+22/01/16_11:30:47: bot's score is: 51
+22/01/16_11:30:47: bot's score is: 119
+22/01/16_11:30:47: OUT: MOVE Rc 89 96 Rs 88 96 Ro 87 96 
+22/01/16_11:30:47: IN: NEXT 2
+22/01/16_11:30:47: Tiles in pool: 32
+
+22/01/16_11:30:47: IN: NEW Yo Oo Bc
+22/01/16_11:30:47: IN: TURN 2 Rc 89 96 Rs 88 96 Ro 87 96
+22/01/16_11:30:47: It is now bot's turn.
+
+22/01/16_11:30:47: IN: NEXT 1
+22/01/16_11:30:47: bot's score is: 53
+22/01/16_11:30:47: bot's score is: 126
+22/01/16_11:30:47: 
+bot just made the following move: [[Yo, 97, 101]]
+
+22/01/16_11:30:47: IN: TURN 1 Yo 97 101
+22/01/16_11:30:47: bot's score is: 53
+22/01/16_11:30:47: bot's score is: 126
+22/01/16_11:30:47: 
+It is your turn!
+22/01/16_11:30:47: 
+What is your action?
+22/01/16_11:30:47: bot's score is: 53
+22/01/16_11:30:47: bot's score is: 126
+22/01/16_11:30:47: 
+What is your action?
+22/01/16_11:30:47: bot's score is: 53
+22/01/16_11:30:47: bot's score is: 126
+22/01/16_11:30:47: OUT: MOVE Oo 91 95 
+22/01/16_11:30:47: IN: NEXT 2
+22/01/16_11:30:48: Tiles in pool: 30
+
+22/01/16_11:30:48: IN: NEW Gs
+22/01/16_11:30:48: IN: TURN 2 Oo 91 95
+22/01/16_11:30:48: It is now bot's turn.
+
+22/01/16_11:30:48: IN: NEXT 1
+22/01/16_11:30:48: bot's score is: 55
+22/01/16_11:30:48: bot's score is: 140
+22/01/16_11:30:48: 
+bot just made the following move: [[Rs, 96, 91]]
+
+22/01/16_11:30:48: IN: TURN 1 Rs 96 91
+22/01/16_11:30:48: bot's score is: 55
+22/01/16_11:30:48: bot's score is: 140
+22/01/16_11:30:48: 
+It is your turn!
+22/01/16_11:30:48: 
+What is your action?
+22/01/16_11:30:48: bot's score is: 55
+22/01/16_11:30:48: bot's score is: 140
+22/01/16_11:30:48: 
+What is your action?
+22/01/16_11:30:48: bot's score is: 55
+22/01/16_11:30:48: bot's score is: 140
+22/01/16_11:30:48: 
+What is your action?
+22/01/16_11:30:48: bot's score is: 55
+22/01/16_11:30:48: bot's score is: 140
+22/01/16_11:30:48: OUT: MOVE Yd 98 101 Pd 98 100 
+22/01/16_11:30:48: IN: NEXT 2
+22/01/16_11:30:48: Tiles in pool: 27
+
+22/01/16_11:30:48: IN: NEW Ps Pc
+22/01/16_11:30:48: IN: TURN 2 Yd 98 101 Pd 98 100
+22/01/16_11:30:48: It is now bot's turn.
+
+22/01/16_11:30:48: IN: NEXT 1
+22/01/16_11:30:49: bot's score is: 57
+22/01/16_11:30:49: bot's score is: 147
+22/01/16_11:30:49: 
+bot just made the following move: [[Rx, 96, 90]]
+
+22/01/16_11:30:49: IN: TURN 1 Rx 96 90
+22/01/16_11:30:49: bot's score is: 57
+22/01/16_11:30:49: bot's score is: 147
+22/01/16_11:30:49: 
+It is your turn!
+22/01/16_11:30:49: 
+What is your action?
+22/01/16_11:30:49: bot's score is: 57
+22/01/16_11:30:49: bot's score is: 147
+22/01/16_11:30:49: 
+What is your action?
+22/01/16_11:30:49: bot's score is: 57
+22/01/16_11:30:49: bot's score is: 147
+22/01/16_11:30:49: 
+What is your action?
+22/01/16_11:30:49: bot's score is: 57
+22/01/16_11:30:49: bot's score is: 147
+22/01/16_11:30:49: 
+What is your action?
+22/01/16_11:30:49: bot's score is: 57
+22/01/16_11:30:49: bot's score is: 147
+22/01/16_11:30:49: OUT: MOVE Rc 88 97 Pc 89 97 Bc 90 97 
+22/01/16_11:30:49: IN: NEXT 2
+22/01/16_11:30:49: Tiles in pool: 23
+
+22/01/16_11:30:49: IN: NEW Ps Gd Bo
+22/01/16_11:30:49: IN: TURN 2 Rc 88 97 Pc 89 97 Bc 90 97
+22/01/16_11:30:49: It is now bot's turn.
+
+22/01/16_11:30:49: IN: NEXT 1
+22/01/16_11:30:50: bot's score is: 59
+22/01/16_11:30:50: bot's score is: 157
+22/01/16_11:30:50: 
+bot just made the following move: [[Os, 97, 94]]
+
+22/01/16_11:30:50: IN: TURN 1 Os 97 94
+22/01/16_11:30:50: bot's score is: 59
+22/01/16_11:30:50: bot's score is: 157
+22/01/16_11:30:50: 
+It is your turn!
+22/01/16_11:30:50: 
+What is your action?
+22/01/16_11:30:50: bot's score is: 59
+22/01/16_11:30:50: bot's score is: 157
+22/01/16_11:30:50: 
+What is your action?
+22/01/16_11:30:50: bot's score is: 59
+22/01/16_11:30:50: bot's score is: 157
+22/01/16_11:30:50: 
+What is your action?
+22/01/16_11:30:50: bot's score is: 59
+22/01/16_11:30:50: bot's score is: 157
+22/01/16_11:30:50: OUT: MOVE Yo 88 86 Bo 88 85 
+22/01/16_11:30:50: IN: NEXT 2
+22/01/16_11:30:50: Tiles in pool: 20
+
+22/01/16_11:30:50: IN: NEW O* Bx
+22/01/16_11:30:50: IN: TURN 2 Yo 88 86 Bo 88 85
+22/01/16_11:30:51: It is now bot's turn.
+
+22/01/16_11:30:51: IN: NEXT 1
+22/01/16_11:30:51: bot's score is: 62
+22/01/16_11:30:51: bot's score is: 164
+22/01/16_11:30:51: 
+bot just made the following move: [[Rx, 97, 91]]
+
+22/01/16_11:30:51: IN: TURN 1 Rx 97 91
+22/01/16_11:30:51: bot's score is: 62
+22/01/16_11:30:51: bot's score is: 164
+22/01/16_11:30:51: 
+It is your turn!
+22/01/16_11:30:51: 
+What is your action?
+22/01/16_11:30:51: bot's score is: 62
+22/01/16_11:30:51: bot's score is: 164
+22/01/16_11:30:51: 
+What is your action?
+22/01/16_11:30:51: bot's score is: 62
+22/01/16_11:30:51: bot's score is: 164
+22/01/16_11:30:51: 
+What is your action?
+22/01/16_11:30:51: bot's score is: 62
+22/01/16_11:30:51: bot's score is: 164
+22/01/16_11:30:51: OUT: MOVE Ps 99 100 Gs 99 99 
+22/01/16_11:30:51: IN: NEXT 2
+22/01/16_11:30:51: Tiles in pool: 17
+
+22/01/16_11:30:51: IN: NEW Od Gx
+22/01/16_11:30:51: IN: TURN 2 Ps 99 100 Gs 99 99
+22/01/16_11:30:51: It is now bot's turn.
+
+22/01/16_11:30:51: IN: NEXT 1
+22/01/16_11:30:52: bot's score is: 67
+22/01/16_11:30:52: bot's score is: 170
+22/01/16_11:30:52: 
+bot just made the following move: [[P*, 100, 100]]
+
+22/01/16_11:30:52: IN: TURN 1 P* 100 100
+22/01/16_11:30:52: bot's score is: 67
+22/01/16_11:30:52: bot's score is: 170
+22/01/16_11:30:52: 
+It is your turn!
+22/01/16_11:30:52: 
+What is your action?
+22/01/16_11:30:52: bot's score is: 67
+22/01/16_11:30:52: bot's score is: 170
+22/01/16_11:30:52: 
+What is your action?
+22/01/16_11:30:52: bot's score is: 67
+22/01/16_11:30:52: bot's score is: 170
+22/01/16_11:30:52: 
+What is your action?
+22/01/16_11:30:52: bot's score is: 67
+22/01/16_11:30:52: bot's score is: 170
+22/01/16_11:30:52: OUT: MOVE Od 93 100 Gd 92 100 
+22/01/16_11:30:52: IN: NEXT 2
+22/01/16_11:30:52: Tiles in pool: 14
+
+22/01/16_11:30:52: IN: NEW Bd Rs
+22/01/16_11:30:52: IN: TURN 2 Od 93 100 Gd 92 100
+22/01/16_11:30:52: It is now bot's turn.
+
+22/01/16_11:30:52: IN: NEXT 1
+22/01/16_11:30:54: bot's score is: 69
+22/01/16_11:30:54: bot's score is: 179
+22/01/16_11:30:54: 
+bot just made the following move: [[Gs, 94, 90]]
+
+22/01/16_11:30:54: IN: TURN 1 Gs 94 90
+22/01/16_11:30:54: bot's score is: 69
+22/01/16_11:30:54: bot's score is: 179
+22/01/16_11:30:54: 
+It is your turn!
+22/01/16_11:30:54: 
+What is your action?
+22/01/16_11:30:54: bot's score is: 69
+22/01/16_11:30:54: bot's score is: 179
+22/01/16_11:30:54: 
+What is your action?
+22/01/16_11:30:54: bot's score is: 69
+22/01/16_11:30:54: bot's score is: 179
+22/01/16_11:30:54: 
+What is your action?
+22/01/16_11:30:54: bot's score is: 69
+22/01/16_11:30:54: bot's score is: 179
+22/01/16_11:30:54: OUT: MOVE Bd 89 83 Bx 88 83 
+22/01/16_11:30:54: IN: NEXT 2
+22/01/16_11:30:54: Tiles in pool: 11
+
+22/01/16_11:30:54: IN: NEW Gx Ys
+22/01/16_11:30:54: IN: TURN 2 Bd 89 83 Bx 88 83
+22/01/16_11:30:54: It is now bot's turn.
+
+22/01/16_11:30:54: IN: NEXT 1
+22/01/16_11:30:54: bot's score is: 72
+22/01/16_11:30:54: bot's score is: 193
+22/01/16_11:30:54: 
+bot just made the following move: [[P*, 88, 92]]
+
+22/01/16_11:30:54: IN: TURN 1 P* 88 92
+22/01/16_11:30:55: bot's score is: 72
+22/01/16_11:30:55: bot's score is: 193
+22/01/16_11:30:55: 
+It is your turn!
+22/01/16_11:30:55: 
+What is your action?
+22/01/16_11:30:55: bot's score is: 72
+22/01/16_11:30:55: bot's score is: 193
+22/01/16_11:30:55: 
+What is your action?
+22/01/16_11:30:55: bot's score is: 72
+22/01/16_11:30:55: bot's score is: 193
+22/01/16_11:30:55: OUT: MOVE O* 88 93 
+22/01/16_11:30:55: IN: NEXT 2
+22/01/16_11:30:55: Tiles in pool: 9
+
+22/01/16_11:30:55: IN: NEW Yx
+22/01/16_11:30:55: IN: TURN 2 O* 88 93
+22/01/16_11:30:55: It is now bot's turn.
+
+22/01/16_11:30:55: IN: NEXT 1
+22/01/16_11:30:55: bot's score is: 74
+22/01/16_11:30:55: bot's score is: 201
+22/01/16_11:30:55: 
+bot just made the following move: [[G*, 100, 101]]
+
+22/01/16_11:30:55: IN: TURN 1 G* 100 101
+22/01/16_11:30:55: bot's score is: 74
+22/01/16_11:30:55: bot's score is: 201
+22/01/16_11:30:55: 
+It is your turn!
+22/01/16_11:30:55: 
+What is your action?
+22/01/16_11:30:56: bot's score is: 74
+22/01/16_11:30:56: bot's score is: 201
+22/01/16_11:30:56: 
+What is your action?
+22/01/16_11:30:56: bot's score is: 74
+22/01/16_11:30:56: bot's score is: 201
+22/01/16_11:30:56: 
+What is your action?
+22/01/16_11:30:56: bot's score is: 74
+22/01/16_11:30:56: bot's score is: 201
+22/01/16_11:30:56: 
+What is your action?
+22/01/16_11:30:56: bot's score is: 74
+22/01/16_11:30:56: bot's score is: 201
+22/01/16_11:30:56: OUT: MOVE Rs 99 98 Ps 98 98 Ys 97 98 
+22/01/16_11:30:56: IN: NEXT 2
+22/01/16_11:30:56: Tiles in pool: 5
+
+22/01/16_11:30:56: IN: NEW Pc Yd Y*
+22/01/16_11:30:56: IN: TURN 2 Rs 99 98 Ps 98 98 Ys 97 98
+22/01/16_11:30:56: It is now bot's turn.
+
+22/01/16_11:30:56: IN: NEXT 1
+22/01/16_11:30:56: bot's score is: 77
+22/01/16_11:30:56: bot's score is: 207
+22/01/16_11:30:56: 
+bot just made the following move: [[Bd, 98, 102]]
+
+22/01/16_11:30:56: IN: TURN 1 Bd 98 102
+22/01/16_11:30:56: bot's score is: 77
+22/01/16_11:30:56: bot's score is: 207
+22/01/16_11:30:56: 
+It is your turn!
+22/01/16_11:30:56: 
+What is your action?
+22/01/16_11:30:57: bot's score is: 77
+22/01/16_11:30:57: bot's score is: 207
+22/01/16_11:30:57: 
+What is your action?
+22/01/16_11:30:57: bot's score is: 77
+22/01/16_11:30:57: bot's score is: 207
+22/01/16_11:30:57: 
+What is your action?
+22/01/16_11:30:57: bot's score is: 77
+22/01/16_11:30:57: bot's score is: 207
+22/01/16_11:30:57: 
+What is your action?
+22/01/16_11:30:57: bot's score is: 77
+22/01/16_11:30:57: bot's score is: 207
+22/01/16_11:30:57: OUT: MOVE Y* 88 89 Yd 87 89 Yx 86 89 
+22/01/16_11:30:57: IN: NEXT 2
+22/01/16_11:30:57: Tiles in pool: 1
+
+22/01/16_11:30:57: IN: NEW Ox Rd Rd
+22/01/16_11:30:57: IN: TURN 2 Y* 88 89 Yd 87 89 Yx 86 89
+22/01/16_11:30:57: It is now bot's turn.
+
+22/01/16_11:30:57: IN: NEXT 1
+22/01/16_11:30:58: bot's score is: 79
+22/01/16_11:30:58: bot's score is: 215
+22/01/16_11:30:58: 
+bot just made the following move: [[Yo, 97, 97]]
+
+22/01/16_11:30:58: IN: TURN 1 Yo 97 97
+22/01/16_11:30:58: bot's score is: 79
+22/01/16_11:30:58: bot's score is: 215
+22/01/16_11:30:58: 
+It is your turn!
+22/01/16_11:30:58: 
+What is your action?
+22/01/16_11:30:58: bot's score is: 79
+22/01/16_11:30:58: bot's score is: 215
+22/01/16_11:30:58: 
+What is your action?
+22/01/16_11:30:58: bot's score is: 79
+22/01/16_11:30:58: bot's score is: 215
+22/01/16_11:30:58: 
+What is your action?
+22/01/16_11:30:58: bot's score is: 79
+22/01/16_11:30:58: bot's score is: 215
+22/01/16_11:30:58: OUT: MOVE Ox 94 88 Gx 94 87 
+22/01/16_11:30:58: IN: NEXT 2
+22/01/16_11:30:58: There are no tiles left in the pool.
+
+22/01/16_11:30:58: IN: NEW empty
+22/01/16_11:30:58: IN: TURN 2 Ox 94 88 Gx 94 87
+22/01/16_11:30:58: It is now bot's turn.
+
+22/01/16_11:30:58: IN: NEXT 1
+22/01/16_11:30:59: bot's score is: 82
+22/01/16_11:30:59: bot's score is: 229
+22/01/16_11:30:59: 
+bot just made the following move: [[O*, 100, 102]]
+
+22/01/16_11:30:59: IN: TURN 1 O* 100 102
+22/01/16_11:30:59: bot's score is: 82
+22/01/16_11:30:59: bot's score is: 229
+22/01/16_11:30:59: 
+It is your turn!
+22/01/16_11:30:59: 
+What is your action?
+22/01/16_11:30:59: bot's score is: 82
+22/01/16_11:30:59: bot's score is: 229
+22/01/16_11:30:59: 
+What is your action?
+22/01/16_11:30:59: bot's score is: 82
+22/01/16_11:30:59: bot's score is: 229
+22/01/16_11:30:59: OUT: MOVE Gx 92 89 
+22/01/16_11:30:59: IN: NEXT 2
+22/01/16_11:30:59: There are no tiles left in the pool.
+
+22/01/16_11:30:59: IN: NEW empty
+22/01/16_11:30:59: IN: TURN 2 Gx 92 89
+22/01/16_11:31:00: It is now bot's turn.
+
+22/01/16_11:31:00: IN: NEXT 1
+22/01/16_11:31:00: bot's score is: 86
+22/01/16_11:31:00: bot's score is: 234
+22/01/16_11:31:00: 
+bot just made the following move: [[R*, 100, 103]]
+
+22/01/16_11:31:00: IN: TURN 1 R* 100 103
+22/01/16_11:31:00: bot's score is: 86
+22/01/16_11:31:00: bot's score is: 234
+22/01/16_11:31:00: 
+It is your turn!
+22/01/16_11:31:00: 
+What is your action?
+22/01/16_11:31:00: bot's score is: 86
+22/01/16_11:31:00: bot's score is: 234
+22/01/16_11:31:00: 
+What is your action?
+22/01/16_11:31:00: bot's score is: 86
+22/01/16_11:31:00: bot's score is: 234
+22/01/16_11:31:00: OUT: MOVE Rd 98 103 
+22/01/16_11:31:00: IN: NEXT 2
+22/01/16_11:31:00: There are no tiles left in the pool.
+
+22/01/16_11:31:00: IN: NEW empty
+22/01/16_11:31:00: IN: TURN 2 Rd 98 103
+22/01/16_11:31:00: It is now bot's turn.
+
+22/01/16_11:31:00: IN: NEXT 1
+22/01/16_11:31:01: bot's score is: 88
+22/01/16_11:31:01: bot's score is: 238
+22/01/16_11:31:01: 
+bot just made the following move: [[P*, 101, 103]]
+
+22/01/16_11:31:01: IN: TURN 1 P* 101 103
+22/01/16_11:31:01: bot's score is: 88
+22/01/16_11:31:01: bot's score is: 238
+22/01/16_11:31:01: 
+It is your turn!
+22/01/16_11:31:01: 
+What is your action?
+22/01/16_11:31:01: bot's score is: 88
+22/01/16_11:31:01: bot's score is: 238
+22/01/16_11:31:01: 
+What is your action?
+22/01/16_11:31:01: bot's score is: 88
+22/01/16_11:31:01: bot's score is: 238
+22/01/16_11:31:01: OUT: MOVE Rd 86 96 
+22/01/16_11:31:01: IN: NEXT 2
+22/01/16_11:31:01: There are no tiles left in the pool.
+
+22/01/16_11:31:01: IN: NEW empty
+22/01/16_11:31:01: IN: TURN 2 Rd 86 96
+22/01/16_11:31:01: It is now bot's turn.
+
+22/01/16_11:31:01: IN: NEXT 1
+22/01/16_11:31:01: bot's score is: 90
+22/01/16_11:31:01: bot's score is: 242
+22/01/16_11:31:01: 
+bot just made the following move: [[Gd, 101, 101]]
+
+22/01/16_11:31:01: IN: TURN 1 Gd 101 101
+22/01/16_11:31:02: bot's score is: 90
+22/01/16_11:31:02: bot's score is: 242
+22/01/16_11:31:02: 
+It is your turn!
+22/01/16_11:31:02: 
+What is your action?
+22/01/16_11:31:02: bot's score is: 90
+22/01/16_11:31:02: bot's score is: 242
+22/01/16_11:31:02: 
+What is your action?
+22/01/16_11:31:02: bot's score is: 90
+22/01/16_11:31:02: bot's score is: 242
+22/01/16_11:31:02: OUT: MOVE Pc 87 92 
+22/01/16_11:31:02: IN: NEXT 2
+22/01/16_11:31:02: There are no tiles left in the pool.
+
+22/01/16_11:31:02: IN: NEW empty
+22/01/16_11:31:02: IN: TURN 2 Pc 87 92
+22/01/16_11:31:02: bot's score is: 90
+22/01/16_11:31:02: bot's score is: 244
+22/01/16_11:31:02: The winner is... bot!
+
+22/01/16_11:31:02: Would you like to play another game? Y/N
+22/01/16_11:31:23: 
+ Naive: 'n', Smart: 's'
+22/01/16_11:31:25: 
+Checking host... 
+22/01/16_11:31:25: Host accepted.
+22/01/16_11:31:25: Checking port... 
+22/01/16_11:31:25: Port accepted.
+22/01/16_11:31:25: Creating client... 
+22/01/16_11:31:25: Client bot created
+22/01/16_11:31:25: Starting client... 
+22/01/16_11:31:25: Client started.
+22/01/16_11:31:25: Sending registration message... 
+22/01/16_11:31:25: OUT: HELLO bot
+22/01/16_11:31:25: Registration message send.
+22/01/16_11:31:25: Waiting for welcome message... 
+22/01/16_11:31:25: Closing socket connection from previous game...
+22/01/16_11:31:25: IN: WINNER 2
+22/01/16_11:31:25: Previous game will now exit.
+22/01/16_11:31:25: Welcome message received.
+22/01/16_11:31:25: Waiting for other players to connect...
+22/01/16_11:31:25: IN: WELCOME bot 2
+22/01/16_11:31:25: Players participating: [Player 1: bot, Player 2: bot]
+
+22/01/16_11:31:25: AITime: 999999
+
+22/01/16_11:31:25: IN: NAMES bot 1 bot 2 999999
+22/01/16_11:31:25: bot's score is: 0
+22/01/16_11:31:25: bot's score is: 3
+22/01/16_11:31:25: IN: TURN 2 Gc 91 91 Oc 91 92 Pc 91 93
+22/01/16_11:31:25: Tiles in pool: 93
+
+22/01/16_11:31:25: IN: NEW Bo Gc G* Ps Gx Ys
+22/01/16_11:31:25: It is now bot's turn.
+
+22/01/16_11:31:25: IN: NEXT 1
+22/01/16_11:31:25: bot's score is: 6
+22/01/16_11:31:25: bot's score is: 3
+22/01/16_11:31:25: 
+bot just made the following move: [[Os, 92, 92], [Gs, 92, 91]]
+
+22/01/16_11:31:25: IN: TURN 1 Os 92 92 Gs 92 91
+22/01/16_11:31:25: bot's score is: 6
+22/01/16_11:31:25: bot's score is: 3
+22/01/16_11:31:25: 
+It is your turn!
+22/01/16_11:31:25: 
+What is your action?
+22/01/16_11:31:25: bot's score is: 6
+22/01/16_11:31:25: bot's score is: 3
+22/01/16_11:31:25: 
+What is your action?
+22/01/16_11:31:25: bot's score is: 6
+22/01/16_11:31:25: bot's score is: 3
+22/01/16_11:31:25: 
+What is your action?
+22/01/16_11:31:25: bot's score is: 6
+22/01/16_11:31:25: bot's score is: 3
+22/01/16_11:31:25: OUT: MOVE Ps 92 93 Ys 92 94 
+22/01/16_11:31:25: IN: NEXT 2
+22/01/16_11:31:25: Tiles in pool: 89
+
+22/01/16_11:31:25: IN: NEW Yd Rc
+22/01/16_11:31:25: IN: TURN 2 Ps 92 93 Ys 92 94
+22/01/16_11:31:25: It is now bot's turn.
+
+22/01/16_11:31:25: IN: NEXT 1
+22/01/16_11:31:25: bot's score is: 11
+22/01/16_11:31:25: bot's score is: 9
+22/01/16_11:31:25: 
+bot just made the following move: [[Gx, 93, 91], [Go, 93, 90]]
+
+22/01/16_11:31:25: IN: TURN 1 Gx 93 91 Go 93 90
+22/01/16_11:31:25: bot's score is: 11
+22/01/16_11:31:25: bot's score is: 9
+22/01/16_11:31:25: 
+It is your turn!
+22/01/16_11:31:25: 
+What is your action?
+22/01/16_11:31:25: bot's score is: 11
+22/01/16_11:31:25: bot's score is: 9
+22/01/16_11:31:25: 
+What is your action?
+22/01/16_11:31:25: bot's score is: 11
+22/01/16_11:31:25: bot's score is: 9
+22/01/16_11:31:25: 
+What is your action?
+22/01/16_11:31:25: bot's score is: 11
+22/01/16_11:31:25: bot's score is: 9
+22/01/16_11:31:25: 
+What is your action?
+22/01/16_11:31:25: bot's score is: 11
+22/01/16_11:31:25: bot's score is: 9
+22/01/16_11:31:25: OUT: MOVE Gc 94 90 G* 94 91 Gx 94 92 
+22/01/16_11:31:25: IN: NEXT 2
+22/01/16_11:31:25: Tiles in pool: 84
+
+22/01/16_11:31:25: IN: NEW B* Gs O*
+22/01/16_11:31:25: IN: TURN 2 Gc 94 90 G* 94 91 Gx 94 92
+22/01/16_11:31:25: It is now bot's turn.
+
+22/01/16_11:31:25: IN: NEXT 1
+22/01/16_11:31:26: bot's score is: 17
+22/01/16_11:31:26: bot's score is: 18
+22/01/16_11:31:26: 
+bot just made the following move: [[Gs, 94, 89], [Ps, 95, 89]]
+
+22/01/16_11:31:26: IN: TURN 1 Gs 94 89 Ps 95 89
+22/01/16_11:31:26: bot's score is: 17
+22/01/16_11:31:26: bot's score is: 18
+22/01/16_11:31:26: 
+It is your turn!
+22/01/16_11:31:26: 
+What is your action?
+22/01/16_11:31:26: bot's score is: 17
+22/01/16_11:31:26: bot's score is: 18
+22/01/16_11:31:26: 
+What is your action?
+22/01/16_11:31:26: bot's score is: 17
+22/01/16_11:31:26: bot's score is: 18
+22/01/16_11:31:26: OUT: MOVE Gs 95 90 
+22/01/16_11:31:26: IN: NEXT 2
+22/01/16_11:31:26: Tiles in pool: 81
+
+22/01/16_11:31:26: IN: NEW Oo
+22/01/16_11:31:26: IN: TURN 2 Gs 95 90
+22/01/16_11:31:26: It is now bot's turn.
+
+22/01/16_11:31:26: IN: NEXT 1
+22/01/16_11:31:26: bot's score is: 20
+22/01/16_11:31:26: bot's score is: 23
+22/01/16_11:31:26: 
+bot just made the following move: [[Ys, 95, 88]]
+
+22/01/16_11:31:26: IN: TURN 1 Ys 95 88
+22/01/16_11:31:26: bot's score is: 20
+22/01/16_11:31:26: bot's score is: 23
+22/01/16_11:31:26: 
+It is your turn!
+22/01/16_11:31:26: 
+What is your action?
+22/01/16_11:31:26: bot's score is: 20
+22/01/16_11:31:26: bot's score is: 23
+22/01/16_11:31:26: 
+What is your action?
+22/01/16_11:31:26: bot's score is: 20
+22/01/16_11:31:26: bot's score is: 23
+22/01/16_11:31:26: OUT: MOVE Rc 91 90 
+22/01/16_11:31:26: IN: NEXT 2
+22/01/16_11:31:26: Tiles in pool: 79
+
+22/01/16_11:31:26: IN: NEW Bs
+22/01/16_11:31:26: IN: TURN 2 Rc 91 90
+22/01/16_11:31:26: It is now bot's turn.
+
+22/01/16_11:31:26: IN: NEXT 1
+22/01/16_11:31:26: bot's score is: 23
+22/01/16_11:31:26: bot's score is: 27
+22/01/16_11:31:26: 
+bot just made the following move: [[Od, 90, 92]]
+
+22/01/16_11:31:26: IN: TURN 1 Od 90 92
+22/01/16_11:31:26: bot's score is: 23
+22/01/16_11:31:26: bot's score is: 27
+22/01/16_11:31:26: 
+It is your turn!
+22/01/16_11:31:26: 
+What is your action?
+22/01/16_11:31:26: bot's score is: 23
+22/01/16_11:31:26: bot's score is: 27
+22/01/16_11:31:26: 
+What is your action?
+22/01/16_11:31:26: bot's score is: 23
+22/01/16_11:31:26: bot's score is: 27
+22/01/16_11:31:26: 
+What is your action?
+22/01/16_11:31:26: bot's score is: 23
+22/01/16_11:31:26: bot's score is: 27
+22/01/16_11:31:26: 
+What is your action?
+22/01/16_11:31:26: bot's score is: 23
+22/01/16_11:31:26: bot's score is: 27
+22/01/16_11:31:26: OUT: MOVE Bs 92 95 Bo 91 95 B* 90 95 
+22/01/16_11:31:26: IN: NEXT 2
+22/01/16_11:31:26: Tiles in pool: 75
+
+22/01/16_11:31:26: IN: NEW Rs Gd Yc
+22/01/16_11:31:26: IN: TURN 2 Bs 92 95 Bo 91 95 B* 90 95
+22/01/16_11:31:26: It is now bot's turn.
+
+22/01/16_11:31:26: IN: NEXT 1
+22/01/16_11:31:26: bot's score is: 30
+22/01/16_11:31:26: bot's score is: 35
+22/01/16_11:31:26: 
+bot just made the following move: [[Gd, 90, 91]]
+
+22/01/16_11:31:26: IN: TURN 1 Gd 90 91
+22/01/16_11:31:27: bot's score is: 30
+22/01/16_11:31:27: bot's score is: 35
+22/01/16_11:31:27: 
+It is your turn!
+22/01/16_11:31:27: 
+What is your action?
+22/01/16_11:31:27: bot's score is: 30
+22/01/16_11:31:27: bot's score is: 35
+22/01/16_11:31:27: 
+What is your action?
+22/01/16_11:31:27: bot's score is: 30
+22/01/16_11:31:27: bot's score is: 35
+22/01/16_11:31:27: OUT: MOVE Rs 92 96 
+22/01/16_11:31:27: IN: NEXT 2
+22/01/16_11:31:27: Tiles in pool: 73
+
+22/01/16_11:31:27: IN: NEW B*
+22/01/16_11:31:27: IN: TURN 2 Rs 92 96
+22/01/16_11:31:27: It is now bot's turn.
+
+22/01/16_11:31:27: IN: NEXT 1
+22/01/16_11:31:27: bot's score is: 37
+22/01/16_11:31:27: bot's score is: 47
+22/01/16_11:31:27: 
+bot just made the following move: [[Yo, 93, 94], [Po, 93, 93]]
+
+22/01/16_11:31:27: IN: TURN 1 Yo 93 94 Po 93 93
+22/01/16_11:31:27: bot's score is: 37
+22/01/16_11:31:27: bot's score is: 47
+22/01/16_11:31:27: 
+It is your turn!
+22/01/16_11:31:27: 
+What is your action?
+22/01/16_11:31:27: bot's score is: 37
+22/01/16_11:31:27: bot's score is: 47
+22/01/16_11:31:27: 
+What is your action?
+22/01/16_11:31:27: bot's score is: 37
+22/01/16_11:31:27: bot's score is: 47
+22/01/16_11:31:27: 
+What is your action?
+22/01/16_11:31:27: bot's score is: 37
+22/01/16_11:31:27: bot's score is: 47
+22/01/16_11:31:27: OUT: MOVE Yc 91 89 Yd 92 89 
+22/01/16_11:31:27: IN: NEXT 2
+22/01/16_11:31:27: Tiles in pool: 69
+
+22/01/16_11:31:27: IN: NEW Bs Ps
+22/01/16_11:31:27: IN: TURN 2 Yc 91 89 Yd 92 89
+22/01/16_11:31:27: It is now bot's turn.
+
+22/01/16_11:31:27: IN: NEXT 1
+22/01/16_11:31:28: bot's score is: 41
+22/01/16_11:31:28: bot's score is: 54
+22/01/16_11:31:28: 
+bot just made the following move: [[P*, 90, 94], [R*, 89, 94]]
+
+22/01/16_11:31:28: IN: TURN 1 P* 90 94 R* 89 94
+22/01/16_11:31:28: bot's score is: 41
+22/01/16_11:31:28: bot's score is: 54
+22/01/16_11:31:28: 
+It is your turn!
+22/01/16_11:31:28: 
+What is your action?
+22/01/16_11:31:28: bot's score is: 41
+22/01/16_11:31:28: bot's score is: 54
+22/01/16_11:31:28: 
+What is your action?
+22/01/16_11:31:28: bot's score is: 41
+22/01/16_11:31:28: bot's score is: 54
+22/01/16_11:31:28: 
+What is your action?
+22/01/16_11:31:28: bot's score is: 41
+22/01/16_11:31:28: bot's score is: 54
+22/01/16_11:31:28: OUT: MOVE Bs 96 89 Ps 96 88 
+22/01/16_11:31:28: IN: NEXT 2
+22/01/16_11:31:28: Tiles in pool: 65
+
+22/01/16_11:31:28: IN: NEW P* Bx
+22/01/16_11:31:28: IN: TURN 2 Bs 96 89 Ps 96 88
+22/01/16_11:31:28: It is now bot's turn.
+
+22/01/16_11:31:28: IN: NEXT 1
+22/01/16_11:31:28: bot's score is: 45
+22/01/16_11:31:28: bot's score is: 61
+22/01/16_11:31:28: 
+bot just made the following move: [[Bd, 92, 88], [Bo, 93, 88]]
+
+22/01/16_11:31:28: IN: TURN 1 Bd 92 88 Bo 93 88
+22/01/16_11:31:28: bot's score is: 45
+22/01/16_11:31:28: bot's score is: 61
+22/01/16_11:31:28: 
+It is your turn!
+22/01/16_11:31:28: 
+What is your action?
+22/01/16_11:31:28: bot's score is: 45
+22/01/16_11:31:28: bot's score is: 61
+22/01/16_11:31:28: 
+What is your action?
+22/01/16_11:31:28: bot's score is: 45
+22/01/16_11:31:28: bot's score is: 61
+22/01/16_11:31:28: 
+What is your action?
+22/01/16_11:31:28: bot's score is: 45
+22/01/16_11:31:28: bot's score is: 61
+22/01/16_11:31:28: OUT: MOVE B* 89 93 O* 89 92 
+22/01/16_11:31:28: IN: NEXT 2
+22/01/16_11:31:28: Tiles in pool: 61
+
+22/01/16_11:31:28: IN: NEW Pc Yo
+22/01/16_11:31:28: IN: TURN 2 B* 89 93 O* 89 92
+22/01/16_11:31:29: It is now bot's turn.
+
+22/01/16_11:31:29: IN: NEXT 1
+22/01/16_11:31:29: bot's score is: 52
+22/01/16_11:31:29: bot's score is: 68
+22/01/16_11:31:29: 
+bot just made the following move: [[Ys, 97, 89], [Yo, 97, 90], [Y*, 97, 91]]
+
+22/01/16_11:31:29: IN: TURN 1 Ys 97 89 Yo 97 90 Y* 97 91
+22/01/16_11:31:29: bot's score is: 52
+22/01/16_11:31:29: bot's score is: 68
+22/01/16_11:31:29: 
+It is your turn!
+22/01/16_11:31:29: 
+What is your action?
+22/01/16_11:31:29: bot's score is: 52
+22/01/16_11:31:29: bot's score is: 68
+22/01/16_11:31:29: 
+What is your action?
+22/01/16_11:31:29: bot's score is: 52
+22/01/16_11:31:29: bot's score is: 68
+22/01/16_11:31:29: 
+What is your action?
+22/01/16_11:31:29: bot's score is: 52
+22/01/16_11:31:29: bot's score is: 68
+22/01/16_11:31:29: OUT: MOVE Oo 88 92 Yo 88 91 
+22/01/16_11:31:29: IN: NEXT 2
+22/01/16_11:31:29: Tiles in pool: 56
+
+22/01/16_11:31:29: IN: NEW Os Po
+22/01/16_11:31:29: IN: TURN 2 Oo 88 92 Yo 88 91
+22/01/16_11:31:29: It is now bot's turn.
+
+22/01/16_11:31:29: IN: NEXT 1
+22/01/16_11:31:30: bot's score is: 64
+22/01/16_11:31:30: bot's score is: 75
+22/01/16_11:31:30: 
+bot just made the following move: [[Ox, 87, 92]]
+
+22/01/16_11:31:30: IN: TURN 1 Ox 87 92
+22/01/16_11:31:30: bot's score is: 64
+22/01/16_11:31:30: bot's score is: 75
+22/01/16_11:31:30: 
+It is your turn!
+22/01/16_11:31:30: 
+What is your action?
+22/01/16_11:31:30: bot's score is: 64
+22/01/16_11:31:30: bot's score is: 75
+22/01/16_11:31:30: 
+What is your action?
+22/01/16_11:31:30: bot's score is: 64
+22/01/16_11:31:30: bot's score is: 75
+22/01/16_11:31:30: 
+What is your action?
+22/01/16_11:31:30: bot's score is: 64
+22/01/16_11:31:30: bot's score is: 75
+22/01/16_11:31:30: 
+What is your action?
+22/01/16_11:31:30: bot's score is: 64
+22/01/16_11:31:30: bot's score is: 75
+22/01/16_11:31:30: OUT: MOVE Po 98 90 P* 98 91 Pc 98 92 
+22/01/16_11:31:30: IN: NEXT 2
+22/01/16_11:31:30: Tiles in pool: 52
+
+22/01/16_11:31:30: IN: NEW Rc Gc Bc
+22/01/16_11:31:30: IN: TURN 2 Po 98 90 P* 98 91 Pc 98 92
+22/01/16_11:31:30: It is now bot's turn.
+
+22/01/16_11:31:30: IN: NEXT 1
+22/01/16_11:31:30: bot's score is: 72
+22/01/16_11:31:30: bot's score is: 82
+22/01/16_11:31:30: 
+bot just made the following move: [[Ro, 91, 96], [R*, 90, 96]]
+
+22/01/16_11:31:30: IN: TURN 1 Ro 91 96 R* 90 96
+22/01/16_11:31:31: bot's score is: 72
+22/01/16_11:31:31: bot's score is: 82
+22/01/16_11:31:31: 
+It is your turn!
+22/01/16_11:31:31: 
+What is your action?
+22/01/16_11:31:31: bot's score is: 72
+22/01/16_11:31:31: bot's score is: 82
+22/01/16_11:31:31: 
+What is your action?
+22/01/16_11:31:31: bot's score is: 72
+22/01/16_11:31:31: bot's score is: 82
+22/01/16_11:31:31: 
+What is your action?
+22/01/16_11:31:31: bot's score is: 72
+22/01/16_11:31:31: bot's score is: 82
+22/01/16_11:31:31: OUT: MOVE Bc 91 88 Bx 90 88 
+22/01/16_11:31:31: IN: NEXT 2
+22/01/16_11:31:31: Tiles in pool: 48
+
+22/01/16_11:31:31: IN: NEW Yc Yd
+22/01/16_11:31:31: IN: TURN 2 Bc 91 88 Bx 90 88
+22/01/16_11:31:31: It is now bot's turn.
+
+22/01/16_11:31:31: IN: NEXT 1
+22/01/16_11:31:31: bot's score is: 80
+22/01/16_11:31:31: bot's score is: 98
+22/01/16_11:31:31: 
+bot just made the following move: [[Pd, 92, 87], [Po, 93, 87], [Pc, 94, 87]]
+
+22/01/16_11:31:31: IN: TURN 1 Pd 92 87 Po 93 87 Pc 94 87
+22/01/16_11:31:31: bot's score is: 80
+22/01/16_11:31:31: bot's score is: 98
+22/01/16_11:31:31: 
+It is your turn!
+22/01/16_11:31:31: 
+What is your action?
+22/01/16_11:31:31: bot's score is: 80
+22/01/16_11:31:31: bot's score is: 98
+22/01/16_11:31:31: 
+What is your action?
+22/01/16_11:31:31: bot's score is: 80
+22/01/16_11:31:31: bot's score is: 98
+22/01/16_11:31:31: 
+What is your action?
+22/01/16_11:31:31: bot's score is: 80
+22/01/16_11:31:31: bot's score is: 98
+22/01/16_11:31:31: 
+What is your action?
+22/01/16_11:31:32: bot's score is: 80
+22/01/16_11:31:32: bot's score is: 98
+22/01/16_11:31:32: OUT: MOVE Rc 89 96 Yc 89 97 Gc 89 98 
+22/01/16_11:31:32: IN: NEXT 2
+22/01/16_11:31:32: Tiles in pool: 42
+
+22/01/16_11:31:32: IN: NEW Gd Yx Gx
+22/01/16_11:31:32: IN: TURN 2 Rc 89 96 Yc 89 97 Gc 89 98
+22/01/16_11:31:32: It is now bot's turn.
+
+22/01/16_11:31:32: IN: NEXT 1
+22/01/16_11:31:32: bot's score is: 87
+22/01/16_11:31:32: bot's score is: 105
+22/01/16_11:31:32: 
+bot just made the following move: [[Rc, 94, 86], [Ro, 93, 86]]
+
+22/01/16_11:31:32: IN: TURN 1 Rc 94 86 Ro 93 86
+22/01/16_11:31:32: bot's score is: 87
+22/01/16_11:31:32: bot's score is: 105
+22/01/16_11:31:32: 
+It is your turn!
+22/01/16_11:31:32: 
+What is your action?
+22/01/16_11:31:32: bot's score is: 87
+22/01/16_11:31:32: bot's score is: 105
+22/01/16_11:31:32: 
+What is your action?
+22/01/16_11:31:32: bot's score is: 87
+22/01/16_11:31:32: bot's score is: 105
+22/01/16_11:31:32: 
+What is your action?
+22/01/16_11:31:32: bot's score is: 87
+22/01/16_11:31:32: bot's score is: 105
+22/01/16_11:31:32: OUT: MOVE Yd 88 97 Gd 88 98 
+22/01/16_11:31:32: IN: NEXT 2
+22/01/16_11:31:32: Tiles in pool: 38
+
+22/01/16_11:31:32: IN: NEW G* Rd
+22/01/16_11:31:32: IN: TURN 2 Yd 88 97 Gd 88 98
+22/01/16_11:31:32: It is now bot's turn.
+
+22/01/16_11:31:32: IN: NEXT 1
+22/01/16_11:31:33: bot's score is: 92
+22/01/16_11:31:33: bot's score is: 111
+22/01/16_11:31:33: 
+bot just made the following move: [[Bd, 88, 99], [Od, 87, 99]]
+
+22/01/16_11:31:33: IN: TURN 1 Bd 88 99 Od 87 99
+22/01/16_11:31:33: bot's score is: 92
+22/01/16_11:31:33: bot's score is: 111
+22/01/16_11:31:33: 
+It is your turn!
+22/01/16_11:31:33: 
+What is your action?
+22/01/16_11:31:33: bot's score is: 92
+22/01/16_11:31:33: bot's score is: 111
+22/01/16_11:31:33: 
+What is your action?
+22/01/16_11:31:33: bot's score is: 92
+22/01/16_11:31:33: bot's score is: 111
+22/01/16_11:31:33: OUT: MOVE Rd 88 96 
+22/01/16_11:31:33: IN: NEXT 2
+22/01/16_11:31:33: Tiles in pool: 35
+
+22/01/16_11:31:33: IN: NEW G*
+22/01/16_11:31:33: IN: TURN 2 Rd 88 96
+22/01/16_11:31:33: It is now bot's turn.
+
+22/01/16_11:31:33: IN: NEXT 1
+22/01/16_11:31:33: bot's score is: 98
+22/01/16_11:31:33: bot's score is: 120
+22/01/16_11:31:33: 
+bot just made the following move: [[Go, 93, 85], [Ro, 92, 85]]
+
+22/01/16_11:31:33: IN: TURN 1 Go 93 85 Ro 92 85
+22/01/16_11:31:33: bot's score is: 98
+22/01/16_11:31:33: bot's score is: 120
+22/01/16_11:31:33: 
+It is your turn!
+22/01/16_11:31:33: 
+What is your action?
+22/01/16_11:31:34: bot's score is: 98
+22/01/16_11:31:34: bot's score is: 120
+22/01/16_11:31:34: 
+What is your action?
+22/01/16_11:31:34: bot's score is: 98
+22/01/16_11:31:34: bot's score is: 120
+22/01/16_11:31:34: 
+What is your action?
+22/01/16_11:31:34: bot's score is: 98
+22/01/16_11:31:34: bot's score is: 120
+22/01/16_11:31:34: 
+What is your action?
+22/01/16_11:31:34: bot's score is: 98
+22/01/16_11:31:34: bot's score is: 120
+22/01/16_11:31:34: OUT: MOVE G* 90 98 Gd 90 99 Gx 90 100 
+22/01/16_11:31:34: IN: NEXT 2
+22/01/16_11:31:34: Tiles in pool: 30
+
+22/01/16_11:31:34: IN: NEW Rd Oc Px
+22/01/16_11:31:34: IN: TURN 2 G* 90 98 Gd 90 99 Gx 90 100
+22/01/16_11:31:34: It is now bot's turn.
+
+22/01/16_11:31:34: IN: NEXT 1
+22/01/16_11:31:35: bot's score is: 113
+22/01/16_11:31:35: bot's score is: 126
+22/01/16_11:31:35: 
+bot just made the following move: [[Rx, 93, 96], [Bx, 93, 97], [Ox, 93, 98]]
+
+22/01/16_11:31:35: IN: TURN 1 Rx 93 96 Bx 93 97 Ox 93 98
+22/01/16_11:31:35: bot's score is: 113
+22/01/16_11:31:35: bot's score is: 126
+22/01/16_11:31:35: 
+It is your turn!
+22/01/16_11:31:35: 
+What is your action?
+22/01/16_11:31:35: bot's score is: 113
+22/01/16_11:31:35: bot's score is: 126
+22/01/16_11:31:35: 
+What is your action?
+22/01/16_11:31:35: bot's score is: 113
+22/01/16_11:31:35: bot's score is: 126
+22/01/16_11:31:35: 
+What is your action?
+22/01/16_11:31:35: bot's score is: 113
+22/01/16_11:31:35: bot's score is: 126
+22/01/16_11:31:35: OUT: MOVE Px 93 99 Yx 92 99 
+22/01/16_11:31:35: IN: NEXT 2
+22/01/16_11:31:35: Tiles in pool: 25
+
+22/01/16_11:31:35: IN: NEW Yx Bs
+22/01/16_11:31:35: IN: TURN 2 Px 93 99 Yx 92 99
+22/01/16_11:31:35: It is now bot's turn.
+
+22/01/16_11:31:35: IN: NEXT 1
+22/01/16_11:31:35: bot's score is: 119
+22/01/16_11:31:35: bot's score is: 132
+22/01/16_11:31:35: 
+bot just made the following move: [[Yc, 97, 92]]
+
+22/01/16_11:31:35: IN: TURN 1 Yc 97 92
+22/01/16_11:31:36: bot's score is: 119
+22/01/16_11:31:36: bot's score is: 132
+22/01/16_11:31:36: 
+It is your turn!
+22/01/16_11:31:36: 
+What is your action?
+22/01/16_11:31:36: bot's score is: 119
+22/01/16_11:31:36: bot's score is: 132
+22/01/16_11:31:36: 
+What is your action?
+22/01/16_11:31:36: bot's score is: 119
+22/01/16_11:31:36: bot's score is: 132
+22/01/16_11:31:36: 
+What is your action?
+22/01/16_11:31:36: bot's score is: 119
+22/01/16_11:31:36: bot's score is: 132
+22/01/16_11:31:36: OUT: MOVE Bs 89 88 Os 89 89 
+22/01/16_11:31:36: IN: NEXT 2
+22/01/16_11:31:36: Tiles in pool: 22
+
+22/01/16_11:31:36: IN: NEW Rs Bd
+22/01/16_11:31:36: IN: TURN 2 Bs 89 88 Os 89 89
+22/01/16_11:31:36: It is now bot's turn.
+
+22/01/16_11:31:36: IN: NEXT 1
+22/01/16_11:31:36: bot's score is: 128
+22/01/16_11:31:36: bot's score is: 139
+22/01/16_11:31:36: 
+bot just made the following move: [[Ox, 92, 100], [Yx, 93, 100]]
+
+22/01/16_11:31:36: IN: TURN 1 Ox 92 100 Yx 93 100
+22/01/16_11:31:36: bot's score is: 128
+22/01/16_11:31:36: bot's score is: 139
+22/01/16_11:31:36: 
+It is your turn!
+22/01/16_11:31:36: 
+What is your action?
+22/01/16_11:31:37: bot's score is: 128
+22/01/16_11:31:37: bot's score is: 139
+22/01/16_11:31:37: 
+What is your action?
+22/01/16_11:31:37: bot's score is: 128
+22/01/16_11:31:37: bot's score is: 139
+22/01/16_11:31:37: 
+What is your action?
+22/01/16_11:31:37: bot's score is: 128
+22/01/16_11:31:37: bot's score is: 139
+22/01/16_11:31:37: OUT: MOVE Rs 89 90 Rd 90 90 
+22/01/16_11:31:37: IN: NEXT 2
+22/01/16_11:31:37: Tiles in pool: 18
+
+22/01/16_11:31:37: IN: NEW Oo Od
+22/01/16_11:31:37: IN: TURN 2 Rs 89 90 Rd 90 90
+22/01/16_11:31:37: It is now bot's turn.
+
+22/01/16_11:31:37: IN: NEXT 1
+22/01/16_11:31:37: bot's score is: 133
+22/01/16_11:31:37: bot's score is: 148
+22/01/16_11:31:37: 
+bot just made the following move: [[Bo, 88, 93]]
+
+22/01/16_11:31:37: IN: TURN 1 Bo 88 93
+22/01/16_11:31:37: bot's score is: 133
+22/01/16_11:31:37: bot's score is: 148
+22/01/16_11:31:37: 
+It is your turn!
+22/01/16_11:31:37: 
+What is your action?
+22/01/16_11:31:37: bot's score is: 133
+22/01/16_11:31:37: bot's score is: 148
+22/01/16_11:31:37: 
+What is your action?
+22/01/16_11:31:38: bot's score is: 133
+22/01/16_11:31:38: bot's score is: 148
+22/01/16_11:31:38: 
+What is your action?
+22/01/16_11:31:38: bot's score is: 133
+22/01/16_11:31:38: bot's score is: 148
+22/01/16_11:31:38: 
+What is your action?
+22/01/16_11:31:38: bot's score is: 133
+22/01/16_11:31:38: bot's score is: 148
+22/01/16_11:31:38: OUT: MOVE Od 88 100 Oc 87 100 Oo 86 100 
+22/01/16_11:31:38: IN: NEXT 2
+22/01/16_11:31:38: Tiles in pool: 14
+
+22/01/16_11:31:38: IN: NEW Os Bc Rx
+22/01/16_11:31:38: IN: TURN 2 Od 88 100 Oc 87 100 Oo 86 100
+22/01/16_11:31:38: It is now bot's turn.
+
+22/01/16_11:31:38: IN: NEXT 1
+22/01/16_11:31:38: bot's score is: 145
+22/01/16_11:31:38: bot's score is: 158
+22/01/16_11:31:38: 
+bot just made the following move: [[Pd, 88, 95]]
+
+22/01/16_11:31:38: IN: TURN 1 Pd 88 95
+22/01/16_11:31:38: bot's score is: 145
+22/01/16_11:31:38: bot's score is: 158
+22/01/16_11:31:38: 
+It is your turn!
+22/01/16_11:31:38: 
+What is your action?
+22/01/16_11:31:38: bot's score is: 145
+22/01/16_11:31:38: bot's score is: 158
+22/01/16_11:31:38: 
+What is your action?
+22/01/16_11:31:38: bot's score is: 145
+22/01/16_11:31:38: bot's score is: 158
+22/01/16_11:31:38: 
+What is your action?
+22/01/16_11:31:38: bot's score is: 145
+22/01/16_11:31:38: bot's score is: 158
+22/01/16_11:31:38: OUT: MOVE Yx 97 93 Rx 96 93 
+22/01/16_11:31:38: IN: NEXT 2
+22/01/16_11:31:38: Tiles in pool: 11
+
+22/01/16_11:31:38: IN: NEW Rx Px
+22/01/16_11:31:38: IN: TURN 2 Yx 97 93 Rx 96 93
+22/01/16_11:31:38: It is now bot's turn.
+
+22/01/16_11:31:38: IN: NEXT 1
+22/01/16_11:31:39: bot's score is: 151
+22/01/16_11:31:39: bot's score is: 165
+22/01/16_11:31:39: 
+bot just made the following move: [[O*, 85, 100], [Y*, 85, 101]]
+
+22/01/16_11:31:39: IN: TURN 1 O* 85 100 Y* 85 101
+22/01/16_11:31:39: bot's score is: 151
+22/01/16_11:31:39: bot's score is: 165
+22/01/16_11:31:39: 
+It is your turn!
+22/01/16_11:31:39: 
+What is your action?
+22/01/16_11:31:39: bot's score is: 151
+22/01/16_11:31:39: bot's score is: 165
+22/01/16_11:31:39: 
+What is your action?
+22/01/16_11:31:39: bot's score is: 151
+22/01/16_11:31:39: bot's score is: 165
+22/01/16_11:31:39: 
+What is your action?
+22/01/16_11:31:39: bot's score is: 151
+22/01/16_11:31:39: bot's score is: 165
+22/01/16_11:31:39: OUT: MOVE Rx 94 99 Px 94 100 
+22/01/16_11:31:39: IN: NEXT 2
+22/01/16_11:31:39: Tiles in pool: 7
+
+22/01/16_11:31:39: IN: NEW Px Rd
+22/01/16_11:31:39: IN: TURN 2 Rx 94 99 Px 94 100
+22/01/16_11:31:39: It is now bot's turn.
+
+22/01/16_11:31:39: IN: NEXT 1
+22/01/16_11:31:40: bot's score is: 168
+22/01/16_11:31:40: bot's score is: 173
+22/01/16_11:31:40: 
+bot just made the following move: [[O*, 88, 89], [B*, 88, 88], [P*, 88, 87]]
+
+22/01/16_11:31:40: IN: TURN 1 O* 88 89 B* 88 88 P* 88 87
+22/01/16_11:31:40: bot's score is: 168
+22/01/16_11:31:40: bot's score is: 173
+22/01/16_11:31:40: 
+It is your turn!
+22/01/16_11:31:40: 
+What is your action?
+22/01/16_11:31:40: bot's score is: 168
+22/01/16_11:31:40: bot's score is: 173
+22/01/16_11:31:40: 
+What is your action?
+22/01/16_11:31:40: bot's score is: 168
+22/01/16_11:31:40: bot's score is: 173
+22/01/16_11:31:40: OUT: MOVE Px 98 93 
+22/01/16_11:31:40: IN: NEXT 2
+22/01/16_11:31:40: Tiles in pool: 3
+
+22/01/16_11:31:40: IN: NEW Bx
+22/01/16_11:31:40: IN: TURN 2 Px 98 93
+22/01/16_11:31:40: It is now bot's turn.
+
+22/01/16_11:31:40: IN: NEXT 1
+22/01/16_11:31:40: bot's score is: 177
+22/01/16_11:31:40: bot's score is: 180
+22/01/16_11:31:40: 
+bot just made the following move: [[Oo, 93, 84], [Go, 92, 84]]
+
+22/01/16_11:31:40: IN: TURN 1 Oo 93 84 Go 92 84
+22/01/16_11:31:41: bot's score is: 177
+22/01/16_11:31:41: bot's score is: 180
+22/01/16_11:31:41: 
+It is your turn!
+22/01/16_11:31:41: 
+What is your action?
+22/01/16_11:31:41: bot's score is: 177
+22/01/16_11:31:41: bot's score is: 180
+22/01/16_11:31:41: 
+What is your action?
+22/01/16_11:31:41: bot's score is: 177
+22/01/16_11:31:41: bot's score is: 180
+22/01/16_11:31:41: 
+What is your action?
+22/01/16_11:31:41: bot's score is: 177
+22/01/16_11:31:41: bot's score is: 180
+22/01/16_11:31:41: 
+What is your action?
+22/01/16_11:31:41: bot's score is: 177
+22/01/16_11:31:41: bot's score is: 180
+22/01/16_11:31:41: OUT: MOVE Bc 99 92 Bx 99 93 Bd 99 94 
+22/01/16_11:31:41: IN: NEXT 2
+22/01/16_11:31:41: Tiles in pool: 0
+
+22/01/16_11:31:41: IN: NEW Y*
+22/01/16_11:31:41: IN: TURN 2 Bc 99 92 Bx 99 93 Bd 99 94
+22/01/16_11:31:41: It is now bot's turn.
+
+22/01/16_11:31:41: IN: NEXT 1
+22/01/16_11:31:41: bot's score is: 197
+22/01/16_11:31:41: bot's score is: 190
+22/01/16_11:31:41: 
+bot just made the following move: [[Yd, 97, 94], [Pd, 98, 94]]
+
+22/01/16_11:31:41: IN: TURN 1 Yd 97 94 Pd 98 94
+22/01/16_11:31:42: bot's score is: 197
+22/01/16_11:31:42: bot's score is: 190
+22/01/16_11:31:42: 
+It is your turn!
+22/01/16_11:31:42: 
+What is your action?
+22/01/16_11:31:42: bot's score is: 197
+22/01/16_11:31:42: bot's score is: 190
+22/01/16_11:31:42: 
+What is your action?
+22/01/16_11:31:42: bot's score is: 197
+22/01/16_11:31:42: bot's score is: 190
+22/01/16_11:31:42: OUT: MOVE Rd 96 94 
+22/01/16_11:31:42: IN: NEXT 2
+22/01/16_11:31:42: There are no tiles left in the pool.
+
+22/01/16_11:31:42: IN: NEW empty
+22/01/16_11:31:42: IN: TURN 2 Rd 96 94
+22/01/16_11:31:42: It is now bot's turn.
+
+22/01/16_11:31:42: IN: NEXT 1
+22/01/16_11:31:42: bot's score is: 203
+22/01/16_11:31:42: bot's score is: 196
+22/01/16_11:31:42: 
+bot just made the following move: [[Oc, 100, 92], [Bc, 100, 91]]
+
+22/01/16_11:31:42: IN: TURN 1 Oc 100 92 Bc 100 91
+22/01/16_11:31:43: bot's score is: 203
+22/01/16_11:31:43: bot's score is: 196
+22/01/16_11:31:43: 
+It is your turn!
+22/01/16_11:31:43: 
+What is your action?
+22/01/16_11:31:43: bot's score is: 203
+22/01/16_11:31:43: bot's score is: 196
+22/01/16_11:31:43: 
+What is your action?
+22/01/16_11:31:43: bot's score is: 203
+22/01/16_11:31:43: bot's score is: 196
+22/01/16_11:31:43: 
+What is your action?
+22/01/16_11:31:43: bot's score is: 203
+22/01/16_11:31:43: bot's score is: 196
+22/01/16_11:31:43: OUT: MOVE G* 88 86 Y* 89 86 
+22/01/16_11:31:43: IN: NEXT 2
+22/01/16_11:31:43: There are no tiles left in the pool.
+
+22/01/16_11:31:43: IN: NEW empty
+22/01/16_11:31:43: IN: TURN 2 G* 88 86 Y* 89 86
+22/01/16_11:31:43: It is now bot's turn.
+
+22/01/16_11:31:43: IN: NEXT 1
+22/01/16_11:31:43: bot's score is: 210
+22/01/16_11:31:43: bot's score is: 202
+22/01/16_11:31:43: 
+bot just made the following move: [[R*, 88, 85], [Rs, 87, 85]]
+
+22/01/16_11:31:43: IN: TURN 1 R* 88 85 Rs 87 85
+22/01/16_11:31:43: bot's score is: 210
+22/01/16_11:31:43: bot's score is: 202
+22/01/16_11:31:43: The winner is... bot!
+
+22/01/16_11:31:43: Would you like to play another game? Y/N
+22/01/16_11:32:51: 
+ Naive: 'n', Smart: 's'
