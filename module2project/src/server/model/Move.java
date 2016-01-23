@@ -15,8 +15,6 @@ public class Move {
   private int row;
   private int column;
   
-  
-  
   /*@ requires tile != null;
       requires row >= 0 & row < 183;
       requires column >= 0 & column < 183;
@@ -79,5 +77,28 @@ public class Move {
     return getTile().toString() + " " + getRow() + " " + getColumn();
   }
 
+  /**
+   * Custom equals function to make life easier.
+   * @param move The move to compare this to.
+   * @return If the moves are equal.
+   */
+  public boolean equals(Move move) {
+    boolean equals = false;
+    if (type == Type.MOVE) {
+      if (type.equals(move.getType()) && tile.equals(move.getTile()) 
+          && column == move.getColumn() && row == move.getRow()) {
+        equals = true;
+      }
+    } else if (type == Type.SWAP) {
+      if (type.equals(move.getType()) && tile.equals(move.getTile())) {
+        equals = true;
+      }
+    } else if (type == Type.END) {
+      if (type.equals(move.getType())) {
+        equals = true;
+      }
+    }
+    return equals;
+  }
 
 }

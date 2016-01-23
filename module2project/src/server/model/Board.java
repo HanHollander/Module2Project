@@ -14,9 +14,7 @@ public class Board {
   private /*@ spec_public */ ArrayList<Move> currentLocalTurn;
   private Game game;
   
-  /*@ assignable boardMatrix;
-      assignable currentLocalTurn; 
-      ensures getMoveList().size() == 0;
+  /*@ ensures getMoveList().size() == 0;
       ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183;
               getTile(i, j).toString().equals(". "));
    */
@@ -35,8 +33,6 @@ public class Board {
   }
   
   /*@ requires game != null;
-      assignable boardMatrix;
-      assignable currentLocalTurn;
       ensures getGame() == game;
       ensures getMoveList().size() == 0;
       ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183; 
@@ -61,8 +57,6 @@ public class Board {
       requires move.getRow() >= 0 & move.getRow() < 183;
       requires move.getColumn() >= 0 & move.getColumn() < 183;
       requires move != null;
-      assignable boardMatrix;
-      assignable currentLocalTurn;
       ensures getMoveList().contains(move);
       ensures getMoveList().size() == \old(getMoveList().size());
       ensures getTile(move.getRow(), move.getColumn()).equals(move.getTile());
@@ -78,7 +72,6 @@ public class Board {
     currentLocalTurn.add(move);
   }
   
-  //@ assignable currentLocalTurn;
   //@ ensures getMoveList().size() == 0;
   /**
    * Ends the current turn by removing all the moves from
@@ -91,8 +84,6 @@ public class Board {
   /*@ requires getMoveList().contains(move);
       requires move != null;
       requires getTile(move.getRow(), move.getColumn()).equals(move.getTile());
-      assignable currentLocalTurn;
-      assignable boardMatrix;
       ensures getTile(move.getRow(), move.getColumn()).toString().equals(". ");
    */
   /**
@@ -108,8 +99,7 @@ public class Board {
     }
   }
   
-  /*@ assignable currentLocalTurn;
-      ensures (\forall Move move; getMoveList().contains(move); 
+  /*@ ensures (\forall Move move; getMoveList().contains(move); 
               getTile(move.getRow(), move.getColumn()).toString().equals(". "));
       ensures getMoveList().size() == 0;
    */

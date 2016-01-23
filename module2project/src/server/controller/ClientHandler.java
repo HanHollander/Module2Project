@@ -48,14 +48,26 @@ public class ClientHandler extends Thread {
    *        it's ready to receive another update.
    * @throws IOException if not able to create in or out stream.
    */
-  public ClientHandler(int playerNr, Server serverArg, Socket sockArg, 
+  public ClientHandler(int playerNr, Server server, Socket sock, 
       Object listener) throws IOException {
-    server = serverArg;
-    socket = sockArg;
-    in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-    out = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
+    this.server = server;
+    this.socket = sock;
     this.playerNr = playerNr;
     this.listener = listener;
+    isShutDown = false;
+    tui = server.getObserver();
+    in = new BufferedReader(new InputStreamReader(this.socket.getInputStream()));
+    out = new BufferedWriter(new OutputStreamWriter(this.socket.getOutputStream()));
+  }
+  
+  /**
+   * THIS CONSTRUCTOR IS JUST FOR JUnit TESTING.
+   * @param playerNr playerNr
+   * @param server server
+   */
+  public ClientHandler(int playerNr, Server server) {
+    this.server = server;
+    this.playerNr = playerNr;
     isShutDown = false;
     tui = server.getObserver();
   }

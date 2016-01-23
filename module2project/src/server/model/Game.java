@@ -22,21 +22,17 @@ public class Game extends Observable{
   /*@ invariant getPoolSize() >= 0 & getPoolSize() <= 108;
       invariant getWinningPlayerNr() > 0 & getWinningPlayerNr() < 5;
       invariant getCurrentPlayer() > 0 & getCurrentPlayer() < 5;
+      invariant getPlayerNrs().size() >= 0 & getPlayerNrs().size() < 5;
    */
   
-  private Board board;
-  private HashMap<Integer, Player> playerList;
-  private int currentPlayer;
-  private ArrayList<Tile> pool;
-  private Server server;
+  private /*@ spec_public */ Board board;
+  private /*@ spec_public */ HashMap<Integer, Player> playerList;
+  private /*@ spec_public */ int currentPlayer;
+  private /*@ spec_public */ ArrayList<Tile> pool;
+  private /*@ spec_public */ Server server;
   
   //Constructor\\
   /*@ requires server != null;
-      assignable server;
-      assignable board;
-      assignable server;
-      assignable currentPlayer;
-      assignable pool;
       ensures getServer() == server;
       ensures getPlayerNrs() != null;
       ensures getPlayerNrs().size() == 0;
@@ -232,7 +228,6 @@ public class Game extends Observable{
   }
   
   /*@ requires getPoolSize() > 0;
-      assignable pool;
       ensures getPoolSize() == \old(getPoolSize()) - 1;
    */
   /**
@@ -247,7 +242,6 @@ public class Game extends Observable{
   }
 
   /*@ requires tile != null;
-      assignable pool;
       ensures getPoolSize() == \old(getPoolSize()) + 1;
    */
   /**
@@ -286,7 +280,6 @@ public class Game extends Observable{
   }
 
   /*@ requires !getPlayerNrs().contains(playerNr);
-      assignable playerList;
       ensures getPlayerNrs().contains(playerNr);
       ensures getPlayer(playerNr) != null;
       ensures getPlayerNrs().size() == \old(getPlayerNrs().size()) + 1;
@@ -303,7 +296,6 @@ public class Game extends Observable{
   }
   
   /*@ requires getPlayerNrs().contains(playerNr);
-      assignable playerList;
       ensures !getPlayerNrs().contains(playerNr);
       ensures getPlayer(playerNr) == null;
       ensures getPlayerNrs().size() == \old(getPlayerNrs().size()) - 1;
@@ -319,7 +311,6 @@ public class Game extends Observable{
   }
   
   /*@ requires getPlayerNrs().contains(currentPlayer);
-      assignable currentPlayer;
       ensures getCurrentPlayer() == currentPlayer;
    */
   public void setCurrentPlayer(int currentPlayer) {

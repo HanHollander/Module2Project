@@ -1,11 +1,11 @@
-package client.test.model;
+package server.test.model;
 
 import static org.junit.Assert.*;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import client.model.*;
+import server.model.*;
 
 import org.junit.Before;
 import org.junit.Test;

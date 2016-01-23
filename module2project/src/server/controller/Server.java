@@ -301,7 +301,7 @@ public class Server extends Thread{
    * Checks if all connected players have send their name.
    * @return True of false whether all players have send their name or not.
    */
-  private boolean allPlayerNamesAreKnown() {
+  public boolean allPlayerNamesAreKnown() {
     // Here is checked if for every client handler in server
     // also a player in game is created.
     boolean result = true;
@@ -385,16 +385,14 @@ public class Server extends Thread{
    * @param playerNr The number of the player that is being kicked.
    * @param reason A String with a message about the reason of the kick.
    */
-  public synchronized void kick(int playerNr, String reason) {
-    synchronized (threads) {
-      List<Tile> hand = game.getPlayer(playerNr).getHand();
-      // "KICK <playerNr> <ammountOfTilesBackIntoThePool> <reason>"
-      broadcast("KICK " + playerNr + " " + hand.size() + " " + reason);
-      for (Tile tile : hand) {
-        game.addTileToPool(tile);
-      }
-      game.removePlayer(playerNr);
+  public void kick(int playerNr, String reason) {
+    List<Tile> hand = game.getPlayer(playerNr).getHand();
+    game.removePlayer(playerNr);
+    for (Tile tile : hand) {
+      game.addTileToPool(tile);
     }
+    // "KICK <playerNr> <ammountOfTilesBackIntoThePool> <reason>"
+    broadcast("KICK " + playerNr + " " + hand.size() + " " + reason);
   }
   
   //@ ensures getGame().getCurrentPlayer() != \old(getGame().getCurrentPlayer());
