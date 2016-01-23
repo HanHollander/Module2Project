@@ -5,7 +5,7 @@ import exceptions.InvalidMoveException;
 import exceptions.TileNotInHandException;
 
 /**
- * Computercontrolled player class.
+ * Computerm ontrolled player class.
  * @author Han Hollander
  */
 public class ComputerPlayer extends Player {
@@ -15,7 +15,7 @@ public class ComputerPlayer extends Player {
   /**
    * Creates a new player with an addition strategy.
    * @param name The name of the player.
-   * @param playerNumber The ID of the player.
+   * @param playerNumber The ID of the player. 
    * @param strategy The strategy this player uses.
    */
   public ComputerPlayer(String name, int playerNumber, Strategy strategy) {
