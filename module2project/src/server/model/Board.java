@@ -12,8 +12,8 @@ public class Board {
   /**
    * Board constructor. Constructs a empty board.
    */
-  //@ ensures currentLocalTurn.size() == 0;
-  //@ ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183; getTile(i, j).toString().equals(". ");
+  //@ ensures getMoveList().size() == 0;
+  //@ ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183; getTile(i, j).toString().equals(". "));
   public Board() {
     boardMatrix = new ArrayList<ArrayList<Tile>>();
     for (int row = 0; row < 183; row++) {
@@ -29,9 +29,9 @@ public class Board {
    * Board constructor. Constructs a empty board.
    */
   //@ requires game != null;
-  //@ ensures this.game == game;
-  //@ ensures currentLocalTurn.size() == 0;
-  //@ ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183; getTile(i, j).toString().equals(". ");
+  //@ ensures getGame() == game;
+  //@ ensures getMoveList().size() == 0;
+  //@ ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183; getTile(i, j).toString().equals(". "));
   public Board(Game game) {
     boardMatrix = new ArrayList<ArrayList<Tile>>();
     for (int row = 0; row < 183; row++) {
@@ -52,8 +52,8 @@ public class Board {
   //@ requires move.getRow() >= 0 & move.getRow() < 183;
   //@ requires move.getColumn() >= 0 & move.getColumn() < 183;
   //@ requires move != null;
-  //@ ensures currentLocalTurn.contains(move);
-  //@ ensures currentLocalTurn.size() == \old(currentLocalTurn.size());
+  //@ ensures getMoveList().contains(move);
+  //@ ensures getMoveList().size() == \old(getMoveList().size());
   //@ ensures getTile(move.getRow(), move.getColumn()).equals(move.getTile());
   public void putTile(Move move) {
     int row = move.getRow();
@@ -66,7 +66,7 @@ public class Board {
    * Ends the current turn by removing all the moves from
    * the array of moves of the current (now previous) turn.
    */
-  //@ ensures currentLocalTurn.size() == 0;
+  //@ ensures getMoveList().size() == 0;
   public void endTurn() {
     currentLocalTurn = new ArrayList<Move>();
   }
@@ -75,7 +75,7 @@ public class Board {
    * Undoes the given move.
    * @param move The move that needs to be undone.
    */
-  //@ requires currentLocalTurn.contains(move);
+  //@ requires getMoveList().contains(move);
   //@ requires move != null;
   //@ requires getTile(move.getRow(), move.getColumn()).equals(move.getTile());
   //@ ensures getTile(move.getRow(), move.getColumn()).toString().equals(". ");
@@ -91,8 +91,8 @@ public class Board {
   /**
    * Undoes every move of the current turn.
    */
-  //@ ensures (\forall Move move; currentLocalTurn.contains(move); getTile(move.getRow(), move.getColumn()).toString.equals(". ");
-  //@ ensures currentLocalTurn.size() == 0;
+  //@ ensures (\forall Move move; getMoveList().contains(move); getTile(move.getRow(), move.getColumn()).toString().equals(". "));
+  //@ ensures getMoveList().size() == 0;
   public void resetTurn() {
     for (Move move : currentLocalTurn) {
       undoMove(move);
@@ -105,8 +105,8 @@ public class Board {
    * @return A copy of board.
    */
   //@ ensures \result != null;
-  //@ ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183; \result.getTile(i, j).equals(getTile(i, j));
-  //@ ensures \result.currentLocalTurn.containsAll(currentLocalTurn);
+  //@ ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183; \result.getTile(i, j).equals(getTile(i, j)));
+  //@ ensures \result.getMoveList().containsAll(getMoveList());
   public Board deepCopy() {
     Board result = new Board();
     for (int row = 0; row < 183; row++) {
@@ -115,46 +115,6 @@ public class Board {
       }
     }
     result.currentLocalTurn.addAll(currentLocalTurn);
-    return result;
-  }
-  
-  /**
-   * Returns a string representation of the board.
-   */
-  //@ ensures \result != null;
-  public String toString() {
-    String result = "";
-    ArrayList<ArrayList<Integer>> marges = getMargins();
-    int rowMin = marges.get(0).get(0);
-    int rowMax = marges.get(0).get(1);
-    int columnMin = marges.get(1).get(0);
-    int columnMax = marges.get(1).get(1);
-    result = "XXX ";
-    // This part creates the top row of column numbers
-    for (int column = columnMin; column <= columnMax; column++) { 
-      if (column > 99) {
-        result = result + (column) + " ";
-      } else if (column > 9) {
-        result = result + (column) + "  ";
-      } else {
-        result = result + (column) + "   ";
-      }
-    }
-    result = result + "\n";
-    // This part creates the rest
-    for (int row = rowMin; row <= rowMax; row++) {
-      if (row > 99) {
-        result = result + (row) + " ";
-      } else if (row > 9) {
-        result = result + (row) + "  ";
-      } else {
-        result = result + (row) + "   ";
-      }
-      for (int column = columnMin; column <= columnMax; column++) {
-        result = result + boardMatrix.get(row).get(column).toString() + "  ";
-      }
-      result = result + "\n";
-    }
     return result;
   }
   
@@ -319,7 +279,7 @@ public class Board {
    * @return True or False whether the moves line up or not.
    */
   //@ requires move != null;
-  //@ requires currentLocalTurn != null;
+  //@ requires getMoveList() != null;
   public boolean currentMovesLineUp(Move move) {
     boolean result = false;
     if (!currentLocalTurn.isEmpty()) {
@@ -364,6 +324,46 @@ public class Board {
     return result;
   }
   
+  /**
+   * Returns a string representation of the board.
+   */
+  //@ ensures \result != null;
+  public String toString() {
+    String result = "";
+    ArrayList<ArrayList<Integer>> marges = getMargins();
+    int rowMin = marges.get(0).get(0);
+    int rowMax = marges.get(0).get(1);
+    int columnMin = marges.get(1).get(0);
+    int columnMax = marges.get(1).get(1);
+    result = "XXX ";
+    // This part creates the top row of column numbers
+    for (int column = columnMin; column <= columnMax; column++) { 
+      if (column > 99) {
+        result = result + (column) + " ";
+      } else if (column > 9) {
+        result = result + (column) + "  ";
+      } else {
+        result = result + (column) + "   ";
+      }
+    }
+    result = result + "\n";
+    // This part creates the rest
+    for (int row = rowMin; row <= rowMax; row++) {
+      if (row > 99) {
+        result = result + (row) + " ";
+      } else if (row > 9) {
+        result = result + (row) + "  ";
+      } else {
+        result = result + (row) + "   ";
+      }
+      for (int column = columnMin; column <= columnMax; column++) {
+        result = result + boardMatrix.get(row).get(column).toString() + "  ";
+      }
+      result = result + "\n";
+    }
+    return result;
+  }
+
   /**
    * Calculates the part of the board where there are tiles. This is used for the
    * toString() of the board so only the relevant part will be returned.
@@ -465,15 +465,15 @@ public class Board {
    * @param column A column number of the board.
    * @return the Tile located at the given row and column.
    */
-  //@ requires boardMatrix != null;
+  //@ requires getBoardMatrix() != null;
   //@ requires row >= 0 & row < 183;
   //@ requires column >= 0 & column < 183;
-  //@ ensures \result.equals(boardMatrix.get(row).get(column));
+  //@ ensures \result.equals(getBoardMatrix().get(row).get(column));
   /*@ pure */ public Tile getTile(int row, int column) {
     return boardMatrix.get(row).get(column);
   }
   
-  //@ ensures \result == this.game;
+  //@ ensures \result != null;
   /*@ pure */ public Game getGame() {
     return game;
   }
@@ -484,8 +484,8 @@ public class Board {
    * @return The calculated the amount of points that are 
    *         earned with the current turn.
    */
-  //@ requires currentLocalTurn != null;
-  //@ ensures \result >= currentLocalTurn.size();
+  //@ requires getMoveList() != null;
+  //@ ensures \result >= getMoveList().size();
   public int getScoreCurrentTurn() {
     String empty = ". ";
     int verticalResult = 0;
@@ -567,13 +567,17 @@ public class Board {
     return horizontalResult + verticalResult;
   }
   
+  /*@ pure*/ public ArrayList<ArrayList<Tile>> getBoardMatrix() {
+    return boardMatrix;
+  }
+  
   /**
    * Checks if this board is the same as the given board.
    * @param board That needs to be compared.
    * @return True or False whether the boards are equal or not.
    */
   //@ requires board != null;
-  //@ ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183; !getTile(i, j).equals(board.getTile(i, j) ==> \result == false);
+  //@ ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183; !getTile(i, j).equals(board.getTile(i, j)) ==> \result == false);
   /*@ pure */ public boolean equals(Board board) {
     boolean result = true;
     for (int row = 0; row < 183; row++) {
@@ -588,5 +592,10 @@ public class Board {
       }
     }
     return result;
+  }
+  
+  //@ ensures \result != null;
+  /*@ pure */ public List<Move> getMoveList() {
+    return currentLocalTurn;
   }
 }

@@ -156,6 +156,13 @@ public class Server extends Thread{
   private Tuiview tui;
   
   /** Constructs a new Server object. */
+  //@ requires serverSocket != null;
+  //@ requires numberOfPlayers > 1 & numberOfPlayers < 5;
+  //@ requires aiTime > 0;
+  //@ requires waitingForFullLoby != null;
+  //@ requires serverNr > 0;
+  //@ ensures getServerNr() == serverNr;
+  //@ ensures isReady() == true;
   public Server(ServerSocket serverSocket, int numberOfPlayers, 
       int aiTime, Object waitingForFullLoby, int serverNr) {
     this.serverNr = serverNr;
@@ -289,6 +296,7 @@ public class Server extends Thread{
    * Checks if all connected players have send their name.
    * @return True of false whether all players have send their name or not.
    */
+  //@ requires getGame().getPlayerNrs() != null;
   private boolean allPlayerNamesAreKnown() {
     // Here is checked if for every client handler in server
     // also a player in game is created.
@@ -318,6 +326,7 @@ public class Server extends Thread{
    * Add a ClientHandler to the collection of ClientHandlers.
    * @param handler ClientHandler that will be added
    */
+  //@ ensures getThread(playerNr) == handler;
   public synchronized void addHandler(int playerNr, ClientHandler handler) {
     synchronized (threads) {
       threads.put(playerNr, handler);
@@ -328,33 +337,34 @@ public class Server extends Thread{
    * Remove a ClientHandler from the collection of ClientHanlders. 
    * @param playerNr number of the ClientHandler that will be removed.
    */
+  //@ ensures getThread(playerNr) == null;
   public synchronized void removeHandler(int playerNr) {
     synchronized (threads) {
       threads.remove(playerNr);
     }
   }
   
-  public Game getGame() {
+  /*@ pure */ public Game getGame() {
     return game;
   }
   
-  public ClientHandler getThread(int playerNr) {
+  /*@ pure */ public ClientHandler getThread(int playerNr) {
     return threads.get(playerNr);
   }
   
-  public int getServerNr() {
+  /*@ pure */ public int getServerNr() {
     return serverNr;
   }
   
-  public Set<Integer> getPlayerNrs() {
+  /*@ pure */ public Set<Integer> getPlayerNrs() {
     return threads.keySet();
   }
   
-  public Tuiview getObserver() {
+  /*@ pure */ public Tuiview getObserver() {
     return tui;
   }
   
-  public boolean isReady() {
+  /*@ pure */ public boolean isReady() {
     return imReady;
   }
   
@@ -366,6 +376,9 @@ public class Server extends Thread{
    * @param playerNr The number of the player that is being kicked.
    * @param reason A String with a message about the reason of the kick.
    */
+  //@ requires getThread(playerNr) != null;
+  //@ ensures getGame().getPlayer(playerNr) == null;
+  //@ ensures getGame().getPoolSize() == \old(getGame().getPoolSize()) + \old(getGame().getPlayer(playerNr).getHand().size());
   public synchronized void kick(int playerNr, String reason) {
     synchronized (threads) {
       List<Tile> hand = game.getPlayer(playerNr).getHand();
@@ -381,6 +394,7 @@ public class Server extends Thread{
   /**
    * Gives the turn to the next player and broadcasts it to all players.
    */
+  //@ ensures getGame().getCurrentPlayer() != \old(getGame().getCurrentPlayer());
   public void nextPlayerTurn() {
     // Here it gets the current player and keeps going through the
     // numbers 1, 2, 3 and 4 from the current player number until
@@ -403,6 +417,8 @@ public class Server extends Thread{
    * @param playerNr The player who made the turn.
    * @param turn The turn which was made.
    */
+  //@ requires getThread(playerNr) != null;
+  //@ requires turn != null;
   public void sendTurn(int playerNr, List<Move> turn) {
     String msg = "TURN " + playerNr;
     for (int i = 0; i < turn.size(); i++) {
@@ -417,6 +433,8 @@ public class Server extends Thread{
    * @param playerNr The player to whom the tiles need to be send to.
    * @param tiles The tiles that need to be send
    */
+  //@ requires getThread(playerNr) != null;
+  //@ requires tiles != null;
   public void giveTiles(int playerNr, List<Tile> tiles) {
     String msg;
     if (tiles.size() > 0) {

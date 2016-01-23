@@ -81,7 +81,7 @@ public class Player {
    * Get the name of the player.
    * @return name
    */
-  public String getName() {
+  /*@ pure */ public String getName() {
     return name;
   }
   
@@ -89,7 +89,7 @@ public class Player {
    * Get the hand of the player.
    * @return hand
    */
-  public List<Tile> getHand() {
+  /*@ pure */ public List<Tile> getHand() {
     List<Tile> result = new ArrayList<Tile>();
     result.addAll(hand);
     return result;
@@ -112,7 +112,7 @@ public class Player {
    * get number of the player.
    * @return playerNumber
    */
-  public int getPlayerNumber() {
+  /*@ pure */ public int getPlayerNumber() {
     return playerNumber;
   }
   
@@ -120,7 +120,7 @@ public class Player {
     return "Player-" + playerNumber + " " + name;
   }
   
-  public int getScore() {
+  /*@ pure */ public int getScore() {
     return score;
   }
   
