@@ -38,7 +38,7 @@ public class Tuiview implements Observer {
     DateFormat df = new SimpleDateFormat("ddMMyyHHmmss");
     Date dateobj = new Date();
     fileName = df.format(dateobj);
-    file = new File(PATH + "s" + fileName + ".txt");
+    file = new File(PATH + "s" + fileName + "game-" + this.server.getServerNr() + ".txt");
     if (!file.exists()) {
       try {
         file.createNewFile();

@@ -36,19 +36,15 @@ public class Move {
     this.type = type;
   }
 
-  public Tile getTile() {
+  /*@ pure*/ public Tile getTile() {
     return tile;
   }
 
-  public int getRow() {
-//    int result = 0 + row;
-//    return result;
+  /*@ pure*/ public int getRow() {
     return row;
   }
 
-  public int getColumn() {
-//    int result = 0 + column;
-//    return result;
+  /*@ pure*/ public int getColumn() {
     return column;
   }
   

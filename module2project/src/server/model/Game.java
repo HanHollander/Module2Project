@@ -268,27 +268,27 @@ public class Game extends Observable{
     return playerNrWithhighestPointsYet;
   }
 
-  public int getCurrentPlayer() {
+  /*@ pure */ public int getCurrentPlayer() {
     return currentPlayer;
   }
 
-  public Player getPlayer(int playerNr) {
+  /*@ pure */ public Player getPlayer(int playerNr) {
     return playerList.get(playerNr);
   }
 
-  public Server getServer() {
+  /*@ pure */ public Server getServer() {
     return server;
   }
 
-  public Board getBoard() {
+  /*@ pure */ public Board getBoard() {
     return board;
   }
   
-  public Set<Integer> getPlayerNrs() {
+  /*@ pure */ public Set<Integer> getPlayerNrs() {
     return playerList.keySet();
   }
   
-  public int getPoolSize() {
+  /*@ pure */ public int getPoolSize() {
     return pool.size();
   }
   

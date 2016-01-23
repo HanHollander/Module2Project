@@ -15,19 +15,19 @@ public class Tile {
     this.shape = shape;
   }
   
-  public String getColor() {
+  /*@ pure*/ public String getColor() {
     return color;
   }
   
-  public String getShape() {
+  /*@ pure*/ public String getShape() {
     return shape;
   }
   
-  public String toString() {
+  /*@ pure*/ public String toString() {
     return color + shape;
   }
   
-  public boolean equals(Tile tile) {
+  /*@ pure*/ public boolean equals(Tile tile) {
     return (color.equals(tile.getColor()) && shape.equals(tile.getShape()));
   }
 

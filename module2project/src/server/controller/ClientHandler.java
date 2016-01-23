@@ -86,10 +86,10 @@ public class ClientHandler extends Thread {
         text = in.readLine();
         tui.print("Received from player-" + playerNr + ": " + text);
         if (server.getGame().getCurrentPlayer() == playerNr) {
-          if (isValidMoveTurn(text)) {
+          if (isValidMoveTurnMessage(text)) {
             List<Move> turn = convertStringToMoveTurn(text);
             server.getGame().applyMoveTurn(server.getGame().getPlayer(playerNr), turn, false);
-          } else if (isValidSwapTurn(text)) {
+          } else if (isValidSwapTurnMessage(text)) {
             List<Tile> turn = convertStringToSwapTurn(text);
             server.getGame().applySwapTurn(turn, server .getGame().getPlayer(playerNr));
           } else {
@@ -133,6 +133,7 @@ public class ClientHandler extends Thread {
    * @param text The text that needs to be converted.
    * @return The list of tiles that was made from the text.
    */
+  //@ requires isValidSwapTurnMessage(text) == true;
   private List<Tile> convertStringToSwapTurn(String text) {
     String[] swapTextParts = text.substring(5).split(" ");
     List<Tile> turn = new ArrayList<Tile>();
@@ -147,6 +148,7 @@ public class ClientHandler extends Thread {
    * @param text The text that needs to be converted.
    * @return The list of moves that was made from the text.
    */
+  //@ requires isValidMoveTurnMessage(text) == true;
   private List<Move> convertStringToMoveTurn(String text) {
     String[] moveTextParts = text.substring(5).split(" ");
     List<Move> turn = new ArrayList<Move>();
@@ -165,7 +167,10 @@ public class ClientHandler extends Thread {
    * @param text The text that needs to be checked.
    * @return True of false whether this text is a valid swap turn or not.
    */
-  private boolean isValidSwapTurn(String text) {
+  //@ ensures !text.startsWith("SWAP ") ==> \result == false;
+  //@ ensures text.split(" ").length < 2 || text.split(" ").length > 7 ==> \result == false;
+  //@ ensures (\forall int i; i >= 0 & i < text.substring(5).split(" ").length; (!COLOURS.contains(text.substring(5).split(" ")[i].substring(0,1)) || !SHAPES.contains(text.substring(5).split(" ")[i].substring(1,2))) ==> \result == false);
+  private boolean isValidSwapTurnMessage(String text) {
     boolean result = true;
     String[] swapTextParts = null;
     if (text.startsWith("SWAP ")) {
@@ -175,10 +180,8 @@ public class ClientHandler extends Thread {
         for (String tile : swapTextParts) {
           if (tile.length() == 2) {
             // Check if the tiles are valid tiles
-            if (COLOURS.contains(tile.substring(0,1)) 
-                && SHAPES.contains(tile.substring(1,2))) {
-              result = result && true;
-            }
+            result = result && (COLOURS.contains(tile.substring(0,1)) 
+                && SHAPES.contains(tile.substring(1,2)));
           } else {
             result = false;
             break;
@@ -205,7 +208,8 @@ public class ClientHandler extends Thread {
    * @param text The text that needs to be checked.
    * @return True of false whether this text is a valid move turn or not.
    */
-  private boolean isValidMoveTurn(String text) {
+  //@ ensures !text.startsWith("MOVE ") ==> \result == false;
+  private boolean isValidMoveTurnMessage(String text) {
     boolean result = true;
     String[] moveTextParts = null;
     if (text.startsWith("MOVE ")) {
@@ -217,10 +221,8 @@ public class ClientHandler extends Thread {
           if ((i % 3) == 0) {
             String tileText = moveTextParts[i];
             if (tileText.length() == 2) {
-              if (COLOURS.contains(tileText.substring(0,1)) 
-                  && SHAPES.contains(tileText.substring(1,2))) {
-                result = result && true;
-              }
+              result = result && (COLOURS.contains(tileText.substring(0,1)) 
+                  && SHAPES.contains(tileText.substring(1,2)));
             } else {
               result = false;
               break;
@@ -299,7 +301,7 @@ public class ClientHandler extends Thread {
     }
   }
   
-  public String getClientName() {
+  /* pure */ public String getClientName() {
     return clientName;
   }
   
