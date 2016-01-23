@@ -128,7 +128,7 @@ public class Board {
   //@ requires move != null;
   //@ ensures getTile(move.getRow(), move.getColumn()).toString().equals(". ") ==> \result == false;
   //@ ensures !currentMovesLineUp(move) ==> \result == false;
-  public boolean checkMove(Move move) {
+  /*@ pure */ public boolean checkMove(Move move) {
     boolean gotVerticalRow;
     boolean gotHorizontalRow;
     Tile empty = new Tile();
@@ -280,7 +280,7 @@ public class Board {
    */
   //@ requires move != null;
   //@ requires getMoveList() != null;
-  public boolean currentMovesLineUp(Move move) {
+  /*@ pure */ public boolean currentMovesLineUp(Move move) {
     boolean result = false;
     if (!currentLocalTurn.isEmpty()) {
       boolean horizontalLineUp = true;
