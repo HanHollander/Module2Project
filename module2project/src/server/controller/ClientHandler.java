@@ -18,13 +18,22 @@ public class ClientHandler extends Thread {
   
   public static final List<String> COLOURS = Arrays.asList("R", "O", "B", "Y", "G", "P");
   public static final List<String> SHAPES = Arrays.asList("o", "d", "s", "c", "x", "*");
+  public static final List<String> ALLOWEDCHARS = Arrays.asList("a", "b", "c", "d", "e", 
+      "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", 
+      "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", 
+      "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z");
+  
+  /*@ invariant getClientName().length() > 0 & getClientName().length() < 17;
+      invariant (\forall int i; i >= 0 & i < getClientName().length();
+                ALLOWEDCHARS.contains(getClientName().substring(i, i + 1)));
+   */
   
   private Server server;
   private Socket socket;
   private BufferedReader in;
   private BufferedWriter out;
   private String clientName;
-  private int playerNr;
+  private /*@ spec_public */ int playerNr;
   private Object listener;
   private boolean isShutDown;
   private Tuiview tui;
@@ -269,6 +278,13 @@ public class ClientHandler extends Thread {
     return result;
   }
   
+  /*@ requires text != null;
+      ensures !text.startsWith("HELLO ") ==> \result == false;
+      ensures text.substring(6).length() > 16 ==> \result == false;
+      ensures (\forall int i; i >= 0 & i < text.substring(6).length();
+              !ALLOWEDCHARS.contains(text.substring(6).substring(i, i + 1))
+              ==> \result == false);
+   */
   /**
    * Checks if the given text is a valid start message according to the protocol.
    * @param text The text that needs to be checked.
@@ -276,10 +292,6 @@ public class ClientHandler extends Thread {
    */
   private boolean isValidStartMessage(String text) {
     // The name may only contain lower and upper case letters
-    List<String> allowedChars = Arrays.asList("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", 
-        "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", 
-        "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", 
-        "S", "T", "U", "V", "W", "X", "Y", "Z");
     Boolean result;
     result = text.startsWith("HELLO ");
     if (result) {
@@ -287,7 +299,7 @@ public class ClientHandler extends Thread {
       result = result && name.length() < 17;
       for (int i = 0; i < name.length(); i++) {
         // Here is checked for every character in the name if it is one of the allowed characters.
-        result = result && allowedChars.contains(name.substring(i, i + 1));
+        result = result && ALLOWEDCHARS.contains(name.substring(i, i + 1));
       }
     }
     return result;
@@ -312,7 +324,7 @@ public class ClientHandler extends Thread {
     }
   }
   
-  /* pure */ public String getClientName() {
+  /*@ pure */ public String getClientName() {
     return clientName;
   }
   

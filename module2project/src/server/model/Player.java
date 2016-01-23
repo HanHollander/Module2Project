@@ -24,7 +24,11 @@ public class Player {
   private int score;
     
   //Constructor\\
-    
+  
+  /*@ ensures getName().equals(name);
+      ensures getPlayerNumber() == playerNumber;
+      ensures getHand().size() == 0;
+   */
   /**
    * Constructor for a Player.
    * @param name the name
@@ -39,6 +43,10 @@ public class Player {
     
   //Functions\\
   
+  /*@ requires tile != null;
+      requires getHand().size() < 6;
+      ensures getHand().contains(tile);
+   */
   /**
    * Add a tile to a hand.
    * @param tile the tile to add
@@ -52,6 +60,10 @@ public class Player {
     }
   }
   
+  /*@ requires tile != null;
+      requires getHand().contains(tile);
+      ensures getHand().size() == \old(getHand().size()) - 1;
+   */
   /**
    * Remove tile from hand.
    * @param tile tile to remove
@@ -78,24 +90,6 @@ public class Player {
   //Getters, toString\\
         
   /**
-   * Get the name of the player.
-   * @return name
-   */
-  /*@ pure */ public String getName() {
-    return name;
-  }
-  
-  /**
-   * Get the hand of the player.
-   * @return hand
-   */
-  /*@ pure */ public List<Tile> getHand() {
-    List<Tile> result = new ArrayList<Tile>();
-    result.addAll(hand);
-    return result;
-  }
-  
-  /**
    * Return a string representation of the hand.
    * @return string representation of the hand
    *         " (tile) (tile) (tile) (tile) (tile) (tile)"
@@ -107,7 +101,25 @@ public class Player {
     }
     return result;
   }
-    
+        
+  /**
+   * Get the name of the player.
+   * @return name
+   */
+  /*@ pure */ public String getName() {
+    return name;
+  }
+        
+  /**
+   * Get the hand of the player.
+   * @return hand
+   */
+  /*@ pure */ public List<Tile> getHand() {
+    List<Tile> result = new ArrayList<Tile>();
+    result.addAll(hand);
+    return result;
+  }
+
   /**
    * get number of the player.
    * @return playerNumber
@@ -124,6 +136,8 @@ public class Player {
     return score;
   }
   
+  //@ requires extraPoints > 0;
+  //@ ensures getScore() == \old(getScore()) + extraPoints;
   public void addToScore(int extraPoints) {
     score += extraPoints;
   }

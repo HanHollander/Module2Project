@@ -19,6 +19,11 @@ public class Game extends Observable{
   public static final List<String> COLOURS = Arrays.asList("R", "O", "B", "Y", "G", "P");
   public static final List<String> SHAPES = Arrays.asList("o", "d", "s", "c", "x", "*");
   
+  /*@ invariant getPoolSize() >= 0 & getPoolSize() <= 108;
+      invariant getWinningPlayerNr() > 0 & getWinningPlayerNr() < 5;
+      invariant getCurrentPlayer() > 0 & getCurrentPlayer() < 5;
+   */
+  
   private Board board;
   private HashMap<Integer, Player> playerList;
   private int currentPlayer;
@@ -26,16 +31,22 @@ public class Game extends Observable{
   private Server server;
   
   //Constructor\\
+  /*@ requires server != null;
+      assignable server;
+      assignable board;
+      assignable server;
+      assignable currentPlayer;
+      assignable pool;
+      ensures getServer() == server;
+      ensures getPlayerNrs() != null;
+      ensures getPlayerNrs().size() == 0;
+      ensures getCurrentPlayer() == 0;
+      ensures getPoolSize() == 108;
+   */
   /**
    * The Constructor of a game.
    * @param server The server through which the game can communicate with the players.
    */
-  //@ requires server != null;
-  //@ ensures getServer() == server;
-  //@ ensures getPlayerNrs() != null;
-  //@ ensures getPlayerNrs().size() == 0;
-  //@ ensures getCurrentPlayer() == 0;
-  //@ ensures getPoolSize() == 108;
   public Game(Server server) {
     addObserver(server.getObserver());
     this.server = server;
@@ -53,14 +64,16 @@ public class Game extends Observable{
     }
   }
   
+  /*@ requires checkSwapTurn(turn, player);
+      ensures \old(getPoolSize()) >= turn.size() ==> player.getHand().size() == 6;
+      ensures \old(getPoolSize()) < turn.size() ==> player.getHand().size() 
+              == \old(player.getHand().size()) - turn.size() + \old(getPoolSize()); 
+   */
   /**
    * Applies the given turn to the pool and sends it to all the players.
    * @param player The player that made the turn.
    * @param turn The turn that needs to be applied.
    */
-  //@ requires checkSwapTurn(turn, player);
-  //@ ensures \old(getPoolSize()) >= turn.size() ==> player.getHand().size() == 6;
-  //@ ensures \old(getPoolSize()) < turn.size() ==> player.getHand().size() == \old(player.getHand().size()) - turn.size() + \old(getPoolSize());
   public void applySwapTurn(List<Tile> turn, Player player) {
     List<Tile> newTiles = new ArrayList<Tile>();
     for (Tile tile : turn) {
@@ -83,16 +96,19 @@ public class Game extends Observable{
     server.broadcast("TURN " + player.getPlayerNumber() + " empty");
   }
   
+  /*@ requires checkMoveTurn(turn, player);
+      ensures \old(getPoolSize()) >= turn.size() ==> player.getHand().size() == 6;
+      ensures \old(getPoolSize()) < turn.size() ==> player.getHand().size() 
+              == \old(player.getHand().size()) - turn.size() + \old(getPoolSize());
+      ensures (\forall Move move; turn.contains(move); 
+              getBoard().getTile(move.getRow(), move.getColumn()).equals(move.getTile())); 
+   */
   /**
    * Applies the given turn to the board and sends it to all the players.
    * @param player The player that made the turn.
    * @param turn The turn that needs to be applied.
    * @param isFirstTurn True or False whether this is the first turn of the game or not.
    */
-  //@ requires checkMoveTurn(turn, player);
-  //@ ensures \old(getPoolSize()) >= turn.size() ==> player.getHand().size() == 6;
-  //@ ensures \old(getPoolSize()) < turn.size() ==> player.getHand().size() == \old(player.getHand().size()) - turn.size() + \old(getPoolSize());
-  //@ ensures (\forall Move move; turn.contains(move); getBoard().getTile(move.getRow(), move.getColumn()).equals(move.getTile()));
   public void applyMoveTurn(Player player, List<Move> turn, boolean isFirstTurn) {
     //Put tiles on the board
     for (int i = 0; i < turn.size(); i++) {
@@ -129,6 +145,11 @@ public class Game extends Observable{
     notifyObservers("turn made");
   }
   
+  /*@ requires turn != null;
+      requires player != null;
+      ensures (\forall Tile tile; turn.contains(tile); 
+              !player.getHand().contains(tile) ==> \result == false); 
+   */
   /**
    * Checks if the tiles that the given player wants to swap
    * are all in the current hand of the player.
@@ -136,9 +157,6 @@ public class Game extends Observable{
    * @param player The player who made/suggested the turn.
    * @return True of False whether the turn is valid or not.
    */
-  //@ requires turn != null;
-  //@ requires player != null;
-  //@ ensures (\forall Tile tile; turn.contains(tile); !player.getHand().contains(tile) ==> \result == false);
   /*@ pure */ public boolean checkSwapTurn(List<Tile> turn , Player player) {
     boolean result = true;
     if (getPoolSize() >= turn.size()) {
@@ -160,15 +178,17 @@ public class Game extends Observable{
     return result;
   }
   
+  /*@ requires turn != null;
+      requires player != null;
+      ensures (\forall Move move; turn.contains(move); 
+              !player.getHand().contains(move.getTile()) ==> \result == false); 
+   */
   /**
    * Checks if the turn is valid according to the Qwirkle rules.
    * @param turn The turn that needs to be checked.
    * @param player The player who made/suggested the turn.
    * @return True of False whether the turn is valid or not.
    */
-  //@ requires turn != null;
-  //@ requires player != null;
-  //@ ensures (\forall Move move; turn.contains(move); !player.getHand().contains(move.getTile()) ==> \result == false);
   /*@ pure */ public boolean checkMoveTurn(List<Move> turn, Player player) {
     Boolean result = true;
     Board testBoard = board.deepCopy();
@@ -197,25 +217,28 @@ public class Game extends Observable{
     return result;
   }
   
+  /*@ requires getPoolSize() > 0;
+      ensures getPoolSize() == \old(getPoolSize());
+      ensures \result != null;
+   */
   /**
    * Swaps a tile with a random tile from the pool.
    * @param tile The tile that goes into the pool.
    * @return The tile that comes out of the pool.
    */
-  //@ requires getPoolSize() > 0;
-  //@ ensures getPoolSize() == \old(getPoolSize());
-  //@ ensures \result != null;
   public Tile swapTileWithPool(Tile tile) {
     addTileToPool(tile);
     return drawRandomTileFromPool();
   }
   
+  /*@ requires getPoolSize() > 0;
+      assignable pool;
+      ensures getPoolSize() == \old(getPoolSize()) - 1;
+   */
   /**
    * Takes a random tile from the pool and removes it from the pool.
    * @return A random tile from the pool.
    */
-  //@ requires getPoolSize() > 0;
-  //@ ensures getPoolSize() == \old(getPoolSize()) - 1;
   public Tile drawRandomTileFromPool() {
     int randomIndex = (int)Math.round(Math.random() * (pool.size() - 1));
     Tile result = pool.get(randomIndex);
@@ -223,18 +246,26 @@ public class Game extends Observable{
     return result;
   }
 
-  //@ requires tile != null;
-  //@ ensures getPoolSize() == \old(getPoolSize()) + 1;
+  /*@ requires tile != null;
+      assignable pool;
+      ensures getPoolSize() == \old(getPoolSize()) + 1;
+   */
+  /**
+   * Adds a tile to the pool.
+   * @param tile The tile that needs to be added to the pool.
+   */
   public void addTileToPool(Tile tile) {
     pool.add(tile);
   }
   
+  /*@ requires getPlayerNrs() != null;
+      ensures (\forall int playerNr; getPlayerNrs().contains(playerNr); 
+              getPlayer(playerNr).getHand().size() == 6);
+      ensures getPoolSize() < \old(getPoolSize()) - (getPlayerNrs().size() * 6);
+   */
   /**
    * Gives every player 6 random tiles from the pool and sends those to the players personally.
    */
-  //@ requires getPlayerNrs() != null;
-  //@ ensures (\forall int playerNr; getPlayerNrs().contains(playerNr); getPlayer(playerNr).getHand().size() == 6);
-  //@ ensures getPoolSize() < \old(getPoolSize()) - (getPlayerNrs().size() * 6);
   public void dealTiles() {
     Set<Integer> playerNrs = getPlayerNrs();
     for (int i = 0; i < 6; i++) {
@@ -254,49 +285,57 @@ public class Game extends Observable{
     }
   }
 
+  /*@ requires !getPlayerNrs().contains(playerNr);
+      assignable playerList;
+      ensures getPlayerNrs().contains(playerNr);
+      ensures getPlayer(playerNr) != null;
+      ensures getPlayerNrs().size() == \old(getPlayerNrs().size()) + 1;
+   */
   /**
    * Creates a new player and adds it to the playerList.
    * @param playerNr The player number of the new player.
    * @param name The name of the new player.
    */
-  //@ requires !getPlayerNrs().contains(playerNr);
-  //@ ensures getPlayerNrs().contains(playerNr);
-  //@ ensures getPlayer(playerNr) != null;
-  //@ ensures getPlayerNrs().size() == \old(getPlayerNrs().size()) + 1;
   public synchronized void addPlayer(int playerNr, String name) {
     synchronized (playerList) {
       playerList.put(playerNr, new Player(name, playerNr));
     }
   }
   
+  /*@ requires getPlayerNrs().contains(playerNr);
+      assignable playerList;
+      ensures !getPlayerNrs().contains(playerNr);
+      ensures getPlayer(playerNr) == null;
+      ensures getPlayerNrs().size() == \old(getPlayerNrs().size()) - 1;
+   */
   /**
    * Removes the player with the given playerNr from the playerList.
    * @param playerNr The number of the player that needs to be removed.
    */
-  //@ requires getPlayerNrs().contains(playerNr);
-  //@ ensures !getPlayerNrs().contains(playerNr);
-  //@ ensures getPlayer(playerNr) == null;
-  //@ ensures getPlayerNrs().size() == \old(getPlayerNrs().size()) - 1;
   public void removePlayer(int playerNr) {
     synchronized (playerList) {
       playerList.remove(playerNr);
     }
   }
   
-  //@ requires getPlayerNrs().contains(currentPlayer);
-  //@ ensures getCurrentPlayer() == currentPlayer;
+  /*@ requires getPlayerNrs().contains(currentPlayer);
+      assignable currentPlayer;
+      ensures getCurrentPlayer() == currentPlayer;
+   */
   public void setCurrentPlayer(int currentPlayer) {
     this.currentPlayer = currentPlayer;
   }
   
+  /*@ requires getPlayerNrs() != null;
+      ensures \result > 0 & \result < 5;
+      ensures (\forall int playerNr; getPlayerNrs().contains(playerNr); 
+              getPlayer(playerNr).getScore() <= \result); 
+   */
   /**
    * Searches for the player with the highest score.
    * @return The player with the highest score.
    */
-  //@ requires getPlayerNrs() != null;
-  //@ ensures \result > 0 & \result < 5;
-  //@ ensures (\forall int playerNr; getPlayerNrs().contains(playerNr); getPlayer(playerNr).getScore() <= \result);
-  public int getWinningPlayerNr() {
+  /*@ pure */ public int getWinningPlayerNr() {
     Set<Integer> playerNrs = getPlayerNrs();
     int highestPointsYet = -1;
     int playerNrWithhighestPointsYet = 0;
@@ -330,6 +369,7 @@ public class Game extends Observable{
     return playerList.keySet();
   }
   
+  //@ ensures \result >= 0;
   /*@ pure */ public int getPoolSize() {
     return pool.size();
   }
@@ -350,12 +390,12 @@ public class Game extends Observable{
         // the list rowWithShapeTheSameColors doesn't already contain the color of the tiles.
         List<Tile> rowWithShapeTheSame = new ArrayList<Tile>();
         List<String> rowWithShapeTheSameColors = new ArrayList<String>();
+        rowWithShapeTheSame.add(tile);
+        rowWithShapeTheSameColors.add(tile.getColor());
         // The list only tiles will be added in if they have the same color and if 
         // the list rowWithColorTheSameShapes doesn't already contain the shape of the tiles.
         List<Tile> rowWithColorTheSame = new ArrayList<Tile>();
         List<String> rowWithColorTheSameShapes = new ArrayList<String>();
-        rowWithShapeTheSame.add(tile);
-        rowWithShapeTheSameColors.add(tile.getColor());
         rowWithColorTheSame.add(tile);
         rowWithColorTheSameShapes.add(tile.getShape());
         // Add the tiles to the lists if they match the above description.
@@ -406,14 +446,17 @@ public class Game extends Observable{
     setCurrentPlayer(playerNrWithBestPossibleHandPointsYet);
   }
   
+  /*@ requires getPlayerNrs() != null;
+      ensures getPoolSize() > 0 ==> \result == false;
+      ensures (\forall int playerNr; getPlayerNrs().contains(playerNr); 
+              (getPlayer(playerNr).getHand().size() == 0 & getPoolSize() == 0) 
+              ==> \result == true); 
+   */
   /**
    * Checks if the game is over. The game is over when the
    * pool is empty and someone's hand is empty.
    * @return True of False whether the game is over or not.
    */
-  //@ requires getPlayerNrs() != null;
-  //@ ensures getPoolSize() > 0 ==> \result == false;
-  //@ ensures (\forall int playerNr; getPlayerNrs().contains(playerNr); (getPlayer(playerNr).getHand().size() == 0 & getPoolSize() == 0) ==> \result == true);
   public boolean isGameOver() {
     boolean result = getPoolSize() == 0;
     if (result) {
@@ -428,5 +471,4 @@ public class Game extends Observable{
     }
     return result;
   }
-  
 }

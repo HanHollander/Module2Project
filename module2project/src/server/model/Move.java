@@ -4,11 +4,27 @@ public class Move {
   
   public enum Type { MOVE, SWAP, END, ANY; }
   
+  /*@ invariant getType() == Type.MOVE || getType() == Type.SWAP 
+                || getType() == Type.END || getType() == Type.ANY;
+      invariant getRow() >= 0 & getRow() < 183;
+      invariant getColumn() >= 0 & getColumn() < 183;
+   */
+  
   private Type type;
   private Tile tile;
   private int row;
   private int column;
   
+  
+  
+  /*@ requires tile != null;
+      requires row >= 0 & row < 183;
+      requires column >= 0 & column < 183;
+      ensures getTile().equals(tile);
+      ensures getRow() == row;
+      ensures getColumn() == column;
+      ensures getType() == Type.MOVE;
+   */
   /**
    * Constructor for MOVE move.
    * @param tile Tile
@@ -22,6 +38,10 @@ public class Move {
     this.column = column;
   }
   
+  /*@ requires tile != null;
+      ensures getTile().equals(tile);
+      ensures getType() == Type.SWAP;
+   */
   /**
    * Constructor for SWAP move.
    * @param colour colour of tile
@@ -32,6 +52,9 @@ public class Move {
     this.tile = tile;
   }
   
+  /*@ requires type != null;
+      ensures getType() == type;
+   */
   public Move(Type type) {
     this.type = type;
   }
@@ -48,7 +71,7 @@ public class Move {
     return column;
   }
   
-  public Type getType() {
+  /*@ pure*/ public Type getType() {
     return type;
   }
   

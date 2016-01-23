@@ -155,14 +155,15 @@ public class Server extends Thread{
   private int serverNr;
   private Tuiview tui;
   
+  /*@ requires serverSocket != null;
+      requires numberOfPlayers > 1 & numberOfPlayers < 5;
+      requires aiTime > 0;
+      requires waitingForFullLoby != null;
+      requires serverNr > 0;
+      ensures getServerNr() == serverNr;
+      ensures isReady() == true;
+   */
   /** Constructs a new Server object. */
-  //@ requires serverSocket != null;
-  //@ requires numberOfPlayers > 1 & numberOfPlayers < 5;
-  //@ requires aiTime > 0;
-  //@ requires waitingForFullLoby != null;
-  //@ requires serverNr > 0;
-  //@ ensures getServerNr() == serverNr;
-  //@ ensures isReady() == true;
   public Server(ServerSocket serverSocket, int numberOfPlayers, 
       int aiTime, Object waitingForFullLoby, int serverNr) {
     this.serverNr = serverNr;
@@ -292,13 +293,14 @@ public class Server extends Thread{
     }
   }
   
+  /*@ requires getGame().getPlayerNrs() != null;
+      ensures (\forall int playerNr; getThread(playerNr) != null; 
+              !getGame().getPlayerNrs().contains(playerNr) ==> \result == false); 
+   */
   /**
    * Checks if all connected players have send their name.
    * @return True of false whether all players have send their name or not.
    */
-  //@ requires getGame().getPlayerNrs() != null;
-  /*@ ensures (\forall int playerNr; getThread(playerNr) != null; 
-   !getGame().getPlayerNrs().contains(playerNr) ==> \result == false); */
   private boolean allPlayerNamesAreKnown() {
     // Here is checked if for every client handler in server
     // also a player in game is created.
@@ -324,22 +326,22 @@ public class Server extends Thread{
     }
   }
 
+  //@ ensures getThread(playerNr) == handler;
   /**
    * Add a ClientHandler to the collection of ClientHandlers.
    * @param handler ClientHandler that will be added
    */
-  //@ ensures getThread(playerNr) == handler;
   public synchronized void addHandler(int playerNr, ClientHandler handler) {
     synchronized (threads) {
       threads.put(playerNr, handler);
     }
   }
 
+  //@ ensures getThread(playerNr) == null;
   /**
    * Remove a ClientHandler from the collection of ClientHanlders. 
    * @param playerNr number of the ClientHandler that will be removed.
    */
-  //@ ensures getThread(playerNr) == null;
   public synchronized void removeHandler(int playerNr) {
     synchronized (threads) {
       threads.remove(playerNr);
@@ -370,10 +372,11 @@ public class Server extends Thread{
     return imReady;
   }
   
-  //@ requires getThread(playerNr) != null;
-  //@ ensures getGame().getPlayer(playerNr) == null;
-  /*@ ensures getGame().getPoolSize() == \old(getGame().getPoolSize()) 
-   + \old(getGame().getPlayer(playerNr).getHand().size()); */
+  /*@ requires getThread(playerNr) != null;
+      ensures getGame().getPlayer(playerNr) == null;
+      ensures getGame().getPoolSize() == \old(getGame().getPoolSize()) 
+              + \old(getGame().getPlayer(playerNr).getHand().size()); 
+   */
   /**
    * Kicks the given player, removes all references to that player
    * in the game and broadcasts it to all players. (the game keeps going
@@ -394,10 +397,10 @@ public class Server extends Thread{
     }
   }
   
+  //@ ensures getGame().getCurrentPlayer() != \old(getGame().getCurrentPlayer());
   /**
    * Gives the turn to the next player and broadcasts it to all players.
    */
-  //@ ensures getGame().getCurrentPlayer() != \old(getGame().getCurrentPlayer());
   public void nextPlayerTurn() {
     // Here it gets the current player and keeps going through the
     // numbers 1, 2, 3 and 4 from the current player number until
@@ -415,13 +418,13 @@ public class Server extends Thread{
     broadcast("NEXT " + nextPlayer);
   }
   
+  //@ requires getThread(playerNr) != null;
+  //@ requires turn != null;
   /**
    * Broadcasts the given turn and the player who made that turn.
    * @param playerNr The player who made the turn.
    * @param turn The turn which was made.
    */
-  //@ requires getThread(playerNr) != null;
-  //@ requires turn != null;
   public void sendTurn(int playerNr, List<Move> turn) {
     String msg = "TURN " + playerNr;
     for (int i = 0; i < turn.size(); i++) {
@@ -431,13 +434,13 @@ public class Server extends Thread{
     broadcast(msg);
   }
   
+  //@ requires getThread(playerNr) != null;
+  //@ requires tiles != null;
   /**
    * Sends a player the given tiles
    * @param playerNr The player to whom the tiles need to be send to.
    * @param tiles The tiles that need to be send
    */
-  //@ requires getThread(playerNr) != null;
-  //@ requires tiles != null;
   public void giveTiles(int playerNr, List<Tile> tiles) {
     String msg;
     if (tiles.size() > 0) {
