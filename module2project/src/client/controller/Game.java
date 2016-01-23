@@ -1,35 +1,26 @@
 package client.controller;
 
-import java.io.BufferedReader;
+import client.model.Board;
+import client.model.HumanPlayer;
+import client.model.Move;
+import client.model.Move.Type;
+import client.model.NaiveStrategy;
+import client.model.Player;
+import client.view.Printer;
+import exceptions.InvalidMoveException;
+
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
 import java.net.InetAddress;
 import java.util.ArrayList;
 import java.util.List;
 
-import client.model.Board;
-import client.model.ComputerPlayer;
-import client.model.HumanPlayer;
-import client.model.Move;
-import client.model.Player;
-import client.model.SmartStrategy;
-import client.model.Tile;
-import client.model.Move.Type;
-import client.model.NaiveStrategy;
-import client.view.Printer;
-import exceptions.HandIsFullException;
-import exceptions.InvalidMoveException;
-import exceptions.TileNotInHandException;
-
 /**
- * Main methods class.
- * @author Han
+ * The main controller class. Controls the players, board and client.
+ * @author Han Hollander
  */
 public class Game {
      
   private Board board;
-  private Board copy;
     
   private List<Player> playerList;
   private Player player;
@@ -60,7 +51,6 @@ public class Game {
    * @param name name of client.
    * @param host server.
    * @param port port of server.
-   * @param playerType type of player.
    */
   public Game(String name, InetAddress host, int port) {
     this.board = new Board();
@@ -81,7 +71,9 @@ public class Game {
       Printer.print("Registration message send.");
       Printer.print("Waiting for welcome message... ");
     } catch (IOException | NullPointerException e) {
-      Printer.print("Client could not be created or started.");
+      Printer.print("Client could not be created or started, trying again.\n");
+      String[] args = new String[0];
+      Qwirkle.main(args);
     }
   }
 
@@ -90,6 +82,7 @@ public class Game {
    */
   public void playerTurn() {
     Printer.printBoard(this);
+    //Get one single hint, only at start of turn.
     if (getPlayer() instanceof HumanPlayer && getPlayer().getHand().size() != 0) {
       Printer.print("\nHint: " + getHint().colourToString());
     }
@@ -97,13 +90,16 @@ public class Game {
     Printer.print("\nIt is your turn!");
     while (playerTurn) {
       Printer.print("\nWhat is your action?");
+      //Get user input.
       makeMove();
       Printer.printBoard(this);
     }
+    //Update score.
     int score = 0;
     if (board.getMoveList().size() != 0) {
       score = board.getScoreCurrentTurn();
     } 
+    //Since the player in the list is different than the player field:
     getPlayerWithNumber(player.getPlayerNumber())
       .setScore(getPlayerWithNumber(player.getPlayerNumber()).getScore() + score);
     //End the turn (after the END command).
@@ -112,7 +108,7 @@ public class Game {
   
   /**
    * Gets called when it is an opponents turn.
-   * @param moves the moves the opponent did.
+   * @param moves The moves the opponent made.
    */
   public void opponentTurn(List<Move> moves, Player player) {
     for (Move move : moves) {
@@ -202,9 +198,9 @@ public class Game {
   }
   
   /**
-   * Get player with nr.
-   * @param nr nr
-   * @return player
+   * Get player with specific ID.
+   * @param nr The player ID.
+   * @return The player.
    */
   public Player getPlayerWithNumber(int nr) {
     Player result = null;

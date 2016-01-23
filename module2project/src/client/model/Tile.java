@@ -1,5 +1,9 @@
 package client.model;
 
+/**
+ * Simple representation of a tile.
+ * @author Wijtse Rekker
+ */
 public class Tile {
   
   private String color;

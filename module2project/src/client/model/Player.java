@@ -7,6 +7,10 @@ import exceptions.TileNotInHandException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Class representing a player.
+ * @author Han Hollander
+ */
 public abstract class Player {
     
   private String name;

@@ -1,0 +1,31 @@
+23/01/16_12:19:11: 
+Checking host... 
+23/01/16_12:19:11: Host accepted.
+23/01/16_12:19:11: Checking port... 
+23/01/16_12:19:11: Port accepted.
+23/01/16_12:19:11: Creating client... 
+23/01/16_12:19:11: Client human created
+23/01/16_12:19:11: Starting client... 
+23/01/16_12:19:11: Client started.
+23/01/16_12:19:11: Sending registration message... 
+23/01/16_12:19:11: OUT: HELLO human
+23/01/16_12:19:11: Registration message send.
+23/01/16_12:19:11: Welcome message received.
+23/01/16_12:19:11: Waiting for welcome message... 
+23/01/16_12:19:11: Waiting for other players to connect...
+23/01/16_12:19:11: IN: WELCOME human 2
+23/01/16_12:19:11: Players participating: [Player 1: human, Player 2: human]
+
+23/01/16_12:19:11: AITime: 999999
+
+23/01/16_12:19:11: IN: NAMES human 1 human 2 999999
+23/01/16_12:19:11: human's score is: 0
+23/01/16_12:19:11: human's score is: 3
+23/01/16_12:19:11: IN: TURN 2 Yo 91 91 Yc 91 92 Y* 91 93
+23/01/16_12:19:11: Tiles in pool: 93
+
+23/01/16_12:19:11: IN: NEW Rd Ox Bx Od Bx B*
+23/01/16_12:19:11: It is now human's turn.
+
+23/01/16_12:19:11: IN: NEXT 1
+23/01/16_12:19:15: Previous game will now exit.

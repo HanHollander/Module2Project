@@ -85,8 +85,6 @@ public class Board {
   public String toString() {
     String result = "";
     ArrayList<ArrayList<Integer>> marges = getMargins();
-    int rowMin = marges.get(0).get(0);
-    int rowMax = marges.get(0).get(1);
     int columnMin = marges.get(1).get(0);
     int columnMax = marges.get(1).get(1);
     result = "XXX ";
@@ -102,6 +100,8 @@ public class Board {
     }
     result = result + "\n";
     // This part creates the rest
+    int rowMin = marges.get(0).get(0);
+    int rowMax = marges.get(0).get(1);
     for (int row = rowMin; row <= rowMax; row++) {
       if (row > 99) {
         result = result + (row) + " ";
@@ -337,7 +337,6 @@ public class Board {
     int row = 0;
     int column = 0;
     int rowMin = 0;
-    int rowMax = 0;
     int columnMin = 0;
     int columnMax = 0;
     String empty = ". ";
@@ -365,6 +364,9 @@ public class Board {
         row--;
       }
     }
+    //For checkstyle purposes it is placed here, not by the others...
+    int rowMax = 0;
+    
     rowMax = row + 1;
     
     // rowMin < rowMax == true when there are no tiles placed on the board.

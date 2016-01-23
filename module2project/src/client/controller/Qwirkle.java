@@ -1,28 +1,25 @@
 package client.controller;
 
+import client.view.Printer;
+
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
 import java.net.InetAddress;
-import java.net.Socket;
 import java.net.UnknownHostException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.ReentrantLock;
 
-import client.view.Printer;
-
-public class Qwirkle {
+/**
+ * The startup class for a new game.
+ * @author Han Hollander
+ */
+public class Qwirkle { 
   
   private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-  private static Game game;
   private static String fileName;
   private static String playerType;
   private static String strategyType;
@@ -72,6 +69,7 @@ public class Qwirkle {
           Printer.print("Player type not valid, please try again." + "\n");
         }
       }
+    //If arguments are given at startup.
     } else if (args.length == 4) {
       name = args[0];
       addr = args[1];
@@ -118,12 +116,12 @@ public class Qwirkle {
     }
     
     //Start a new game.
-    game = new Game(name, host, port);
+    new Game(name, host, port);
   }
   
   /**
    * Read input from System.in.
-   * @return the input.
+   * @return The input.
    */
   public static String readInput() {
     String input = "";
@@ -140,9 +138,9 @@ public class Qwirkle {
   }
   
   /**
-   * checks if name is valid
-   * @param text text
-   * @return if valid
+   * Checks if name is valid.
+   * @param text The text
+   * @return If the name is valid.
    */
   private static boolean isValidName(String text) {
     List<String> allowedChars = Arrays.asList("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", 
