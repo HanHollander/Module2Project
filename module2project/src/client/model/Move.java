@@ -1,8 +1,13 @@
 package client.model;
 
+/**
+ * Class representing a move.
+ * @author Han Hollander
+ */
 public class Move {
   
-  public enum Type {MOVE, SWAP, END, ANY};
+  public enum Type { MOVE, SWAP, END, ANY; }
+  
   private Type type;
   private Tile tile;
   private int row;
@@ -23,8 +28,7 @@ public class Move {
   
   /**
    * Constructor for SWAP move.
-   * @param colour colour of tile
-   * @param shape shape of tile
+   * @param tile The tile that is to be swapped.
    */
   public Move(Tile tile) {
     this.type = Type.SWAP;
@@ -62,7 +66,7 @@ public class Move {
   /**
    * Custom equals function to make life easier.
    * @param move The move to compare this to.
-   * @return If the moves are equal.s
+   * @return If the moves are equal.
    */
   public boolean equals(Move move) {
     boolean equals = false;

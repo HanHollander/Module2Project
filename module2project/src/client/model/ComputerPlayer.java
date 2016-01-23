@@ -1,19 +1,23 @@
 package client.model;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-
-import client.model.Move.Type;
 import client.view.Printer;
-import exceptions.HandIsFullException;
 import exceptions.InvalidMoveException;
 import exceptions.TileNotInHandException;
 
+/**
+ * Computercontrolled player class.
+ * @author Han Hollander
+ */
 public class ComputerPlayer extends Player {
   
   private Strategy strategy;
  
+  /**
+   * Creates a new player with an addition strategy.
+   * @param name The name of the player.
+   * @param playerNumber The ID of the player.
+   * @param strategy The strategy this player uses.
+   */
   public ComputerPlayer(String name, int playerNumber, Strategy strategy) {
     super(name, playerNumber);
     this.strategy = strategy;
@@ -21,8 +25,8 @@ public class ComputerPlayer extends Player {
 
   /**
    * Determines the next move the player is going to make.
-   * @param board the board.
-   * @return the move.
+   * @param board The board.
+   * @return A valid move.
    */
   //@ensures board.checkMove(\result);
   public Move determineMove(Board board) throws InvalidMoveException {
@@ -40,10 +44,5 @@ public class ComputerPlayer extends Player {
       setMadeMove(false);
     } 
     return result;
-  }
-
-
-  
-
-  
+  } 
 }

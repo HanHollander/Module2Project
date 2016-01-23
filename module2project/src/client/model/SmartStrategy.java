@@ -5,6 +5,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * A smart strategy to determine the best possible move.
+ * @author Wijtse Rekker
+ */
 public class SmartStrategy implements Strategy {
   
   public static final int DIM = 183;

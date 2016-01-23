@@ -1,0 +1,15 @@
+23/01/16_12:43:40: 
+Checking host... 
+23/01/16_12:43:40: Host accepted.
+23/01/16_12:43:40: Checking port... 
+23/01/16_12:43:40: Port accepted.
+23/01/16_12:43:40: Creating client... 
+23/01/16_12:43:41: Client could not be created or started, trying again.
+
+23/01/16_12:43:41: Welcome in Qwirkle
+23/01/16_12:43:41: (only characters a-z A-Z and 1 to 16 characters long)
+23/01/16_12:43:41: What is your name? 
+
+23/01/16_12:43:55: 
+Server IP-adress: 
+

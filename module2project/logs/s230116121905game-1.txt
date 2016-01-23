@@ -1,0 +1,34 @@
+Waiting for clients to connect
+Clients connected: [0 of 2]
+Clients connected: [1 of 2]
+Received from client 1: HELLO human
+Sent to player-1: WELCOME human 1
+Clients connected: [2 of 2]
+Waiting for everyone to send their name
+Received from client 2: HELLO human
+Sent to player-2: WELCOME human 2
+Everyone has send their name
+Sent to player-1: NAMES human 1 human 2 999999
+Sent to player-2: NAMES human 1 human 2 999999
+Dealing tiles and making first move
+Sent to player-1: TURN 2 Yo 91 91 Yc 91 92 Y* 91 93
+Sent to player-2: TURN 2 Yo 91 91 Yc 91 92 Y* 91 93
+
+Current game situation
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Yo  Yc  Y*  .   
+92  .   .   .   .   .   
+
+Scores:
+human: 0
+human: 3
+Hands:
+human: [Bs, Oo, Pc, Rx, Go, Ys]
+human: [Rd, Ox, Bx, Od, Bx, B*]
+Tiles in pool: 93
+Sent to player-1: NEW Bs Oo Pc Rx Go Ys
+Sent to player-2: NEW Rd Ox Bx Od Bx B*
+Tiles dealt and first move made
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1

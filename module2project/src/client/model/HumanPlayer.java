@@ -1,24 +1,21 @@
 package client.model;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-
 import client.controller.Game;
 import client.model.Move.Type;
 import client.view.Printer;
-import exceptions.HandIsFullException;
 import exceptions.InvalidCommandException;
 import exceptions.InvalidMoveException;
 import exceptions.TileNotInHandException;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * Human player class.
- * @author Han
+ * @author Han Hollander
  */
 public class HumanPlayer extends Player {
   
@@ -29,7 +26,6 @@ public class HumanPlayer extends Player {
   public static final List<String> SHAPES = Arrays.asList("o", "d", "s", "c", "x", "*");
   
   private Type listType;
-  private Game game;
 
   /**
    * Constructor for a human.
@@ -38,7 +34,6 @@ public class HumanPlayer extends Player {
    */
   public HumanPlayer(String name, int playerNumber, Game game) {
     super(name, playerNumber);
-    this.game = game;
   }
   
   /**
@@ -68,9 +63,6 @@ public class HumanPlayer extends Player {
               removeFromHand(move.getTile());
             } catch (TileNotInHandException e) {
               Printer.print(e);
-            }
-            if (game.getPool() <= 0) {
-              throw new InvalidMoveException(SWAPUSAGE);
             }
             validMove = true;
             getMoves().add(move);
@@ -180,8 +172,8 @@ public class HumanPlayer extends Player {
       try { 
         //Row and column must be integers
         handIndex = Integer.parseInt(command[1]);
-        int row = Integer.parseInt(command[2]);
-        int column = Integer.parseInt(command[3]);
+        Integer.parseInt(command[2]);
+        Integer.parseInt(command[3]);
       } catch (NumberFormatException e) { 
         //Throw exception if row or column are invalid
         throw new InvalidCommandException(MOVEUSAGE);

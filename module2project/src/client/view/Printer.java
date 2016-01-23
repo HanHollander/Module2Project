@@ -1,5 +1,9 @@
 package client.view;
 
+import client.controller.Game;
+import client.controller.Qwirkle;
+import client.model.HumanPlayer;
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -8,10 +12,10 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import client.controller.Game;
-import client.controller.Qwirkle;
-import client.model.HumanPlayer;
-
+/**
+ * Class to easily print to logs.
+ * @author Han Hollander
+ */
 public class Printer {
   
   public static final String PATH = "E:" + File.separator + "LocalGit" 

@@ -2,19 +2,20 @@ package client.model;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
-import client.view.Printer;
-
+/**
+ * Class that determines a very naive move.
+ * @author Han Hollander
+ */
 public class NaiveStrategy implements Strategy {
   
   public static final int DIM = 183;
 
   /**
    * Determines a valid move. Very, very bad AI.
-   * @param board the board
-   * @param hand the hand
-   * @param player the computerplayer
+   * @param board The board.
+   * @param hand The hand.
+   * @param player The computer player.
    */
   public Move determineMove(Board board, List<Tile> hand, ComputerPlayer player) {
     Move result = null;
@@ -36,8 +37,8 @@ public class NaiveStrategy implements Strategy {
   
   /**
    * Gets places where a tile can be.
-   * @param board the board
-   * @return list of places
+   * @param board The board.
+   * @return A list of free places.
    */
   public List<List<Integer>> getPossiblePlaces(Board board) {
     List<List<Integer>> result = new ArrayList<>();
@@ -83,9 +84,9 @@ public class NaiveStrategy implements Strategy {
 
   /**
    * Generate hint.
-   * @param board b
-   * @param hand h
-   * @return hint
+   * @param board The board.
+   * @param hand The current hand.
+   * @return hint A new hint.
    */
   public Move getHint(Board board, List<Tile> hand) {
     Move result = null;

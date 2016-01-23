@@ -1,5 +1,15 @@
 package client.controller;
 
+import client.model.ComputerPlayer;
+import client.model.HumanPlayer;
+import client.model.Move;
+import client.model.NaiveStrategy;
+import client.model.OpponentPlayer;
+import client.model.Player;
+import client.model.SmartStrategy;
+import client.model.Strategy;
+import client.model.Tile;
+import client.view.Printer;
 import exceptions.HandIsFullException;
 import exceptions.InvalidCommandException;
 
@@ -13,17 +23,10 @@ import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
 
-import client.model.ComputerPlayer;
-import client.model.HumanPlayer;
-import client.model.Move;
-import client.model.NaiveStrategy;
-import client.model.OpponentPlayer;
-import client.model.Player;
-import client.model.SmartStrategy;
-import client.model.Strategy;
-import client.model.Tile;
-import client.view.Printer;
-
+/**
+ * The client that communicates with the server and recognizes commands received from the server.
+ * @author Han Hollander
+ */
 public class Client extends Thread {
   private static final String USAGE = "usage: java week7.cmdchat.Client <name> <address> <port>";
 
@@ -40,7 +43,7 @@ public class Client extends Thread {
   
 
   /**
-   * Constructs a socket and input and output.
+   * Constructs a socket and input and output to write and listen for the server.
    * @param name name of client
    * @param host host 
    * @param port port of server
@@ -58,14 +61,13 @@ public class Client extends Thread {
   }
 
   /**
-   * Reads the messages in the socket connection. Each message will be forwarded to the MessageUI
+   * Reads the messages in the socket connection. Each message will be checked.
    */
   public synchronized void run() {
     String text = "";
     try {
       while (text != null) {
         text = in.readLine();
-        //Printer.print("Received command: " + text);
         if (!(text == null) && !text.equals("\n")) {
           //Check for all the commands if the text is such a command. If so, excecute things.
           checkWelcome(text);
@@ -79,7 +81,8 @@ public class Client extends Thread {
         }
       }
     } catch (IOException e) {
-      Printer.print("Previous game will now exit.");
+      Printer.print("Previous game will now stop.");
+      shutdown();
     } catch (InvalidCommandException e) {
       Printer.print(e);
     }
@@ -151,15 +154,18 @@ public class Client extends Thread {
       } catch (NumberFormatException e) {
         Printer.print("Not a number. (WINNER)");
       }
+      //Print board for the last time.
       Printer.printBoard(game);
       if (playerNumber == game.getPlayer().getPlayerNumber()) {
         Printer.print("You won.");
       } else {
         Printer.print("The winner is... " + getPlayerName(playerNumber) + "!\n");
       }
+      //Ask if client wants to play again.
       Printer.print("Would you like to play another game? Y/N");
       String answer = Qwirkle.readInput();
       if (answer.equals("Y") || answer.equals("y")) {
+        //Create new game and before shutting the current game down.
         String[] args = new String[4];
         args[0] = clientName;
         args[1] = host.getHostAddress();
@@ -167,6 +173,7 @@ public class Client extends Thread {
         args[3] = game.getPlayerType();
         Qwirkle.main(args);
       }
+      //Shut down.
       shutdown();
     }
   }
@@ -260,11 +267,10 @@ public class Client extends Thread {
         String number = command[(2 * i) + 2];
         addPlayer(name, number);
       }
+      //Update the pool;
       for (int j = 0; j < numberOfPlayers  - 1; j++) {
         game.setPool((game.getPool() - 6));
       }
-      Printer.print("Players participating: " + game.getPlayerList() + "\n");
-      Printer.print("AITime: " + command[command.length - 1] + "\n");
     } else if (command.length == 4 && text.startsWith(Game.NAMES)) {
       addPlayer(command[1], command[2]);
     }
@@ -306,8 +312,8 @@ public class Client extends Thread {
 
   /**
    * Gets the name of the player with playerNumber.
-   * @param playerNumber pl.nr. of player
-   * @return name of player
+   * @param playerNumber The ID of the player.
+   * @return The name of the player.
    */
   public String getPlayerName(int playerNumber) {
     String playerName = "";
@@ -321,8 +327,8 @@ public class Client extends Thread {
   
   /**
    * Adds player to the list in game.
-   * @param name name of player.
-   * @param number number of player.
+   * @param name The name of the player;
+   * @param number The ID of the player;
    */
   public void addPlayer(String name, String number) {
     int playerNumber = -1;
@@ -337,7 +343,7 @@ public class Client extends Thread {
   
   /**
    * Sends message to client handler.
-   * @param msg the message
+   * @param msg The message.
    */
   public void sendMessage(String msg) {
     try {
@@ -347,6 +353,7 @@ public class Client extends Thread {
       out.flush();
     } catch (IOException e) {
       Printer.print("Lost connection. (Maybe you were kicked...?)");
+      shutdown();
     }
 
   }
@@ -361,12 +368,9 @@ public class Client extends Thread {
     } catch (IOException e) {
       Printer.print("Could not close socket.");
     }
+    Printer.print("Socket from previous game closed");
   }
 
-  /**
-   * Returns client name.
-   * @return the name.
-   */
   public String getClientName() {
     return clientName;
   }
