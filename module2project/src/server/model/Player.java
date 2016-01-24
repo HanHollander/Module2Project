@@ -14,13 +14,21 @@ import exceptions.TileNotInHandException;
  */
 
 public class Player {
-    
+  
+  /*@ invariant getHand().size() >= 0 & getHand().size() < 7;
+      invariant (\forall int i; i >= 0 & i < getName().length(); 
+                server.controller.ClientHandler.ALLOWEDCHARS.contains(getName().substring(i, i + 1))
+                );
+      invariant getName().length() > 0 & getName().length() < 17;
+      invariant getScore() >= 0;
+      invariant getPlayerNumber() > 0 & getPlayerNumber() < 5;
+   */
+  
   //Fields\\
     
   private String name;
   private int playerNumber;
   private List<Tile> hand;
-  private List<Move> moves;
   private int score;
     
   //Constructor\\

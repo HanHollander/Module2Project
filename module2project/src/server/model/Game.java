@@ -192,15 +192,16 @@ public class Game extends Observable{
     for (int i = 0; i < turn.size(); i++) {
       Move move = turn.get(i);
       Tile tile = move.getTile();
+      boolean containsTile = false;
       for (Tile tileInHand : hand) {
-        boolean containsTile = tile.equals(tileInHand);
-        result = result || containsTile;
+        containsTile = tile.equals(tileInHand);
         if (containsTile) {
           hand.remove(tileInHand);
           break;
         }
       }
-      if (!result) {
+      if (!containsTile) {
+        result = false;
         break;
       }
       result = result && testBoard.checkMove(move);

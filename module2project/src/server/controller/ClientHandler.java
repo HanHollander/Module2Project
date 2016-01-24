@@ -155,7 +155,7 @@ public class ClientHandler extends Thread {
    * @return The list of tiles that was made from the text.
    */
   //@ requires isValidSwapTurnMessage(text) == true;
-  private List<Tile> convertStringToSwapTurn(String text) {
+  public List<Tile> convertStringToSwapTurn(String text) {
     String[] swapTextParts = text.substring(5).split(" ");
     List<Tile> turn = new ArrayList<Tile>();
     for (String tileText : swapTextParts) {
@@ -170,7 +170,7 @@ public class ClientHandler extends Thread {
    * @return The list of moves that was made from the text.
    */
   //@ requires isValidMoveTurnMessage(text) == true;
-  private List<Move> convertStringToMoveTurn(String text) {
+  public List<Move> convertStringToMoveTurn(String text) {
     String[] moveTextParts = text.substring(5).split(" ");
     List<Move> turn = new ArrayList<Move>();
     for (int i = 0; i < moveTextParts.length; i += 3) {
@@ -194,7 +194,7 @@ public class ClientHandler extends Thread {
               (!COLOURS.contains(text.substring(5).split(" ")[i].substring(0,1)) 
               || !SHAPES.contains(text.substring(5).split(" ")[i].substring(1,2))) 
               ==> \result == false); */
-  /*@ pure */ private boolean isValidSwapTurnMessage(String text) {
+  /*@ pure */ public boolean isValidSwapTurnMessage(String text) {
     boolean result = true;
     String[] swapTextParts = null;
     if (text.startsWith("SWAP ")) {
@@ -241,7 +241,7 @@ public class ClientHandler extends Thread {
               Integer.parseInt(text.substring(5).split(" ")[i]) >= 0
               & Integer.parseInt(text.substring(5).split(" ")[i]) < 183
               ==> \result == false); */
-  /*@ pure */ private boolean isValidMoveTurnMessage(String text) {
+  /*@ pure */ public boolean isValidMoveTurnMessage(String text) {
     boolean result = true;
     String[] moveTextParts = null;
     if (text.startsWith("MOVE ")) {
@@ -302,13 +302,13 @@ public class ClientHandler extends Thread {
    * @param text The text that needs to be checked.
    * @return True of false whether this text is a valid start message or not.
    */
-  private boolean isValidStartMessage(String text) {
+  public boolean isValidStartMessage(String text) {
     // The name may only contain lower and upper case letters
     Boolean result;
     result = text.startsWith("HELLO ");
     if (result) {
       String name = text.substring(6);
-      result = result && name.length() < 17;
+      result = result && name.length() < 17 && name.length() > 0;
       for (int i = 0; i < name.length(); i++) {
         // Here is checked for every character in the name if it is one of the allowed characters.
         result = result && ALLOWEDCHARS.contains(name.substring(i, i + 1));

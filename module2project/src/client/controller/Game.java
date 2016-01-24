@@ -104,6 +104,7 @@ public class Game {
       .setScore(getPlayerWithNumber(player.getPlayerNumber()).getScore() + score);
     //End the turn (after the END command).
     endTurn();
+    Printer.printBoard(this);
   }
   
   /**
