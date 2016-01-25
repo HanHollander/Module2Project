@@ -97,6 +97,7 @@ public class Client extends Thread {
     if (text.startsWith(Game.NEW) && command.length <= 8) {
       if (command.length == 2 && command[1].equals("empty")) {
         //[NEW empty] command is received if the pool has no tiles left.
+        Printer.printBoard(game);
         Printer.print("There are no tiles left in the pool." + "\n");
       } else {
         //If the command is not empty, add all tiles in the command to the hand of the player.
@@ -112,6 +113,7 @@ public class Client extends Thread {
           //Update the pool.
           game.setPool(game.getPool() - 1);
         }
+        Printer.printBoard(game);
         Printer.print("Tiles in pool: " + game.getPool() + "\n");
       }
     }
