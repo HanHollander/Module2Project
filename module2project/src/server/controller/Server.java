@@ -54,7 +54,7 @@ public class Server extends Thread{
       Boolean validAnswer = false;
       String answer = "";
       while (!validAnswer) {
-        System.out.print("Number of players allowed per game (2,3 or 4): ");
+        System.out.print("Number of players allowed per game (2,3 or 4):    ");
         try {
           BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
           answer = reader.readLine();
@@ -70,6 +70,9 @@ public class Server extends Thread{
             validAnswer = false;
           }
           validAnswer = validAnswer && (numberOfPlayers > 1 && numberOfPlayers < 5);
+          if (!validAnswer) {
+            System.out.println("Not a valid answer. Enter the number 2, 3 or 4!");
+          }
         }
       }
       
@@ -91,11 +94,14 @@ public class Server extends Thread{
             validAnswer = false;
           }
           validAnswer = validAnswer && aiTime > 0;
+          if (!validAnswer) {
+            System.out.println("Not a valid time. Please try again!");
+          }
         }
       }
       validAnswer = false;
       while (!validAnswer) {
-        System.out.print("Create game servers on port (1 - 65535): ");
+        System.out.print("Create game servers on port (1 - 65535):          ");
         try {
           BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
           answer = reader.readLine();
@@ -118,6 +124,8 @@ public class Server extends Thread{
               System.out.println("Could not create server socket on port " + portInt);
               validAnswer = false;
             }
+          } else {
+            System.out.println("Not a valid port. Please enter a number between 1 and 65535");
           }
         }
       }
