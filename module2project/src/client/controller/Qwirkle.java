@@ -23,6 +23,12 @@ public class Qwirkle {
   private static String fileName;
   private static String playerType;
   private static String strategyType;
+  private static String name;
+  private static String addr;
+  private static String portString;
+  private static InetAddress host;
+  private static int port;
+  
 
   /**
    * Main method to run the game.
@@ -34,85 +40,86 @@ public class Qwirkle {
     Date dateobj = new Date();
     fileName = df.format(dateobj);
     
-    String name = "";
-    String addr = "";
-    String portString = "";
-    
-    
-    if (args.length == 0) {
-      //Get the player input.
+    if (args.length == 4) {
+      //If 4 arguments are given at startup.
+      name = args[0];
+      addr = args[1];
+      portString = args[2];
+      playerType = args[3];
+    } else if (args.length == 5) {
+      //If 4 arguments are given at startup.
+      name = args[0];
+      addr = args[1];
+      portString = args[2];
+      playerType = args[3];
+      strategyType = args[4];
+    } else {
       Printer.print("Welcome in Qwirkle");
       Printer.print("(only characters a-z A-Z and 1 to 16 characters long)");
       Printer.print("What is your name? \n");
-      boolean validName = false;
       //Check for valid name
+      boolean validName = false;
       while (!validName) {
         name = readInput();
         validName = isValidName(name);
         if (!validName) {
-          Printer.print("Name not valid, please try again." + "\n");
+          Printer.print("\nName not valid, please try again." + "\n");
         }
       }
       Printer.print("\nServer IP-adress: \n");
-      addr = readInput();
+      //Check for valid address
+      boolean validAddress = false;
+      while (!validAddress) {
+        addr = readInput();
+        try {
+          host = InetAddress.getByName(addr);
+          validAddress = true;
+        } catch (UnknownHostException e) {
+          Printer.print("\nHost name not valid, please try again.\n");
+        }
+      }
       Printer.print("\nServer port: \n");
-      portString = readInput();
+      //Check for valid port
+      boolean validPort = false;
+      while (!validPort) {
+        portString = readInput();
+        try {
+          port = Integer.parseInt(portString);
+          validPort = true;
+        } catch (NumberFormatException e) {
+          Printer.print("\nPort number not valid, please try again!\n");
+        }
+        if (validPort && (port < 1 || port > 65535)) {
+          validPort = false;
+          Printer.print("\nPort number not valid, please try again!\n");
+        }
+      }
       Printer.print("\nBot: 'b', Human: 'h'\n");
+      //Check for valid player type
       boolean validPlayerType = false;
-      //Check for valid type
       while (!validPlayerType) {
         playerType = readInput();
         if (playerType.equals("b") || playerType.equals("h")) {
           validPlayerType = true;
         }
         if (!validPlayerType) {
-          Printer.print("Player type not valid, please try again." + "\n");
+          Printer.print("\nPlayer type not valid, please try again." + "\n");
         }
       }
-    //If arguments are given at startup.
-    } else if (args.length == 4) {
-      name = args[0];
-      addr = args[1];
-      portString = args[2];
-      playerType = args[3];
-    }
-    
-    if (playerType.equals("b")) {
-      Printer.print("\nNaive: 'n', Smart: 's'");
-      boolean validStratType = false;
-      //Check for valid type
-      while (!validStratType) {
-        strategyType = readInput();
-        if (strategyType.equals("n") || strategyType.equals("s")) {
-          validStratType = true;
-        }
-        if (!validStratType) {
-          Printer.print("Strategy type not valid, please try again." + "\n");
+      if (playerType.equals("b")) {
+        Printer.print("\nNaive: 'n', Smart: 's'");
+        boolean validStratType = false;
+        //Check for valid type
+        while (!validStratType) {
+          strategyType = readInput();
+          if (strategyType.equals("n") || strategyType.equals("s")) {
+            validStratType = true;
+          }
+          if (!validStratType) {
+            Printer.print("\nStrategy type not valid, please try again." + "\n");
+          }
         }
       }
-    }
-   
-    InetAddress host = null;
-    int port = 0;
-     
-    //Check host.
-    Printer.print("\nChecking host... ");
-    try {
-      host = InetAddress.getByName(addr);
-      Printer.print("Host accepted.");
-    } catch (UnknownHostException e) {
-      Printer.print("This is not a valid hostname!");
-      System.exit(0);
-    }
-    
-    //Check port.
-    Printer.print("Checking port... ");
-    try {
-      port = Integer.parseInt(portString);
-      Printer.print("Port accepted.");
-    } catch (NumberFormatException e) {
-      Printer.print("This is not a valid portnummer!");
-      System.exit(0);
     }
     
     //Start a new game.
