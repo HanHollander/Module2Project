@@ -1,0 +1,107 @@
+Waiting for clients to connect
+Clients connected: [0 of 2]
+Clients connected: [1 of 2]
+Received from client 1: HELLO human
+Sent to player-1: WELCOME human 1
+Clients connected: [2 of 2]
+Waiting for everyone to send their name
+Received from client 2: HELLO human
+Sent to player-2: WELCOME human 2
+Everyone has send their name
+Sent to player-1: NAMES human 1 human 2 999999
+Sent to player-2: NAMES human 1 human 2 999999
+Dealing tiles and making first move
+Sent to player-1: TURN 1 Bo 91 91 Bs 91 92 B* 91 93
+Sent to player-2: TURN 1 Bo 91 91 Bs 91 92 B* 91 93
+
+Current game situation
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Bo  Bs  B*  .   
+92  .   .   .   .   .   
+
+Scores:
+human: 3
+human: 0
+Hands:
+human: [Yx, O*, P*, Os, Bo, O*]
+human: [Yo, R*, Gd, O*, B*, Rd]
+Tiles in pool: 93
+Sent to player-1: NEW Yx O* P* Os Bo O*
+Sent to player-2: NEW Yo R* Gd O* B* Rd
+Tiles dealt and first move made
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE B* 92 92 
+Sent to player-2: NEW Ys
+Sent to player-1: TURN 2 B* 92 92
+Sent to player-2: TURN 2 B* 92 92
+
+Current game situation
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Bo  Bs  B*  .   
+92  .   .   B*  .   .   
+93  .   .   .   .   .   
+
+Scores:
+human: 3
+human: 2
+Hands:
+human: [Yx, O*, P*, Os, Bo, O*]
+human: [Yo, R*, Gd, O*, Rd, Ys]
+Tiles in pool: 92
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: SWAP O* 
+
+Current game situation
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Bo  Bs  B*  .   
+92  .   .   B*  .   .   
+93  .   .   .   .   .   
+
+Scores:
+human: 3
+human: 2
+Hands:
+human: [Yx, O*, P*, Os, Bo, Gx]
+human: [Yo, R*, Gd, O*, Rd, Ys]
+Tiles in pool: 92
+Sent to player-1: NEW Gx
+Sent to player-1: TURN 1 empty
+Sent to player-2: TURN 1 empty
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: SWAP Gd Rd O* 
+
+Current game situation
+XXX 90  91  92  93  94  
+90  .   .   .   .   .   
+91  .   Bo  Bs  B*  .   
+92  .   .   B*  .   .   
+93  .   .   .   .   .   
+
+Scores:
+human: 3
+human: 2
+Hands:
+human: [Yx, O*, P*, Os, Bo, Gx]
+human: [Yo, R*, Ys, G*, Gx, Yd]
+Tiles in pool: 92
+Sent to player-2: NEW G* Gx Yd
+Sent to player-1: TURN 2 empty
+Sent to player-2: TURN 2 empty
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE
+Sent to player-1: KICK 1 6 made an invalid turn
+Sent to player-2: KICK 1 6 made an invalid turn
+Closed the connection with player-1
+clientHandler-1 wakes server
+Sent to player-2: WINNER 2
+Closed the connection with player-2

@@ -1,0 +1,63 @@
+25/01/16_11:38:27: 
+Checking host... 
+25/01/16_11:38:27: Host accepted.
+25/01/16_11:38:27: Checking port... 
+25/01/16_11:38:27: Port accepted.
+25/01/16_11:38:27: Creating client... 
+25/01/16_11:38:27: Client human created
+25/01/16_11:38:27: Starting client... 
+25/01/16_11:38:27: Client started.
+25/01/16_11:38:27: Sending registration message... 
+25/01/16_11:38:27: OUT: HELLO human
+25/01/16_11:38:27: Welcome message received.
+25/01/16_11:38:27: Registration message send.
+25/01/16_11:38:27: Waiting for other players to connect...
+25/01/16_11:38:27: IN: WELCOME human 2
+25/01/16_11:38:27: IN: NAMES human 2 999999
+25/01/16_11:38:27: Waiting for welcome message... 
+25/01/16_11:38:27: human's score is: 0
+25/01/16_11:38:27: You won.
+25/01/16_11:38:27: Would you like to play another game? Y/N
+25/01/16_11:38:42: 
+Checking host... 
+25/01/16_11:38:42: Host accepted.
+25/01/16_11:38:42: Checking port... 
+25/01/16_11:38:42: Port accepted.
+25/01/16_11:38:42: Creating client... 
+25/01/16_11:38:42: Client human created
+25/01/16_11:38:42: Starting client... 
+25/01/16_11:38:42: Client started.
+25/01/16_11:38:43: Sending registration message... 
+25/01/16_11:38:43: OUT: HELLO human
+25/01/16_11:38:43: Registration message send.
+25/01/16_11:38:43: Waiting for welcome message... 
+25/01/16_11:38:43: Closing socket connection from previous game...
+25/01/16_11:38:43: Socket from previous game closed
+25/01/16_11:38:43: IN: WINNER 2
+25/01/16_11:38:43: Previous game will now stop.
+25/01/16_11:38:43: Closing socket connection from previous game...
+25/01/16_11:38:43: Socket from previous game closed
+25/01/16_11:38:43: Welcome message received.
+25/01/16_11:38:43: Waiting for other players to connect...
+25/01/16_11:38:43: IN: WELCOME human 2
+25/01/16_11:38:43: IN: NAMES bot 1 human 2 999999
+25/01/16_11:38:43: bot's score is: 2
+25/01/16_11:38:43: human's score is: 0
+25/01/16_11:38:43: 
+bot just made the following move: [[Yc, 91, 91], [Y*, 91, 92]]
+
+25/01/16_11:38:43: IN: TURN 1 Yc 91 91 Y* 91 92
+25/01/16_11:38:43: bot's score is: 2
+25/01/16_11:38:43: human's score is: 0
+25/01/16_11:38:43: Tiles in pool: 94
+
+25/01/16_11:38:43: IN: NEW Yx Bc Ro P* Gd Rc
+25/01/16_11:38:43: bot's score is: 2
+25/01/16_11:38:43: human's score is: 0
+25/01/16_11:38:43: 
+Hint: [[31mD[0m, 92, 91]
+25/01/16_11:38:43: 
+It is your turn!
+25/01/16_11:38:43: 
+What is your action?
+25/01/16_11:38:43: Type of turn: ANY

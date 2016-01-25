@@ -1,0 +1,42 @@
+25/01/16_12:09:41: Welcome in Qwirkle
+25/01/16_12:09:41: (only characters a-z A-Z and 1 to 16 characters long)
+25/01/16_12:09:41: What is your name? 
+
+25/01/16_12:09:45: Name not valid, please try again.
+
+25/01/16_12:09:46: 
+Server IP-adress: 
+
+25/01/16_12:09:52: This is not a valid hostname, please try again.
+
+25/01/16_12:09:55: 
+Server port: 
+
+25/01/16_12:09:58: This is not a valid portnummer, please try again!
+
+25/01/16_12:10:01: This is not a valid portnummer, please try again!
+
+25/01/16_12:10:08: This is not a valid portnummer, please try again!
+
+25/01/16_12:10:13: 
+Bot: 'b', Human: 'h'
+
+25/01/16_12:10:14: 
+Naive: 'n', Smart: 's'
+25/01/16_12:10:17: Strategy type not valid, please try again.
+
+25/01/16_12:10:23: Strategy type not valid, please try again.
+
+25/01/16_12:10:26: Strategy type not valid, please try again.
+
+25/01/16_12:10:27: Strategy type not valid, please try again.
+
+25/01/16_12:10:37: Strategy type not valid, please try again.
+
+25/01/16_12:10:38: Creating client... 
+25/01/16_12:10:39: Client could not be created or started, trying again.
+
+25/01/16_12:10:39: Welcome in Qwirkle
+25/01/16_12:10:39: (only characters a-z A-Z and 1 to 16 characters long)
+25/01/16_12:10:39: What is your name? 
+

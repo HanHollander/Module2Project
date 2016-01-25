@@ -1,0 +1,86 @@
+25/01/16_11:38:57: 
+Checking host... 
+25/01/16_11:38:57: Host accepted.
+25/01/16_11:38:57: Checking port... 
+25/01/16_11:38:57: Port accepted.
+25/01/16_11:38:57: Creating client... 
+25/01/16_11:38:57: Client human created
+25/01/16_11:38:57: Starting client... 
+25/01/16_11:38:57: Client started.
+25/01/16_11:38:57: Sending registration message... 
+25/01/16_11:38:57: OUT: HELLO human
+25/01/16_11:38:57: Registration message send.
+25/01/16_11:38:57: Waiting for welcome message... 
+25/01/16_11:38:57: Welcome message received.
+25/01/16_11:38:57: Waiting for other players to connect...
+25/01/16_11:38:57: IN: WELCOME human 1
+25/01/16_11:39:01: IN: NAMES human 1 human 2 999999
+25/01/16_11:39:01: human's score is: 3
+25/01/16_11:39:01: human's score is: 0
+25/01/16_11:39:01: IN: TURN 1 Bo 91 91 Bs 91 92 B* 91 93
+25/01/16_11:39:01: human's score is: 3
+25/01/16_11:39:01: human's score is: 0
+25/01/16_11:39:01: Tiles in pool: 93
+
+25/01/16_11:39:01: IN: NEW Yx O* P* Os Bo O*
+25/01/16_11:39:01: It is now human's turn.
+
+25/01/16_11:39:01: IN: NEXT 2
+25/01/16_11:39:22: human's score is: 3
+25/01/16_11:39:22: human's score is: 2
+25/01/16_11:39:22: 
+human just made the following move: [[B*, 92, 92]]
+
+25/01/16_11:39:22: IN: TURN 2 B* 92 92
+25/01/16_11:39:23: human's score is: 3
+25/01/16_11:39:23: human's score is: 2
+25/01/16_11:39:23: 
+Hint: [[33mF[0m, 92, 93]
+25/01/16_11:39:23: 
+It is your turn!
+25/01/16_11:39:23: 
+What is your action?
+25/01/16_11:39:23: Type of turn: ANY
+25/01/16_11:39:59: human's score is: 3
+25/01/16_11:39:59: human's score is: 2
+25/01/16_11:39:59: 
+What is your action?
+25/01/16_11:39:59: Type of turn: SWAP
+25/01/16_11:40:01: human's score is: 3
+25/01/16_11:40:01: human's score is: 2
+25/01/16_11:40:01: OUT: SWAP O* 
+25/01/16_11:40:01: IN: NEXT 1
+25/01/16_11:40:01: human's score is: 3
+25/01/16_11:40:01: human's score is: 2
+25/01/16_11:40:01: Tiles in pool: 92
+
+25/01/16_11:40:01: IN: NEW Gx
+25/01/16_11:40:01: human swapped.
+
+25/01/16_11:40:01: IN: TURN 1 empty
+25/01/16_11:40:01: It is now human's turn.
+
+25/01/16_11:40:01: IN: NEXT 2
+25/01/16_11:40:42: human swapped.
+
+25/01/16_11:40:42: human's score is: 3
+25/01/16_11:40:42: human's score is: 2
+25/01/16_11:40:42: IN: TURN 2 empty
+25/01/16_11:40:42: human's score is: 3
+25/01/16_11:40:42: human's score is: 2
+25/01/16_11:40:42: 
+Hint: [[37mA[0m, 92, 93]
+25/01/16_11:40:42: 
+It is your turn!
+25/01/16_11:40:42: 
+What is your action?
+25/01/16_11:40:42: Type of turn: ANY
+25/01/16_11:40:46: human's score is: 3
+25/01/16_11:40:46: human's score is: 2
+25/01/16_11:40:46: OUT: MOVE
+25/01/16_11:40:46: IN: NEXT 1
+25/01/16_11:40:46: Tiles in pool: 98
+
+25/01/16_11:40:46: human IS KICKED FOR THE FOLLOWING REASON: made an invalid turn
+
+25/01/16_11:40:46: IN: KICK 1 6 made an invalid turn

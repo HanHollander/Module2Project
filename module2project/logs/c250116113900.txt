@@ -1,0 +1,136 @@
+25/01/16_11:39:00: 
+Checking host... 
+25/01/16_11:39:00: Host accepted.
+25/01/16_11:39:00: Checking port... 
+25/01/16_11:39:00: Port accepted.
+25/01/16_11:39:00: Creating client... 
+25/01/16_11:39:01: Client human created
+25/01/16_11:39:01: Starting client... 
+25/01/16_11:39:01: Client started.
+25/01/16_11:39:01: Sending registration message... 
+25/01/16_11:39:01: OUT: HELLO human
+25/01/16_11:39:01: Registration message send.
+25/01/16_11:39:01: Welcome message received.
+25/01/16_11:39:01: Waiting for welcome message... 
+25/01/16_11:39:01: Waiting for other players to connect...
+25/01/16_11:39:01: IN: WELCOME human 2
+25/01/16_11:39:01: IN: NAMES human 1 human 2 999999
+25/01/16_11:39:01: human's score is: 3
+25/01/16_11:39:01: human's score is: 0
+25/01/16_11:39:01: 
+human just made the following move: [[Bo, 91, 91], [Bs, 91, 92], [B*, 91, 93]]
+
+25/01/16_11:39:01: IN: TURN 1 Bo 91 91 Bs 91 92 B* 91 93
+25/01/16_11:39:01: human's score is: 3
+25/01/16_11:39:01: human's score is: 0
+25/01/16_11:39:01: Tiles in pool: 93
+
+25/01/16_11:39:01: IN: NEW Yo R* Gd O* B* Rd
+25/01/16_11:39:01: human's score is: 3
+25/01/16_11:39:01: human's score is: 0
+25/01/16_11:39:01: 
+Hint: [[37mF[0m, 92, 92]
+25/01/16_11:39:01: 
+It is your turn!
+25/01/16_11:39:01: 
+What is your action?
+25/01/16_11:39:01: Type of turn: ANY
+25/01/16_11:39:17: human's score is: 3
+25/01/16_11:39:17: human's score is: 0
+25/01/16_11:39:17: 
+What is your action?
+25/01/16_11:39:17: Type of turn: MOVE
+25/01/16_11:39:22: human's score is: 3
+25/01/16_11:39:22: human's score is: 0
+25/01/16_11:39:22: OUT: MOVE B* 92 92 
+25/01/16_11:39:22: IN: NEXT 2
+25/01/16_11:39:22: human's score is: 3
+25/01/16_11:39:22: human's score is: 2
+25/01/16_11:39:22: Tiles in pool: 92
+
+25/01/16_11:39:22: IN: NEW Ys
+25/01/16_11:39:22: IN: TURN 2 B* 92 92
+25/01/16_11:39:23: It is now human's turn.
+
+25/01/16_11:39:23: IN: NEXT 1
+25/01/16_11:40:01: human swapped.
+
+25/01/16_11:40:01: human's score is: 3
+25/01/16_11:40:01: human's score is: 2
+25/01/16_11:40:01: IN: TURN 1 empty
+25/01/16_11:40:01: human's score is: 3
+25/01/16_11:40:01: human's score is: 2
+25/01/16_11:40:01: 
+Hint: [[33mF[0m, 92, 93]
+25/01/16_11:40:01: 
+It is your turn!
+25/01/16_11:40:01: 
+What is your action?
+25/01/16_11:40:01: Type of turn: ANY
+25/01/16_11:40:22: human's score is: 3
+25/01/16_11:40:22: human's score is: 2
+25/01/16_11:40:22: 
+What is your action?
+25/01/16_11:40:22: Type of turn: SWAP
+25/01/16_11:40:25: human's score is: 3
+25/01/16_11:40:25: human's score is: 2
+25/01/16_11:40:25: 
+What is your action?
+25/01/16_11:40:25: Type of turn: SWAP
+25/01/16_11:40:28: exceptions.InvalidCommandException: Invalid command. Usage: [SWAP <tile>]
+25/01/16_11:40:28: Type of turn: SWAP
+25/01/16_11:40:30: human's score is: 3
+25/01/16_11:40:30: human's score is: 2
+25/01/16_11:40:30: 
+What is your action?
+25/01/16_11:40:30: Type of turn: SWAP
+25/01/16_11:40:38: exceptions.InvalidCommandException: Invalid command. Usage: [MOVE <tileNr> <row> <column>] Usage: [SWAP <tile>]
+25/01/16_11:40:38: Type of turn: SWAP
+25/01/16_11:40:40: exceptions.InvalidCommandException: Invalid command. Usage: [SWAP <tile>]
+25/01/16_11:40:40: Type of turn: SWAP
+25/01/16_11:40:41: human's score is: 3
+25/01/16_11:40:41: human's score is: 2
+25/01/16_11:40:41: OUT: SWAP Gd Rd O* 
+25/01/16_11:40:41: IN: NEXT 2
+25/01/16_11:40:42: human's score is: 3
+25/01/16_11:40:42: human's score is: 2
+25/01/16_11:40:42: Tiles in pool: 92
+
+25/01/16_11:40:42: IN: NEW G* Gx Yd
+25/01/16_11:40:42: human swapped.
+
+25/01/16_11:40:42: IN: TURN 2 empty
+25/01/16_11:40:42: It is now human's turn.
+
+25/01/16_11:40:42: IN: NEXT 1
+25/01/16_11:40:46: Tiles in pool: 98
+
+25/01/16_11:40:46: human IS KICKED FOR THE FOLLOWING REASON: made an invalid turn
+
+25/01/16_11:40:46: IN: KICK 1 6 made an invalid turn
+25/01/16_11:40:46: human's score is: 3
+25/01/16_11:40:46: human's score is: 2
+25/01/16_11:40:46: You won.
+25/01/16_11:40:46: Would you like to play another game? Y/N
+25/01/16_11:40:50: 
+Checking host... 
+25/01/16_11:40:50: Host accepted.
+25/01/16_11:40:50: Checking port... 
+25/01/16_11:40:50: Port accepted.
+25/01/16_11:40:50: Creating client... 
+25/01/16_11:40:50: Client human created
+25/01/16_11:40:50: Starting client... 
+25/01/16_11:40:50: Client started.
+25/01/16_11:40:50: Sending registration message... 
+25/01/16_11:40:50: OUT: HELLO human
+25/01/16_11:40:50: Registration message send.
+25/01/16_11:40:50: Waiting for welcome message... 
+25/01/16_11:40:50: Closing socket connection from previous game...
+25/01/16_11:40:50: Socket from previous game closed
+25/01/16_11:40:50: IN: WINNER 2
+25/01/16_11:40:50: Previous game will now stop.
+25/01/16_11:40:50: Closing socket connection from previous game...
+25/01/16_11:40:50: Socket from previous game closed
+25/01/16_11:40:50: Welcome message received.
+25/01/16_11:40:50: Waiting for other players to connect...
+25/01/16_11:40:50: IN: WELCOME human 1
