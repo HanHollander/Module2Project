@@ -1,0 +1,440 @@
+Waiting for clients to connect
+Clients connected: [0 of 3]
+Clients connected: [1 of 3]
+Received from client 1: HELLO Han
+Sent to player-1: WELCOME Han 1
+Clients connected: [2 of 3]
+Received from client 2: HELLO Joanne
+Sent to player-2: WELCOME Joanne 2
+Clients connected: [3 of 3]
+Waiting for everyone to send their name
+Received from client 3: HELLO DaWijtsuh
+Sent to player-3: WELCOME DaWijtsuh 3
+Everyone has send their name
+Sent to player-1: NAMES Han 1 Joanne 2 DaWijtsuh 3 99999
+Sent to player-2: NAMES Han 1 Joanne 2 DaWijtsuh 3 99999
+Sent to player-3: NAMES Han 1 Joanne 2 DaWijtsuh 3 99999
+Dealing tiles and making first move
+
+Current game situation
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   Yx  Rx  .   
+92  .   .   .   .   
+
+Scores:
+Han: 2
+Joanne: 0
+DaWijtsuh: 0
+Hands:
+Han: [Go, Ps, Rd, Go, O*, O*]
+Joanne: [Ys, Yo, Gx, Rx, Ro, G*]
+DaWijtsuh: [Yd, Oo, Rd, Bs, G*, Gc]
+Tiles in pool: 88
+Sent to player-1: NEW Go Ps Rd Go O* O*
+Sent to player-2: NEW Ys Yo Gx Rx Ro G*
+Sent to player-3: NEW Yd Oo Rd Bs G* Gc
+Sent to player-1: TURN 1 Yx 91 91 Rx 91 92
+Sent to player-2: TURN 1 Yx 91 91 Rx 91 92
+Sent to player-3: TURN 1 Yx 91 91 Rx 91 92
+Tiles dealt and first move made
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Sent to player-3: NEXT 2
+Sent to player-1: KICK 2 6 lost connection with player
+Could not send to player-2: KICK 2 6 lost connection with player
+Sent to player-3: KICK 2 6 lost connection with player
+Closed the connection with player-2
+clientHandler-2 wakes server
+Sent to player-1: NEXT 3
+Sent to player-3: NEXT 3
+Received from player-3: MOVE Yd 92 91 
+Sent to player-3: NEW Gc
+Sent to player-1: TURN 3 Yd 92 91
+Sent to player-3: TURN 3 Yd 92 91
+
+Current game situation
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   Yx  Rx  .   
+92  .   Yd  .   .   
+93  .   .   .   .   
+
+Scores:
+Han: 2
+DaWijtsuh: 2
+Hands:
+Han: [Go, Ps, Rd, Go, O*, O*]
+DaWijtsuh: [Oo, Rd, Bs, G*, Gc, Gc]
+Tiles in pool: 93
+clientHandler-3 wakes server
+Sent to player-1: NEXT 1
+Sent to player-3: NEXT 1
+Received from player-1: MOVE Rd 92 92 
+Sent to player-1: NEW Pc
+Sent to player-1: TURN 1 Rd 92 92
+Sent to player-3: TURN 1 Rd 92 92
+
+Current game situation
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   Yx  Rx  .   
+92  .   Yd  Rd  .   
+93  .   .   .   .   
+
+Scores:
+Han: 6
+DaWijtsuh: 2
+Hands:
+Han: [Go, Ps, Go, O*, O*, Pc]
+DaWijtsuh: [Oo, Rd, Bs, G*, Gc, Gc]
+Tiles in pool: 92
+clientHandler-1 wakes server
+Sent to player-1: NEXT 3
+Sent to player-3: NEXT 3
+Received from player-3: SWAP Gc Rd 
+
+Current game situation
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   Yx  Rx  .   
+92  .   Yd  Rd  .   
+93  .   .   .   .   
+
+Scores:
+Han: 6
+DaWijtsuh: 2
+Hands:
+Han: [Go, Ps, Go, O*, O*, Pc]
+DaWijtsuh: [Oo, Bs, G*, Gc, Bx, Oc]
+Tiles in pool: 92
+Sent to player-3: NEW Bx Oc
+Sent to player-1: TURN 3 empty
+Sent to player-3: TURN 3 empty
+clientHandler-3 wakes server
+Sent to player-1: NEXT 1
+Sent to player-3: NEXT 1
+Received from player-1: SWAP Go Go O* O* 
+
+Current game situation
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   Yx  Rx  .   
+92  .   Yd  Rd  .   
+93  .   .   .   .   
+
+Scores:
+Han: 6
+DaWijtsuh: 2
+Hands:
+Han: [Ps, Pc, Bc, Os, Po, Yd]
+DaWijtsuh: [Oo, Bs, G*, Gc, Bx, Oc]
+Tiles in pool: 92
+Sent to player-1: NEW Bc Os Po Yd
+Sent to player-1: TURN 1 empty
+Sent to player-3: TURN 1 empty
+clientHandler-1 wakes server
+Sent to player-1: NEXT 3
+Sent to player-3: NEXT 3
+Received from player-3: MOVE Bx 91 93 Bs 90 93 
+Sent to player-3: NEW Ro Yx
+Sent to player-1: TURN 3 Bx 91 93 Bs 90 93
+Sent to player-3: TURN 3 Bx 91 93 Bs 90 93
+
+Current game situation
+XXX 90  91  92  93  94  
+89  .   .   .   .   .   
+90  .   .   .   Bs  .   
+91  .   Yx  Rx  Bx  .   
+92  .   Yd  Rd  .   .   
+93  .   .   .   .   .   
+
+Scores:
+Han: 6
+DaWijtsuh: 7
+Hands:
+Han: [Ps, Pc, Bc, Os, Po, Yd]
+DaWijtsuh: [Oo, G*, Gc, Oc, Ro, Yx]
+Tiles in pool: 90
+clientHandler-3 wakes server
+Sent to player-1: NEXT 1
+Sent to player-3: NEXT 1
+Received from player-1: MOVE Bc 89 93 Pc 89 94 
+Sent to player-1: NEW Gs Bd
+Sent to player-1: TURN 1 Bc 89 93 Pc 89 94
+Sent to player-3: TURN 1 Bc 89 93 Pc 89 94
+
+Current game situation
+XXX 90  91  92  93  94  95  
+88  .   .   .   .   .   .   
+89  .   .   .   Bc  Pc  .   
+90  .   .   .   Bs  .   .   
+91  .   Yx  Rx  Bx  .   .   
+92  .   Yd  Rd  .   .   .   
+93  .   .   .   .   .   .   
+
+Scores:
+Han: 11
+DaWijtsuh: 7
+Hands:
+Han: [Ps, Os, Po, Yd, Gs, Bd]
+DaWijtsuh: [Oo, G*, Gc, Oc, Ro, Yx]
+Tiles in pool: 88
+clientHandler-1 wakes server
+Sent to player-1: NEXT 3
+Sent to player-3: NEXT 3
+Received from player-3: MOVE Gc 89 95 Oc 89 96 
+Sent to player-3: NEW Ys Pd
+Sent to player-1: TURN 3 Gc 89 95 Oc 89 96
+Sent to player-3: TURN 3 Gc 89 95 Oc 89 96
+
+Current game situation
+XXX 90  91  92  93  94  95  96  97  
+88  .   .   .   .   .   .   .   .   
+89  .   .   .   Bc  Pc  Gc  Oc  .   
+90  .   .   .   Bs  .   .   .   .   
+91  .   Yx  Rx  Bx  .   .   .   .   
+92  .   Yd  Rd  .   .   .   .   .   
+93  .   .   .   .   .   .   .   .   
+
+Scores:
+Han: 11
+DaWijtsuh: 11
+Hands:
+Han: [Ps, Os, Po, Yd, Gs, Bd]
+DaWijtsuh: [Oo, G*, Ro, Yx, Ys, Pd]
+Tiles in pool: 86
+clientHandler-3 wakes server
+Sent to player-1: NEXT 1
+Sent to player-3: NEXT 1
+Received from player-1: MOVE Ps 90 94 Gs 90 95 Os 90 96 
+Sent to player-1: NEW Yo Y* Rd
+Sent to player-1: TURN 1 Ps 90 94 Gs 90 95 Os 90 96
+Sent to player-3: TURN 1 Ps 90 94 Gs 90 95 Os 90 96
+
+Current game situation
+XXX 90  91  92  93  94  95  96  97  
+88  .   .   .   .   .   .   .   .   
+89  .   .   .   Bc  Pc  Gc  Oc  .   
+90  .   .   .   Bs  Ps  Gs  Os  .   
+91  .   Yx  Rx  Bx  .   .   .   .   
+92  .   Yd  Rd  .   .   .   .   .   
+93  .   .   .   .   .   .   .   .   
+
+Scores:
+Han: 21
+DaWijtsuh: 11
+Hands:
+Han: [Po, Yd, Bd, Yo, Y*, Rd]
+DaWijtsuh: [Oo, G*, Ro, Yx, Ys, Pd]
+Tiles in pool: 83
+clientHandler-1 wakes server
+Sent to player-1: NEXT 3
+Sent to player-3: NEXT 3
+Received from player-3: MOVE Pd 88 94 
+Sent to player-3: NEW Rd
+Sent to player-1: TURN 3 Pd 88 94
+Sent to player-3: TURN 3 Pd 88 94
+
+Current game situation
+XXX 90  91  92  93  94  95  96  97  
+87  .   .   .   .   .   .   .   .   
+88  .   .   .   .   Pd  .   .   .   
+89  .   .   .   Bc  Pc  Gc  Oc  .   
+90  .   .   .   Bs  Ps  Gs  Os  .   
+91  .   Yx  Rx  Bx  .   .   .   .   
+92  .   Yd  Rd  .   .   .   .   .   
+93  .   .   .   .   .   .   .   .   
+
+Scores:
+Han: 21
+DaWijtsuh: 14
+Hands:
+Han: [Po, Yd, Bd, Yo, Y*, Rd]
+DaWijtsuh: [Oo, G*, Ro, Yx, Ys, Rd]
+Tiles in pool: 82
+clientHandler-3 wakes server
+Sent to player-1: NEXT 1
+Sent to player-3: NEXT 1
+Received from player-1: MOVE Bd 88 93 Yd 88 92 Rd 88 91 
+Sent to player-1: NEW Od Yc Rc
+Sent to player-1: TURN 1 Bd 88 93 Yd 88 92 Rd 88 91
+Sent to player-3: TURN 1 Bd 88 93 Yd 88 92 Rd 88 91
+
+Current game situation
+XXX 90  91  92  93  94  95  96  97  
+87  .   .   .   .   .   .   .   .   
+88  .   Rd  Yd  Bd  Pd  .   .   .   
+89  .   .   .   Bc  Pc  Gc  Oc  .   
+90  .   .   .   Bs  Ps  Gs  Os  .   
+91  .   Yx  Rx  Bx  .   .   .   .   
+92  .   Yd  Rd  .   .   .   .   .   
+93  .   .   .   .   .   .   .   .   
+
+Scores:
+Han: 29
+DaWijtsuh: 14
+Hands:
+Han: [Po, Yo, Y*, Od, Yc, Rc]
+DaWijtsuh: [Oo, G*, Ro, Yx, Ys, Rd]
+Tiles in pool: 79
+clientHandler-1 wakes server
+Sent to player-1: NEXT 3
+Sent to player-3: NEXT 3
+Received from player-3: MOVE Ys 90 97 Yx 91 97 
+Sent to player-3: NEW Pd Gs
+Sent to player-1: TURN 3 Ys 90 97 Yx 91 97
+Sent to player-3: TURN 3 Ys 90 97 Yx 91 97
+
+Current game situation
+XXX 90  91  92  93  94  95  96  97  98  
+87  .   .   .   .   .   .   .   .   .   
+88  .   Rd  Yd  Bd  Pd  .   .   .   .   
+89  .   .   .   Bc  Pc  Gc  Oc  .   .   
+90  .   .   .   Bs  Ps  Gs  Os  Ys  .   
+91  .   Yx  Rx  Bx  .   .   .   Yx  .   
+92  .   Yd  Rd  .   .   .   .   .   .   
+93  .   .   .   .   .   .   .   .   .   
+
+Scores:
+Han: 29
+DaWijtsuh: 21
+Hands:
+Han: [Po, Yo, Y*, Od, Yc, Rc]
+DaWijtsuh: [Oo, G*, Ro, Rd, Pd, Gs]
+Tiles in pool: 77
+clientHandler-3 wakes server
+Sent to player-1: NEXT 1
+Sent to player-3: NEXT 1
+Received from player-1: MOVE Yc 89 92 Rc 89 91 
+Sent to player-1: NEW Yc Gc
+Sent to player-1: TURN 1 Yc 89 92 Rc 89 91
+Sent to player-3: TURN 1 Yc 89 92 Rc 89 91
+
+Current game situation
+XXX 90  91  92  93  94  95  96  97  98  
+87  .   .   .   .   .   .   .   .   .   
+88  .   Rd  Yd  Bd  Pd  .   .   .   .   
+89  .   Rc  Yc  Bc  Pc  Gc  Oc  .   .   
+90  .   .   .   Bs  Ps  Gs  Os  Ys  .   
+91  .   Yx  Rx  Bx  .   .   .   Yx  .   
+92  .   Yd  Rd  .   .   .   .   .   .   
+93  .   .   .   .   .   .   .   .   .   
+
+Scores:
+Han: 45
+DaWijtsuh: 21
+Hands:
+Han: [Po, Yo, Y*, Od, Yc, Gc]
+DaWijtsuh: [Oo, G*, Ro, Rd, Pd, Gs]
+Tiles in pool: 75
+clientHandler-1 wakes server
+Sent to player-1: NEXT 3
+Sent to player-3: NEXT 3
+Received from player-3: MOVE Ro 93 92 Rd 93 93 
+Sent to player-3: NEW Go Pd
+Sent to player-1: TURN 3 Ro 93 92 Rd 93 93
+Sent to player-3: TURN 3 Ro 93 92 Rd 93 93
+
+Current game situation
+XXX 90  91  92  93  94  95  96  97  98  
+87  .   .   .   .   .   .   .   .   .   
+88  .   Rd  Yd  Bd  Pd  .   .   .   .   
+89  .   Rc  Yc  Bc  Pc  Gc  Oc  .   .   
+90  .   .   .   Bs  Ps  Gs  Os  Ys  .   
+91  .   Yx  Rx  Bx  .   .   .   Yx  .   
+92  .   Yd  Rd  .   .   .   .   .   .   
+93  .   .   Ro  Rd  .   .   .   .   .   
+94  .   .   .   .   .   .   .   .   .   
+
+Scores:
+Han: 45
+DaWijtsuh: 26
+Hands:
+Han: [Po, Yo, Y*, Od, Yc, Gc]
+DaWijtsuh: [Oo, G*, Pd, Gs, Go, Pd]
+Tiles in pool: 73
+clientHandler-3 wakes server
+Sent to player-1: NEXT 1
+Sent to player-3: NEXT 1
+Received from player-1: MOVE Yc 92 97 Yo 92 98 Y* 92 99 
+Sent to player-1: NEW Rx Bx Bs
+Sent to player-1: TURN 1 Yc 92 97 Yo 92 98 Y* 92 99
+Sent to player-3: TURN 1 Yc 92 97 Yo 92 98 Y* 92 99
+
+Current game situation
+XXX 90  91  92  93  94  95  96  97  98  99  100 
+87  .   .   .   .   .   .   .   .   .   .   .   
+88  .   Rd  Yd  Bd  Pd  .   .   .   .   .   .   
+89  .   Rc  Yc  Bc  Pc  Gc  Oc  .   .   .   .   
+90  .   .   .   Bs  Ps  Gs  Os  Ys  .   .   .   
+91  .   Yx  Rx  Bx  .   .   .   Yx  .   .   .   
+92  .   Yd  Rd  .   .   .   .   Yc  Yo  Y*  .   
+93  .   .   Ro  Rd  .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+Han: 51
+DaWijtsuh: 26
+Hands:
+Han: [Po, Od, Gc, Rx, Bx, Bs]
+DaWijtsuh: [Oo, G*, Pd, Gs, Go, Pd]
+Tiles in pool: 70
+clientHandler-1 wakes server
+Sent to player-1: NEXT 3
+Sent to player-3: NEXT 3
+Received from player-3: MOVE G* 91 95 Go 92 95 
+Sent to player-3: NEW Rs Yc
+Sent to player-1: TURN 3 G* 91 95 Go 92 95
+Sent to player-3: TURN 3 G* 91 95 Go 92 95
+
+Current game situation
+XXX 90  91  92  93  94  95  96  97  98  99  100 
+87  .   .   .   .   .   .   .   .   .   .   .   
+88  .   Rd  Yd  Bd  Pd  .   .   .   .   .   .   
+89  .   Rc  Yc  Bc  Pc  Gc  Oc  .   .   .   .   
+90  .   .   .   Bs  Ps  Gs  Os  Ys  .   .   .   
+91  .   Yx  Rx  Bx  .   G*  .   Yx  .   .   .   
+92  .   Yd  Rd  .   .   Go  .   Yc  Yo  Y*  .   
+93  .   .   Ro  Rd  .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+Han: 51
+DaWijtsuh: 30
+Hands:
+Han: [Po, Od, Gc, Rx, Bx, Bs]
+DaWijtsuh: [Oo, Pd, Gs, Pd, Rs, Yc]
+Tiles in pool: 68
+clientHandler-3 wakes server
+Sent to player-1: NEXT 1
+Sent to player-3: NEXT 1
+Received from player-1: MOVE Od 88 90 
+Sent to player-1: NEW Bc
+Sent to player-1: TURN 1 Od 88 90
+Sent to player-3: TURN 1 Od 88 90
+
+Current game situation
+XXX 89  90  91  92  93  94  95  96  97  98  99  100 
+87  .   .   .   .   .   .   .   .   .   .   .   .   
+88  .   Od  Rd  Yd  Bd  Pd  .   .   .   .   .   .   
+89  .   .   Rc  Yc  Bc  Pc  Gc  Oc  .   .   .   .   
+90  .   .   .   .   Bs  Ps  Gs  Os  Ys  .   .   .   
+91  .   .   Yx  Rx  Bx  .   G*  .   Yx  .   .   .   
+92  .   .   Yd  Rd  .   .   Go  .   Yc  Yo  Y*  .   
+93  .   .   .   Ro  Rd  .   .   .   .   .   .   .   
+94  .   .   .   .   .   .   .   .   .   .   .   .   
+
+Scores:
+Han: 56
+DaWijtsuh: 30
+Hands:
+Han: [Po, Gc, Rx, Bx, Bs, Bc]
+DaWijtsuh: [Oo, Pd, Gs, Pd, Rs, Yc]
+Tiles in pool: 67
+clientHandler-1 wakes server
+Sent to player-1: NEXT 3
+Sent to player-3: NEXT 3
+Could not send to player-1: KICK 1 6 lost connection with player
+Sent to player-3: KICK 1 6 lost connection with player
+Closed the connection with player-1

@@ -1,0 +1,35 @@
+26/01/16_13:39:38: Welcome in Qwirkle
+26/01/16_13:39:38: (only characters a-z A-Z and 1 to 16 characters long)
+26/01/16_13:39:38: What is your name? 
+
+26/01/16_13:39:40: 
+Server IP-adress: 
+
+26/01/16_13:39:52: 
+Server port: 
+
+26/01/16_13:39:53: 
+Bot: 'b', Human: 'h'
+
+26/01/16_13:39:55: 
+Naive: 'n', Smart: 's'
+26/01/16_13:39:56: Creating client... 
+26/01/16_13:39:56: Client Han created
+26/01/16_13:39:56: Starting client... 
+26/01/16_13:39:56: Client started.
+26/01/16_13:39:56: Sending registration message... 
+26/01/16_13:39:56: OUT: HELLO Han
+26/01/16_13:39:56: Registration message send.
+26/01/16_13:39:56: Waiting for welcome message... 
+26/01/16_13:39:56: Welcome message received.
+26/01/16_13:39:56: Waiting for other players to connect...
+26/01/16_13:39:56: IN: WELCOME Han 1
+26/01/16_13:39:56: IN: NAMES joanne 0 Han 1 
+26/01/16_13:39:57: Tiles in pool: 102
+
+26/01/16_13:39:57: IN: NEW P* Rd Bx Gc Go P* 
+26/01/16_13:39:57: It is now 's turn.
+
+26/01/16_13:39:57: IN: NEXT 0
+26/01/16_13:40:20: Not a number. (TURN1)
+26/01/16_13:40:20: exceptions.InvalidCommandException: Invalid command. (In TURN)
