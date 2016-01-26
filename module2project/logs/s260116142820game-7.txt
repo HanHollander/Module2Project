@@ -1,0 +1,25 @@
+Waiting for clients to connect
+Clients connected: [0 of 2]
+Clients connected: [1 of 2]
+Received from client 1: HELLO joanne
+Sent to player-1: WELCOME joanne 1
+Clients connected: [2 of 2]
+Waiting for everyone to send their name
+Received from client 2: HELLO Wijtse
+Sent to player-2: WELCOME Wijtse 2
+Everyone has send their name
+Sent to player-1: NAMES joanne 1 Wijtse 2 999999
+Sent to player-2: NAMES joanne 1 Wijtse 2 999999
+Dealing tiles and making first move
+Sent to player-1: NEW Ps Rc R* Ys Bc Ox
+Sent to player-2: NEW Rc Pc Pd Rs Bx Px
+Tiles dealt and first move made
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Ps 90 90 
+Sent to player-1: KICK 1 6 made an invalid turn
+Sent to player-2: KICK 1 6 made an invalid turn
+Closed the connection with player-1
+clientHandler-1 wakes server
+Sent to player-2: WINNER 2
+Closed the connection with player-2

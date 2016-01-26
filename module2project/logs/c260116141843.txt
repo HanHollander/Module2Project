@@ -1,0 +1,57 @@
+26/01/16_14:18:43: Welcome in Qwirkle
+26/01/16_14:18:43: (only characters a-z A-Z and 1 to 16 characters long)
+26/01/16_14:18:43: What is your name? 
+
+26/01/16_14:18:45: 
+Server IP-adress: 
+
+26/01/16_14:18:50: 
+Server port: 
+
+26/01/16_14:18:55: 
+Bot: 'b', Human: 'h'
+
+26/01/16_14:18:57: Creating client... 
+26/01/16_14:18:57: Client Han created
+26/01/16_14:18:57: Starting client... 
+26/01/16_14:18:57: Client started.
+26/01/16_14:18:57: Sending registration message... 
+26/01/16_14:18:57: OUT: HELLO Han
+26/01/16_14:18:57: Registration message send.
+26/01/16_14:18:57: Welcome message received.
+26/01/16_14:18:57: Waiting for welcome message... 
+26/01/16_14:18:57: Waiting for other players to connect...
+26/01/16_14:18:57: IN: WELCOME Han 2
+26/01/16_14:18:57: IN: NAMES Wijtse 1 Han 2 999999
+26/01/16_14:18:57: Wijtse's score is: 0
+26/01/16_14:18:57: Han's score is: 0
+26/01/16_14:18:57: Tiles in pool: 96
+
+26/01/16_14:18:57: IN: NEW Oo Y* Yc Yx Pd Bs
+26/01/16_14:18:57: It is now Wijtse's turn.
+
+26/01/16_14:18:57: IN: NEXT 1
+26/01/16_14:19:11: Wijtse's score is: 1
+26/01/16_14:19:11: Han's score is: 0
+26/01/16_14:19:11: 
+Wijtse just made the following move: [[Pd, 91, 91]]
+
+26/01/16_14:19:11: IN: TURN 1 Pd 91 91
+26/01/16_14:19:11: Wijtse's score is: 1
+26/01/16_14:19:11: Han's score is: 0
+26/01/16_14:19:11: 
+Hint: [[33mA[0m, 0, 0]
+26/01/16_14:19:11: 
+It is your turn!
+26/01/16_14:19:11: 
+What is your action?
+26/01/16_14:19:11: Type of turn: ANY
+26/01/16_14:19:25: Wijtse's score is: 1
+26/01/16_14:19:25: Han's score is: 0
+26/01/16_14:19:25: OUT: MOVEempty
+26/01/16_14:19:25: IN: NEXT 2
+26/01/16_14:19:25: Tiles in pool: 101
+
+26/01/16_14:19:25: Han IS KICKED FOR THE FOLLOWING REASON: made an invalid turn
+
+26/01/16_14:19:25: IN: KICK 2 6 made an invalid turn

@@ -1,0 +1,86 @@
+26/01/16_14:07:49: Welcome in Qwirkle
+26/01/16_14:07:49: (only characters a-z A-Z and 1 to 16 characters long)
+26/01/16_14:07:49: What is your name? 
+
+26/01/16_14:07:51: 
+Server IP-adress: 
+
+26/01/16_14:07:52: 
+Server port: 
+
+26/01/16_14:07:54: 
+Bot: 'b', Human: 'h'
+
+26/01/16_14:07:55: 
+Naive: 'n', Smart: 's'
+26/01/16_14:07:55: Creating client... 
+26/01/16_14:07:55: Client Han created
+26/01/16_14:07:55: Starting client... 
+26/01/16_14:07:55: Client started.
+26/01/16_14:07:55: Sending registration message... 
+26/01/16_14:07:55: OUT: HELLO Han
+26/01/16_14:07:55: Registration message send.
+26/01/16_14:07:55: Welcome message received.
+26/01/16_14:07:55: Waiting for welcome message... 
+26/01/16_14:07:55: Waiting for other players to connect...
+26/01/16_14:07:55: IN: WELCOME Han 3
+26/01/16_14:07:55: IN: NAMES Joanne 1 Wijtse 2 Han 3 999999
+26/01/16_14:07:56: Joanne's score is: 0
+26/01/16_14:07:56: Wijtse's score is: 0
+26/01/16_14:07:56: Han's score is: 0
+26/01/16_14:07:56: Tiles in pool: 90
+
+26/01/16_14:07:56: IN: NEW Rx Os Po O* Ps Bo
+26/01/16_14:07:56: It is now Joanne's turn.
+
+26/01/16_14:07:56: IN: NEXT 1
+26/01/16_14:09:35: Tiles in pool: 96
+
+26/01/16_14:09:35: Joanne IS KICKED FOR THE FOLLOWING REASON: lost connection with player
+
+26/01/16_14:09:35: IN: KICK 1 6 lost connection with player
+26/01/16_14:09:35: It is now Wijtse's turn.
+
+26/01/16_14:09:35: IN: NEXT 2
+26/01/16_14:10:10: Joanne's score is: 0
+26/01/16_14:10:10: Wijtse's score is: 3
+26/01/16_14:10:10: Han's score is: 0
+26/01/16_14:10:10: 
+Wijtse just made the following move: [[Rd, 91, 91], [Pd, 91, 92], [Od, 91, 90]]
+
+26/01/16_14:10:10: IN: TURN 2 Rd 91 91 Pd 91 92 Od 91 90
+26/01/16_14:10:10: Joanne's score is: 0
+26/01/16_14:10:10: Wijtse's score is: 3
+26/01/16_14:10:10: Han's score is: 0
+26/01/16_14:10:10: 
+It is your turn!
+26/01/16_14:10:10: 
+What is your action?
+26/01/16_14:10:11: Joanne's score is: 0
+26/01/16_14:10:11: Wijtse's score is: 3
+26/01/16_14:10:11: Han's score is: 0
+26/01/16_14:10:11: 
+What is your action?
+26/01/16_14:10:11: Joanne's score is: 0
+26/01/16_14:10:11: Wijtse's score is: 3
+26/01/16_14:10:11: Han's score is: 0
+26/01/16_14:10:11: 
+What is your action?
+26/01/16_14:10:11: Joanne's score is: 0
+26/01/16_14:10:11: Wijtse's score is: 3
+26/01/16_14:10:11: Han's score is: 0
+26/01/16_14:10:11: OUT: MOVE Po 90 92 Bo 90 93 
+26/01/16_14:10:11: IN: NEXT 3
+26/01/16_14:10:11: Joanne's score is: 0
+26/01/16_14:10:11: Wijtse's score is: 3
+26/01/16_14:10:11: Han's score is: 4
+26/01/16_14:10:11: Tiles in pool: 91
+
+26/01/16_14:10:11: IN: NEW Yo Yd
+26/01/16_14:10:11: IN: TURN 3 Po 90 92 Bo 90 93
+26/01/16_14:10:11: It is now Wijtse's turn.
+
+26/01/16_14:10:11: IN: NEXT 2
+26/01/16_14:11:12: Previous game will now stop.
+26/01/16_14:11:12: Closing socket connection from previous game...
+26/01/16_14:11:12: Socket from previous game closed

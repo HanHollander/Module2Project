@@ -1,0 +1,540 @@
+26/01/16_14:28:11: Welcome in Qwirkle
+26/01/16_14:28:11: (only characters a-z A-Z and 1 to 16 characters long)
+26/01/16_14:28:11: What is your name? 
+
+26/01/16_14:28:14: 
+Server IP-adress: 
+
+26/01/16_14:28:16: 
+Server port: 
+
+26/01/16_14:28:17: 
+Bot: 'b', Human: 'h'
+
+26/01/16_14:28:20: Creating client... 
+26/01/16_14:28:20: Client Han created
+26/01/16_14:28:20: Starting client... 
+26/01/16_14:28:20: Client started.
+26/01/16_14:28:20: Sending registration message... 
+26/01/16_14:28:20: OUT: HELLO Han
+26/01/16_14:28:20: Registration message send.
+26/01/16_14:28:20: Waiting for welcome message... 
+26/01/16_14:28:20: Welcome message received.
+26/01/16_14:28:20: Waiting for other players to connect...
+26/01/16_14:28:20: IN: WELCOME Han 1
+26/01/16_14:28:20: IN: NAMES Han 1 Wijtse 2 999999
+26/01/16_14:28:20: Han's score is: 0
+26/01/16_14:28:20: Wijtse's score is: 0
+26/01/16_14:28:20: Tiles in pool: 96
+
+26/01/16_14:28:20: IN: NEW R* Pd Bx Ps Od Y*
+26/01/16_14:28:20: Han's score is: 0
+26/01/16_14:28:20: Wijtse's score is: 0
+26/01/16_14:28:20: 
+Hint: [[36mF[0m, 91, 91]
+26/01/16_14:28:20: 
+It is your turn!
+26/01/16_14:28:20: 
+What is your action?
+26/01/16_14:28:20: Type of turn: ANY
+26/01/16_14:28:41: Han's score is: 0
+26/01/16_14:28:41: Wijtse's score is: 0
+26/01/16_14:28:41: 
+What is your action?
+26/01/16_14:28:41: Type of turn: MOVE
+26/01/16_14:28:50: Han's score is: 0
+26/01/16_14:28:50: Wijtse's score is: 0
+26/01/16_14:28:50: OUT: MOVE R* 91 91 
+26/01/16_14:28:50: IN: NEXT 1
+26/01/16_14:28:50: Han's score is: 1
+26/01/16_14:28:50: Wijtse's score is: 0
+26/01/16_14:28:50: Tiles in pool: 95
+
+26/01/16_14:28:50: IN: NEW O*
+26/01/16_14:28:50: IN: TURN 1 R* 91 91
+26/01/16_14:28:50: It is now Wijtse's turn.
+
+26/01/16_14:28:50: IN: NEXT 2
+26/01/16_14:29:11: not me
+26/01/16_14:29:11: Han's score is: 1
+26/01/16_14:29:11: Wijtse's score is: 2
+26/01/16_14:29:11: 
+Wijtse just made the following move: [[Rs, 91, 92]]
+
+26/01/16_14:29:11: IN: TURN 2 Rs 91 92
+26/01/16_14:29:11: Han's score is: 1
+26/01/16_14:29:11: Wijtse's score is: 2
+26/01/16_14:29:11: 
+Hint: [[33mF[0m, 92, 91]
+26/01/16_14:29:11: 
+It is your turn!
+26/01/16_14:29:11: 
+What is your action?
+26/01/16_14:29:11: Type of turn: ANY
+26/01/16_14:29:24: Han's score is: 1
+26/01/16_14:29:24: Wijtse's score is: 2
+26/01/16_14:29:24: 
+What is your action?
+26/01/16_14:29:24: Type of turn: MOVE
+26/01/16_14:29:28: Han's score is: 1
+26/01/16_14:29:28: Wijtse's score is: 2
+26/01/16_14:29:28: OUT: MOVE Ps 92 92 
+26/01/16_14:29:28: IN: NEXT 1
+26/01/16_14:29:28: Han's score is: 3
+26/01/16_14:29:28: Wijtse's score is: 2
+26/01/16_14:29:28: Tiles in pool: 93
+
+26/01/16_14:29:28: IN: NEW Yx
+26/01/16_14:29:28: IN: TURN 1 Ps 92 92
+26/01/16_14:29:28: It is now Wijtse's turn.
+
+26/01/16_14:29:28: IN: NEXT 2
+26/01/16_14:38:14: not me
+26/01/16_14:38:14: Han's score is: 3
+26/01/16_14:38:14: Wijtse's score is: 5
+26/01/16_14:38:14: 
+Wijtse just made the following move: [[Os, 93, 92]]
+
+26/01/16_14:38:14: IN: TURN 2 Os 93 92
+26/01/16_14:38:15: Han's score is: 3
+26/01/16_14:38:15: Wijtse's score is: 5
+26/01/16_14:38:15: 
+Hint: [[33mF[0m, 93, 93]
+26/01/16_14:38:15: 
+It is your turn!
+26/01/16_14:38:15: 
+What is your action?
+26/01/16_14:38:15: Type of turn: ANY
+26/01/16_14:45:13: Han's score is: 3
+26/01/16_14:45:13: Wijtse's score is: 5
+26/01/16_14:45:13: 
+What is your action?
+26/01/16_14:45:13: Type of turn: MOVE
+26/01/16_14:45:13: Han's score is: 3
+26/01/16_14:45:13: Wijtse's score is: 5
+26/01/16_14:45:14: OUT: MOVE O* 93 93 
+26/01/16_14:45:14: IN: NEXT 1
+26/01/16_14:45:14: Han's score is: 5
+26/01/16_14:45:14: Wijtse's score is: 5
+26/01/16_14:45:14: Tiles in pool: 91
+
+26/01/16_14:45:14: IN: NEW Yc
+26/01/16_14:45:14: IN: TURN 1 O* 93 93
+26/01/16_14:45:14: It is now Wijtse's turn.
+
+26/01/16_14:45:14: IN: NEXT 2
+26/01/16_14:45:41: not me
+26/01/16_14:45:41: Han's score is: 5
+26/01/16_14:45:41: Wijtse's score is: 7
+26/01/16_14:45:41: 
+Wijtse just made the following move: [[O*, 90, 91]]
+
+26/01/16_14:45:41: IN: TURN 2 O* 90 91
+26/01/16_14:45:41: Han's score is: 5
+26/01/16_14:45:41: Wijtse's score is: 7
+26/01/16_14:45:41: 
+Hint: [[36mF[0m, 94, 93]
+26/01/16_14:45:41: 
+It is your turn!
+26/01/16_14:45:41: 
+What is your action?
+26/01/16_14:45:41: Type of turn: ANY
+26/01/16_14:46:00: Han's score is: 5
+26/01/16_14:46:00: Wijtse's score is: 7
+26/01/16_14:46:00: 
+What is your action?
+26/01/16_14:46:00: Type of turn: MOVE
+26/01/16_14:46:06: Han's score is: 5
+26/01/16_14:46:06: Wijtse's score is: 7
+26/01/16_14:46:06: 
+What is your action?
+26/01/16_14:46:06: Type of turn: MOVE
+26/01/16_14:46:09: Han's score is: 5
+26/01/16_14:46:09: Wijtse's score is: 7
+26/01/16_14:46:09: 
+What is your action?
+26/01/16_14:46:09: Type of turn: MOVE
+26/01/16_14:46:10: Han's score is: 5
+26/01/16_14:46:10: Wijtse's score is: 7
+26/01/16_14:46:10: OUT: MOVE Y* 94 93 Yx 94 94 Yc 94 95 
+26/01/16_14:46:10: IN: NEXT 1
+26/01/16_14:46:10: Han's score is: 10
+26/01/16_14:46:10: Wijtse's score is: 7
+26/01/16_14:46:10: Tiles in pool: 87
+
+26/01/16_14:46:10: IN: NEW R* Pd Rc
+26/01/16_14:46:10: IN: TURN 1 Y* 94 93 Yx 94 94 Yc 94 95
+26/01/16_14:46:10: It is now Wijtse's turn.
+
+26/01/16_14:46:10: IN: NEXT 2
+26/01/16_14:46:35: not me
+26/01/16_14:46:35: Han's score is: 10
+26/01/16_14:46:35: Wijtse's score is: 10
+26/01/16_14:46:35: 
+Wijtse just made the following move: [[Bx, 95, 94], [Rx, 96, 94]]
+
+26/01/16_14:46:35: IN: TURN 2 Bx 95 94 Rx 96 94
+26/01/16_14:46:35: Han's score is: 10
+26/01/16_14:46:35: Wijtse's score is: 10
+26/01/16_14:46:35: 
+Hint: [[31mD[0m, 96, 95]
+26/01/16_14:46:35: 
+It is your turn!
+26/01/16_14:46:35: 
+What is your action?
+26/01/16_14:46:35: Type of turn: ANY
+26/01/16_14:47:04: Han's score is: 10
+26/01/16_14:47:04: Wijtse's score is: 10
+26/01/16_14:47:04: 
+What is your action?
+26/01/16_14:47:04: Type of turn: MOVE
+26/01/16_14:47:05: Han's score is: 10
+26/01/16_14:47:05: Wijtse's score is: 10
+26/01/16_14:47:05: OUT: MOVE Rc 91 93 
+26/01/16_14:47:05: IN: NEXT 1
+26/01/16_14:47:05: Han's score is: 13
+26/01/16_14:47:05: Wijtse's score is: 10
+26/01/16_14:47:05: Tiles in pool: 84
+
+26/01/16_14:47:05: IN: NEW Yo
+26/01/16_14:47:05: IN: TURN 1 Rc 91 93
+26/01/16_14:47:05: It is now Wijtse's turn.
+
+26/01/16_14:47:05: IN: NEXT 2
+26/01/16_14:47:42: not me
+26/01/16_14:47:42: Han's score is: 13
+26/01/16_14:47:42: Wijtse's score is: 17
+26/01/16_14:47:42: 
+Wijtse just made the following move: [[Ro, 91, 94], [Go, 90, 94], [Po, 89, 94]]
+
+26/01/16_14:47:42: IN: TURN 2 Ro 91 94 Go 90 94 Po 89 94
+26/01/16_14:47:42: Han's score is: 13
+26/01/16_14:47:42: Wijtse's score is: 17
+26/01/16_14:47:42: 
+Hint: [[36mA[0m, 94, 96]
+26/01/16_14:47:42: 
+It is your turn!
+26/01/16_14:47:42: 
+What is your action?
+26/01/16_14:47:42: Type of turn: ANY
+26/01/16_14:48:20: Han's score is: 13
+26/01/16_14:48:20: Wijtse's score is: 17
+26/01/16_14:48:20: 
+What is your action?
+26/01/16_14:48:20: Type of turn: MOVE
+26/01/16_14:48:21: Han's score is: 13
+26/01/16_14:48:21: Wijtse's score is: 17
+26/01/16_14:48:21: OUT: MOVE Yo 92 94 
+26/01/16_14:48:21: IN: NEXT 1
+26/01/16_14:48:21: Han's score is: 17
+26/01/16_14:48:21: Wijtse's score is: 17
+26/01/16_14:48:21: Tiles in pool: 80
+
+26/01/16_14:48:21: IN: NEW R*
+26/01/16_14:48:21: IN: TURN 1 Yo 92 94
+26/01/16_14:48:21: It is now Wijtse's turn.
+
+26/01/16_14:48:21: IN: NEXT 2
+26/01/16_14:49:47: not me
+26/01/16_14:49:47: Han's score is: 17
+26/01/16_14:49:47: Wijtse's score is: 24
+26/01/16_14:49:47: 
+Wijtse just made the following move: [[Gx, 97, 94], [Yx, 97, 95], [Bx, 97, 96]]
+
+26/01/16_14:49:47: IN: TURN 2 Gx 97 94 Yx 97 95 Bx 97 96
+26/01/16_14:49:47: Han's score is: 17
+26/01/16_14:49:47: Wijtse's score is: 24
+26/01/16_14:49:47: 
+Hint: [[31mF[0m, 96, 93]
+26/01/16_14:49:47: 
+It is your turn!
+26/01/16_14:49:47: 
+What is your action?
+26/01/16_14:49:47: Type of turn: ANY
+26/01/16_14:50:11: exceptions.InvalidCommandException: Invalid command. Usage: [MOVE <tileNr> <row> <column>] Usage: [SWAP <tile>]
+26/01/16_14:50:11: Type of turn: ANY
+26/01/16_14:50:14: exceptions.InvalidCommandException: Invalid command. Usage: [MOVE <tileNr> <row> <column>] Usage: [SWAP <tile>]
+26/01/16_14:50:14: Type of turn: ANY
+26/01/16_14:50:56: exceptions.InvalidMoveException: Invalid move. The move can not be done on the current board.
+26/01/16_14:50:56: Han's score is: 17
+26/01/16_14:50:56: Wijtse's score is: 24
+26/01/16_14:50:56: 
+What is your action?
+26/01/16_14:50:56: Type of turn: ANY
+26/01/16_14:51:04: Han's score is: 17
+26/01/16_14:51:04: Wijtse's score is: 24
+26/01/16_14:51:04: 
+What is your action?
+26/01/16_14:51:04: Type of turn: MOVE
+26/01/16_14:51:05: Han's score is: 17
+26/01/16_14:51:05: Wijtse's score is: 24
+26/01/16_14:51:05: OUT: MOVE Od 93 91 
+26/01/16_14:51:05: IN: NEXT 1
+26/01/16_14:51:05: Han's score is: 20
+26/01/16_14:51:05: Wijtse's score is: 24
+26/01/16_14:51:05: Tiles in pool: 76
+
+26/01/16_14:51:05: IN: NEW Gc
+26/01/16_14:51:05: IN: TURN 1 Od 93 91
+26/01/16_14:51:05: It is now Wijtse's turn.
+
+26/01/16_14:51:05: IN: NEXT 2
+26/01/16_14:51:50: not me
+26/01/16_14:51:50: Han's score is: 20
+26/01/16_14:51:50: Wijtse's score is: 30
+26/01/16_14:51:50: 
+Wijtse just made the following move: [[Yd, 94, 96], [Bd, 95, 96]]
+
+26/01/16_14:51:50: IN: TURN 2 Yd 94 96 Bd 95 96
+26/01/16_14:51:50: Han's score is: 20
+26/01/16_14:51:50: Wijtse's score is: 30
+26/01/16_14:51:50: 
+Hint: [[32mD[0m, 93, 95]
+26/01/16_14:51:50: 
+It is your turn!
+26/01/16_14:51:50: 
+What is your action?
+26/01/16_14:51:50: Type of turn: ANY
+26/01/16_14:52:05: Han's score is: 20
+26/01/16_14:52:05: Wijtse's score is: 30
+26/01/16_14:52:05: 
+What is your action?
+26/01/16_14:52:05: Type of turn: MOVE
+26/01/16_14:52:06: Han's score is: 20
+26/01/16_14:52:06: Wijtse's score is: 30
+26/01/16_14:52:06: OUT: MOVE Pd 93 96 
+26/01/16_14:52:06: IN: NEXT 1
+26/01/16_14:52:06: Han's score is: 23
+26/01/16_14:52:06: Wijtse's score is: 30
+26/01/16_14:52:06: Tiles in pool: 73
+
+26/01/16_14:52:06: IN: NEW P*
+26/01/16_14:52:06: IN: TURN 1 Pd 93 96
+26/01/16_14:52:06: It is now Wijtse's turn.
+
+26/01/16_14:52:06: IN: NEXT 2
+26/01/16_14:52:53: not me
+26/01/16_14:52:54: Han's score is: 23
+26/01/16_14:52:54: Wijtse's score is: 36
+26/01/16_14:52:54: 
+Wijtse just made the following move: [[Gs, 90, 95], [Ps, 89, 95]]
+
+26/01/16_14:52:54: IN: TURN 2 Gs 90 95 Ps 89 95
+26/01/16_14:52:54: Han's score is: 23
+26/01/16_14:52:54: Wijtse's score is: 36
+26/01/16_14:52:54: 
+Hint: [[35mF[0m, 93, 97]
+26/01/16_14:52:54: 
+It is your turn!
+26/01/16_14:52:54: 
+What is your action?
+26/01/16_14:52:54: Type of turn: ANY
+26/01/16_14:53:22: Han's score is: 23
+26/01/16_14:53:22: Wijtse's score is: 36
+26/01/16_14:53:22: 
+What is your action?
+26/01/16_14:53:22: Type of turn: MOVE
+26/01/16_14:53:28: Han's score is: 23
+26/01/16_14:53:28: Wijtse's score is: 36
+26/01/16_14:53:28: 
+What is your action?
+26/01/16_14:53:28: Type of turn: MOVE
+26/01/16_14:53:28: Han's score is: 23
+26/01/16_14:53:28: Wijtse's score is: 36
+26/01/16_14:53:28: OUT: MOVE P* 89 96 R* 88 96 
+26/01/16_14:53:28: IN: NEXT 1
+26/01/16_14:53:28: Han's score is: 28
+26/01/16_14:53:28: Wijtse's score is: 36
+26/01/16_14:53:28: Tiles in pool: 69
+
+26/01/16_14:53:28: IN: NEW G* Yo
+26/01/16_14:53:28: IN: TURN 1 P* 89 96 R* 88 96
+26/01/16_14:53:28: It is now Wijtse's turn.
+
+26/01/16_14:53:28: IN: NEXT 2
+26/01/16_14:54:34: not me
+26/01/16_14:54:34: Han's score is: 28
+26/01/16_14:54:34: Wijtse's score is: 43
+26/01/16_14:54:34: 
+Wijtse just made the following move: [[Pc, 89, 93], [P*, 88, 93], [Po, 87, 93]]
+
+26/01/16_14:54:34: IN: TURN 2 Pc 89 93 P* 88 93 Po 87 93
+26/01/16_14:54:34: Han's score is: 28
+26/01/16_14:54:34: Wijtse's score is: 43
+26/01/16_14:54:34: 
+Hint: [[36mA[0m, 98, 95]
+26/01/16_14:54:34: 
+It is your turn!
+26/01/16_14:54:34: 
+What is your action?
+26/01/16_14:54:34: Type of turn: ANY
+26/01/16_14:54:46: Han's score is: 28
+26/01/16_14:54:46: Wijtse's score is: 43
+26/01/16_14:54:46: 
+What is your action?
+26/01/16_14:54:46: Type of turn: MOVE
+26/01/16_14:54:52: exceptions.InvalidCommandException: Invalid command. Usage: [MOVE <tileNr> <row> <column>]
+26/01/16_14:54:52: Type of turn: MOVE
+26/01/16_14:54:56: exceptions.InvalidMoveException: Invalid move. The move can not be done on the current board.
+26/01/16_14:54:56: Han's score is: 28
+26/01/16_14:54:56: Wijtse's score is: 43
+26/01/16_14:54:56: 
+What is your action?
+26/01/16_14:54:56: Type of turn: MOVE
+26/01/16_14:55:06: Han's score is: 28
+26/01/16_14:55:06: Wijtse's score is: 43
+26/01/16_14:55:06: 
+What is your action?
+26/01/16_14:55:06: Type of turn: MOVE
+26/01/16_14:55:11: Han's score is: 28
+26/01/16_14:55:11: Wijtse's score is: 43
+26/01/16_14:55:11: OUT: MOVE G* 90 96 Gc 90 97 
+26/01/16_14:55:11: IN: NEXT 1
+26/01/16_14:55:11: Han's score is: 35
+26/01/16_14:55:11: Wijtse's score is: 43
+26/01/16_14:55:11: Tiles in pool: 64
+
+26/01/16_14:55:11: IN: NEW Px Ys
+26/01/16_14:55:11: IN: TURN 1 G* 90 96 Gc 90 97
+26/01/16_14:55:11: It is now Wijtse's turn.
+
+26/01/16_14:55:11: IN: NEXT 2
+26/01/16_14:56:02: not me
+26/01/16_14:56:02: Han's score is: 35
+26/01/16_14:56:02: Wijtse's score is: 48
+26/01/16_14:56:02: 
+Wijtse just made the following move: [[G*, 89, 91], [O*, 89, 90]]
+
+26/01/16_14:56:02: IN: TURN 2 G* 89 91 O* 89 90
+26/01/16_14:56:02: Han's score is: 35
+26/01/16_14:56:02: Wijtse's score is: 48
+26/01/16_14:56:02: 
+Hint: [[36mC[0m, 98, 95]
+26/01/16_14:56:02: 
+It is your turn!
+26/01/16_14:56:02: 
+What is your action?
+26/01/16_14:56:02: Type of turn: ANY
+26/01/16_14:56:31: Han's score is: 35
+26/01/16_14:56:31: Wijtse's score is: 48
+26/01/16_14:56:31: 
+What is your action?
+26/01/16_14:56:31: Type of turn: MOVE
+26/01/16_14:56:40: Han's score is: 35
+26/01/16_14:56:40: Wijtse's score is: 48
+26/01/16_14:56:40: 
+What is your action?
+26/01/16_14:56:40: Type of turn: MOVE
+26/01/16_14:56:42: Han's score is: 35
+26/01/16_14:56:42: Wijtse's score is: 48
+26/01/16_14:56:42: OUT: MOVE Yo 94 97 Ys 94 98 
+26/01/16_14:56:42: IN: NEXT 1
+26/01/16_14:56:42: Han's score is: 47
+26/01/16_14:56:42: Wijtse's score is: 48
+26/01/16_14:56:42: Tiles in pool: 60
+
+26/01/16_14:56:42: IN: NEW Bd Rc
+26/01/16_14:56:42: IN: TURN 1 Yo 94 97 Ys 94 98
+26/01/16_14:56:42: It is now Wijtse's turn.
+
+26/01/16_14:56:42: IN: NEXT 2
+26/01/16_14:57:12: not me
+26/01/16_14:57:12: Han's score is: 47
+26/01/16_14:57:12: Wijtse's score is: 52
+26/01/16_14:57:12: 
+Wijtse just made the following move: [[Yd, 93, 97]]
+
+26/01/16_14:57:12: IN: TURN 2 Yd 93 97
+26/01/16_14:57:12: Han's score is: 47
+26/01/16_14:57:12: Wijtse's score is: 52
+26/01/16_14:57:12: 
+Hint: [[31mD[0m, 96, 93]
+26/01/16_14:57:12: 
+It is your turn!
+26/01/16_14:57:12: 
+What is your action?
+26/01/16_14:57:12: Type of turn: ANY
+26/01/16_14:58:19: Han's score is: 47
+26/01/16_14:58:19: Wijtse's score is: 52
+26/01/16_14:58:19: 
+What is your action?
+26/01/16_14:58:19: Type of turn: MOVE
+26/01/16_14:58:20: Han's score is: 47
+26/01/16_14:58:20: Wijtse's score is: 52
+26/01/16_14:58:20: OUT: MOVE Px 96 95 
+26/01/16_14:58:20: IN: NEXT 1
+26/01/16_14:58:20: Han's score is: 51
+26/01/16_14:58:20: Wijtse's score is: 52
+26/01/16_14:58:20: Tiles in pool: 58
+
+26/01/16_14:58:20: IN: NEW Gs
+26/01/16_14:58:20: IN: TURN 1 Px 96 95
+26/01/16_14:58:20: It is now Wijtse's turn.
+
+26/01/16_14:58:20: IN: NEXT 2
+26/01/16_14:58:43: not me
+26/01/16_14:58:43: Han's score is: 51
+26/01/16_14:58:43: Wijtse's score is: 57
+26/01/16_14:58:43: 
+Wijtse just made the following move: [[Rx, 91, 90]]
+
+26/01/16_14:58:43: IN: TURN 2 Rx 91 90
+26/01/16_14:58:43: Han's score is: 51
+26/01/16_14:58:43: Wijtse's score is: 57
+26/01/16_14:58:43: 
+Hint: [[32mC[0m, 95, 98]
+26/01/16_14:58:43: 
+It is your turn!
+26/01/16_14:58:43: 
+What is your action?
+26/01/16_14:58:43: Type of turn: ANY
+26/01/16_15:05:20: exceptions.InvalidMoveException: Invalid move. The move can not be done on the current board.
+26/01/16_15:05:20: Han's score is: 51
+26/01/16_15:05:20: Wijtse's score is: 57
+26/01/16_15:05:20: 
+What is your action?
+26/01/16_15:05:20: Type of turn: ANY
+26/01/16_15:05:54: Han's score is: 51
+26/01/16_15:05:54: Wijtse's score is: 57
+26/01/16_15:05:54: 
+What is your action?
+26/01/16_15:05:54: Type of turn: MOVE
+26/01/16_15:06:02: Han's score is: 51
+26/01/16_15:06:02: Wijtse's score is: 57
+26/01/16_15:06:02: 
+What is your action?
+26/01/16_15:06:02: Type of turn: MOVE
+26/01/16_15:06:03: Han's score is: 51
+26/01/16_15:06:03: Wijtse's score is: 57
+26/01/16_15:06:03: OUT: MOVE Pd 94 91 Bd 95 91 
+26/01/16_15:06:03: IN: NEXT 1
+26/01/16_15:06:03: Han's score is: 54
+26/01/16_15:06:03: Wijtse's score is: 57
+26/01/16_15:06:03: Tiles in pool: 55
+
+26/01/16_15:06:03: IN: NEW Od Bc
+26/01/16_15:06:03: IN: TURN 1 Pd 94 91 Bd 95 91
+26/01/16_15:06:03: It is now Wijtse's turn.
+
+26/01/16_15:06:03: IN: NEXT 2
+26/01/16_15:06:45: not me
+26/01/16_15:06:45: Han's score is: 54
+26/01/16_15:06:45: Wijtse's score is: 60
+26/01/16_15:06:45: 
+Wijtse just made the following move: [[Bc, 95, 90], [Bo, 95, 89]]
+
+26/01/16_15:06:45: IN: TURN 2 Bc 95 90 Bo 95 89
+26/01/16_15:06:45: Han's score is: 54
+26/01/16_15:06:45: Wijtse's score is: 60
+26/01/16_15:06:45: 
+Hint: [[37mD[0m, 98, 96]
+26/01/16_15:06:45: 
+It is your turn!
+26/01/16_15:06:45: 
+What is your action?
+26/01/16_15:06:45: Type of turn: ANY
+26/01/16_15:08:49: Han's score is: 54
+26/01/16_15:08:49: Wijtse's score is: 60
+26/01/16_15:08:49: 
+What is your action?
+26/01/16_15:08:49: Type of turn: MOVE

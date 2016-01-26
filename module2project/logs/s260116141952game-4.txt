@@ -1,0 +1,46 @@
+Waiting for clients to connect
+Clients connected: [0 of 2]
+Clients connected: [1 of 2]
+Received from client 1: HELLO Han
+Sent to player-1: WELCOME Han 1
+Clients connected: [2 of 2]
+Waiting for everyone to send their name
+Received from client 2: HELLO asdf
+Sent to player-2: WELCOME asdf 2
+Everyone has send their name
+Sent to player-1: NAMES Han 1 asdf 2 999999
+Sent to player-2: NAMES Han 1 asdf 2 999999
+Dealing tiles and making first move
+Sent to player-1: NEW Oo G* Oc Rc Bd Bd
+Sent to player-2: NEW Os G* Rd Oc Rd Pd
+Tiles dealt and first move made
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Received from player-1: MOVE Oo 91 91 
+Sent to player-1: NEW Bd
+Sent to player-1: TURN 1 Oo 91 91
+Sent to player-2: TURN 1 Oo 91 91
+
+Current game situation
+XXX 90  91  92  
+90  .   .   .   
+91  .   Oo  .   
+92  .   .   .   
+
+Scores:
+Han: 1
+asdf: 0
+Hands:
+Han: [G*, Oc, Rc, Bd, Bd, Bd]
+asdf: [Os, G*, Rd, Oc, Rd, Pd]
+Tiles in pool: 95
+clientHandler-1 wakes server
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVEempty
+Sent to player-1: KICK 2 6 made an invalid turn
+Sent to player-2: KICK 2 6 made an invalid turn
+Closed the connection with player-2
+clientHandler-2 wakes server
+Sent to player-1: WINNER 1
+Closed the connection with player-1
