@@ -266,4 +266,57 @@ public class GameTest {
     }
     assertFalse(s.getGame().checkSwapTurn(turn1, s.getGame().getPlayer(1)));
   }
+  
+  @Test
+  public void testGetPossiblePlaces() {
+    List<List<Integer>> places = new ArrayList<List<Integer>>();
+    places.add(new ArrayList<Integer>());
+    places.get(0).add(91);
+    places.get(0).add(91);
+    assertEquals(places, s.getGame().getPossiblePlaces(s.getGame().getBoard()));
+    s.getGame().getBoard().putTile(new Move(new Tile("R", "o"), 91, 91));
+    List<List<Integer>> places2 = new ArrayList<List<Integer>>();
+    places2.add(new ArrayList<Integer>());
+    places2.get(0).add(91);
+    places2.get(0).add(90);
+    places2.add(new ArrayList<Integer>());
+    places2.get(1).add(91);
+    places2.get(1).add(92);
+    places2.add(new ArrayList<Integer>());
+    places2.get(2).add(90);
+    places2.get(2).add(91);
+    places2.add(new ArrayList<Integer>());
+    places2.get(3).add(92);
+    places2.get(3).add(91);
+    assertTrue(s.getGame().getPossiblePlaces(s.getGame().getBoard()).containsAll(places2));
+  }
+  
+  @Test
+  public void testMovePossible() {
+    try {
+      s.getGame().getPlayer(1).addToHand(new Tile("P", "o"));
+      s.getGame().getPlayer(1).addToHand(new Tile("G", "o"));
+      s.getGame().getPlayer(1).addToHand(new Tile("Y", "x"));
+    } catch (HandIsFullException e) {
+      System.out.println(e);
+    }
+    try {
+      s.getGame().getPlayer(2).addToHand(new Tile("R", "o"));
+      s.getGame().getPlayer(2).addToHand(new Tile("G", "o"));
+      s.getGame().getPlayer(2).addToHand(new Tile("B", "x"));
+      s.getGame().getPlayer(2).addToHand(new Tile("B", "*"));
+    } catch (HandIsFullException e) {
+      System.out.println(e);
+    }
+    assertTrue(s.getGame().movePossible(1));
+    assertTrue(s.getGame().movePossible(2));
+    while (s.getGame().getPoolSize() > 0) {
+      s.getGame().drawRandomTileFromPool();
+    }
+    assertTrue(s.getGame().movePossible(1));
+    assertTrue(s.getGame().movePossible(2));
+    s.getGame().getBoard().putTile(new Move(new Tile("O", "*"), 91, 91));
+    assertFalse(s.getGame().movePossible(1));
+    assertTrue(s.getGame().movePossible(2));
+  }
 }

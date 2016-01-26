@@ -11,13 +11,13 @@ import java.util.List;
 import java.util.Observable;
 import java.util.Set;
 
-
 public class Game extends Observable{
   
   //Fields\\
   
   public static final List<String> COLOURS = Arrays.asList("R", "O", "B", "Y", "G", "P");
   public static final List<String> SHAPES = Arrays.asList("o", "d", "s", "c", "x", "*");
+  public static final int DIM = 183;
   
   /*@ invariant getPoolSize() >= 0 & getPoolSize() <= 108;
       invariant getWinningPlayerNr() > 0 & getWinningPlayerNr() < 5;
@@ -132,8 +132,8 @@ public class Game extends Observable{
     
     if (!isFirstTurn) {
       server.giveTiles(player.getPlayerNumber(), tilesBack);
+      server.sendTurn(player.getPlayerNumber(), turn);
     }
-    server.sendTurn(player.getPlayerNumber(), turn);
     player.addToScore(board.getScoreCurrentTurn());
     board.endTurn();
     
@@ -214,6 +214,102 @@ public class Game extends Observable{
     return result;
   }
   
+  /*@ requires getPlayer(playerNr) != null;
+      ensures (\forall List<Integer> coordinate; getPossiblePlaces(getBoard()).contains(coordinate);
+              (\forall Tile tile; getPlayer(playerNr).getHand().contains(tile); 
+              getBoard().checkMove(new Move(tile, coordinate.get(0), coordinate.get(1))) 
+              & getPoolSize() == 0 ==> \result == true));
+   */
+  /**
+   * Checks if the given player can make a move.
+   * @param playerNr The number of the player that needs to be checked.
+   * @return True of False whether the player can make a move or not.
+   */
+  public boolean movePossible(int playerNr) {
+    boolean result = false;
+    if (getPoolSize() == 0) {
+      List<List<Integer>> places = getPossiblePlaces(board);
+      List<Tile> hand = getPlayer(playerNr).getHand();
+      for (Tile tile : hand) {
+        for (List<Integer> place : places) {
+          Move newMove = new Move(tile, place.get(0), place.get(1));
+          if (board.checkMove(newMove)) {
+            result = true;
+            break;
+          }
+        }
+      }
+    } else {
+      result = true;
+    }
+    return result;
+  }
+  
+  /*@ requires board != null;
+      ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183;
+              !board.getTile(i, j).toString().equals(". ") & 
+              board.getTile(i, j + 1).toString().equals(". ")
+              ==> \result.contains(Arrays.asList(i, j + 1)));
+      ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183;
+              !board.getTile(i, j).toString().equals(". ") & 
+              board.getTile(i, j - 1).toString().equals(". ")
+              ==> \result.contains(Arrays.asList(i, j - 1)));
+      ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183;
+              !board.getTile(i, j).toString().equals(". ") & 
+              board.getTile(i + 1, j).toString().equals(". ")
+              ==> \result.contains(Arrays.asList(i + 1, j)));
+      ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183;
+              !board.getTile(i, j).toString().equals(". ") & 
+              board.getTile(i - 1, j).toString().equals(". ")
+              ==> \result.contains(Arrays.asList(i - 1, j)));
+   */
+  /**
+   * Gets places where a tile can be.
+   * @param board The board.
+   * @return A list of free places.
+   */
+  /*@ pure */public List<List<Integer>> getPossiblePlaces(Board board) {
+    List<List<Integer>> result = new ArrayList<>();
+    Tile empty = new Tile(".", " ");
+    for (int i = 0; i < DIM; i++) {
+      for (int j = 0; j < DIM; j ++) {
+        if (!board.getTile(i, j).equals(empty)) {
+          if (board.getTile(i - 1, j).equals(empty)) {
+            List<Integer> add = new ArrayList<>();
+            add.add(i - 1);
+            add.add(j);
+            result.add(add);
+          } 
+          if (board.getTile(i + 1, j).equals(empty)) {
+            List<Integer> add = new ArrayList<>();
+            add.add(i + 1);
+            add.add(j);
+            result.add(add);
+          }
+          if (board.getTile(i, j - 1).equals(empty)) {
+            List<Integer> add = new ArrayList<>();
+            add.add(i);
+            add.add(j - 1);
+            result.add(add);
+          }
+          if (board.getTile(i, j + 1).equals(empty)) {
+            List<Integer> add = new ArrayList<>();
+            add.add(i);
+            add.add(j + 1);
+            result.add(add);
+          }
+        }
+      }
+    }
+    if (result.size() == 0) {
+      List<Integer> add = new ArrayList<>();
+      add.add(91);
+      add.add(91);
+      result.add(add);
+    }
+    return result;
+  }
+  
   /*@ requires getPoolSize() > 0;
       ensures getPoolSize() == \old(getPoolSize());
       ensures \result != null;
@@ -274,10 +370,6 @@ public class Game extends Observable{
       }
     }
     doBestMoveOutOfAllPlayers();
-    // Send to every player their hand
-    for (int playerNr : playerNrs) {
-      server.getThread(playerNr).sendMessage("NEW" + getPlayer(playerNr).handToString());
-    }
   }
 
   /*@ requires !getPlayerNrs().contains(playerNr);
@@ -435,6 +527,11 @@ public class Game extends Observable{
     // Here the turn is applied and the variable currentPlayer is set to the player who had
     // the best row in his/her hand.
     applyMoveTurn(getPlayer(playerNrWithBestPossibleHandPointsYet), turn, true);
+    Set<Integer> playerNumbers = getPlayerNrs();
+    for (int number : playerNumbers) {
+      server.getThread(number).sendMessage("NEW" + getPlayer(number).handToString());
+    }
+    server.sendTurn(getPlayer(playerNrWithBestPossibleHandPointsYet).getPlayerNumber(), turn);
     setCurrentPlayer(playerNrWithBestPossibleHandPointsYet);
   }
   

@@ -3,7 +3,7 @@ package server.controller;
 import server.model.Game;
 import server.model.Move;
 import server.model.Tile;
-import server.view.Tuiview;
+import server.view.TuiView;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -161,7 +161,7 @@ public class Server extends Thread{
   private boolean imReady;
   private Object waitingForFullLoby;
   private int serverNr;
-  private Tuiview tui;
+  private TuiView tui;
   
   /*@ requires serverSocket != null;
       requires numberOfPlayers > 1 & numberOfPlayers < 5;
@@ -175,7 +175,7 @@ public class Server extends Thread{
   public Server(ServerSocket serverSocket, int numberOfPlayers, 
       int aiTime, Object waitingForFullLoby, int serverNr) {
     this.serverNr = serverNr;
-    tui = new Tuiview(this);
+    tui = new TuiView(this);
     this.numberOfPlayers = numberOfPlayers;
     threads = new HashMap<Integer, ClientHandler>();
     game = new Game(this);
@@ -372,7 +372,7 @@ public class Server extends Thread{
     return threads.keySet();
   }
   
-  /*@ pure */ public Tuiview getObserver() {
+  /*@ pure */ public TuiView getObserver() {
     return tui;
   }
   

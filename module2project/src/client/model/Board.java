@@ -480,19 +480,21 @@ public class Board {
         horizontalResult = 1;
       }
     }
-    // Here is checked whether the placed tiles this turn are placed horizontally or not.
-    boolean horizontalLineUp = true;
-    Move previousMove = currentLocalTurn.get(0);
-    for (Move doneMove : currentLocalTurn) {
-      horizontalLineUp = horizontalLineUp && previousMove.getRow() == doneMove.getRow();
-      previousMove = doneMove;
-    }
-    if (currentLocalTurn.size() > 1) {
-      // Get rid of points that are counted too many times.
-      if (horizontalLineUp) {
-        horizontalResult = horizontalResult / currentLocalTurn.size();
-      } else {
-        verticalResult = verticalResult / currentLocalTurn.size();
+    if (currentLocalTurn.size() > 0) {
+      // Here is checked whether the placed tiles this turn are placed horizontally or not.
+      boolean horizontalLineUp = true;
+      Move previousMove = currentLocalTurn.get(0);
+      for (Move doneMove : currentLocalTurn) {
+        horizontalLineUp = horizontalLineUp && previousMove.getRow() == doneMove.getRow();
+        previousMove = doneMove;
+      }
+      if (currentLocalTurn.size() > 1) {
+        // Get rid of points that are counted too many times.
+        if (horizontalLineUp) {
+          horizontalResult = horizontalResult / currentLocalTurn.size();
+        } else {
+          verticalResult = verticalResult / currentLocalTurn.size();
+        }
       }
     }
     

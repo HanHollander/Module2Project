@@ -2,7 +2,7 @@ package server.controller;
 
 import server.model.Move;
 import server.model.Tile;
-import server.view.Tuiview;
+import server.view.TuiView;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -28,22 +28,22 @@ public class ClientHandler extends Thread {
                 ALLOWEDCHARS.contains(getClientName().substring(i, i + 1)));
    */
   
-  private Server server;
-  private Socket socket;
+  private /*@ spec_public */ Server server;
+  private /*@ spec_public */ Socket socket;
   private BufferedReader in;
   private BufferedWriter out;
   private String clientName;
   private /*@ spec_public */ int playerNr;
   private Object listener;
   private boolean isShutDown;
-  private Tuiview tui;
+  private TuiView tui;
   
   /**
    * Constructor for client handler.
    * @param playerNr The number of the player which this client handler
    *        communicates with.
-   * @param serverArg server
-   * @param sockArg socket
+   * @param server server
+   * @param sock socket
    * @param listener the object on which the server notifies when 
    *        it's ready to receive another update.
    * @throws IOException if not able to create in or out stream.
@@ -61,7 +61,7 @@ public class ClientHandler extends Thread {
   }
   
   /**
-   * THIS CONSTRUCTOR IS JUST FOR JUnit TESTING.
+   * THIS CONSTRUCTOR IS ONLY USED FOR JUnit TESTING.  
    * @param playerNr playerNr
    * @param server server
    */
@@ -108,8 +108,10 @@ public class ClientHandler extends Thread {
         tui.print("Received from player-" + playerNr + ": " + text);
         if (server.getGame().getCurrentPlayer() == playerNr) {
           if (isValidMoveTurnMessage(text)) {
-            List<Move> turn = convertStringToMoveTurn(text);
-            server.getGame().applyMoveTurn(server.getGame().getPlayer(playerNr), turn, false);
+            if (server.getGame().movePossible(playerNr)) {
+              List<Move> turn = convertStringToMoveTurn(text);
+              server.getGame().applyMoveTurn(server.getGame().getPlayer(playerNr), turn, false);
+            }
           } else if (isValidSwapTurnMessage(text)) {
             List<Tile> turn = convertStringToSwapTurn(text);
             server.getGame().applySwapTurn(turn, server .getGame().getPlayer(playerNr));
@@ -149,12 +151,13 @@ public class ClientHandler extends Thread {
     }
   }
   
+  //@ requires text != null;
+  //@ requires isValidSwapTurnMessage(text) == true;
   /**
    * Converts the given text to a actual swap turn, which is a list of tiles.
    * @param text The text that needs to be converted.
    * @return The list of tiles that was made from the text.
    */
-  //@ requires isValidSwapTurnMessage(text) == true;
   public List<Tile> convertStringToSwapTurn(String text) {
     String[] swapTextParts = text.substring(5).split(" ");
     List<Tile> turn = new ArrayList<Tile>();
@@ -164,12 +167,13 @@ public class ClientHandler extends Thread {
     return turn;
   }
   
+  //@ requires text != null;
+  //@ requires isValidMoveTurnMessage(text) == true;
   /**
    * Converts the given text to a actual move turn, which is a list of moves.
    * @param text The text that needs to be converted.
    * @return The list of moves that was made from the text.
    */
-  //@ requires isValidMoveTurnMessage(text) == true;
   public List<Move> convertStringToMoveTurn(String text) {
     String[] moveTextParts = text.substring(5).split(" ");
     List<Move> turn = new ArrayList<Move>();
@@ -183,17 +187,17 @@ public class ClientHandler extends Thread {
     return turn;
   }
   
+  /*@ ensures !text.startsWith("SWAP ") ==> \result == false;
+      ensures text.split(" ").length < 2 || text.split(" ").length > 7 ==> \result == false;
+      ensures (\forall int i; i >= 0 & i < text.substring(5).split(" ").length; 
+              (!COLOURS.contains(text.substring(5).split(" ")[i].substring(0,1)) 
+              || !SHAPES.contains(text.substring(5).split(" ")[i].substring(1,2))) 
+              ==> \result == false); */
   /**
    * Checks if the given text is a valid swap turn according to the protocol.
    * @param text The text that needs to be checked.
    * @return True of false whether this text is a valid swap turn or not.
    */
-  //@ ensures !text.startsWith("SWAP ") ==> \result == false;
-  //@ ensures text.split(" ").length < 2 || text.split(" ").length > 7 ==> \result == false;
-  /*@ ensures (\forall int i; i >= 0 & i < text.substring(5).split(" ").length; 
-              (!COLOURS.contains(text.substring(5).split(" ")[i].substring(0,1)) 
-              || !SHAPES.contains(text.substring(5).split(" ")[i].substring(1,2))) 
-              ==> \result == false); */
   /*@ pure */ public boolean isValidSwapTurnMessage(String text) {
     boolean result = true;
     String[] swapTextParts = null;
@@ -226,21 +230,21 @@ public class ClientHandler extends Thread {
     return result;
   }
   
+  /*@ ensures !text.startsWith("MOVE ") ==> \result == false;
+      ensures (\forall int i; i >= 0 & i < text.substring(5).split(" ").length & i % 3 == 0; 
+              (!COLOURS.contains(text.substring(5).split(" ")[i].substring(0,1)) 
+              || !SHAPES.contains(text.substring(5).split(" ")[i].substring(1,2))) 
+              ==> \result == false);
+      ensures (\forall int i; i >= 0 & i < text.substring(5).split(" ").length & !(i % 3 == 0); 
+              Integer.parseInt(text.substring(5).split(" ")[i]) >= 0
+              & Integer.parseInt(text.substring(5).split(" ")[i]) < 183
+              ==> \result == false); */
   /**
    * Checks if the given text is a valid move turn according to the protocol
    * and the rules of Qwirkle.
    * @param text The text that needs to be checked.
    * @return True of false whether this text is a valid move turn or not.
    */
-  //@ ensures !text.startsWith("MOVE ") ==> \result == false;
-  /*@ ensures (\forall int i; i >= 0 & i < text.substring(5).split(" ").length & i % 3 == 0; 
-              (!COLOURS.contains(text.substring(5).split(" ")[i].substring(0,1)) 
-              || !SHAPES.contains(text.substring(5).split(" ")[i].substring(1,2))) 
-              ==> \result == false); */
-  /*@ ensures (\forall int i; i >= 0 & i < text.substring(5).split(" ").length & !(i % 3 == 0); 
-              Integer.parseInt(text.substring(5).split(" ")[i]) >= 0
-              & Integer.parseInt(text.substring(5).split(" ")[i]) < 183
-              ==> \result == false); */
   /*@ pure */ public boolean isValidMoveTurnMessage(String text) {
     boolean result = true;
     String[] moveTextParts = null;
@@ -276,7 +280,7 @@ public class ClientHandler extends Thread {
           }
         }
       } else {
-        result = false;
+        result = text.substring(5).equals("emtpy");
       }
     } else {
       result = false;
@@ -317,6 +321,11 @@ public class ClientHandler extends Thread {
     return result;
   }
 
+  /*@ requires msg.startsWith("WELCOME ") || msg.startsWith("NEW ") ||
+               msg.startsWith("NEXT ") || msg.startsWith("TURN ") ||
+               msg.startsWith("KICK ") || msg.startsWith("WINNER ") ||
+               msg.startsWith("NAMES ");
+   */
   /**
    * Sends a message to the client through the out of the socket.
    * @param msg message
@@ -340,6 +349,8 @@ public class ClientHandler extends Thread {
     return clientName;
   }
   
+  //@ ensures socket.isClosed();
+  //@ ensures server.getThread(playerNr) == null;
   /**
    * Closes the socket of this clientHandler.
    */

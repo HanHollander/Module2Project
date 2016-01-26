@@ -82,8 +82,6 @@ public class BoardTest {
     columns.add(92);
     margins.add(rows);
     margins.add(columns);
-    System.out.println(b.getMargins());
-    System.out.println(margins);
     assertTrue(b.getMargins().equals(margins));
   }
   
@@ -99,8 +97,6 @@ public class BoardTest {
     columns.add(92);
     margins.add(rows);
     margins.add(columns);
-    System.out.println(b.getMargins());
-    System.out.println(margins);
     assertTrue(b.getMargins().equals(margins));
   }
   

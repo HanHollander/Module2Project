@@ -31,7 +31,7 @@ public class ServerTest {
   @Test
   public void testServerConstructor() {
     assertEquals(1, s.getServerNr());
-    assertTrue(s.getObserver() instanceof server.view.Tuiview);
+    assertTrue(s.getObserver() instanceof server.view.TuiView);
     assertEquals(0, s.getPlayerNrs().size());
     assertEquals(null, s.getThread(1));
     assertEquals(null, s.getThread(2));

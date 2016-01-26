@@ -15,7 +15,7 @@ import java.util.Observable;
 import java.util.Observer;
 import java.util.Set;
 
-public class Tuiview implements Observer {
+public class TuiView implements Observer {
 
   public static final String PATH = "E:" + File.separator + "LocalGit" 
       + File.separator + "Module2Project" + File.separator + "module2project" 
@@ -31,7 +31,7 @@ public class Tuiview implements Observer {
    * Creates a new Tuiview for the given server.
    * @param server Server
    */
-  public Tuiview(Server server) {
+  public TuiView(Server server) {
     this.server = server;
     output = System.out;
     
