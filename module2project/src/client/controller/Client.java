@@ -8,6 +8,7 @@ import client.model.OpponentPlayer;
 import client.model.Player;
 import client.model.SmartStrategy;
 import client.model.Strategy;
+import client.model.SuperSmartStrategy;
 import client.model.Tile;
 import client.view.Printer;
 import exceptions.HandIsFullException;
@@ -215,19 +216,16 @@ public class Client extends Thread {
       } else {
         throw new InvalidCommandException("(In TURN)");
       } 
-      //If the player that executed the turn is not the player itself //and it is not the first turn,
+      //If the player that executed the turn is not the player itself 
+      //and it is not the first turn,
       //update the board.
-      if (playerNumber != game.getPlayer().getPlayerNumber() && !firstTurn) {
-        Printer.print("not me");
+      if (playerNumber != game.getPlayer().getPlayerNumber()) {
         game.opponentTurn(moves, game.getPlayerWithNumber(playerNumber));
         if (!(command.length == 3)) {
           Printer.print("\n" + getPlayerName(playerNumber) 
               + " just made the following move: " + moves  + "\n");
         }
-      } else if (firstTurn) { //NEVER HAPPENS SINCE FIRST TURN IS FALSE 1992?
-        //game.opponentTurn(moves, game.getPlayerWithNumber(playerNumber));
       }
-      firstTurn = false;
     }  
   }
   
@@ -301,9 +299,9 @@ public class Client extends Thread {
         //determine strategy
         Strategy strat = null;
         if (Qwirkle.getStrategyType().equals("n")) {
-          strat = new NaiveStrategy();
-        } else if (Qwirkle.getStrategyType().equals("s")) {
           strat = new SmartStrategy();
+        } else if (Qwirkle.getStrategyType().equals("s")) {
+          strat = new SuperSmartStrategy();
         }
         Player player = new ComputerPlayer(command[1], playerNumber, strat);
         game.setPlayer(player);

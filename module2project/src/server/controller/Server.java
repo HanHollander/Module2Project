@@ -258,7 +258,8 @@ public class Server extends Thread{
     
       // Because the current player is now the player for whom the server just made
       // the move, it is now time to pass the turn over to the next player.
-      nextPlayerTurn();
+      // nextPlayerTurn();
+      broadcast("NEXT " + game.getCurrentPlayer());
     }
     
     while (!game.isGameOver() && threads.size() > 1) {
@@ -278,6 +279,7 @@ public class Server extends Thread{
         }
         if (wokenByTimer) {
           kick(game.getCurrentPlayer(), "Did not make a move in time");
+          getThread(game.getCurrentPlayer()).shutdown();
         } else {
           timer.stopTimer();
         }

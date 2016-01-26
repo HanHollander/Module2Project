@@ -44,13 +44,33 @@ public class Qwirkle {
       //If 4 arguments are given at startup.
       name = args[0];
       addr = args[1];
+      try {
+        host = InetAddress.getByName(addr);
+      } catch (UnknownHostException e) {
+        Printer.print("\nHost name not valid, please try again.\n");
+      }
       portString = args[2];
+      try {
+        port = Integer.parseInt(portString);
+      } catch (NumberFormatException e) {
+        Printer.print("\nPort number not valid, please try again!\n");
+      }
       playerType = args[3];
     } else if (args.length == 5) {
       //If 4 arguments are given at startup.
       name = args[0];
       addr = args[1];
+      try {
+        host = InetAddress.getByName(addr);
+      } catch (UnknownHostException e) {
+        Printer.print("\nHost name not valid, please try again.\n");
+      }
       portString = args[2];
+      try {
+        port = Integer.parseInt(portString);
+      } catch (NumberFormatException e) {
+        Printer.print("\nPort number not valid, please try again!\n");
+      }
       playerType = args[3];
       strategyType = args[4];
     } else {
