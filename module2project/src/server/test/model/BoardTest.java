@@ -143,4 +143,12 @@ public class BoardTest {
     b.putTile(move9);
     assertEquals(24, b.getScoreCurrentTurn());
   }
+  
+  @Test
+  public void testToString() {
+    String toString = b.toString();
+    System.out.println(toString);
+    
+    assertTrue(toString.equals("XXX 90  91  92  \n89  .   .   .   \n90  .   Bo  .   \n91  .   Ro  .   \n92  .   Go  .   \n93  .   .   .   \n"));
+  }
 }
