@@ -38,22 +38,28 @@ public class ClientHandlerTest {
   public void testConvertStringToMoveTurn() {
     List<Move> turn1 = new ArrayList<Move>();
     turn1.add(new Move(new Tile("P", "o"), 91, 91));
-    assertEquals(turn1.toString(), ch.convertStringToMoveTurn("MOVE Po 91 91").toString());
+    assertTrue(turn1.get(0).equals(ch.convertStringToMoveTurn("MOVE Po 91 91").get(0)));
+    assertTrue(turn1.size() == ch.convertStringToMoveTurn("MOVE Po 91 91").size());
     List<Move> turn2 = new ArrayList<Move>();
     turn2.add(new Move(new Tile("P", "o"), 91, 91));
     turn2.add(new Move(new Tile("P", "x"), 91, 92));
-    assertEquals(turn2.toString(), ch.convertStringToMoveTurn("MOVE Po 91 91 Px 91 92").toString());
+    assertTrue(turn2.get(0).equals(ch.convertStringToMoveTurn("MOVE Po 91 91 Px 91 92").get(0)));
+    assertTrue(turn2.get(1).equals(ch.convertStringToMoveTurn("MOVE Po 91 91 Px 91 92").get(1)));
+    assertTrue(turn2.size() == ch.convertStringToMoveTurn("MOVE Po 91 91 Px 91 92").size());
   }
   
   @Test
   public void testConvertStringToSwapTurn() {
     List<Tile> turn1 = new ArrayList<Tile>();
     turn1.add(new Tile("P", "o"));
-    assertEquals(turn1.toString(), ch.convertStringToSwapTurn("SWAP Po").toString());
+    assertTrue(turn1.get(0).equals(ch.convertStringToSwapTurn("SWAP Po").get(0)));
+    assertTrue(turn1.size() == ch.convertStringToSwapTurn("SWAP Po").size());
     List<Tile> turn2 = new ArrayList<Tile>();
     turn2.add(new Tile("P", "o"));
     turn2.add(new Tile("P", "x"));
-    assertEquals(turn2.toString(), ch.convertStringToSwapTurn("SWAP Po Px").toString());
+    assertTrue(turn2.get(0).equals(ch.convertStringToSwapTurn("SWAP Po Px").get(0)));
+    assertTrue(turn2.get(1).equals(ch.convertStringToSwapTurn("SWAP Po Px").get(1)));
+    assertTrue(turn2.size() == ch.convertStringToSwapTurn("SWAP Po Px").size());
   }
   
   @Test

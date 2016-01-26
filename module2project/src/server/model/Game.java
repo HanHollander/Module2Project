@@ -46,7 +46,7 @@ public class Game extends Observable{
   public Game(Server server) {
     addObserver(server.getObserver());
     this.server = server;
-    board = new Board(this);
+    board = new Board();
     playerList = new HashMap<Integer, Player>();
     currentPlayer = 0;
     pool = new ArrayList<Tile>();

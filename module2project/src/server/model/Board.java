@@ -32,26 +32,26 @@ public class Board {
     currentLocalTurn = new ArrayList<Move>();
   }
   
-  /*@ requires game != null;
-      ensures getGame() == game;
-      ensures getMoveList().size() == 0;
-      ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183; 
-      getTile(i, j).toString().equals(". ")); 
-   */
-  /**
-   * Board constructor. Constructs a empty board.
-   */
-  public Board(Game game) {
-    boardMatrix = new ArrayList<ArrayList<Tile>>();
-    for (int row = 0; row < 183; row++) {
-      boardMatrix.add(new ArrayList<Tile>());
-      for (int column = 0; column < 183; column++) {
-        boardMatrix.get(row).add(new Tile());
-      }
-    }
-    currentLocalTurn = new ArrayList<Move>();
-    this.game = game;
-  }
+//  /*@ requires game != null;
+//      ensures getGame() == game;
+//      ensures getMoveList().size() == 0;
+//      ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183; 
+//      getTile(i, j).toString().equals(". ")); 
+//   */
+//  /**
+//   * Board constructor. Constructs a empty board.
+//   */
+//  public Board(Game game) {
+//    boardMatrix = new ArrayList<ArrayList<Tile>>();
+//    for (int row = 0; row < 183; row++) {
+//      boardMatrix.add(new ArrayList<Tile>());
+//      for (int column = 0; column < 183; column++) {
+//        boardMatrix.get(row).add(new Tile());
+//      }
+//    }
+//    currentLocalTurn = new ArrayList<Move>();
+//    this.game = game;
+//  }
   
   /*@ requires checkMove(move);
       requires move.getRow() >= 0 & move.getRow() < 183;
@@ -496,9 +496,9 @@ public class Board {
     return boardMatrix.get(row).get(column);
   }
   
-  /*@ pure */ public Game getGame() {
-    return game;
-  }
+//  /*@ pure */ public Game getGame() {
+//    return game;
+//  }
 
   //@ requires getMoveList() != null;
   //@ ensures \result >= getMoveList().size();
