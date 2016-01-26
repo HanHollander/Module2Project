@@ -114,7 +114,7 @@ public class Board {
   }
   
   /*@ ensures \result != null;
-      ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183; 
+      ensures (\forall int i, j; i >= 0 & j >= 0 & i  < 183 & j < 183; 
               \result.getTile(i, j).equals(getTile(i, j)));
       ensures \result.getMoveList().containsAll(getMoveList());
    */

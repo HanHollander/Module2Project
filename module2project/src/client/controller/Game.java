@@ -171,10 +171,9 @@ public class Game {
       }
       player.setMoves(new ArrayList<Move>());
     } else {
-      command = MOVE;
+      command = MOVE + "empty";
     }
     //Send the command to server.
-    //Printer.print("Command sent to server: " + command);
     client.sendMessage(command);
     //Reset the board counters.
     board.endTurn();

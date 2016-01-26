@@ -1,0 +1,7 @@
+25/01/16_12:14:34: Creating client... 
+25/01/16_12:14:34: Client could not be created or started, trying again.
+
+25/01/16_12:14:34: Welcome in Qwirkle
+25/01/16_12:14:34: (only characters a-z A-Z and 1 to 16 characters long)
+25/01/16_12:14:34: What is your name? 
+

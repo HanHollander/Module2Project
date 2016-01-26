@@ -1,3 +1,3 @@
 cd ..
 cd bin
-java client.Qwirkle
+java client.controller.Qwirkle
