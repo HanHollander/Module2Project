@@ -76,7 +76,7 @@ public class GameTest {
     } catch (NullPointerException e) {
       // This happens because there are no clientHandlers to send stuff to
     }
-    assertTrue(96 > s.getGame().getPoolSize());
+    assertEquals(96, s.getGame().getPoolSize());
     assertEquals(6, s.getGame().getPlayer(1).getHand().size());
     assertEquals(6, s.getGame().getPlayer(2).getHand().size());
     int size = s.getGame().getPoolSize();

@@ -44,12 +44,8 @@ public class ServerTest {
   
   @Test
   public void testHandlerList() throws IOException {
-    ClientHandler ch = null;
-    try {
-      ch = new ClientHandler(1, s);
-    } catch (NullPointerException e) {
-      // This happens because there is no socket to get a stream from
-    }
+    
+    ClientHandler ch = new ClientHandler(1, s);
     s.addHandler(1, ch);
     assertEquals(ch, s.getThread(1));
     assertTrue(s.getPlayerNrs().contains(1));
@@ -60,7 +56,7 @@ public class ServerTest {
   
   @Test
   public void testNextPlayerTurn() throws Exception {
-    ClientHandler ch = null;
+    ClientHandler ch = new ClientHandler(1, s);
     s.addHandler(1, ch);
     s.getGame().addPlayer(1, "test1");
     assertTrue(s.allPlayerNamesAreKnown());
@@ -98,13 +94,14 @@ public class ServerTest {
   @Test
   public void testKick() throws HandIsFullException {
     assertEquals(108, s.getGame().getPoolSize());
-    s.addHandler(1, null);
+    ClientHandler ch = new ClientHandler(1, s);
+    s.addHandler(1, ch);
     s.getGame().addPlayer(1, "test1");
     s.getGame().getPlayer(1).addToHand(s.getGame().drawRandomTileFromPool());
     s.getGame().getPlayer(1).addToHand(s.getGame().drawRandomTileFromPool());
     s.getGame().getPlayer(1).addToHand(s.getGame().drawRandomTileFromPool());
     assertEquals(105, s.getGame().getPoolSize());
-    assertEquals(null, s.getThread(1));
+    assertEquals(ch, s.getThread(1));
     assertTrue(s.getPlayerNrs().contains(1));
     try {
       s.kick(1, "I did not like him");
@@ -112,11 +109,12 @@ public class ServerTest {
       // This happens because there are no clientHandlers to send stuff to
     }
     assertFalse(s.getGame().getPlayerNrs().contains(1));
+    assertEquals(null, s.getGame().getPlayer(1));
     assertEquals(108, s.getGame().getPoolSize());
-    s.addHandler(2, null);
+    s.addHandler(2, new ClientHandler(2, s));
     s.getGame().addPlayer(2, "test2");
     try {
-      s.kick(1, "I did not like him");
+      s.kick(2, "I did not like him");
     } catch (NullPointerException e) {
       // This happens because there are no clientHandlers to send stuff to
     }
