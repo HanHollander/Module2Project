@@ -369,7 +369,12 @@ public class Game extends Observable{
         }
       }
     }
-    doBestMoveOutOfAllPlayers();
+    Set<Integer> playerNumbers = getPlayerNrs();
+    for (int number : playerNumbers) {
+      server.getThread(number).sendMessage("NEW" + getPlayer(number).handToString());
+    }
+    //AUTO FIRST MOVE:
+    //doBestMoveOutOfAllPlayers();
   }
 
   /*@ requires !getPlayerNrs().contains(playerNr);

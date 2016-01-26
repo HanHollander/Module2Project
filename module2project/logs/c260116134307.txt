@@ -1,0 +1,105 @@
+26/01/16_13:43:07: Welcome in Qwirkle
+26/01/16_13:43:07: (only characters a-z A-Z and 1 to 16 characters long)
+26/01/16_13:43:07: What is your name? 
+
+26/01/16_13:43:10: 
+Server IP-adress: 
+
+26/01/16_13:43:12: 
+Server port: 
+
+26/01/16_13:43:14: 
+Bot: 'b', Human: 'h'
+
+26/01/16_13:43:15: 
+Naive: 'n', Smart: 's'
+26/01/16_13:43:16: Creating client... 
+26/01/16_13:43:16: Client Han created
+26/01/16_13:43:16: Starting client... 
+26/01/16_13:43:16: Client started.
+26/01/16_13:43:16: Sending registration message... 
+26/01/16_13:43:16: OUT: HELLO Han
+26/01/16_13:43:16: Registration message send.
+26/01/16_13:43:16: Welcome message received.
+26/01/16_13:43:16: Waiting for other players to connect...
+26/01/16_13:43:16: IN: WELCOME Han 2
+26/01/16_13:43:16: IN: NAMES joanne 1 Han 2 30000
+26/01/16_13:43:16: Waiting for welcome message... 
+26/01/16_13:43:16: joanne's score is: 0
+26/01/16_13:43:16: Han's score is: 0
+26/01/16_13:43:16: Tiles in pool: 96
+
+26/01/16_13:43:16: IN: NEW Rd Oc Gx Oc Pd Ps
+26/01/16_13:43:16: joanne's score is: 2
+26/01/16_13:43:16: Han's score is: 0
+26/01/16_13:43:16: 
+joanne just made the following move: [[G*, 91, 91], [O*, 91, 92]]
+
+26/01/16_13:43:16: IN: TURN 1 G* 91 91 O* 91 92
+26/01/16_13:43:16: joanne's score is: 2
+26/01/16_13:43:16: Han's score is: 0
+26/01/16_13:43:16: 
+It is your turn!
+26/01/16_13:43:16: 
+What is your action?
+26/01/16_13:43:17: joanne's score is: 2
+26/01/16_13:43:17: Han's score is: 0
+26/01/16_13:43:17: 
+What is your action?
+26/01/16_13:43:17: joanne's score is: 2
+26/01/16_13:43:17: Han's score is: 0
+26/01/16_13:43:17: OUT: MOVE Gx 92 91 
+26/01/16_13:43:17: IN: NEXT 2
+26/01/16_13:43:17: joanne's score is: 2
+26/01/16_13:43:17: Han's score is: 2
+26/01/16_13:43:17: Tiles in pool: 93
+
+26/01/16_13:43:17: IN: NEW Px
+26/01/16_13:43:17: IN: TURN 2 Gx 92 91
+26/01/16_13:43:17: It is now joanne's turn.
+
+26/01/16_13:43:17: IN: NEXT 1
+26/01/16_13:43:47: Tiles in pool: 99
+
+26/01/16_13:43:47: joanne IS KICKED FOR THE FOLLOWING REASON: Did not make a move in time
+
+26/01/16_13:43:47: IN: KICK 1 6 Did not make a move in time
+26/01/16_13:43:47: joanne's score is: 2
+26/01/16_13:43:47: Han's score is: 2
+26/01/16_13:43:47: 
+It is your turn!
+26/01/16_13:43:47: 
+What is your action?
+26/01/16_13:43:47: joanne's score is: 2
+26/01/16_13:43:47: Han's score is: 2
+26/01/16_13:43:47: 
+What is your action?
+26/01/16_13:43:47: joanne's score is: 2
+26/01/16_13:43:47: Han's score is: 2
+26/01/16_13:43:47: 
+What is your action?
+26/01/16_13:43:47: joanne's score is: 2
+26/01/16_13:43:47: Han's score is: 2
+26/01/16_13:43:47: 
+What is your action?
+26/01/16_13:43:47: joanne's score is: 2
+26/01/16_13:43:47: Han's score is: 2
+26/01/16_13:43:47: OUT: MOVE Px 92 90 Pd 93 90 Ps 94 90 
+26/01/16_13:43:47: IN: NEXT 2
+26/01/16_13:43:47: joanne's score is: 2
+26/01/16_13:43:47: Han's score is: 7
+26/01/16_13:43:47: Tiles in pool: 96
+
+26/01/16_13:43:47: IN: NEW R* Px Pd
+26/01/16_13:43:47: IN: TURN 2 Px 92 90 Pd 93 90 Ps 94 90
+26/01/16_13:44:17: Tiles in pool: 102
+
+26/01/16_13:44:17: Han IS KICKED FOR THE FOLLOWING REASON: Did not make a move in time
+
+26/01/16_13:44:17: IN: KICK 2 6 Did not make a move in time
+26/01/16_13:44:17: It is now joanne's turn.
+
+26/01/16_13:44:17: IN: NEXT 1
+26/01/16_13:45:18: Previous game will now stop.
+26/01/16_13:45:18: Closing socket connection from previous game...
+26/01/16_13:45:18: Socket from previous game closed

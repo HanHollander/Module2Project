@@ -1,0 +1,205 @@
+26/01/16_14:19:38: Welcome in Qwirkle
+26/01/16_14:19:38: (only characters a-z A-Z and 1 to 16 characters long)
+26/01/16_14:19:38: What is your name? 
+
+26/01/16_14:19:40: 
+Server IP-adress: 
+
+26/01/16_14:19:44: 
+Server port: 
+
+26/01/16_14:19:46: 
+Bot: 'b', Human: 'h'
+
+26/01/16_14:19:47: Creating client... 
+26/01/16_14:19:47: Client Han created
+26/01/16_14:19:47: Starting client... 
+26/01/16_14:19:47: Client started.
+26/01/16_14:19:47: Sending registration message... 
+26/01/16_14:19:47: OUT: HELLO Han
+26/01/16_14:19:47: Registration message send.
+26/01/16_14:19:47: Waiting for welcome message... 
+26/01/16_14:19:47: Welcome message received.
+26/01/16_14:19:47: Waiting for other players to connect...
+26/01/16_14:19:47: IN: WELCOME Han 1
+26/01/16_14:19:52: IN: NAMES Han 1 Wijtse 2 999999
+26/01/16_14:19:52: Han's score is: 0
+26/01/16_14:19:52: Wijtse's score is: 0
+26/01/16_14:19:52: Tiles in pool: 96
+
+26/01/16_14:19:52: IN: NEW Rx Yd Bs Ys Y* Bs
+26/01/16_14:19:52: Han's score is: 0
+26/01/16_14:19:52: Wijtse's score is: 0
+26/01/16_14:19:52: 
+Hint: [[37mC[0m, 91, 91]
+26/01/16_14:19:52: 
+It is your turn!
+26/01/16_14:19:52: 
+What is your action?
+26/01/16_14:19:52: Type of turn: ANY
+26/01/16_14:19:57: Han's score is: 0
+26/01/16_14:19:57: Wijtse's score is: 0
+26/01/16_14:19:57: 
+What is your action?
+26/01/16_14:19:57: Type of turn: MOVE
+26/01/16_14:19:58: Han's score is: 0
+26/01/16_14:19:58: Wijtse's score is: 0
+26/01/16_14:19:58: OUT: MOVE Rx 91 91 
+26/01/16_14:19:58: IN: NEXT 1
+26/01/16_14:19:58: Han's score is: 1
+26/01/16_14:19:58: Wijtse's score is: 0
+26/01/16_14:19:58: Tiles in pool: 95
+
+26/01/16_14:19:58: IN: NEW G*
+26/01/16_14:19:58: Han's score is: 2
+26/01/16_14:19:58: Wijtse's score is: 0
+26/01/16_14:19:58: IN: TURN 1 Rx 91 91
+26/01/16_14:19:58: It is now Wijtse's turn.
+
+26/01/16_14:19:58: IN: NEXT 2
+26/01/16_14:20:35: Tiles in pool: 100
+
+26/01/16_14:20:35: Wijtse IS KICKED FOR THE FOLLOWING REASON: made an invalid turn
+
+26/01/16_14:20:35: IN: KICK 2 6 made an invalid turn
+26/01/16_14:20:35: Han's score is: 2
+26/01/16_14:20:35: Wijtse's score is: 0
+26/01/16_14:20:35: You won.
+26/01/16_14:20:35: Would you like to play another game? Y/N
+26/01/16_14:20:40: Creating client... 
+26/01/16_14:20:40: Client Han created
+26/01/16_14:20:40: Starting client... 
+26/01/16_14:20:40: Client started.
+26/01/16_14:20:40: Sending registration message... 
+26/01/16_14:20:40: OUT: HELLO Han
+26/01/16_14:20:40: Registration message send.
+26/01/16_14:20:40: Waiting for welcome message... 
+26/01/16_14:20:40: Closing socket connection from previous game...
+26/01/16_14:20:40: Socket from previous game closed
+26/01/16_14:20:40: IN: WINNER 1
+26/01/16_14:20:40: Previous game will now stop.
+26/01/16_14:20:40: Closing socket connection from previous game...
+26/01/16_14:20:40: Socket from previous game closed
+26/01/16_14:20:40: Welcome message received.
+26/01/16_14:20:40: Waiting for other players to connect...
+26/01/16_14:20:40: IN: WELCOME Han 1
+26/01/16_14:21:19: IN: NAMES Han 1 asdf 2 999999
+26/01/16_14:21:19: Han's score is: 0
+26/01/16_14:21:19: asdf's score is: 0
+26/01/16_14:21:19: Tiles in pool: 96
+
+26/01/16_14:21:19: IN: NEW Oo G* Oc Rc Bd Bd
+26/01/16_14:21:19: Han's score is: 0
+26/01/16_14:21:19: asdf's score is: 0
+26/01/16_14:21:19: 
+Hint: [[37mB[0m, 91, 91]
+26/01/16_14:21:19: 
+It is your turn!
+26/01/16_14:21:19: 
+What is your action?
+26/01/16_14:21:19: Type of turn: ANY
+26/01/16_14:21:27: Han's score is: 0
+26/01/16_14:21:27: asdf's score is: 0
+26/01/16_14:21:27: 
+What is your action?
+26/01/16_14:21:27: Type of turn: MOVE
+26/01/16_14:21:29: Han's score is: 0
+26/01/16_14:21:29: asdf's score is: 0
+26/01/16_14:21:29: OUT: MOVE Oo 91 91 
+26/01/16_14:21:29: IN: NEXT 1
+26/01/16_14:21:29: Han's score is: 1
+26/01/16_14:21:29: asdf's score is: 0
+26/01/16_14:21:29: Tiles in pool: 95
+
+26/01/16_14:21:29: IN: NEW Bd
+26/01/16_14:21:29: Han's score is: 2
+26/01/16_14:21:29: asdf's score is: 0
+26/01/16_14:21:29: IN: TURN 1 Oo 91 91
+26/01/16_14:21:29: It is now asdf's turn.
+
+26/01/16_14:21:29: IN: NEXT 2
+26/01/16_14:23:38: Tiles in pool: 100
+
+26/01/16_14:23:38: asdf IS KICKED FOR THE FOLLOWING REASON: made an invalid turn
+
+26/01/16_14:23:38: IN: KICK 2 6 made an invalid turn
+26/01/16_14:23:38: Han's score is: 2
+26/01/16_14:23:38: asdf's score is: 0
+26/01/16_14:23:38: You won.
+26/01/16_14:23:38: Would you like to play another game? Y/N
+26/01/16_14:23:40: Creating client... 
+26/01/16_14:23:40: Client Han created
+26/01/16_14:23:40: Starting client... 
+26/01/16_14:23:40: Client started.
+26/01/16_14:23:40: Sending registration message... 
+26/01/16_14:23:40: OUT: HELLO Han
+26/01/16_14:23:40: Registration message send.
+26/01/16_14:23:40: Waiting for welcome message... 
+26/01/16_14:23:40: Closing socket connection from previous game...
+26/01/16_14:23:40: Socket from previous game closed
+26/01/16_14:23:40: IN: WINNER 1
+26/01/16_14:23:40: Previous game will now stop.
+26/01/16_14:23:40: Closing socket connection from previous game...
+26/01/16_14:23:40: Socket from previous game closed
+26/01/16_14:23:40: Welcome message received.
+26/01/16_14:23:40: Waiting for other players to connect...
+26/01/16_14:23:40: IN: WELCOME Han 1
+26/01/16_14:24:43: IN: NAMES Han 1 Wijtse 2 999999
+26/01/16_14:24:43: Han's score is: 0
+26/01/16_14:24:43: Wijtse's score is: 0
+26/01/16_14:24:43: Tiles in pool: 96
+
+26/01/16_14:24:43: IN: NEW G* Bs Ro P* Yc Bx
+26/01/16_14:24:43: Han's score is: 0
+26/01/16_14:24:43: Wijtse's score is: 0
+26/01/16_14:24:43: 
+Hint: [[37mE[0m, 91, 91]
+26/01/16_14:24:43: 
+It is your turn!
+26/01/16_14:24:43: 
+What is your action?
+26/01/16_14:24:43: Type of turn: ANY
+26/01/16_14:24:54: Han's score is: 0
+26/01/16_14:24:54: Wijtse's score is: 0
+26/01/16_14:24:54: 
+What is your action?
+26/01/16_14:24:54: Type of turn: MOVE
+26/01/16_14:24:58: Han's score is: 0
+26/01/16_14:24:58: Wijtse's score is: 0
+26/01/16_14:24:58: OUT: MOVE G* 91 91 
+26/01/16_14:24:58: IN: NEXT 1
+26/01/16_14:24:58: Han's score is: 1
+26/01/16_14:24:58: Wijtse's score is: 0
+26/01/16_14:24:58: Tiles in pool: 95
+
+26/01/16_14:24:58: IN: NEW Px
+26/01/16_14:24:58: Han's score is: 2
+26/01/16_14:24:58: Wijtse's score is: 0
+26/01/16_14:24:58: IN: TURN 1 G* 91 91
+26/01/16_14:24:58: It is now Wijtse's turn.
+
+26/01/16_14:24:58: IN: NEXT 2
+26/01/16_14:27:06: Han's score is: 2
+26/01/16_14:27:06: Wijtse's score is: 2
+26/01/16_14:27:06: 
+Wijtse just made the following move: [[Gx, 91, 92]]
+
+26/01/16_14:27:06: IN: TURN 2 Gx 91 92
+26/01/16_14:27:06: Han's score is: 2
+26/01/16_14:27:06: Wijtse's score is: 2
+26/01/16_14:27:06: 
+Hint: [[35mE[0m, 92, 92]
+26/01/16_14:27:06: 
+It is your turn!
+26/01/16_14:27:06: 
+What is your action?
+26/01/16_14:27:06: Type of turn: ANY
+26/01/16_14:27:55: Han's score is: 2
+26/01/16_14:27:55: Wijtse's score is: 2
+26/01/16_14:27:55: OUT: MOVEempty
+26/01/16_14:27:55: IN: NEXT 1
+26/01/16_14:27:55: Tiles in pool: 99
+
+26/01/16_14:27:55: Han IS KICKED FOR THE FOLLOWING REASON: made an invalid turn
+
+26/01/16_14:27:55: IN: KICK 1 6 made an invalid turn

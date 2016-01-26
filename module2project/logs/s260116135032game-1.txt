@@ -1,0 +1,8 @@
+Waiting for clients to connect
+Clients connected: [0 of 3]
+Clients connected: [1 of 3]
+Received from client 1: HELLO joanne
+Sent to player-1: WELCOME joanne 1
+Clients connected: [2 of 3]
+Received from client 2: HELLO Han
+Sent to player-2: WELCOME Han 2

@@ -1,0 +1,74 @@
+Waiting for clients to connect
+Clients connected: [0 of 3]
+Clients connected: [1 of 3]
+Received from client 1: HELLO Joanne
+Sent to player-1: WELCOME Joanne 1
+Clients connected: [2 of 3]
+Received from client 2: HELLO Wijtse
+Sent to player-2: WELCOME Wijtse 2
+Clients connected: [3 of 3]
+Waiting for everyone to send their name
+Received from client 3: HELLO Han
+Sent to player-3: WELCOME Han 3
+Everyone has send their name
+Sent to player-1: NAMES Joanne 1 Wijtse 2 Han 3 999999
+Sent to player-2: NAMES Joanne 1 Wijtse 2 Han 3 999999
+Sent to player-3: NAMES Joanne 1 Wijtse 2 Han 3 999999
+Dealing tiles and making first move
+Sent to player-1: NEW G* Rd Gd Gs Pd Gc
+Sent to player-2: NEW Bo Rd Pd Y* Od Os
+Sent to player-3: NEW Rx Os Po O* Ps Bo
+Tiles dealt and first move made
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Sent to player-3: NEXT 1
+Could not send to player-1: KICK 1 6 lost connection with player
+Sent to player-2: KICK 1 6 lost connection with player
+Sent to player-3: KICK 1 6 lost connection with player
+Closed the connection with player-1
+clientHandler-1 wakes server
+Sent to player-2: NEXT 2
+Sent to player-3: NEXT 2
+Received from player-2: MOVE Rd 91 91 Pd 91 92 Od 91 90 
+Sent to player-2: NEW Gc Bo Yo
+Sent to player-2: TURN 2 Rd 91 91 Pd 91 92 Od 91 90
+Sent to player-3: TURN 2 Rd 91 91 Pd 91 92 Od 91 90
+
+Current game situation
+XXX 89  90  91  92  93  
+90  .   .   .   .   .   
+91  .   Od  Rd  Pd  .   
+92  .   .   .   .   .   
+
+Scores:
+Wijtse: 3
+Han: 0
+Hands:
+Wijtse: [Bo, Y*, Os, Gc, Bo, Yo]
+Han: [Rx, Os, Po, O*, Ps, Bo]
+Tiles in pool: 93
+clientHandler-2 wakes server
+Sent to player-2: NEXT 3
+Sent to player-3: NEXT 3
+Received from player-3: MOVE Po 90 92 Bo 90 93 
+Sent to player-3: NEW Yo Yd
+Sent to player-2: TURN 3 Po 90 92 Bo 90 93
+Sent to player-3: TURN 3 Po 90 92 Bo 90 93
+
+Current game situation
+XXX 89  90  91  92  93  94  
+89  .   .   .   .   .   .   
+90  .   .   .   Po  Bo  .   
+91  .   Od  Rd  Pd  .   .   
+92  .   .   .   .   .   .   
+
+Scores:
+Wijtse: 3
+Han: 4
+Hands:
+Wijtse: [Bo, Y*, Os, Gc, Bo, Yo]
+Han: [Rx, Os, O*, Ps, Yo, Yd]
+Tiles in pool: 91
+clientHandler-3 wakes server
+Sent to player-2: NEXT 2
+Sent to player-3: NEXT 2

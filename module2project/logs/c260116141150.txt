@@ -1,0 +1,61 @@
+26/01/16_14:11:50: Welcome in Qwirkle
+26/01/16_14:11:50: (only characters a-z A-Z and 1 to 16 characters long)
+26/01/16_14:11:50: What is your name? 
+
+26/01/16_14:11:51: 
+Server IP-adress: 
+
+26/01/16_14:11:53: 
+Server port: 
+
+26/01/16_14:11:57: 
+Bot: 'b', Human: 'h'
+
+26/01/16_14:11:59: 
+Naive: 'n', Smart: 's'
+26/01/16_14:12:00: Creating client... 
+26/01/16_14:12:00: Client Han created
+26/01/16_14:12:00: Starting client... 
+26/01/16_14:12:00: Client started.
+26/01/16_14:12:00: Sending registration message... 
+26/01/16_14:12:00: OUT: HELLO Han
+26/01/16_14:12:00: Registration message send.
+26/01/16_14:12:00: Welcome message received.
+26/01/16_14:12:00: Waiting for welcome message... 
+26/01/16_14:12:00: Waiting for other players to connect...
+26/01/16_14:12:00: IN: WELCOME Han 1
+26/01/16_14:12:43: IN: NAMES Han 1 WIJTse 2 999999
+26/01/16_14:12:43: Han's score is: 0
+26/01/16_14:12:43: WIJTse's score is: 0
+26/01/16_14:12:43: Tiles in pool: 96
+
+26/01/16_14:12:43: IN: NEW Gs Oo Gd Od Y* Bo
+26/01/16_14:12:43: Han's score is: 0
+26/01/16_14:12:43: WIJTse's score is: 0
+26/01/16_14:12:43: 
+It is your turn!
+26/01/16_14:12:43: 
+What is your action?
+26/01/16_14:12:44: Han's score is: 0
+26/01/16_14:12:44: WIJTse's score is: 0
+26/01/16_14:12:44: 
+What is your action?
+26/01/16_14:12:44: Han's score is: 0
+26/01/16_14:12:44: WIJTse's score is: 0
+26/01/16_14:12:44: 
+What is your action?
+26/01/16_14:12:44: Han's score is: 0
+26/01/16_14:12:44: WIJTse's score is: 0
+26/01/16_14:12:44: OUT: MOVE Gs 91 91 Gd 90 91 
+26/01/16_14:12:44: IN: NEXT 1
+26/01/16_14:12:44: Han's score is: 2
+26/01/16_14:12:44: WIJTse's score is: 0
+26/01/16_14:12:44: Tiles in pool: 94
+
+26/01/16_14:12:44: IN: NEW O* Os
+26/01/16_14:12:44: Han's score is: 4
+26/01/16_14:12:44: WIJTse's score is: 0
+26/01/16_14:12:44: IN: TURN 1 Gs 91 91 Gd 90 91
+26/01/16_14:12:44: It is now WIJTse's turn.
+
+26/01/16_14:12:44: IN: NEXT 2

@@ -215,16 +215,17 @@ public class Client extends Thread {
       } else {
         throw new InvalidCommandException("(In TURN)");
       } 
-      //If the player that executed the turn is not the player itself and it is not the first turn,
+      //If the player that executed the turn is not the player itself //and it is not the first turn,
       //update the board.
-      if (playerNumber != game.getPlayer().getPlayerNumber()) {
+      if (playerNumber != game.getPlayer().getPlayerNumber() && !firstTurn) {
+        Printer.print("not me");
         game.opponentTurn(moves, game.getPlayerWithNumber(playerNumber));
         if (!(command.length == 3)) {
           Printer.print("\n" + getPlayerName(playerNumber) 
               + " just made the following move: " + moves  + "\n");
         }
-      } else if (firstTurn) {
-        game.opponentTurn(moves, game.getPlayerWithNumber(playerNumber));
+      } else if (firstTurn) { //NEVER HAPPENS SINCE FIRST TURN IS FALSE 1992?
+        //game.opponentTurn(moves, game.getPlayerWithNumber(playerNumber));
       }
       firstTurn = false;
     }  

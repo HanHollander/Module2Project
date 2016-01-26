@@ -1,0 +1,69 @@
+Waiting for clients to connect
+Clients connected: [0 of 2]
+Clients connected: [1 of 2]
+Received from client 1: HELLO joanne
+Sent to player-1: WELCOME joanne 1
+Clients connected: [2 of 2]
+Waiting for everyone to send their name
+Received from client 2: HELLO Han
+Sent to player-2: WELCOME Han 2
+Everyone has send their name
+Sent to player-1: NAMES joanne 1 Han 2 30000
+Sent to player-2: NAMES joanne 1 Han 2 30000
+Dealing tiles and making first move
+
+Current game situation
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   G*  O*  .   
+92  .   .   .   .   
+
+Scores:
+joanne: 2
+Han: 0
+Hands:
+joanne: [Rs, Pc, Rx, Gs, Oo, Yx]
+Han: [Rd, Oc, Gx, Oc, Pd, Ps]
+Tiles in pool: 94
+Sent to player-1: NEW Rs Pc Rx Gs Oo Yx
+Sent to player-2: NEW Rd Oc Gx Oc Pd Ps
+Sent to player-1: TURN 1 G* 91 91 O* 91 92
+Sent to player-2: TURN 1 G* 91 91 O* 91 92
+Tiles dealt and first move made
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Gx 92 91 
+Sent to player-2: NEW Px
+Sent to player-1: TURN 2 Gx 92 91
+Sent to player-2: TURN 2 Gx 92 91
+
+Current game situation
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   G*  O*  .   
+92  .   Gx  .   .   
+93  .   .   .   .   
+
+Scores:
+joanne: 2
+Han: 2
+Hands:
+joanne: [Rs, Pc, Rx, Gs, Oo, Yx]
+Han: [Rd, Oc, Oc, Pd, Ps, Px]
+Tiles in pool: 93
+clientHandler-2 wakes server
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1
+Sent to player-1: KICK 1 6 Did not make a move in time
+Sent to player-2: KICK 1 6 Did not make a move in time
+Sent to player-1: NEXT 2
+Sent to player-2: NEXT 2
+Received from player-2: MOVE Px 92 90 Pd 93 90 Ps 94 90 
+Sent to player-2: NEW R* Px Pd
+Sent to player-1: TURN 2 Px 92 90 Pd 93 90 Ps 94 90
+Sent to player-2: TURN 2 Px 92 90 Pd 93 90 Ps 94 90
+Received from player-1: null
+Sent to player-1: KICK 2 6 Did not make a move in time
+Sent to player-2: KICK 2 6 Did not make a move in time
+Sent to player-1: NEXT 1
+Sent to player-2: NEXT 1

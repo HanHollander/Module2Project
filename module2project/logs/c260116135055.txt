@@ -1,0 +1,29 @@
+26/01/16_13:50:55: Welcome in Qwirkle
+26/01/16_13:50:55: (only characters a-z A-Z and 1 to 16 characters long)
+26/01/16_13:50:55: What is your name? 
+
+26/01/16_13:50:58: 
+Server IP-adress: 
+
+26/01/16_13:51:01: 
+Server port: 
+
+26/01/16_13:51:06: 
+Bot: 'b', Human: 'h'
+
+26/01/16_13:51:07: 
+Naive: 'n', Smart: 's'
+26/01/16_13:51:09: Creating client... 
+26/01/16_13:51:09: Client Han created
+26/01/16_13:51:09: Starting client... 
+26/01/16_13:51:09: Client started.
+26/01/16_13:51:09: Sending registration message... 
+26/01/16_13:51:09: OUT: HELLO Han
+26/01/16_13:51:09: Registration message send.
+26/01/16_13:51:09: Welcome message received.
+26/01/16_13:51:09: Waiting for welcome message... 
+26/01/16_13:51:09: Waiting for other players to connect...
+26/01/16_13:51:09: IN: WELCOME Han 2
+26/01/16_13:53:15: Previous game will now stop.
+26/01/16_13:53:15: Closing socket connection from previous game...
+26/01/16_13:53:15: Socket from previous game closed

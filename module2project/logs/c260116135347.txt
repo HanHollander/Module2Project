@@ -1,0 +1,376 @@
+26/01/16_13:53:47: Welcome in Qwirkle
+26/01/16_13:53:47: (only characters a-z A-Z and 1 to 16 characters long)
+26/01/16_13:53:47: What is your name? 
+
+26/01/16_13:53:48: 
+Server IP-adress: 
+
+26/01/16_13:53:51: 
+Server port: 
+
+26/01/16_13:53:54: 
+Bot: 'b', Human: 'h'
+
+26/01/16_13:53:56: 
+Naive: 'n', Smart: 's'
+26/01/16_13:53:56: Creating client... 
+26/01/16_13:53:56: Client Han created
+26/01/16_13:53:56: Starting client... 
+26/01/16_13:53:56: Client started.
+26/01/16_13:53:56: Sending registration message... 
+26/01/16_13:53:56: OUT: HELLO Han
+26/01/16_13:53:56: Registration message send.
+26/01/16_13:53:56: Waiting for welcome message... 
+26/01/16_13:53:56: Welcome message received.
+26/01/16_13:53:56: Waiting for other players to connect...
+26/01/16_13:53:56: IN: WELCOME Han 1
+26/01/16_13:54:48: IN: NAMES Han 1 Joanne 2 DaWijtsuh 3 99999
+26/01/16_13:54:48: Han's score is: 0
+26/01/16_13:54:48: Joanne's score is: 0
+26/01/16_13:54:48: DaWijtsuh's score is: 0
+26/01/16_13:54:48: Tiles in pool: 90
+
+26/01/16_13:54:48: IN: NEW Go Ps Rd Go O* O*
+26/01/16_13:54:48: Han's score is: 2
+26/01/16_13:54:48: Joanne's score is: 0
+26/01/16_13:54:48: DaWijtsuh's score is: 0
+26/01/16_13:54:48: IN: TURN 1 Yx 91 91 Rx 91 92
+26/01/16_13:54:48: It is now Joanne's turn.
+
+26/01/16_13:54:48: IN: NEXT 2
+26/01/16_13:56:20: Tiles in pool: 94
+
+26/01/16_13:56:20: Joanne IS KICKED FOR THE FOLLOWING REASON: lost connection with player
+
+26/01/16_13:56:20: IN: KICK 2 6 lost connection with player
+26/01/16_13:56:20: It is now DaWijtsuh's turn.
+
+26/01/16_13:56:20: IN: NEXT 3
+26/01/16_13:56:38: Han's score is: 2
+26/01/16_13:56:38: Joanne's score is: 0
+26/01/16_13:56:38: DaWijtsuh's score is: 2
+26/01/16_13:56:38: 
+DaWijtsuh just made the following move: [[Yd, 92, 91]]
+
+26/01/16_13:56:38: IN: TURN 3 Yd 92 91
+26/01/16_13:56:38: Han's score is: 2
+26/01/16_13:56:38: Joanne's score is: 0
+26/01/16_13:56:38: DaWijtsuh's score is: 2
+26/01/16_13:56:38: 
+It is your turn!
+26/01/16_13:56:38: 
+What is your action?
+26/01/16_13:56:38: Han's score is: 2
+26/01/16_13:56:38: Joanne's score is: 0
+26/01/16_13:56:38: DaWijtsuh's score is: 2
+26/01/16_13:56:38: 
+What is your action?
+26/01/16_13:56:38: Han's score is: 2
+26/01/16_13:56:38: Joanne's score is: 0
+26/01/16_13:56:38: DaWijtsuh's score is: 2
+26/01/16_13:56:38: OUT: MOVE Rd 92 92 
+26/01/16_13:56:38: IN: NEXT 1
+26/01/16_13:56:38: Han's score is: 6
+26/01/16_13:56:38: Joanne's score is: 0
+26/01/16_13:56:38: DaWijtsuh's score is: 2
+26/01/16_13:56:38: Tiles in pool: 92
+
+26/01/16_13:56:38: IN: NEW Pc
+26/01/16_13:56:38: IN: TURN 1 Rd 92 92
+26/01/16_13:56:38: It is now DaWijtsuh's turn.
+
+26/01/16_13:56:38: IN: NEXT 3
+26/01/16_13:57:19: DaWijtsuh swapped.
+
+26/01/16_13:57:19: Han's score is: 6
+26/01/16_13:57:19: Joanne's score is: 0
+26/01/16_13:57:19: DaWijtsuh's score is: 2
+26/01/16_13:57:19: IN: TURN 3 empty
+26/01/16_13:57:19: Han's score is: 6
+26/01/16_13:57:19: Joanne's score is: 0
+26/01/16_13:57:19: DaWijtsuh's score is: 2
+26/01/16_13:57:19: 
+It is your turn!
+26/01/16_13:57:19: 
+What is your action?
+26/01/16_13:57:19: Han's score is: 6
+26/01/16_13:57:19: Joanne's score is: 0
+26/01/16_13:57:19: DaWijtsuh's score is: 2
+26/01/16_13:57:19: 
+What is your action?
+26/01/16_13:57:19: Han's score is: 6
+26/01/16_13:57:19: Joanne's score is: 0
+26/01/16_13:57:19: DaWijtsuh's score is: 2
+26/01/16_13:57:19: 
+What is your action?
+26/01/16_13:57:19: Han's score is: 6
+26/01/16_13:57:19: Joanne's score is: 0
+26/01/16_13:57:19: DaWijtsuh's score is: 2
+26/01/16_13:57:19: 
+What is your action?
+26/01/16_13:57:19: Han's score is: 6
+26/01/16_13:57:19: Joanne's score is: 0
+26/01/16_13:57:19: DaWijtsuh's score is: 2
+26/01/16_13:57:19: 
+What is your action?
+26/01/16_13:57:19: Han's score is: 6
+26/01/16_13:57:19: Joanne's score is: 0
+26/01/16_13:57:19: DaWijtsuh's score is: 2
+26/01/16_13:57:19: OUT: SWAP Go Go O* O* 
+26/01/16_13:57:19: IN: NEXT 1
+26/01/16_13:57:19: Han's score is: 6
+26/01/16_13:57:19: Joanne's score is: 0
+26/01/16_13:57:19: DaWijtsuh's score is: 2
+26/01/16_13:57:19: Tiles in pool: 92
+
+26/01/16_13:57:19: IN: NEW Bc Os Po Yd
+26/01/16_13:57:19: Han swapped.
+
+26/01/16_13:57:19: IN: TURN 1 empty
+26/01/16_13:57:19: It is now DaWijtsuh's turn.
+
+26/01/16_13:57:19: IN: NEXT 3
+26/01/16_13:58:01: Han's score is: 6
+26/01/16_13:58:01: Joanne's score is: 0
+26/01/16_13:58:01: DaWijtsuh's score is: 7
+26/01/16_13:58:01: 
+DaWijtsuh just made the following move: [[Bx, 91, 93], [Bs, 90, 93]]
+
+26/01/16_13:58:01: IN: TURN 3 Bx 91 93 Bs 90 93
+26/01/16_13:58:01: Han's score is: 6
+26/01/16_13:58:01: Joanne's score is: 0
+26/01/16_13:58:01: DaWijtsuh's score is: 7
+26/01/16_13:58:01: 
+It is your turn!
+26/01/16_13:58:01: 
+What is your action?
+26/01/16_13:58:01: Han's score is: 6
+26/01/16_13:58:01: Joanne's score is: 0
+26/01/16_13:58:01: DaWijtsuh's score is: 7
+26/01/16_13:58:01: 
+What is your action?
+26/01/16_13:58:01: Han's score is: 6
+26/01/16_13:58:01: Joanne's score is: 0
+26/01/16_13:58:01: DaWijtsuh's score is: 7
+26/01/16_13:58:01: 
+What is your action?
+26/01/16_13:58:01: Han's score is: 6
+26/01/16_13:58:01: Joanne's score is: 0
+26/01/16_13:58:01: DaWijtsuh's score is: 7
+26/01/16_13:58:01: OUT: MOVE Bc 89 93 Pc 89 94 
+26/01/16_13:58:01: IN: NEXT 1
+26/01/16_13:58:01: Han's score is: 11
+26/01/16_13:58:01: Joanne's score is: 0
+26/01/16_13:58:01: DaWijtsuh's score is: 7
+26/01/16_13:58:01: Tiles in pool: 88
+
+26/01/16_13:58:01: IN: NEW Gs Bd
+26/01/16_13:58:01: IN: TURN 1 Bc 89 93 Pc 89 94
+26/01/16_13:58:01: It is now DaWijtsuh's turn.
+
+26/01/16_13:58:01: IN: NEXT 3
+26/01/16_13:58:34: Han's score is: 11
+26/01/16_13:58:34: Joanne's score is: 0
+26/01/16_13:58:34: DaWijtsuh's score is: 11
+26/01/16_13:58:34: 
+DaWijtsuh just made the following move: [[Gc, 89, 95], [Oc, 89, 96]]
+
+26/01/16_13:58:34: IN: TURN 3 Gc 89 95 Oc 89 96
+26/01/16_13:58:34: Han's score is: 11
+26/01/16_13:58:34: Joanne's score is: 0
+26/01/16_13:58:34: DaWijtsuh's score is: 11
+26/01/16_13:58:34: 
+It is your turn!
+26/01/16_13:58:34: 
+What is your action?
+26/01/16_13:58:34: Han's score is: 11
+26/01/16_13:58:34: Joanne's score is: 0
+26/01/16_13:58:34: DaWijtsuh's score is: 11
+26/01/16_13:58:34: 
+What is your action?
+26/01/16_13:58:34: Han's score is: 11
+26/01/16_13:58:34: Joanne's score is: 0
+26/01/16_13:58:34: DaWijtsuh's score is: 11
+26/01/16_13:58:34: 
+What is your action?
+26/01/16_13:58:34: Han's score is: 11
+26/01/16_13:58:34: Joanne's score is: 0
+26/01/16_13:58:34: DaWijtsuh's score is: 11
+26/01/16_13:58:34: 
+What is your action?
+26/01/16_13:58:34: Han's score is: 11
+26/01/16_13:58:34: Joanne's score is: 0
+26/01/16_13:58:34: DaWijtsuh's score is: 11
+26/01/16_13:58:34: OUT: MOVE Ps 90 94 Gs 90 95 Os 90 96 
+26/01/16_13:58:34: IN: NEXT 1
+26/01/16_13:58:34: Han's score is: 21
+26/01/16_13:58:34: Joanne's score is: 0
+26/01/16_13:58:34: DaWijtsuh's score is: 11
+26/01/16_13:58:34: Tiles in pool: 83
+
+26/01/16_13:58:34: IN: NEW Yo Y* Rd
+26/01/16_13:58:34: IN: TURN 1 Ps 90 94 Gs 90 95 Os 90 96
+26/01/16_13:58:34: It is now DaWijtsuh's turn.
+
+26/01/16_13:58:34: IN: NEXT 3
+26/01/16_13:59:57: Han's score is: 21
+26/01/16_13:59:57: Joanne's score is: 0
+26/01/16_13:59:57: DaWijtsuh's score is: 14
+26/01/16_13:59:57: 
+DaWijtsuh just made the following move: [[Pd, 88, 94]]
+
+26/01/16_13:59:57: IN: TURN 3 Pd 88 94
+26/01/16_13:59:57: Han's score is: 21
+26/01/16_13:59:57: Joanne's score is: 0
+26/01/16_13:59:57: DaWijtsuh's score is: 14
+26/01/16_13:59:57: 
+It is your turn!
+26/01/16_13:59:57: 
+What is your action?
+26/01/16_13:59:57: Han's score is: 21
+26/01/16_13:59:57: Joanne's score is: 0
+26/01/16_13:59:57: DaWijtsuh's score is: 14
+26/01/16_13:59:57: 
+What is your action?
+26/01/16_13:59:57: Han's score is: 21
+26/01/16_13:59:57: Joanne's score is: 0
+26/01/16_13:59:57: DaWijtsuh's score is: 14
+26/01/16_13:59:57: 
+What is your action?
+26/01/16_13:59:57: Han's score is: 21
+26/01/16_13:59:57: Joanne's score is: 0
+26/01/16_13:59:57: DaWijtsuh's score is: 14
+26/01/16_13:59:57: 
+What is your action?
+26/01/16_13:59:57: Han's score is: 21
+26/01/16_13:59:57: Joanne's score is: 0
+26/01/16_13:59:57: DaWijtsuh's score is: 14
+26/01/16_13:59:57: OUT: MOVE Bd 88 93 Yd 88 92 Rd 88 91 
+26/01/16_13:59:57: IN: NEXT 1
+26/01/16_13:59:57: Han's score is: 29
+26/01/16_13:59:57: Joanne's score is: 0
+26/01/16_13:59:57: DaWijtsuh's score is: 14
+26/01/16_13:59:57: Tiles in pool: 79
+
+26/01/16_13:59:57: IN: NEW Od Yc Rc
+26/01/16_13:59:57: IN: TURN 1 Bd 88 93 Yd 88 92 Rd 88 91
+26/01/16_13:59:57: It is now DaWijtsuh's turn.
+
+26/01/16_13:59:57: IN: NEXT 3
+26/01/16_14:01:11: Han's score is: 29
+26/01/16_14:01:11: Joanne's score is: 0
+26/01/16_14:01:11: DaWijtsuh's score is: 21
+26/01/16_14:01:11: 
+DaWijtsuh just made the following move: [[Ys, 90, 97], [Yx, 91, 97]]
+
+26/01/16_14:01:11: IN: TURN 3 Ys 90 97 Yx 91 97
+26/01/16_14:01:11: Han's score is: 29
+26/01/16_14:01:11: Joanne's score is: 0
+26/01/16_14:01:11: DaWijtsuh's score is: 21
+26/01/16_14:01:11: 
+It is your turn!
+26/01/16_14:01:11: 
+What is your action?
+26/01/16_14:01:12: Han's score is: 29
+26/01/16_14:01:12: Joanne's score is: 0
+26/01/16_14:01:12: DaWijtsuh's score is: 21
+26/01/16_14:01:12: 
+What is your action?
+26/01/16_14:01:12: Han's score is: 29
+26/01/16_14:01:12: Joanne's score is: 0
+26/01/16_14:01:12: DaWijtsuh's score is: 21
+26/01/16_14:01:12: 
+What is your action?
+26/01/16_14:01:12: Han's score is: 29
+26/01/16_14:01:12: Joanne's score is: 0
+26/01/16_14:01:12: DaWijtsuh's score is: 21
+26/01/16_14:01:12: OUT: MOVE Yc 89 92 Rc 89 91 
+26/01/16_14:01:12: IN: NEXT 1
+26/01/16_14:01:12: Han's score is: 45
+26/01/16_14:01:12: Joanne's score is: 0
+26/01/16_14:01:12: DaWijtsuh's score is: 21
+26/01/16_14:01:12: Tiles in pool: 75
+
+26/01/16_14:01:12: IN: NEW Yc Gc
+26/01/16_14:01:12: IN: TURN 1 Yc 89 92 Rc 89 91
+26/01/16_14:01:12: It is now DaWijtsuh's turn.
+
+26/01/16_14:01:12: IN: NEXT 3
+26/01/16_14:01:54: Han's score is: 45
+26/01/16_14:01:54: Joanne's score is: 0
+26/01/16_14:01:54: DaWijtsuh's score is: 26
+26/01/16_14:01:54: 
+DaWijtsuh just made the following move: [[Ro, 93, 92], [Rd, 93, 93]]
+
+26/01/16_14:01:54: IN: TURN 3 Ro 93 92 Rd 93 93
+26/01/16_14:01:54: Han's score is: 45
+26/01/16_14:01:54: Joanne's score is: 0
+26/01/16_14:01:54: DaWijtsuh's score is: 26
+26/01/16_14:01:54: 
+It is your turn!
+26/01/16_14:01:54: 
+What is your action?
+26/01/16_14:01:54: Han's score is: 45
+26/01/16_14:01:54: Joanne's score is: 0
+26/01/16_14:01:54: DaWijtsuh's score is: 26
+26/01/16_14:01:54: 
+What is your action?
+26/01/16_14:01:54: Han's score is: 45
+26/01/16_14:01:54: Joanne's score is: 0
+26/01/16_14:01:55: DaWijtsuh's score is: 26
+26/01/16_14:01:55: 
+What is your action?
+26/01/16_14:01:55: Han's score is: 45
+26/01/16_14:01:55: Joanne's score is: 0
+26/01/16_14:01:55: DaWijtsuh's score is: 26
+26/01/16_14:01:55: 
+What is your action?
+26/01/16_14:01:55: Han's score is: 45
+26/01/16_14:01:55: Joanne's score is: 0
+26/01/16_14:01:55: DaWijtsuh's score is: 26
+26/01/16_14:01:55: OUT: MOVE Yc 92 97 Yo 92 98 Y* 92 99 
+26/01/16_14:01:55: IN: NEXT 1
+26/01/16_14:01:55: Han's score is: 51
+26/01/16_14:01:55: Joanne's score is: 0
+26/01/16_14:01:55: DaWijtsuh's score is: 26
+26/01/16_14:01:55: Tiles in pool: 70
+
+26/01/16_14:01:55: IN: NEW Rx Bx Bs
+26/01/16_14:01:55: IN: TURN 1 Yc 92 97 Yo 92 98 Y* 92 99
+26/01/16_14:01:55: It is now DaWijtsuh's turn.
+
+26/01/16_14:01:55: IN: NEXT 3
+26/01/16_14:03:02: Han's score is: 51
+26/01/16_14:03:02: Joanne's score is: 0
+26/01/16_14:03:02: DaWijtsuh's score is: 30
+26/01/16_14:03:02: 
+DaWijtsuh just made the following move: [[G*, 91, 95], [Go, 92, 95]]
+
+26/01/16_14:03:02: IN: TURN 3 G* 91 95 Go 92 95
+26/01/16_14:03:02: Han's score is: 51
+26/01/16_14:03:02: Joanne's score is: 0
+26/01/16_14:03:02: DaWijtsuh's score is: 30
+26/01/16_14:03:02: 
+It is your turn!
+26/01/16_14:03:02: 
+What is your action?
+26/01/16_14:03:02: Han's score is: 51
+26/01/16_14:03:02: Joanne's score is: 0
+26/01/16_14:03:02: DaWijtsuh's score is: 30
+26/01/16_14:03:02: 
+What is your action?
+26/01/16_14:03:02: Han's score is: 51
+26/01/16_14:03:02: Joanne's score is: 0
+26/01/16_14:03:02: DaWijtsuh's score is: 30
+26/01/16_14:03:02: OUT: MOVE Od 88 90 
+26/01/16_14:03:02: IN: NEXT 1
+26/01/16_14:03:02: Han's score is: 56
+26/01/16_14:03:02: Joanne's score is: 0
+26/01/16_14:03:02: DaWijtsuh's score is: 30
+26/01/16_14:03:02: Tiles in pool: 67
+
+26/01/16_14:03:02: IN: NEW Bc
+26/01/16_14:03:02: IN: TURN 1 Od 88 90
+26/01/16_14:03:02: It is now DaWijtsuh's turn.
+
+26/01/16_14:03:02: IN: NEXT 3
