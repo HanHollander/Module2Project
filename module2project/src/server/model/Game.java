@@ -134,7 +134,10 @@ public class Game extends Observable{
       server.giveTiles(player.getPlayerNumber(), tilesBack);
       server.sendTurn(player.getPlayerNumber(), turn);
     }
-    player.addToScore(board.getScoreCurrentTurn());
+    int score = board.getScoreCurrentTurn();
+    player.addToScore(score);
+    getServer().getObserver().print("Player-" + player.getPlayerNumber() 
+        + " gained " + score + " points!");
     board.endTurn();
     
     setChanged();
@@ -374,7 +377,7 @@ public class Game extends Observable{
       server.getThread(number).sendMessage("NEW" + getPlayer(number).handToString());
     }
     //AUTO FIRST MOVE:
-    //doBestMoveOutOfAllPlayers();
+    doBestMoveOutOfAllPlayers();
   }
 
   /*@ requires !getPlayerNrs().contains(playerNr);
@@ -531,12 +534,12 @@ public class Game extends Observable{
     }
     // Here the turn is applied and the variable currentPlayer is set to the player who had
     // the best row in his/her hand.
-    applyMoveTurn(getPlayer(playerNrWithBestPossibleHandPointsYet), turn, true);
-    Set<Integer> playerNumbers = getPlayerNrs();
-    for (int number : playerNumbers) {
-      server.getThread(number).sendMessage("NEW" + getPlayer(number).handToString());
-    }
-    server.sendTurn(getPlayer(playerNrWithBestPossibleHandPointsYet).getPlayerNumber(), turn);
+    // applyMoveTurn(getPlayer(playerNrWithBestPossibleHandPointsYet), turn, true);
+    // Set<Integer> playerNumbers = getPlayerNrs();
+    // for (int number : playerNumbers) {
+    //   server.getThread(number).sendMessage("NEW" + getPlayer(number).handToString());
+    // }
+    //server.sendTurn(getPlayer(playerNrWithBestPossibleHandPointsYet).getPlayerNumber(), turn);
     setCurrentPlayer(playerNrWithBestPossibleHandPointsYet);
   }
   
