@@ -40,8 +40,6 @@ public class Client extends Thread {
   private InetAddress host;
   private int port;
   
-  private boolean firstTurn = true; 
-  
 
   /**
    * Constructs a socket and input and output to write and listen for the server.
@@ -85,7 +83,7 @@ public class Client extends Thread {
       Printer.print("Previous game will now stop.");
       shutdown();
     } catch (InvalidCommandException e) {
-      Printer.print(e);
+      Printer.print("Invalid command received: " + e);
     }
   }
   
@@ -299,8 +297,10 @@ public class Client extends Thread {
         //determine strategy
         Strategy strat = null;
         if (Qwirkle.getStrategyType().equals("n")) {
-          strat = new SmartStrategy();
+          strat = new NaiveStrategy();
         } else if (Qwirkle.getStrategyType().equals("s")) {
+          strat = new SmartStrategy();
+        } else if (Qwirkle.getStrategyType().equals("ss")) {
           strat = new SuperSmartStrategy();
         }
         Player player = new ComputerPlayer(command[1], playerNumber, strat);

@@ -127,12 +127,12 @@ public class Qwirkle {
         }
       }
       if (playerType.equals("b")) {
-        Printer.print("\nNaive: 'n', Smart: 's'");
+        Printer.print("\nNaive: 'n', Smart: 's', SuperSmart: 'ss'");
         boolean validStratType = false;
         //Check for valid type
         while (!validStratType) {
           strategyType = readInput();
-          if (strategyType.equals("n") || strategyType.equals("s")) {
+          if (strategyType.equals("n") || strategyType.equals("s") || strategyType.equals("ss")) {
             validStratType = true;
           }
           if (!validStratType) {

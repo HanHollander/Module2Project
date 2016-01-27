@@ -18,9 +18,10 @@ import java.util.Date;
  */
 public class Printer {
   
-  public static final String PATH = "E:" + File.separator + "LocalGit" 
-      + File.separator + "Module2Project" + File.separator + "module2project" 
-      + File.separator + "logs" + File.separator;
+  public static final String PATH = "";
+  // "E:" + File.separator + "LocalGit" 
+  // + File.separator + "Module2Project" + File.separator + "module2project" 
+  // + File.separator + "logs" + File.separator;
   public static final BufferedWriter logger = createWriter();
   public static File file;
  
@@ -83,6 +84,7 @@ public class Printer {
   
   /**
    * Print to log only.
+   * @param text to be printed
    */
   public static void printToLog(String text) {
     try {
@@ -99,6 +101,7 @@ public class Printer {
   
   /**
    * Print to log only.
+   * @param exception To be printed.
    */
   public static void printToLog(Exception exception) {
     try {
