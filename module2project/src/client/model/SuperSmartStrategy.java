@@ -338,7 +338,11 @@ public class SuperSmartStrategy implements Strategy {
       // If this turn is not a smart turn, decrease its points so this turn
       // has a lower priority.
       if (isNotASmartTurn(turn, reserveBoard)) {
-        score = 3;
+        if (score > 9) {
+          score = score - 4;
+        } else {
+          score = score - 2;
+        }
       }
       result.put(turn, score);
     } else {
@@ -414,8 +418,8 @@ public class SuperSmartStrategy implements Strategy {
       if (verticalRow.size() == 5) {
         Tile missingTile = getMissingTile(verticalRow);
         if (!tileIsPlacedThreeTimes(reserveBoard, missingTile)
-            && (board.checkMove(new Move(missingTile, move.getRow(), maxRowVerticalRow))
-                || board.checkMove(new Move(missingTile, move.getRow(), minRowVerticalRow)))) {
+            && (board.checkMove(new Move(missingTile, maxRowVerticalRow, move.getColumn()))
+                || board.checkMove(new Move(missingTile, minRowVerticalRow, move.getColumn())))) {
           result = true;
           break;
         }

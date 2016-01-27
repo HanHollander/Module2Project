@@ -1,7 +1,0 @@
-27/01/16_11:12:10: java.lang.NumberFormatException: For input string: "a"
-27/01/16_11:12:10: Type of turn: ANY
-27/01/16_11:12:15: Type of turn: ANY
-27/01/16_11:12:18: exceptions.InvalidCommandException: Invalid command. Colours: [R, O, B, Y, G, P], shapes: [o, d, s, c, x, *]
-27/01/16_11:12:18: Type of turn: ANY
-27/01/16_11:12:28: exceptions.InvalidCommandException: Invalid command. Usage: [MOVE <tileNr> <row> <column>]
-27/01/16_11:12:28: Type of turn: ANY

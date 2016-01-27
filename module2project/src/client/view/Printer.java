@@ -18,7 +18,7 @@ import java.util.Date;
  */
 public class Printer {
   
-  public static final String PATH = "";
+  public static final String PATH = "logs" + File.separator;
   // "E:" + File.separator + "LocalGit" 
   // + File.separator + "Module2Project" + File.separator + "module2project" 
   // + File.separator + "logs" + File.separator;

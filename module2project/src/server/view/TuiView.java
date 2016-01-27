@@ -17,9 +17,7 @@ import java.util.Set;
 
 public class TuiView implements Observer {
 
-  public static final String PATH = "E:" + File.separator + "LocalGit" 
-      + File.separator + "Module2Project" + File.separator + "module2project" 
-      + File.separator + "logs" + File.separator;
+  public static final String PATH = "logs" + File.separator;
   
   private Server server;
   private PrintStream output;
