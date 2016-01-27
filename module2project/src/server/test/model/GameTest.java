@@ -106,7 +106,11 @@ public class GameTest {
     List<Move> turn1 = new ArrayList<Move>();
     turn1.add(new Move(new Tile("P", "o"), 91, 91));
     turn1.add(new Move(new Tile("G", "o"), 91, 92));
-    s.getGame().applyMoveTurn(s.getGame().getPlayer(1), turn1, true);
+    try {
+      s.getGame().applyMoveTurn(s.getGame().getPlayer(1), turn1);
+    } catch (NullPointerException e) {
+      // This happens because there are no clientHandlers to send stuff to
+    }
     for (Move move : turn1) {
       assertTrue(s.getGame().getBoard().getTile(move.getRow(), move.getColumn()).equals(move.getTile()));
     }

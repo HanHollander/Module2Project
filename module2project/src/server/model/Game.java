@@ -73,11 +73,14 @@ public class Game extends Observable{
   public void applySwapTurn(List<Tile> turn, Player player) {
     List<Tile> newTiles = new ArrayList<Tile>();
     for (Tile tile : turn) {
+      // Remove the tile from the hand of the player
       try {
         player.removeFromHand(tile);
       } catch (TileNotInHandException e) {
         System.out.println(e);
       }
+      // Swap the tile with a random tile of the pool
+      // and put the received tile in the hand of the player.
       try {
         Tile newTile = swapTileWithPool(tile);
         player.addToHand(newTile);
@@ -103,9 +106,8 @@ public class Game extends Observable{
    * Applies the given turn to the board and sends it to all the players.
    * @param player The player that made the turn.
    * @param turn The turn that needs to be applied.
-   * @param isFirstTurn True or False whether this is the first turn of the game or not.
    */
-  public void applyMoveTurn(Player player, List<Move> turn, boolean isFirstTurn) {
+  public void applyMoveTurn(Player player, List<Move> turn) {
     //Put tiles on the board
     for (int i = 0; i < turn.size(); i++) {
       Move move = turn.get(i);
@@ -130,10 +132,8 @@ public class Game extends Observable{
       tilesBack.add(tile);
     }
     
-    if (!isFirstTurn) {
-      server.giveTiles(player.getPlayerNumber(), tilesBack);
-      server.sendTurn(player.getPlayerNumber(), turn);
-    }
+    server.giveTiles(player.getPlayerNumber(), tilesBack);
+    server.sendTurn(player.getPlayerNumber(), turn);
     int score = board.getScoreCurrentTurn();
     player.addToScore(score);
     getServer().getObserver().print("Player-" + player.getPlayerNumber() 
@@ -158,9 +158,11 @@ public class Game extends Observable{
    */
   /*@ pure */ public boolean checkSwapTurn(List<Tile> turn , Player player) {
     boolean result = true;
+    // Check if there are enough tiles in the pool to swap with.
     if (getPoolSize() >= turn.size()) {
       List<Tile> hand = player.getHand();
       for (Tile tile : turn) {
+        // Check if the hand actually contains the tile.
         boolean containsTile = false;
         for (Tile tileInHand : hand) {
           containsTile = tile.equals(tileInHand);
@@ -195,6 +197,7 @@ public class Game extends Observable{
     for (int i = 0; i < turn.size(); i++) {
       Move move = turn.get(i);
       Tile tile = move.getTile();
+      // Check if the hand of the player actually contains the tile.
       boolean containsTile = false;
       for (Tile tileInHand : hand) {
         containsTile = tile.equals(tileInHand);
@@ -207,6 +210,7 @@ public class Game extends Observable{
         result = false;
         break;
       }
+      // Check if the move is a valid move on the board
       result = result && testBoard.checkMove(move);
       if (result) {
         testBoard.putTile(move);

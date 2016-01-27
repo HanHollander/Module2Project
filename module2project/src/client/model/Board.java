@@ -123,139 +123,154 @@ public class Board {
    * @param move The move that needs to be checked.
    * @return True or false whether the move is a correct move or not.
    */
-  public boolean checkMove(Move move) {
+  /*@ pure */ public boolean checkMove(Move move) {
     boolean gotVerticalRow;
     boolean gotHorizontalRow;
     Tile empty = new Tile();
     boolean result = true;
     // Check if the destination of the move is empty on the board
-    // Check if the current move and the moves made this turn are in the same row
-    if (getTile(move.getRow(), move.getColumn()).equals(empty) && currentMovesLineUp(move)) {
-      // Check if the current move creates a vertical row and/or horizontal row.
-      gotVerticalRow = !getTile(move.getRow() - 1, move.getColumn()).equals(empty) 
-          || !getTile(move.getRow() + 1, move.getColumn()).equals(empty);
-      gotHorizontalRow = !getTile(move.getRow(), move.getColumn() - 1).equals(empty) 
-          || !getTile(move.getRow(), move.getColumn() + 1).equals(empty);
-      
-      if (gotHorizontalRow) {
-        // Check if the current move fits in the horizontal row.
-        ArrayList<String> adjesentHorizontalTilesShapes = new ArrayList<String>();
-        ArrayList<String> adjesentHorizontalTilesColors = new ArrayList<String>();
-        int row = move.getRow();
-        int column = move.getColumn() + 1;
-        while (!getTile(row, column).equals(empty)) {
-          adjesentHorizontalTilesShapes.add(getTile(row, column).getShape());
-          adjesentHorizontalTilesColors.add(getTile(row, column).getColor());
-          column++;
-        }
-        column = move.getColumn() - 1;
-        while (!getTile(row, column).equals(empty)) {
-          adjesentHorizontalTilesShapes.add(getTile(row, column).getShape());
-          adjesentHorizontalTilesColors.add(getTile(row, column).getColor());
-          column--;
-        }
-        boolean shapesAreTheSame = true;
-        String templateShape = move.getTile().getShape();
-        for (String shape : adjesentHorizontalTilesShapes) {
-          shapesAreTheSame = shapesAreTheSame && shape.equals(templateShape);
-        }
-        shapesAreTheSame = shapesAreTheSame 
-            && !adjesentHorizontalTilesColors.contains(move.getTile().getColor());
+    if (getTile(move.getRow(), move.getColumn()).equals(empty)) {
+      // Check if the current move and the moves made this turn are in the same row
+      if (currentMovesLineUp(move)) {
+        // Check if the current move creates a vertical row and/or horizontal row.
+        gotVerticalRow = !getTile(move.getRow() - 1, move.getColumn()).equals(empty) 
+            || !getTile(move.getRow() + 1, move.getColumn()).equals(empty);
+        gotHorizontalRow = !getTile(move.getRow(), move.getColumn() - 1).equals(empty) 
+            || !getTile(move.getRow(), move.getColumn() + 1).equals(empty);
         
-        boolean colorsAreTheSame = true;
-        String templateColor = move.getTile().getColor();
-        for (String color : adjesentHorizontalTilesColors) {
-          colorsAreTheSame = colorsAreTheSame && color.equals(templateColor);
-        }
-        colorsAreTheSame = colorsAreTheSame 
-            && !adjesentHorizontalTilesShapes.contains(move.getTile().getShape());
-        
-        boolean moveConnectsInvalidRows = false;
-        if (shapesAreTheSame) {
-          List<String> testList = new ArrayList<String>();
-          for (String color : adjesentHorizontalTilesColors) {
-            if (testList.contains(color)) {
-              moveConnectsInvalidRows = true;
-              break;
-            }
-            testList.add(color);
+        if (gotHorizontalRow) {
+          // Check if the current move fits in the horizontal row.
+          ArrayList<String> adjesentHorizontalTilesShapes = new ArrayList<String>();
+          ArrayList<String> adjesentHorizontalTilesColors = new ArrayList<String>();
+          int row = move.getRow();
+          int column = move.getColumn() + 1;
+          // Add the adjesent tiles right of the placed tile to the horizontal row list
+          while (!getTile(row, column).equals(empty)) {
+            adjesentHorizontalTilesShapes.add(getTile(row, column).getShape());
+            adjesentHorizontalTilesColors.add(getTile(row, column).getColor());
+            column++;
           }
-        } else if (colorsAreTheSame) {
-          List<String> testList = new ArrayList<String>();
+          // Add the adjesent tiles left of the placed tile to the horizontal row list
+          column = move.getColumn() - 1;
+          while (!getTile(row, column).equals(empty)) {
+            adjesentHorizontalTilesShapes.add(getTile(row, column).getShape());
+            adjesentHorizontalTilesColors.add(getTile(row, column).getColor());
+            column--;
+          }
+          // Check if the row with the placed tile has all the shapes the same
+          // and colors different.
+          boolean shapesAreTheSame = true;
+          String templateShape = move.getTile().getShape();
           for (String shape : adjesentHorizontalTilesShapes) {
-            if (testList.contains(shape)) {
-              moveConnectsInvalidRows = true;
-              break;
-            }
-            testList.add(shape);
+            shapesAreTheSame = shapesAreTheSame && shape.equals(templateShape);
           }
+          shapesAreTheSame = shapesAreTheSame 
+              && !adjesentHorizontalTilesColors.contains(move.getTile().getColor());
+          
+          // Check if the row with the placed tile has all the colors the same
+          // and shapes different.
+          boolean colorsAreTheSame = true;
+          String templateColor = move.getTile().getColor();
+          for (String color : adjesentHorizontalTilesColors) {
+            colorsAreTheSame = colorsAreTheSame && color.equals(templateColor);
+          }
+          colorsAreTheSame = colorsAreTheSame 
+              && !adjesentHorizontalTilesShapes.contains(move.getTile().getShape());
+          
+          // Final check which checks if the placed tile connects two rows
+          // (which already existed) which are not allowed to be connected.
+          boolean moveConnectsInvalidRows = false;
+          if (shapesAreTheSame) {
+            List<String> testList = new ArrayList<String>();
+            for (String color : adjesentHorizontalTilesColors) {
+              if (testList.contains(color)) {
+                moveConnectsInvalidRows = true;
+                break;
+              }
+              testList.add(color);
+            }
+          } else if (colorsAreTheSame) {
+            List<String> testList = new ArrayList<String>();
+            for (String shape : adjesentHorizontalTilesShapes) {
+              if (testList.contains(shape)) {
+                moveConnectsInvalidRows = true;
+                break;
+              }
+              testList.add(shape);
+            }
+          }
+          result = ((shapesAreTheSame || colorsAreTheSame) && !moveConnectsInvalidRows);
         }
-        if ((shapesAreTheSame || colorsAreTheSame) && !moveConnectsInvalidRows) {
-          result = true;
-        } else {
-          result = false;
-        }
-      }
-      
-      if (gotVerticalRow && result) {
-        // Check if the current move fits in the vertical row.
-        ArrayList<String> adjesentVerticalTilesShapes = new ArrayList<String>();
-        ArrayList<String> adjesentVerticalTilesColors = new ArrayList<String>();
-        int row = move.getRow() + 1;
-        int column = move.getColumn();
-        while (!getTile(row, column).equals(empty)) {
-          adjesentVerticalTilesShapes.add(getTile(row, column).getShape());
-          adjesentVerticalTilesColors.add(getTile(row, column).getColor());
-          row++;
-        }
-        row = move.getRow() - 1;
-        while (!getTile(row, column).equals(empty)) {
-          adjesentVerticalTilesShapes.add(getTile(row, column).getShape());
-          adjesentVerticalTilesColors.add(getTile(row, column).getColor());
-          row--;
-        }
-        boolean shapesAreTheSame = true;
-        String templateShape = move.getTile().getShape();
-        for (String shape : adjesentVerticalTilesShapes) {
-          shapesAreTheSame = shapesAreTheSame && shape.equals(templateShape);
-        }
-        shapesAreTheSame = shapesAreTheSame 
-            && !adjesentVerticalTilesColors.contains(move.getTile().getColor());
         
-        boolean colorsAreTheSame = true;
-        String templateColor = move.getTile().getColor();
-        for (String color : adjesentVerticalTilesColors) {
-          colorsAreTheSame = colorsAreTheSame && color.equals(templateColor);
-        }
-        colorsAreTheSame = colorsAreTheSame 
-            && !adjesentVerticalTilesShapes.contains(move.getTile().getShape());
-        boolean moveConnectsInvalidRows = false;
-        if (shapesAreTheSame) {
-          List<String> testList = new ArrayList<String>();
-          for (String color : adjesentVerticalTilesColors) {
-            if (testList.contains(color)) {
-              moveConnectsInvalidRows = true;
-              break;
-            }
-            testList.add(color);
+        if (gotVerticalRow && result) {
+          // Check if the current move fits in the vertical row.
+          ArrayList<String> adjesentVerticalTilesShapes = new ArrayList<String>();
+          ArrayList<String> adjesentVerticalTilesColors = new ArrayList<String>();
+          int row = move.getRow() + 1;
+          int column = move.getColumn();
+          // Add the adjesent tiles below the placed tile to the vertical row list
+          while (!getTile(row, column).equals(empty)) {
+            adjesentVerticalTilesShapes.add(getTile(row, column).getShape());
+            adjesentVerticalTilesColors.add(getTile(row, column).getColor());
+            row++;
           }
-        } else if (colorsAreTheSame) {
-          List<String> testList = new ArrayList<String>();
+          // Add the adjesent tiles above the placed tile to the vertical row list
+          row = move.getRow() - 1;
+          while (!getTile(row, column).equals(empty)) {
+            adjesentVerticalTilesShapes.add(getTile(row, column).getShape());
+            adjesentVerticalTilesColors.add(getTile(row, column).getColor());
+            row--;
+          }
+          // Check if the row with the placed tile has all the shapes the same
+          // and colors different.
+          boolean shapesAreTheSame = true;
+          String templateShape = move.getTile().getShape();
           for (String shape : adjesentVerticalTilesShapes) {
-            if (testList.contains(shape)) {
-              moveConnectsInvalidRows = true;
-              break;
-            }
-            testList.add(shape);
+            shapesAreTheSame = shapesAreTheSame && shape.equals(templateShape);
           }
+          shapesAreTheSame = shapesAreTheSame 
+              && !adjesentVerticalTilesColors.contains(move.getTile().getColor());
+          // Check if the row with the placed tile has all the colors the same
+          // and shapes different.
+          boolean colorsAreTheSame = true;
+          String templateColor = move.getTile().getColor();
+          for (String color : adjesentVerticalTilesColors) {
+            colorsAreTheSame = colorsAreTheSame && color.equals(templateColor);
+          }
+          colorsAreTheSame = colorsAreTheSame 
+              && !adjesentVerticalTilesShapes.contains(move.getTile().getShape());
+          // Final check which checks if the placed tile connects two rows
+          // (which already existed) which are not allowed to be connected.
+          boolean moveConnectsInvalidRows = false;
+          if (shapesAreTheSame) {
+            List<String> testList = new ArrayList<String>();
+            for (String color : adjesentVerticalTilesColors) {
+              if (testList.contains(color)) {
+                moveConnectsInvalidRows = true;
+                break;
+              }
+              testList.add(color);
+            }
+          } else if (colorsAreTheSame) {
+            List<String> testList = new ArrayList<String>();
+            for (String shape : adjesentVerticalTilesShapes) {
+              if (testList.contains(shape)) {
+                moveConnectsInvalidRows = true;
+                break;
+              }
+              testList.add(shape);
+            }
+          }
+          result = ((shapesAreTheSame || colorsAreTheSame) && !moveConnectsInvalidRows);
         }
-        result = ((shapesAreTheSame || colorsAreTheSame) && !moveConnectsInvalidRows);
-      }
-      
-      // Here it checks when the current move has no tiles next to it if this move
-      // is in the middle of the board.
-      if (!gotHorizontalRow && !gotVerticalRow) {
-        result = move.getRow() == 91 && move.getColumn() == 91;
+        
+        // Here it checks when the current move has no tiles next to it if this move
+        // is in the middle of the board.
+        if (!gotHorizontalRow && !gotVerticalRow) {
+          result = move.getRow() == 91 && move.getColumn() == 91;
+        }
+      } else {
+        result = false;
       }
     } else {
       result = false;
@@ -419,17 +434,17 @@ public class Board {
    *         earned with the current turn.
    */
   public int getScoreCurrentTurn() {
-    String empty = ". ";
+    Tile empty = new Tile();
     int verticalResult = 0;
     int horizontalResult = 0;
     for (Move move : currentLocalTurn) {
       boolean gotVerticalRow;
       boolean gotHorizontalRow;
       // Check in which directions the move has rows.
-      gotVerticalRow = !getTile(move.getRow() - 1, move.getColumn()).toString().equals(empty) 
-          || !getTile(move.getRow() + 1, move.getColumn()).toString().equals(empty);
-      gotHorizontalRow = !getTile(move.getRow(), move.getColumn() - 1).toString().equals(empty) 
-          || !getTile(move.getRow(), move.getColumn() + 1).toString().equals(empty);
+      gotVerticalRow = !getTile(move.getRow() - 1, move.getColumn()).equals(empty) 
+          || !getTile(move.getRow() + 1, move.getColumn()).equals(empty);
+      gotHorizontalRow = !getTile(move.getRow(), move.getColumn() - 1).equals(empty) 
+          || !getTile(move.getRow(), move.getColumn() + 1).equals(empty);
       int verticalPoints = 0;
       int horizontalPoints = 0;
       if (gotVerticalRow) {
@@ -437,13 +452,13 @@ public class Board {
         int column = move.getColumn();
         verticalPoints++;
         // Add points while the space above the current tile is not empty
-        while (!getTile(row, column).toString().equals(empty)) {
+        while (!getTile(row, column).equals(empty)) {
           verticalPoints++;
           row++;
         }
         row = move.getRow() - 1;
         // Add points while the space below the current tile is not empty
-        while (!getTile(row, column).toString().equals(empty)) {
+        while (!getTile(row, column).equals(empty)) {
           verticalPoints++;
           row--;
         }
@@ -457,13 +472,13 @@ public class Board {
         int column = move.getColumn() + 1;
         horizontalPoints++;
         // Add points while the space to the right of the current tile is not empty
-        while (!getTile(row, column).toString().equals(empty)) {
+        while (!getTile(row, column).equals(empty)) {
           horizontalPoints++;
           column++;
         }
         column = move.getColumn() - 1;
         // Add points while the space to the left of the current tile is not empty
-        while (!getTile(row, column).toString().equals(empty)) {
+        while (!getTile(row, column).equals(empty)) {
           horizontalPoints++;
           column--;
         }
@@ -480,21 +495,19 @@ public class Board {
         horizontalResult = 1;
       }
     }
-    if (currentLocalTurn.size() > 0) {
-      // Here is checked whether the placed tiles this turn are placed horizontally or not.
-      boolean horizontalLineUp = true;
-      Move previousMove = currentLocalTurn.get(0);
-      for (Move doneMove : currentLocalTurn) {
-        horizontalLineUp = horizontalLineUp && previousMove.getRow() == doneMove.getRow();
-        previousMove = doneMove;
-      }
-      if (currentLocalTurn.size() > 1) {
-        // Get rid of points that are counted too many times.
-        if (horizontalLineUp) {
-          horizontalResult = horizontalResult / currentLocalTurn.size();
-        } else {
-          verticalResult = verticalResult / currentLocalTurn.size();
-        }
+    // Here is checked whether the placed tiles this turn are placed horizontally or not.
+    boolean horizontalLineUp = true;
+    Move previousMove = currentLocalTurn.get(0);
+    for (Move doneMove : currentLocalTurn) {
+      horizontalLineUp = horizontalLineUp && previousMove.getRow() == doneMove.getRow();
+      previousMove = doneMove;
+    }
+    if (currentLocalTurn.size() > 1) {
+      // Get rid of points that are counted too many times.
+      if (horizontalLineUp) {
+        horizontalResult = horizontalResult / currentLocalTurn.size();
+      } else {
+        verticalResult = verticalResult / currentLocalTurn.size();
       }
     }
     

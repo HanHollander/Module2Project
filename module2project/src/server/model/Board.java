@@ -32,27 +32,6 @@ public class Board {
     currentLocalTurn = new ArrayList<Move>();
   }
   
-//  /*@ requires game != null;
-//      ensures getGame() == game;
-//      ensures getMoveList().size() == 0;
-//      ensures (\forall int i, j; i >= 0 & j >= 0 & i < 183 & j < 183; 
-//      getTile(i, j).toString().equals(". ")); 
-//   */
-//  /**
-//   * Board constructor. Constructs a empty board.
-//   */
-//  public Board(Game game) {
-//    boardMatrix = new ArrayList<ArrayList<Tile>>();
-//    for (int row = 0; row < 183; row++) {
-//      boardMatrix.add(new ArrayList<Tile>());
-//      for (int column = 0; column < 183; column++) {
-//        boardMatrix.get(row).add(new Tile());
-//      }
-//    }
-//    currentLocalTurn = new ArrayList<Move>();
-//    this.game = game;
-//  }
-  
   /*@ requires checkMove(move);
       requires move.getRow() >= 0 & move.getRow() < 183;
       requires move.getColumn() >= 0 & move.getColumn() < 183;
@@ -165,17 +144,21 @@ public class Board {
           ArrayList<String> adjesentHorizontalTilesColors = new ArrayList<String>();
           int row = move.getRow();
           int column = move.getColumn() + 1;
+          // Add the adjesent tiles right of the placed tile to the horizontal row list
           while (!getTile(row, column).equals(empty)) {
             adjesentHorizontalTilesShapes.add(getTile(row, column).getShape());
             adjesentHorizontalTilesColors.add(getTile(row, column).getColor());
             column++;
           }
+          // Add the adjesent tiles left of the placed tile to the horizontal row list
           column = move.getColumn() - 1;
           while (!getTile(row, column).equals(empty)) {
             adjesentHorizontalTilesShapes.add(getTile(row, column).getShape());
             adjesentHorizontalTilesColors.add(getTile(row, column).getColor());
             column--;
           }
+          // Check if the row with the placed tile has all the shapes the same
+          // and colors different.
           boolean shapesAreTheSame = true;
           String templateShape = move.getTile().getShape();
           for (String shape : adjesentHorizontalTilesShapes) {
@@ -184,6 +167,8 @@ public class Board {
           shapesAreTheSame = shapesAreTheSame 
               && !adjesentHorizontalTilesColors.contains(move.getTile().getColor());
           
+          // Check if the row with the placed tile has all the colors the same
+          // and shapes different.
           boolean colorsAreTheSame = true;
           String templateColor = move.getTile().getColor();
           for (String color : adjesentHorizontalTilesColors) {
@@ -192,6 +177,8 @@ public class Board {
           colorsAreTheSame = colorsAreTheSame 
               && !adjesentHorizontalTilesShapes.contains(move.getTile().getShape());
           
+          // Final check which checks if the placed tile connects two rows
+          // (which already existed) which are not allowed to be connected.
           boolean moveConnectsInvalidRows = false;
           if (shapesAreTheSame) {
             List<String> testList = new ArrayList<String>();
@@ -212,11 +199,7 @@ public class Board {
               testList.add(shape);
             }
           }
-          if ((shapesAreTheSame || colorsAreTheSame) && !moveConnectsInvalidRows) {
-            result = true;
-          } else {
-            result = false;
-          }
+          result = ((shapesAreTheSame || colorsAreTheSame) && !moveConnectsInvalidRows);
         }
         
         if (gotVerticalRow && result) {
@@ -225,17 +208,21 @@ public class Board {
           ArrayList<String> adjesentVerticalTilesColors = new ArrayList<String>();
           int row = move.getRow() + 1;
           int column = move.getColumn();
+          // Add the adjesent tiles below the placed tile to the vertical row list
           while (!getTile(row, column).equals(empty)) {
             adjesentVerticalTilesShapes.add(getTile(row, column).getShape());
             adjesentVerticalTilesColors.add(getTile(row, column).getColor());
             row++;
           }
+          // Add the adjesent tiles above the placed tile to the vertical row list
           row = move.getRow() - 1;
           while (!getTile(row, column).equals(empty)) {
             adjesentVerticalTilesShapes.add(getTile(row, column).getShape());
             adjesentVerticalTilesColors.add(getTile(row, column).getColor());
             row--;
           }
+          // Check if the row with the placed tile has all the shapes the same
+          // and colors different.
           boolean shapesAreTheSame = true;
           String templateShape = move.getTile().getShape();
           for (String shape : adjesentVerticalTilesShapes) {
@@ -243,7 +230,8 @@ public class Board {
           }
           shapesAreTheSame = shapesAreTheSame 
               && !adjesentVerticalTilesColors.contains(move.getTile().getColor());
-          
+          // Check if the row with the placed tile has all the colors the same
+          // and shapes different.
           boolean colorsAreTheSame = true;
           String templateColor = move.getTile().getColor();
           for (String color : adjesentVerticalTilesColors) {
@@ -251,6 +239,8 @@ public class Board {
           }
           colorsAreTheSame = colorsAreTheSame 
               && !adjesentVerticalTilesShapes.contains(move.getTile().getShape());
+          // Final check which checks if the placed tile connects two rows
+          // (which already existed) which are not allowed to be connected.
           boolean moveConnectsInvalidRows = false;
           if (shapesAreTheSame) {
             List<String> testList = new ArrayList<String>();
@@ -495,10 +485,6 @@ public class Board {
   /*@ pure */ public Tile getTile(int row, int column) {
     return boardMatrix.get(row).get(column);
   }
-  
-//  /*@ pure */ public Game getGame() {
-//    return game;
-//  }
 
   //@ requires getMoveList() != null;
   //@ ensures \result >= getMoveList().size();
@@ -509,17 +495,17 @@ public class Board {
    *         earned with the current turn.
    */
   public int getScoreCurrentTurn() {
-    String empty = ". ";
+    Tile empty = new Tile();
     int verticalResult = 0;
     int horizontalResult = 0;
     for (Move move : currentLocalTurn) {
       boolean gotVerticalRow;
       boolean gotHorizontalRow;
       // Check in which directions the move has rows.
-      gotVerticalRow = !getTile(move.getRow() - 1, move.getColumn()).toString().equals(empty) 
-          || !getTile(move.getRow() + 1, move.getColumn()).toString().equals(empty);
-      gotHorizontalRow = !getTile(move.getRow(), move.getColumn() - 1).toString().equals(empty) 
-          || !getTile(move.getRow(), move.getColumn() + 1).toString().equals(empty);
+      gotVerticalRow = !getTile(move.getRow() - 1, move.getColumn()).equals(empty) 
+          || !getTile(move.getRow() + 1, move.getColumn()).equals(empty);
+      gotHorizontalRow = !getTile(move.getRow(), move.getColumn() - 1).equals(empty) 
+          || !getTile(move.getRow(), move.getColumn() + 1).equals(empty);
       int verticalPoints = 0;
       int horizontalPoints = 0;
       if (gotVerticalRow) {
@@ -527,13 +513,13 @@ public class Board {
         int column = move.getColumn();
         verticalPoints++;
         // Add points while the space above the current tile is not empty
-        while (!getTile(row, column).toString().equals(empty)) {
+        while (!getTile(row, column).equals(empty)) {
           verticalPoints++;
           row++;
         }
         row = move.getRow() - 1;
         // Add points while the space below the current tile is not empty
-        while (!getTile(row, column).toString().equals(empty)) {
+        while (!getTile(row, column).equals(empty)) {
           verticalPoints++;
           row--;
         }
@@ -547,13 +533,13 @@ public class Board {
         int column = move.getColumn() + 1;
         horizontalPoints++;
         // Add points while the space to the right of the current tile is not empty
-        while (!getTile(row, column).toString().equals(empty)) {
+        while (!getTile(row, column).equals(empty)) {
           horizontalPoints++;
           column++;
         }
         column = move.getColumn() - 1;
         // Add points while the space to the left of the current tile is not empty
-        while (!getTile(row, column).toString().equals(empty)) {
+        while (!getTile(row, column).equals(empty)) {
           horizontalPoints++;
           column--;
         }

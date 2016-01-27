@@ -158,7 +158,7 @@ public class Client extends Thread {
       //Print board for the last time.
       Printer.printBoard(game);
       if (playerNumber == game.getPlayer().getPlayerNumber()) {
-        Printer.print("You won.");
+        Printer.print("You won!\n");
       } else {
         Printer.print("The winner is... " + getPlayerName(playerNumber) + "!\n");
       }
@@ -213,10 +213,9 @@ public class Client extends Thread {
         }
       } else {
         throw new InvalidCommandException("(In TURN)");
-      } 
-      //If the player that executed the turn is not the player itself 
-      //and it is not the first turn,
-      //update the board.
+      }
+      // If the player that executed the turn is not the player itself 
+      // update the board.
       if (playerNumber != game.getPlayer().getPlayerNumber()) {
         game.opponentTurn(moves, game.getPlayerWithNumber(playerNumber));
         if (!(command.length == 3)) {

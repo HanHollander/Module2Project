@@ -203,9 +203,9 @@ public class Server extends Thread{
       try {
         tui.print("Clients connected: [" + (numberOfConnectingPlayer - 1) 
             + " of " + numberOfPlayers + "]");
-        ClientHandler ch = new ClientHandler(numberOfConnectingPlayer, 
+        ClientHandler ch = new ClientHandler(numberOfConnectingPlayer - 1, 
             this, serverSocket.accept(), listener);
-        addHandler(numberOfConnectingPlayer, ch);
+        addHandler(numberOfConnectingPlayer - 1, ch); // - 1 is added so the players are numbered 0, 1, 2, 3
         ch.start();
         numberOfConnectingPlayer++;
       } catch (IOException e) {

@@ -31,7 +31,7 @@ public class Timer extends Thread{
       try {
         timerMonitor.wait(time);
       } catch (InterruptedException e) {
-        System.out.println("Timer thread got interupted");
+        server.getObserver().print("Timer thread got interupted");
       }
       if (!stoppedFromTheOutside) {
         server.timerWakesServer();
