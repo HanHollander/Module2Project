@@ -1,0 +1,83 @@
+26/01/16_15:21:44: Welcome in Qwirkle
+26/01/16_15:21:44: (only characters a-z A-Z and 1 to 16 characters long)
+26/01/16_15:21:44: What is your name? 
+
+26/01/16_15:21:46: 
+Server IP-adress: 
+
+26/01/16_15:21:49: 
+Server port: 
+
+26/01/16_15:21:51: 
+Bot: 'b', Human: 'h'
+
+26/01/16_15:21:53: Creating client... 
+26/01/16_15:21:53: Client Han created
+26/01/16_15:21:53: Starting client... 
+26/01/16_15:21:53: Client started.
+26/01/16_15:21:53: Sending registration message... 
+26/01/16_15:21:53: OUT: HELLO Han
+26/01/16_15:21:53: Registration message send.
+26/01/16_15:21:53: Waiting for welcome message... 
+26/01/16_15:21:53: Welcome message received.
+26/01/16_15:21:53: Waiting for other players to connect...
+26/01/16_15:21:53: IN: WELCOME Han 1
+26/01/16_15:23:41: IN: NAMES Han 1 Joanne 2 999999
+26/01/16_15:23:41: Han's score is: 0
+26/01/16_15:23:41: Joanne's score is: 0
+26/01/16_15:23:41: Tiles in pool: 96
+
+26/01/16_15:23:41: IN: NEW Gs Yd Bc Ys Od Oo
+26/01/16_15:23:41: Han's score is: 0
+26/01/16_15:23:41: Joanne's score is: 0
+26/01/16_15:23:41: 
+Hint: [[33mA[0m, 91, 91]
+26/01/16_15:23:41: 
+It is your turn!
+26/01/16_15:23:41: 
+What is your action?
+26/01/16_15:23:41: Type of turn: ANY
+26/01/16_15:23:54: Han's score is: 0
+26/01/16_15:23:54: Joanne's score is: 0
+26/01/16_15:23:54: 
+What is your action?
+26/01/16_15:23:54: Type of turn: MOVE
+26/01/16_15:23:56: Han's score is: 0
+26/01/16_15:23:56: Joanne's score is: 0
+26/01/16_15:23:56: OUT: MOVE Gs 91 91 
+26/01/16_15:23:56: IN: NEXT 1
+26/01/16_15:23:56: Han's score is: 1
+26/01/16_15:23:56: Joanne's score is: 0
+26/01/16_15:23:56: Tiles in pool: 95
+
+26/01/16_15:23:56: IN: NEW Oc
+26/01/16_15:23:56: IN: TURN 1 Gs 91 91
+26/01/16_15:23:56: It is now Joanne's turn.
+
+26/01/16_15:23:56: IN: NEXT 2
+26/01/16_15:24:12: Tiles in pool: 101
+
+26/01/16_15:24:12: Joanne IS KICKED FOR THE FOLLOWING REASON: lost connection with player
+
+26/01/16_15:24:12: IN: KICK 2 6 lost connection with player
+26/01/16_15:24:12: Han's score is: 1
+26/01/16_15:24:12: Joanne's score is: 0
+26/01/16_15:24:12: You won.
+26/01/16_15:24:12: Would you like to play another game? Y/N
+26/01/16_15:25:11: Creating client... 
+26/01/16_15:25:11: Client Han created
+26/01/16_15:25:11: Starting client... 
+26/01/16_15:25:11: Client started.
+26/01/16_15:25:11: Sending registration message... 
+26/01/16_15:25:11: OUT: HELLO Han
+26/01/16_15:25:11: Registration message send.
+26/01/16_15:25:11: Waiting for welcome message... 
+26/01/16_15:25:11: Welcome message received.
+26/01/16_15:25:11: Closing socket connection from previous game...
+26/01/16_15:25:11: Waiting for other players to connect...
+26/01/16_15:25:11: IN: WELCOME Han 1
+26/01/16_15:25:11: Socket from previous game closed
+26/01/16_15:25:11: IN: WINNER 1
+26/01/16_15:25:11: Previous game will now stop.
+26/01/16_15:25:11: Closing socket connection from previous game...
+26/01/16_15:25:11: Socket from previous game closed

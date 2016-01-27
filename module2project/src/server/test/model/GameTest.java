@@ -33,40 +33,6 @@ public class GameTest {
     s.getGame().getPlayer(1).addToScore(3);
     assertEquals(1, s.getGame().getWinningPlayerNr());
   }
-
-  @Test
-  public void testGame() {
-    try {
-      s.getGame().getPlayer(1).addToHand(new Tile("P", "o"));
-      s.getGame().getPlayer(1).addToHand(new Tile("G", "o"));
-      s.getGame().getPlayer(1).addToHand(new Tile("Y", "x"));
-    } catch (HandIsFullException e) {
-      System.out.println(e);
-    }
-    try {
-      s.getGame().getPlayer(2).addToHand(new Tile("R", "o"));
-      s.getGame().getPlayer(2).addToHand(new Tile("G", "o"));
-      s.getGame().getPlayer(2).addToHand(new Tile("B", "x"));
-    } catch (HandIsFullException e) {
-      System.out.println(e);
-    }
-    assertEquals(s, s.getGame().getServer());
-    assertEquals(108, s.getGame().getPoolSize());
-    assertFalse(null == s.getGame().getBoard());
-    assertTrue(s.getGame().getBoard().getTile(91, 91).equals(new Tile()));
-    assertEquals(0, s.getGame().getCurrentPlayer());
-    s.getGame().setCurrentPlayer(1);
-    assertEquals(1, s.getGame().getCurrentPlayer());
-    assertEquals("Test1", s.getGame().getPlayer(1).getName());
-    assertEquals("Test2", s.getGame().getPlayer(2).getName());
-    Set<Integer> playerNrs = new HashSet<Integer>();
-    playerNrs.add(1);
-    playerNrs.add(2);
-    assertEquals(playerNrs, s.getGame().getPlayerNrs());
-    assertFalse(s.getGame().isGameOver());
-    s.getGame().removePlayer(1);
-    assertFalse(s.getGame().getPlayerNrs().contains(1));
-  }
   
   @Test
   public void testPool() {
