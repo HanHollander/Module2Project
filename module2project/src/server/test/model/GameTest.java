@@ -319,4 +319,43 @@ public class GameTest {
     assertFalse(s.getGame().movePossible(1));
     assertTrue(s.getGame().movePossible(2));
   }
+  
+  @Test
+  public void testCalculatePlayerNrWithBestHand() {
+    try {
+      s.getGame().getPlayer(1).addToHand(new Tile("P", "o"));
+      s.getGame().getPlayer(1).addToHand(new Tile("G", "o"));
+      s.getGame().getPlayer(1).addToHand(new Tile("Y", "x"));
+    } catch (HandIsFullException e) {
+      System.out.println(e);
+    }
+    try {
+      s.getGame().getPlayer(2).addToHand(new Tile("R", "o"));
+      s.getGame().getPlayer(2).addToHand(new Tile("G", "o"));
+      s.getGame().getPlayer(2).addToHand(new Tile("B", "x"));
+      s.getGame().getPlayer(2).addToHand(new Tile("B", "*"));
+    } catch (HandIsFullException e) {
+      System.out.println(e);
+    }
+    assertEquals(1, s.getGame().calculatePlayerNrWithBestHand());
+    try {
+      s.getGame().getPlayer(2).addToHand(new Tile("Y", "o"));
+    } catch (HandIsFullException e) {
+      System.out.println(e);
+    }
+    assertEquals(2, s.getGame().calculatePlayerNrWithBestHand());
+    try {
+      s.getGame().getPlayer(1).addToHand(new Tile("B", "o"));
+      s.getGame().getPlayer(1).addToHand(new Tile("R", "o"));
+      s.getGame().getPlayer(1).addToHand(new Tile("Y", "*"));
+    } catch (HandIsFullException e) {
+      System.out.println(e);
+    }
+    assertEquals(1, s.getGame().calculatePlayerNrWithBestHand());
+    try {
+      s.getGame().getPlayer(2).addToHand(new Tile("C", "o"));
+    } catch (HandIsFullException e) {
+      System.out.println(e);
+    }
+  }
 }

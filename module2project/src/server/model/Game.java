@@ -355,7 +355,7 @@ public class Game extends Observable{
   /*@ requires getPlayerNrs() != null;
       ensures (\forall int playerNr; getPlayerNrs().contains(playerNr); 
               getPlayer(playerNr).getHand().size() == 6);
-      ensures getPoolSize() < \old(getPoolSize()) - (getPlayerNrs().size() * 6);
+      ensures getPoolSize() == \old(getPoolSize()) - (getPlayerNrs().size() * 6);
    */
   /**
    * Gives every player 6 random tiles from the pool and sends those to the players personally.
@@ -376,8 +376,8 @@ public class Game extends Observable{
     for (int number : playerNumbers) {
       server.getThread(number).sendMessage("NEW" + getPlayer(number).handToString());
     }
-    //AUTO FIRST MOVE:
-    doBestMoveOutOfAllPlayers();
+    // The player with the best hand is here set as the starting player.
+    setCurrentPlayer(calculatePlayerNrWithBestHand());
   }
 
   /*@ requires !getPlayerNrs().contains(playerNr);
@@ -466,11 +466,13 @@ public class Game extends Observable{
     return pool.size();
   }
   
+  //@ requires getCurretPlayer() == 0;
+  //@ ensures getPlayerNrs().contains(\result);
   /**
    * Calculates which player has the best move in their hand
    * and applies that move to the board.
    */
-  public void doBestMoveOutOfAllPlayers() {
+  public int calculatePlayerNrWithBestHand() {
     Set<Integer> playerNrs = getPlayerNrs();
     int playerNrWithBestPossibleHandPointsYet = 0;
     List<Tile> overAllBestRow = new ArrayList<Tile>();
@@ -523,24 +525,7 @@ public class Game extends Observable{
         overAllBestRow.addAll(bestRow);
       }
     }
-    // The best row that is finally chosen is here converted into a (very simple turn) list of moves
-    // that starts at [row=91, col=91] and goes on to the right for as long as the row is.
-    List<Move> turn = new ArrayList<Move>();
-    int row = 91;
-    int column = 91;
-    for (Tile tile : overAllBestRow) {
-      turn.add(new Move(tile, row, column));
-      column++;
-    }
-    // Here the turn is applied and the variable currentPlayer is set to the player who had
-    // the best row in his/her hand.
-    // applyMoveTurn(getPlayer(playerNrWithBestPossibleHandPointsYet), turn, true);
-    // Set<Integer> playerNumbers = getPlayerNrs();
-    // for (int number : playerNumbers) {
-    //   server.getThread(number).sendMessage("NEW" + getPlayer(number).handToString());
-    // }
-    //server.sendTurn(getPlayer(playerNrWithBestPossibleHandPointsYet).getPlayerNumber(), turn);
-    setCurrentPlayer(playerNrWithBestPossibleHandPointsYet);
+    return playerNrWithBestPossibleHandPointsYet;
   }
   
   /*@ requires getPlayerNrs() != null;
