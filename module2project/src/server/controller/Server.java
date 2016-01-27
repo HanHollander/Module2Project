@@ -252,13 +252,9 @@ public class Server extends Thread{
       // for every player and places the best move on the board.
       // After that all the hands of the players will be send to them in the format of:
       // "NEW <tile> <tile> <tile> <tile> <tile> <tile>"
-      tui.print("Dealing tiles and making first move");
+      tui.print("Dealing tiles and calculating who may start");
       game.dealTiles();
-      tui.print("Tiles dealt and first move made");
-    
-      // Because the current player is now the player for whom the server just made
-      // the move, it is now time to pass the turn over to the next player.
-      // nextPlayerTurn();
+      tui.print("Tiles dealt and " + game.getCurrentPlayer() + " may start");
       broadcast("NEXT " + game.getCurrentPlayer());
     }
     

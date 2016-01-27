@@ -334,19 +334,20 @@ public class SuperSmartStrategy implements Strategy {
       }
     }
     if (result.size() == 0) {
-      result.put(turn, board.getScoreCurrentTurn());
+      int score = board.getScoreCurrentTurn();
+      // If this turn is not a smart turn, decrease its points so this turn
+      // has a lower priority.
+      if (isNotASmartTurn(turn, reserveBoard)) {
+        score = 3;
+      }
+      result.put(turn, score);
     } else {
       Set<List<Move>> resultKeySet = result.keySet();
       List<Move> bestTurn = new ArrayList<Move>();;
       int bestScore = -1;
       for (List<Move> selectedTurn : resultKeySet) {
         int turnScore = result.get(selectedTurn);
-        // If this turn is not a smart turn, decrease its points so this turn
-        // has a lower priority.
-        if (isNotASmartTurn(selectedTurn, reserveBoard)) {
-          turnScore = 0;
-        }
-        if ( turnScore > bestScore) {
+        if (turnScore > bestScore) {
           bestTurn = new ArrayList<Move>();
           bestTurn.addAll(selectedTurn);
           bestScore = turnScore;
@@ -365,6 +366,7 @@ public class SuperSmartStrategy implements Strategy {
     for (Move move : selectedTurn) {
       board.putTile(move);
     }
+    board.endTurn();
     for (Move move : selectedTurn) {
       // This whole part is to check if this move makes a row of 5
       int column = move.getColumn() + 1;
@@ -374,13 +376,13 @@ public class SuperSmartStrategy implements Strategy {
         horizontalRow.add(board.getTile(move.getRow(), column));
         column++;
       }
-      int maxColumnHorizontalRow = column - 1;
+      int maxColumnHorizontalRow = column;
       column = move.getColumn() - 1;
       while (!board.getTile(move.getRow(), column).equals(empty)) {
         horizontalRow.add(board.getTile(move.getRow(), column));
         column--;
       }
-      int minColumnHorizontalRow = column + 1;
+      int minColumnHorizontalRow = column;
       
       
       int row = move.getRow() + 1;
@@ -390,13 +392,13 @@ public class SuperSmartStrategy implements Strategy {
         verticalRow.add(board.getTile(row, move.getColumn()));
         row++;
       }
-      int maxRowVerticalRow = row - 1;
+      int maxRowVerticalRow = row;
       row = move.getRow() - 1;
       while (!board.getTile(row, move.getColumn()).equals(empty)) {
         verticalRow.add(board.getTile(row, move.getColumn()));
         row--;
       }
-      int minRowVerticalRow = row + 1;
+      int minRowVerticalRow = row;
       // If a row of 5 is actually made, here is checked if the missing
       // tile in that row is already three times on the board.
       // If so then there is nothing to worry about.
