@@ -1,0 +1,11 @@
+Player-1 gained 2 points!
+
+Current game situation
+XXX 90  91  92  93  
+90  .   .   .   .   
+91  .   Po  Go  .   
+92  .   .   .   .   
+
+Scores:
+Hands:
+Tiles in pool: 106
